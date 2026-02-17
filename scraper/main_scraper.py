@@ -33,17 +33,14 @@ CONSOLES_TO_TRACK = {
         {"name": "Xbox Series", "id": 1091},
     ],
     "PS4": [
-        {"name": "PS4",         "id": 1000},
-    ],
-    "PSP": [
-        {"name": "PSP",         "id": 613},
+	{"name": "PSP",         "id": 862},
+        {"name": "PS4",         "id": 1001},
     ],
     "Wii": [
-        {"name": "Wii",         "id": 641},
-        {"name": "Wii U",       "id": 945},
+        {"name": "Wii",         "id": 831},
     ],
     "Switch": [
-        {"name": "Switch",      "id": 1064},
+        {"name": "Switch",      "id": 1037},
     ],
 }
 
@@ -68,7 +65,7 @@ def import_scraper():
             "cex_selenium_scraper",
             Path(__file__).parent / "cex_selenium_scraper.py"
         )
-        mod = importlib.util.load_from_spec(spec)
+        mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         return mod
     except Exception as e:
