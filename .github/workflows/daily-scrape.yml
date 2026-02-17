@@ -1,0 +1,52 @@
+name: 🎮 Daily CEX Scraping
+
+on:
+  schedule:
+    # Ogni giorno alle 06:00 UTC (07:00 ora italiana)
+    - cron: '0 6 * * *'
+  
+  # Permette esecuzione manuale dalla tab Actions
+  workflow_dispatch:
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout repository
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Setup Python
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Installa Chrome
+      - name: 🌐 Install Chrome
+        uses: browser-actions/setup-chrome@latest
+
+      # 4. Installa dipendenze Python
+      - name: 📦 Install dependencies
+        run: pip install selenium webdriver-manager beautifulsoup4 lxml requests
+
+      # 5. Esegui scraper
+      - name: 🤖 Run CEX scraper
+        run: |
+          cd scraper
+          python main_scraper.py
+        env:
+          PYTHONUNBUFFERED: 1
+
+      # 6. Commit database e report
+      - name: 💾 Commit database & reports
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/current/games.db data/reports/ dashboard/data/
+          git diff --staged --quiet || git commit -m "🤖 Daily scrape: $(date +'%Y-%m-%d')"
+          git push

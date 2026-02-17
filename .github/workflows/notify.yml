@@ -1,0 +1,38 @@
+name: 🔔 Send Telegram Notifications
+
+on:
+  # Si attiva automaticamente dopo il completamento dello scraping
+  workflow_run:
+    workflows: ["🎮 Daily CEX Scraping"]
+    types:
+      - completed
+
+  # Permette esecuzione manuale per test
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    # Esegui solo se lo scraping è andato a buon fine
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: pip install requests
+
+      - name: 📤 Send Telegram notifications
+        run: |
+          cd notifications
+          python notification_manager.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PYTHONUNBUFFERED: 1
