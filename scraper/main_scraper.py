@@ -32,8 +32,8 @@ CONSOLES_TO_TRACK = {
         {"name": "Xbox CrossGen","id": 1088},
         {"name": "Xbox Series", "id": 1091},
     ],
-    "PS4": [
-	{"name": "PSP",         "id": 862},
+    "PS": [
+		{"name": "PSP",         "id": 862},
         {"name": "PS4",         "id": 1001},
     ],
     "Wii": [
