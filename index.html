@@ -22,10 +22,19 @@
   --text:     #e2e8f0;
   --muted:    #64748b;
   --dim:      #334155;
-  --xbox:     #107c10;
-  --ps4:      #003791;
-  --wii:      #c7c7c7;
-  --sw:       #e60012;
+  /* Xbox family */
+  --xbox:        #107c10;
+  --xbox360:     #52b043;
+  --xboxone:     #0e7a0d;
+  --xboxcross:   #4caf50;
+  --xboxseries:  #00d95f;
+  /* PlayStation family */
+  --psp:         #00439c;
+  --ps4:         #4a7fff;
+  /* Wii */
+  --wii:         #c7c7c7;
+  /* Switch */
+  --sw:          #e60012;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -153,11 +162,7 @@ main { position: relative; z-index: 1; padding: 20px 24px 40px; max-width: 1600p
 }
 .stat-accent { color: var(--amber); }
 
-/* Console color dots */
-.console-xbox { color: var(--xbox); }
-.console-ps4  { color: #4a7fff; }
-.console-wii  { color: var(--muted); }
-.console-sw   { color: var(--sw); }
+/* Console colors — gestiti via JS con CONSOLE_META */
 
 /* ── CHARTS ROW ── */
 .charts-row {
@@ -636,27 +641,9 @@ tbody td {
       <div class="stat-value" id="s-changes">–</div>
       <div class="stat-sub" id="s-changes-sub">–</div>
     </div>
-    <div class="stat-card">
-      <div class="stat-label">Xbox</div>
-      <div class="stat-value console-xbox" id="s-xbox">–</div>
-      <div class="stat-sub">titoli tracciati</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">PS4</div>
-      <div class="stat-value console-ps4" id="s-ps4">–</div>
-      <div class="stat-sub">titoli tracciati</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">Wii</div>
-      <div class="stat-value console-wii" id="s-wii">–</div>
-      <div class="stat-sub">titoli tracciati</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">Switch</div>
-      <div class="stat-value console-sw" id="s-sw">–</div>
-      <div class="stat-sub">titoli tracciati</div>
-    </div>
   </div>
+  <!-- CONSOLE BREAKDOWN dinamico -->
+  <div class="stats-grid" id="console-stats-grid" style="margin-bottom:20px;"></div>
 
   <!-- CHARTS -->
   <div class="charts-row">
@@ -699,10 +686,21 @@ tbody td {
     </div>
     <select id="filter-console" onchange="applyFilters()">
       <option value="">Tutte le console</option>
-      <option value="Xbox">Xbox</option>
-      <option value="PS4">PS4</option>
-      <option value="Wii">Wii</option>
-      <option value="Switch">Switch</option>
+      <optgroup label="Xbox">
+        <option value="Xbox">Xbox</option>
+        <option value="Xbox 360">Xbox 360</option>
+        <option value="Xbox One">Xbox One</option>
+        <option value="Xbox CrossGen">Xbox CrossGen</option>
+        <option value="Xbox Series">Xbox Series</option>
+      </optgroup>
+      <optgroup label="PlayStation">
+        <option value="PSP">PSP</option>
+        <option value="PS4">PS4</option>
+      </optgroup>
+      <optgroup label="Nintendo">
+        <option value="Wii">Wii</option>
+        <option value="Switch">Switch</option>
+      </optgroup>
     </select>
     <select id="filter-avail" onchange="applyFilters()">
       <option value="">Tutti</option>
@@ -743,9 +741,22 @@ tbody td {
 <script>
 // ─── CONFIG ────────────────────────────────────────────────────────────────
 const RAW = 'https://raw.githubusercontent.com/LukePalmDev/cex-price-tracker/main';
-const GAMES_URL   = `${RAW}/dashboard/data/games.json`;
+const GAMES_URL    = `${RAW}/dashboard/data/games.json`;
 const REPORTS_BASE = `${RAW}/data/reports`;
 const PAGE_SIZE = 50;
+
+// Mappa completa di tutte le sotto-console
+const CONSOLE_META = {
+  'Xbox':         { color: '#107c10', group: 'Xbox' },
+  'Xbox 360':     { color: '#52b043', group: 'Xbox' },
+  'Xbox One':     { color: '#0e7a0d', group: 'Xbox' },
+  'Xbox CrossGen':{ color: '#4caf50', group: 'Xbox' },
+  'Xbox Series':  { color: '#00d95f', group: 'Xbox' },
+  'PSP':          { color: '#00439c', group: 'PlayStation' },
+  'PS4':          { color: '#4a7fff', group: 'PlayStation' },
+  'Wii':          { color: '#c7c7c7', group: 'Nintendo' },
+  'Switch':       { color: '#e60012', group: 'Nintendo' },
+};
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
 let allGames = [], filtered = [], sortKey = 'title', sortDir = 1;
@@ -770,9 +781,9 @@ async function loadData(force = false) {
     document.getElementById('pill-update').textContent = '📅 ' + upd;
     document.getElementById('pill-total').textContent = allGames.length.toLocaleString() + ' titoli';
 
-    // Update stat cards
+    // Update stat cards principali
     document.getElementById('s-total').textContent  = allGames.length.toLocaleString();
-    document.getElementById('s-total-sub').textContent = 'tracciati da ' + (stats.last_update || '–');
+    document.getElementById('s-total-sub').textContent = 'tracciati al ' + (stats.last_update || '–');
     const avail = stats.available_games || 0;
     const pct = allGames.length ? Math.round(avail / allGames.length * 100) : 0;
     document.getElementById('s-avail').textContent     = avail.toLocaleString();
@@ -781,14 +792,35 @@ async function loadData(force = false) {
     const ds = stats.daily_summary || {};
     document.getElementById('s-changes').textContent    = (ds.price_changes || 0).toLocaleString();
     document.getElementById('s-changes-sub').textContent = (ds.availability_changes || 0) + ' cambi disponibilità';
-    const byConsole = stats.by_console || {};
-    document.getElementById('s-xbox').textContent = (byConsole['Xbox'] || 0).toLocaleString();
-    document.getElementById('s-ps4').textContent  = (byConsole['PS4']  || 0).toLocaleString();
-    document.getElementById('s-wii').textContent  = (byConsole['Wii']  || 0).toLocaleString();
-    document.getElementById('s-sw').textContent   = (byConsole['Switch'] || 0).toLocaleString();
+
+    // Conta per-console direttamente dai giochi (più affidabile)
+    const byConsole = {};
+    allGames.forEach(g => { byConsole[g.console] = (byConsole[g.console] || 0) + 1; });
+
+    // Costruisci console stat cards dinamicamente, nell'ordine di CONSOLE_META
+    const consoleGrid = document.getElementById('console-stats-grid');
+    const orderedConsoles = Object.keys(CONSOLE_META).filter(c => byConsole[c]);
+    consoleGrid.innerHTML = orderedConsoles.map(c => {
+      const meta = CONSOLE_META[c];
+      const count = byConsole[c] || 0;
+      const availCount = allGames.filter(g => g.console === c && g.is_available).length;
+      const availPct = count ? Math.round(availCount / count * 100) : 0;
+      return `<div class="stat-card" style="cursor:pointer" onclick="filterByConsole('${c}')">
+        <div class="stat-label">${c}</div>
+        <div class="stat-value" style="color:${meta.color}">${count.toLocaleString()}</div>
+        <div class="stat-sub">${availCount.toLocaleString()} disponibili (${availPct}%)</div>
+      </div>`;
+    }).join('');
+
+    // Aggiungi console presenti nei dati ma non in CONSOLE_META (future-proof)
+    allGames.forEach(g => {
+      if (!CONSOLE_META[g.console] && !orderedConsoles.includes(g.console)) {
+        orderedConsoles.push(g.console);
+      }
+    });
 
     // Charts
-    buildDonut(byConsole, allGames.length);
+    buildDonut(allGames);
     buildBar(allGames);
 
     // Load daily changes
@@ -805,23 +837,33 @@ async function loadData(force = false) {
   }
 }
 
+// ─── FILTER BY CONSOLE (click su stat card) ───────────────────────────────
+function filterByConsole(consoleName) {
+  document.getElementById('filter-console').value = consoleName;
+  applyFilters();
+  document.querySelector('.filters-bar').scrollIntoView({ behavior: 'smooth' });
+}
+
 // ─── CHARTS ────────────────────────────────────────────────────────────────
-function buildDonut(byConsole, total) {
+function buildDonut(games) {
   const ctx = document.getElementById('donut-chart').getContext('2d');
   if (donutChart) donutChart.destroy();
-  const labels = Object.keys(byConsole);
-  const vals   = Object.values(byConsole);
-  const colors = ['#107c10','#3b82f6','#94a3b8','#e60012'];
-  document.getElementById('donut-center-val').textContent = total.toLocaleString();
+
+  // Conta per-console dai giochi reali, nell'ordine di CONSOLE_META
+  const consoles = Object.keys(CONSOLE_META).filter(c => games.some(g => g.console === c));
+  const vals     = consoles.map(c => games.filter(g => g.console === c).length);
+  const colors   = consoles.map(c => CONSOLE_META[c].color);
+
+  document.getElementById('donut-center-val').textContent = games.length.toLocaleString();
   donutChart = new Chart(ctx, {
     type: 'doughnut',
-    data: { labels, datasets: [{ data: vals, backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }] },
+    data: { labels: consoles, datasets: [{ data: vals, backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }] },
     options: {
-      cutout: '70%', responsive: true, maintainAspectRatio: false,
+      cutout: '65%', responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: {
           position: 'right',
-          labels: { color: '#94a3b8', font: { family: 'JetBrains Mono', size: 10 }, boxWidth: 10, padding: 8 }
+          labels: { color: '#94a3b8', font: { family: 'JetBrains Mono', size: 9 }, boxWidth: 10, padding: 6 }
         },
         tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw.toLocaleString()}` } }
       }
@@ -832,23 +874,18 @@ function buildDonut(byConsole, total) {
 function buildBar(games) {
   const ctx = document.getElementById('bar-chart').getContext('2d');
   if (barChart) barChart.destroy();
-  const consoles = ['Xbox','PS4','Wii','Switch'];
-  const consoleColors = ['#107c10','#3b82f6','#94a3b8','#e60012'];
-  const avail = {}, unavail = {};
-  consoles.forEach(c => { avail[c] = 0; unavail[c] = 0; });
-  games.forEach(g => {
-    if (consoles.includes(g.console)) {
-      if (g.is_available) avail[g.console]++;
-      else unavail[g.console]++;
-    }
-  });
+
+  const consoles = Object.keys(CONSOLE_META).filter(c => games.some(g => g.console === c));
+  const availData   = consoles.map(c => games.filter(g => g.console === c && g.is_available).length);
+  const unavailData = consoles.map(c => games.filter(g => g.console === c && !g.is_available).length);
+
   barChart = new Chart(ctx, {
     type: 'bar',
     data: {
       labels: consoles,
       datasets: [
-        { label: 'Disponibili',    data: consoles.map(c => avail[c]),   backgroundColor: 'rgba(34,197,94,.7)', borderRadius: 3 },
-        { label: 'Non disponibili',data: consoles.map(c => unavail[c]), backgroundColor: 'rgba(100,116,139,.3)', borderRadius: 3 }
+        { label: 'Disponibili',     data: availData,   backgroundColor: 'rgba(34,197,94,.7)',    borderRadius: 3 },
+        { label: 'Non disponibili', data: unavailData, backgroundColor: 'rgba(100,116,139,.3)',  borderRadius: 3 }
       ]
     },
     options: {
@@ -858,8 +895,8 @@ function buildBar(games) {
         tooltip: { mode: 'index', intersect: false }
       },
       scales: {
-        x: { stacked: true, ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 10 } }, grid: { color: '#1e1e30' } },
-        y: { stacked: true, ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 10 } }, grid: { color: '#1e1e30' } }
+        x: { stacked: true, ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 9 }, maxRotation: 35 }, grid: { color: '#1e1e30' } },
+        y: { stacked: true, ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: '#1e1e30' } }
       }
     }
   });
@@ -954,7 +991,6 @@ function renderTable() {
   const tbody = document.getElementById('game-tbody');
   const start = (currentPage - 1) * PAGE_SIZE;
   const page  = filtered.slice(start, start + PAGE_SIZE);
-  const consoleColor = { Xbox:'var(--xbox)', PS4:'#4a7fff', Wii:'var(--muted)', Switch:'var(--sw)' };
 
   tbody.innerHTML = page.map(g => {
     const inWL = wishlist.includes(g.id);
@@ -962,11 +998,12 @@ function renderTable() {
     const trendStr = trend != null ? (trend > 0 ? `↑${trend.toFixed(1)}%` : `↓${Math.abs(trend).toFixed(1)}%`) : '–';
     const trendCls = trend == null ? '' : trend > 0 ? 'up' : 'down';
     const hasHistory = g.price_history_30d && g.price_history_30d.length > 0;
+    const consoleColor = (CONSOLE_META[g.console] || {}).color || 'var(--muted)';
     return `<tr onclick="openModal(${g.id})">
       <td class="td-title">
         <a href="${g.url}" target="_blank" onclick="event.stopPropagation()">${g.title}</a>
       </td>
-      <td class="td-console" style="color:${consoleColor[g.console]||'var(--muted)'}">${g.console}</td>
+      <td class="td-console" style="color:${consoleColor}">${g.console}</td>
       <td class="td-price">€${(g.current_price||0).toFixed(2)}</td>
       <td class="td-trend ${trendCls}">${trendStr}</td>
       <td><span class="badge-avail ${g.is_available?'yes':'no'}">${g.is_available?'DISPO':'ESAURITO'}</span></td>
