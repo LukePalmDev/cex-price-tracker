@@ -724,7 +724,8 @@ tbody td {
       <thead>
         <tr>
           <th onclick="sortBy('title')">Titolo <span class="sort-arrow" id="sort-title">↕</span></th>
-          <th onclick="sortBy('console')">Console <span class="sort-arrow" id="sort-console">↕</span></th>
+          <th onclick="sortBy('console')">Gruppo <span class="sort-arrow" id="sort-console">↕</span></th>
+          <th onclick="sortBy('category')">Categoria <span class="sort-arrow" id="sort-category">↕</span></th>
           <th onclick="sortBy('current_price')">Prezzo <span class="sort-arrow" id="sort-price">↕</span></th>
           <th onclick="sortBy('price_trend_pct')">Trend <span class="sort-arrow" id="sort-trend">↕</span></th>
           <th onclick="sortBy('is_available')">Stato <span class="sort-arrow" id="sort-avail">↕</span></th>
@@ -745,17 +746,26 @@ const GAMES_URL    = `${RAW}/dashboard/data/games.json`;
 const REPORTS_BASE = `${RAW}/data/reports`;
 const PAGE_SIZE = 50;
 
-// Mappa completa di tutte le sotto-console
+// CONSOLE_META — chiave = campo "category" nel DB (sotto-console specifica)
+// group = chiave gruppo in CONSOLES_TO_TRACK, usata per il badge nella tabella
 const CONSOLE_META = {
-  'Xbox':         { color: '#107c10', group: 'Xbox' },
-  'Xbox 360':     { color: '#52b043', group: 'Xbox' },
-  'Xbox One':     { color: '#0e7a0d', group: 'Xbox' },
-  'Xbox CrossGen':{ color: '#4caf50', group: 'Xbox' },
-  'Xbox Series':  { color: '#00d95f', group: 'Xbox' },
-  'PSP':          { color: '#00439c', group: 'PlayStation' },
-  'PS4':          { color: '#4a7fff', group: 'PlayStation' },
-  'Wii':          { color: '#c7c7c7', group: 'Nintendo' },
-  'Switch':       { color: '#e60012', group: 'Nintendo' },
+  'Xbox':          { color: '#107c10', group: 'Xbox' },
+  'Xbox 360':      { color: '#52b043', group: 'Xbox' },
+  'Xbox One':      { color: '#0e7a0d', group: 'Xbox' },
+  'Xbox CrossGen': { color: '#4caf50', group: 'Xbox' },
+  'Xbox Series':   { color: '#00d95f', group: 'Xbox' },
+  'PSP':           { color: '#00439c', group: 'PS' },
+  'PS4':           { color: '#4a7fff', group: 'PS' },
+  'Wii':           { color: '#c7c7c7', group: 'Wii' },
+  'Switch':        { color: '#e60012', group: 'Switch' },
+};
+
+// Mappa campo "console" (gruppo DB) → etichetta display + colore badge
+const GROUP_META = {
+  'Xbox':   { label: 'Xbox',   color: '#107c10' },
+  'PS4':    { label: 'PS',     color: '#4a7fff' },  // DB salva "PS4" come gruppo
+  'Wii':    { label: 'Wii',    color: '#c7c7c7' },
+  'Switch': { label: 'Switch', color: '#e60012' },
 };
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
@@ -793,31 +803,32 @@ async function loadData(force = false) {
     document.getElementById('s-changes').textContent    = (ds.price_changes || 0).toLocaleString();
     document.getElementById('s-changes-sub').textContent = (ds.availability_changes || 0) + ' cambi disponibilità';
 
-    // Conta per-console direttamente dai giochi (più affidabile)
-    const byConsole = {};
-    allGames.forEach(g => { byConsole[g.console] = (byConsole[g.console] || 0) + 1; });
+    // Conta per-CATEGORY (sotto-console) dai giochi reali
+    const byCategory = {};
+    allGames.forEach(g => {
+      const cat = g.category || g.console;
+      byCategory[cat] = (byCategory[cat] || 0) + 1;
+    });
 
-    // Costruisci console stat cards dinamicamente, nell'ordine di CONSOLE_META
+    // Costruisci console stat cards per ogni sotto-categoria, nell'ordine di CONSOLE_META
     const consoleGrid = document.getElementById('console-stats-grid');
-    const orderedConsoles = Object.keys(CONSOLE_META).filter(c => byConsole[c]);
-    consoleGrid.innerHTML = orderedConsoles.map(c => {
-      const meta = CONSOLE_META[c];
-      const count = byConsole[c] || 0;
-      const availCount = allGames.filter(g => g.console === c && g.is_available).length;
+    const orderedCats = Object.keys(CONSOLE_META).filter(c => byCategory[c]);
+    consoleGrid.innerHTML = orderedCats.map(cat => {
+      const meta = CONSOLE_META[cat];
+      const count = byCategory[cat] || 0;
+      const availCount = allGames.filter(g => (g.category || g.console) === cat && g.is_available).length;
       const availPct = count ? Math.round(availCount / count * 100) : 0;
-      return `<div class="stat-card" style="cursor:pointer" onclick="filterByConsole('${c}')">
-        <div class="stat-label">${c}</div>
+      const groupLabel = meta.group;
+      return `<div class="stat-card" style="cursor:pointer" onclick="filterByConsole('${cat}')">
+        <div class="stat-label">
+          <span style="color:${meta.color};font-size:8px;margin-right:4px;">●</span>
+          ${cat}
+          <span style="color:var(--muted);font-weight:400;margin-left:4px;">${groupLabel}</span>
+        </div>
         <div class="stat-value" style="color:${meta.color}">${count.toLocaleString()}</div>
         <div class="stat-sub">${availCount.toLocaleString()} disponibili (${availPct}%)</div>
       </div>`;
     }).join('');
-
-    // Aggiungi console presenti nei dati ma non in CONSOLE_META (future-proof)
-    allGames.forEach(g => {
-      if (!CONSOLE_META[g.console] && !orderedConsoles.includes(g.console)) {
-        orderedConsoles.push(g.console);
-      }
-    });
 
     // Charts
     buildDonut(allGames);
@@ -849,15 +860,15 @@ function buildDonut(games) {
   const ctx = document.getElementById('donut-chart').getContext('2d');
   if (donutChart) donutChart.destroy();
 
-  // Conta per-console dai giochi reali, nell'ordine di CONSOLE_META
-  const consoles = Object.keys(CONSOLE_META).filter(c => games.some(g => g.console === c));
-  const vals     = consoles.map(c => games.filter(g => g.console === c).length);
-  const colors   = consoles.map(c => CONSOLE_META[c].color);
+  // Usa category (sotto-console), nell'ordine di CONSOLE_META
+  const cats   = Object.keys(CONSOLE_META).filter(c => games.some(g => (g.category||g.console) === c));
+  const vals   = cats.map(c => games.filter(g => (g.category||g.console) === c).length);
+  const colors = cats.map(c => CONSOLE_META[c].color);
 
   document.getElementById('donut-center-val').textContent = games.length.toLocaleString();
   donutChart = new Chart(ctx, {
     type: 'doughnut',
-    data: { labels: consoles, datasets: [{ data: vals, backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }] },
+    data: { labels: cats, datasets: [{ data: vals, backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }] },
     options: {
       cutout: '65%', responsive: true, maintainAspectRatio: false,
       plugins: {
@@ -875,17 +886,18 @@ function buildBar(games) {
   const ctx = document.getElementById('bar-chart').getContext('2d');
   if (barChart) barChart.destroy();
 
-  const consoles = Object.keys(CONSOLE_META).filter(c => games.some(g => g.console === c));
-  const availData   = consoles.map(c => games.filter(g => g.console === c && g.is_available).length);
-  const unavailData = consoles.map(c => games.filter(g => g.console === c && !g.is_available).length);
+  // Usa category per il breakdown granulare
+  const cats        = Object.keys(CONSOLE_META).filter(c => games.some(g => (g.category||g.console) === c));
+  const availData   = cats.map(c => games.filter(g => (g.category||g.console) === c && g.is_available).length);
+  const unavailData = cats.map(c => games.filter(g => (g.category||g.console) === c && !g.is_available).length);
 
   barChart = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: consoles,
+      labels: cats,
       datasets: [
-        { label: 'Disponibili',     data: availData,   backgroundColor: 'rgba(34,197,94,.7)',    borderRadius: 3 },
-        { label: 'Non disponibili', data: unavailData, backgroundColor: 'rgba(100,116,139,.3)',  borderRadius: 3 }
+        { label: 'Disponibili',     data: availData,   backgroundColor: 'rgba(34,197,94,.7)',   borderRadius: 3 },
+        { label: 'Non disponibili', data: unavailData, backgroundColor: 'rgba(100,116,139,.3)', borderRadius: 3 }
       ]
     },
     options: {
@@ -941,7 +953,7 @@ function applyFilters() {
   const tr  = document.getElementById('filter-trend').value;
   filtered = allGames.filter(g => {
     if (q && !g.title.toLowerCase().includes(q)) return false;
-    if (con && g.console !== con) return false;
+    if (con && (g.category || g.console) !== con) return false;
     if (av !== '' && String(g.is_available) !== av) return false;
     if (tr === 'down' && !(g.price_trend_pct < 0)) return false;
     if (tr === 'up'   && !(g.price_trend_pct > 0)) return false;
@@ -960,11 +972,11 @@ function applyFilters() {
 
 function sortBy(key) {
   if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
-  ['title','console','price','trend','avail'].forEach(k => {
+  ['title','console','category','price','trend','avail'].forEach(k => {
     const el = document.getElementById('sort-' + k);
     if (el) el.textContent = '↕';
   });
-  const map = { title:'title', console:'console', current_price:'price', price_trend_pct:'trend', is_available:'avail' };
+  const map = { title:'title', console:'console', category:'category', current_price:'price', price_trend_pct:'trend', is_available:'avail' };
   const el = document.getElementById('sort-' + map[key]);
   if (el) { el.textContent = sortDir === 1 ? '↓' : '↑'; el.classList.add('active'); }
   applyFilters();
@@ -998,12 +1010,15 @@ function renderTable() {
     const trendStr = trend != null ? (trend > 0 ? `↑${trend.toFixed(1)}%` : `↓${Math.abs(trend).toFixed(1)}%`) : '–';
     const trendCls = trend == null ? '' : trend > 0 ? 'up' : 'down';
     const hasHistory = g.price_history_30d && g.price_history_30d.length > 0;
-    const consoleColor = (CONSOLE_META[g.console] || {}).color || 'var(--muted)';
+    const cat = g.category || g.console;
+    const catMeta = CONSOLE_META[cat] || { color: 'var(--muted)' };
+    const grp = GROUP_META[g.console] || { label: g.console, color: 'var(--muted)' };
     return `<tr onclick="openModal(${g.id})">
       <td class="td-title">
         <a href="${g.url}" target="_blank" onclick="event.stopPropagation()">${g.title}</a>
       </td>
-      <td class="td-console" style="color:${consoleColor}">${g.console}</td>
+      <td class="td-console" style="color:${grp.color}">${grp.label}</td>
+      <td class="td-console" style="color:${catMeta.color}">${cat}</td>
       <td class="td-price">€${(g.current_price||0).toFixed(2)}</td>
       <td class="td-trend ${trendCls}">${trendStr}</td>
       <td><span class="badge-avail ${g.is_available?'yes':'no'}">${g.is_available?'DISPO':'ESAURITO'}</span></td>
