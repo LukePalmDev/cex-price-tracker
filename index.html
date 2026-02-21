@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CEX Price Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg:       #0a0a0f;
+  --surface:  #0f0f1a;
+  --card:     #13131f;
+  --border:   #1e1e30;
+  --amber:    #f5a623;
+  --amber-dim:#7a5112;
+  --green:    #22c55e;
+  --red:      #ef4444;
+  --blue:     #3b82f6;
+  --purple:   #a855f7;
+  --text:     #e2e8f0;
+  --muted:    #64748b;
+  --dim:      #334155;
+  --xbox:     #107c10;
+  --ps4:      #003791;
+  --wii:      #c7c7c7;
+  --sw:       #e60012;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Syne', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(245,166,35,0.06) 0%, transparent 60%);
+  pointer-events: none; z-index: 0;
+}
+
+/* ── HEADER ── */
+header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(10,10,15,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  display: flex; align-items: center; gap: 20px;
+  height: 56px;
+}
+.logo {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700; font-size: 15px;
+  color: var(--amber);
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+}
+.logo span { color: var(--muted); font-weight: 300; }
+.header-pills { display: flex; gap: 8px; flex: 1; overflow: hidden; }
+.pill {
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  white-space: nowrap;
+  background: var(--surface);
+}
+.pill.live { border-color: var(--green); color: var(--green); }
+.pill.live::before { content:'● '; }
+.header-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.btn-refresh {
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid var(--amber-dim);
+  border-radius: 4px;
+  color: var(--amber);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all .2s;
+  white-space: nowrap;
+}
+.btn-refresh:hover { background: var(--amber); color: var(--bg); }
+
+/* ── LAYOUT ── */
+main { position: relative; z-index: 1; padding: 20px 24px 40px; max-width: 1600px; margin: 0 auto; }
+
+/* ── LOADING ── */
+#loading {
+  position: fixed; inset: 0; z-index: 999;
+  background: var(--bg);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 16px;
+}
+.loader-ring {
+  width: 48px; height: 48px;
+  border: 2px solid var(--border);
+  border-top-color: var(--amber);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loader-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px; color: var(--muted);
+}
+
+/* ── STAT CARDS ── */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px; margin-bottom: 20px;
+}
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 18px;
+  position: relative; overflow: hidden;
+  transition: border-color .2s;
+}
+.stat-card:hover { border-color: var(--amber-dim); }
+.stat-card::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(245,166,35,.03) 0%, transparent 60%);
+  pointer-events: none;
+}
+.stat-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; font-weight: 500;
+  color: var(--muted);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.stat-value {
+  font-size: 28px; font-weight: 800;
+  color: var(--text);
+  line-height: 1;
+}
+.stat-sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; color: var(--muted);
+  margin-top: 6px;
+}
+.stat-accent { color: var(--amber); }
+
+/* Console color dots */
+.console-xbox { color: var(--xbox); }
+.console-ps4  { color: #4a7fff; }
+.console-wii  { color: var(--muted); }
+.console-sw   { color: var(--sw); }
+
+/* ── CHARTS ROW ── */
+.charts-row {
+  display: grid;
+  grid-template-columns: 300px 1fr 280px;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.chart-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.chart-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  color: var(--muted);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.chart-wrap { position: relative; height: 180px; display: flex; align-items: center; justify-content: center; }
+.donut-center {
+  position: absolute;
+  text-align: center; pointer-events: none;
+}
+.donut-center .big { font-size: 22px; font-weight: 800; }
+.donut-center .small { font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--muted); }
+
+/* Changes ticker */
+.changes-list { display: flex; flex-direction: column; gap: 4px; max-height: 200px; overflow-y: auto; }
+.change-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  background: var(--surface);
+  border-left: 2px solid transparent;
+  font-size: 11px;
+}
+.change-item.up   { border-left-color: var(--red); }
+.change-item.down { border-left-color: var(--green); }
+.change-price {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; font-weight: 700;
+  margin-left: auto; white-space: nowrap;
+}
+.change-item.up   .change-price { color: var(--red); }
+.change-item.down .change-price { color: var(--green); }
+.change-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
+.badge-console {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8px; padding: 1px 5px;
+  border-radius: 3px; white-space: nowrap;
+  background: var(--border); color: var(--muted);
+}
+
+/* ── FILTERS ── */
+.filters-bar {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  display: flex; align-items: center;
+  gap: 10px; flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.search-wrap {
+  position: relative; flex: 1; min-width: 200px;
+}
+.search-wrap input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 7px 10px 7px 32px;
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  outline: none;
+  transition: border-color .2s;
+}
+.search-wrap input:focus { border-color: var(--amber); }
+.search-icon {
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  color: var(--muted); font-size: 12px; pointer-events: none;
+}
+select, .filter-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 7px 10px;
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color .2s;
+}
+select:focus { border-color: var(--amber); }
+.filter-btn {
+  display: flex; align-items: center; gap: 5px;
+  white-space: nowrap;
+  transition: all .2s;
+}
+.filter-btn:hover { border-color: var(--amber); color: var(--amber); }
+.filter-btn.active { background: var(--amber); color: var(--bg); border-color: var(--amber); }
+.filter-sep { width: 1px; height: 24px; background: var(--border); }
+.results-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; color: var(--muted);
+  white-space: nowrap; margin-left: auto;
+}
+
+/* ── TABLE ── */
+.table-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+table { width: 100%; border-collapse: collapse; }
+thead th {
+  background: var(--surface);
+  padding: 10px 14px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--border);
+  user-select: none;
+  transition: color .2s;
+}
+thead th:hover { color: var(--amber); }
+thead th.sorted { color: var(--amber); }
+.sort-arrow { margin-left: 4px; opacity: .5; }
+.sort-arrow.active { opacity: 1; }
+tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background .15s;
+  cursor: pointer;
+}
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: rgba(245,166,35,.04); }
+tbody td {
+  padding: 9px 14px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.td-title { max-width: 280px; }
+.td-title a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  transition: color .15s;
+}
+.td-title a:hover { color: var(--amber); }
+.td-console {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; font-weight: 500;
+}
+.td-price {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px; font-weight: 700;
+  color: var(--amber);
+  white-space: nowrap;
+}
+.td-trend {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+}
+.td-trend.up   { color: var(--red); }
+.td-trend.down { color: var(--green); }
+.badge-avail {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; font-weight: 600;
+  letter-spacing: .05em;
+}
+.badge-avail.yes { background: rgba(34,197,94,.12); color: var(--green); border: 1px solid rgba(34,197,94,.3); }
+.badge-avail.no  { background: rgba(100,116,139,.1); color: var(--muted); border: 1px solid var(--border); }
+.btn-star {
+  background: none; border: none; cursor: pointer;
+  font-size: 14px; padding: 2px 6px;
+  transition: transform .15s;
+  line-height: 1;
+}
+.btn-star:hover { transform: scale(1.3); }
+.btn-history {
+  padding: 3px 8px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+}
+.btn-history:hover { border-color: var(--blue); color: var(--blue); }
+
+/* ── PAGINATION ── */
+.pagination {
+  display: flex; align-items: center;
+  justify-content: center; gap: 6px;
+  padding: 14px;
+  border-top: 1px solid var(--border);
+}
+.page-btn {
+  width: 30px; height: 30px;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all .15s;
+}
+.page-btn:hover { border-color: var(--amber); color: var(--amber); }
+.page-btn.active { background: var(--amber); color: var(--bg); border-color: var(--amber); font-weight: 700; }
+.page-btn:disabled { opacity: .3; pointer-events: none; }
+.page-info {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; color: var(--muted); padding: 0 8px;
+}
+
+/* ── WISHLIST PANEL ── */
+#wishlist-panel {
+  position: fixed; right: 0; top: 56px; bottom: 0;
+  width: 320px;
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+  z-index: 90;
+  transform: translateX(100%);
+  transition: transform .3s cubic-bezier(.4,0,.2,1);
+  display: flex; flex-direction: column;
+}
+#wishlist-panel.open { transform: translateX(0); }
+.wl-header {
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.wl-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--amber);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.wl-close {
+  background: none; border: none; color: var(--muted);
+  cursor: pointer; font-size: 16px; line-height: 1;
+}
+.wl-close:hover { color: var(--text); }
+.wl-body { flex: 1; overflow-y: auto; padding: 12px; }
+.wl-item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.wl-item-title { font-size: 12px; font-weight: 600; margin-bottom: 4px; }
+.wl-item-meta {
+  display: flex; align-items: center; gap: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px; color: var(--muted);
+}
+.wl-item-price { color: var(--amber); font-weight: 700; }
+.wl-remove {
+  position: absolute; top: 8px; right: 8px;
+  background: none; border: none;
+  color: var(--muted); cursor: pointer; font-size: 12px;
+}
+.wl-remove:hover { color: var(--red); }
+.wl-empty {
+  text-align: center; padding: 40px 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; color: var(--muted);
+}
+
+/* ── MODAL ── */
+.modal-backdrop {
+  position: fixed; inset: 0; z-index: 200;
+  background: rgba(0,0,0,.8);
+  display: none; align-items: center; justify-content: center;
+}
+.modal-backdrop.open { display: flex; }
+.modal {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  width: 560px; max-width: 95vw;
+  max-height: 85vh;
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  box-shadow: 0 20px 60px rgba(0,0,0,.6);
+}
+.modal-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 12px;
+}
+.modal-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+.modal-sub { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted); }
+.modal-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 20px; line-height: 1; }
+.modal-body { padding: 20px; overflow-y: auto; }
+.modal-chart-wrap { height: 200px; position: relative; margin-bottom: 16px; }
+.modal-stats-row {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+  margin-bottom: 16px;
+}
+.mini-stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+}
+.mini-stat-label { font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--muted); margin-bottom: 4px; }
+.mini-stat-val { font-size: 16px; font-weight: 800; }
+.history-table { width: 100%; border-collapse: collapse; }
+.history-table th {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; color: var(--muted);
+  padding: 6px 10px; text-align: left;
+  border-bottom: 1px solid var(--border);
+  text-transform: uppercase; letter-spacing: .08em;
+}
+.history-table td {
+  padding: 7px 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── EXPORT BAR ── */
+.export-bar {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 12px;
+}
+.btn-export {
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  cursor: pointer;
+  transition: all .2s;
+  display: flex; align-items: center; gap: 5px;
+}
+.btn-export:hover { border-color: var(--green); color: var(--green); }
+.btn-wl-toggle {
+  padding: 6px 14px;
+  background: transparent;
+  border: 1px solid var(--amber-dim);
+  border-radius: 4px;
+  color: var(--amber);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  cursor: pointer;
+  transition: all .2s;
+  margin-left: auto;
+}
+.btn-wl-toggle:hover { background: var(--amber); color: var(--bg); }
+
+/* scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--dim); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+/* responsive */
+@media (max-width: 900px) {
+  .charts-row { grid-template-columns: 1fr; }
+  #wishlist-panel { width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<!-- LOADING -->
+<div id="loading">
+  <div class="loader-ring"></div>
+  <div class="loader-text" id="loading-msg">Caricamento dati da GitHub...</div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">CEX<span>/</span>TRACKER</div>
+  <div class="header-pills">
+    <span class="pill live" id="pill-status">Online</span>
+    <span class="pill" id="pill-update">–</span>
+    <span class="pill" id="pill-total">–</span>
+  </div>
+  <div class="header-right">
+    <button class="btn-refresh" onclick="loadData(true)">↻ Aggiorna</button>
+  </div>
+</header>
+
+<!-- WISHLIST PANEL -->
+<div id="wishlist-panel">
+  <div class="wl-header">
+    <span class="wl-title">★ Wishlist</span>
+    <button class="wl-close" onclick="toggleWishlist()">✕</button>
+  </div>
+  <div class="wl-body" id="wl-body">
+    <div class="wl-empty">Nessun gioco in wishlist.<br>Clicca ★ nella tabella per aggiungere.</div>
+  </div>
+</div>
+
+<!-- PRICE HISTORY MODAL -->
+<div class="modal-backdrop" id="modal-backdrop" onclick="closeModal(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title" id="modal-title">–</div>
+        <div class="modal-sub" id="modal-sub">–</div>
+      </div>
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-stats-row" id="modal-stats"></div>
+      <div class="modal-chart-wrap">
+        <canvas id="modal-chart"></canvas>
+      </div>
+      <table class="history-table" id="modal-table">
+        <thead><tr>
+          <th>Data</th><th>Vecchio Prezzo</th><th>Nuovo Prezzo</th><th>Variazione</th>
+        </tr></thead>
+        <tbody id="modal-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main>
+
+  <!-- STATS -->
+  <div class="stats-grid" id="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">Giochi Totali</div>
+      <div class="stat-value" id="s-total">–</div>
+      <div class="stat-sub" id="s-total-sub">–</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Disponibili</div>
+      <div class="stat-value stat-accent" id="s-avail">–</div>
+      <div class="stat-sub" id="s-avail-sub">–</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Prezzo Medio</div>
+      <div class="stat-value" id="s-price">–</div>
+      <div class="stat-sub">su tutti i titoli</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Cambi Prezzo Oggi</div>
+      <div class="stat-value" id="s-changes">–</div>
+      <div class="stat-sub" id="s-changes-sub">–</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Xbox</div>
+      <div class="stat-value console-xbox" id="s-xbox">–</div>
+      <div class="stat-sub">titoli tracciati</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">PS4</div>
+      <div class="stat-value console-ps4" id="s-ps4">–</div>
+      <div class="stat-sub">titoli tracciati</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Wii</div>
+      <div class="stat-value console-wii" id="s-wii">–</div>
+      <div class="stat-sub">titoli tracciati</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Switch</div>
+      <div class="stat-value console-sw" id="s-sw">–</div>
+      <div class="stat-sub">titoli tracciati</div>
+    </div>
+  </div>
+
+  <!-- CHARTS -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <div class="chart-title">Distribuzione Console</div>
+      <div class="chart-wrap">
+        <canvas id="donut-chart"></canvas>
+        <div class="donut-center">
+          <div class="big" id="donut-center-val">–</div>
+          <div class="small">giochi</div>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">Disponibilità per Console</div>
+      <div class="chart-wrap"><canvas id="bar-chart"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">Cambi Prezzo Oggi ↕</div>
+      <div class="changes-list" id="changes-list">
+        <div style="font-family:monospace;font-size:11px;color:var(--muted);text-align:center;padding:20px;">
+          Caricamento...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPORT + WISHLIST TOGGLE -->
+  <div class="export-bar">
+    <button class="btn-export" onclick="exportCSV()">⬇ CSV</button>
+    <button class="btn-export" onclick="exportJSON()">⬇ JSON</button>
+    <button class="btn-wl-toggle" onclick="toggleWishlist()">★ Wishlist (<span id="wl-count">0</span>)</button>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filters-bar">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="search-input" placeholder="Cerca titolo..." oninput="applyFilters()">
+    </div>
+    <select id="filter-console" onchange="applyFilters()">
+      <option value="">Tutte le console</option>
+      <option value="Xbox">Xbox</option>
+      <option value="PS4">PS4</option>
+      <option value="Wii">Wii</option>
+      <option value="Switch">Switch</option>
+    </select>
+    <select id="filter-avail" onchange="applyFilters()">
+      <option value="">Tutti</option>
+      <option value="1">Solo disponibili</option>
+      <option value="0">Non disponibili</option>
+    </select>
+    <select id="filter-trend" onchange="applyFilters()">
+      <option value="">Qualsiasi trend</option>
+      <option value="down">↓ Prezzo sceso</option>
+      <option value="up">↑ Prezzo salito</option>
+    </select>
+    <div class="filter-sep"></div>
+    <button class="filter-btn" id="btn-wishlist-only" onclick="toggleWishlistFilter()">★ Solo wishlist</button>
+    <button class="filter-btn" onclick="resetFilters()">✕ Reset</button>
+    <span class="results-count" id="results-count">– risultati</span>
+  </div>
+
+  <!-- TABLE -->
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th onclick="sortBy('title')">Titolo <span class="sort-arrow" id="sort-title">↕</span></th>
+          <th onclick="sortBy('console')">Console <span class="sort-arrow" id="sort-console">↕</span></th>
+          <th onclick="sortBy('current_price')">Prezzo <span class="sort-arrow" id="sort-price">↕</span></th>
+          <th onclick="sortBy('price_trend_pct')">Trend <span class="sort-arrow" id="sort-trend">↕</span></th>
+          <th onclick="sortBy('is_available')">Stato <span class="sort-arrow" id="sort-avail">↕</span></th>
+          <th>Azioni</th>
+        </tr>
+      </thead>
+      <tbody id="game-tbody"></tbody>
+    </table>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+</main>
+
+<script>
+// ─── CONFIG ────────────────────────────────────────────────────────────────
+const RAW = 'https://raw.githubusercontent.com/LukePalmDev/cex-price-tracker/main';
+const GAMES_URL   = `${RAW}/dashboard/data/games.json`;
+const REPORTS_BASE = `${RAW}/data/reports`;
+const PAGE_SIZE = 50;
+
+// ─── STATE ─────────────────────────────────────────────────────────────────
+let allGames = [], filtered = [], sortKey = 'title', sortDir = 1;
+let currentPage = 1;
+let wishlist = JSON.parse(localStorage.getItem('cex-wishlist') || '[]');
+let wishlistOnly = false;
+let donutChart, barChart, modalChart;
+
+// ─── INIT ──────────────────────────────────────────────────────────────────
+async function loadData(force = false) {
+  document.getElementById('loading').style.display = 'flex';
+  document.getElementById('loading-msg').textContent = 'Caricamento dati da GitHub...';
+
+  try {
+    const res = await fetch(GAMES_URL + '?t=' + Date.now());
+    const data = await res.json();
+    const stats = data.statistics || {};
+    allGames = data.games || [];
+
+    // Update pills
+    const upd = (stats.last_update || data.metadata?.exported_at || '').split('T')[0];
+    document.getElementById('pill-update').textContent = '📅 ' + upd;
+    document.getElementById('pill-total').textContent = allGames.length.toLocaleString() + ' titoli';
+
+    // Update stat cards
+    document.getElementById('s-total').textContent  = allGames.length.toLocaleString();
+    document.getElementById('s-total-sub').textContent = 'tracciati da ' + (stats.last_update || '–');
+    const avail = stats.available_games || 0;
+    const pct = allGames.length ? Math.round(avail / allGames.length * 100) : 0;
+    document.getElementById('s-avail').textContent     = avail.toLocaleString();
+    document.getElementById('s-avail-sub').textContent = pct + '% del catalogo';
+    document.getElementById('s-price').textContent     = '€' + (stats.average_price || 0).toFixed(2);
+    const ds = stats.daily_summary || {};
+    document.getElementById('s-changes').textContent    = (ds.price_changes || 0).toLocaleString();
+    document.getElementById('s-changes-sub').textContent = (ds.availability_changes || 0) + ' cambi disponibilità';
+    const byConsole = stats.by_console || {};
+    document.getElementById('s-xbox').textContent = (byConsole['Xbox'] || 0).toLocaleString();
+    document.getElementById('s-ps4').textContent  = (byConsole['PS4']  || 0).toLocaleString();
+    document.getElementById('s-wii').textContent  = (byConsole['Wii']  || 0).toLocaleString();
+    document.getElementById('s-sw').textContent   = (byConsole['Switch'] || 0).toLocaleString();
+
+    // Charts
+    buildDonut(byConsole, allGames.length);
+    buildBar(allGames);
+
+    // Load daily changes
+    loadChanges(upd.replace(/-/g,''));
+
+    // Table
+    applyFilters();
+    updateWishlistUI();
+    document.getElementById('loading').style.display = 'none';
+
+  } catch(e) {
+    document.getElementById('loading-msg').textContent = '❌ Errore: ' + e.message;
+    console.error(e);
+  }
+}
+
+// ─── CHARTS ────────────────────────────────────────────────────────────────
+function buildDonut(byConsole, total) {
+  const ctx = document.getElementById('donut-chart').getContext('2d');
+  if (donutChart) donutChart.destroy();
+  const labels = Object.keys(byConsole);
+  const vals   = Object.values(byConsole);
+  const colors = ['#107c10','#3b82f6','#94a3b8','#e60012'];
+  document.getElementById('donut-center-val').textContent = total.toLocaleString();
+  donutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: { labels, datasets: [{ data: vals, backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }] },
+    options: {
+      cutout: '70%', responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: { color: '#94a3b8', font: { family: 'JetBrains Mono', size: 10 }, boxWidth: 10, padding: 8 }
+        },
+        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw.toLocaleString()}` } }
+      }
+    }
+  });
+}
+
+function buildBar(games) {
+  const ctx = document.getElementById('bar-chart').getContext('2d');
+  if (barChart) barChart.destroy();
+  const consoles = ['Xbox','PS4','Wii','Switch'];
+  const consoleColors = ['#107c10','#3b82f6','#94a3b8','#e60012'];
+  const avail = {}, unavail = {};
+  consoles.forEach(c => { avail[c] = 0; unavail[c] = 0; });
+  games.forEach(g => {
+    if (consoles.includes(g.console)) {
+      if (g.is_available) avail[g.console]++;
+      else unavail[g.console]++;
+    }
+  });
+  barChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: consoles,
+      datasets: [
+        { label: 'Disponibili',    data: consoles.map(c => avail[c]),   backgroundColor: 'rgba(34,197,94,.7)', borderRadius: 3 },
+        { label: 'Non disponibili',data: consoles.map(c => unavail[c]), backgroundColor: 'rgba(100,116,139,.3)', borderRadius: 3 }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color: '#94a3b8', font: { family: 'JetBrains Mono', size: 9 }, boxWidth: 10 } },
+        tooltip: { mode: 'index', intersect: false }
+      },
+      scales: {
+        x: { stacked: true, ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 10 } }, grid: { color: '#1e1e30' } },
+        y: { stacked: true, ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 10 } }, grid: { color: '#1e1e30' } }
+      }
+    }
+  });
+}
+
+// ─── DAILY CHANGES ─────────────────────────────────────────────────────────
+async function loadChanges(dateStr) {
+  const el = document.getElementById('changes-list');
+  if (!dateStr) { el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">–</div>'; return; }
+  try {
+    const res = await fetch(`${REPORTS_BASE}/changes_${dateStr}.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error('No report');
+    const data = await res.json();
+    const changes = (data.price_changes || []).slice(0, 60);
+    if (!changes.length) { el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Nessun cambio oggi</div>'; return; }
+    // Need old prices - cross-reference with allGames
+    const gameMap = {};
+    allGames.forEach(g => gameMap[g.id] = g);
+    el.innerHTML = changes.map(c => {
+      const game = gameMap[c.game_id];
+      const oldPrice = game?.price_history_30d?.[0]?.old_price;
+      const newP = c.new_price;
+      const dir = oldPrice && oldPrice > newP ? 'down' : 'up';
+      const diff = oldPrice ? (newP - oldPrice).toFixed(1) : '';
+      const diffStr = diff ? (dir === 'down' ? diff : '+' + diff) : '';
+      return `<div class="change-item ${dir}" onclick="openModal(${c.game_id})" style="cursor:pointer">
+        <span class="badge-console">${c.console}</span>
+        <span class="change-title" title="${c.title}">${c.title}</span>
+        <span class="change-price">€${newP.toFixed(2)} ${diffStr ? `<small style="font-size:9px;">(${diffStr})</small>` : ''}</span>
+      </div>`;
+    }).join('');
+  } catch(e) {
+    el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Report non disponibile</div>';
+  }
+}
+
+// ─── FILTERS & SORT ────────────────────────────────────────────────────────
+function applyFilters() {
+  const q   = document.getElementById('search-input').value.toLowerCase().trim();
+  const con = document.getElementById('filter-console').value;
+  const av  = document.getElementById('filter-avail').value;
+  const tr  = document.getElementById('filter-trend').value;
+  filtered = allGames.filter(g => {
+    if (q && !g.title.toLowerCase().includes(q)) return false;
+    if (con && g.console !== con) return false;
+    if (av !== '' && String(g.is_available) !== av) return false;
+    if (tr === 'down' && !(g.price_trend_pct < 0)) return false;
+    if (tr === 'up'   && !(g.price_trend_pct > 0)) return false;
+    if (wishlistOnly && !wishlist.includes(g.id)) return false;
+    return true;
+  });
+  filtered.sort((a,b) => {
+    const va = a[sortKey] ?? '', vb = b[sortKey] ?? '';
+    if (typeof va === 'string') return va.localeCompare(vb) * sortDir;
+    return (va - vb) * sortDir;
+  });
+  currentPage = 1;
+  document.getElementById('results-count').textContent = filtered.length.toLocaleString() + ' risultati';
+  renderTable();
+}
+
+function sortBy(key) {
+  if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+  ['title','console','price','trend','avail'].forEach(k => {
+    const el = document.getElementById('sort-' + k);
+    if (el) el.textContent = '↕';
+  });
+  const map = { title:'title', console:'console', current_price:'price', price_trend_pct:'trend', is_available:'avail' };
+  const el = document.getElementById('sort-' + map[key]);
+  if (el) { el.textContent = sortDir === 1 ? '↓' : '↑'; el.classList.add('active'); }
+  applyFilters();
+}
+
+function resetFilters() {
+  document.getElementById('search-input').value = '';
+  document.getElementById('filter-console').value = '';
+  document.getElementById('filter-avail').value = '';
+  document.getElementById('filter-trend').value = '';
+  wishlistOnly = false;
+  document.getElementById('btn-wishlist-only').classList.remove('active');
+  applyFilters();
+}
+
+function toggleWishlistFilter() {
+  wishlistOnly = !wishlistOnly;
+  document.getElementById('btn-wishlist-only').classList.toggle('active', wishlistOnly);
+  applyFilters();
+}
+
+// ─── TABLE RENDER ──────────────────────────────────────────────────────────
+function renderTable() {
+  const tbody = document.getElementById('game-tbody');
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const page  = filtered.slice(start, start + PAGE_SIZE);
+  const consoleColor = { Xbox:'var(--xbox)', PS4:'#4a7fff', Wii:'var(--muted)', Switch:'var(--sw)' };
+
+  tbody.innerHTML = page.map(g => {
+    const inWL = wishlist.includes(g.id);
+    const trend = g.price_trend_pct;
+    const trendStr = trend != null ? (trend > 0 ? `↑${trend.toFixed(1)}%` : `↓${Math.abs(trend).toFixed(1)}%`) : '–';
+    const trendCls = trend == null ? '' : trend > 0 ? 'up' : 'down';
+    const hasHistory = g.price_history_30d && g.price_history_30d.length > 0;
+    return `<tr onclick="openModal(${g.id})">
+      <td class="td-title">
+        <a href="${g.url}" target="_blank" onclick="event.stopPropagation()">${g.title}</a>
+      </td>
+      <td class="td-console" style="color:${consoleColor[g.console]||'var(--muted)'}">${g.console}</td>
+      <td class="td-price">€${(g.current_price||0).toFixed(2)}</td>
+      <td class="td-trend ${trendCls}">${trendStr}</td>
+      <td><span class="badge-avail ${g.is_available?'yes':'no'}">${g.is_available?'DISPO':'ESAURITO'}</span></td>
+      <td>
+        <div style="display:flex;align-items:center;gap:6px;">
+          <button class="btn-star" onclick="toggleWL(event,${g.id})" title="${inWL?'Rimuovi da wishlist':'Aggiungi a wishlist'}">${inWL?'★':'☆'}</button>
+          ${hasHistory ? `<button class="btn-history" onclick="event.stopPropagation();openModal(${g.id})">📈 storico</button>` : ''}
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+  renderPagination();
+}
+
+function renderPagination() {
+  const total = Math.ceil(filtered.length / PAGE_SIZE);
+  const el = document.getElementById('pagination');
+  if (total <= 1) { el.innerHTML = ''; return; }
+  let html = `<button class="page-btn" ${currentPage===1?'disabled':''} onclick="goPage(${currentPage-1})">‹</button>`;
+  const range = 3;
+  for (let i = 1; i <= total; i++) {
+    if (i === 1 || i === total || (i >= currentPage - range && i <= currentPage + range)) {
+      html += `<button class="page-btn ${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
+    } else if (i === currentPage - range - 1 || i === currentPage + range + 1) {
+      html += `<span class="page-info">…</span>`;
+    }
+  }
+  html += `<button class="page-btn" ${currentPage===total?'disabled':''} onclick="goPage(${currentPage+1})">›</button>`;
+  html += `<span class="page-info">${filtered.length.toLocaleString()} risultati</span>`;
+  el.innerHTML = html;
+}
+
+function goPage(p) { currentPage = p; renderTable(); window.scrollTo({top: 0, behavior: 'smooth'}); }
+
+// ─── WISHLIST ──────────────────────────────────────────────────────────────
+function toggleWL(e, id) {
+  e.stopPropagation();
+  const idx = wishlist.indexOf(id);
+  if (idx > -1) wishlist.splice(idx, 1); else wishlist.push(id);
+  localStorage.setItem('cex-wishlist', JSON.stringify(wishlist));
+  updateWishlistUI();
+  renderTable();
+}
+
+function toggleWishlist() {
+  document.getElementById('wishlist-panel').classList.toggle('open');
+}
+
+function updateWishlistUI() {
+  document.getElementById('wl-count').textContent = wishlist.length;
+  const body = document.getElementById('wl-body');
+  if (!wishlist.length) {
+    body.innerHTML = '<div class="wl-empty">Nessun gioco in wishlist.<br>Clicca ★ nella tabella per aggiungere.</div>';
+    return;
+  }
+  const wlGames = allGames.filter(g => wishlist.includes(g.id));
+  body.innerHTML = wlGames.map(g => `
+    <div class="wl-item">
+      <div class="wl-item-title">${g.title}</div>
+      <div class="wl-item-meta">
+        <span>${g.console}</span>
+        <span class="wl-item-price">€${(g.current_price||0).toFixed(2)}</span>
+        <span class="badge-avail ${g.is_available?'yes':'no'}">${g.is_available?'DISPO':'ESAURITO'}</span>
+      </div>
+      <button class="wl-remove" onclick="toggleWL(event,${g.id})">✕</button>
+    </div>
+  `).join('');
+}
+
+// ─── MODAL ─────────────────────────────────────────────────────────────────
+function openModal(id) {
+  const game = allGames.find(g => g.id === id);
+  if (!game) return;
+  document.getElementById('modal-title').textContent = game.title;
+  document.getElementById('modal-sub').textContent   = `${game.console} · €${(game.current_price||0).toFixed(2)} · ${game.is_available ? '✅ Disponibile' : '❌ Esaurito'}`;
+  const history = game.price_history_30d || [];
+  // mini stats
+  const prices = history.map(h => h.new_price).concat([game.current_price]).filter(Boolean);
+  const minP = prices.length ? Math.min(...prices) : game.current_price;
+  const maxP = prices.length ? Math.max(...prices) : game.current_price;
+  document.getElementById('modal-stats').innerHTML = `
+    <div class="mini-stat"><div class="mini-stat-label">Prezzo Attuale</div><div class="mini-stat-val" style="color:var(--amber)">€${(game.current_price||0).toFixed(2)}</div></div>
+    <div class="mini-stat"><div class="mini-stat-label">Minimo 30gg</div><div class="mini-stat-val" style="color:var(--green)">€${minP.toFixed(2)}</div></div>
+    <div class="mini-stat"><div class="mini-stat-label">Massimo 30gg</div><div class="mini-stat-val" style="color:var(--red)">€${maxP.toFixed(2)}</div></div>
+  `;
+  // chart
+  if (modalChart) modalChart.destroy();
+  const ctx = document.getElementById('modal-chart').getContext('2d');
+  if (history.length > 0) {
+    const labels = history.map(h => h.changed_at?.split('T')[0] || '').reverse();
+    const vals   = history.map(h => h.new_price).reverse();
+    labels.push('Oggi'); vals.push(game.current_price);
+    modalChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [{
+          data: vals,
+          borderColor: '#f5a623',
+          backgroundColor: 'rgba(245,166,35,.1)',
+          borderWidth: 2, tension: 0.3,
+          pointBackgroundColor: '#f5a623', pointRadius: 4
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: '#1e1e30' } },
+          y: {
+            ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 9 }, callback: v => '€' + v },
+            grid: { color: '#1e1e30' }
+          }
+        }
+      }
+    });
+  } else {
+    ctx.font = '12px JetBrains Mono'; ctx.fillStyle = '#64748b';
+    ctx.textAlign = 'center';
+    ctx.fillText('Nessuno storico prezzi disponibile (solo 4 giorni di dati)', ctx.canvas.width/2, 100);
+  }
+  // table
+  const tbody = document.getElementById('modal-tbody');
+  if (!history.length) { tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--muted);font-size:11px;padding:20px;">Nessuna variazione registrata</td></tr>'; }
+  else {
+    tbody.innerHTML = history.map(h => {
+      const diff = h.new_price - h.old_price;
+      const pct  = h.old_price ? (diff / h.old_price * 100).toFixed(1) : '–';
+      const cls  = diff > 0 ? 'color:var(--red)' : 'color:var(--green)';
+      return `<tr>
+        <td>${h.changed_at?.split('T')[0] || '–'}</td>
+        <td style="color:var(--muted)">€${(h.old_price||0).toFixed(2)}</td>
+        <td>€${h.new_price.toFixed(2)}</td>
+        <td style="${cls}">${diff > 0 ? '+' : ''}€${diff.toFixed(2)} (${diff > 0 ? '+' : ''}${pct}%)</td>
+      </tr>`;
+    }).join('');
+  }
+  document.getElementById('modal-backdrop').classList.add('open');
+}
+
+function closeModal(e) { if (e.target === e.currentTarget) closeModalDirect(); }
+function closeModalDirect() { document.getElementById('modal-backdrop').classList.remove('open'); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalDirect(); });
+
+// ─── EXPORT ────────────────────────────────────────────────────────────────
+function exportCSV() {
+  const headers = ['ID','Titolo','Console','Prezzo','Disponibile','URL','Primo Visto','Ultimo Aggiornamento'];
+  const rows = filtered.map(g => [
+    g.id, `"${g.title.replace(/"/g,'""')}"`, g.console,
+    g.current_price, g.is_available ? 'Sì' : 'No',
+    g.url, g.first_seen, g.last_updated
+  ]);
+  const csv = [headers, ...rows].map(r => r.join(',')).join('\n');
+  download(csv, 'cex-export-' + today() + '.csv', 'text/csv');
+}
+
+function exportJSON() {
+  download(JSON.stringify(filtered, null, 2), 'cex-export-' + today() + '.json', 'application/json');
+}
+
+function download(content, filename, mime) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([content], { type: mime }));
+  a.download = filename; a.click();
+}
+
+function today() { return new Date().toISOString().split('T')[0]; }
+
+// ─── START ─────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
