@@ -22,3 +22,21 @@ Questa cartella contiene la web app visualizzata su GitHub Pages.
 5. Salva
 
 Il sito sarà disponibile in ~2 minuti.
+
+## Wishlist Sync con DB
+
+La dashboard può sincronizzare la wishlist direttamente nel database tramite API locale.
+
+1. Avvia API:
+
+```bash
+python scripts/wishlist_api_server.py --db data/current/games.db --host 127.0.0.1 --port 8787
+```
+
+2. Apri dashboard con:
+
+```text
+.../dashboard/index.html?api=http://127.0.0.1:8787
+```
+
+Se il parametro `api` è presente, la wishlist viene letta/scritta su DB (`wishlist`) e usata anche dal notifier Telegram.

@@ -32,7 +32,7 @@ CONSOLES_TO_TRACK = {
         {"name": "Xbox CrossGen","id": 1088},
         {"name": "Xbox Series", "id": 1091},
     ],
-    "PS": [
+    "PS4": [
 		{"name": "PSP",         "id": 862},
         {"name": "PS4",         "id": 1001},
     ],
@@ -114,6 +114,8 @@ def scrape_all_consoles(headless: bool = True) -> list:
                     # Normalizza il campo console_group (tutti i tipi Xbox → 'Xbox')
                     for p in products:
                         p['_console_group'] = console_group
+                        # Categoria sorgente affidabile (es. Xbox 360 vs Xbox One)
+                        p['_source_category'] = cat['name']
                     
                     all_products.extend(products)
                     print(f"  ✅ {len(products)} prodotti trovati")
@@ -149,12 +151,19 @@ def normalize_product(product: dict) -> dict:
         }
     """
     # Il console_group raggruppa tutti i tipi Xbox sotto 'Xbox', ecc.
-    console_group = product.get('_console_group') or product.get('Type', '')
+    console_group = (product.get('_console_group') or product.get('Type') or '').strip()
+    category = (
+        product.get('_source_category')
+        or product.get('Platform')
+        or product.get('Type')
+        or console_group
+        or ''
+    ).strip()
     
     return {
         'title':         product.get('Title', '').strip(),
         'console':       console_group,
-        'category':      product.get('Platform') or product.get('Type'),
+        'category':      category,
         'current_price': product.get('Price'),
         'is_available':  bool(product.get('Buyable', False)),
         'url':           product.get('URL'),
@@ -204,6 +213,9 @@ def main():
         'unchanged': 0,
         'errors': []
     }
+    key_categories = {}
+    key_existing_counts = {}
+    key_game_ids = {}
     
     for raw in raw_products:
         try:
@@ -211,9 +223,15 @@ def main():
             
             if not game_data['title']:
                 continue
+
+            key = (game_data['title'], game_data['console'])
+            if key not in key_existing_counts:
+                key_existing_counts[key] = db.count_games_by_title_console(*key)
+            key_categories.setdefault(key, set()).add(game_data['category'])
             
             game_id, price_changed, avail_changed = db.upsert_game(game_data)
             analyzer.record(game_id, game_data, price_changed, avail_changed)
+            key_game_ids.setdefault(key, set()).add(game_id)
             
             if price_changed:
                 stats['price_changes'] += 1
@@ -224,6 +242,18 @@ def main():
                 
         except Exception as e:
             stats['errors'].append({'product': raw.get('Title', '?'), 'error': str(e)})
+
+    # Ripara una sola volta i titoli legacy fusi in passato su (title, console):
+    # se oggi nello scraping hanno più categorie, ma prima avevano <=1 record nel DB,
+    # resetta lo storico dei record appena separati per evitare trend "ballerini" contaminati.
+    split_keys = [
+        key for key, categories in key_categories.items()
+        if len(categories) > 1 and key_existing_counts.get(key, 0) <= 1
+    ]
+    if split_keys:
+        split_ids = sorted({gid for key in split_keys for gid in key_game_ids.get(key, set())})
+        reset_count = db.reset_history_for_games(split_ids)
+        print(f"🧹 Riparazione legacy: {len(split_keys)} titoli separati, storico resettato per {reset_count} record")
     
     # --- 4. REPORT CAMBIAMENTI ---
     report_dir = Path(REPORTS_DIR)

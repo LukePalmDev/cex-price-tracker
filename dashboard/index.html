@@ -746,13 +746,79 @@ const RAW = 'https://raw.githubusercontent.com/LukePalmDev/cex-price-tracker/mai
 const GAMES_URL   = `${RAW}/dashboard/data/games.json`;
 const REPORTS_BASE = `${RAW}/data/reports`;
 const PAGE_SIZE = 50;
+const API_PARAM = new URLSearchParams(window.location.search).get('api');
+const API_BASE = (API_PARAM || localStorage.getItem('cex-api-base') || '').trim().replace(/\/$/, '');
+const WISHLIST_SYNC_ENABLED = Boolean(API_BASE);
+const WISHLIST_API_URL = WISHLIST_SYNC_ENABLED ? `${API_BASE}/api/wishlist/ids` : '';
+if (API_PARAM) localStorage.setItem('cex-api-base', API_BASE);
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
 let allGames = [], filtered = [], sortKey = 'title', sortDir = 1;
 let currentPage = 1;
-let wishlist = JSON.parse(localStorage.getItem('cex-wishlist') || '[]');
+let wishlist = loadWishlistLocal();
 let wishlistOnly = false;
 let donutChart, barChart, modalChart;
+
+function normalizeWishlistIds(ids) {
+  const out = [];
+  const seen = new Set();
+  (Array.isArray(ids) ? ids : []).forEach(v => {
+    const id = Number(v);
+    if (Number.isInteger(id) && id > 0 && !seen.has(id)) {
+      seen.add(id);
+      out.push(id);
+    }
+  });
+  return out;
+}
+
+function loadWishlistLocal() {
+  try {
+    return normalizeWishlistIds(JSON.parse(localStorage.getItem('cex-wishlist') || '[]'));
+  } catch {
+    return [];
+  }
+}
+
+function saveWishlistLocal() {
+  localStorage.setItem('cex-wishlist', JSON.stringify(wishlist));
+}
+
+function pruneWishlistAgainstGames() {
+  const validIds = new Set(allGames.map(g => Number(g.id)));
+  const pruned = wishlist.filter(id => validIds.has(id));
+  const changed = pruned.length !== wishlist.length;
+  wishlist = pruned;
+  return changed;
+}
+
+async function fetchRemoteWishlist() {
+  if (!WISHLIST_SYNC_ENABLED) return null;
+  try {
+    const res = await fetch(WISHLIST_API_URL, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    return normalizeWishlistIds(data.wishlist || []);
+  } catch (e) {
+    console.warn('Wishlist sync read failed:', e.message);
+    return null;
+  }
+}
+
+async function pushRemoteWishlist() {
+  if (!WISHLIST_SYNC_ENABLED) return;
+  try {
+    const res = await fetch(WISHLIST_API_URL, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ wishlist }),
+      cache: 'no-store'
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  } catch (e) {
+    console.warn('Wishlist sync write failed:', e.message);
+  }
+}
 
 // ─── INIT ──────────────────────────────────────────────────────────────────
 async function loadData(force = false) {
@@ -764,6 +830,19 @@ async function loadData(force = false) {
     const data = await res.json();
     const stats = data.statistics || data.metadata?.statistics || {};
     allGames = data.games || [];
+    const localBeforeSync = wishlist.slice();
+    const remoteWishlist = await fetchRemoteWishlist();
+    if (remoteWishlist !== null) {
+      if (remoteWishlist.length || !localBeforeSync.length) {
+        wishlist = remoteWishlist;
+      } else {
+        wishlist = localBeforeSync;
+        await pushRemoteWishlist();
+      }
+    }
+    const pruned = pruneWishlistAgainstGames();
+    saveWishlistLocal();
+    if (pruned) await pushRemoteWishlist();
 
     // Update pills
     const upd = (stats.last_update || data.metadata?.exported_at || '').split('T')[0];
@@ -1027,7 +1106,9 @@ function toggleWL(e, id) {
   e.stopPropagation();
   const idx = wishlist.indexOf(id);
   if (idx > -1) wishlist.splice(idx, 1); else wishlist.push(id);
-  localStorage.setItem('cex-wishlist', JSON.stringify(wishlist));
+  wishlist = normalizeWishlistIds(wishlist);
+  saveWishlistLocal();
+  pushRemoteWishlist();
   updateWishlistUI();
   renderTable();
 }

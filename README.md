@@ -111,6 +111,26 @@ cex-price-tracker/
    - Prezzo scende sotto soglia target
    - Gioco torna disponibile
 
+### Sync Wishlist Dashboard ↔ DB (stessa wishlist per Telegram)
+
+Per usare una singola wishlist condivisa tra dashboard e notifiche:
+
+1. Avvia API locale wishlist:
+
+```bash
+python scripts/wishlist_api_server.py --db data/current/games.db --host 127.0.0.1 --port 8787
+```
+
+2. Apri la dashboard con il parametro `api`:
+
+```text
+http://127.0.0.1:5500/dashboard/index.html?api=http://127.0.0.1:8787
+```
+
+Da quel momento click su ★ legge/scrive nel DB (`wishlist`), quindi Telegram usa la stessa lista.
+
+Nota: se esponi questa API su internet senza protezione, chiunque può modificare la wishlist.
+
 ---
 
 ## 📈 Dashboard

@@ -307,6 +307,65 @@ class DatabaseManager:
             cursor.execute("SELECT * FROM games WHERE id = ?", (game_id,))
             row = cursor.fetchone()
             return dict(row) if row else None
+
+    def count_games_by_title_console(self, title: str, console: str) -> int:
+        """Conta i record per la coppia (title, console), indipendentemente dalla categoria."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT COUNT(*) AS cnt FROM games WHERE title = ? AND console = ?",
+                (title, console)
+            )
+            return int(cursor.fetchone()['cnt'])
+
+    def reset_history_for_games(self, game_ids: List[int]) -> int:
+        """
+        Resetta lo storico prezzo/disponibilità per una lista di game_id e
+        reinserisce un singolo snapshot iniziale con i valori correnti.
+        """
+        normalized = []
+        seen = set()
+        for gid in game_ids or []:
+            try:
+                val = int(gid)
+            except (TypeError, ValueError):
+                continue
+            if val > 0 and val not in seen:
+                seen.add(val)
+                normalized.append(val)
+
+        if not normalized:
+            return 0
+
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            placeholders = ",".join(["?"] * len(normalized))
+            cursor.execute(
+                f"SELECT id, current_price, is_available FROM games WHERE id IN ({placeholders})",
+                normalized
+            )
+            rows = [dict(r) for r in cursor.fetchall()]
+            if not rows:
+                return 0
+
+            ids = [int(r['id']) for r in rows]
+            ph = ",".join(["?"] * len(ids))
+            cursor.execute(f"DELETE FROM price_history WHERE game_id IN ({ph})", ids)
+            cursor.execute(f"DELETE FROM availability_history WHERE game_id IN ({ph})", ids)
+
+            for row in rows:
+                gid = int(row['id'])
+                if row.get('current_price') is not None:
+                    cursor.execute(
+                        "INSERT INTO price_history (game_id, old_price, new_price) VALUES (?, NULL, ?)",
+                        (gid, row['current_price'])
+                    )
+                cursor.execute(
+                    "INSERT INTO availability_history (game_id, old_status, new_status) VALUES (?, NULL, ?)",
+                    (gid, row.get('is_available', 0))
+                )
+
+            return len(rows)
     
     def get_price_history(self, game_id: int, days: int = 30) -> List[Dict]:
         """Recupera lo storico prezzi di un gioco"""
@@ -408,6 +467,55 @@ class DatabaseManager:
             """)
             
             return [dict(row) for row in cursor.fetchall()]
+
+    def get_wishlist_ids(self) -> List[int]:
+        """Recupera solo gli ID dei giochi in wishlist."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT game_id FROM wishlist ORDER BY added_at DESC")
+            return [int(row['game_id']) for row in cursor.fetchall()]
+
+    def set_wishlist_ids(self, game_ids: List[int]) -> Dict[str, int]:
+        """
+        Sostituisce la wishlist con una nuova lista di game_id.
+        Restituisce un riepilogo su quanti ID sono stati salvati/scartati.
+        """
+        normalized = []
+        seen = set()
+        for gid in game_ids or []:
+            try:
+                val = int(gid)
+            except (TypeError, ValueError):
+                continue
+            if val > 0 and val not in seen:
+                seen.add(val)
+                normalized.append(val)
+
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            valid_ids = []
+
+            if normalized:
+                placeholders = ",".join(["?"] * len(normalized))
+                cursor.execute(
+                    f"SELECT id FROM games WHERE id IN ({placeholders})",
+                    normalized
+                )
+                valid_set = {int(row['id']) for row in cursor.fetchall()}
+                valid_ids = [gid for gid in normalized if gid in valid_set]
+
+            cursor.execute("DELETE FROM wishlist")
+            if valid_ids:
+                cursor.executemany(
+                    "INSERT INTO wishlist (game_id) VALUES (?)",
+                    [(gid,) for gid in valid_ids]
+                )
+
+        return {
+            'requested': len(normalized),
+            'saved': len(valid_ids),
+            'ignored': len(normalized) - len(valid_ids)
+        }
     
     def export_to_json(self, output_path: str):
         """Esporta tutti i giochi in formato JSON per la dashboard"""
