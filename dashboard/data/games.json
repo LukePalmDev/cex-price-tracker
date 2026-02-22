@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-02-22T01:11:24.766340",
+    "exported_at": "2026-02-22T07:02:01.966304",
     "total_games": 6186,
     "version": "1.0",
     "statistics": {
@@ -18,8 +18,8 @@
       "daily_summary": {
         "new_games": 0,
         "price_changes": 21,
-        "availability_changes": 61,
-        "unchanged": 7166,
+        "availability_changes": 4,
+        "unchanged": 7223,
         "errors": 0
       }
     }
@@ -39,8 +39,8 @@
     "daily_summary": {
       "new_games": 0,
       "price_changes": 21,
-      "availability_changes": 61,
-      "unchanged": 7166,
+      "availability_changes": 4,
+      "unchanged": 7223,
       "errors": 0
     }
   },
@@ -1900,6 +1900,16 @@
       "last_availability_change": null,
       "image_url": null,
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 3.0,
+          "changed_at": "2026-02-22 07:01:55"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 1.0,
+          "changed_at": "2026-02-22 07:01:55"
+        },
         {
           "old_price": 1.0,
           "new_price": 3.0,
@@ -6716,6 +6726,16 @@
       "last_availability_change": null,
       "image_url": null,
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 20.0,
+          "changed_at": "2026-02-22 07:01:56"
+        },
+        {
+          "old_price": 20.0,
+          "new_price": 10.0,
+          "changed_at": "2026-02-22 07:01:56"
+        },
         {
           "old_price": 10.0,
           "new_price": 20.0,
@@ -24576,6 +24596,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-02-22 07:01:57"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-02-22 07:01:57"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-02-22 01:11:20"
         },
         {
@@ -30519,6 +30549,16 @@
         {
           "old_price": 10.0,
           "new_price": 4.0,
+          "changed_at": "2026-02-22 07:01:56"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 10.0,
+          "changed_at": "2026-02-22 07:01:56"
+        },
+        {
+          "old_price": 10.0,
+          "new_price": 4.0,
           "changed_at": "2026-02-22 01:11:18"
         },
         {
@@ -30755,6 +30795,16 @@
       "last_availability_change": "2026-02-22",
       "image_url": null,
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 4.0,
+          "changed_at": "2026-02-22 07:01:56"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 3.0,
+          "changed_at": "2026-02-22 07:01:56"
+        },
         {
           "old_price": 3.0,
           "new_price": 4.0,
@@ -32282,6 +32332,21 @@
       "last_availability_change": null,
       "image_url": null,
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 3.5,
+          "changed_at": "2026-02-22 07:01:56"
+        },
+        {
+          "old_price": 3.5,
+          "new_price": 6.0,
+          "changed_at": "2026-02-22 07:01:56"
+        },
+        {
+          "old_price": 6.0,
+          "new_price": 2.0,
+          "changed_at": "2026-02-22 07:01:56"
+        },
         {
           "old_price": 2.0,
           "new_price": 3.5,
@@ -55625,6 +55690,16 @@
       "last_availability_change": "2026-02-22",
       "image_url": null,
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 22.0,
+          "changed_at": "2026-02-22 07:02:00"
+        },
+        {
+          "old_price": 22.0,
+          "new_price": 30.0,
+          "changed_at": "2026-02-22 07:02:00"
+        },
         {
           "old_price": 30.0,
           "new_price": 22.0,
@@ -115291,6 +115366,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-02-22 07:01:53"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-02-22 07:01:53"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-02-22 01:11:16"
         },
         {
@@ -133465,6 +133550,16 @@
         {
           "old_price": 45.0,
           "new_price": 28.0,
+          "changed_at": "2026-02-22 07:01:55"
+        },
+        {
+          "old_price": 28.0,
+          "new_price": 45.0,
+          "changed_at": "2026-02-22 07:01:55"
+        },
+        {
+          "old_price": 45.0,
+          "new_price": 28.0,
           "changed_at": "2026-02-22 01:11:18"
         },
         {
@@ -133586,6 +133681,16 @@
       "last_availability_change": null,
       "image_url": null,
       "price_history_30d": [
+        {
+          "old_price": 1.5,
+          "new_price": 4.0,
+          "changed_at": "2026-02-22 07:01:52"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 1.5,
+          "changed_at": "2026-02-22 07:01:52"
+        },
         {
           "old_price": 1.5,
           "new_price": 4.0,
