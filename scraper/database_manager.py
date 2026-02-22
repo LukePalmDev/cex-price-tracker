@@ -43,7 +43,7 @@ class DatabaseManager:
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     title TEXT NOT NULL,
                     console TEXT NOT NULL,
-                    category TEXT,
+                    category TEXT NOT NULL,
                     current_price REAL,
                     is_available BOOLEAN DEFAULT 1,
                     condition TEXT,
@@ -53,9 +53,14 @@ class DatabaseManager:
                     last_price_change DATE,
                     last_availability_change DATE,
                     image_url TEXT,
-                    UNIQUE(title, console)
+                    UNIQUE(title, console, category)
                 )
             """)
+
+            # Migrazione schema legacy:
+            # - UNIQUE(title, console) -> UNIQUE(title, console, category)
+            # - category nullable -> category NOT NULL (fallback su console)
+            self._migrate_games_table_if_needed(cursor)
             
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_games_console ON games(console)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_games_price ON games(current_price)")
@@ -109,6 +114,72 @@ class DatabaseManager:
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_wishlist_game ON wishlist(game_id)")
             
             print("✅ Database schema inizializzato con successo!")
+
+    def _migrate_games_table_if_needed(self, cursor):
+        """Aggiorna la tabella games al vincolo UNIQUE(title, console, category)."""
+        cursor.execute("PRAGMA table_info(games)")
+        columns = cursor.fetchall()
+        if not columns:
+            return
+
+        category_info = next((c for c in columns if c['name'] == 'category'), None)
+        category_not_null = bool(category_info and category_info['notnull'])
+
+        has_target_unique = False
+        has_legacy_unique = False
+
+        cursor.execute("PRAGMA index_list(games)")
+        for idx in cursor.fetchall():
+            if not idx['unique']:
+                continue
+            idx_name = idx['name']
+            cursor.execute(f"PRAGMA index_info('{idx_name}')")
+            idx_cols = [row['name'] for row in cursor.fetchall()]
+            if idx_cols == ['title', 'console', 'category']:
+                has_target_unique = True
+            elif idx_cols == ['title', 'console']:
+                has_legacy_unique = True
+
+        if has_target_unique and category_not_null and not has_legacy_unique:
+            return
+
+        print("🔄 Migrazione tabella games: UNIQUE(title, console, category)")
+        cursor.execute("PRAGMA foreign_keys = OFF")
+        cursor.execute("""
+            CREATE TABLE games_new (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                title TEXT NOT NULL,
+                console TEXT NOT NULL,
+                category TEXT NOT NULL,
+                current_price REAL,
+                is_available BOOLEAN DEFAULT 1,
+                condition TEXT,
+                url TEXT,
+                first_seen DATE NOT NULL,
+                last_updated DATE NOT NULL,
+                last_price_change DATE,
+                last_availability_change DATE,
+                image_url TEXT,
+                UNIQUE(title, console, category)
+            )
+        """)
+        cursor.execute("""
+            INSERT INTO games_new (
+                id, title, console, category, current_price, is_available,
+                condition, url, first_seen, last_updated,
+                last_price_change, last_availability_change, image_url
+            )
+            SELECT
+                id, title, console, COALESCE(NULLIF(category, ''), console),
+                current_price, is_available, condition, url, first_seen, last_updated,
+                last_price_change, last_availability_change, image_url
+            FROM games
+            ORDER BY id
+        """)
+        cursor.execute("DROP TABLE games")
+        cursor.execute("ALTER TABLE games_new RENAME TO games")
+        cursor.execute("PRAGMA foreign_keys = ON")
+        print("✅ Migrazione games completata")
     
     def upsert_game(self, game_data: Dict) -> Tuple[int, bool, bool]:
         """
@@ -124,11 +195,14 @@ class DatabaseManager:
         """
         with self.get_connection() as conn:
             cursor = conn.cursor()
+            category = (game_data.get('category') or game_data.get('console') or '').strip()
+            if not category:
+                raise ValueError("Campo 'category' mancante")
             
             # Controlla se il gioco esiste già
             cursor.execute(
-                "SELECT id, current_price, is_available FROM games WHERE title = ? AND console = ?",
-                (game_data['title'], game_data['console'])
+                "SELECT id, current_price, is_available FROM games WHERE title = ? AND console = ? AND category = ?",
+                (game_data['title'], game_data['console'], category)
             )
             existing = cursor.fetchone()
             
@@ -175,7 +249,7 @@ class DatabaseManager:
                         last_availability_change = CASE WHEN ? THEN ? ELSE last_availability_change END
                     WHERE id = ?
                 """, (
-                    new_price, new_availability, game_data.get('category'),
+                    new_price, new_availability, category,
                     game_data.get('condition'), game_data.get('url'),
                     game_data.get('image_url'), today,
                     price_changed, today,
@@ -191,7 +265,7 @@ class DatabaseManager:
                         condition, url, image_url, first_seen, last_updated
                     ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (
-                    game_data['title'], game_data['console'], game_data.get('category'),
+                    game_data['title'], game_data['console'], category,
                     game_data.get('current_price'), game_data.get('is_available', 1),
                     game_data.get('condition'), game_data.get('url'),
                     game_data.get('image_url'), today, today
@@ -339,14 +413,55 @@ class DatabaseManager:
         """Esporta tutti i giochi in formato JSON per la dashboard"""
         games = self.get_all_games()
         stats = self.get_statistics()
+        report_date = (stats.get('last_update') or datetime.now().strftime('%Y-%m-%d')).replace('-', '')
+        report_path = self.db_path.parent.parent / "reports" / f"changes_{report_date}.json"
+        daily_summary = None
+        if report_path.exists():
+            try:
+                with open(report_path, 'r', encoding='utf-8') as f:
+                    daily_report = json.load(f)
+                    daily_summary = daily_report.get('summary')
+            except Exception:
+                daily_summary = None
+
+        enriched = []
+        for g in games:
+            entry = dict(g)
+            history = self.get_price_history(g['id'], days=30)
+            entry['price_history_30d'] = [
+                {
+                    'old_price': h['old_price'],
+                    'new_price': h['new_price'],
+                    'changed_at': h['changed_at'],
+                }
+                for h in history
+            ]
+            if history:
+                last = history[0]
+                if last['old_price'] and last['old_price'] != 0:
+                    entry['price_trend_pct'] = round(
+                        (last['new_price'] - last['old_price']) / last['old_price'] * 100, 2
+                    )
+                else:
+                    entry['price_trend_pct'] = None
+            else:
+                entry['price_trend_pct'] = None
+            enriched.append(entry)
+
+        statistics = {
+            **stats,
+            'daily_summary': daily_summary,
+        }
         
         data = {
             'metadata': {
                 'exported_at': datetime.now().isoformat(),
-                'total_games': len(games),
-                'statistics': stats
+                'total_games': len(enriched),
+                'version': '1.0',
+                'statistics': statistics
             },
-            'games': games
+            'statistics': statistics,
+            'games': enriched
         }
         
         output_file = Path(output_path)
@@ -355,8 +470,8 @@ class DatabaseManager:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         
-        print(f"✅ Esportati {len(games)} giochi in {output_path}")
-        return len(games)
+        print(f"✅ Esportati {len(enriched)} giochi in {output_path}")
+        return len(enriched)
 
 
 if __name__ == "__main__":

@@ -103,6 +103,16 @@ def load_wishlist(db_path: str = "../data/current/games.db") -> List[Dict]:
         return []
 
 
+def load_database_stats(db_path: str = "../data/current/games.db") -> Dict:
+    """Carica le statistiche correnti del database."""
+    try:
+        db = DatabaseManager(db_path)
+        return db.get_statistics()
+    except Exception as e:
+        print(f"⚠️  Errore caricamento statistiche DB: {e}")
+        return {}
+
+
 # ============================================================================
 # RICERCA CAMBIAMENTI WISHLIST
 # ============================================================================
@@ -253,7 +263,9 @@ def format_daily_summary_message(summary: Dict) -> str:
     """Messaggio di riepilogo giornaliero (inviato sempre, anche senza wishlist)."""
     now = datetime.now().strftime('%d/%m/%Y %H:%M')
     msg = f"🤖 <b>CEX Scraping completato</b> — {now}\n\n"
-    msg += f"🎮 Giochi totali: <b>{summary.get('total_scraped', '?')}</b>\n"
+    msg += f"🕸️ Prodotti scrappati: <b>{summary.get('total_scraped', '?')}</b>\n"
+    if summary.get('total_games') is not None:
+        msg += f"🗄️ Giochi unici nel DB: <b>{summary.get('total_games')}</b>\n"
     msg += f"💰 Cambiamenti prezzo: <b>{summary.get('price_changes', 0)}</b>\n"
     msg += f"📦 Cambiamenti disponibilità: <b>{summary.get('availability_changes', 0)}</b>\n"
     msg += f"🆕 Nuovi giochi: <b>{summary.get('new_games', 0)}</b>\n"
@@ -306,11 +318,13 @@ def main():
     print("\n⭐ Caricamento wishlist...")
     wishlist = load_wishlist()
     print(f"   {len(wishlist)} giochi in wishlist")
+    db_stats = load_database_stats()
 
     # 5. Invia sempre il riepilogo giornaliero
     daily_msg = format_daily_summary_message({
         **summary,
-        'total_scraped': metadata.get('total_scraped', '?')
+        'total_scraped': metadata.get('total_scraped', '?'),
+        'total_games': db_stats.get('total_games')
     })
     notifier.send_message(daily_msg)
     print("✅ Riepilogo giornaliero inviato")

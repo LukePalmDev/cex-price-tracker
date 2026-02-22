@@ -783,7 +783,7 @@ async function loadData(force = false) {
   try {
     const res = await fetch(GAMES_URL + '?t=' + Date.now());
     const data = await res.json();
-    const stats = data.statistics || {};
+    const stats = data.statistics || data.metadata?.statistics || {};
     allGames = data.games || [];
 
     // Update pills
@@ -794,14 +794,19 @@ async function loadData(force = false) {
     // Update stat cards principali
     document.getElementById('s-total').textContent  = allGames.length.toLocaleString();
     document.getElementById('s-total-sub').textContent = 'tracciati al ' + (stats.last_update || '–');
-    const avail = stats.available_games || 0;
+    const avail = stats.available_games ?? allGames.filter(g => String(g.is_available) === '1' || g.is_available === true).length;
     const pct = allGames.length ? Math.round(avail / allGames.length * 100) : 0;
     document.getElementById('s-avail').textContent     = avail.toLocaleString();
     document.getElementById('s-avail-sub').textContent = pct + '% del catalogo';
-    document.getElementById('s-price').textContent     = '€' + (stats.average_price || 0).toFixed(2);
-    const ds = stats.daily_summary || {};
-    document.getElementById('s-changes').textContent    = (ds.price_changes || 0).toLocaleString();
-    document.getElementById('s-changes-sub').textContent = (ds.availability_changes || 0) + ' cambi disponibilità';
+    const avgPrice = stats.average_price ?? (
+      allGames.length
+        ? allGames.reduce((sum, g) => sum + (Number(g.current_price) || 0), 0) / allGames.length
+        : 0
+    );
+    document.getElementById('s-price').textContent = '€' + Number(avgPrice).toFixed(2);
+    const summaryFromStats = stats.daily_summary || {};
+    document.getElementById('s-changes').textContent = (summaryFromStats.price_changes || 0).toLocaleString();
+    document.getElementById('s-changes-sub').textContent = (summaryFromStats.availability_changes || 0) + ' cambi disponibilità';
 
     // Conta per-CATEGORY (sotto-console) dai giochi reali
     const byCategory = {};
@@ -835,7 +840,10 @@ async function loadData(force = false) {
     buildBar(allGames);
 
     // Load daily changes
-    loadChanges(upd.replace(/-/g,''));
+    const summaryFromReport = await loadChanges(upd.replace(/-/g,''));
+    const dailySummary = summaryFromReport || summaryFromStats;
+    document.getElementById('s-changes').textContent = (dailySummary?.price_changes || 0).toLocaleString();
+    document.getElementById('s-changes-sub').textContent = (dailySummary?.availability_changes || 0) + ' cambi disponibilità';
 
     // Table
     applyFilters();
@@ -917,13 +925,20 @@ function buildBar(games) {
 // ─── DAILY CHANGES ─────────────────────────────────────────────────────────
 async function loadChanges(dateStr) {
   const el = document.getElementById('changes-list');
-  if (!dateStr) { el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">–</div>'; return; }
+  if (!dateStr) {
+    el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">–</div>';
+    return null;
+  }
   try {
     const res = await fetch(`${REPORTS_BASE}/changes_${dateStr}.json?t=${Date.now()}`);
     if (!res.ok) throw new Error('No report');
     const data = await res.json();
+    const summary = data.summary || null;
     const changes = (data.price_changes || []).slice(0, 60);
-    if (!changes.length) { el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Nessun cambio oggi</div>'; return; }
+    if (!changes.length) {
+      el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Nessun cambio oggi</div>';
+      return summary;
+    }
     // Need old prices - cross-reference with allGames
     const gameMap = {};
     allGames.forEach(g => gameMap[g.id] = g);
@@ -940,8 +955,10 @@ async function loadChanges(dateStr) {
         <span class="change-price">€${newP.toFixed(2)} ${diffStr ? `<small style="font-size:9px;">(${diffStr})</small>` : ''}</span>
       </div>`;
     }).join('');
+    return summary;
   } catch(e) {
     el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Report non disponibile</div>';
+    return null;
   }
 }
 

@@ -68,26 +68,30 @@ def export_games(db_path: str, output_path: str) -> int:
     wishlist_items = db.get_wishlist()
     wishlist_ids = {item['game_id'] for item in wishlist_items}
 
-    # Carica report odierno se esiste
-    today = datetime.now().strftime('%Y%m%d')
-    report_path = Path(db_path).parent.parent / "reports" / f"changes_{today}.json"
+    # Carica report della stessa data del dataset (fallback: oggi)
+    report_date = (stats.get('last_update') or datetime.now().strftime('%Y-%m-%d')).replace('-', '')
+    report_path = Path(db_path).parent.parent / "reports" / f"changes_{report_date}.json"
     daily_summary = None
     if report_path.exists():
         with open(report_path, 'r', encoding='utf-8') as f:
             daily_report = json.load(f)
             daily_summary = daily_report.get('summary')
 
-    # Struttura JSON finale
+    statistics = {
+        **stats,
+        'daily_summary': daily_summary,
+    }
+
+    # Struttura JSON finale (mantiene sia statistics top-level che metadata.statistics
+    # per compatibilità con versioni precedenti della dashboard)
     output = {
         'metadata': {
             'exported_at':   datetime.now().isoformat(),
             'total_games':   len(enriched),
             'version':       '1.0',
+            'statistics':    statistics,
         },
-        'statistics': {
-            **stats,
-            'daily_summary': daily_summary,
-        },
+        'statistics': statistics,
         'games': enriched,
     }
 
