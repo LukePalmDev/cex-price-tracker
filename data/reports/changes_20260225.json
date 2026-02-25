@@ -1,0 +1,897 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-25T07:17:33.696329",
+    "date": "2026-02-25",
+    "duration_sec": 1725.1,
+    "total_scraped": 7266
+  },
+  "summary": {
+    "new_games": 0,
+    "price_changes": 103,
+    "availability_changes": 30,
+    "unchanged": 7133,
+    "errors": 0
+  },
+  "new_games": [],
+  "price_changes": [
+    {
+      "game_id": 421,
+      "title": "Shrek 2",
+      "console": "Xbox",
+      "new_price": 4.0
+    },
+    {
+      "game_id": 421,
+      "title": "Shrek 2",
+      "console": "Xbox",
+      "new_price": 1.5
+    },
+    {
+      "game_id": 1214,
+      "title": "Lost Via Domus",
+      "console": "Xbox",
+      "new_price": 4.0
+    },
+    {
+      "game_id": 1214,
+      "title": "Lost Via Domus",
+      "console": "Xbox",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 1567,
+      "title": "Ace Combat 7: Skies Unknown (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1575,
+      "title": "Alien Isolation",
+      "console": "Xbox",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 1581,
+      "title": "Assassin's Creed 4: Black Flag",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1585,
+      "title": "Assassin's Creed Origins",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1590,
+      "title": "Assassin's Creed Unity - Notre Dame Edition W/Figure",
+      "console": "Xbox",
+      "new_price": 65.0
+    },
+    {
+      "game_id": 1592,
+      "title": "Assassin's Creed: Syndicate",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1593,
+      "title": "Assassin's Creed: Unity",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1611,
+      "title": "Bayonetta & Vanquish 10th Anniversary Bundle",
+      "console": "Xbox",
+      "new_price": 22.0
+    },
+    {
+      "game_id": 1615,
+      "title": "Biomutant",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1631,
+      "title": "Burnout Paradise Remastered",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1633,
+      "title": "Call Of Duty Ghosts",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 6162,
+      "title": "Call of Duty: Black Ops Cold War (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 1639,
+      "title": "Call Of Duty: Infinite Warfare - Legacy Edition",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 6163,
+      "title": "Call of Duty: Vanguard (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 20.0
+    },
+    {
+      "game_id": 1650,
+      "title": "Code Vein",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1652,
+      "title": "Conan Exiles",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1658,
+      "title": "Crash Bandicoot N. Sane Trilogy",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 1659,
+      "title": "Crash Team Racing Nitro-Fueled (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 18.0
+    },
+    {
+      "game_id": 1669,
+      "title": "Dark Souls III",
+      "console": "Xbox",
+      "new_price": 18.0
+    },
+    {
+      "game_id": 1673,
+      "title": "Dark Souls: Remastered",
+      "console": "Xbox",
+      "new_price": 15.0
+    },
+    {
+      "game_id": 1681,
+      "title": "Dead or Alive 5: Last Round",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1690,
+      "title": "Devil May Cry 5 (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1693,
+      "title": "Diablo III: Eternal Collection (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 1702,
+      "title": "Disney Fantasia: Il Potere Della Musica Kinect",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1712,
+      "title": "Doom (2016)",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1717,
+      "title": "Dragon Ball: FighterZ (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 1718,
+      "title": "Dragon's Dogma Dark Arisen",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 1719,
+      "title": "Dragonball Xenoverse 2",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1731,
+      "title": "Elder Scrolls V: Skyrim Special Edition",
+      "console": "Xbox",
+      "new_price": 15.0
+    },
+    {
+      "game_id": 1743,
+      "title": "F1 2020",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1751,
+      "title": "Far Cry 5 (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 1754,
+      "title": "Far Cry Primal",
+      "console": "Xbox",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 1758,
+      "title": "Farming Simulator 19",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1762,
+      "title": "FIFA 14",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1769,
+      "title": "Final Fantasy Type-0 HD",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1005,
+      "title": "Forza Horizon 2",
+      "console": "Xbox",
+      "new_price": 25.0
+    },
+    {
+      "game_id": 1775,
+      "title": "Forza Horizon 3",
+      "console": "Xbox",
+      "new_price": 15.0
+    },
+    {
+      "game_id": 1778,
+      "title": "Forza Motorsport 7",
+      "console": "Xbox",
+      "new_price": 22.0
+    },
+    {
+      "game_id": 1783,
+      "title": "Gears Of War: Ultimate Edition",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1795,
+      "title": "Grand Theft Auto V",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1806,
+      "title": "Hitman 2 (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 6173,
+      "title": "Hogwarts Legacy",
+      "console": "Xbox",
+      "new_price": 15.0
+    },
+    {
+      "game_id": 1825,
+      "title": "John Wick Hex",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1126,
+      "title": "Just Dance 2014",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 1842,
+      "title": "Kingdom Come Deliverance",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1844,
+      "title": "Kingdom Hearts III/3",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 1859,
+      "title": "Lego Marvel Superheroes",
+      "console": "Xbox",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 1881,
+      "title": "Mafia III/3",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1882,
+      "title": "Mafia Trilogy",
+      "console": "Xbox",
+      "new_price": 25.0
+    },
+    {
+      "game_id": 1883,
+      "title": "Mafia: Definitive Edition",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1254,
+      "title": "Metal Gear Solid V Ground Zeroes",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 1255,
+      "title": "Metal Gear Solid V: The Phantom Pain",
+      "console": "Xbox",
+      "new_price": 15.0
+    },
+    {
+      "game_id": 1890,
+      "title": "Metal Gear Survive",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1266,
+      "title": "Minecraft",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 1899,
+      "title": "Monopoly Madness",
+      "console": "Xbox",
+      "new_price": 18.0
+    },
+    {
+      "game_id": 1906,
+      "title": "Monster Hunter: World",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1913,
+      "title": "Mortal Shell",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1930,
+      "title": "MXGP 3: The Official Motocross Videogame",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1932,
+      "title": "My Hero One's Justice",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 1952,
+      "title": "Need For Speed (NFS) Heat",
+      "console": "Xbox",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 1983,
+      "title": "Pillars Of Eternity",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 1995,
+      "title": "Pro Evolution Soccer 2019 (Senza DLC)",
+      "console": "Xbox",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 2022,
+      "title": "Resident Evil 2",
+      "console": "Xbox",
+      "new_price": 15.0
+    },
+    {
+      "game_id": 2026,
+      "title": "Resident Evil 7: Biohazard",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 2029,
+      "title": "Resident Evil Revelations 2",
+      "console": "Xbox",
+      "new_price": 15.0
+    },
+    {
+      "game_id": 2056,
+      "title": "Sekiro: Shadows Die Twice",
+      "console": "Xbox",
+      "new_price": 28.0
+    },
+    {
+      "game_id": 2060,
+      "title": "Shadow Warrior",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 2072,
+      "title": "Sleeping Dogs Definitive",
+      "console": "Xbox",
+      "new_price": 18.0
+    },
+    {
+      "game_id": 2079,
+      "title": "Sniper Ghost Warrior Contracts 2",
+      "console": "Xbox",
+      "new_price": 18.0
+    },
+    {
+      "game_id": 2080,
+      "title": "Sniper: Ghost Warrior 3",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 2092,
+      "title": "Spyro Reignited Trilogy",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 2103,
+      "title": "Street Fighter 30th Anniversary Collection",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 2113,
+      "title": "Surge 2, The",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 2132,
+      "title": "Terra di Mezzo: L'Ombra della Guerra - Definitive Edition",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 2146,
+      "title": "Tony Hawk's Pro Skater 5",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 2151,
+      "title": "Tour de France 2018",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 2155,
+      "title": "Transformers - The Dark Spark",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 2163,
+      "title": "Two Point Hospital",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 2207,
+      "title": "World War Z Aftermath",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 2214,
+      "title": "WRC 8",
+      "console": "Xbox",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 2228,
+      "title": "Xuan Yuan Sword 7",
+      "console": "Xbox",
+      "new_price": 12.0
+    },
+    {
+      "game_id": 2232,
+      "title": "YouTubers Life OMG!",
+      "console": "Xbox",
+      "new_price": 8.0
+    },
+    {
+      "game_id": 2369,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox",
+      "new_price": 28.0
+    },
+    {
+      "game_id": 2369,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox",
+      "new_price": 45.0
+    },
+    {
+      "game_id": 2526,
+      "title": "Ape Academy",
+      "console": "PS4",
+      "new_price": 3.0
+    },
+    {
+      "game_id": 2526,
+      "title": "Ape Academy",
+      "console": "PS4",
+      "new_price": 1.0
+    },
+    {
+      "game_id": 2831,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PS4",
+      "new_price": 4.0
+    },
+    {
+      "game_id": 2831,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PS4",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 2844,
+      "title": "Need For Speed - Shift",
+      "console": "PS4",
+      "new_price": 4.0
+    },
+    {
+      "game_id": 2844,
+      "title": "Need For Speed - Shift",
+      "console": "PS4",
+      "new_price": 3.0
+    },
+    {
+      "game_id": 2906,
+      "title": "Pursuit Force",
+      "console": "PS4",
+      "new_price": 3.5
+    },
+    {
+      "game_id": 2906,
+      "title": "Pursuit Force",
+      "console": "PS4",
+      "new_price": 6.0
+    },
+    {
+      "game_id": 2906,
+      "title": "Pursuit Force",
+      "console": "PS4",
+      "new_price": 2.0
+    },
+    {
+      "game_id": 3322,
+      "title": "Captain Tsubasa: Rise of New Champions",
+      "console": "PS4",
+      "new_price": 20.0
+    },
+    {
+      "game_id": 3322,
+      "title": "Captain Tsubasa: Rise of New Champions",
+      "console": "PS4",
+      "new_price": 10.0
+    },
+    {
+      "game_id": 3911,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_price": 4.0
+    },
+    {
+      "game_id": 3911,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_price": 5.0
+    },
+    {
+      "game_id": 5909,
+      "title": "Skul: The Hero Slayer",
+      "console": "Switch",
+      "new_price": 22.0
+    },
+    {
+      "game_id": 5909,
+      "title": "Skul: The Hero Slayer",
+      "console": "Switch",
+      "new_price": 30.0
+    }
+  ],
+  "availability_changes": [
+    {
+      "game_id": 719,
+      "title": "Bully Scholarship Edition",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1004,
+      "title": "Forza Horizon",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1047,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1047,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 1343,
+      "title": "Need For Speed Hot Pursuit",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1457,
+      "title": "Red Dead Redemption GOTY (2 Dichi)",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1657,
+      "title": "Crash Bandicoot 4: It's About Time",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1658,
+      "title": "Crash Bandicoot N. Sane Trilogy",
+      "console": "Xbox",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 1126,
+      "title": "Just Dance 2014",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1254,
+      "title": "Metal Gear Solid V Ground Zeroes",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1255,
+      "title": "Metal Gear Solid V: The Phantom Pain",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 1890,
+      "title": "Metal Gear Survive",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 2070,
+      "title": "Sinking City, The (Senza DLC)",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 2174,
+      "title": "Vampire - The Masquerade: Swansong",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 2293,
+      "title": "F1 23",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 2369,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 2369,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 2512,
+      "title": "WRC",
+      "console": "Xbox",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 2844,
+      "title": "Need For Speed - Shift",
+      "console": "PS4",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 2844,
+      "title": "Need For Speed - Shift",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 3266,
+      "title": "Blair Witch",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 3311,
+      "title": "Call of Duty: Ghosts",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 3314,
+      "title": "Call of Duty: Modern Warfare 2 (2022)",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 3585,
+      "title": "F1 2021",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 3694,
+      "title": "God Eater 2",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 3821,
+      "title": "Just Dance 2020",
+      "console": "PS4",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 3862,
+      "title": "Lara Croft and the Temple of Osiris (Game Only)",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 3911,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 3911,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 4048,
+      "title": "My Hero One's Justice",
+      "console": "PS4",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 4389,
+      "title": "Fifa 11",
+      "console": "Wii",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 4516,
+      "title": "Just Dance 2014",
+      "console": "Wii",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 4604,
+      "title": "Mario & Sonic Ai Giochi Olimpici",
+      "console": "Wii",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 4653,
+      "title": "More Game Party",
+      "console": "Wii",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 4717,
+      "title": "Nitrobike",
+      "console": "Wii",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 4728,
+      "title": "One Piece Unlimited Cruise",
+      "console": "Wii",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 4857,
+      "title": "Scatena La Festa - Crazy Cooking Party",
+      "console": "Wii",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 5043,
+      "title": "Wario Ware: Smooth Moves",
+      "console": "Wii",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 5172,
+      "title": "Bayonetta 3",
+      "console": "Switch",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 5275,
+      "title": "Darq Ultimate Edition",
+      "console": "Switch",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 5566,
+      "title": "Legend of Zelda: TotK Col. Ed. w/Artbook, 4x Pins, Poster & Steelbook",
+      "console": "Switch",
+      "new_status": "Disponibile"
+    },
+    {
+      "game_id": 5909,
+      "title": "Skul: The Hero Slayer",
+      "console": "Switch",
+      "new_status": "Esaurito"
+    },
+    {
+      "game_id": 5909,
+      "title": "Skul: The Hero Slayer",
+      "console": "Switch",
+      "new_status": "Disponibile"
+    }
+  ],
+  "errors": []
+}
