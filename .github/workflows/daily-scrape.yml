@@ -2,16 +2,17 @@ name: 🎮 Daily CEX Scraping
 
 on:
   schedule:
-    # Ogni giorno alle 06:00 UTC (07:00 ora italiana)
-    - cron: '0 6 * * *'
-  
+    # 2 volte al giorno — orari ora italiana (CET = UTC+1, CEST = UTC+2 in estate)
+    - cron: '0 5 * * *'   # 06:00 CET / 07:00 CEST
+    - cron: '0 17 * * *'  # 18:00 CET / 19:00 CEST
+
   # Permette esecuzione manuale dalla tab Actions
   workflow_dispatch:
 
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
-    
+
     steps:
       # 1. Checkout repository
       - name: 📥 Checkout repository
@@ -48,5 +49,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/current/games.db data/reports/ dashboard/data/
-          git diff --staged --quiet || git commit -m "🤖 Daily scrape: $(date +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "🤖 Scrape: $(date +'%Y-%m-%d %H:%M') UTC"
           git push
