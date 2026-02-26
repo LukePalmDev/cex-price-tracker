@@ -1,18 +1,4 @@
-# Web Scraping
-selenium==4.16.0
-webdriver-manager==4.0.1
-
-# Database
-# SQLite è incluso in Python standard library
-
-# HTTP Requests
 requests==2.31.0
-
-# Data Processing
 pandas==2.1.4
-
-# Telegram Bot
 python-telegram-bot==20.7
-
-# Utilities
 python-dotenv==1.0.0

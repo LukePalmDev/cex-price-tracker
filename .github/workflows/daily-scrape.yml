@@ -2,9 +2,11 @@ name: 🎮 Daily CEX Scraping
 
 on:
   schedule:
-    # 2 volte al giorno — orari ora italiana (CET = UTC+1, CEST = UTC+2 in estate)
-    - cron: '0 5 * * *'   # 06:00 CET / 07:00 CEST
-    - cron: '0 17 * * *'  # 18:00 CET / 19:00 CEST
+    # 4 volte al giorno: 06:00 / 11:00 / 16:00 / 21:00 UTC (ora italiana +1/+2)
+    - cron: '0 6 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 21 * * *'
 
   # Permette esecuzione manuale dalla tab Actions
   workflow_dispatch:
@@ -27,27 +29,24 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      # 3. Installa Chrome
-      - name: 🌐 Install Chrome
-        uses: browser-actions/setup-chrome@latest
-
-      # 4. Installa dipendenze Python
+      # 3. Installa dipendenze (solo requests — no Chrome, no Selenium)
       - name: 📦 Install dependencies
-        run: pip install selenium webdriver-manager beautifulsoup4 lxml requests
+        run: pip install requests
 
-      # 5. Esegui scraper
+      # 4. Esegui scraper
       - name: 🤖 Run CEX scraper
         run: |
           cd scraper
           python main_scraper.py
         env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
           PYTHONUNBUFFERED: 1
 
-      # 6. Commit database e report
+      # 5. Commit database e report
       - name: 💾 Commit database & reports
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/current/games.db data/reports/ dashboard/data/
-          git diff --staged --quiet || git commit -m "🤖 Scrape: $(date +'%Y-%m-%d %H:%M') UTC"
+          git diff --staged --quiet || git commit -m "🤖 Scrape: $(date +'%Y-%m-%d %H:%M')"
           git push
