@@ -45,6 +45,11 @@ class DatabaseManager:
                     console TEXT NOT NULL,
                     category TEXT NOT NULL,
                     current_price REAL,
+                    cash_price REAL,
+                    exchange_price REAL,
+                    ecom_quantity INTEGER DEFAULT 0,
+                    collection_quantity INTEGER DEFAULT 0,
+                    out_of_stock_stores TEXT DEFAULT '[]',
                     is_available BOOLEAN DEFAULT 1,
                     condition TEXT,
                     url TEXT,
@@ -57,11 +62,11 @@ class DatabaseManager:
                 )
             """)
 
-            # Migrazione schema legacy:
-            # - UNIQUE(title, console) -> UNIQUE(title, console, category)
-            # - category nullable -> category NOT NULL (fallback su console)
+            # Migrazione schema legacy
             self._migrate_games_table_if_needed(cursor)
-            
+            # Aggiunta colonne nuove su DB esistenti
+            self._add_new_columns_if_missing(cursor)
+
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_games_console ON games(console)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_games_price ON games(current_price)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_games_available ON games(is_available)")
@@ -115,6 +120,25 @@ class DatabaseManager:
             
             print("✅ Database schema inizializzato con successo!")
 
+    def _add_new_columns_if_missing(self, cursor):
+        """Aggiunge le nuove colonne se non esistono (ALTER TABLE safe)."""
+        cursor.execute("PRAGMA table_info(games)")
+        existing_cols = {row['name'] for row in cursor.fetchall()}
+
+        new_cols = [
+            ("cash_price",          "REAL",    "NULL"),
+            ("exchange_price",      "REAL",    "NULL"),
+            ("ecom_quantity",       "INTEGER", "0"),
+            ("collection_quantity", "INTEGER", "0"),
+            ("out_of_stock_stores", "TEXT",    "'[]'"),
+        ]
+        for col_name, col_type, default in new_cols:
+            if col_name not in existing_cols:
+                cursor.execute(
+                    f"ALTER TABLE games ADD COLUMN {col_name} {col_type} DEFAULT {default}"
+                )
+                print(f"   ✅ Colonna aggiunta: games.{col_name}")
+
     def _migrate_games_table_if_needed(self, cursor):
         """Aggiorna la tabella games al vincolo UNIQUE(title, console, category)."""
         cursor.execute("PRAGMA table_info(games)")
@@ -152,6 +176,11 @@ class DatabaseManager:
                 console TEXT NOT NULL,
                 category TEXT NOT NULL,
                 current_price REAL,
+                cash_price REAL,
+                exchange_price REAL,
+                ecom_quantity INTEGER DEFAULT 0,
+                collection_quantity INTEGER DEFAULT 0,
+                out_of_stock_stores TEXT DEFAULT '[]',
                 is_available BOOLEAN DEFAULT 1,
                 condition TEXT,
                 url TEXT,
@@ -180,7 +209,7 @@ class DatabaseManager:
         cursor.execute("ALTER TABLE games_new RENAME TO games")
         cursor.execute("PRAGMA foreign_keys = ON")
         print("✅ Migrazione games completata")
-    
+
     def upsert_game(self, game_data: Dict) -> Tuple[int, bool, bool]:
         """
         Inserisce o aggiorna un gioco nel database.
@@ -209,6 +238,13 @@ class DatabaseManager:
             today = date.today().isoformat()
             price_changed = False
             availability_changed = False
+
+            # Campi nuovi comuni INSERT/UPDATE
+            cash_price          = game_data.get('cash_price')
+            exchange_price      = game_data.get('exchange_price')
+            ecom_quantity       = game_data.get('ecom_quantity', 0)
+            collection_quantity = game_data.get('collection_quantity', 0)
+            out_of_stock_stores = json.dumps(game_data.get('out_of_stock_stores') or [])
             
             if existing:
                 # Gioco esistente - aggiorna
@@ -235,21 +271,28 @@ class DatabaseManager:
                         VALUES (?, ?, ?)
                     """, (game_id, old_availability, new_availability))
                 
-                # Aggiorna gioco
+                # Aggiorna gioco (con nuovi campi)
                 cursor.execute("""
-                    UPDATE games 
-                    SET current_price = ?,
-                        is_available = ?,
-                        category = ?,
-                        condition = ?,
-                        url = ?,
-                        image_url = ?,
-                        last_updated = ?,
-                        last_price_change = CASE WHEN ? THEN ? ELSE last_price_change END,
+                    UPDATE games SET
+                        current_price        = ?,
+                        cash_price           = ?,
+                        exchange_price       = ?,
+                        ecom_quantity        = ?,
+                        collection_quantity  = ?,
+                        out_of_stock_stores  = ?,
+                        is_available         = ?,
+                        category             = ?,
+                        condition            = ?,
+                        url                  = ?,
+                        image_url            = ?,
+                        last_updated         = ?,
+                        last_price_change    = CASE WHEN ? THEN ? ELSE last_price_change END,
                         last_availability_change = CASE WHEN ? THEN ? ELSE last_availability_change END
                     WHERE id = ?
                 """, (
-                    new_price, new_availability, category,
+                    new_price, cash_price, exchange_price,
+                    ecom_quantity, collection_quantity, out_of_stock_stores,
+                    new_availability, category,
                     game_data.get('condition'), game_data.get('url'),
                     game_data.get('image_url'), today,
                     price_changed, today,
@@ -258,15 +301,20 @@ class DatabaseManager:
                 ))
                 
             else:
-                # Nuovo gioco - inserisci
+                # Nuovo gioco - inserisci (con nuovi campi)
                 cursor.execute("""
                     INSERT INTO games (
-                        title, console, category, current_price, is_available,
-                        condition, url, image_url, first_seen, last_updated
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        title, console, category, current_price,
+                        cash_price, exchange_price, ecom_quantity, collection_quantity,
+                        out_of_stock_stores,
+                        is_available, condition, url, image_url, first_seen, last_updated
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (
                     game_data['title'], game_data['console'], category,
-                    game_data.get('current_price'), game_data.get('is_available', 1),
+                    game_data.get('current_price'),
+                    cash_price, exchange_price, ecom_quantity, collection_quantity,
+                    out_of_stock_stores,
+                    game_data.get('is_available', 1),
                     game_data.get('condition'), game_data.get('url'),
                     game_data.get('image_url'), today, today
                 ))
@@ -305,6 +353,17 @@ class DatabaseManager:
         with self.get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("SELECT * FROM games WHERE id = ?", (game_id,))
+            row = cursor.fetchone()
+            return dict(row) if row else None
+
+    def get_game_by_title_console(self, title: str, console: str) -> Optional[Dict]:
+        """Recupera un gioco per titolo e console (prende il primo se ci sono più categorie)."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT * FROM games WHERE title = ? AND console = ? LIMIT 1",
+                (title, console)
+            )
             row = cursor.fetchone()
             return dict(row) if row else None
 
@@ -362,18 +421,17 @@ class DatabaseManager:
                     )
                 cursor.execute(
                     "INSERT INTO availability_history (game_id, old_status, new_status) VALUES (?, NULL, ?)",
-                    (gid, row.get('is_available', 0))
+                    (gid, row['is_available'])
                 )
+            return len(ids)
 
-            return len(rows)
-    
     def get_price_history(self, game_id: int, days: int = 30) -> List[Dict]:
         """Recupera lo storico prezzi di un gioco"""
         with self.get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("""
-                SELECT * FROM price_history 
-                WHERE game_id = ? 
+                SELECT * FROM price_history
+                WHERE game_id = ?
                 AND changed_at >= datetime('now', '-{} days')
                 ORDER BY changed_at DESC
             """.format(days), (game_id,))
@@ -385,8 +443,8 @@ class DatabaseManager:
         with self.get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("""
-                SELECT * FROM availability_history 
-                WHERE game_id = ? 
+                SELECT * FROM availability_history
+                WHERE game_id = ?
                 AND changed_at >= datetime('now', '-{} days')
                 ORDER BY changed_at DESC
             """.format(days), (game_id,))
@@ -398,28 +456,23 @@ class DatabaseManager:
         with self.get_connection() as conn:
             cursor = conn.cursor()
             
-            # Totale giochi
             cursor.execute("SELECT COUNT(*) as total FROM games")
             total = cursor.fetchone()['total']
             
-            # Giochi disponibili
             cursor.execute("SELECT COUNT(*) as available FROM games WHERE is_available = 1")
             available = cursor.fetchone()['available']
             
-            # Giochi per console
             cursor.execute("""
-                SELECT console, COUNT(*) as count 
-                FROM games 
-                GROUP BY console 
+                SELECT console, COUNT(*) as count
+                FROM games
+                GROUP BY console
                 ORDER BY count DESC
             """)
             by_console = {row['console']: row['count'] for row in cursor.fetchall()}
             
-            # Prezzo medio
             cursor.execute("SELECT AVG(current_price) as avg_price FROM games WHERE current_price IS NOT NULL")
             avg_price = cursor.fetchone()['avg_price']
             
-            # Ultimo aggiornamento
             cursor.execute("SELECT MAX(last_updated) as last_update FROM games")
             last_update = cursor.fetchone()['last_update']
             
@@ -432,7 +485,7 @@ class DatabaseManager:
                 'last_update': last_update
             }
     
-    def add_to_wishlist(self, game_id: int, target_price: Optional[float] = None, 
+    def add_to_wishlist(self, game_id: int, target_price: Optional[float] = None,
                        notes: Optional[str] = None) -> bool:
         """Aggiunge un gioco alla wishlist"""
         try:
@@ -458,14 +511,13 @@ class DatabaseManager:
         with self.get_connection() as conn:
             cursor = conn.cursor()
             cursor.execute("""
-                SELECT 
+                SELECT
                     w.*,
                     g.title, g.console, g.current_price, g.is_available, g.url
                 FROM wishlist w
                 JOIN games g ON w.game_id = g.id
                 ORDER BY w.added_at DESC
             """)
-            
             return [dict(row) for row in cursor.fetchall()]
 
     def get_wishlist_ids(self) -> List[int]:
@@ -516,7 +568,7 @@ class DatabaseManager:
             'saved': len(valid_ids),
             'ignored': len(normalized) - len(valid_ids)
         }
-    
+
     def export_to_json(self, output_path: str):
         """Esporta tutti i giochi in formato JSON per la dashboard"""
         games = self.get_all_games()
@@ -535,6 +587,15 @@ class DatabaseManager:
         enriched = []
         for g in games:
             entry = dict(g)
+
+            # Deserializza out_of_stock_stores da stringa JSON a lista Python
+            raw_oos = entry.get("out_of_stock_stores") or "[]"
+            if isinstance(raw_oos, str):
+                try:
+                    entry["out_of_stock_stores"] = json.loads(raw_oos)
+                except Exception:
+                    entry["out_of_stock_stores"] = []
+
             history = self.get_price_history(g['id'], days=30)
             entry['price_history_30d'] = [
                 {

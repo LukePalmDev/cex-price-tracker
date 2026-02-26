@@ -33,11 +33,21 @@ def export_games(db_path: str, output_path: str) -> int:
     games = db.get_all_games()
     stats = db.get_statistics()
 
-    # Per ogni gioco, aggiunge la variazione prezzo degli ultimi 7 giorni
-    # (usata dalla dashboard per indicatori tendenza)
+    # Per ogni gioco, aggiunge la variazione prezzo degli ultimi 30 giorni
     enriched = []
     for g in games:
         entry = dict(g)
+
+        # Deserializza out_of_stock_stores da stringa JSON a lista Python
+        raw_oos = entry.get("out_of_stock_stores") or "[]"
+        if isinstance(raw_oos, str):
+            try:
+                entry["out_of_stock_stores"] = json.loads(raw_oos)
+            except Exception:
+                entry["out_of_stock_stores"] = []
+
+        # I campi cash_price, exchange_price, ecom_quantity, collection_quantity
+        # vengono già inclusi da dict(g) grazie a SELECT *.
 
         # Recupera storico prezzi ultimi 30 giorni
         history = db.get_price_history(g['id'], days=30)
@@ -82,8 +92,7 @@ def export_games(db_path: str, output_path: str) -> int:
         'daily_summary': daily_summary,
     }
 
-    # Struttura JSON finale (mantiene sia statistics top-level che metadata.statistics
-    # per compatibilità con versioni precedenti della dashboard)
+    # Struttura JSON finale
     output = {
         'metadata': {
             'exported_at':   datetime.now().isoformat(),

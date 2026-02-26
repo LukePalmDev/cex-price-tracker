@@ -43,6 +43,9 @@ def normalize_product(product: dict) -> dict:
         {
             'Type': 'Videogame', 'Platform': 'Xbox 360',
             'Title': 'Halo 3',  'Price': 4.0,
+            'CashPrice': 1.5,   'ExchangePrice': 2.0,
+            'EcomQuantity': 0,  'CollectionQuantity': 3,
+            'OutOfStock': ['Roma', ...],
             'Buyable': True,    'ID': 'xbx3halo3',
             'URL': 'https://...', '_console_group': 'Xbox'
         }
@@ -51,16 +54,24 @@ def normalize_product(product: dict) -> dict:
         {
             'title': 'Halo 3',       'console': 'Xbox',
             'category': 'Xbox 360',  'current_price': 4.0,
+            'cash_price': 1.5,       'exchange_price': 2.0,
+            'ecom_quantity': 0,      'collection_quantity': 3,
+            'out_of_stock_stores': ['Roma', ...],
             'is_available': True,    'url': 'https://...'
         }
     """
     return {
-        "title":         product.get("Title", "").strip(),
-        "console":       product.get("Platform", ""),   # es. "Xbox 360", "PS4", "Switch"
-        "category":      product.get("_console_group", ""),  # es. "Xbox", "PS4"
-        "current_price": product.get("Price"),
-        "is_available":  bool(product.get("Buyable", False)),
-        "url":           product.get("URL", ""),
+        "title":               product.get("Title", "").strip(),
+        "console":             product.get("Platform", ""),
+        "category":            product.get("_console_group", ""),
+        "current_price":       product.get("Price"),
+        "cash_price":          product.get("CashPrice"),
+        "exchange_price":      product.get("ExchangePrice"),
+        "ecom_quantity":       product.get("EcomQuantity", 0),
+        "collection_quantity": product.get("CollectionQuantity", 0),
+        "out_of_stock_stores": product.get("OutOfStock", []),
+        "is_available":        bool(product.get("Buyable", False)),
+        "url":                 product.get("URL", ""),
     }
 
 

@@ -27,7 +27,7 @@ Uso:
     products = scrape_all_consoles()
 
 Author: Claude
-Version: 1.3 (split disponibili/esauriti per superare limite 1000)
+Version: 1.4 (aggiunge outOfStock, cashPriceCalculated, exchangePriceCalculated)
 """
 
 import os
@@ -62,7 +62,9 @@ PRODUCT_URL = "https://it.webuy.com/product-detail/?id="
 
 ATTRIBUTES_TO_RETRIEVE = [
     "boxId", "boxName", "sellPrice",
+    "cashPriceCalculated", "exchangePriceCalculated",
     "ecomQuantity", "collectionQuantity",
+    "outOfStock",
     "categoryFriendlyName", "categoryName",
     "superCatFriendlyName", "discontinued",
     "priceLastChanged", "rating",
@@ -157,20 +159,25 @@ def fetch_query(
 
 def parse_hit(hit: Dict, platform: str, console_group: str) -> Dict:
     """Converte un hit Algolia nel formato DatabaseManager."""
-    box_id  = hit.get("boxId", "")
-    buyable = (
-        (hit.get("ecomQuantity") or 0) > 0
-        or (hit.get("collectionQuantity") or 0) > 0
-    )
+    box_id         = hit.get("boxId", "")
+    ecom_qty       = hit.get("ecomQuantity") or 0
+    collection_qty = hit.get("collectionQuantity") or 0
+    buyable        = ecom_qty > 0 or collection_qty > 0
+
     return {
-        "Type":           "Videogame",
-        "Platform":       platform,
-        "Title":          hit.get("boxName", ""),
-        "Price":          hit.get("sellPrice"),
-        "Buyable":        buyable,
-        "ID":             box_id,
-        "URL":            f"{PRODUCT_URL}{box_id}",
-        "_console_group": console_group,
+        "Type":               "Videogame",
+        "Platform":           platform,
+        "Title":              hit.get("boxName", ""),
+        "Price":              hit.get("sellPrice"),
+        "CashPrice":          hit.get("cashPriceCalculated"),
+        "ExchangePrice":      hit.get("exchangePriceCalculated"),
+        "EcomQuantity":       ecom_qty,
+        "CollectionQuantity": collection_qty,
+        "OutOfStock":         hit.get("outOfStock") or [],   # lista negozi esauriti
+        "Buyable":            buyable,
+        "ID":                 box_id,
+        "URL":                f"{PRODUCT_URL}{box_id}",
+        "_console_group":     console_group,
     }
 
 
@@ -292,4 +299,7 @@ if __name__ == "__main__":
     print(f"   Disponibili: {disponibili}")
     print(f"   Esauriti:    {esauriti}")
     if products:
-        print(f"\n   Esempio: {products[0]['Title']} — €{products[0]['Price']}")
+        p = products[0]
+        print(f"\n   Esempio: {p['Title']} — €{p['Price']}")
+        print(f"   Cash: €{p['CashPrice']} | Voucher: €{p['ExchangePrice']}")
+        print(f"   OutOfStock stores: {p['OutOfStock'][:3]}")
