@@ -56,8 +56,8 @@ def normalize_product(product: dict) -> dict:
     """
     return {
         "title":         product.get("Title", "").strip(),
-        "console":       product.get("_console_group", product.get("Platform", "")),
-        "category":      product.get("Platform", ""),
+        "console":       product.get("Platform", ""),   # es. "Xbox 360", "PS4", "Switch"
+        "category":      product.get("_console_group", ""),  # es. "Xbox", "PS4"
         "current_price": product.get("Price"),
         "is_available":  bool(product.get("Buyable", False)),
         "url":           product.get("URL", ""),

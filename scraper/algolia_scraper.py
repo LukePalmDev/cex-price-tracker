@@ -3,11 +3,19 @@
 CEX Price Tracker - Algolia Scraper
 Sostituisce completamente Selenium usando l'API Algolia di WeBuy.
 
-Vantaggi rispetto al vecchio scraper:
-- Zero dipendenze da Chrome/Selenium
-- Nessun wait/sleep necessario
-- ceil(totale/1000) richieste per categoria (minimo assoluto)
-- Tempo stimato: 5-15 secondi invece di 29 minuti
+NOTA SUL LIMITE ALGOLIA:
+Algolia impone un hard limit: (page * hitsPerPage) <= 1000.
+Anche con offset, il totale non può superare 1000 per query.
+L'unico modo per ottenere >1000 risultati da una categoria è
+dividere in sottoinsiemi disgiunti che restano ognuno sotto 1000.
+
+STRATEGIA:
+- Categoria <= 1000 prodotti → 1 query sola
+- Categoria >  1000 prodotti → 2 query disgiunte:
+    query 1: disponibili  (inStockStore=1 OR inStockOnline=1)
+    query 2: esauriti     (inStockStore=0 AND inStockOnline=0)
+  Disponibili + esauriti = tutti i prodotti, senza sovrapposizioni.
+  Entrambi i subset sono sempre abbondantemente sotto 1000.
 
 Credenziali Algolia (pubbliche, estratte dal browser):
 - Endpoint:   https://search.webuy.io
@@ -19,7 +27,7 @@ Uso:
     products = scrape_all_consoles()
 
 Author: Claude
-Version: 1.2 (offset-based pagination + env var)
+Version: 1.3 (split disponibili/esauriti per superare limite 1000)
 """
 
 import os
@@ -35,14 +43,11 @@ from typing import List, Dict, Optional
 
 ALGOLIA_ENDPOINT = "https://search.webuy.io/1/indexes/*/queries"
 ALGOLIA_APP_ID   = "LNNFEEWZVA"
-# La API key viene letta dall'ambiente — mai hardcoded nel codice
-# In locale: export ALGOLIA_API_KEY=bf79f2b6699e60a18ae330a1248b452c
-# Su GitHub Actions: secret ALGOLIA_API_KEY
 ALGOLIA_API_KEY  = os.environ.get("ALGOLIA_API_KEY", "")
 ALGOLIA_INDEX    = "prod_cex_it_box_name_asc"
 
-HITS_PER_PAGE = 1000   # massimo consentito da Algolia
-REQUEST_PAUSE = 0.3    # secondi di cortesia tra richieste
+HITS_PER_PAGE = 1000   # massimo per query
+REQUEST_PAUSE = 0.3    # secondi tra richieste
 
 HEADERS = {
     "Content-Type": "application/json",
@@ -87,43 +92,44 @@ CONSOLES_TO_TRACK = {
     ],
 }
 
+# Filtri disponibilità
+FILTER_AVAILABLE   = "(inStockStore=1 OR inStockOnline=1)"
+FILTER_UNAVAILABLE = "(inStockStore=0 AND inStockOnline=0)"
+
 
 # ============================================================================
 # FUNZIONI CORE
 # ============================================================================
 
-def fetch_page(
+def fetch_query(
     session: requests.Session,
     category_id: int,
-    offset: int = 0,
+    extra_filter: str = "",
 ) -> Optional[Dict]:
     """
-    Esegue una singola richiesta POST ad Algolia con offset.
+    Esegue una singola richiesta POST ad Algolia.
 
     Args:
-        session:     requests.Session riusabile
-        category_id: ID categoria CEX
-        offset:      Indice del primo risultato (0, 1000, 2000...)
+        session:      requests.Session riusabile
+        category_id:  ID categoria CEX
+        extra_filter: filtro aggiuntivo da appendere (es. disponibili/esauriti)
 
     Returns:
         Dict con i risultati Algolia, oppure None in caso di errore
     """
     if not ALGOLIA_API_KEY:
         raise EnvironmentError(
-            "ALGOLIA_API_KEY non trovata. "
+            "ALGOLIA_API_KEY non trovata.\n"
             "Esegui: export ALGOLIA_API_KEY=bf79f2b6699e60a18ae330a1248b452c"
         )
 
-    filters = (
-        f"boxVisibilityOnWeb=1 AND boxSaleAllowed=1 "
-        f"AND categoryId:{category_id}"
-    )
+    base_filter = f"boxVisibilityOnWeb=1 AND boxSaleAllowed=1 AND categoryId:{category_id}"
+    full_filter = f"{base_filter} AND {extra_filter}" if extra_filter else base_filter
 
     params_str = "&".join([
         f"attributesToRetrieve={','.join(ATTRIBUTES_TO_RETRIEVE)}",
-        f"filters={filters}",
+        f"filters={full_filter}",
         f"hitsPerPage={HITS_PER_PAGE}",
-        f"offset={offset}",
         "query=",
     ])
 
@@ -142,7 +148,7 @@ def fetch_page(
         resp.raise_for_status()
         return resp.json()["results"][0]
     except requests.exceptions.Timeout:
-        print(f"    ⚠️  Timeout (offset={offset})")
+        print(f"    ⚠️  Timeout")
         return None
     except Exception as e:
         print(f"    ❌ Errore: {e}")
@@ -175,42 +181,53 @@ def scrape_category(
     console_group: str,
 ) -> List[Dict]:
     """
-    Scarica TUTTI i prodotti di una categoria con il minimo di richieste.
+    Scarica TUTTI i prodotti di una categoria.
 
-    Logica:
-    1. Prima richiesta (offset=0) → scopre nbHits totali
-    2. Calcola quante richieste servono: ceil(nbHits / 1000)
-    3. Richieste successive con offset=1000, 2000...
+    Strategia automatica:
+    - <= 1000 prodotti → 1 query (tutti insieme)
+    - >  1000 prodotti → 2 query disgiunte: disponibili + esauriti
+      I due subset non si sovrappongono mai e restano sempre sotto 1000.
     """
     print(f"\n  🔍 {category_name} (id={category_id})...")
 
-    result = fetch_page(session, category_id, offset=0)
-    if result is None:
+    # Sonda iniziale: quanti prodotti ci sono?
+    probe = fetch_query(session, category_id)
+    if probe is None:
         print(f"    ❌ Impossibile contattare Algolia per {category_name}")
         return []
 
-    nb_hits        = result.get("nbHits", 0)
-    total_requests = math.ceil(nb_hits / HITS_PER_PAGE)
+    nb_hits = probe.get("nbHits", 0)
+    print(f"    📊 {nb_hits} prodotti totali")
 
-    print(f"    📊 {nb_hits} prodotti → {total_requests} richiesta/e")
+    # --- Categoria piccola: query unica ---
+    if nb_hits <= HITS_PER_PAGE:
+        products = [parse_hit(h, category_name, console_group) for h in probe.get("hits", [])]
+        print(f"    ✅ {len(products)} prodotti (query singola)")
+        return products
 
-    products = [parse_hit(h, category_name, console_group) for h in result.get("hits", [])]
+    # --- Categoria grande: 2 query disgiunte ---
+    print(f"    ⚡ >1000 prodotti → 2 query (disponibili + esauriti)")
+    time.sleep(REQUEST_PAUSE)
 
-    for i, offset in enumerate(range(HITS_PER_PAGE, nb_hits, HITS_PER_PAGE), start=2):
-        time.sleep(REQUEST_PAUSE)
-        print(f"    📄 Richiesta {i}/{total_requests} (offset={offset})...")
+    # Query 1: disponibili
+    r_avail = fetch_query(session, category_id, FILTER_AVAILABLE)
+    n_avail = r_avail.get("nbHits", 0) if r_avail else 0
+    products_avail = [parse_hit(h, category_name, console_group)
+                      for h in (r_avail.get("hits", []) if r_avail else [])]
+    print(f"      → disponibili: {n_avail} prodotti")
 
-        result = fetch_page(session, category_id, offset=offset)
-        if result is None:
-            print(f"    ⚠️  Richiesta {i} saltata per errore")
-            continue
+    time.sleep(REQUEST_PAUSE)
 
-        products.extend(
-            parse_hit(h, category_name, console_group)
-            for h in result.get("hits", [])
-        )
+    # Query 2: esauriti
+    r_unavail = fetch_query(session, category_id, FILTER_UNAVAILABLE)
+    n_unavail = r_unavail.get("nbHits", 0) if r_unavail else 0
+    products_unavail = [parse_hit(h, category_name, console_group)
+                        for h in (r_unavail.get("hits", []) if r_unavail else [])]
+    print(f"      → esauriti:    {n_unavail} prodotti")
 
-    print(f"    ✅ {len(products)}/{nb_hits} prodotti scaricati")
+    products = products_avail + products_unavail
+    print(f"    ✅ {len(products)}/{nb_hits} prodotti (attesi: {nb_hits})")
+
     return products
 
 
@@ -271,7 +288,6 @@ if __name__ == "__main__":
 
     disponibili = sum(1 for p in products if p["Buyable"])
     esauriti    = sum(1 for p in products if not p["Buyable"])
-
     print(f"\n✅ Prodotti PS4: {len(products)}")
     print(f"   Disponibili: {disponibili}")
     print(f"   Esauriti:    {esauriti}")
