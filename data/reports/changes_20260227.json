@@ -1,46 +1,19 @@
 {
   "metadata": {
-    "generated_at": "2026-02-27T06:58:47.774159",
+    "generated_at": "2026-02-27T11:38:56.119622",
     "date": "2026-02-27",
-    "duration_sec": 17.7,
+    "duration_sec": 16.5,
     "total_scraped": 7235
   },
   "summary": {
-    "new_games": 3,
-    "price_changes": 22,
-    "availability_changes": 28,
-    "unchanged": 7182,
+    "new_games": 0,
+    "price_changes": 20,
+    "availability_changes": 3,
+    "unchanged": 7212,
     "errors": 0
   },
-  "new_games": [
-    {
-      "game_id": 7220,
-      "title": "Cuphead",
-      "console": "Xbox One",
-      "price": 35
-    },
-    {
-      "game_id": 7221,
-      "title": "Let's Sing 2026 (Solo Gioco)",
-      "console": "Switch",
-      "price": 32
-    },
-    {
-      "game_id": 7222,
-      "title": "Neva",
-      "console": "Switch",
-      "price": 30
-    }
-  ],
+  "new_games": [],
   "price_changes": [
-    {
-      "game_id": 421,
-      "title": "Shrek 2",
-      "console": "Xbox",
-      "new_price": 4,
-      "old_price": 1.5,
-      "variation_pct": 166.67
-    },
     {
       "game_id": 951,
       "title": "Lost Via Domus",
@@ -200,30 +173,15 @@
       "new_price": 5,
       "old_price": 4.0,
       "variation_pct": 25.0
-    },
-    {
-      "game_id": 6536,
-      "title": "Skul: The Hero Slayer",
-      "console": "Switch",
-      "new_price": 30,
-      "old_price": 22.0,
-      "variation_pct": 36.36
     }
   ],
   "availability_changes": [
     {
-      "game_id": 308,
-      "title": "NBA Inside Drive 2002",
+      "game_id": 9,
+      "title": "All star Baseball 2003",
       "console": "Xbox",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 363,
-      "title": "Pro Evolution Soccer 5",
-      "console": "Xbox",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     },
     {
       "game_id": 858,
@@ -231,13 +189,6 @@
       "console": "Xbox 360",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
-    },
-    {
-      "game_id": 917,
-      "title": "Last Remnant (2 Dichi)",
-      "console": "Xbox 360",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
     },
     {
       "game_id": 1169,
@@ -275,55 +226,6 @@
       "old_status": "Disponibile"
     },
     {
-      "game_id": 1851,
-      "title": "Assassin's Creed Origins",
-      "console": "Xbox One",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 1855,
-      "title": "Assassin's Creed The Ezio Collection",
-      "console": "Xbox One",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 1923,
-      "title": "Crackdown 3 (Senza DLC)",
-      "console": "Xbox One",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 2363,
-      "title": "Rush: A Disney Pixar Adventure",
-      "console": "Xbox One",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 2488,
-      "title": "UFC 4",
-      "console": "Xbox One",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 2534,
-      "title": "WRC 7",
-      "console": "Xbox One",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 2617,
-      "title": "F1 23",
-      "console": "Xbox CrossGen",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
       "game_id": 2694,
       "title": "Shin Megami Tensei V: Vengeance",
       "console": "Xbox CrossGen",
@@ -338,41 +240,6 @@
       "old_status": "Esaurito"
     },
     {
-      "game_id": 3181,
-      "title": "NBA 2K10",
-      "console": "PSP",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 3228,
-      "title": "Pirati Dei Caraibi Ai Confini Del Mondo",
-      "console": "PSP",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 3330,
-      "title": "Star Wars Battlefront Lo Squadrone Dei Rinnegati",
-      "console": "PSP",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 3411,
-      "title": "Wolverine Le Origini",
-      "console": "PSP",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 3431,
-      "title": "WWE SmackDown Vs Raw 2011",
-      "console": "PSP",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
       "game_id": 3856,
       "title": "Lets Sing 2018 (Game Only)",
       "console": "PS4",
@@ -380,93 +247,9 @@
       "old_status": "Esaurito"
     },
     {
-      "game_id": 3540,
-      "title": "Call of Duty: Ghosts",
-      "console": "PS4",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 3590,
-      "title": "Daymare: 1994 Sandcastle",
-      "console": "PS4",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
       "game_id": 3856,
       "title": "Lets Sing 2018 (Game Only)",
       "console": "PS4",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 4017,
-      "title": "Planescape: Torment & Icewind Dale Enhanced Edition",
-      "console": "PS4",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 4023,
-      "title": "Playstation VR Worlds (PSVR)",
-      "console": "PS4",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 7218,
-      "title": "Baki Hanma: Blood Arena",
-      "console": "Switch",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 6715,
-      "title": "Bratz: Mostra Il Tuo Stile- Edizione Completa",
-      "console": "Switch",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 6949,
-      "title": "Metal Gear Solid Master Collection Vol. 1",
-      "console": "Switch",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 6536,
-      "title": "Skul: The Hero Slayer",
-      "console": "Switch",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 7109,
-      "title": "Street Of Rage 4",
-      "console": "Switch",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 7219,
-      "title": "Tormented Souls",
-      "console": "Switch",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 7198,
-      "title": "WRC 9",
-      "console": "Switch",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 6190,
-      "title": "Binding of Isaac, The: Afterbirth+",
-      "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
