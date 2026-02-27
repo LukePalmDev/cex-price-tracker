@@ -9,28 +9,63 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root {
-  --bg:       #0a0a0f;
-  --surface:  #0f0f1a;
-  --card:     #13131f;
-  --border:   #1e1e30;
-  --amber:    #f5a623;
-  --amber-dim:#7a5112;
-  --green:    #22c55e;
-  --red:      #ef4444;
-  --blue:     #3b82f6;
-  --purple:   #a855f7;
-  --text:     #e2e8f0;
-  --muted:    #64748b;
-  --dim:      #334155;
-  --xbox:        #142C14;  /* Dark green - Xbox originale */
-  --xbox360:     #2D5128;  /* Cal Poly green - Xbox 360 */
-  --xboxone:     #537B2F;  /* Fern green - Xbox One */
-  --xboxcross:   #8DA750;  /* Asparagus - Xbox CrossGen */
-  --xboxseries:  #E4EB9C;  /* Mindaro - Xbox Series */
-  --psp:         #001524;  /* Blu scurissimo - PSP */
-  --ps4:         #0752BE;  /* Blu PlayStation - PS4 */
-  --wii:         #FFECD1;  /* Beige chiaro - Wii */
-  --sw:          #702006;  /* Rosso bordeaux - Switch */
+  /* ── SFONDI ── */
+  --bg:            #0a0a0f;    /* sfondo globale della pagina */
+  --surface:       #0f0f1a;    /* superfici secondarie (pill, input, select) */
+  --card:          #13131f;    /* card e pannelli */
+  --header-bg:     rgba(10,10,15,0.92); /* sfondo glassmorphism dell'header sticky */
+
+  /* ── BORDI ── */
+  --border:        #1e1e30;    /* bordi di separazione generici */
+
+  /* ── TESTI ── */
+  --text:          #e2e8f0;    /* testo principale */
+  --muted:         #64748b;    /* testo secondario, label, placeholder */
+  --dim:           #334155;    /* thumb della scrollbar */
+  --chart-text:    #94a3b8;    /* testo tick e legenda Chart.js */
+
+  /* ── ACCENT PRINCIPALE: AMBER ── */
+  --amber:         #f5a623;    /* accent primario (logo, prezzi, hover) */
+  --amber-dim:     #7a5112;    /* amber attenuato (bordo bottone refresh, hover card) */
+
+  /* ── COLORI SEMANTICI ── */
+  --green:         #22c55e;    /* disponibile, valori positivi / prezzi scesi */
+  --red:           #ef4444;    /* esaurito, valori negativi / prezzi saliti */
+  --blue:          #3b82f6;    /* hover bottone storico prezzi */
+  --purple:        #a855f7;    /* variabile riservata, non usata direttamente */
+
+  /* ── CONSOLE: FAMIGLIA XBOX ── */
+  --xbox:          #142C14;    /* Xbox originale */
+  --xbox360:       #2D5128;    /* Xbox 360 */
+  --xboxone:       #537B2F;    /* Xbox One */
+  --xboxcross:     #8DA750;    /* Xbox CrossGen */
+  --xboxseries:    #E4EB9C;    /* Xbox Series */
+
+  /* ── CONSOLE: PLAYSTATION ── */
+  --psp:           #001524;    /* PSP */
+  --ps4:           #0752BE;    /* PS4 / colore voucher buyback */
+
+  /* ── CONSOLE: ALTRE ── */
+  --wii:           #FFECD1;    /* Wii */
+  --sw:            #702006;    /* Nintendo Switch */
+
+  /* ── EFFETTI / OVERLAY ── */
+  --glow-radial:   rgba(245,166,35,0.06); /* alone radiale amber sullo sfondo body */
+  --row-hover:     rgba(245,166,35,.04);  /* hover riga tabella */
+
+  /* ── GRAFICI ── */
+  --chart-line-fill: rgba(245,166,35,.08); /* fill area line chart storico prezzi (modal) */
+  --bar-avail:       rgba(34,197,94,.7);   /* barre "Disponibili" nel bar chart */
+  --bar-unavail:     rgba(100,116,139,.3); /* barre "Non disponibili" nel bar chart */
+
+  /* ── BADGE DISPONIBILITÀ ── */
+  --badge-yes-bg:  rgba(34,197,94,.12);   /* sfondo badge DISPO */
+  --badge-yes-bdr: rgba(34,197,94,.3);    /* bordo badge DISPO */
+  --badge-no-bg:   rgba(100,116,139,.1);  /* sfondo badge ESAURITO */
+
+  /* ── MODAL / OMBRE ── */
+  --modal-backdrop: rgba(0,0,0,.8);       /* overlay scuro dietro il modal */
+  --modal-shadow:   rgba(0,0,0,.6);       /* ombra box del modal e del tooltip negozi */
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -44,7 +79,7 @@ body {
 body::before {
   content: '';
   position: fixed; inset: 0;
-  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(245,166,35,0.06) 0%, transparent 60%);
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, var(--glow-radial) 0%, transparent 60%);
   pointer-events: none; z-index: 0;
 }
 
@@ -71,7 +106,7 @@ body::before {
 /* ── HEADER ── */
 header {
   position: sticky; top: 0; z-index: 100;
-  background: rgba(10,10,15,0.92);
+  background: var(--header-bg);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   padding: 0 24px;
@@ -199,7 +234,7 @@ thead th.sorted { color: var(--amber); }
 .sort-arrow.active { opacity: 1; }
 tbody tr { border-bottom: 1px solid var(--border); transition: background .15s; cursor: pointer; }
 tbody tr:last-child { border-bottom: none; }
-tbody tr:hover { background: rgba(245,166,35,.04); }
+tbody tr:hover { background: var(--row-hover); }
 tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 .td-title { max-width: 280px; }
 .td-title a {
@@ -213,8 +248,8 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 .td-trend.up   { color: var(--red); }
 .td-trend.down { color: var(--green); }
 .badge-avail { display: inline-block; padding: 2px 8px; border-radius: 20px; font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 600; letter-spacing: .05em; }
-.badge-avail.yes { background: rgba(34,197,94,.12); color: var(--green); border: 1px solid rgba(34,197,94,.3); }
-.badge-avail.no  { background: rgba(100,116,139,.1); color: var(--muted); border: 1px solid var(--border); }
+.badge-avail.yes { background: var(--badge-yes-bg); color: var(--green); border: 1px solid var(--badge-yes-bdr); }
+.badge-avail.no  { background: var(--badge-no-bg); color: var(--muted); border: 1px solid var(--border); }
 .btn-star { background: none; border: none; cursor: pointer; font-size: 14px; padding: 2px 6px; transition: transform .15s; line-height: 1; }
 .btn-star:hover { transform: scale(1.3); }
 .btn-history { padding: 3px 8px; background: transparent; border: 1px solid var(--border); border-radius: 3px; color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 9px; cursor: pointer; transition: all .15s; white-space: nowrap; }
@@ -230,7 +265,7 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
   background: var(--card); border: 1px solid var(--border);
   border-radius: 6px; padding: 8px 10px;
   min-width: 170px; z-index: 100;
-  box-shadow: 0 4px 16px rgba(0,0,0,.6);
+  box-shadow: 0 4px 16px var(--modal-shadow);
   white-space: nowrap;
 }
 .store-wrap:hover .store-tooltip { display: block; }
@@ -245,7 +280,7 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 
 /* ── PRICE COLS ── */
 .td-price-cash { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; color: var(--green); white-space: nowrap; }
-.td-price-exch { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; color: #4a7fff; white-space: nowrap; }
+.td-price-exch { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; color: var(--ps4); white-space: nowrap; }
 
 /* ── PAGINATION ── */
 .pagination { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 14px; border-top: 1px solid var(--border); }
@@ -263,9 +298,9 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 .btn-wl-toggle:hover { background: var(--amber); color: var(--bg); }
 
 /* ── MODAL ── */
-.modal-backdrop { position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,.8); display: none; align-items: center; justify-content: center; }
+.modal-backdrop { position: fixed; inset: 0; z-index: 200; background: var(--modal-backdrop); display: none; align-items: center; justify-content: center; }
 .modal-backdrop.open { display: flex; }
-.modal { background: var(--card); border: 1px solid var(--border); border-radius: 10px; width: 560px; max-width: 95vw; max-height: 85vh; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 20px 60px rgba(0,0,0,.6); }
+.modal { background: var(--card); border: 1px solid var(--border); border-radius: 10px; width: 560px; max-width: 95vw; max-height: 85vh; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 20px 60px var(--modal-shadow); }
 .modal-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
 .modal-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
 .modal-sub { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted); }
@@ -500,6 +535,10 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 </main>
 
 <script>
+// ─── HELPER: legge una CSS custom property da :root ─────────────────────────
+// Usato per passare i colori del design system ai grafici Chart.js
+const CSS = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
 // ─── CONFIG ────────────────────────────────────────────────────────────────
 const RAW = 'https://raw.githubusercontent.com/LukePalmDev/cex-price-tracker/main';
 const GAMES_URL    = `${RAW}/dashboard/data/games.json`;
@@ -508,28 +547,31 @@ const PAGE_SIZE = 50;
 const API_PARAM = new URLSearchParams(window.location.search).get('api');
 const API_BASE = (API_PARAM || localStorage.getItem('cex-api-base') || '').trim().replace(/\/$/, '');
 const WISHLIST_SYNC_ENABLED = Boolean(API_BASE);
-const WISHLIST_API_URL = WISHLIST_SYNC_ENABLED ? `${API_BASE}/api/wishlist/ids` : '';
+const WISHLIST_API_URL = WISHLIST_SYNC_ENABLED ?
+  `${API_BASE}/api/wishlist/ids` : '';
 if (API_PARAM) localStorage.setItem('cex-api-base', API_BASE);
 
-// CONSOLE_META — chiave = campo "category" nel DB (sotto-console specifica)
+// ─── CONSOLE_META ──────────────────────────────────────────────────────────
+// I colori sono letti da :root tramite CSS() per garantire un'unica fonte di verità.
+// Chiave = campo "category" nel DB (sotto-console specifica)
 const CONSOLE_META = {
-  'Xbox':          { color: '#142C14', group: 'Xbox' },
-  'Xbox 360':      { color: '#2D5128', group: 'Xbox' },
-  'Xbox One':      { color: '#537B2F', group: 'Xbox' },
-  'Xbox CrossGen': { color: '#8DA750', group: 'Xbox' },
-  'Xbox Series':   { color: '#E4EB9C', group: 'Xbox' },
-  'PSP':           { color: '#001524', group: 'PS' },
-  'PS4':           { color: '#0752BE', group: 'PS' },
-  'Wii':           { color: '#FFECD1', group: 'Wii' },
-  'Switch':        { color: '#702006', group: 'Switch' },
+  'Xbox':          { color: CSS('--xbox'),       group: 'Xbox' },
+  'Xbox 360':      { color: CSS('--xbox360'),    group: 'Xbox' },
+  'Xbox One':      { color: CSS('--xboxone'),    group: 'Xbox' },
+  'Xbox CrossGen': { color: CSS('--xboxcross'),  group: 'Xbox' },
+  'Xbox Series':   { color: CSS('--xboxseries'), group: 'Xbox' },
+  'PSP':           { color: CSS('--psp'),        group: 'PS' },
+  'PS4':           { color: CSS('--ps4'),        group: 'PS' },
+  'Wii':           { color: CSS('--wii'),        group: 'Wii' },
+  'Switch':        { color: CSS('--sw'),         group: 'Switch' },
 };
 
 // Mappa campo "console" (gruppo DB) → etichetta display + colore badge
 const GROUP_META = {
-  'Xbox':   { label: 'Xbox',   color: '#142C14' },
-  'PS4':    { label: 'PS',     color: '#0752BE' },
-  'Wii':    { label: 'Wii',    color: '#FFECD1' },
-  'Switch': { label: 'Switch', color: '#702006' },
+  'Xbox':   { label: 'Xbox',   color: CSS('--xbox') },
+  'PS4':    { label: 'PS',     color: CSS('--ps4') },
+  'Wii':    { label: 'Wii',    color: CSS('--wii') },
+  'Switch': { label: 'Switch', color: CSS('--sw') },
 };
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
@@ -631,7 +673,8 @@ async function loadData(force = false) {
     // Update stat cards
     document.getElementById('s-total').textContent     = allGames.length.toLocaleString();
     document.getElementById('s-total-sub').textContent = 'tracciati da ' + (stats.last_update || '–');
-    const avail = stats.available_games ?? allGames.filter(g => String(g.is_available) === '1' || g.is_available === true).length;
+    const avail = stats.available_games ??
+      allGames.filter(g => String(g.is_available) === '1' || g.is_available === true).length;
     const pct   = allGames.length ? Math.round(avail / allGames.length * 100) : 0;
     document.getElementById('s-avail').textContent     = avail.toLocaleString();
     document.getElementById('s-avail-sub').textContent = pct + '% del catalogo';
@@ -685,23 +728,22 @@ function renderConsoleStatsGrid(byConsole) {
 function filterByConsole(cat) {
   document.getElementById('filter-console').value = cat;
   applyFilters();
-  document.querySelector('.filters-bar')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  document.querySelector('.filters-bar').scrollIntoView({ behavior: 'smooth' });
 }
 
+// ─── CHANGES TICKER ────────────────────────────────────────────────────────
 async function loadChanges(dateStr) {
   const el = document.getElementById('changes-list');
   try {
-    const url = `${REPORTS_BASE}/changes_${dateStr}.json?t=${Date.now()}`;
-    const res = await fetch(url);
-    if (!res.ok) { el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Nessun report disponibile</div>'; return null; }
+    const res = await fetch(`${REPORTS_BASE}/changes_${dateStr}.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error('no report');
     const report = await res.json();
-    const changes = report.price_changes_list || [];
-    const summary = report.summary;
+    const changes = (report.price_changes || []).slice(0, 60);
     if (!changes.length) {
       el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Nessun cambio oggi</div>';
-      return summary;
+      return report.summary || null;
     }
-    el.innerHTML = changes.slice(0, 30).map(c => {
+    el.innerHTML = changes.map(c => {
       const oldPrice = c.price_history_30d?.[0]?.old_price;
       const newP = c.new_price;
       const dir = oldPrice && oldPrice > newP ? 'down' : 'up';
@@ -713,7 +755,7 @@ async function loadChanges(dateStr) {
         <span class="change-price">€${newP.toFixed(2)} ${diffStr ? `<small style="font-size:9px;">(${diffStr})</small>` : ''}</span>
       </div>`;
     }).join('');
-    return summary;
+    return report.summary || null;
   } catch(e) {
     el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Report non disponibile</div>';
     return null;
@@ -726,15 +768,16 @@ function buildDonut(byConsole, total) {
   if (donutChart) donutChart.destroy();
   const labels = Object.keys(byConsole);
   const vals   = Object.values(byConsole);
-  const colors = ['#107c10','#3b82f6','#94a3b8','#e60012','#52b043','#0e7a0d','#4caf50','#00d95f','#00439c'];
+  // I colori del donut sono derivati da CONSOLE_META per coerenza col design system
+  const colors = labels.map(l => (CONSOLE_META[l] || {}).color || CSS('--muted'));
   document.getElementById('donut-center-val').textContent = total.toLocaleString();
   donutChart = new Chart(ctx, {
     type: 'doughnut',
-    data: { labels, datasets: [{ data: vals, backgroundColor: colors.slice(0, labels.length), borderWidth: 0, hoverOffset: 6 }] },
+    data: { labels, datasets: [{ data: vals, backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }] },
     options: {
       cutout: '70%', responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'right', labels: { color: '#94a3b8', font: { family: 'JetBrains Mono', size: 10 }, boxWidth: 10, padding: 8 } },
+        legend: { position: 'right', labels: { color: CSS('--chart-text'), font: { family: 'JetBrains Mono', size: 10 }, boxWidth: 10, padding: 8 } },
         tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw.toLocaleString()}` } }
       }
     }
@@ -758,17 +801,17 @@ function buildBar(games) {
     data: {
       labels: consoles,
       datasets: [
-        { label: 'Disponibili',    data: consoles.map(c => avail[c]),   backgroundColor: 'rgba(34,197,94,.7)',  borderRadius: 3 },
-        { label: 'Non disponibili', data: consoles.map(c => unavail[c]), backgroundColor: 'rgba(100,116,139,.3)', borderRadius: 3 },
+        { label: 'Disponibili',     data: consoles.map(c => avail[c]),   backgroundColor: CSS('--bar-avail'),   borderRadius: 3 },
+        { label: 'Non disponibili', data: consoles.map(c => unavail[c]), backgroundColor: CSS('--bar-unavail'), borderRadius: 3 },
       ]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
       scales: {
-        x: { stacked: true, ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: '#1e1e30' } },
-        y: { stacked: true, ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: '#1e1e30' } }
+        x: { stacked: true, ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: CSS('--border') } },
+        y: { stacked: true, ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: CSS('--border') } }
       },
-      plugins: { legend: { labels: { color: '#94a3b8', font: { family: 'JetBrains Mono', size: 9 }, boxWidth: 10 } } }
+      plugins: { legend: { labels: { color: CSS('--chart-text'), font: { family: 'JetBrains Mono', size: 9 }, boxWidth: 10 } } }
     }
   });
 }
@@ -835,8 +878,6 @@ function applyFilters() {
     if (tr === 'down' && !(g.price_trend_pct < 0)) return false;
     if (tr === 'up'   && !(g.price_trend_pct > 0)) return false;
     if (wishlistOnly && !wishlist.includes(g.id)) return false;
-    // Filtro negozio: il gioco è disponibile nel negozio scelto
-    // = il negozio NON è in out_of_stock_stores
     if (store) {
       const oos = Array.isArray(g.out_of_stock_stores) ? g.out_of_stock_stores : [];
       if (!g.is_available || oos.includes(store)) return false;
@@ -898,11 +939,9 @@ function renderTable() {
     const hasHistory = g.price_history_30d && g.price_history_30d.length > 0;
     const grp = GROUP_META[g.console] || { label: g.console, color: 'var(--muted)' };
 
-    // Prezzi cash / voucher
     const cashStr = g.cash_price     != null ? `€${Number(g.cash_price).toFixed(2)}`     : '–';
     const exchStr = g.exchange_price != null ? `€${Number(g.exchange_price).toFixed(2)}` : '–';
 
-    // Badge disponibilità + tooltip negozi
     const storeTooltip = buildStoreTooltip(g);
     const badgeAvail = g.is_available
       ? `<span class="store-wrap">
@@ -1004,12 +1043,12 @@ function openModal(id) {
   document.getElementById('modal-stats').innerHTML = `
     <div class="mini-stat"><div class="mini-stat-label">Prezzo attuale</div><div class="mini-stat-val" style="color:var(--amber)">€${(game.current_price||0).toFixed(2)}</div></div>
     <div class="mini-stat"><div class="mini-stat-label">Cash buyback</div><div class="mini-stat-val" style="color:var(--green)">${cashStr}</div></div>
-    <div class="mini-stat"><div class="mini-stat-label">Voucher buyback</div><div class="mini-stat-val" style="color:#4a7fff">${exchStr}</div></div>
+    <div class="mini-stat"><div class="mini-stat-label">Voucher buyback</div><div class="mini-stat-val" style="color:var(--ps4)">${exchStr}</div></div>
     <div class="mini-stat"><div class="mini-stat-label">Min 30gg</div><div class="mini-stat-val" style="color:var(--green)">€${(minP||0).toFixed(2)}</div></div>
     <div class="mini-stat"><div class="mini-stat-label">Max 30gg</div><div class="mini-stat-val" style="color:var(--red)">€${(maxP||0).toFixed(2)}</div></div>
     <div class="mini-stat"><div class="mini-stat-label">Cambi prezzo</div><div class="mini-stat-val">${history.length}</div></div>
   `;
-  // Modal chart
+  // Modal chart — usa le variabili CSS per i colori del grafico
   const chartCtx = document.getElementById('modal-chart').getContext('2d');
   if (modalChart) modalChart.destroy();
   if (history.length) {
@@ -1017,12 +1056,12 @@ function openModal(id) {
     const vals   = history.map(h => h.new_price).reverse();
     modalChart = new Chart(chartCtx, {
       type: 'line',
-      data: { labels, datasets: [{ data: vals, borderColor: '#f5a623', backgroundColor: 'rgba(245,166,35,.08)', tension: 0.3, pointRadius: 3, pointBackgroundColor: '#f5a623' }] },
+      data: { labels, datasets: [{ data: vals, borderColor: CSS('--amber'), backgroundColor: CSS('--chart-line-fill'), tension: 0.3, pointRadius: 3, pointBackgroundColor: CSS('--amber') }] },
       options: {
         responsive: true, maintainAspectRatio: false,
         scales: {
-          x: { ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: '#1e1e30' } },
-          y: { ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 9 }, callback: v => '€'+v }, grid: { color: '#1e1e30' } }
+          x: { ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: CSS('--border') } },
+          y: { ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 }, callback: v => '€'+v }, grid: { color: CSS('--border') } }
         },
         plugins: { legend: { display: false } }
       }
