@@ -22,15 +22,15 @@
   --text:     #e2e8f0;
   --muted:    #64748b;
   --dim:      #334155;
-  --xbox:        #107c10;
-  --xbox360:     #52b043;
-  --xboxone:     #0e7a0d;
-  --xboxcross:   #4caf50;
-  --xboxseries:  #00d95f;
-  --psp:         #00439c;
-  --ps4:         #4a7fff;
-  --wii:         #c7c7c7;
-  --sw:          #e60012;
+  --xbox:        #142C14;  /* Dark green - Xbox originale */
+  --xbox360:     #2D5128;  /* Cal Poly green - Xbox 360 */
+  --xboxone:     #537B2F;  /* Fern green - Xbox One */
+  --xboxcross:   #8DA750;  /* Asparagus - Xbox CrossGen */
+  --xboxseries:  #E4EB9C;  /* Mindaro - Xbox Series */
+  --psp:         #001524;  /* Blu scurissimo - PSP */
+  --ps4:         #0752BE;  /* Blu PlayStation - PS4 */
+  --wii:         #FFECD1;  /* Beige chiaro - Wii */
+  --sw:          #702006;  /* Rosso bordeaux - Switch */
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -513,23 +513,23 @@ if (API_PARAM) localStorage.setItem('cex-api-base', API_BASE);
 
 // CONSOLE_META — chiave = campo "category" nel DB (sotto-console specifica)
 const CONSOLE_META = {
-  'Xbox':          { color: '#107c10', group: 'Xbox' },
-  'Xbox 360':      { color: '#52b043', group: 'Xbox' },
-  'Xbox One':      { color: '#0e7a0d', group: 'Xbox' },
-  'Xbox CrossGen': { color: '#4caf50', group: 'Xbox' },
-  'Xbox Series':   { color: '#00d95f', group: 'Xbox' },
-  'PSP':           { color: '#00439c', group: 'PS' },
-  'PS4':           { color: '#4a7fff', group: 'PS' },
-  'Wii':           { color: '#c7c7c7', group: 'Wii' },
-  'Switch':        { color: '#e60012', group: 'Switch' },
+  'Xbox':          { color: '#142C14', group: 'Xbox' },
+  'Xbox 360':      { color: '#2D5128', group: 'Xbox' },
+  'Xbox One':      { color: '#537B2F', group: 'Xbox' },
+  'Xbox CrossGen': { color: '#8DA750', group: 'Xbox' },
+  'Xbox Series':   { color: '#E4EB9C', group: 'Xbox' },
+  'PSP':           { color: '#001524', group: 'PS' },
+  'PS4':           { color: '#0752BE', group: 'PS' },
+  'Wii':           { color: '#FFECD1', group: 'Wii' },
+  'Switch':        { color: '#702006', group: 'Switch' },
 };
 
 // Mappa campo "console" (gruppo DB) → etichetta display + colore badge
 const GROUP_META = {
-  'Xbox':   { label: 'Xbox',   color: '#107c10' },
-  'PS4':    { label: 'PS',     color: '#4a7fff' },
-  'Wii':    { label: 'Wii',    color: '#c7c7c7' },
-  'Switch': { label: 'Switch', color: '#e60012' },
+  'Xbox':   { label: 'Xbox',   color: '#142C14' },
+  'PS4':    { label: 'PS',     color: '#0752BE' },
+  'Wii':    { label: 'Wii',    color: '#FFECD1' },
+  'Switch': { label: 'Switch', color: '#702006' },
 };
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
