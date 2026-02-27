@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-02-27T11:38:56.119622",
+    "generated_at": "2026-02-27T16:51:00.730938",
     "date": "2026-02-27",
-    "duration_sec": 16.5,
+    "duration_sec": 18.1,
     "total_scraped": 7235
   },
   "summary": {
     "new_games": 0,
     "price_changes": 20,
-    "availability_changes": 3,
-    "unchanged": 7212,
+    "availability_changes": 26,
+    "unchanged": 7189,
     "errors": 0
   },
   "new_games": [],
@@ -177,15 +177,50 @@
   ],
   "availability_changes": [
     {
-      "game_id": 9,
-      "title": "All star Baseball 2003",
-      "console": "Xbox",
+      "game_id": 1373,
+      "title": "Call of Duty: 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1403,
+      "title": "Dante's Inferno",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1408,
+      "title": "Dark Souls: Prepare To Die Edition",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1466,
+      "title": "Fable II",
+      "console": "Xbox 360",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     },
     {
       "game_id": 858,
       "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1533,
+      "title": "Harry Potter E I Doni Della Morte, Part 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1569,
+      "title": "Lanterna Verde L'Ascesa Dei Manhunters",
       "console": "Xbox 360",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
@@ -226,6 +261,41 @@
       "old_status": "Disponibile"
     },
     {
+      "game_id": 1851,
+      "title": "Assassin's Creed Origins",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1855,
+      "title": "Assassin's Creed The Ezio Collection",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1894,
+      "title": "Broken Sword 5: The Serpent's Curse",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2100,
+      "title": "Immortal Unchained",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2617,
+      "title": "F1 23",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
       "game_id": 2694,
       "title": "Shin Megami Tensei V: Vengeance",
       "console": "Xbox CrossGen",
@@ -240,8 +310,36 @@
       "old_status": "Esaurito"
     },
     {
-      "game_id": 3856,
-      "title": "Lets Sing 2018 (Game Only)",
+      "game_id": 2995,
+      "title": "FIFA Street 2",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3181,
+      "title": "NBA 2K10",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3276,
+      "title": "SBK 08",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3432,
+      "title": "Wwe Smackdown Vs. Raw 2007",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4487,
+      "title": "Devil May Cry - Definitive Edition",
       "console": "PS4",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
@@ -250,6 +348,69 @@
       "game_id": 3856,
       "title": "Lets Sing 2018 (Game Only)",
       "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4957,
+      "title": "Stubbs The Zombie in Rebel Without a Pulse",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3856,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5736,
+      "title": "Action Girlz Racing",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6064,
+      "title": "Simpsons il videogioco, I",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6097,
+      "title": "Super Fruit Fall",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6852,
+      "title": "Grow: Song Of The Evertree",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7094,
+      "title": "Sphinx and the Cursed Mummy",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6262,
+      "title": "Emio – L'uomo che sorride Famicom Detective Club",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6588,
+      "title": "Sword Art Online: Hollow Realisation Deluxe Edition",
+      "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
