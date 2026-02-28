@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-02-28T11:26:59.289747",
+    "generated_at": "2026-02-28T16:36:16.352779",
     "date": "2026-02-28",
-    "duration_sec": 20.6,
+    "duration_sec": 17.3,
     "total_scraped": 7235
   },
   "summary": {
     "new_games": 0,
     "price_changes": 20,
-    "availability_changes": 14,
-    "unchanged": 7201,
+    "availability_changes": 29,
+    "unchanged": 7186,
     "errors": 0
   },
   "new_games": [],
@@ -177,8 +177,22 @@
   ],
   "availability_changes": [
     {
+      "game_id": 1371,
+      "title": "Cabelas Dangerous Hunts 2013",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
       "game_id": 858,
       "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1567,
+      "title": "Kung Fu Panda: Scontro Finale Delle Leggende Leggendarie",
       "console": "Xbox 360",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
@@ -198,8 +212,8 @@
       "old_status": "Esaurito"
     },
     {
-      "game_id": 753,
-      "title": "Disney Lego Pirati dei Caraibi",
+      "game_id": 741,
+      "title": "Deadfall Adventures",
       "console": "Xbox 360",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
@@ -207,13 +221,6 @@
     {
       "game_id": 858,
       "title": "Grande Avventura di Snoopy, La",
-      "console": "Xbox 360",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 1071,
-      "title": "Pirati dei Caraibi : Ai confini del mondo",
       "console": "Xbox 360",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
@@ -233,16 +240,16 @@
       "old_status": "Disponibile"
     },
     {
-      "game_id": 2187,
-      "title": "Metal Gear Solid V: The Definitive Experience",
+      "game_id": 1283,
+      "title": "Wolfenstein: The New Order *4 Disc*",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2351,
+      "title": "Rise Of The Tomb Raider",
       "console": "Xbox One",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 2694,
-      "title": "Shin Megami Tensei V: Vengeance",
-      "console": "Xbox CrossGen",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     },
@@ -250,22 +257,15 @@
       "game_id": 2694,
       "title": "Shin Megami Tensei V: Vengeance",
       "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
-    },
-    {
-      "game_id": 2745,
-      "title": "Cyberpunk 2077: Ultimate Edition (3 Disco)",
-      "console": "Xbox Series",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 4652,
-      "title": "Inside + Limbo",
-      "console": "PS4",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
     },
     {
       "game_id": 3856,
@@ -275,25 +275,53 @@
       "old_status": "Esaurito"
     },
     {
-      "game_id": 4704,
-      "title": "Life is Strange 2 (Senza DLC)",
-      "console": "PS4",
-      "new_status": "Disponibile",
-      "old_status": "Esaurito"
-    },
-    {
-      "game_id": 3945,
-      "title": "My Hero One's Justice",
+      "game_id": 4026,
+      "title": "Predator: Hunting Grounds",
       "console": "PS4",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     },
     {
-      "game_id": 4850,
-      "title": "Red Dead Redemption",
+      "game_id": 4894,
+      "title": "Shadow Of The Colossus",
       "console": "PS4",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4970,
+      "title": "Sword Art Online Last Recollection",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4993,
+      "title": "This War of Mine: The Little Ones",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5034,
+      "title": "UFC 4",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3767,
+      "title": "Hello Neighbor: Hide & Seek",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4656,
+      "title": "It Takes Two",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     },
     {
       "game_id": 3856,
@@ -303,16 +331,9 @@
       "old_status": "Disponibile"
     },
     {
-      "game_id": 3879,
-      "title": "Madden NFL 25",
+      "game_id": 4174,
+      "title": "Tales Of Vesperia",
       "console": "PS4",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 5732,
-      "title": "Zumba Fitness w/Belt",
-      "console": "Wii",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     },
@@ -320,13 +341,97 @@
       "game_id": 5377,
       "title": "Just Dance 4",
       "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5915,
+      "title": "Just Dance Disney Party",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5922,
+      "title": "Kung Fu Panda 2 (U-Draw)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6010,
+      "title": "Pokemon Battle Revolution",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5630,
+      "title": "Super Mario All Stars",
+      "console": "Wii",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     },
     {
-      "game_id": 5708,
-      "title": "Wonderworld Amusement Park",
+      "game_id": 6122,
+      "title": "uDraw E Sei Subito Artista!",
       "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5586,
+      "title": "Sherlock Holmes - L'orecchino D'argento",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6886,
+      "title": "Instant Sports: Summer Games",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6923,
+      "title": "LEGO Party!",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7058,
+      "title": "Rocket League",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7139,
+      "title": "Theatrhythm Final Bar Line",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7201,
+      "title": "Xenoblade Chronicles: Def. Ed. Col. Set w/Vinyl, Artbook, Steelbook&Poster",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6189,
+      "title": "Big Rumble Boxing - Creed Champions",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6334,
+      "title": "Just Dance 2021",
+      "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
