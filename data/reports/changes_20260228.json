@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-02-28T06:42:59.764698",
+    "generated_at": "2026-02-28T11:26:59.289747",
     "date": "2026-02-28",
-    "duration_sec": 17.9,
+    "duration_sec": 20.6,
     "total_scraped": 7235
   },
   "summary": {
     "new_games": 0,
     "price_changes": 20,
-    "availability_changes": 4,
-    "unchanged": 7211,
+    "availability_changes": 14,
+    "unchanged": 7201,
     "errors": 0
   },
   "new_games": [],
@@ -198,8 +198,22 @@
       "old_status": "Esaurito"
     },
     {
+      "game_id": 753,
+      "title": "Disney Lego Pirati dei Caraibi",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
       "game_id": 858,
       "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1071,
+      "title": "Pirati dei Caraibi : Ai confini del mondo",
       "console": "Xbox 360",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
@@ -219,18 +233,11 @@
       "old_status": "Disponibile"
     },
     {
-      "game_id": 2280,
-      "title": "Outlast Trinity",
+      "game_id": 2187,
+      "title": "Metal Gear Solid V: The Definitive Experience",
       "console": "Xbox One",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
-    },
-    {
-      "game_id": 2668,
-      "title": "Mount & Blade II: Bannerlord",
-      "console": "Xbox CrossGen",
-      "new_status": "Esaurito",
-      "old_status": "Disponibile"
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     },
     {
       "game_id": 2694,
@@ -247,8 +254,43 @@
       "old_status": "Esaurito"
     },
     {
+      "game_id": 2745,
+      "title": "Cyberpunk 2077: Ultimate Edition (3 Disco)",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4652,
+      "title": "Inside + Limbo",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
       "game_id": 3856,
       "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4704,
+      "title": "Life is Strange 2 (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3945,
+      "title": "My Hero One's Justice",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4850,
+      "title": "Red Dead Redemption",
       "console": "PS4",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
@@ -257,6 +299,34 @@
       "game_id": 3856,
       "title": "Lets Sing 2018 (Game Only)",
       "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3879,
+      "title": "Madden NFL 25",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5732,
+      "title": "Zumba Fitness w/Belt",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5377,
+      "title": "Just Dance 4",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5708,
+      "title": "Wonderworld Amusement Park",
+      "console": "Wii",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
