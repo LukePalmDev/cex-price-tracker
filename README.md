@@ -47,7 +47,7 @@ GitHub Actions (Scraping ogni 24h)
 ### 1. Clona Repository
 
 ```bash
-git clone https://github.com/TUO_USERNAME/cex-price-tracker.git
+git clone https://github.com/LukePalmDev/cex-price-tracker.git
 cd cex-price-tracker
 ```
 
@@ -135,7 +135,7 @@ Nota: se esponi questa API su internet senza protezione, chiunque può modificar
 
 ## 📈 Dashboard
 
-**Live:** [https://TUO_USERNAME.github.io/cex-price-tracker](https://TUO_USERNAME.github.io/cex-price-tracker)
+**Live:** [https://LukePalmDev.github.io/cex-price-tracker](https://LukePalmDev.github.io/cex-price-tracker)
 
 Features:
 - 🔍 Ricerca e filtri avanzati
@@ -148,7 +148,7 @@ Features:
 ## 🛠️ Tecnologie
 
 - **Backend:** Python 3.x
-- **Scraping:** Selenium WebDriver
+- **Scraping:** Python + Algolia Search API
 - **Database:** SQLite
 - **Automazione:** GitHub Actions
 - **Frontend:** HTML/CSS/JavaScript + Chart.js

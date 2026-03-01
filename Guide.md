@@ -1,4 +1,26 @@
-# CEX_PRICE_TRACKER_GUIDA_PARAMETRICA
+# CEX Price Tracker – Guida Parametrica
+
+Documentazione tecnica di riferimento per la dashboard web e l'intero sistema di monitoraggio prezzi CEX Italia. Aggiornata a **marzo 2026**.
+
+---
+
+## Indice
+
+1. [Identità e Architettura](#1-identità-e-architettura)
+2. [Design System](#2-design-system)
+3. [Struttura Layout](#3-struttura-layout)
+4. [Componenti UI](#4-componenti-ui-uno-per-uno)
+5. [Struttura dei Dati](#5-struttura-dei-dati)
+6. [Logica JavaScript](#6-logica-javascript)
+7. [Responsive](#7-responsive)
+8. [Parametri Modificabili Rapidamente](#8-parametri-modificabili-rapidamente)
+9. [GitHub Actions Workflows](#9-github-actions-workflows)
+10. [Server API Wishlist](#10-server-api-wishlist)
+11. [Funzionalità Non Presenti (Roadmap)](#11-funzionalità-non-presenti-roadmap)
+12. [Bug Noti](#12-bug-noti)
+13. [Allegato: Mapping Categorie/Gruppi](#allegato-rapido-mapping-categoriegruppi)
+
+---
 
 ## 1. IDENTITÀ E ARCHITETTURA
 
@@ -6,17 +28,21 @@
 |---|---|
 | Nome app | `CEX Price Tracker` |
 | Lingua interfaccia | Italiano (`<html lang="it">`) |
-| Tipo file | Single-file HTML con CSS e JS inline |
+| Tipo file dashboard | Single-file HTML con CSS e JS inline (`index.html` nella root) |
 | Framework UI | Nessuno |
 | Libreria grafici | Chart.js via CDN |
 | Build tools | Nessuno (runtime browser puro) |
+| Scraping engine | Python + Algolia Search API (no Selenium) |
+| Database | SQLite (`data/current/games.db`) |
+| Automazione | GitHub Actions (3 workflow) |
+| Hosting dashboard | GitHub Pages (`/dashboard` folder come source) |
 
 ### Dipendenze esterne (CDN)
 
 | Nome | Versione/Pesi | URL |
 |---|---|---|
 | Google Fonts `JetBrains Mono` | `300,400,500,700` | `https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;700;800&display=swap` |
-| Google Fonts `Syne` | `400,600,700,800` | `https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;700;800&display=swap` |
+| Google Fonts `Syne` | `400,600,700,800` | (stessa richiesta CDN sopra) |
 | Chart.js UMD | `4.4.1` | `https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js` |
 
 ### Fonte dati
@@ -39,7 +65,7 @@
 | `REPORTS_BASE` | `${RAW}/data/reports` | Base report cambi |
 | `PAGE_SIZE` | `50` | Righe tabella per pagina |
 | `CONSOLE_META` | mappa 9 categorie | Colori + gruppo per card/charts/tabella |
-| `GROUP_META` | mappa 4 gruppi (`Xbox`,`PS4`,`Wii`,`Switch`) | Etichetta+colore colonna "Gruppo" |
+| `GROUP_META` | mappa 4 gruppi (`Xbox`, `PS4`, `Wii`, `Switch`) | Etichetta+colore colonna "Gruppo" (chiave = campo `console` del DB) |
 
 ---
 
@@ -55,7 +81,7 @@
 | `--border` | `#1e1e30` | Bordi |
 | `--amber` | `#f5a623` | Accent principale |
 | `--amber-dim` | `#7a5112` | Accent amber attenuato |
-| `--green` | `#22c55e` | Disponibile/valori positivi nel tema |
+| `--green` | `#22c55e` | Disponibile/valori positivi |
 | `--red` | `#ef4444` | Stato negativo/valori in aumento prezzo |
 | `--blue` | `#3b82f6` | Hover bottone storico |
 | `--purple` | `#a855f7` | Variabile definita ma non usata direttamente |
@@ -96,7 +122,7 @@
 |---|---|---|---|
 | `Syne, sans-serif` | Google Fonts | `400,600,700,800` | Body e testo generale |
 | `JetBrains Mono, monospace` | Google Fonts | `300,400,500,700` | Label tecniche, pulsanti, pill, tabelle, metriche, grafici |
-| `monospace` (fallback inline) | System | n/a | Placeholder caricamento/casi fallback inline |
+| `monospace` (fallback inline) | System | n/a | Placeholder caricamento/casi fallback |
 
 ### Effetti visivi globali
 
@@ -166,7 +192,7 @@ BODY
 | Ruolo | Branding + stato dataset + refresh manuale |
 | Posizione | Top sticky (`z-index:100`) |
 | Dati | `pill-update` (data), `pill-total` (conteggio titoli), `pill-status` statico `Online` |
-| Interazioni | Click `↻ Aggiorna` -> `loadData(true)` |
+| Interazioni | Click `↻ Aggiorna` → `loadData(true)` |
 | Stile | Altezza `56px`, blur `12px`, amber accent su logo e bottone |
 
 ### Loading Screen
@@ -196,7 +222,7 @@ BODY
 | Ruolo | Breakdown per sotto-console |
 | Posizione | `#console-stats-grid` sotto KPI |
 | Dati | Conteggio titoli per categoria + disponibili (%) |
-| Interazioni | Click card -> `filterByConsole(cat)` + scroll ai filtri |
+| Interazioni | Click card → `filterByConsole(cat)` + scroll ai filtri |
 | Stile | Colore testo/pallino da `CONSOLE_META[cat].color`, inline style dinamico |
 
 ### Donut chart
@@ -205,7 +231,7 @@ BODY
 |---|---|
 | Ruolo | Distribuzione titoli per categoria |
 | Posizione | Prima card in `.charts-row` |
-| Dati | `cats`/`vals` derivati da `(g.category || g.console)` |
+| Dati | `cats`/`vals` derivati da `(g.category \|\| g.console)` |
 | Interazioni | Tooltip Chart.js |
 | Stile | Cutout `65%`, legenda right, `hoverOffset:6`, center value custom |
 
@@ -226,8 +252,9 @@ BODY
 | Ruolo | Ticker dei cambi del giorno (max 60) |
 | Posizione | Terza card `.charts-row` |
 | Dati | `price_changes` da `changes_YYYYMMDD.json` |
-| Interazioni | Click riga -> `openModal(game_id)` |
+| Interazioni | Click riga → `openModal(game_id)` |
 | Stile | Riga `5px 8px`, border-left `2px` verde/rosso, prezzo monospace |
+| Nota | `availability_changes` e `new_games` dal report non vengono visualizzati nel ticker (vedi §11) |
 
 ### Barra export + toggle wishlist
 
@@ -263,11 +290,12 @@ BODY
 
 | Campo | Dettaglio |
 |---|---|
-| Ruolo | Lista giochi salvati localmente |
+| Ruolo | Lista giochi salvati localmente (o via API server opzionale) |
 | Posizione | Off-canvas destro, full-height sotto header |
 | Dati | `wishlist` (array ID) + matching `allGames` |
 | Interazioni | Toggle open/close, remove item |
 | Stile | `width:320px`, animazione `transform .3s cubic-bezier(.4,0,.2,1)` |
+| Persistenza | `localStorage` (chiave `cex-wishlist`) oppure API server se attivo |
 
 ### Modal storico prezzi
 
@@ -285,9 +313,11 @@ BODY
 
 ### 5.1 `games.json` (catalogo)
 
-Endpoint atteso: `GAMES_URL`.
+Endpoint atteso: `GAMES_URL` → `dashboard/data/games.json`.
 
-Nota pratica: il codice usa `data.statistics` ma ha fallback data update su `data.metadata.exported_at`.
+Il file viene rigenerato a ogni run dello scraper e committato automaticamente da GitHub Actions.
+
+> **Nota:** il codice legge preferibilmente `data.statistics`, con fallback su `data.metadata.exported_at` per la data di aggiornamento.
 
 Schema osservato/atteso:
 
@@ -311,21 +341,20 @@ Schema osservato/atteso:
     }
   },
   "statistics": {
-    "total_games": 11,
-    "available_games": 9,
-    "unavailable_games": 2,
+    "total_games": 6092,
+    "available_games": 3124,
+    "unavailable_games": 2968,
     "by_console": {
-      "PS4": 4,
-      "Xbox": 3,
-      "Switch": 2,
-      "PSP": 1,
-      "Wii": 1
+      "Xbox": 2514,
+      "PS4": 1577,
+      "Wii": 1002,
+      "Switch": 999
     },
-    "average_price": 23.9,
-    "last_update": "2026-02-17",
+    "average_price": 13.05,
+    "last_update": "2026-02-21",
     "daily_summary": {
-      "price_changes": 0,
-      "availability_changes": 0
+      "price_changes": 183,
+      "availability_changes": 37
     }
   },
   "games": [
@@ -362,7 +391,7 @@ Schema osservato/atteso:
 |---|---|---|
 | `id` | `number` | Row key implicita, wishlist, modal, changes cross-reference |
 | `title` | `string` | Ricerca, tabella, modal, wishlist, changes list |
-| `console` | `string` | Colonna "Gruppo", modal sub, wishlist meta, CSV |
+| `console` | `string` | Colonna "Gruppo" (lookup `GROUP_META[g.console]`), modal sub, wishlist meta, CSV |
 | `category` | `string` | Filtri console, card/categorie, donut/bar, colonna "Categoria" |
 | `current_price` | `number` | Prezzo tabella, KPI, modal, wishlist, changes delta |
 | `is_available` | `0/1` | Badge stato, filtri, grafico bar, KPI availability |
@@ -371,14 +400,16 @@ Schema osservato/atteso:
 | `last_updated` | `YYYY-MM-DD` | Export CSV |
 | `price_history_30d` | `array` opzionale | Modal chart/table, changes diff old/new |
 | `price_trend_pct` | `number/null` | Colonna trend, filtro trend, sort trend |
-| `last_price_change` | `date/null` | Dato presente, non render diretto |
-| `last_availability_change` | `date/null` | Dato presente, non render diretto |
+| `last_price_change` | `date/null` | Presente nei dati, non renderizzato direttamente |
+| `last_availability_change` | `date/null` | Presente nei dati, non renderizzato direttamente |
 | `condition` | `null/string` | Non usato in UI |
-| `image_url` | `null/string` | Non usato in UI |
+| `image_url` | `null/string` | Non usato in UI (vedi §11) |
 
 ### 5.2 `changes_YYYYMMDD.json` (report giornaliero)
 
 Endpoint atteso: `${REPORTS_BASE}/changes_${YYYYMMDD}.json`.
+
+Uno per ogni run giornaliero, generato da `main_scraper.py` e committato da GitHub Actions.
 
 ```json
 {
@@ -420,13 +451,13 @@ Endpoint atteso: `${REPORTS_BASE}/changes_${YYYYMMDD}.json`.
 
 | Campo | Tipo | Uso |
 |---|---|---|
-| `price_changes[]` | array | Popola ticker cambi prezzo |
-| `price_changes[].game_id` | number | `openModal(game_id)` |
-| `price_changes[].title` | string | Etichetta riga |
-| `price_changes[].console` | string | Badge console |
-| `price_changes[].new_price` | number | Prezzo mostrato |
+| `price_changes[]` | array | Popola ticker cambi prezzo (max 60 righe) |
+| `price_changes[].game_id` | number | `openModal(game_id)` al click |
+| `price_changes[].title` | string | Etichetta riga ticker |
+| `price_changes[].console` | string | Badge console riga ticker |
+| `price_changes[].new_price` | number | Prezzo mostrato riga ticker |
 
-`availability_changes` e `new_games` non sono usati in rendering corrente del ticker.
+> `availability_changes` e `new_games` sono presenti nel JSON ma **non renderizzati** nel ticker corrente (vedi §11, punto 8).
 
 ---
 
@@ -441,38 +472,38 @@ Endpoint atteso: `${REPORTS_BASE}/changes_${YYYYMMDD}.json`.
 | `sortKey` | `string` | Chiave ordinamento corrente (`title` default) |
 | `sortDir` | `1/-1` | Direzione ordinamento |
 | `currentPage` | `number` | Pagina corrente |
-| `wishlist` | `Array<number>` | ID giochi salvati in localStorage |
+| `wishlist` | `Array<number>` | ID giochi salvati in localStorage (o API server) |
 | `wishlistOnly` | `boolean` | Flag filtro "solo wishlist" |
-| `donutChart` | `Chart|null` | Istanza chart donut |
-| `barChart` | `Chart|null` | Istanza chart bar |
-| `modalChart` | `Chart|null` | Istanza chart line modal |
+| `donutChart` | `Chart\|null` | Istanza chart donut |
+| `barChart` | `Chart\|null` | Istanza chart bar |
+| `modalChart` | `Chart\|null` | Istanza chart line modal |
 
 ### Tabella funzioni
 
 | Funzione | Trigger | Cosa fa |
 |---|---|---|
-| `loadData(force=false)` | Avvio (`loadData()`), click refresh | Fetch giochi, aggiorna KPI/pill/card console, grafici, ticker, tabella |
-| `filterByConsole(consoleName)` | Click card categoria dinamica | Imposta select console, filtra, scroll ai filtri |
-| `buildDonut(games)` | Chiamata interna da `loadData` | Crea donut Chart.js distribuzione categoria |
-| `buildBar(games)` | Chiamata interna da `loadData` | Crea bar stacked disponibilità |
-| `loadChanges(dateStr)` | Chiamata interna da `loadData` | Fetch report giorno, popola lista cambi prezzo |
-| `applyFilters()` | Input search, onchange select, reset, toggle WL, sort | Applica filtri multipli, ordina, reset pagina, aggiorna risultati+tabella |
-| `sortBy(key)` | Click header tabella | Toggle direzione, aggiorna frecce sort, rilancia filtri |
+| `loadData(force=false)` | Avvio, click refresh | Fetch giochi, aggiorna KPI/pill/card console, grafici, ticker, tabella |
+| `filterByConsole(consoleName)` | Click card categoria | Imposta select console, filtra, scroll ai filtri |
+| `buildDonut(games)` | Da `loadData` | Crea donut Chart.js distribuzione categoria |
+| `buildBar(games)` | Da `loadData` | Crea bar stacked disponibilità per categoria |
+| `loadChanges(dateStr)` | Da `loadData` | Fetch report giorno, popola ticker cambi prezzo |
+| `applyFilters()` | Input search, onchange select, reset, toggle WL, sort | Applica filtri multipli, ordina, reset pagina, aggiorna tabella |
+| `sortBy(key)` | Click header tabella | Toggle direzione sort, aggiorna frecce, rilancia filtri |
 | `resetFilters()` | Click bottone reset | Azzera campi filtro + `wishlistOnly` |
-| `toggleWishlistFilter()` | Click bottone solo wishlist | Toggle flag filtro wishlist-only |
+| `toggleWishlistFilter()` | Click "solo wishlist" | Toggle flag filtro wishlist-only |
 | `renderTable()` | Da `applyFilters`, `toggleWL`, `goPage` | Render righe pagina corrente |
-| `renderPagination()` | Chiamata interna da `renderTable` | Render controlli paginazione con ellissi |
+| `renderPagination()` | Da `renderTable` | Render controlli paginazione con ellissi |
 | `goPage(p)` | Click page-btn | Cambia pagina, rerender, scroll top smooth |
-| `toggleWL(e,id)` | Click stella riga o remove wishlist | Add/remove ID wishlist, salva localStorage, aggiorna UI |
-| `toggleWishlist()` | Click bottone wishlist/header panel | Apre/chiude pannello laterale |
+| `toggleWL(e,id)` | Click stella riga / remove wishlist | Add/remove ID wishlist, salva localStorage, aggiorna UI |
+| `toggleWishlist()` | Click bottone wishlist | Apre/chiude pannello laterale |
 | `updateWishlistUI()` | Da `loadData`, `toggleWL` | Render contenuto pannello wishlist |
 | `openModal(id)` | Click riga tabella, bottone storico, riga changes | Popola e apre modal con storico prezzi |
 | `closeModal(e)` | Click backdrop modal | Chiude modal solo se click su backdrop |
 | `closeModalDirect()` | Click X modal, tasto ESC | Chiusura diretta modal |
 | `exportCSV()` | Click export CSV | Crea CSV da `filtered`, avvia download |
 | `exportJSON()` | Click export JSON | Crea JSON prettified da `filtered`, avvia download |
-| `download(content,filename,mime)` | Chiamata da export | Blob + URL.createObjectURL + click `<a>` |
-| `today()` | Chiamata da export | Data ISO `YYYY-MM-DD` per nome file |
+| `download(content,filename,mime)` | Da export | Blob + URL.createObjectURL + click `<a>` |
+| `today()` | Da export | Data ISO `YYYY-MM-DD` per nome file |
 
 ### Logica filtro e ordinamento
 
@@ -485,7 +516,7 @@ filtered = allGames.filter(g => {
   // filtro wishlistOnly: id presente in wishlist
 });
 
-filtered.sort((a,b) => {
+filtered.sort((a, b) => {
   // string => localeCompare
   // numeri => sottrazione
   // direzione via sortDir (1 o -1)
@@ -499,11 +530,12 @@ filtered.sort((a,b) => {
 | `exportCSV()` | CSV separato da virgola | `ID,Titolo,Console,Prezzo,Disponibile,URL,Primo Visto,Ultimo Aggiornamento` | `cex-export-YYYY-MM-DD.csv` | `text/csv` |
 | `exportJSON()` | JSON prettified indent 2 | Intero array `filtered` | `cex-export-YYYY-MM-DD.json` | `application/json` |
 
-### Persistenza
+### Persistenza wishlist
 
 | Storage | Chiave | Tipo valore | Dove letta/scritta |
 |---|---|---|---|
 | `localStorage` | `cex-wishlist` | JSON array di ID (`[number,...]`) | Lettura in init stato, scrittura in `toggleWL` |
+| API Server (opzionale) | URL param `?api=` | REST GET/POST sul server locale | Se presente `api` in `URLSearchParams`, sovrascrive localStorage |
 
 ---
 
@@ -543,22 +575,172 @@ Nessun altro breakpoint esplicito; il resto è adattivo via `auto-fit`, `minmax`
 
 ---
 
-## 9. FUNZIONALITÀ NON PRESENTI
+## 9. GITHUB ACTIONS WORKFLOWS
 
-Funzionalità deducibili ma non implementate:
+Il sistema usa **3 workflow** definiti in `.github/workflows/`.
 
-1. Refresh automatico periodico (esiste solo refresh manuale).
-2. Gestione robusta di payload alternativi (es. `statistics` solo annidato in `metadata`).
-3. Persistenza completa dei filtri/sort/pagina in localStorage o URL query.
-4. Multi-colonna sort o sort stabile avanzato.
-5. Filtri range prezzo, fascia data, disponibilità per periodo.
-6. Import/export wishlist dedicato e sincronizzazione cloud.
-7. Supporto immagini prodotto (`image_url` è presente nei dati ma non usato).
-8. Gestione/visualizzazione `availability_changes` e `new_games` nel ticker.
-9. Accessibilità avanzata (focus styles completi, ARIA, keyboard navigation estesa oltre ESC).
-10. Modal con confronto periodi multipli e timeframe selezionabile.
-11. Internationalization strutturata (i18n) e switch lingua.
-12. Gestione errori di rete più granulare (retry/backoff/stati offline).
+### 9.1 `daily-scrape.yml` — Scraping automatico
+
+| Campo | Valore |
+|---|---|
+| Trigger | Cron 4 volte al giorno: `06:00`, `11:00`, `16:00`, `21:00` UTC + `workflow_dispatch` manuale |
+| Runner | `ubuntu-latest` |
+| Python | `3.11` con cache `pip` |
+| Dipendenza installata | `requests` (non Selenium — lo scraper usa le API Algolia) |
+| Script eseguito | `scraper/main_scraper.py` |
+| Secret richiesto | `ALGOLIA_API_KEY` |
+| File committati | `data/current/games.db`, `data/reports/`, `dashboard/data/` |
+| Messaggio commit | `🤖 Scrape: YYYY-MM-DD HH:MM` |
+
+### 9.2 `notify.yml` — Notifiche Telegram
+
+| Campo | Valore |
+|---|---|
+| Trigger | `workflow_run` dopo completamento di `daily-scrape.yml` (solo se `success`) + `workflow_dispatch` |
+| Runner | `ubuntu-latest` |
+| Python | `3.11` |
+| Dipendenza installata | `requests` |
+| Script eseguito | `notifications/notification_manager.py` |
+| Secret richiesti | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` |
+| Condizione | Eseguito solo se scraping precedente ha avuto esito positivo (`conclusion == 'success'`) |
+
+### 9.3 `monthly-snapshot.yml` — Backup mensile
+
+| Campo | Valore |
+|---|---|
+| Trigger | Cron il 1° di ogni mese alle `01:00 UTC` + `workflow_dispatch` |
+| Runner | `ubuntu-latest` |
+| Python | `3.11` |
+| Dipendenza installata | `pandas` |
+| Script eseguito | `scripts/monthly_snapshot.py` |
+| File committati | `data/history/` |
+| Messaggio commit | `📦 Monthly snapshot: YYYY-MM` |
+
+### Configurazione Secret GitHub richiesti
+
+| Secret | Workflow che lo usa | Obbligatorio |
+|---|---|---|
+| `ALGOLIA_API_KEY` | `daily-scrape.yml` | ✅ Sì |
+| `TELEGRAM_BOT_TOKEN` | `notify.yml` | ✅ Sì (per notifiche) |
+| `TELEGRAM_CHAT_ID` | `notify.yml` | ✅ Sì (per notifiche) |
+| `GITHUB_TOKEN` | `daily-scrape.yml`, `monthly-snapshot.yml` | ✅ Automatico (fornito da GitHub) |
+
+Per configurarli: **Settings → Secrets and variables → Actions → New repository secret**.
+
+---
+
+## 10. SERVER API WISHLIST
+
+Script: `scripts/wishlist_api_server.py`
+
+Permette di condividere la **stessa wishlist** tra la dashboard web e il sistema di notifiche Telegram, usando il database SQLite come fonte comune invece di `localStorage`.
+
+### Avvio
+
+```bash
+python scripts/wishlist_api_server.py \
+  --db data/current/games.db \
+  --host 127.0.0.1 \
+  --port 8787
+```
+
+### Utilizzo dalla dashboard
+
+Aprire la dashboard con il parametro `?api=`:
+
+```
+http://127.0.0.1:5500/dashboard/index.html?api=http://127.0.0.1:8787
+```
+
+Quando il parametro `api` è presente nell'URL, la dashboard usa il server locale per leggere/scrivere la wishlist invece di `localStorage`.
+
+### Flusso dati con API attiva
+
+```
+Dashboard (click ★) → POST http://127.0.0.1:8787 → games.db (tabella wishlist)
+                                                         ↕
+                                    notification_manager.py legge la stessa tabella
+                                                         ↕
+                                              Notifica Telegram
+```
+
+### Avviso sicurezza
+
+> ⚠️ Se l'API server viene esposta su internet senza autenticazione, chiunque può leggere e modificare la wishlist. Usarla **solo in locale** o proteggere l'endpoint.
+
+---
+
+## 11. FUNZIONALITÀ NON PRESENTI (ROADMAP)
+
+Funzionalità deducibili dall'architettura ma non ancora implementate:
+
+1. **Refresh automatico periodico** — esiste solo il refresh manuale tramite bottone. Implementabile con `setInterval(() => loadData(true), ms)`.
+
+2. **Gestione robusta payload alternativi** — se `statistics` è solo annidato in `metadata` (e non a livello radice), alcuni KPI possono risultare `undefined`. Aggiungere fallback completo.
+
+3. **Persistenza filtri/sort/pagina** — i filtri si perdono al refresh. Implementabile salvando i valori in `localStorage` o come query string URL (es. `?console=PS4&q=god`).
+
+4. **Sort multi-colonna o sort stabile** — il sort corrente è a singola chiave e non garantisce ordine stabile per valori uguali.
+
+5. **Filtri range prezzo e fascia data** — nessun input per filtrare per fascia prezzo (es. da €5 a €20) o per data di primo avvistamento/ultima modifica.
+
+6. **Import/export wishlist e sync cloud** — la wishlist è locale (localStorage). Non è possibile importarla/esportarla come file o sincronizzarla tra dispositivi senza l'API server locale.
+
+7. **Immagini prodotto** — il campo `image_url` è presente nei dati ma non usato in UI. Potrebbe essere mostrato nel modal o come thumbnail in tabella.
+
+8. **Visualizzazione `availability_changes` e `new_games` nel ticker** — il report giornaliero contiene queste sezioni ma solo `price_changes` è renderizzato. Si potrebbero aggiungere tab o sezioni separate nel ticker.
+
+9. **Accessibilità avanzata** — mancano focus styles completi, ruoli ARIA su modal e pannello wishlist, navigazione keyboard estesa oltre ESC.
+
+10. **Modal con timeframe selezionabile** — lo storico prezzi mostra gli ultimi 30 giorni fissi. Un selettore (7gg / 30gg / 90gg / tutto) migliorerebbe l'analisi dei trend.
+
+11. **Internazionalizzazione (i18n)** — tutti i testi sono hardcoded in italiano. Una struttura i18n permetterebbe di aggiungere altre lingue senza modificare l'HTML/JS.
+
+12. **Gestione errori di rete granulare** — in caso di fetch fallito viene mostrato un messaggio generico. Si potrebbero implementare retry con backoff esponenziale e stati offline/degradato.
+
+---
+
+## 12. BUG NOTI
+
+### Bug 1 — `GROUP_META` non copre PSP
+
+**Posizione:** `index.html`, costante `GROUP_META`
+
+**Descrizione:** La costante `GROUP_META` viene interrogata con `GROUP_META[g.console]` dove `g.console` è il valore del campo `console` nel DB (es. `"PS4"`, `"PSP"`, `"Xbox"`, ecc.). La definizione attuale ha la chiave `"PS4"` per PlayStation, ma i giochi PSP hanno `console = "PSP"` → `GROUP_META["PSP"]` è `undefined`. Il fallback `{ label: g.console, color: 'var(--muted)' }` fa sì che i giochi PSP appaiano con colore grigio muted anziché il blu PlayStation.
+
+**Fix suggerito:** Aggiungere la chiave `PSP` in `GROUP_META`:
+
+```js
+const GROUP_META = {
+  'Xbox':   { label: 'Xbox',   color: CSS('--xbox') },
+  'PS4':    { label: 'PS',     color: CSS('--ps4') },
+  'PSP':    { label: 'PS',     color: CSS('--ps4') },   // ← aggiungere questa riga
+  'Wii':    { label: 'Wii',    color: CSS('--wii') },
+  'Switch': { label: 'Switch', color: CSS('--sw') },
+};
+```
+
+### Bug 2 — Sub-console Xbox non coperti da `GROUP_META`
+
+**Posizione:** `index.html`, costante `GROUP_META`
+
+**Descrizione:** Analogo al bug precedente. Se il campo `console` nel DB contiene `"Xbox 360"`, `"Xbox One"`, `"Xbox CrossGen"` o `"Xbox Series"` (anziché solo `"Xbox"`), nessuna di queste chiavi è presente in `GROUP_META` → fallback a colore muted.
+
+**Fix suggerito:** Aggiungere tutte le varianti Xbox oppure normalizzare il campo `console` nello scraper a `"Xbox"` per tutte le sub-console Xbox.
+
+```js
+const GROUP_META = {
+  'Xbox':          { label: 'Xbox', color: CSS('--xbox') },
+  'Xbox 360':      { label: 'Xbox', color: CSS('--xbox') },
+  'Xbox One':      { label: 'Xbox', color: CSS('--xbox') },
+  'Xbox CrossGen': { label: 'Xbox', color: CSS('--xbox') },
+  'Xbox Series':   { label: 'Xbox', color: CSS('--xbox') },
+  'PS4':           { label: 'PS',   color: CSS('--ps4') },
+  'PSP':           { label: 'PS',   color: CSS('--ps4') },
+  'Wii':           { label: 'Wii',  color: CSS('--wii') },
+  'Switch':        { label: 'Switch', color: CSS('--sw') },
+};
+```
 
 ---
 
@@ -585,3 +767,5 @@ Funzionalità deducibili ma non implementate:
   }
 }
 ```
+
+> **Nota:** Vedi §12 per i bug relativi alle chiavi mancanti in `GROUP_META`.
