@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-03-01T11:27:58.757110",
+    "generated_at": "2026-03-01T16:38:25.095773",
     "date": "2026-03-01",
-    "duration_sec": 17.9,
+    "duration_sec": 20.7,
     "total_scraped": 7235
   },
   "summary": {
     "new_games": 0,
     "price_changes": 20,
-    "availability_changes": 14,
-    "unchanged": 7201,
+    "availability_changes": 32,
+    "unchanged": 7183,
     "errors": 0
   },
   "new_games": [],
@@ -177,8 +177,29 @@
   ],
   "availability_changes": [
     {
+      "game_id": 803,
+      "title": "Far Cry 3",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1496,
+      "title": "Gears of War 3",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
       "game_id": 858,
       "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1673,
+      "title": "Rapala Fishing Kinect",
       "console": "Xbox 360",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
@@ -198,8 +219,29 @@
       "old_status": "Esaurito"
     },
     {
-      "game_id": 654,
-      "title": "Bodycount",
+      "game_id": 622,
+      "title": "Batman Arkham Collection (No Arkham Knight) 2 Disc",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 679,
+      "title": "Call of Duty: Black Ops 2",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 686,
+      "title": "Captain America Il Super Soldato",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 805,
+      "title": "Far Cry Instinct Predator",
       "console": "Xbox 360",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
@@ -226,6 +268,34 @@
       "old_status": "Disponibile"
     },
     {
+      "game_id": 2280,
+      "title": "Outlast Trinity",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2357,
+      "title": "Rogue Trooper Redux",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2363,
+      "title": "Rush: A Disney Pixar Adventure",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2376,
+      "title": "Shadow Of The Tomb Raider - Definitive Edition",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
       "game_id": 2694,
       "title": "Shin Megami Tensei V: Vengeance",
       "console": "Xbox CrossGen",
@@ -240,36 +310,43 @@
       "old_status": "Esaurito"
     },
     {
-      "game_id": 3120,
-      "title": "Marvel La Grande Alleanza 2",
+      "game_id": 3328,
+      "title": "Star Wars Battlefront - Elite Squadron",
       "console": "PSP",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     },
     {
-      "game_id": 3158,
-      "title": "Monster Hunter - Freedom Unite",
+      "game_id": 3330,
+      "title": "Star Wars Battlefront Lo Squadrone Dei Rinnegati",
       "console": "PSP",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     },
     {
-      "game_id": 3272,
-      "title": "Rock Band Unplugged",
-      "console": "PSP",
+      "game_id": 4568,
+      "title": "Fast & Furious Crossroads",
+      "console": "PS4",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     },
     {
-      "game_id": 3410,
-      "title": "Wipeout Pure",
-      "console": "PSP",
+      "game_id": 4606,
+      "title": "God Eater 3",
+      "console": "PS4",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     },
     {
-      "game_id": 4674,
-      "title": "Kingdom Come: Deliverance: Royal Edition (Senza DLC)",
+      "game_id": 4699,
+      "title": "Lego Marvel Collection",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4700,
+      "title": "LEGO Marvel Superheroes",
       "console": "PS4",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
@@ -282,6 +359,34 @@
       "old_status": "Esaurito"
     },
     {
+      "game_id": 3887,
+      "title": "Mass Effect: Legendary Edition (2 Disc)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4887,
+      "title": "Sekiro: Shadows Die Twice (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4922,
+      "title": "Sniper Elite 3",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3792,
+      "title": "Journey To The Savage Planet",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
       "game_id": 3856,
       "title": "Lets Sing 2018 (Game Only)",
       "console": "PS4",
@@ -289,43 +394,64 @@
       "old_status": "Disponibile"
     },
     {
-      "game_id": 3952,
-      "title": "Naruto Shippuden: Ultimate Ninja Storm 4 Road To Boruto",
+      "game_id": 3969,
+      "title": "NBA 2K26",
       "console": "PS4",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     },
     {
-      "game_id": 6712,
-      "title": "Bluey: The Video Game",
+      "game_id": 4107,
+      "title": "Shadow Of The Tomb Raider - Definitive Edition",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5630,
+      "title": "Super Mario All Stars",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5209,
+      "title": "Cattivissimo Me",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6704,
+      "title": "Big Helmet",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     },
     {
-      "game_id": 6334,
-      "title": "Just Dance 2021",
+      "game_id": 6778,
+      "title": "Disaster Report 4: Summer Memories",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     },
     {
-      "game_id": 7015,
-      "title": "Paw Patrol Il Film Adventure City Chiama",
+      "game_id": 6989,
+      "title": "Nights of Azure 2",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     },
     {
-      "game_id": 6192,
-      "title": "Bioshock: The Collection",
+      "game_id": 6290,
+      "title": "Front Mission 1st Remake",
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     },
     {
-      "game_id": 6332,
-      "title": "Just Dance 2019",
+      "game_id": 6483,
+      "title": "Poison Control",
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
