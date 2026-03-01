@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-03-01T06:52:21.094469",
+    "generated_at": "2026-03-01T11:27:58.757110",
     "date": "2026-03-01",
-    "duration_sec": 21.9,
+    "duration_sec": 17.9,
     "total_scraped": 7235
   },
   "summary": {
     "new_games": 0,
     "price_changes": 20,
-    "availability_changes": 2,
-    "unchanged": 7213,
+    "availability_changes": 14,
+    "unchanged": 7201,
     "errors": 0
   },
   "new_games": [],
@@ -198,6 +198,13 @@
       "old_status": "Esaurito"
     },
     {
+      "game_id": 654,
+      "title": "Bodycount",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
       "game_id": 858,
       "title": "Grande Avventura di Snoopy, La",
       "console": "Xbox 360",
@@ -233,6 +240,41 @@
       "old_status": "Esaurito"
     },
     {
+      "game_id": 3120,
+      "title": "Marvel La Grande Alleanza 2",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3158,
+      "title": "Monster Hunter - Freedom Unite",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3272,
+      "title": "Rock Band Unplugged",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3410,
+      "title": "Wipeout Pure",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4674,
+      "title": "Kingdom Come: Deliverance: Royal Edition (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
       "game_id": 3856,
       "title": "Lets Sing 2018 (Game Only)",
       "console": "PS4",
@@ -243,6 +285,48 @@
       "game_id": 3856,
       "title": "Lets Sing 2018 (Game Only)",
       "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3952,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 4 Road To Boruto",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6712,
+      "title": "Bluey: The Video Game",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6334,
+      "title": "Just Dance 2021",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7015,
+      "title": "Paw Patrol Il Film Adventure City Chiama",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6192,
+      "title": "Bioshock: The Collection",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6332,
+      "title": "Just Dance 2019",
+      "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
