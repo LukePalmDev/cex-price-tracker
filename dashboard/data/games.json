@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-03-02T01:35:38.900481",
+    "exported_at": "2026-03-02T02:02:05.433207",
     "total_games": 17500,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-03-02",
       "daily_summary": {
         "new_games": 5917,
-        "price_changes": 28,
-        "availability_changes": 4,
-        "unchanged": 7222,
+        "price_changes": 72,
+        "availability_changes": 10,
+        "unchanged": 20343,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-03-02",
     "daily_summary": {
       "new_games": 5917,
-      "price_changes": 28,
-      "availability_changes": 4,
-      "unchanged": 7222,
+      "price_changes": 72,
+      "availability_changes": 10,
+      "unchanged": 20343,
       "errors": 0
     }
   },
@@ -77677,6 +77677,16 @@
         {
           "old_price": 2.5,
           "new_price": 1.0,
+          "changed_at": "2026-03-02 02:01:48"
+        },
+        {
+          "old_price": 1.0,
+          "new_price": 2.5,
+          "changed_at": "2026-03-02 02:01:47"
+        },
+        {
+          "old_price": 2.5,
+          "new_price": 1.0,
           "changed_at": "2026-03-02 01:35:20"
         },
         {
@@ -82664,6 +82674,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-03-02 02:01:48"
+        },
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-03-02 02:01:47"
+        },
         {
           "old_price": 22.0,
           "new_price": 20.0,
@@ -93373,6 +93393,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 6.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-02 02:01:49"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 6.0,
+          "changed_at": "2026-03-02 02:01:49"
+        },
+        {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-03-02 01:35:20"
@@ -93383,7 +93413,7 @@
           "changed_at": "2026-03-02 01:35:20"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 316.67
     },
     {
       "id": 7478,
@@ -108840,6 +108870,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 6.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-02 02:01:49"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 6.0,
+          "changed_at": "2026-03-02 02:01:49"
+        },
+        {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-03-02 01:35:20"
@@ -108850,7 +108890,7 @@
           "changed_at": "2026-03-02 01:35:20"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 316.67
     },
     {
       "id": 8696,
@@ -120581,6 +120621,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-02 02:01:49"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 8.0,
+          "changed_at": "2026-03-02 02:01:49"
+        },
+        {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-03-02 01:35:21"
@@ -120591,7 +120641,7 @@
           "changed_at": "2026-03-02 01:35:21"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 8859,
@@ -120935,6 +120985,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 3.5,
+          "changed_at": "2026-03-02 02:01:49"
+        },
+        {
+          "old_price": 3.5,
+          "new_price": 5.0,
+          "changed_at": "2026-03-02 02:01:48"
+        },
         {
           "old_price": 5.0,
           "new_price": 3.5,
@@ -132223,6 +132283,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 8.0,
+          "changed_at": "2026-03-02 02:01:49"
+        },
+        {
+          "old_price": 8.0,
+          "new_price": 15.0,
+          "changed_at": "2026-03-02 02:01:48"
+        },
         {
           "old_price": 15.0,
           "new_price": 8.0,
@@ -150082,6 +150152,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 10.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-02 02:01:51"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-02 02:01:51"
+        },
+        {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-03-02 01:35:22"
@@ -150092,7 +150172,7 @@
           "changed_at": "2026-03-02 01:35:22"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -50.0
     },
     {
       "id": 9219,
@@ -172766,6 +172846,16 @@
         {
           "old_price": 2.5,
           "new_price": 5.0,
+          "changed_at": "2026-03-02 02:01:51"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 2.5,
+          "changed_at": "2026-03-02 02:01:50"
+        },
+        {
+          "old_price": 2.5,
+          "new_price": 5.0,
           "changed_at": "2026-03-02 01:35:23"
         },
         {
@@ -180709,6 +180799,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 28.0,
+          "new_price": 38.0,
+          "changed_at": "2026-03-02 02:01:51"
+        },
+        {
+          "old_price": 38.0,
+          "new_price": 28.0,
+          "changed_at": "2026-03-02 02:01:51"
+        },
+        {
           "old_price": null,
           "new_price": 38.0,
           "changed_at": "2026-03-02 01:35:23"
@@ -180719,7 +180819,7 @@
           "changed_at": "2026-03-02 01:35:23"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 35.71
     },
     {
       "id": 10270,
@@ -183109,6 +183209,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 70.0,
+          "new_price": 65.0,
+          "changed_at": "2026-03-02 02:01:51"
+        },
+        {
+          "old_price": 65.0,
+          "new_price": 70.0,
+          "changed_at": "2026-03-02 02:01:50"
+        },
         {
           "old_price": 70.0,
           "new_price": 65.0,
@@ -190516,6 +190626,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-03-02 02:01:51"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-03-02 02:01:51"
+        },
+        {
           "old_price": 18.0,
           "new_price": 15.0,
           "changed_at": "2026-03-02 01:35:23"
@@ -190526,7 +190646,7 @@
           "changed_at": "2026-03-02 01:35:22"
         }
       ],
-      "price_trend_pct": -16.67
+      "price_trend_pct": 20.0
     },
     {
       "id": 10378,
@@ -209303,6 +209423,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 10.0,
+          "new_price": 20.0,
+          "changed_at": "2026-03-02 02:01:52"
+        },
+        {
+          "old_price": 20.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-02 02:01:52"
+        },
+        {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-03-02 01:35:24"
@@ -209313,7 +209443,7 @@
           "changed_at": "2026-03-02 01:35:24"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 100.0
     },
     {
       "id": 3550,
@@ -253752,6 +253882,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-02 02:01:54"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-03-02 02:01:53"
+        },
         {
           "old_price": 4.0,
           "new_price": 5.0,
@@ -371304,6 +371444,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 10.0,
+          "new_price": 4.0,
+          "changed_at": "2026-03-02 02:01:52"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-02 02:01:52"
+        },
+        {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-03-02 01:35:24"
@@ -371314,7 +371464,7 @@
           "changed_at": "2026-03-02 01:35:24"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -60.0
     },
     {
       "id": 3180,
@@ -376231,6 +376381,21 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 2.0,
+          "new_price": 3.5,
+          "changed_at": "2026-03-02 02:01:52"
+        },
+        {
+          "old_price": 3.5,
+          "new_price": 6.0,
+          "changed_at": "2026-03-02 02:01:52"
+        },
+        {
+          "old_price": 6.0,
+          "new_price": 2.0,
+          "changed_at": "2026-03-02 02:01:52"
+        },
+        {
           "old_price": null,
           "new_price": 3.5,
           "changed_at": "2026-03-02 01:35:24"
@@ -376246,7 +376411,7 @@
           "changed_at": "2026-03-02 01:35:24"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 75.0
     },
     {
       "id": 3255,
@@ -602519,6 +602684,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-03-02 02:01:44"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-02 02:01:44"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-03-02 01:35:15"
         },
         {
@@ -616489,6 +616664,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-02 02:01:45"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
+          "changed_at": "2026-03-02 02:01:45"
+        },
+        {
           "old_price": 25.0,
           "new_price": 18.0,
           "changed_at": "2026-03-02 01:35:16"
@@ -616639,7 +616824,7 @@
           "changed_at": "2026-02-26 00:27:38"
         }
       ],
-      "price_trend_pct": -28.0
+      "price_trend_pct": 38.89
     },
     {
       "id": 1170,
@@ -618676,6 +618861,21 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 3.0,
+          "new_price": 1.5,
+          "changed_at": "2026-03-02 02:01:45"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 2.0,
+          "changed_at": "2026-03-02 02:01:45"
+        },
+        {
+          "old_price": 2.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-02 02:01:45"
+        },
+        {
           "old_price": 2.0,
           "new_price": 3.0,
           "changed_at": "2026-03-02 01:35:16"
@@ -618901,7 +619101,7 @@
           "changed_at": "2026-02-26 00:27:38"
         }
       ],
-      "price_trend_pct": 50.0
+      "price_trend_pct": -50.0
     },
     {
       "id": 1204,
@@ -625225,6 +625425,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-03-02 02:01:45"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-02 02:01:45"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-03-02 01:35:16"
         },
         {
@@ -630886,6 +631096,16 @@
         "La Romanina"
       ],
       "price_history_30d": [
+        {
+          "old_price": 45.0,
+          "new_price": 28.0,
+          "changed_at": "2026-03-02 02:01:47"
+        },
+        {
+          "old_price": 28.0,
+          "new_price": 45.0,
+          "changed_at": "2026-03-02 02:01:47"
+        },
         {
           "old_price": 45.0,
           "new_price": 28.0,
