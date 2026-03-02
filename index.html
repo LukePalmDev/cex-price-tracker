@@ -732,7 +732,15 @@ async function loadData(force = false) {
       acc[key] = (acc[key] || 0) + 1;
       return acc;
     }, {});
-    renderConsoleStatsGrid(byConsole);
+    // Disponibili per console (calcolato sempre da allGames)
+    const availByConsole = allGames.reduce((acc, g) => {
+      const key = g.console || 'Altro';
+      if (String(g.is_available) === '1' || g.is_available === true) {
+        acc[key] = (acc[key] || 0) + 1;
+      }
+      return acc;
+    }, {});
+    renderConsoleStatsGrid(byConsole, availByConsole);
 
     // Charts
     buildDonut(byConsole, allGames.length);
@@ -763,7 +771,7 @@ const CONSOLE_ORDER = [
   'GameCube', 'Wii', 'Wii U', 'DS', '3DS', 'Switch',
 ];
 
-function renderConsoleStatsGrid(byConsole) {
+function renderConsoleStatsGrid(byConsole, availByConsole = {}) {
   const grid = document.getElementById('console-stats-grid');
   // Ordina le console secondo CONSOLE_ORDER, poi eventuali console sconosciute in fondo
   const entries = Object.entries(byConsole).sort(([a], [b]) => {
@@ -775,11 +783,13 @@ function renderConsoleStatsGrid(byConsole) {
     return ia - ib;
   });
   grid.innerHTML = entries.map(([cat, count]) => {
-    const meta = CONSOLE_META[cat] || { color: 'var(--muted)' };
+    const meta  = CONSOLE_META[cat] || { color: 'var(--muted)' };
+    const avail = availByConsole[cat] || 0;
+    const pct   = count ? Math.round(avail / count * 100) : 0;
     return `<div class="stat-card" onclick="filterByConsole('${cat}')" style="cursor:pointer">
       <div class="stat-label">${cat}</div>
       <div class="stat-value" style="color:${meta.color};font-size:20px">${count.toLocaleString()}</div>
-      <div class="stat-sub">titoli tracciati</div>
+      <div class="stat-sub">${avail.toLocaleString()} disponibili (${pct}%)</div>
     </div>`;
   }).join('');
 }
