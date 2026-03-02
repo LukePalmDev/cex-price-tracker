@@ -34,6 +34,13 @@
   --blue:          #3b82f6;    /* hover bottone storico prezzi */
   --purple:        #a855f7;    /* variabile riservata, non usata direttamente */
 
+  /* ── CARD EVENTI GIORNALIERI ── */
+  --ev-new:        #F5C518;    /* nuovi nel DB oggi — giallo */
+  --ev-avail:      #2DD4BF;    /* tornati disponibili — verde acqua */
+  --ev-unavail:    #FB923C;    /* diventati esauriti — arancione chiaro */
+  --ev-down:       #38BDF8;    /* riduzioni di prezzo — azzurro */
+  --ev-up:         #9B1C1C;    /* aumenti di prezzo — granata */
+
   /* ── CONSOLE: FAMIGLIA XBOX ── */
   --xbox:          #142C14;    /* Xbox originale */
   --xbox360:       #2D5128;    /* Xbox 360 */
@@ -193,11 +200,22 @@ main { max-width: 1600px; margin: 0 auto; padding: 20px 24px 40px; position: rel
   padding: 5px 8px; border-radius: 4px;
   background: var(--surface); border-left: 2px solid transparent; font-size: 11px;
 }
-.change-item.up   { border-left-color: var(--red); }
-.change-item.down { border-left-color: var(--green); }
+.change-item.up        { border-left-color: var(--red); }
+.change-item.down      { border-left-color: var(--green); }
+/* card eventi giornalieri */
+.change-item.ev-new    { border-left-color: var(--ev-new); }
+.change-item.ev-avail  { border-left-color: var(--ev-avail); }
+.change-item.ev-unavail{ border-left-color: var(--ev-unavail); }
+.change-item.ev-down   { border-left-color: var(--ev-down); }
+.change-item.ev-up     { border-left-color: var(--ev-up); }
 .change-price { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; margin-left: auto; white-space: nowrap; }
-.change-item.up   .change-price { color: var(--red); }
-.change-item.down .change-price { color: var(--green); }
+.change-item.up         .change-price { color: var(--red); }
+.change-item.down       .change-price { color: var(--green); }
+.change-item.ev-new     .change-price { color: var(--ev-new); }
+.change-item.ev-avail   .change-price { color: var(--ev-avail); }
+.change-item.ev-unavail .change-price { color: var(--ev-unavail); }
+.change-item.ev-down    .change-price { color: var(--ev-down); }
+.change-item.ev-up      .change-price { color: var(--ev-up); }
 .change-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
 .badge-console { font-family: 'JetBrains Mono', monospace; font-size: 8px; padding: 1px 5px; border-radius: 3px; white-space: nowrap; background: var(--border); color: var(--muted); }
 
@@ -452,13 +470,29 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
       <div class="chart-wrap"><canvas id="bar-chart"></canvas></div>
     </div>
 
-    <!-- riga 2: cambi prezzo (2u) -->
+    <!-- riga 2: 4 card eventi giornalieri (2u ciascuna = 8u) -->
     <div class="chart-card chart-col-2">
-      <div class="chart-title">Cambi Prezzo Oggi ↕</div>
-      <div class="changes-list" id="changes-list">
-        <div style="font-family:monospace;font-size:11px;color:var(--muted);text-align:center;padding:20px;">
-          Caricamento...
-        </div>
+      <div class="chart-title" style="color:var(--ev-new)">Nuovi nel DB Oggi</div>
+      <div class="changes-list" id="list-new-games">
+        <div style="font-family:monospace;font-size:11px;color:var(--muted);text-align:center;padding:20px;">Caricamento...</div>
+      </div>
+    </div>
+    <div class="chart-card chart-col-2">
+      <div class="chart-title">Cambi Disponibilità</div>
+      <div class="changes-list" id="list-avail-changes">
+        <div style="font-family:monospace;font-size:11px;color:var(--muted);text-align:center;padding:20px;">Caricamento...</div>
+      </div>
+    </div>
+    <div class="chart-card chart-col-2">
+      <div class="chart-title" style="color:var(--ev-down)">Riduzioni di Prezzo ↓</div>
+      <div class="changes-list" id="list-price-down">
+        <div style="font-family:monospace;font-size:11px;color:var(--muted);text-align:center;padding:20px;">Caricamento...</div>
+      </div>
+    </div>
+    <div class="chart-card chart-col-2">
+      <div class="chart-title" style="color:var(--ev-up)">Aumenti di Prezzo ↑</div>
+      <div class="changes-list" id="list-price-up">
+        <div style="font-family:monospace;font-size:11px;color:var(--muted);text-align:center;padding:20px;">Caricamento...</div>
       </div>
     </div>
   </div>
@@ -800,37 +834,70 @@ function filterByConsole(cat) {
 }
 
 // ─── CHANGES TICKER ────────────────────────────────────────────────────────
+const EMPTY_MSG  = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:16px;text-align:center;">Nessun dato oggi</div>';
+const ERROR_MSG  = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:16px;text-align:center;">Report non disponibile</div>';
+
+function makeItem(cls, gameId, console_, title, priceStr) {
+  const click = gameId ? `onclick="openModal(${gameId})" style="cursor:pointer"` : '';
+  return `<div class="change-item ${cls}" ${click}>
+    <span class="badge-console">${console_}</span>
+    <span class="change-title" title="${title}">${title}</span>
+    <span class="change-price">${priceStr}</span>
+  </div>`;
+}
+
 async function loadChanges(dateStr) {
-  const el = document.getElementById('changes-list');
+  const elNew   = document.getElementById('list-new-games');
+  const elAvail = document.getElementById('list-avail-changes');
+  const elDown  = document.getElementById('list-price-down');
+  const elUp    = document.getElementById('list-price-up');
+
   try {
     const res = await fetch(`${REPORTS_BASE}/changes_${dateStr}.json?t=${Date.now()}`);
     if (!res.ok) throw new Error('no report');
     const report = await res.json();
-    const changes = (report.price_changes || []).slice(0, 60);
-    if (!changes.length) {
-      el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Nessun cambio oggi</div>';
-      const backInStock0 = (report.availability_changes || [])
-        .filter(c => c.new_status === 'Disponibile').length;
-      return { summary: report.summary || null, back_in_stock: backInStock0 };
-    }
-    el.innerHTML = changes.map(c => {
-      const oldPrice = c.price_history_30d?.[0]?.old_price;
-      const newP = c.new_price;
-      const dir = oldPrice && oldPrice > newP ? 'down' : 'up';
-      const diff = oldPrice ? (newP - oldPrice).toFixed(1) : '';
-      const diffStr = diff ? (dir === 'down' ? diff : '+' + diff) : '';
-      return `<div class="change-item ${dir}" onclick="openModal(${c.game_id})" style="cursor:pointer">
-        <span class="badge-console">${c.console}</span>
-        <span class="change-title" title="${c.title}">${c.title}</span>
-        <span class="change-price">€${newP.toFixed(2)} ${diffStr ? `<small style="font-size:9px;">(${diffStr})</small>` : ''}</span>
-      </div>`;
-    }).join('');
-    // Ritorna oggetto arricchito: summary + contatori extra per le KPI card
-    const backInStock = (report.availability_changes || [])
-      .filter(c => c.new_status === 'Disponibile').length;
+
+    // ── Card 1: Nuovi nel DB (giallo) ──────────────────────────────────────
+    const newGames = report.new_games || [];
+    elNew.innerHTML = newGames.length
+      ? newGames.slice(0, 80).map(g =>
+          makeItem('ev-new', g.game_id, g.console, g.title,
+            g.price != null ? `€${Number(g.price).toFixed(2)}` : '–')
+        ).join('')
+      : EMPTY_MSG;
+
+    // ── Card 2: Cambi disponibilità (acqua/arancione) ─────────────────────
+    const availChanges = report.availability_changes || [];
+    const backInStock  = availChanges.filter(c => c.new_status === 'Disponibile').length;
+    elAvail.innerHTML = availChanges.length
+      ? availChanges.slice(0, 80).map(c => {
+          const isAvail = c.new_status === 'Disponibile';
+          const cls     = isAvail ? 'ev-avail' : 'ev-unavail';
+          return makeItem(cls, c.game_id, c.console, c.title, c.new_status);
+        }).join('')
+      : EMPTY_MSG;
+
+    // ── Card 3 & 4: Riduzioni (azzurro) e Aumenti (granata) ───────────────
+    const priceChanges = report.price_changes || [];
+    const priceDown = priceChanges.filter(c => c.old_price != null && c.new_price < c.old_price);
+    const priceUp   = priceChanges.filter(c => c.old_price != null && c.new_price > c.old_price);
+
+    const renderPrice = (items, cls) => items.length
+      ? items.slice(0, 80).map(c => {
+          const diff    = (c.new_price - c.old_price).toFixed(2);
+          const diffStr = diff > 0 ? `+${diff}` : diff;
+          return makeItem(cls, c.game_id, c.console, c.title,
+            `€${Number(c.new_price).toFixed(2)} <small style="font-size:9px;">(${diffStr})</small>`);
+        }).join('')
+      : EMPTY_MSG;
+
+    elDown.innerHTML = renderPrice(priceDown, 'ev-down');
+    elUp.innerHTML   = renderPrice(priceUp,   'ev-up');
+
     return { summary: report.summary || null, back_in_stock: backInStock };
+
   } catch(e) {
-    el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Report non disponibile</div>';
+    [elNew, elAvail, elDown, elUp].forEach(el => el.innerHTML = ERROR_MSG);
     return null;
   }
 }
