@@ -163,11 +163,13 @@ main { max-width: 1600px; margin: 0 auto; padding: 20px 24px 40px; position: rel
 .console-sw   { color: var(--sw); }
 
 /* ── CHARTS ── */
-.charts-row {
+.charts-section {
   display: grid;
-  grid-template-columns: 300px 1fr 280px;
+  grid-template-columns: repeat(8, 1fr);
   gap: 12px; margin-bottom: 20px;
 }
+.chart-col-2 { grid-column: span 2; }
+.chart-col-6 { grid-column: span 6; }
 .chart-card {
   background: var(--card); border: 1px solid var(--border); border-radius: 8px;
   padding: 16px;
@@ -177,7 +179,7 @@ main { max-width: 1600px; margin: 0 auto; padding: 20px 24px 40px; position: rel
   color: var(--muted); text-transform: uppercase; letter-spacing: .1em;
   margin-bottom: 14px;
 }
-.chart-wrap { position: relative; height: 200px; }
+.chart-wrap { position: relative; height: 260px; }
 .donut-center {
   position: absolute; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
@@ -346,7 +348,8 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 
 /* responsive */
 @media (max-width: 900px) {
-  .charts-row { grid-template-columns: 1fr; }
+  .charts-section { grid-template-columns: 1fr; }
+  .chart-col-2, .chart-col-6 { grid-column: span 1; }
   #wishlist-panel { width: 100%; }
 }
 </style>
@@ -438,23 +441,19 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
   <!-- CONSOLE BREAKDOWN dinamico -->
   <div class="stats-grid" id="console-stats-grid" style="margin-bottom:20px;"></div>
 
-  <!-- CHARTS -->
-  <div class="charts-row">
-    <div class="chart-card">
+  <!-- CHARTS — riga 1: torta (2u) + barre 16 console (6u) -->
+  <div class="charts-section">
+    <div class="chart-card chart-col-2">
       <div class="chart-title">Distribuzione Console</div>
-      <div class="chart-wrap">
-        <canvas id="donut-chart"></canvas>
-        <div class="donut-center">
-          <div class="big" id="donut-center-val">–</div>
-          <div class="small">giochi</div>
-        </div>
-      </div>
+      <div class="chart-wrap"><canvas id="donut-chart"></canvas></div>
     </div>
-    <div class="chart-card">
+    <div class="chart-card chart-col-6">
       <div class="chart-title">Disponibilità per Console</div>
       <div class="chart-wrap"><canvas id="bar-chart"></canvas></div>
     </div>
-    <div class="chart-card">
+
+    <!-- riga 2: cambi prezzo (2u) -->
+    <div class="chart-card chart-col-2">
       <div class="chart-title">Cambi Prezzo Oggi ↕</div>
       <div class="changes-list" id="changes-list">
         <div style="font-family:monospace;font-size:11px;color:var(--muted);text-align:center;padding:20px;">
@@ -743,7 +742,7 @@ async function loadData(force = false) {
     renderConsoleStatsGrid(byConsole, availByConsole);
 
     // Charts
-    buildDonut(byConsole, allGames.length);
+    buildDonut(byConsole);
     buildBar(allGames);
 
     // Daily changes — aggiorna KPI con dati reali dal report JSON
@@ -837,21 +836,29 @@ async function loadChanges(dateStr) {
 }
 
 // ─── CHARTS ────────────────────────────────────────────────────────────────
-function buildDonut(byConsole, total) {
+function buildDonut(byConsole) {
   const ctx = document.getElementById('donut-chart').getContext('2d');
   if (donutChart) donutChart.destroy();
-  const labels = Object.keys(byConsole);
-  const vals   = Object.values(byConsole);
-  // I colori del donut sono derivati da CONSOLE_META per coerenza col design system
+  // Ordina per CONSOLE_ORDER, poi eventuali console extra in fondo
+  const sortedEntries = Object.entries(byConsole).sort(([a], [b]) => {
+    const ia = CONSOLE_ORDER.indexOf(a), ib = CONSOLE_ORDER.indexOf(b);
+    if (ia === -1 && ib === -1) return a.localeCompare(b);
+    if (ia === -1) return 1; if (ib === -1) return -1;
+    return ia - ib;
+  });
+  const labels = sortedEntries.map(([k]) => k);
+  const vals   = sortedEntries.map(([, v]) => v);
   const colors = labels.map(l => (CONSOLE_META[l] || {}).color || CSS('--muted'));
-  document.getElementById('donut-center-val').textContent = total.toLocaleString();
   donutChart = new Chart(ctx, {
-    type: 'doughnut',
+    type: 'pie',
     data: { labels, datasets: [{ data: vals, backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }] },
     options: {
-      cutout: '70%', responsive: true, maintainAspectRatio: false,
+      responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'right', labels: { color: CSS('--chart-text'), font: { family: 'JetBrains Mono', size: 10 }, boxWidth: 10, padding: 8 } },
+        legend: {
+          position: 'right',
+          labels: { color: CSS('--chart-text'), font: { family: 'JetBrains Mono', size: 10 }, boxWidth: 10, padding: 8 }
+        },
         tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw.toLocaleString()}` } }
       }
     }
@@ -861,15 +868,15 @@ function buildDonut(byConsole, total) {
 function buildBar(games) {
   const ctx = document.getElementById('bar-chart').getContext('2d');
   if (barChart) barChart.destroy();
-  const consoles = ['Xbox','PS4','Wii','Switch'];
+  // Tutte le 16 piattaforme specifiche in ordine canonico
+  const consoles = CONSOLE_ORDER.filter(c => CONSOLE_META[c]);
   const avail = {}, unavail = {};
   consoles.forEach(c => { avail[c] = 0; unavail[c] = 0; });
   games.forEach(g => {
-    // Usa g.category (gruppo: Xbox/PS4/Wii/Switch) invece di g.console
-    // (piattaforma specifica: Xbox 360, Xbox One, PSP…) per raggruppare correttamente.
-    const key = g.category || g.console;
+    // g.console è la piattaforma specifica (es. "Xbox 360", "PSP"…)
+    const key = g.console;
     if (consoles.includes(key)) {
-      if (g.is_available) avail[key]++;
+      if (String(g.is_available) === '1' || g.is_available === true) avail[key]++;
       else unavail[key]++;
     }
   });
@@ -885,7 +892,7 @@ function buildBar(games) {
     options: {
       responsive: true, maintainAspectRatio: false,
       scales: {
-        x: { stacked: true, ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: CSS('--border') } },
+        x: { stacked: true, ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 8 }, maxRotation: 45 }, grid: { color: CSS('--border') } },
         y: { stacked: true, ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: CSS('--border') } }
       },
       plugins: { legend: { labels: { color: CSS('--chart-text'), font: { family: 'JetBrains Mono', size: 9 }, boxWidth: 10 } } }
