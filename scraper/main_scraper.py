@@ -179,6 +179,33 @@ def main() -> int:
 
     report = analyzer.build_report(stats, len(raw_products), start_time)
 
+    # Accumula con il report precedente della stessa giornata (se esiste),
+    # così tutti e 4 i run giornalieri contribuiscono ai contatori cumulativi.
+    if report_path.exists():
+        try:
+            with open(report_path, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+            ex_sum = existing.get("summary", {})
+            # Somma contatori nel summary
+            report["summary"]["new_games"]            += ex_sum.get("new_games", 0)
+            report["summary"]["price_changes"]        += ex_sum.get("price_changes", 0)
+            report["summary"]["availability_changes"] += ex_sum.get("availability_changes", 0)
+            report["summary"]["unchanged"]            += ex_sum.get("unchanged", 0)
+            # Somma total_scraped nel metadata
+            report["metadata"]["total_scraped"]       += existing.get("metadata", {}).get("total_scraped", 0)
+            # Accumula array: nuovi giochi (deduplicati per game_id)
+            existing_new_ids = {g["game_id"] for g in existing.get("new_games", [])}
+            report["new_games"] = existing.get("new_games", []) + [
+                g for g in report["new_games"] if g["game_id"] not in existing_new_ids
+            ]
+            # Accumula cambiamenti prezzo e disponibilità (tutti, in ordine cronologico)
+            report["price_changes"]        = existing.get("price_changes", []) + report["price_changes"]
+            report["availability_changes"] = existing.get("availability_changes", []) + report["availability_changes"]
+            report["errors"]               = existing.get("errors", []) + report["errors"]
+            print(f"📎 Report accumulato con dati del run precedente")
+        except Exception as acc_err:
+            print(f"⚠️  Accumulo report fallito (si usa solo il nuovo): {acc_err}")
+
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
 

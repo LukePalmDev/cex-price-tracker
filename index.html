@@ -57,7 +57,6 @@
   --chart-line-fill: rgba(245,166,35,.08); /* fill area line chart storico prezzi (modal) */
   --bar-avail:       rgba(34,197,94,.7);    /* barre "Disponibili" nel bar chart */
   --bar-unavail:     rgba(100,116,139,.3);  /* barre "Non disponibili" nel bar chart */
-  --chart-line-fill: rgba(245,166,35,.08); /* fill area line chart modal storico prezzi */
 
   /* ── BADGE DISPONIBILITÀ ── */
   --badge-yes-bg:  rgba(34,197,94,.12);   /* sfondo badge DISPO */
@@ -408,24 +407,24 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
   <!-- STATS KPI -->
   <div class="stats-grid" id="stats-grid">
     <div class="stat-card">
-      <div class="stat-label">Giochi Totali</div>
+      <div class="stat-label">Catalogo Tracciato</div>
       <div class="stat-value" id="s-total">–</div>
-      <div class="stat-sub" id="s-total-sub">–</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">Disponibili</div>
-      <div class="stat-value stat-accent" id="s-avail">–</div>
-      <div class="stat-sub" id="s-avail-sub">–</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">Prezzo Medio</div>
-      <div class="stat-value" id="s-price">–</div>
-      <div class="stat-sub">su tutti i titoli</div>
+      <div class="stat-sub" id="s-total-sub">– disponibili</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">Cambi Prezzo Oggi</div>
       <div class="stat-value" id="s-changes">–</div>
-      <div class="stat-sub" id="s-changes-sub">–</div>
+      <div class="stat-sub" id="s-changes-sub">aggiornamenti prezzi</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Nuovi Disponibili Oggi</div>
+      <div class="stat-value stat-accent" id="s-back-in-stock">–</div>
+      <div class="stat-sub">tornati disponibili</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Nuovi nel DB Oggi</div>
+      <div class="stat-value" id="s-new-games">–</div>
+      <div class="stat-sub">aggiunti oggi</div>
     </div>
   </div>
 
@@ -678,19 +677,18 @@ async function loadData(force = false) {
     document.getElementById('pill-total').textContent = allGames.length.toLocaleString() + ' titoli';
 
     // Update stat cards
-    document.getElementById('s-total').textContent     = allGames.length.toLocaleString();
-    document.getElementById('s-total-sub').textContent = 'tracciati da ' + (stats.last_update || '–');
     const avail = stats.available_games ??
       allGames.filter(g => String(g.is_available) === '1' || g.is_available === true).length;
     const pct   = allGames.length ? Math.round(avail / allGames.length * 100) : 0;
-    document.getElementById('s-avail').textContent     = avail.toLocaleString();
-    document.getElementById('s-avail-sub').textContent = pct + '% del catalogo';
-    const avgPrice = stats.average_price ?? (allGames.length ? allGames.reduce((s,g) => s + (Number(g.current_price)||0), 0) / allGames.length : 0);
-    document.getElementById('s-price').textContent     = '€' + Number(avgPrice).toFixed(2);
+    document.getElementById('s-total').textContent     = allGames.length.toLocaleString();
+    document.getElementById('s-total-sub').textContent = avail.toLocaleString() + ' disponibili (' + pct + '%)';
 
+    // KPI da report giornaliero — valori provvisori da stats, poi aggiornati da loadChanges()
     const summaryFromStats = stats.daily_summary || {};
-    document.getElementById('s-changes').textContent     = (summaryFromStats.price_changes || 0).toLocaleString();
-    document.getElementById('s-changes-sub').textContent = (summaryFromStats.availability_changes || 0) + ' cambi disponibilità';
+    document.getElementById('s-changes').textContent        = (summaryFromStats.price_changes || 0).toLocaleString();
+    document.getElementById('s-changes-sub').textContent    = 'aggiornamenti prezzi';
+    document.getElementById('s-back-in-stock').textContent  = '–';
+    document.getElementById('s-new-games').textContent      = (summaryFromStats.new_games || 0).toLocaleString();
 
     // Console breakdown dinamico
     const byConsole = stats.by_console || allGames.reduce((acc, g) => {
@@ -704,11 +702,13 @@ async function loadData(force = false) {
     buildDonut(byConsole, allGames.length);
     buildBar(allGames);
 
-    // Daily changes
-    const summaryFromReport = await loadChanges(upd.replace(/-/g,''));
-    const dailySummary = summaryFromReport || summaryFromStats;
-    document.getElementById('s-changes').textContent     = (dailySummary?.price_changes || 0).toLocaleString();
-    document.getElementById('s-changes-sub').textContent = (dailySummary?.availability_changes || 0) + ' cambi disponibilità';
+    // Daily changes — aggiorna KPI con dati reali dal report JSON
+    const reportData = await loadChanges(upd.replace(/-/g,''));
+    const dailySummary = reportData?.summary || summaryFromStats;
+    document.getElementById('s-changes').textContent       = (dailySummary?.price_changes || 0).toLocaleString();
+    document.getElementById('s-changes-sub').textContent   = 'aggiornamenti prezzi';
+    document.getElementById('s-back-in-stock').textContent = (reportData?.back_in_stock ?? 0).toLocaleString();
+    document.getElementById('s-new-games').textContent     = (dailySummary?.new_games || 0).toLocaleString();
 
     applyFilters();
     updateWishlistUI();
@@ -748,7 +748,9 @@ async function loadChanges(dateStr) {
     const changes = (report.price_changes || []).slice(0, 60);
     if (!changes.length) {
       el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Nessun cambio oggi</div>';
-      return report.summary || null;
+      const backInStock0 = (report.availability_changes || [])
+        .filter(c => c.new_status === 'Disponibile').length;
+      return { summary: report.summary || null, back_in_stock: backInStock0 };
     }
     el.innerHTML = changes.map(c => {
       const oldPrice = c.price_history_30d?.[0]?.old_price;
@@ -762,7 +764,10 @@ async function loadChanges(dateStr) {
         <span class="change-price">€${newP.toFixed(2)} ${diffStr ? `<small style="font-size:9px;">(${diffStr})</small>` : ''}</span>
       </div>`;
     }).join('');
-    return report.summary || null;
+    // Ritorna oggetto arricchito: summary + contatori extra per le KPI card
+    const backInStock = (report.availability_changes || [])
+      .filter(c => c.new_status === 'Disponibile').length;
+    return { summary: report.summary || null, back_in_stock: backInStock };
   } catch(e) {
     el.innerHTML = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:20px;text-align:center;">Report non disponibile</div>';
     return null;
