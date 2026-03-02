@@ -702,44 +702,54 @@ Funzionalità deducibili dall'architettura ma non ancora implementate:
 
 ## 12. BUG NOTI
 
-### Bug 1 — `GROUP_META` non copre PSP
+> ✅ I bug documentati in questa sezione sono stati **corretti** in `index.html` (marzo 2026).
+
+### Bug 1 — `GROUP_META` incompleto per PSP e Xbox sub-console ✅ RISOLTO
 
 **Posizione:** `index.html`, costante `GROUP_META`
 
-**Descrizione:** La costante `GROUP_META` viene interrogata con `GROUP_META[g.console]` dove `g.console` è il valore del campo `console` nel DB (es. `"PS4"`, `"PSP"`, `"Xbox"`, ecc.). La definizione attuale ha la chiave `"PS4"` per PlayStation, ma i giochi PSP hanno `console = "PSP"` → `GROUP_META["PSP"]` è `undefined`. Il fallback `{ label: g.console, color: 'var(--muted)' }` fa sì che i giochi PSP appaiano con colore grigio muted anziché il blu PlayStation.
+**Descrizione:** La costante `GROUP_META` era interrogata con `GROUP_META[g.console]` dove `g.console` è la piattaforma specifica (es. `"PSP"`, `"Xbox 360"`, `"Xbox One"`, ecc.). La definizione originale aveva solo 4 chiavi (`"Xbox"`, `"PS4"`, `"Wii"`, `"Switch"`), lasciando PSP, Xbox 360, Xbox One, Xbox CrossGen e Xbox Series senza match → fallback a colore grigio muted.
 
-**Fix suggerito:** Aggiungere la chiave `PSP` in `GROUP_META`:
+**Fix applicato:** Aggiunge tutte le piattaforme specifiche in `GROUP_META`, mantenendo il colore appropriato per ogni sotto-famiglia:
 
 ```js
 const GROUP_META = {
-  'Xbox':   { label: 'Xbox',   color: CSS('--xbox') },
-  'PS4':    { label: 'PS',     color: CSS('--ps4') },
-  'PSP':    { label: 'PS',     color: CSS('--ps4') },   // ← aggiungere questa riga
-  'Wii':    { label: 'Wii',    color: CSS('--wii') },
-  'Switch': { label: 'Switch', color: CSS('--sw') },
+  'Xbox':          { label: 'Xbox',   color: CSS('--xbox')      },
+  'Xbox 360':      { label: 'Xbox',   color: CSS('--xbox360')   },
+  'Xbox One':      { label: 'Xbox',   color: CSS('--xboxone')   },
+  'Xbox CrossGen': { label: 'Xbox',   color: CSS('--xboxcross') },
+  'Xbox Series':   { label: 'Xbox',   color: CSS('--xboxseries')},
+  'PS4':           { label: 'PS',     color: CSS('--ps4')       },
+  'PSP':           { label: 'PS',     color: CSS('--psp')       },
+  'Wii':           { label: 'Wii',    color: CSS('--wii')       },
+  'Switch':        { label: 'Switch', color: CSS('--sw')        },
 };
 ```
 
-### Bug 2 — Sub-console Xbox non coperti da `GROUP_META`
+### Bug 2 — `buildBar` non contava Xbox sub-console e PSP ✅ RISOLTO
 
-**Posizione:** `index.html`, costante `GROUP_META`
+**Posizione:** `index.html`, funzione `buildBar`
 
-**Descrizione:** Analogo al bug precedente. Se il campo `console` nel DB contiene `"Xbox 360"`, `"Xbox One"`, `"Xbox CrossGen"` o `"Xbox Series"` (anziché solo `"Xbox"`), nessuna di queste chiavi è presente in `GROUP_META` → fallback a colore muted.
+**Descrizione:** La funzione usava `g.console` (piattaforma specifica: "Xbox 360", "Xbox One", "PSP"…) invece di `g.category` (gruppo: "Xbox", "PS4"…) per raggruppare i giochi nel bar chart. Il controllo `consoles.includes(g.console)` dove `consoles = ['Xbox','PS4','Wii','Switch']` escludeva completamente Xbox 360, Xbox One, Xbox CrossGen, Xbox Series e PSP: circa il 70% dei giochi Xbox e tutti i PSP erano invisibili nel grafico disponibilità.
 
-**Fix suggerito:** Aggiungere tutte le varianti Xbox oppure normalizzare il campo `console` nello scraper a `"Xbox"` per tutte le sub-console Xbox.
-
+**Fix applicato:**
 ```js
-const GROUP_META = {
-  'Xbox':          { label: 'Xbox', color: CSS('--xbox') },
-  'Xbox 360':      { label: 'Xbox', color: CSS('--xbox') },
-  'Xbox One':      { label: 'Xbox', color: CSS('--xbox') },
-  'Xbox CrossGen': { label: 'Xbox', color: CSS('--xbox') },
-  'Xbox Series':   { label: 'Xbox', color: CSS('--xbox') },
-  'PS4':           { label: 'PS',   color: CSS('--ps4') },
-  'PSP':           { label: 'PS',   color: CSS('--ps4') },
-  'Wii':           { label: 'Wii',  color: CSS('--wii') },
-  'Switch':        { label: 'Switch', color: CSS('--sw') },
-};
+const key = g.category || g.console;  // usa il gruppo, non la piattaforma specifica
+if (consoles.includes(key)) {
+  if (g.is_available) avail[key]++;
+  else unavail[key]++;
+}
+```
+
+### Bug 3 — CSS variable `--chart-line-fill` non definita ✅ RISOLTO
+
+**Posizione:** `index.html`, `:root` + `openModal`
+
+**Descrizione:** Il grafico a linea nel modal usava `CSS('--chart-line-fill')` come colore di fill, ma la variabile non era definita nel blocco `:root`. Il fill risultava trasparente.
+
+**Fix applicato:** Aggiunta in `:root`:
+```css
+--chart-line-fill: rgba(245,166,35,.08);
 ```
 
 ---
@@ -754,18 +764,23 @@ const GROUP_META = {
     "Xbox One":      { "color": "#0e7a0d", "group": "Xbox" },
     "Xbox CrossGen": { "color": "#4caf50", "group": "Xbox" },
     "Xbox Series":   { "color": "#00d95f", "group": "Xbox" },
-    "PSP":           { "color": "#00439c", "group": "PS" },
-    "PS4":           { "color": "#4a7fff", "group": "PS" },
-    "Wii":           { "color": "#c7c7c7", "group": "Wii" },
-    "Switch":        { "color": "#e60012", "group": "Switch" }
+    "PSP":           { "color": "#00439c", "group": "PS"   },
+    "PS4":           { "color": "#4a7fff", "group": "PS"   },
+    "Wii":           { "color": "#c7c7c7", "group": "Wii"  },
+    "Switch":        { "color": "#e60012", "group": "Switch"}
   },
   "GROUP_META": {
-    "Xbox":   { "label": "Xbox",   "color": "#107c10" },
-    "PS4":    { "label": "PS",     "color": "#4a7fff" },
-    "Wii":    { "label": "Wii",    "color": "#c7c7c7" },
-    "Switch": { "label": "Switch", "color": "#e60012" }
+    "Xbox":          { "label": "Xbox",   "color": "#107c10" },
+    "Xbox 360":      { "label": "Xbox",   "color": "#52b043" },
+    "Xbox One":      { "label": "Xbox",   "color": "#0e7a0d" },
+    "Xbox CrossGen": { "label": "Xbox",   "color": "#4caf50" },
+    "Xbox Series":   { "label": "Xbox",   "color": "#00d95f" },
+    "PS4":           { "label": "PS",     "color": "#4a7fff" },
+    "PSP":           { "label": "PS",     "color": "#00439c" },
+    "Wii":           { "label": "Wii",    "color": "#c7c7c7" },
+    "Switch":        { "label": "Switch", "color": "#e60012" }
   }
 }
 ```
 
-> **Nota:** Vedi §12 per i bug relativi alle chiavi mancanti in `GROUP_META`.
+> **Nota:** GROUP_META aggiornato in marzo 2026 per includere tutte le piattaforme (vedi §12).

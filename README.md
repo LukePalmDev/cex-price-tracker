@@ -135,7 +135,9 @@ Nota: se esponi questa API su internet senza protezione, chiunque può modificar
 
 ## 📈 Dashboard
 
-**Live:** [https://LukePalmDev.github.io/cex-price-tracker](https://LukePalmDev.github.io/cex-price-tracker)
+**Live:** [https://cex.byluke.org](https://cex.byluke.org)
+
+*(Mirror:* [https://LukePalmDev.github.io/cex-price-tracker](https://LukePalmDev.github.io/cex-price-tracker)*)*
 
 Features:
 - 🔍 Ricerca e filtri avanzati

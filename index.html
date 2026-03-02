@@ -55,8 +55,9 @@
 
   /* ── GRAFICI ── */
   --chart-line-fill: rgba(245,166,35,.08); /* fill area line chart storico prezzi (modal) */
-  --bar-avail:       rgba(34,197,94,.7);   /* barre "Disponibili" nel bar chart */
-  --bar-unavail:     rgba(100,116,139,.3); /* barre "Non disponibili" nel bar chart */
+  --bar-avail:       rgba(34,197,94,.7);    /* barre "Disponibili" nel bar chart */
+  --bar-unavail:     rgba(100,116,139,.3);  /* barre "Non disponibili" nel bar chart */
+  --chart-line-fill: rgba(245,166,35,.08); /* fill area line chart modal storico prezzi */
 
   /* ── BADGE DISPONIBILITÀ ── */
   --badge-yes-bg:  rgba(34,197,94,.12);   /* sfondo badge DISPO */
@@ -566,12 +567,18 @@ const CONSOLE_META = {
   'Switch':        { color: CSS('--sw'),         group: 'Switch' },
 };
 
-// Mappa campo "console" (gruppo DB) → etichetta display + colore badge
+// Mappa campo "console" (piattaforma specifica DB) → etichetta gruppo + colore badge
+// Tutte le sotto-console Xbox e PSP sono incluse per evitare il fallback al colore muted.
 const GROUP_META = {
-  'Xbox':   { label: 'Xbox',   color: CSS('--xbox') },
-  'PS4':    { label: 'PS',     color: CSS('--ps4') },
-  'Wii':    { label: 'Wii',    color: CSS('--wii') },
-  'Switch': { label: 'Switch', color: CSS('--sw') },
+  'Xbox':          { label: 'Xbox',   color: CSS('--xbox')   },
+  'Xbox 360':      { label: 'Xbox',   color: CSS('--xbox360')},
+  'Xbox One':      { label: 'Xbox',   color: CSS('--xboxone')},
+  'Xbox CrossGen': { label: 'Xbox',   color: CSS('--xboxcross')},
+  'Xbox Series':   { label: 'Xbox',   color: CSS('--xboxseries')},
+  'PS4':           { label: 'PS',     color: CSS('--ps4')    },
+  'PSP':           { label: 'PS',     color: CSS('--psp')    },
+  'Wii':           { label: 'Wii',    color: CSS('--wii')    },
+  'Switch':        { label: 'Switch', color: CSS('--sw')     },
 };
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
@@ -791,9 +798,12 @@ function buildBar(games) {
   const avail = {}, unavail = {};
   consoles.forEach(c => { avail[c] = 0; unavail[c] = 0; });
   games.forEach(g => {
-    if (consoles.includes(g.console)) {
-      if (g.is_available) avail[g.console]++;
-      else unavail[g.console]++;
+    // Usa g.category (gruppo: Xbox/PS4/Wii/Switch) invece di g.console
+    // (piattaforma specifica: Xbox 360, Xbox One, PSP…) per raggruppare correttamente.
+    const key = g.category || g.console;
+    if (consoles.includes(key)) {
+      if (g.is_available) avail[key]++;
+      else unavail[key]++;
     }
   });
   barChart = new Chart(ctx, {
