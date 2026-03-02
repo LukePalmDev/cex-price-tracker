@@ -82,15 +82,20 @@ CONSOLES_TO_TRACK = {
         {"name": "Xbox CrossGen", "id": 1088},
         {"name": "Xbox Series",   "id": 1091},
     ],
-    "PS4": [
+    "PlayStation": [
+        {"name": "PS2",  "id": 824},
+        {"name": "PS3",  "id": 1013},
         {"name": "PSP",  "id": 862},
         {"name": "PS4",  "id": 1001},
+        {"name": "PS5",  "id": 1094},
     ],
-    "Wii": [
-        {"name": "Wii",  "id": 831},
-    ],
-    "Switch": [
-        {"name": "Switch", "id": 1037},
+    "Nintendo": [
+        {"name": "GameCube", "id": 1029},
+        {"name": "Wii",      "id": 831},
+        {"name": "Wii U",    "id": 996},
+        {"name": "DS",       "id": 834},
+        {"name": "3DS",      "id": 977},
+        {"name": "Switch",   "id": 1037},
     ],
 }
 

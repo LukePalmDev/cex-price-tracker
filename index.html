@@ -42,11 +42,18 @@
   --xboxseries:    #E4EB9C;    /* Xbox Series */
 
   /* ── CONSOLE: PLAYSTATION ── */
+  --ps2:           #001040;    /* PS2 */
+  --ps3:           #002A80;    /* PS3 */
   --psp:           #001524;    /* PSP */
   --ps4:           #0752BE;    /* PS4 / colore voucher buyback */
+  --ps5:           #3399FF;    /* PS5 */
 
-  /* ── CONSOLE: ALTRE ── */
+  /* ── CONSOLE: NINTENDO ── */
+  --gamecube:      #4B0082;    /* GameCube */
   --wii:           #FFECD1;    /* Wii */
+  --wiiu:          #009AC7;    /* Wii U */
+  --ds:            #8B0000;    /* Nintendo DS */
+  --n3ds:          #CC0000;    /* Nintendo 3DS */
   --sw:            #702006;    /* Nintendo Switch */
 
   /* ── EFFETTI / OVERLAY ── */
@@ -480,11 +487,20 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
         <option value="Xbox Series">Xbox Series</option>
       </optgroup>
       <optgroup label="PlayStation">
+        <option value="PS2">PS2</option>
+        <option value="PS3">PS3</option>
         <option value="PSP">PSP</option>
         <option value="PS4">PS4</option>
+        <option value="PS5">PS5</option>
       </optgroup>
-      <option value="Wii">Wii</option>
-      <option value="Switch">Switch</option>
+      <optgroup label="Nintendo">
+        <option value="GameCube">GameCube</option>
+        <option value="Wii">Wii</option>
+        <option value="Wii U">Wii U</option>
+        <option value="DS">DS</option>
+        <option value="3DS">3DS</option>
+        <option value="Switch">Switch</option>
+      </optgroup>
     </select>
     <select id="filter-avail" onchange="applyFilters()">
       <option value="">Tutti</option>
@@ -555,29 +571,49 @@ if (API_PARAM) localStorage.setItem('cex-api-base', API_BASE);
 // I colori sono letti da :root tramite CSS() per garantire un'unica fonte di verità.
 // Chiave = campo "category" nel DB (sotto-console specifica)
 const CONSOLE_META = {
+  // ── Xbox (oldest → newest) ──
   'Xbox':          { color: CSS('--xbox'),       group: 'Xbox' },
   'Xbox 360':      { color: CSS('--xbox360'),    group: 'Xbox' },
   'Xbox One':      { color: CSS('--xboxone'),    group: 'Xbox' },
   'Xbox CrossGen': { color: CSS('--xboxcross'),  group: 'Xbox' },
   'Xbox Series':   { color: CSS('--xboxseries'), group: 'Xbox' },
-  'PSP':           { color: CSS('--psp'),        group: 'PS' },
-  'PS4':           { color: CSS('--ps4'),        group: 'PS' },
-  'Wii':           { color: CSS('--wii'),        group: 'Wii' },
-  'Switch':        { color: CSS('--sw'),         group: 'Switch' },
+  // ── PlayStation (oldest → newest) ──
+  'PS2':           { color: CSS('--ps2'),        group: 'PlayStation' },
+  'PS3':           { color: CSS('--ps3'),        group: 'PlayStation' },
+  'PSP':           { color: CSS('--psp'),        group: 'PlayStation' },
+  'PS4':           { color: CSS('--ps4'),        group: 'PlayStation' },
+  'PS5':           { color: CSS('--ps5'),        group: 'PlayStation' },
+  // ── Nintendo (oldest → newest) ──
+  'GameCube':      { color: CSS('--gamecube'),   group: 'Nintendo' },
+  'Wii':           { color: CSS('--wii'),        group: 'Nintendo' },
+  'Wii U':         { color: CSS('--wiiu'),       group: 'Nintendo' },
+  'DS':            { color: CSS('--ds'),         group: 'Nintendo' },
+  '3DS':           { color: CSS('--n3ds'),       group: 'Nintendo' },
+  'Switch':        { color: CSS('--sw'),         group: 'Nintendo' },
 };
 
 // Mappa campo "console" (piattaforma specifica DB) → etichetta gruppo + colore badge
 // Tutte le sotto-console Xbox e PSP sono incluse per evitare il fallback al colore muted.
 const GROUP_META = {
-  'Xbox':          { label: 'Xbox',   color: CSS('--xbox')   },
-  'Xbox 360':      { label: 'Xbox',   color: CSS('--xbox360')},
-  'Xbox One':      { label: 'Xbox',   color: CSS('--xboxone')},
-  'Xbox CrossGen': { label: 'Xbox',   color: CSS('--xboxcross')},
-  'Xbox Series':   { label: 'Xbox',   color: CSS('--xboxseries')},
-  'PS4':           { label: 'PS',     color: CSS('--ps4')    },
-  'PSP':           { label: 'PS',     color: CSS('--psp')    },
-  'Wii':           { label: 'Wii',    color: CSS('--wii')    },
-  'Switch':        { label: 'Switch', color: CSS('--sw')     },
+  // ── Xbox ──
+  'Xbox':          { label: 'Xbox',  color: CSS('--xbox')      },
+  'Xbox 360':      { label: 'Xbox',  color: CSS('--xbox360')   },
+  'Xbox One':      { label: 'Xbox',  color: CSS('--xboxone')   },
+  'Xbox CrossGen': { label: 'Xbox',  color: CSS('--xboxcross') },
+  'Xbox Series':   { label: 'Xbox',  color: CSS('--xboxseries')},
+  // ── PlayStation ──
+  'PS2':           { label: 'PS',    color: CSS('--ps2')       },
+  'PS3':           { label: 'PS',    color: CSS('--ps3')       },
+  'PSP':           { label: 'PS',    color: CSS('--psp')       },
+  'PS4':           { label: 'PS',    color: CSS('--ps4')       },
+  'PS5':           { label: 'PS',    color: CSS('--ps5')       },
+  // ── Nintendo ──
+  'GameCube':      { label: 'Nint.', color: CSS('--gamecube')  },
+  'Wii':           { label: 'Nint.', color: CSS('--wii')       },
+  'Wii U':         { label: 'Nint.', color: CSS('--wiiu')      },
+  'DS':            { label: 'Nint.', color: CSS('--ds')        },
+  '3DS':           { label: 'Nint.', color: CSS('--n3ds')      },
+  'Switch':        { label: 'Nint.', color: CSS('--sw')        },
 };
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
@@ -720,9 +756,25 @@ async function loadData(force = false) {
   }
 }
 
+// Ordine canonico delle console nei card breakdown
+const CONSOLE_ORDER = [
+  'Xbox', 'Xbox 360', 'Xbox One', 'Xbox CrossGen', 'Xbox Series',
+  'PS2', 'PS3', 'PSP', 'PS4', 'PS5',
+  'GameCube', 'Wii', 'Wii U', 'DS', '3DS', 'Switch',
+];
+
 function renderConsoleStatsGrid(byConsole) {
   const grid = document.getElementById('console-stats-grid');
-  grid.innerHTML = Object.entries(byConsole).map(([cat, count]) => {
+  // Ordina le console secondo CONSOLE_ORDER, poi eventuali console sconosciute in fondo
+  const entries = Object.entries(byConsole).sort(([a], [b]) => {
+    const ia = CONSOLE_ORDER.indexOf(a);
+    const ib = CONSOLE_ORDER.indexOf(b);
+    if (ia === -1 && ib === -1) return a.localeCompare(b);
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
+  grid.innerHTML = entries.map(([cat, count]) => {
     const meta = CONSOLE_META[cat] || { color: 'var(--muted)' };
     return `<div class="stat-card" onclick="filterByConsole('${cat}')" style="cursor:pointer">
       <div class="stat-label">${cat}</div>
