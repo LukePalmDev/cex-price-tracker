@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-03-07T06:46:39.985508",
+    "generated_at": "2026-03-07T12:40:38.055327",
     "date": "2026-03-07",
-    "duration_sec": 33.0,
-    "total_scraped": 26388
+    "duration_sec": 30.8,
+    "total_scraped": 39583
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 92,
-    "availability_changes": 14,
-    "unchanged": 26282,
+    "price_changes": 139,
+    "availability_changes": 68,
+    "unchanged": 39376,
     "errors": 0
   },
   "new_games": [],
@@ -749,6 +749,382 @@
       "new_price": 5,
       "old_price": 5.0,
       "variation_pct": 0.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_price": 28,
+      "old_price": 45.0,
+      "variation_pct": -37.78
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_price": 45,
+      "old_price": 28.0,
+      "variation_pct": 60.71
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 1.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 3.5,
+      "variation_pct": 42.86
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 8.0,
+      "variation_pct": 87.5
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 2.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 1,
+      "old_price": 2.5,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 6.0,
+      "variation_pct": 316.67
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 25.0,
+      "variation_pct": -76.0
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 6.0,
+      "variation_pct": 316.67
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 25.0,
+      "variation_pct": -76.0
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 5.0,
+      "variation_pct": -30.0
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 15.0,
+      "variation_pct": -46.67
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 5.0,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 8108,
+      "title": "Warriors, The",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 2.5,
+      "old_price": 5.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9964,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 10.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 9964,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 5.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 2.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 10269,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 38,
+      "old_price": 28.0,
+      "variation_pct": 35.71
+    },
+    {
+      "game_id": 10269,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 38.0,
+      "variation_pct": -26.32
+    },
+    {
+      "game_id": 9763,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 70,
+      "old_price": 65.0,
+      "variation_pct": 7.69
+    },
+    {
+      "game_id": 9763,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 65,
+      "old_price": 70.0,
+      "variation_pct": -7.14
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10712,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 10.0,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 10712,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 10.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 2.0,
+      "variation_pct": 75.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 2.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 2,
+      "old_price": 2.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11081,
+      "title": "Captain Tsubasa: Rise of New Champions",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 10.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 11081,
+      "title": "Captain Tsubasa: Rise of New Champions",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 10.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 5.0,
+      "variation_pct": 0.0
     }
   ],
   "availability_changes": [
@@ -1155,6 +1531,538 @@
       "game_id": 14898,
       "title": "Disney Jonas Brothers",
       "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 94,
+      "title": "Conspiracy: Weapons of Mass Destruction",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 120,
+      "title": "Destroy All Humans",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 121,
+      "title": "Destroy All Humans 2",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1328,
+      "title": "Amazing Spider-Man 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 620,
+      "title": "Batman Arkham Asylum GOTY",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1353,
+      "title": "Birds Of Steel",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1364,
+      "title": "Brunswick Pro Bowling (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1391,
+      "title": "Command & Conquer 3 Tiberium Wars",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1404,
+      "title": "Dante's Inferno Death Edition (No Codes)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1413,
+      "title": "Dead Rising 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 771,
+      "title": "Dragonball Xenoverse",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1483,
+      "title": "FEAR",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1528,
+      "title": "Halo: Combat Evolved - Anniversary",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1595,
+      "title": "Metro: Last Light",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1671,
+      "title": "Rambo - Il Videogioco",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1715,
+      "title": "Signore Degli Anelli, Il: Guerra del Nord",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1735,
+      "title": "Spiderwick Chronicles",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2388,
+      "title": "Sinking City, The (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2402,
+      "title": "Snoopy's Grand Adventure",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8201,
+      "title": "Arcade Classics Volume 1",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8681,
+      "title": "Lupin III La Morte Zenigata L'Amore",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8793,
+      "title": "Nightmare Before Christmas",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9002,
+      "title": "Smash Court Tennis Pro Tournament",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9081,
+      "title": "Taito Legends",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9142,
+      "title": "Valkyrie Profile 2: Silmeria",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7639,
+      "title": "London Racer - Police Madness",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9904,
+      "title": "A Caccia Di Umani! La Furia Dei Furon",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10379,
+      "title": "Wolfenstein",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10788,
+      "title": "Pursuit Force Extreme Justice",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11738,
+      "title": "Tour De France 2017",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11739,
+      "title": "Tour de France 2018",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11049,
+      "title": "Biomutant",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11479,
+      "title": "My Hero One's Justice 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11528,
+      "title": "Outriders",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13474,
+      "title": "Madden Nfl 2003",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15284,
+      "title": "Actua Pool",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14898,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15433,
+      "title": "Dragon Quest IX Le Sentinelle Del Cielo",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15440,
+      "title": "Dream Pinball 3D",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15724,
+      "title": "Nanostray 2",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15742,
+      "title": "Nintendogs Chihuahua & Friends",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15987,
+      "title": "Viaggio Al Centro Della Terra",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 16012,
+      "title": "Worms Open Warfare",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14898,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16085,
+      "title": "Code Name: S.T.E.A.M.",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 16095,
+      "title": "Dead or Alive Dimensions",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 16237,
+      "title": "Mario Golf: World Tour",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16301,
+      "title": "Pokemon Rubino Omega",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 16511,
+      "title": "Diablo III: Eternal Collection (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16600,
+      "title": "Immortals: Fenyx Rising (Senza DLC)",
+      "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
