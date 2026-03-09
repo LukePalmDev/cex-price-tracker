@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-03-09T01:50:13.605357",
+    "exported_at": "2026-03-09T07:06:35.309074",
     "total_games": 17535,
     "version": "1.0",
     "statistics": {
       "total_games": 17535,
-      "available_games": 8896,
-      "unavailable_games": 8639,
+      "available_games": 8895,
+      "unavailable_games": 8640,
       "by_console": {
         "PS4": 3369,
         "Switch": 2146,
@@ -29,17 +29,17 @@
       "last_update": "2026-03-09",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 44,
-        "availability_changes": 14,
-        "unchanged": 13128,
+        "price_changes": 88,
+        "availability_changes": 21,
+        "unchanged": 26263,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 17535,
-    "available_games": 8896,
-    "unavailable_games": 8639,
+    "available_games": 8895,
+    "unavailable_games": 8640,
     "by_console": {
       "PS4": 3369,
       "Switch": 2146,
@@ -62,9 +62,9 @@
     "last_update": "2026-03-09",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 44,
-      "availability_changes": 14,
-      "unchanged": 13128,
+      "price_changes": 88,
+      "availability_changes": 21,
+      "unchanged": 26263,
       "errors": 0
     }
   },
@@ -10902,6 +10902,7 @@
       "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -77773,6 +77774,16 @@
         {
           "old_price": 2.5,
           "new_price": 1.0,
+          "changed_at": "2026-03-09 07:06:19"
+        },
+        {
+          "old_price": 1.0,
+          "new_price": 2.5,
+          "changed_at": "2026-03-09 07:06:18"
+        },
+        {
+          "old_price": 2.5,
+          "new_price": 1.0,
           "changed_at": "2026-03-09 01:49:55"
         },
         {
@@ -83101,6 +83112,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-03-09 07:06:19"
+        },
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-03-09 07:06:18"
+        },
         {
           "old_price": 22.0,
           "new_price": 20.0,
@@ -94105,6 +94126,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-09 07:06:19"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 6.0,
+          "changed_at": "2026-03-09 07:06:19"
+        },
         {
           "old_price": 6.0,
           "new_price": 25.0,
@@ -109873,6 +109904,16 @@
         {
           "old_price": 6.0,
           "new_price": 25.0,
+          "changed_at": "2026-03-09 07:06:20"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 6.0,
+          "changed_at": "2026-03-09 07:06:20"
+        },
+        {
+          "old_price": 6.0,
+          "new_price": 25.0,
           "changed_at": "2026-03-09 01:49:56"
         },
         {
@@ -121915,6 +121956,16 @@
         {
           "old_price": 8.0,
           "new_price": 5.0,
+          "changed_at": "2026-03-09 07:06:20"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 8.0,
+          "changed_at": "2026-03-09 07:06:20"
+        },
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
           "changed_at": "2026-03-09 01:49:56"
         },
         {
@@ -122567,6 +122618,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 3.5,
+          "changed_at": "2026-03-09 07:06:20"
+        },
+        {
+          "old_price": 3.5,
+          "new_price": 5.0,
+          "changed_at": "2026-03-09 07:06:18"
+        },
         {
           "old_price": 5.0,
           "new_price": 3.5,
@@ -134155,6 +134216,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 8.0,
+          "changed_at": "2026-03-09 07:06:20"
+        },
+        {
+          "old_price": 8.0,
+          "new_price": 15.0,
+          "changed_at": "2026-03-09 07:06:19"
+        },
         {
           "old_price": 15.0,
           "new_price": 8.0,
@@ -152960,6 +153031,16 @@
         {
           "old_price": 10.0,
           "new_price": 5.0,
+          "changed_at": "2026-03-09 07:06:21"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-09 07:06:21"
+        },
+        {
+          "old_price": 10.0,
+          "new_price": 5.0,
           "changed_at": "2026-03-09 01:49:58"
         },
         {
@@ -162571,7 +162652,8 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "Milano Viale Tunisia"
+        "Milano Viale Tunisia",
+        "Gran Roma"
       ],
       "price_history_30d": [
         {
@@ -175927,6 +176009,16 @@
         {
           "old_price": 2.5,
           "new_price": 5.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 2.5,
+          "changed_at": "2026-03-09 07:06:21"
+        },
+        {
+          "old_price": 2.5,
+          "new_price": 5.0,
           "changed_at": "2026-03-09 01:49:58"
         },
         {
@@ -184167,6 +184259,16 @@
         {
           "old_price": 28.0,
           "new_price": 38.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 38.0,
+          "new_price": 28.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 28.0,
+          "new_price": 38.0,
           "changed_at": "2026-03-09 01:49:58"
         },
         {
@@ -186862,6 +186964,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 65.0,
+          "new_price": 70.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 70.0,
+          "new_price": 65.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
         {
           "old_price": 65.0,
           "new_price": 70.0,
@@ -194568,6 +194680,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-03-09 07:06:21"
+        },
+        {
           "old_price": 15.0,
           "new_price": 18.0,
           "changed_at": "2026-03-09 01:49:58"
@@ -194878,7 +195000,7 @@
           "changed_at": "2026-03-02 01:35:22"
         }
       ],
-      "price_trend_pct": 20.0
+      "price_trend_pct": -16.67
     },
     {
       "id": 10378,
@@ -213774,6 +213896,16 @@
         {
           "old_price": 10.0,
           "new_price": 20.0,
+          "changed_at": "2026-03-09 07:06:23"
+        },
+        {
+          "old_price": 20.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-09 07:06:23"
+        },
+        {
+          "old_price": 10.0,
+          "new_price": 20.0,
           "changed_at": "2026-03-09 01:49:59"
         },
         {
@@ -228718,6 +228850,7 @@
       "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -258537,6 +258670,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-09 07:06:24"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-03-09 07:06:23"
+        },
         {
           "old_price": 4.0,
           "new_price": 5.0,
@@ -326235,6 +326378,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Milano Viale Tunisia",
         "La Romanina",
         "The Wow Side"
       ],
@@ -343381,6 +343525,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
@@ -376660,6 +376805,16 @@
         {
           "old_price": 10.0,
           "new_price": 4.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 10.0,
+          "new_price": 4.0,
           "changed_at": "2026-03-09 01:49:59"
         },
         {
@@ -381882,6 +382037,21 @@
         "Milano Viale Tunisia"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 3.5,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 3.5,
+          "new_price": 6.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
+        {
+          "old_price": 6.0,
+          "new_price": 2.0,
+          "changed_at": "2026-03-09 07:06:22"
+        },
         {
           "old_price": 2.0,
           "new_price": 3.5,
@@ -449310,18 +449480,18 @@
       "console": "Switch",
       "category": "Nintendo",
       "current_price": 30.0,
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=3391892035506",
       "first_seen": "2026-03-02",
       "last_updated": "2026-03-09",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-03-09",
       "image_url": null,
       "cash_price": 15.0,
       "exchange_price": 20.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -451213,6 +451383,7 @@
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
+        "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
@@ -608623,6 +608794,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-03-09 07:06:15"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-09 07:06:15"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-03-09 01:49:51"
         },
         {
@@ -617710,6 +617891,7 @@
       "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
@@ -622852,6 +623034,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-09 07:06:16"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
+          "changed_at": "2026-03-09 07:06:16"
+        },
+        {
           "old_price": 25.0,
           "new_price": 18.0,
           "changed_at": "2026-03-09 01:49:52"
@@ -623302,7 +623494,7 @@
           "changed_at": "2026-02-26 00:27:38"
         }
       ],
-      "price_trend_pct": -28.0
+      "price_trend_pct": 38.89
     },
     {
       "id": 1170,
@@ -625327,6 +625519,21 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 3.0,
+          "new_price": 1.5,
+          "changed_at": "2026-03-09 07:06:16"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 2.0,
+          "changed_at": "2026-03-09 07:06:16"
+        },
+        {
+          "old_price": 2.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-09 07:06:16"
+        },
+        {
           "old_price": 2.0,
           "new_price": 3.0,
           "changed_at": "2026-03-09 01:49:52"
@@ -626002,7 +626209,7 @@
           "changed_at": "2026-02-26 00:27:38"
         }
       ],
-      "price_trend_pct": 50.0
+      "price_trend_pct": -50.0
     },
     {
       "id": 1204,
@@ -632307,6 +632514,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-03-09 07:06:16"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-09 07:06:16"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-03-09 01:49:52"
         },
         {
@@ -638260,6 +638477,16 @@
         "La Romanina"
       ],
       "price_history_30d": [
+        {
+          "old_price": 45.0,
+          "new_price": 28.0,
+          "changed_at": "2026-03-09 07:06:17"
+        },
+        {
+          "old_price": 28.0,
+          "new_price": 45.0,
+          "changed_at": "2026-03-09 07:06:17"
+        },
         {
           "old_price": 45.0,
           "new_price": 28.0,
@@ -653800,6 +654027,7 @@
       "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -664069,6 +664297,7 @@
       "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
