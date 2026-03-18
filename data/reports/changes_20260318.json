@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-03-18T01:53:48.444620",
+    "generated_at": "2026-03-18T07:06:01.338222",
     "date": "2026-03-18",
-    "duration_sec": 32.8,
-    "total_scraped": 13255
+    "duration_sec": 32.1,
+    "total_scraped": 26510
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 43,
-    "availability_changes": 12,
-    "unchanged": 13200,
+    "price_changes": 254,
+    "availability_changes": 20,
+    "unchanged": 26236,
     "errors": 0
   },
   "new_games": [],
@@ -357,6 +357,1694 @@
       "new_price": 5,
       "old_price": 5.0,
       "variation_pct": 0.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_price": 28,
+      "old_price": 45.0,
+      "variation_pct": -37.78
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_price": 45,
+      "old_price": 28.0,
+      "variation_pct": 60.71
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 1.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 2.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 1,
+      "old_price": 2.5,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 6.0,
+      "variation_pct": 316.67
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 25.0,
+      "variation_pct": -76.0
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 6.0,
+      "variation_pct": 366.67
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 28.0,
+      "variation_pct": -78.57
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 15.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 5.0,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 2.5,
+      "old_price": 5.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9964,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 10.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 9964,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 5.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 2.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 10269,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 38,
+      "old_price": 28.0,
+      "variation_pct": 35.71
+    },
+    {
+      "game_id": 10269,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 38.0,
+      "variation_pct": -26.32
+    },
+    {
+      "game_id": 9763,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 70,
+      "old_price": 65.0,
+      "variation_pct": 7.69
+    },
+    {
+      "game_id": 9763,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 65,
+      "old_price": 70.0,
+      "variation_pct": -7.14
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10712,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 10.0,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 10712,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 10.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 2.0,
+      "variation_pct": 75.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 2.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 2,
+      "old_price": 2.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11081,
+      "title": "Captain Tsubasa: Rise of New Champions",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 10.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 11081,
+      "title": "Captain Tsubasa: Rise of New Champions",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 10.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 5.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 16429,
+      "title": "1-2 Switch",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16437,
+      "title": "Air Twister",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16448,
+      "title": "Assassin's Creed III Remastered",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 16449,
+      "title": "Assassin's Creed Rebel Collection",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 16450,
+      "title": "Assassin's Creed: The Ezio Collection",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 16453,
+      "title": "Astral Chain",
+      "console": "Switch",
+      "new_price": 50,
+      "old_price": 45.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16462,
+      "title": "Bayonetta Origins: Cereza and the Lost Demon",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 16463,
+      "title": "Ben 10",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 16467,
+      "title": "Big Brain Academy",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16477,
+      "title": "Bravely Default II",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 16484,
+      "title": "Carnival Games",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 17034,
+      "title": "Colors Live + Sonar Pen",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 16498,
+      "title": "Cuphead (Senza DLC)",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 16508,
+      "title": "Demon Slayer Kimetsu No Yaiba: The Hinokami Chronicles",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 16509,
+      "title": "Destroy All Humans!",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16510,
+      "title": "Detective Pikachu Il Ritorno",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 16517,
+      "title": "Disney Illusion Island",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 16519,
+      "title": "Donkey Kong Country Returns HD",
+      "console": "Switch",
+      "new_price": 48,
+      "old_price": 45.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 16529,
+      "title": "Dragon Quest III HD-2D Remake",
+      "console": "Switch",
+      "new_price": 50,
+      "old_price": 45.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16539,
+      "title": "EA Sports FC 24",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 16542,
+      "title": "Elder Scrolls V: Skyrim",
+      "console": "Switch",
+      "new_price": 50,
+      "old_price": 45.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16546,
+      "title": "Everybody 1-2-Switch",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 16553,
+      "title": "Fashion Dreamer",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 16558,
+      "title": "FIFA 20",
+      "console": "Switch",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16563,
+      "title": "Final Fantasy X HD Only",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 17106,
+      "title": "Final Fantasy XII The Zodiac Age",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 16566,
+      "title": "Fire Emblem Warriors: Three Hopes",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 16571,
+      "title": "Garfield Kart 2 - All You Can Drift",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 42.0,
+      "variation_pct": -4.76
+    },
+    {
+      "game_id": 16587,
+      "title": "Harvestella",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 16594,
+      "title": "Hot Wheels Unleashed",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16595,
+      "title": "Hot Wheels Unleashed 2 - Turbocharged",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 16598,
+      "title": "Hyrule Warriors: Definitive Edition",
+      "console": "Switch",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 16604,
+      "title": "Instant Sports Tennis",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 17182,
+      "title": "Just Dance 2019",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16617,
+      "title": "Just Dance 2022",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 16619,
+      "title": "Kirby e la Terra Perduta",
+      "console": "Switch",
+      "new_price": 52,
+      "old_price": 48.0,
+      "variation_pct": 8.33
+    },
+    {
+      "game_id": 16627,
+      "title": "Legend of Legacy, The - HD Remastered",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 16628,
+      "title": "Legend of Zelda: Breath of the Wild",
+      "console": "Switch",
+      "new_price": 50,
+      "old_price": 52.0,
+      "variation_pct": -3.85
+    },
+    {
+      "game_id": 16635,
+      "title": "Leggende Pokemon: Arceus",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 45.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 16643,
+      "title": "LEGO Jurassic World",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 16646,
+      "title": "Lego Movie 2 Videogame, The",
+      "console": "Switch",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16647,
+      "title": "LEGO Ninjago il film Videogame",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16669,
+      "title": "Mario & Sonic ai Giochi Olimpici di Tokyo 2020",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 16670,
+      "title": "Mario + Rabbids Kingdom Battle",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16675,
+      "title": "Mario Strikers: Battle League Football",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 16688,
+      "title": "Minecraft Dungeons: Hero Edition",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 16692,
+      "title": "Monster Energy Supercross",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 16696,
+      "title": "Monster Jam - Steel Titans",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 16701,
+      "title": "MotoGP 19",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 16711,
+      "title": "Narcos: Rise of The Cartels",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16713,
+      "title": "Naruto X Boruto Ultimate Ninja Storm Connections",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 16716,
+      "title": "NBA 2K19",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16729,
+      "title": "Nier Automata: The End of YoRHa Edition",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 16741,
+      "title": "Olympic Games Tokyo 2020",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16759,
+      "title": "Persona 5 Royal",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 16761,
+      "title": "Persona 5 Tactica (Senza DLC)",
+      "console": "Switch",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 16769,
+      "title": "Pokemon Diamante Lucente",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 16770,
+      "title": "Pokemon Mystery Dungeon: Squadra Di Soccorso DX",
+      "console": "Switch",
+      "new_price": 58,
+      "old_price": 52.0,
+      "variation_pct": 11.54
+    },
+    {
+      "game_id": 16771,
+      "title": "Pokemon Perla Splendente",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 38.0,
+      "variation_pct": 10.53
+    },
+    {
+      "game_id": 16774,
+      "title": "Pokemon Scudo",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 16775,
+      "title": "Pokemon Spada",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 16776,
+      "title": "Pokemon Violetto",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 16779,
+      "title": "Pokemon: Let's Go, Pikachu!",
+      "console": "Switch",
+      "new_price": 52,
+      "old_price": 48.0,
+      "variation_pct": 8.33
+    },
+    {
+      "game_id": 16780,
+      "title": "Pokken Tournament DX",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 16789,
+      "title": "Puyo Puyo Tetris",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16790,
+      "title": "Red Dead Redemption",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 16797,
+      "title": "Ring Fit Adventure w/Fitness Ring & Leg Strap",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 16801,
+      "title": "Romancing SaGa 2: Revenge Of The Seven",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 42.0,
+      "variation_pct": -4.76
+    },
+    {
+      "game_id": 16816,
+      "title": "Shin Megami Tensei V",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16835,
+      "title": "Sonic Mania Plus",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 16845,
+      "title": "Splatoon 3",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 16849,
+      "title": "Spyro Reignited Trilogy",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 16857,
+      "title": "Street Fighter 30th Anniversary Collection",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 16863,
+      "title": "Super Mario Bros. Wonder",
+      "console": "Switch",
+      "new_price": 48,
+      "old_price": 50.0,
+      "variation_pct": -4.0
+    },
+    {
+      "game_id": 16864,
+      "title": "Super Mario Galaxy + Super Mario Galaxy 2",
+      "console": "Switch",
+      "new_price": 58,
+      "old_price": 60.0,
+      "variation_pct": -3.33
+    },
+    {
+      "game_id": 16866,
+      "title": "Super Mario Odyssey",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 48.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 16871,
+      "title": "Super Smash Bros. Ultimate",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 48.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 17409,
+      "title": "Sword Art Online: Hollow Realisation Deluxe Edition",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 16883,
+      "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 16908,
+      "title": "Unicorn's Princess, The",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16917,
+      "title": "Wild Card Football",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 16921,
+      "title": "Wolfenstein II: The New Colossus",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16927,
+      "title": "WWE 2K18",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 16928,
+      "title": "Xenoblade Chronicles 2",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 16930,
+      "title": "Xenoblade Chronicles 3",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 42.0,
+      "variation_pct": -4.76
+    },
+    {
+      "game_id": 16934,
+      "title": "XIII",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 16939,
+      "title": "Zorro The Chronicles",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16949,
+      "title": "Advance Wars 1+2: Re-Boot Camp",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 38.0,
+      "variation_pct": 10.53
+    },
+    {
+      "game_id": 16439,
+      "title": "All-Star Fruit Racing",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16960,
+      "title": "Aragami: Shadow Edition",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16452,
+      "title": "Asterix & Obelix: Slap Them All!",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16456,
+      "title": "Attack On Titan 2: Final Battle",
+      "console": "Switch",
+      "new_price": 75,
+      "old_price": 70.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 16981,
+      "title": "Baldur's Gate I & II Enhanced Edition",
+      "console": "Switch",
+      "new_price": 50,
+      "old_price": 30.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 16989,
+      "title": "Bayonetta 3",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 16468,
+      "title": "Big Helmet",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16996,
+      "title": "Big Rumble Boxing - Creed Champions",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 16997,
+      "title": "Binding of Isaac, The: Afterbirth+",
+      "console": "Switch",
+      "new_price": 70,
+      "old_price": 65.0,
+      "variation_pct": 7.69
+    },
+    {
+      "game_id": 16998,
+      "title": "Bioshock: The Collection",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 17000,
+      "title": "Blasphemous Deluxe Edition",
+      "console": "Switch",
+      "new_price": 50,
+      "old_price": 30.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 17009,
+      "title": "Bubble Bobble 4 - Friends",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16482,
+      "title": "Captain Toad - Treasure Tracker",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 38.0,
+      "variation_pct": 10.53
+    },
+    {
+      "game_id": 17022,
+      "title": "Celeste",
+      "console": "Switch",
+      "new_price": 60,
+      "old_price": 28.0,
+      "variation_pct": 114.29
+    },
+    {
+      "game_id": 17036,
+      "title": "Cooking Mama: Cookstar",
+      "console": "Switch",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 17053,
+      "title": "Darq Ultimate Edition",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16502,
+      "title": "De Blob 2",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 17503,
+      "title": "Demon Slayer Kimetsu no Yaiba: The Hinokami Chronicles 2",
+      "console": "Switch",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 16511,
+      "title": "Diablo III: Eternal Collection (Senza DLC)",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 16531,
+      "title": "Dragon Quest XI S: Echi di Un'era Perduta",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 17086,
+      "title": "Emio – L'uomo che sorride Famicom Detective Club",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 16552,
+      "title": "Farmer's Dynasty",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 17101,
+      "title": "Fast & Furious: Arcade Edition",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 17104,
+      "title": "Final Fantasy I-VI Collection Anniversary Edition: Pixel Remaster",
+      "console": "Switch",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 17123,
+      "title": "Front Mission 1st Remake",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 17129,
+      "title": "Gear Club Unlimited 2",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16576,
+      "title": "Ghostrunner",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16583,
+      "title": "Grow: Song Of The Evertree",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 17143,
+      "title": "Guacamelee: One-Two Punch Collection (Senza DLC)",
+      "console": "Switch",
+      "new_price": 60,
+      "old_price": 30.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 17145,
+      "title": "Hades",
+      "console": "Switch",
+      "new_price": 65,
+      "old_price": 55.0,
+      "variation_pct": 18.18
+    },
+    {
+      "game_id": 17167,
+      "title": "Hyrule Warriors: Age of Calamity",
+      "console": "Switch",
+      "new_price": 52,
+      "old_price": 48.0,
+      "variation_pct": 8.33
+    },
+    {
+      "game_id": 16600,
+      "title": "Immortals: Fenyx Rising (Senza DLC)",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16605,
+      "title": "Instant Sports: Summer Games",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 17178,
+      "title": "John Wick Hex",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 15.0,
+      "variation_pct": 133.33
+    },
+    {
+      "game_id": 16610,
+      "title": "Jujutsu Kaisen Cursed Clash",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16613,
+      "title": "Jurassic Park Classic Game Collection",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 17186,
+      "title": "Kill La Kill - If",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 17198,
+      "title": "Laboratorio Di Videogiochi",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 17203,
+      "title": "Last Kids On Earth, The (Senza DLC)",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 17206,
+      "title": "Legend of Heroes, The: Trails into Reverie",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16662,
+      "title": "LOL Surprise BBS In Viaggio",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 12.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16681,
+      "title": "Metal Gear Solid Master Collection Vol. 1",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 16700,
+      "title": "MotoGP 18",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 17259,
+      "title": "My Hero One's Justice 2",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 17268,
+      "title": "Neo: The World Ends With You",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16730,
+      "title": "Nights of Azure 2",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 17285,
+      "title": "Octopath Traveler: Traveler's Compendium Edition",
+      "console": "Switch",
+      "new_price": 105,
+      "old_price": 95.0,
+      "variation_pct": 10.53
+    },
+    {
+      "game_id": 16742,
+      "title": "One Piece: Odyssey",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 38.0,
+      "variation_pct": 10.53
+    },
+    {
+      "game_id": 16752,
+      "title": "Patapon 1+2 Replay",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16754,
+      "title": "Paw Patrol: Al Lavoro",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 16762,
+      "title": "Pikmin 3 Deluxe",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 38.0,
+      "variation_pct": 10.53
+    },
+    {
+      "game_id": 16766,
+      "title": "PJ Masks Power Heroes: Alleanza",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 17312,
+      "title": "Poison Control",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 16787,
+      "title": "Prodeus",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 17335,
+      "title": "Rayman Legends: Definitive Edition",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16792,
+      "title": "Remothered: Tormented Fathers",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 16796,
+      "title": "RiMS Racing",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 17342,
+      "title": "Risen",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16802,
+      "title": "Root Film",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 17352,
+      "title": "Samba de Amigo - Party Central",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 17366,
+      "title": "Signalis",
+      "console": "Switch",
+      "new_price": 50,
+      "old_price": 22.0,
+      "variation_pct": 127.27
+    },
+    {
+      "game_id": 17369,
+      "title": "Skylanders: Imaginators Starter Pack",
+      "console": "Switch",
+      "new_price": 80,
+      "old_price": 20.0,
+      "variation_pct": 300.0
+    },
+    {
+      "game_id": 16826,
+      "title": "Smurfs, The: Mission ViLeaf",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 12.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16829,
+      "title": "Snipperclips Plus: Diamoci Un Taglio!",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16831,
+      "title": "SnowRunner",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16843,
+      "title": "Spirit of the Island: Paradise Edition",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16852,
+      "title": "Star Wars Pinball",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 17394,
+      "title": "Stray",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 17397,
+      "title": "Super Bomberman R",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16870,
+      "title": "Super Putty Squad",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16874,
+      "title": "Sword Art Online - Alicization Lycoris",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 12.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16891,
+      "title": "Tomb Raider IV-V-VI Remastered",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 16906,
+      "title": "Ultra Street Fighter II: The Final Challengers",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 17457,
+      "title": "V-Rally 4",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16912,
+      "title": "War Tech Fighters",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 16925,
+      "title": "WRC 9",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 17483,
+      "title": "WRC Generations",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16926,
+      "title": "Wreckfest",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16932,
+      "title": "Xenoblade Chronicles: Def. Ed. Col. Set w/Vinyl, Artbook, Steelbook&Poster",
+      "console": "Switch",
+      "new_price": 120,
+      "old_price": 110.0,
+      "variation_pct": 9.09
     }
   ],
   "availability_changes": [
@@ -566,6 +2254,188 @@
     {
       "game_id": 15792,
       "title": "Pokemon Versione Platino",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14898,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14898,
+      "title": "Disney Jonas Brothers",
       "console": "DS",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
