@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-03-19T01:54:44.763610",
+    "exported_at": "2026-03-19T07:02:45.090265",
     "total_games": 17600,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-03-19",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 44,
-        "availability_changes": 10,
-        "unchanged": 13201,
+        "price_changes": 88,
+        "availability_changes": 18,
+        "unchanged": 26403,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-03-19",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 44,
-      "availability_changes": 10,
-      "unchanged": 13201,
+      "price_changes": 88,
+      "availability_changes": 18,
+      "unchanged": 26403,
       "errors": 0
     }
   },
@@ -23310,6 +23310,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
@@ -53069,6 +53070,7 @@
       "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -77858,6 +77860,16 @@
         {
           "old_price": 2.5,
           "new_price": 1.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
+        {
+          "old_price": 1.0,
+          "new_price": 2.5,
+          "changed_at": "2026-03-19 07:02:32"
+        },
+        {
+          "old_price": 2.5,
+          "new_price": 1.0,
           "changed_at": "2026-03-19 01:54:24"
         },
         {
@@ -83677,6 +83689,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
+        {
+          "old_price": 20.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
         {
           "old_price": 25.0,
           "new_price": 20.0,
@@ -95290,6 +95312,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 6.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
         {
           "old_price": 6.0,
           "new_price": 25.0,
@@ -111774,6 +111806,16 @@
         {
           "old_price": 6.0,
           "new_price": 28.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
+        {
+          "old_price": 28.0,
+          "new_price": 6.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
+        {
+          "old_price": 6.0,
+          "new_price": 28.0,
           "changed_at": "2026-03-19 01:54:25"
         },
         {
@@ -122299,6 +122341,7 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
         "The Wow Side"
@@ -124439,6 +124482,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-19 07:02:34"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 8.0,
+          "changed_at": "2026-03-19 07:02:34"
+        },
         {
           "old_price": 8.0,
           "new_price": 5.0,
@@ -137362,6 +137415,16 @@
         {
           "old_price": 15.0,
           "new_price": 10.0,
+          "changed_at": "2026-03-19 07:02:34"
+        },
+        {
+          "old_price": 10.0,
+          "new_price": 15.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
+        {
+          "old_price": 15.0,
+          "new_price": 10.0,
           "changed_at": "2026-03-19 01:54:25"
         },
         {
@@ -149005,6 +149068,16 @@
         {
           "old_price": 5.0,
           "new_price": 2.0,
+          "changed_at": "2026-03-19 07:02:34"
+        },
+        {
+          "old_price": 2.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-19 07:02:33"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 2.0,
           "changed_at": "2026-03-19 01:54:26"
         },
         {
@@ -158297,6 +158370,16 @@
         {
           "old_price": 10.0,
           "new_price": 5.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
+        {
+          "old_price": 10.0,
+          "new_price": 5.0,
           "changed_at": "2026-03-19 01:54:27"
         },
         {
@@ -160523,6 +160606,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
@@ -175819,6 +175903,7 @@
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Milano Viale Tunisia",
         "Gran Roma"
       ],
       "price_history_30d": [
@@ -176011,6 +176096,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
+        "Gran Roma",
         "La Romanina",
         "The Wow Side"
       ],
@@ -181662,6 +181748,16 @@
         {
           "old_price": 2.5,
           "new_price": 5.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 2.5,
+          "changed_at": "2026-03-19 07:02:34"
+        },
+        {
+          "old_price": 2.5,
+          "new_price": 5.0,
           "changed_at": "2026-03-19 01:54:27"
         },
         {
@@ -187024,7 +187120,8 @@
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "Milano Viale Tunisia"
+        "Milano Viale Tunisia",
+        "Gran Roma"
       ],
       "price_history_30d": [
         {
@@ -190315,6 +190412,16 @@
         {
           "old_price": 28.0,
           "new_price": 38.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
+        {
+          "old_price": 38.0,
+          "new_price": 28.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
+        {
+          "old_price": 28.0,
+          "new_price": 38.0,
           "changed_at": "2026-03-19 01:54:28"
         },
         {
@@ -193460,6 +193567,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 65.0,
+          "new_price": 70.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
+        {
+          "old_price": 70.0,
+          "new_price": 65.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
         {
           "old_price": 65.0,
           "new_price": 70.0,
@@ -201571,6 +201688,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-03-19 07:02:35"
+        },
+        {
           "old_price": 18.0,
           "new_price": 15.0,
           "changed_at": "2026-03-19 01:54:28"
@@ -202291,7 +202418,7 @@
           "changed_at": "2026-03-02 01:35:22"
         }
       ],
-      "price_trend_pct": -16.67
+      "price_trend_pct": 20.0
     },
     {
       "id": 10378,
@@ -221393,6 +221520,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 20.0,
+          "changed_at": "2026-03-19 07:02:36"
+        },
+        {
+          "old_price": 20.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-19 07:02:36"
+        },
         {
           "old_price": 10.0,
           "new_price": 20.0,
@@ -267230,6 +267367,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-19 07:02:37"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-03-19 07:02:36"
+        },
         {
           "old_price": 4.0,
           "new_price": 5.0,
@@ -340618,6 +340765,7 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
         "The Wow Side"
@@ -344466,8 +344614,8 @@
       "image_url": null,
       "cash_price": 4.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 9,
-      "collection_quantity": 9,
+      "ecom_quantity": 8,
+      "collection_quantity": 8,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -387257,6 +387405,16 @@
         {
           "old_price": 10.0,
           "new_price": 4.0,
+          "changed_at": "2026-03-19 07:02:36"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 10.0,
+          "changed_at": "2026-03-19 07:02:36"
+        },
+        {
+          "old_price": 10.0,
+          "new_price": 4.0,
           "changed_at": "2026-03-19 01:54:28"
         },
         {
@@ -392885,6 +393043,21 @@
         "Milano Viale Tunisia"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 3.5,
+          "changed_at": "2026-03-19 07:02:36"
+        },
+        {
+          "old_price": 3.5,
+          "new_price": 6.0,
+          "changed_at": "2026-03-19 07:02:36"
+        },
+        {
+          "old_price": 6.0,
+          "new_price": 2.0,
+          "changed_at": "2026-03-19 07:02:36"
+        },
         {
           "old_price": 2.0,
           "new_price": 3.5,
@@ -529132,6 +529305,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
@@ -621698,6 +621872,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-03-19 07:02:30"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-19 07:02:30"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-03-19 01:54:19"
         },
         {
@@ -636341,6 +636525,16 @@
         {
           "old_price": 25.0,
           "new_price": 18.0,
+          "changed_at": "2026-03-19 07:02:31"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-19 07:02:30"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
           "changed_at": "2026-03-19 01:54:20"
         },
         {
@@ -639221,6 +639415,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-19 07:02:31"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 1.5,
+          "changed_at": "2026-03-19 07:02:30"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 2.0,
+          "changed_at": "2026-03-19 07:02:30"
+        },
         {
           "old_price": 2.0,
           "new_price": 3.0,
@@ -646823,6 +647032,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-03-19 07:02:31"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-19 07:02:31"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-03-19 01:54:20"
         },
         {
@@ -653194,6 +653413,16 @@
         "La Romanina"
       ],
       "price_history_30d": [
+        {
+          "old_price": 45.0,
+          "new_price": 28.0,
+          "changed_at": "2026-03-19 07:02:32"
+        },
+        {
+          "old_price": 28.0,
+          "new_price": 45.0,
+          "changed_at": "2026-03-19 07:02:32"
+        },
         {
           "old_price": 45.0,
           "new_price": 28.0,
