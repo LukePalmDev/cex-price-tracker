@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-03-20T01:49:11.349369",
+    "generated_at": "2026-03-20T07:00:28.600039",
     "date": "2026-03-20",
-    "duration_sec": 30.8,
-    "total_scraped": 13258
+    "duration_sec": 26.8,
+    "total_scraped": 26516
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 46,
-    "availability_changes": 12,
-    "unchanged": 13200,
+    "price_changes": 257,
+    "availability_changes": 20,
+    "unchanged": 26239,
     "errors": 0
   },
   "new_games": [],
@@ -381,6 +381,1694 @@
       "new_price": 15,
       "old_price": 22.0,
       "variation_pct": -31.82
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_price": 28,
+      "old_price": 45.0,
+      "variation_pct": -37.78
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_price": 45,
+      "old_price": 28.0,
+      "variation_pct": 60.71
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 1.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 2.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 1,
+      "old_price": 2.5,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 6.0,
+      "variation_pct": 316.67
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 25.0,
+      "variation_pct": -76.0
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 6.0,
+      "variation_pct": 366.67
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 28.0,
+      "variation_pct": -78.57
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 15.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 5.0,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 2.5,
+      "old_price": 5.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9964,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 10.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 9964,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 5.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 2.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 10269,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 38,
+      "old_price": 28.0,
+      "variation_pct": 35.71
+    },
+    {
+      "game_id": 10269,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 38.0,
+      "variation_pct": -26.32
+    },
+    {
+      "game_id": 9763,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 70,
+      "old_price": 65.0,
+      "variation_pct": 7.69
+    },
+    {
+      "game_id": 9763,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 65,
+      "old_price": 70.0,
+      "variation_pct": -7.14
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10712,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 10.0,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 10712,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 10.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 2.0,
+      "variation_pct": 75.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 2.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 2,
+      "old_price": 2.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11081,
+      "title": "Captain Tsubasa: Rise of New Champions",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 10.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 11081,
+      "title": "Captain Tsubasa: Rise of New Champions",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 10.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 5.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 12664,
+      "title": "Agatha Christie - The ABC Murders",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12668,
+      "title": "Alan Wake Remastered",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12673,
+      "title": "Amerzone - The Explorers Legacy",
+      "console": "PS5",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 17537,
+      "title": "ARK: Survival Ascended",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12681,
+      "title": "Armored Core VI: Fires of Rubicon",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12697,
+      "title": "Atari 50: The Anniversary Celebration",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12699,
+      "title": "Atlas Fallen",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12702,
+      "title": "Autobahn Police Simulator 3",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 12710,
+      "title": "Banishers: Ghosts of New Eden",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12731,
+      "title": "Call of Duty: Modern Warfare III",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12732,
+      "title": "Call of Duty: Vanguard (Senza DLC)",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12736,
+      "title": "Cat Quest III",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12752,
+      "title": "Crash Team Rumble",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12753,
+      "title": "Crew, The: Motorfest (Senza DLC)",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12760,
+      "title": "Crown of Wu, The",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12765,
+      "title": "Cyberpunk 2077 (Base Game Only)",
+      "console": "PS5",
+      "new_price": 42,
+      "old_price": 40.0,
+      "variation_pct": 5.0
+    },
+    {
+      "game_id": 12767,
+      "title": "Daemon X Machina: Titanic Scion",
+      "console": "PS5",
+      "new_price": 42,
+      "old_price": 45.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 12772,
+      "title": "Darksiders II: Deathinitive Edition",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 12774,
+      "title": "Date Everything!",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12779,
+      "title": "Dead Rising Deluxe Remaster",
+      "console": "PS5",
+      "new_price": 32,
+      "old_price": 38.0,
+      "variation_pct": -15.79
+    },
+    {
+      "game_id": 12781,
+      "title": "Death Stranding 2: On the Beach",
+      "console": "PS5",
+      "new_price": 55,
+      "old_price": 58.0,
+      "variation_pct": -5.17
+    },
+    {
+      "game_id": 12785,
+      "title": "Deliver At All Costs",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 12786,
+      "title": "Demon Slayer Kimetsu no Yaiba: The Hinokami Chronicles 2",
+      "console": "PS5",
+      "new_price": 60,
+      "old_price": 55.0,
+      "variation_pct": 9.09
+    },
+    {
+      "game_id": 12787,
+      "title": "Demon Slayer Kimetsu No Yaiba: The Hinokami Chronicles",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12792,
+      "title": "Diablo IV (Senza DLC)",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12804,
+      "title": "Dragon Age: The Veilguard (Senza DLC)",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12823,
+      "title": "EA Sports WRC",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12827,
+      "title": "Elden Ring (Senza DLC)",
+      "console": "PS5",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 12833,
+      "title": "Endzone - A World Apart",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12841,
+      "title": "Evil West",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12846,
+      "title": "F1 22",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12847,
+      "title": "F1 23",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12853,
+      "title": "Falconeer, The (Senza DLC)",
+      "console": "PS5",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 12856,
+      "title": "Fantasy Friends Dream Worlds",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12858,
+      "title": "Farming Simulator 22",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12859,
+      "title": "Farming Simulator 25",
+      "console": "PS5",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12868,
+      "title": "Final Fantasy XVI",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12869,
+      "title": "Final Vendetta",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12870,
+      "title": "First Berserker, The: Khazan",
+      "console": "PS5",
+      "new_price": 50,
+      "old_price": 48.0,
+      "variation_pct": 4.17
+    },
+    {
+      "game_id": 12871,
+      "title": "FIST: Forged In Shadow Torch",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12872,
+      "title": "Five Nights at Freddy's Into the Pit",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12877,
+      "title": "Flintlock: The Siege of Dawn",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12891,
+      "title": "Gap, The",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12895,
+      "title": "Ghost of Yotei",
+      "console": "PS5",
+      "new_price": 68,
+      "old_price": 70.0,
+      "variation_pct": -2.86
+    },
+    {
+      "game_id": 12896,
+      "title": "Ghost Song",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12900,
+      "title": "Ghostwire: Tokyo (Senza DLC)",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12904,
+      "title": "God of War Ragnarok",
+      "console": "PS5",
+      "new_price": 45,
+      "old_price": 38.0,
+      "variation_pct": 18.42
+    },
+    {
+      "game_id": 12905,
+      "title": "Godfall",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12907,
+      "title": "Gotham Knights",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12909,
+      "title": "Gran Turismo 7 (Senza DLC)",
+      "console": "PS5",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 12910,
+      "title": "Granblue Fantasy: Relink",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12911,
+      "title": "Grand Theft Auto V",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12917,
+      "title": "Grinch, The: Christmas Adventures",
+      "console": "PS5",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 12919,
+      "title": "Guilty Gear Strive",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12925,
+      "title": "Heavy Duty Challenge",
+      "console": "PS5",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12928,
+      "title": "Hell Let Loose",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12935,
+      "title": "Hitman: World of Assassination",
+      "console": "PS5",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 12942,
+      "title": "House Flipper 2",
+      "console": "PS5",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 12944,
+      "title": "House Of The Dead: Remake",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12951,
+      "title": "Immortals: Fenyx Rising (Senza DLC)",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12961,
+      "title": "Invincible, The",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12962,
+      "title": "Iron Harvest: Complete Edition",
+      "console": "PS5",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 12965,
+      "title": "Jujutsu Kaisen: Cursed Clash",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12972,
+      "title": "Kao the Kangaroo",
+      "console": "PS5",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 12974,
+      "title": "Killing Floor 3",
+      "console": "PS5",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 12980,
+      "title": "Labyrinth of Galleria: The Moon Society",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12998,
+      "title": "Lies of P (Senza DLC)",
+      "console": "PS5",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 13003,
+      "title": "Light Brigade, The (PSVR2)",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 13004,
+      "title": "Like a Dragon: Ishin!",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 13005,
+      "title": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "console": "PS5",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 13006,
+      "title": "Lisa:Definitive Edition (No DLC)",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 13008,
+      "title": "Little Nightmares III",
+      "console": "PS5",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 13014,
+      "title": "Lost Judgment",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13018,
+      "title": "Madden NFL 23",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13020,
+      "title": "Madison (Senza DLC)",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 13026,
+      "title": "Martha Is Dead",
+      "console": "PS5",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13042,
+      "title": "Minecraft",
+      "console": "PS5",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13045,
+      "title": "Monochrome Mobius: Rights and Wrongs Forgotten",
+      "console": "PS5",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 13050,
+      "title": "Monster Energy Supercross 6",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13051,
+      "title": "Monster Hunter Wilds",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 13052,
+      "title": "Monster Jam Showdown",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13057,
+      "title": "Mortal Kombat 11 (Senza Ultimate DLC)",
+      "console": "PS5",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13059,
+      "title": "Mortal Shell: Enhanced Edition",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 13060,
+      "title": "Moto GP 22",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13064,
+      "title": "MotoGP 25",
+      "console": "PS5",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 13068,
+      "title": "My Fantastic Ranch",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13069,
+      "title": "My Hero Academia: All's Justice",
+      "console": "PS5",
+      "new_price": 60,
+      "old_price": 68.0,
+      "variation_pct": -11.76
+    },
+    {
+      "game_id": 13070,
+      "title": "Naruto X Boruto Ultimate Ninja Storm Connections",
+      "console": "PS5",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13074,
+      "title": "NBA 2K23 (Senza DLC)",
+      "console": "PS5",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13079,
+      "title": "Need for Speed: Unbound",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13080,
+      "title": "Neon Blood",
+      "console": "PS5",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 13082,
+      "title": "New Tales from The Borderlands (No DLC)",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 13089,
+      "title": "Nioh Collection (2 Disc)",
+      "console": "PS5",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 13091,
+      "title": "No More Heroes III",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 13093,
+      "title": "Octopath Traveler II",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13096,
+      "title": "One Piece: Odyssey",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 13097,
+      "title": "Outcast: A New Beginning",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 13115,
+      "title": "Persona 3 Reload",
+      "console": "PS5",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 13118,
+      "title": "PGA Tour 2K23",
+      "console": "PS5",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13119,
+      "title": "Phantom Brave: The Lost Hero - Deluxe Edition",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 13125,
+      "title": "Planet Zoo",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 13126,
+      "title": "Pneumata",
+      "console": "PS5",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 13127,
+      "title": "Poker Club",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13131,
+      "title": "Precinct, The",
+      "console": "PS5",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 13132,
+      "title": "Predator: Hunting Grounds",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 35.0,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 13133,
+      "title": "Prince of Persia: The Lost Crown",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13134,
+      "title": "Prodeus",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13137,
+      "title": "Puffi Kart",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13138,
+      "title": "Puyo Puyo Tetris 2",
+      "console": "PS5",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 13142,
+      "title": "Quiet Place, A: The Road Ahead",
+      "console": "PS5",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13144,
+      "title": "Raiden IV x MIKADO remix",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13154,
+      "title": "Resident Evil 2",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13156,
+      "title": "Resident Evil 4 Remake",
+      "console": "PS5",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 13159,
+      "title": "Resident Evil: Village",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 22.0,
+      "variation_pct": 36.36
+    },
+    {
+      "game_id": 13162,
+      "title": "Reynatis: Deluxe Edition",
+      "console": "PS5",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 13171,
+      "title": "Robocop: Rogue City",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13178,
+      "title": "Sackboy: A Big Adventure",
+      "console": "PS5",
+      "new_price": 42,
+      "old_price": 40.0,
+      "variation_pct": 5.0
+    },
+    {
+      "game_id": 13185,
+      "title": "Scars Above",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13190,
+      "title": "Shadow of the Ninja - Reborn",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13192,
+      "title": "Shadows of Doubt",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13195,
+      "title": "Sid Meier's Civilization VII",
+      "console": "PS5",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 13198,
+      "title": "Silent Hill F",
+      "console": "PS5",
+      "new_price": 65,
+      "old_price": 68.0,
+      "variation_pct": -4.41
+    },
+    {
+      "game_id": 13202,
+      "title": "Skull Island Rise of Kong",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13208,
+      "title": "Sociable Soccer 25",
+      "console": "PS5",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 13213,
+      "title": "Sonic Superstars",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 13214,
+      "title": "Sonic x Shadow Generations",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13215,
+      "title": "Soul Hackers 2",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13218,
+      "title": "Space Adventure Cobra - The Awakening",
+      "console": "PS5",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 13220,
+      "title": "Spells & Secrets",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13221,
+      "title": "Spider-Man 2 (Senza DLC)",
+      "console": "PS5",
+      "new_price": 50,
+      "old_price": 48.0,
+      "variation_pct": 4.17
+    },
+    {
+      "game_id": 13222,
+      "title": "Spider-Man: Miles Morales (Senza DLC)",
+      "console": "PS5",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 13223,
+      "title": "Spirit Of The Island: Paradise Edition",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13227,
+      "title": "SpongeBob SquarePants: The Patrick Star Game",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13229,
+      "title": "Stalker 2: Heart of Chornobyl",
+      "console": "PS5",
+      "new_price": 60,
+      "old_price": 55.0,
+      "variation_pct": 9.09
+    },
+    {
+      "game_id": 13242,
+      "title": "Stray",
+      "console": "PS5",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 13243,
+      "title": "Street Fighter 6",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 13249,
+      "title": "Survivor: Castaway Island",
+      "console": "PS5",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13250,
+      "title": "Sword Art Online Last Recollection",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13253,
+      "title": "Syberia: The World Before",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13265,
+      "title": "Tekken 8 (Senza DLC)",
+      "console": "PS5",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 13271,
+      "title": "Test Drive: Unlimited Solar Crown",
+      "console": "PS5",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13272,
+      "title": "Texas Chain Saw Massacre, The",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13273,
+      "title": "The Elder Scrolls IV: Oblivion Remastered",
+      "console": "PS5",
+      "new_price": 48,
+      "old_price": 45.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 13277,
+      "title": "Tiny Tina's Wonderlands (Senza DLC)",
+      "console": "PS5",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13278,
+      "title": "Tomb Raider I-III Remastered",
+      "console": "PS5",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 13284,
+      "title": "Tour de France 2021",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13286,
+      "title": "Tour De France 2023",
+      "console": "PS5",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13293,
+      "title": "Train Sim World 4",
+      "console": "PS5",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13294,
+      "title": "Train Sim World 5 (Senza DLC)",
+      "console": "PS5",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 13295,
+      "title": "Transformers: Earth Spark Expedition",
+      "console": "PS5",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13296,
+      "title": "Trek To Yomi",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13304,
+      "title": "Two Point Campus (Senza DLC)",
+      "console": "PS5",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13305,
+      "title": "UFC 5",
+      "console": "PS5",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 13309,
+      "title": "Under The Waves",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13313,
+      "title": "Until Dawn",
+      "console": "PS5",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 13327,
+      "title": "Warhammer Age of Sigmar: Realms of Ruin",
+      "console": "PS5",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13328,
+      "title": "Warhammer: Chaosbane - Slayer Edition",
+      "console": "PS5",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 13337,
+      "title": "Wildshade: Unicorn Champions",
+      "console": "PS5",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13342,
+      "title": "Wo Long: Fallen Dynasty",
+      "console": "PS5",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 13349,
+      "title": "Wuchang: Fallen Feathers",
+      "console": "PS5",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13352,
+      "title": "WWE 2K24 (Senza DLC)",
+      "console": "PS5",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 13354,
+      "title": "WWI Isonzo: Italian Front",
+      "console": "PS5",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13357,
+      "title": "Yakuza: Like a Dragon",
+      "console": "PS5",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13361,
+      "title": "Ys IX: Monstrum Nox",
+      "console": "PS5",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 13362,
+      "title": "Ys VIII: Lacrimosa Of Dana",
+      "console": "PS5",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 13776,
+      "title": "F1 2009",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 15.0,
+      "variation_pct": 46.67
+    },
+    {
+      "game_id": 13776,
+      "title": "F1 2009",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 22.0,
+      "variation_pct": -31.82
     }
   ],
   "availability_changes": [
@@ -572,6 +2260,188 @@
       "console": "PS4",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14898,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14898,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2694,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11390,
+      "title": "Lets Sing 2018 (Game Only)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     },
     {
       "game_id": 11390,
