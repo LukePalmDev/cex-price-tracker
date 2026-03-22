@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T06:56:10.281687",
+    "generated_at": "2026-03-22T12:43:49.719668",
     "date": "2026-03-22",
-    "duration_sec": 10.1,
-    "total_scraped": 7891
+    "duration_sec": 9.5,
+    "total_scraped": 10466
   },
   "summary": {
     "new_games": 4,
-    "price_changes": 35,
-    "availability_changes": 44,
-    "unchanged": 7808,
+    "price_changes": 44,
+    "availability_changes": 50,
+    "unchanged": 10368,
     "errors": 0
   },
   "new_games": [
@@ -246,6 +246,78 @@
       "new_price": 18,
       "old_price": 15.0,
       "variation_pct": 20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
     },
     {
       "game_id": 951,
@@ -745,6 +817,76 @@
       "game_id": 1203,
       "title": "Table Tennis",
       "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 215,
+      "title": "I Fantastici 4",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 511,
+      "title": "Tom Clancy's Splinter Cell",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1684,
+      "title": "Ride",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2341,
+      "title": "Resident Evil 7: Biohazard",
+      "console": "Xbox One",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
