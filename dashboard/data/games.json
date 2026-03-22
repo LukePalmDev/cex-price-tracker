@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-03-22T01:54:10.274791",
+    "exported_at": "2026-03-22T06:56:12.846012",
     "total_games": 17611,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-03-22",
       "daily_summary": {
         "new_games": 4,
-        "price_changes": 26,
-        "availability_changes": 42,
-        "unchanged": 5244,
+        "price_changes": 35,
+        "availability_changes": 44,
+        "unchanged": 7808,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-03-22",
     "daily_summary": {
       "new_games": 4,
-      "price_changes": 26,
-      "availability_changes": 42,
-      "unchanged": 5244,
+      "price_changes": 35,
+      "availability_changes": 44,
+      "unchanged": 7808,
       "errors": 0
     }
   },
@@ -623829,6 +623829,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-03-22 06:56:08"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-22 06:56:08"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-03-22 01:54:02"
         },
         {
@@ -638624,6 +638634,16 @@
         {
           "old_price": 25.0,
           "new_price": 18.0,
+          "changed_at": "2026-03-22 06:56:09"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-22 06:56:08"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
           "changed_at": "2026-03-22 01:54:03"
         },
         {
@@ -641624,6 +641644,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-22 06:56:09"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 1.5,
+          "changed_at": "2026-03-22 06:56:08"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 2.0,
+          "changed_at": "2026-03-22 06:56:08"
+        },
         {
           "old_price": 2.0,
           "new_price": 3.0,
@@ -649398,6 +649433,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-22 06:56:09"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-22 06:56:09"
+        },
         {
           "old_price": 3.0,
           "new_price": 5.0,
