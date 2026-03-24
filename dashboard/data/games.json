@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-03-24T01:47:04.721433",
+    "exported_at": "2026-03-24T07:08:29.816687",
     "total_games": 17611,
     "version": "1.0",
     "statistics": {
       "total_games": 17611,
-      "available_games": 9011,
-      "unavailable_games": 8600,
+      "available_games": 9009,
+      "unavailable_games": 8602,
       "by_console": {
         "PS4": 3375,
         "Switch": 2156,
@@ -29,17 +29,17 @@
       "last_update": "2026-03-24",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 9,
-        "availability_changes": 2,
-        "unchanged": 2564,
+        "price_changes": 18,
+        "availability_changes": 6,
+        "unchanged": 5126,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 17611,
-    "available_games": 9011,
-    "unavailable_games": 8600,
+    "available_games": 9009,
+    "unavailable_games": 8602,
     "by_console": {
       "PS4": 3375,
       "Switch": 2156,
@@ -62,9 +62,9 @@
     "last_update": "2026-03-24",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 9,
-      "availability_changes": 2,
-      "unchanged": 2564,
+      "price_changes": 18,
+      "availability_changes": 6,
+      "unchanged": 5126,
       "errors": 0
     }
   },
@@ -600986,18 +600986,18 @@
       "console": "Xbox 360",
       "category": "Xbox",
       "current_price": 22.0,
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=3307211504523",
       "first_seen": "2026-02-26",
       "last_updated": "2026-03-24",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-03-24",
       "image_url": null,
       "cash_price": 6.0,
       "exchange_price": 11.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -605967,8 +605967,8 @@
       "image_url": null,
       "cash_price": 4.0,
       "exchange_price": 7.0,
-      "ecom_quantity": 8,
-      "collection_quantity": 8,
+      "ecom_quantity": 7,
+      "collection_quantity": 7,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -623848,6 +623848,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-03-24 07:08:23"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-24 07:08:23"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-03-24 01:46:58"
         },
         {
@@ -638730,6 +638740,16 @@
         {
           "old_price": 25.0,
           "new_price": 18.0,
+          "changed_at": "2026-03-24 07:08:24"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-24 07:08:23"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
           "changed_at": "2026-03-24 01:46:59"
         },
         {
@@ -641810,6 +641830,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-24 07:08:24"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 1.5,
+          "changed_at": "2026-03-24 07:08:23"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 2.0,
+          "changed_at": "2026-03-24 07:08:23"
+        },
         {
           "old_price": 2.0,
           "new_price": 3.0,
@@ -649187,18 +649222,18 @@
       "console": "Xbox 360",
       "category": "Xbox",
       "current_price": 10.0,
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5030917069529",
       "first_seen": "2026-02-26",
       "last_updated": "2026-03-24",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-03-24",
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -649706,6 +649741,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-24 07:08:24"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-24 07:08:24"
+        },
         {
           "old_price": 3.0,
           "new_price": 5.0,
