@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T07:13:42.162179",
+    "generated_at": "2026-03-26T19:16:28.381303",
     "date": "2026-03-26",
-    "duration_sec": 11.7,
-    "total_scraped": 7827
+    "duration_sec": 13.2,
+    "total_scraped": 12194
   },
   "summary": {
-    "new_games": 5,
-    "price_changes": 110,
-    "availability_changes": 73,
-    "unchanged": 7639,
+    "new_games": 24,
+    "price_changes": 267,
+    "availability_changes": 122,
+    "unchanged": 11781,
     "errors": 0
   },
   "new_games": [
@@ -42,6 +42,120 @@
       "title": "Rennsport",
       "console": "PS5",
       "price": 35
+    },
+    {
+      "game_id": 17619,
+      "title": "Castlevania: Order of Eccelsia",
+      "console": "DS",
+      "price": 85
+    },
+    {
+      "game_id": 17620,
+      "title": "Dragon Ball Z: Goku Densetsu",
+      "console": "DS",
+      "price": 12
+    },
+    {
+      "game_id": 17621,
+      "title": "Dragon Ball Z: Super Sonic Warriors 2",
+      "console": "DS",
+      "price": 18
+    },
+    {
+      "game_id": 17622,
+      "title": "Dragon Ball: Origins",
+      "console": "DS",
+      "price": 25
+    },
+    {
+      "game_id": 17623,
+      "title": "Spider-Man 3",
+      "console": "DS",
+      "price": 5
+    },
+    {
+      "game_id": 17624,
+      "title": "Dragon Ball Z: Attack of the Saiyans",
+      "console": "DS",
+      "price": 40
+    },
+    {
+      "game_id": 17625,
+      "title": "Mario & Sonic Ai Giochi Olimpici Invernali",
+      "console": "DS",
+      "price": 22
+    },
+    {
+      "game_id": 17626,
+      "title": "Pokemon Conquest w/Manual",
+      "console": "DS",
+      "price": 150
+    },
+    {
+      "game_id": 17627,
+      "title": "Pokemon Dash",
+      "console": "DS",
+      "price": 30
+    },
+    {
+      "game_id": 17628,
+      "title": "Pokemon HeartGold w/Pokewalker, Manual, Outer Box & Insert",
+      "console": "DS",
+      "price": 200
+    },
+    {
+      "game_id": 17629,
+      "title": "Pokemon Mystery Dungeon Esploratori dell'Oscuritá",
+      "console": "DS",
+      "price": 35
+    },
+    {
+      "game_id": 17630,
+      "title": "Pokemon SoulSilver w/Pokewalker, Manual, Outer Box & Insert",
+      "console": "DS",
+      "price": 200
+    },
+    {
+      "game_id": 17631,
+      "title": "Cocoto: Alien Brickbreaker",
+      "console": "3DS",
+      "price": 5
+    },
+    {
+      "game_id": 17632,
+      "title": "Luigi's Mansion 2",
+      "console": "3DS",
+      "price": 20
+    },
+    {
+      "game_id": 17633,
+      "title": "Mario & Luigi: Superstar Saga + Scagnozzi di Bowser",
+      "console": "3DS",
+      "price": 40
+    },
+    {
+      "game_id": 17634,
+      "title": "Moshi Monsters: Katsuma Unleashed",
+      "console": "3DS",
+      "price": 3
+    },
+    {
+      "game_id": 17635,
+      "title": "Professor Layton e l'eredita degli Aslant, Il",
+      "console": "3DS",
+      "price": 62
+    },
+    {
+      "game_id": 17636,
+      "title": "Professor Layton VS Phoenix Wright, Il + Guida",
+      "console": "3DS",
+      "price": 110
+    },
+    {
+      "game_id": 17637,
+      "title": "Spider-Man: Edge of Time",
+      "console": "3DS",
+      "price": 15
     }
   ],
   "price_changes": [
@@ -924,6 +1038,1262 @@
       "new_price": 3,
       "old_price": 5.0,
       "variation_pct": -40.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 14809,
+      "title": "Ace Attorney Investigations Miles Edgeworth",
+      "console": "DS",
+      "new_price": 45,
+      "old_price": 48.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 14827,
+      "title": "Art Academy",
+      "console": "DS",
+      "new_price": 3.5,
+      "old_price": 2.0,
+      "variation_pct": 75.0
+    },
+    {
+      "game_id": 14828,
+      "title": "Arthur E Il Popolo Dei Minimei",
+      "console": "DS",
+      "new_price": 4,
+      "old_price": 2.5,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 14829,
+      "title": "Asphalt Urban GT",
+      "console": "DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14845,
+      "title": "Ben 10 - Alien Force",
+      "console": "DS",
+      "new_price": 3.5,
+      "old_price": 2.0,
+      "variation_pct": 75.0
+    },
+    {
+      "game_id": 14857,
+      "title": "Broken Sword: Shadow Of Templars",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14858,
+      "title": "Brutte Storie I Rivoltanti Romani",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14871,
+      "title": "Castlevania: Portrait of Ruin",
+      "console": "DS",
+      "new_price": 70,
+      "old_price": 75.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 14881,
+      "title": "Combat of Giants: Dragons",
+      "console": "DS",
+      "new_price": 4,
+      "old_price": 2.5,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 14882,
+      "title": "Combattimenti Fra Giganti: Insetti Mutanti",
+      "console": "DS",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14883,
+      "title": "Come d'Incanto",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14884,
+      "title": "Cookie and Cream",
+      "console": "DS",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14888,
+      "title": "Crash Boom Bang",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14892,
+      "title": "Dance Floor",
+      "console": "DS",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14966,
+      "title": "Golden Eye 007",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14969,
+      "title": "Guida in Cucina, La",
+      "console": "DS",
+      "new_price": 2.5,
+      "old_price": 1.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 14977,
+      "title": "Harry Potter E I Doni Della Morte",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 15531,
+      "title": "Harry Potter e l'Ordine della Fenice",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14990,
+      "title": "Hotel Dusk: Room 215",
+      "console": "DS",
+      "new_price": 38,
+      "old_price": 32.0,
+      "variation_pct": 18.75
+    },
+    {
+      "game_id": 15001,
+      "title": "Impara con Pokemon: Avventura Tra I Tasti",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 15006,
+      "title": "Inazuma Eleven 2 - Tempesta Di Fuoco",
+      "console": "DS",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 15013,
+      "title": "Jam With The Band",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 3.5,
+      "variation_pct": 42.86
+    },
+    {
+      "game_id": 15021,
+      "title": "King Kong",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 15055,
+      "title": "Mario vs Donkey Kong Parapiglia a Minilandia",
+      "console": "DS",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 15056,
+      "title": "Martina In Montagna",
+      "console": "DS",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 15060,
+      "title": "Marvel: La Grande Alleanza 2",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 15075,
+      "title": "Mio Coach: Inglese Per Principianti",
+      "console": "DS",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 15076,
+      "title": "Mio Cucciolo Allegri Delfini, Il",
+      "console": "DS",
+      "new_price": 2,
+      "old_price": 1.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 15082,
+      "title": "Mistery Detective",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 15091,
+      "title": "More Brain Training",
+      "console": "DS",
+      "new_price": 2,
+      "old_price": 1.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 15101,
+      "title": "My Sims",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 15106,
+      "title": "Mystery Mansion",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 20.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 15113,
+      "title": "New Super Mario Bros",
+      "console": "DS",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 15119,
+      "title": "Nintendogs Dalmatian & Friends",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 15137,
+      "title": "Pokemon HeartGold No Pokewalker",
+      "console": "DS",
+      "new_price": 120,
+      "old_price": 105.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 15151,
+      "title": "Pokemon Versione Nera 2",
+      "console": "DS",
+      "new_price": 85,
+      "old_price": 82.0,
+      "variation_pct": 3.66
+    },
+    {
+      "game_id": 15157,
+      "title": "Prince of Persia: The Fallen King",
+      "console": "DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 15202,
+      "title": "Sherlock Holmes - Secreto de la Reina",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 15206,
+      "title": "Sims 2",
+      "console": "DS",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 15208,
+      "title": "Sims 2 Pets",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 15233,
+      "title": "Super Mario 64 DS",
+      "console": "DS",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 15268,
+      "title": "Winx Rockstar",
+      "console": "DS",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 15273,
+      "title": "Yu-Gi-Oh! World Champ. 2010",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 15290,
+      "title": "Alice in Wonderland",
+      "console": "DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14836,
+      "title": "Bakugan 2 - I Difensori Della Terra",
+      "console": "DS",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14844,
+      "title": "Bejeweled 3",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 15343,
+      "title": "Bionicle Heroes",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14853,
+      "title": "Bleach - Dark Souls",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 15433,
+      "title": "Dragon Quest IX Le Sentinelle Del Cielo",
+      "console": "DS",
+      "new_price": 60,
+      "old_price": 48.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14914,
+      "title": "Driver License Trainer",
+      "console": "DS",
+      "new_price": 3,
+      "old_price": 1.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 14936,
+      "title": "Galactic Taz Ball",
+      "console": "DS",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 15481,
+      "title": "Gardening Mama",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 15497,
+      "title": "Giulia Passione Dottoressa",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 3.5,
+      "variation_pct": 42.86
+    },
+    {
+      "game_id": 14965,
+      "title": "Godzilla Unleashed",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 15517,
+      "title": "Guitar Hero On Tour + Guitar Grip",
+      "console": "DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 15518,
+      "title": "Guitar Hero On Tour - Decades (With Grip)",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 2.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 15572,
+      "title": "Juiced 2",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 15628,
+      "title": "Lost In Blue",
+      "console": "DS",
+      "new_price": 25,
+      "old_price": 15.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 15632,
+      "title": "Lunar Knights",
+      "console": "DS",
+      "new_price": 45,
+      "old_price": 28.0,
+      "variation_pct": 60.71
+    },
+    {
+      "game_id": 15047,
+      "title": "Madagascar Kartz",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 15644,
+      "title": "Mario & Luigi Partners in Time",
+      "console": "DS",
+      "new_price": 60,
+      "old_price": 42.0,
+      "variation_pct": 42.86
+    },
+    {
+      "game_id": 15645,
+      "title": "Mario Slam Basketball",
+      "console": "DS",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 15661,
+      "title": "Megamind Il Difensore Blu",
+      "console": "DS",
+      "new_price": 3,
+      "old_price": 1.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 15100,
+      "title": "My Pet Shop",
+      "console": "DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 15110,
+      "title": "Need for Speed: Most Wanted",
+      "console": "DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 15733,
+      "title": "Need For Speed: Nitro",
+      "console": "DS",
+      "new_price": 4,
+      "old_price": 2.5,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 15773,
+      "title": "Phoenix Wright Ace Attorney 2: Justice For All",
+      "console": "DS",
+      "new_price": 50,
+      "old_price": 40.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 15138,
+      "title": "Pokemon Link!",
+      "console": "DS",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 15148,
+      "title": "Pokemon Versione Bianca 2",
+      "console": "DS",
+      "new_price": 85,
+      "old_price": 75.0,
+      "variation_pct": 13.33
+    },
+    {
+      "game_id": 15184,
+      "title": "Rayman Raving Rabbids",
+      "console": "DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 15820,
+      "title": "Resident Evil Deadly Silence",
+      "console": "DS",
+      "new_price": 50,
+      "old_price": 32.0,
+      "variation_pct": 56.25
+    },
+    {
+      "game_id": 15858,
+      "title": "Shrek Carnival Craze",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 15211,
+      "title": "Sirenetta, La",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 15884,
+      "title": "Spider-Man 2",
+      "console": "DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 15224,
+      "title": "Spore Creatures",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 15907,
+      "title": "Star Wars Episode 3, Revenge of the Sith",
+      "console": "DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 15944,
+      "title": "Time Hollow",
+      "console": "DS",
+      "new_price": 50,
+      "old_price": 40.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 15980,
+      "title": "Undercover Dual Motives",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 15999,
+      "title": "Wario: Master of Disguise",
+      "console": "DS",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16007,
+      "title": "Winx Club: Quest for the Codex",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 15271,
+      "title": "Yamaha Supercross",
+      "console": "DS",
+      "new_price": 2.5,
+      "old_price": 1.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 16021,
+      "title": "Yoshi Touch & Go",
+      "console": "DS",
+      "new_price": 30,
+      "old_price": 10.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 16048,
+      "title": "Angry Birds Trilogy",
+      "console": "3DS",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16050,
+      "title": "Animal Crossing: New Leaf",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 16058,
+      "title": "Batman Arkham: Origins Blackgate",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16061,
+      "title": "Ben 10: Galactic Racing",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 16068,
+      "title": "Brain Training Infernale Del Dott. Kawashima",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16085,
+      "title": "Code Name: S.T.E.A.M.",
+      "console": "3DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16088,
+      "title": "Cooking Mama 4",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 16089,
+      "title": "Cooking Mama: Bon Appetit!",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 16095,
+      "title": "Dead or Alive Dimensions",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 16096,
+      "title": "Detective Pikachu",
+      "console": "3DS",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 16099,
+      "title": "Disney Epic Mickey: Il Potere Della Magia",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 16106,
+      "title": "Donkey Kong Returns",
+      "console": "3DS",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 16125,
+      "title": "Ever Oasis",
+      "console": "3DS",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 16130,
+      "title": "Farming Simulator 2014",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16134,
+      "title": "Fifa 14",
+      "console": "3DS",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16142,
+      "title": "Fire Emblem Fates: Retaggio",
+      "console": "3DS",
+      "new_price": 40,
+      "old_price": 30.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16152,
+      "title": "Gardening Mama: Forest Friends",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16153,
+      "title": "Generator Rex: Agente Di Providence",
+      "console": "3DS",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16165,
+      "title": "Hello Kitty - Happy Happy Family",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 3.5,
+      "variation_pct": 42.86
+    },
+    {
+      "game_id": 16172,
+      "title": "Hyrule Warriors Legends",
+      "console": "3DS",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16173,
+      "title": "Hyrule Warriors Legends LE + Compass Watch",
+      "console": "3DS",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 16188,
+      "title": "Inazuma Eleven Go Ombra",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16190,
+      "title": "Inazuma Eleven Go: Luce",
+      "console": "3DS",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16196,
+      "title": "Kirby Planet Robobot",
+      "console": "3DS",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 16198,
+      "title": "Kirby: Triple Deluxe",
+      "console": "3DS",
+      "new_price": 22,
+      "old_price": 15.0,
+      "variation_pct": 46.67
+    },
+    {
+      "game_id": 16204,
+      "title": "Legend of Zelda: A Link Between Worlds",
+      "console": "3DS",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 16205,
+      "title": "Legend of Zelda: Majora's Mask",
+      "console": "3DS",
+      "new_price": 75,
+      "old_price": 70.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 16207,
+      "title": "Legend of Zelda: Ocarina of Time",
+      "console": "3DS",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 16211,
+      "title": "Lego City Undercover - The Chase Begins",
+      "console": "3DS",
+      "new_price": 3.5,
+      "old_price": 2.0,
+      "variation_pct": 75.0
+    },
+    {
+      "game_id": 16217,
+      "title": "LEGO Marvel Superheroes",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 16232,
+      "title": "Mario & Luigi Viaggio al Centro di Bowser + Le Avventure di Bowser Junior",
+      "console": "3DS",
+      "new_price": 60,
+      "old_price": 48.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16236,
+      "title": "Mario & Sonic Ai Giochi Olimpici Di Rio 2016",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 4.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 16237,
+      "title": "Mario Golf: World Tour",
+      "console": "3DS",
+      "new_price": 18,
+      "old_price": 12.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16238,
+      "title": "Mario Kart 7",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 16239,
+      "title": "Mario Party Island Tour",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 6.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 16241,
+      "title": "Mario Party: Star Rush",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16242,
+      "title": "Mario Sports Superstars (No Amiibo Card)",
+      "console": "3DS",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16247,
+      "title": "Metroid: Samus Returns",
+      "console": "3DS",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 16250,
+      "title": "Miitopia",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16253,
+      "title": "Monster 4x4",
+      "console": "3DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16256,
+      "title": "Monster Hunter 3 ultimate",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 16263,
+      "title": "Naruto Shippuden: The New Era 3D",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 16267,
+      "title": "New Style Boutique",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 16280,
+      "title": "Pac Man E Le Avventure Mostruose",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 16284,
+      "title": "Paddington: Adventures in London",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 16299,
+      "title": "Pokemon Luna",
+      "console": "3DS",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 16300,
+      "title": "Pokemon Mystery Dungeon I Portali Sull Infinito",
+      "console": "3DS",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16301,
+      "title": "Pokemon Rubino Omega",
+      "console": "3DS",
+      "new_price": 55,
+      "old_price": 52.0,
+      "variation_pct": 5.77
+    },
+    {
+      "game_id": 16302,
+      "title": "Pokemon Rumble World",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 10.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 16303,
+      "title": "Pokemon Sole",
+      "console": "3DS",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 16304,
+      "title": "Pokemon Super Mystery Dungeon",
+      "console": "3DS",
+      "new_price": 30,
+      "old_price": 22.0,
+      "variation_pct": 36.36
+    },
+    {
+      "game_id": 16305,
+      "title": "Pokemon Ultraluna",
+      "console": "3DS",
+      "new_price": 50,
+      "old_price": 48.0,
+      "variation_pct": 4.17
+    },
+    {
+      "game_id": 16306,
+      "title": "Pokemon Ultrasole",
+      "console": "3DS",
+      "new_price": 50,
+      "old_price": 45.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 16307,
+      "title": "Pokemon X",
+      "console": "3DS",
+      "new_price": 48,
+      "old_price": 42.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 16308,
+      "title": "Pokemon Y",
+      "console": "3DS",
+      "new_price": 48,
+      "old_price": 45.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 16319,
+      "title": "Professor Layton E La Maschera Dei Miracoli",
+      "console": "3DS",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 16331,
+      "title": "Rayman 3D",
+      "console": "3DS",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16337,
+      "title": "Resident Evil: Revelations",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 15.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 16360,
+      "title": "Sims 3, The",
+      "console": "3DS",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16376,
+      "title": "Sport Island",
+      "console": "3DS",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16393,
+      "title": "Teenage Mutant Ninja Turtles: Movie (2014)",
+      "console": "3DS",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 16394,
+      "title": "Tekken 3D Prime Edition",
+      "console": "3DS",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16400,
+      "title": "Theatrhythm: Final Fantasy",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 16418,
+      "title": "Yo-Kai Watch",
+      "console": "3DS",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16419,
+      "title": "Yo-Kai Watch 2: Polpanime",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 16425,
+      "title": "Yoshi's New Island",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
     }
   ],
   "availability_changes": [
@@ -1505,6 +2875,475 @@
       "game_id": 1203,
       "title": "Table Tennis",
       "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 66,
+      "title": "Call of Duty 3",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 110,
+      "title": "Dave Mirra Freestyle BMX 2",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 136,
+      "title": "Dynasty Warriors 3",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 542,
+      "title": "V-Rally 3",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1494,
+      "title": "Gears of War 2 Ed. Limitada w/Artbook, Foto & DVD (Senza DLC)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1078,
+      "title": "Pro Evolution Soccer (PES) 2017",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1683,
+      "title": "Resident Evil Revelations",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1714,
+      "title": "Shadows of the Damned",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1745,
+      "title": "Stormrise",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1755,
+      "title": "Test Drive Ferrari Racing Legends",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1801,
+      "title": "Wanted: Weapon Of Fate",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1297,
+      "title": "WWE All-Stars",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1869,
+      "title": "Batman, The Telltale Series: Il Nemico E In Mezzo A Noi (Episode 1 Only)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 17607,
+      "title": "Steep Winter Game 2018",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2467,
+      "title": "Tony Hawk's Pro Skater 5",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2546,
+      "title": "WWE 2K23",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14650,
+      "title": "Angry Birds Star Wars",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14674,
+      "title": "Deus Ex: Human Revolution - DC",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14711,
+      "title": "Legend of Zelda: Twilight Princess HD",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14749,
+      "title": "Pikmin 3",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14794,
+      "title": "Watch Dogs",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14795,
+      "title": "Wii Club Sport",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14898,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15472,
+      "title": "Fire Emblem: Shadow Dragon",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15512,
+      "title": "Grand Theft Auto Chinatown Wars",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15690,
+      "title": "Monster High Scuola Da Paura",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15953,
+      "title": "Top Spin 3",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 15977,
+      "title": "Ultimate & Golf",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 16029,
+      "title": "Yu-Gi-Oh! World Championship 2009 5D'S",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14812,
+      "title": "Advance Wars: Dark Conflict",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14844,
+      "title": "Bejeweled 3",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14863,
+      "title": "Call of Duty 4: Modern Warfare",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14898,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14950,
+      "title": "Giulia Passione Chef",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14956,
+      "title": "Giulia Passione Matrimonio da Sogno",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14957,
+      "title": "Giulia Passione Pittrice",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14965,
+      "title": "Godzilla Unleashed",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15517,
+      "title": "Guitar Hero On Tour + Guitar Grip",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14982,
+      "title": "Herbie Rescue Rally",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15014,
+      "title": "James Cameron's Avatar The Game",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15572,
+      "title": "Juiced 2",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15632,
+      "title": "Lunar Knights",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15064,
+      "title": "Mia Scuderia, La",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15102,
+      "title": "My Sims Kingdom",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15110,
+      "title": "Need for Speed: Most Wanted",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15138,
+      "title": "Pokemon Link!",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15884,
+      "title": "Spider-Man 2",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15907,
+      "title": "Star Wars Episode 3, Revenge of the Sith",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15238,
+      "title": "Tank Battles",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15255,
+      "title": "Transformers - La Serie Animata",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15260,
+      "title": "Ultimo Dominatore Dell'Aria, L'",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16007,
+      "title": "Winx Club: Quest for the Codex",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 15271,
+      "title": "Yamaha Supercross",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16071,
+      "title": "Candy Match 3",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16110,
+      "title": "Dragon Quest VII: Fragments of the Fogotten Past",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 16190,
+      "title": "Inazuma Eleven Go: Luce",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16207,
+      "title": "Legend of Zelda: Ocarina of Time",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16227,
+      "title": "Luigi's Mansion",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 16232,
+      "title": "Mario & Luigi Viaggio al Centro di Bowser + Le Avventure di Bowser Junior",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 16382,
+      "title": "Sudoku - The Puzzle Game Collection",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 16410,
+      "title": "Ultimate NES Remix",
+      "console": "3DS",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
