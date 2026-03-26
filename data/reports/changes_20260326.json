@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T01:58:55.435347",
+    "generated_at": "2026-03-26T07:13:42.162179",
     "date": "2026-03-26",
-    "duration_sec": 16.1,
-    "total_scraped": 5252
+    "duration_sec": 11.7,
+    "total_scraped": 7827
   },
   "summary": {
     "new_games": 5,
-    "price_changes": 13,
-    "availability_changes": 71,
-    "unchanged": 5163,
+    "price_changes": 110,
+    "availability_changes": 73,
+    "unchanged": 7639,
     "errors": 0
   },
   "new_games": [
@@ -148,6 +148,782 @@
       "new_price": 5,
       "old_price": 5.0,
       "variation_pct": 0.0
+    },
+    {
+      "game_id": 26,
+      "title": "Barbie Horse Adventure",
+      "console": "Xbox",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 35,
+      "title": "Beat Down: Fists of Vengeance",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 50,
+      "title": "Breakdown",
+      "console": "Xbox",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 53,
+      "title": "Brothers in Arms: Road to Hill 30",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 58,
+      "title": "Burnout 2: Point of Impact",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 61,
+      "title": "Cabela's Dangerous Hunts",
+      "console": "Xbox",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 86,
+      "title": "Colin McRae Rally 04",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 88,
+      "title": "Commandos Strike Force",
+      "console": "Xbox",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 89,
+      "title": "Conflict Desert Storm",
+      "console": "Xbox",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 93,
+      "title": "Conker: Live & Reloaded",
+      "console": "Xbox",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 94,
+      "title": "Conspiracy: Weapons of Mass Destruction",
+      "console": "Xbox",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 97,
+      "title": "Counter Terrorist Special Forces: Fire For Effect",
+      "console": "Xbox",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 98,
+      "title": "Counterstrike",
+      "console": "Xbox",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 100,
+      "title": "Crash Bandicoot: L'ira di Cortex",
+      "console": "Xbox",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 112,
+      "title": "Dead or Aive Ultimate",
+      "console": "Xbox",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 113,
+      "title": "Dead Or Alive 3",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 120,
+      "title": "Destroy All Humans",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 121,
+      "title": "Destroy All Humans 2",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 128,
+      "title": "Doom 3",
+      "console": "Xbox",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 141,
+      "title": "Espn NBA 2k5",
+      "console": "Xbox",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 145,
+      "title": "F1 2002",
+      "console": "Xbox",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 148,
+      "title": "Fable",
+      "console": "Xbox",
+      "new_price": 18,
+      "old_price": 12.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 149,
+      "title": "Fable: The Lost Chapters",
+      "console": "Xbox",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 150,
+      "title": "Fahrenheit",
+      "console": "Xbox",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 152,
+      "title": "Fifa 06",
+      "console": "Xbox",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 155,
+      "title": "Fifa 2004",
+      "console": "Xbox",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 157,
+      "title": "Fifa Football 2005",
+      "console": "Xbox",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 160,
+      "title": "Fight Club",
+      "console": "Xbox",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 17550,
+      "title": "FINAL FIGHT STREETWISE",
+      "console": "Xbox",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 166,
+      "title": "Football Manager Campionato 2005",
+      "console": "Xbox",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 172,
+      "title": "Fuzion Frenzy",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 188,
+      "title": "Grand Theft Auto San Andreas",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 194,
+      "title": "Half Life 2",
+      "console": "Xbox",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 196,
+      "title": "Halo 2",
+      "console": "Xbox",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 198,
+      "title": "Halo Combat Evolved",
+      "console": "Xbox",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 208,
+      "title": "Hitman - Contracts",
+      "console": "Xbox",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 215,
+      "title": "I Fantastici 4",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 216,
+      "title": "IL GATTO",
+      "console": "Xbox",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 226,
+      "title": "Jade Empire",
+      "console": "Xbox",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 239,
+      "title": "Kung Fu Chaos",
+      "console": "Xbox",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 268,
+      "title": "Max Payne",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 269,
+      "title": "Max Payne 2",
+      "console": "Xbox",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 272,
+      "title": "Medal Of Honor European Assault",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 273,
+      "title": "Medal of Honor: Frontline",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 277,
+      "title": "Mercenaries",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 280,
+      "title": "Metal Gear Solid 2",
+      "console": "Xbox",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 286,
+      "title": "Midtown Madness 3",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 295,
+      "title": "Mortal Kombat - Deception",
+      "console": "Xbox",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 296,
+      "title": "Mortal Kombat Deadly Alliance",
+      "console": "Xbox",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 307,
+      "title": "NBA 2k3",
+      "console": "Xbox",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 308,
+      "title": "NBA Inside Drive 2002",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 321,
+      "title": "Need For Speed Underground",
+      "console": "Xbox",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 336,
+      "title": "Oddworld - Munch's Oddysee",
+      "console": "Xbox",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 337,
+      "title": "Oddworld Stranger's Wrath",
+      "console": "Xbox",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 340,
+      "title": "Outlaw Tennis",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 349,
+      "title": "PES 4: Pro Evolution Soccer",
+      "console": "Xbox",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 350,
+      "title": "Peter Jackson's King Kong",
+      "console": "Xbox",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 358,
+      "title": "Prince Of Persia - Sands Of Time",
+      "console": "Xbox",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 360,
+      "title": "Prince Of Persia Spirito Guerriero",
+      "console": "Xbox",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 363,
+      "title": "Pro Evolution Soccer 5",
+      "console": "Xbox",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 365,
+      "title": "Project Gotham Racing 2",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 366,
+      "title": "Project Snowblind",
+      "console": "Xbox",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 372,
+      "title": "Racing Evoluzione",
+      "console": "Xbox",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 385,
+      "title": "Riddick",
+      "console": "Xbox",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 402,
+      "title": "Scudetto Championship Manager 01/02",
+      "console": "Xbox",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 404,
+      "title": "Scudetto Championship Manager 5",
+      "console": "Xbox",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 414,
+      "title": "Shadow Ops Red Mercury",
+      "console": "Xbox",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 416,
+      "title": "Shark Tale",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 419,
+      "title": "Shenmue 2",
+      "console": "Xbox",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 421,
+      "title": "Shrek 2",
+      "console": "Xbox",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 426,
+      "title": "Signore Degli Anelli, II - Le Due Torri",
+      "console": "Xbox",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 427,
+      "title": "Signore Degli Anelli, Il : Il Ritorno Del re",
+      "console": "Xbox",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 428,
+      "title": "Signore degli Anelli, Il : La Terza Era",
+      "console": "Xbox",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 435,
+      "title": "Ski Racing 2005",
+      "console": "Xbox",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 438,
+      "title": "Soldier of Fortune 2 - Double Helix",
+      "console": "Xbox",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 449,
+      "title": "Splinter Cell Chaos Theory",
+      "console": "Xbox",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 468,
+      "title": "Star Wars: La Guerra Dei Cloni",
+      "console": "Xbox",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 494,
+      "title": "Terminator 3 - Rise of the Machines",
+      "console": "Xbox",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 499,
+      "title": "Tiger Woods PGA Tour 2003",
+      "console": "Xbox",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 500,
+      "title": "Tiger Woods PGA Tour 2005",
+      "console": "Xbox",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 502,
+      "title": "Tim Burton's Nightmare Before Christmas: Attenti al BauBau!",
+      "console": "Xbox",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 509,
+      "title": "Tom Clancy's Ghost Recon",
+      "console": "Xbox",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 510,
+      "title": "Tom Clancy's Ghost Recon: Island Thunder",
+      "console": "Xbox",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 511,
+      "title": "Tom Clancy's Splinter Cell",
+      "console": "Xbox",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 513,
+      "title": "Tom Clancy's Splinter Cell Pandora Tomorrow",
+      "console": "Xbox",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 537,
+      "title": "Unreal 2, The Awakening",
+      "console": "Xbox",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 558,
+      "title": "Wreckless",
+      "console": "Xbox",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 568,
+      "title": "Zathura",
+      "console": "Xbox",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
     }
   ],
   "availability_changes": [
@@ -689,6 +1465,48 @@
       "console": "GameCube",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
