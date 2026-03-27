@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-03-27T02:00:00.480205",
+    "exported_at": "2026-03-27T07:12:56.949598",
     "total_games": 17639,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-03-27",
       "daily_summary": {
         "new_games": 2,
-        "price_changes": 23,
-        "availability_changes": 27,
-        "unchanged": 5265,
+        "price_changes": 33,
+        "availability_changes": 29,
+        "unchanged": 7828,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-03-27",
     "daily_summary": {
       "new_games": 2,
-      "price_changes": 23,
-      "availability_changes": 27,
-      "unchanged": 5265,
+      "price_changes": 33,
+      "availability_changes": 29,
+      "unchanged": 7828,
       "errors": 0
     }
   },
@@ -626260,6 +626260,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-03-27 07:12:52"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-27 07:12:52"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-03-27 01:59:49"
         },
         {
@@ -635188,7 +635198,8 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
-        "La Romanina"
+        "La Romanina",
+        "The Wow Side"
       ],
       "price_history_30d": [
         {
@@ -641237,6 +641248,16 @@
         {
           "old_price": 25.0,
           "new_price": 18.0,
+          "changed_at": "2026-03-27 07:12:53"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-27 07:12:52"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
           "changed_at": "2026-03-27 01:59:50"
         },
         {
@@ -644431,6 +644452,21 @@
         {
           "old_price": 2.0,
           "new_price": 3.0,
+          "changed_at": "2026-03-27 07:12:53"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 1.5,
+          "changed_at": "2026-03-27 07:12:52"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 2.0,
+          "changed_at": "2026-03-27 07:12:52"
+        },
+        {
+          "old_price": 2.0,
+          "new_price": 3.0,
           "changed_at": "2026-03-27 01:59:50"
         },
         {
@@ -647605,7 +647641,8 @@
         "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
-        "Parma Repubblica"
+        "Parma Repubblica",
+        "Milano Viale Tunisia"
       ],
       "price_history_30d": [
         {
@@ -652485,6 +652522,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
+          "changed_at": "2026-03-27 07:12:53"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-03-27 07:12:53"
+        },
         {
           "old_price": 3.0,
           "new_price": 5.0,
@@ -683823,17 +683870,17 @@
       "title": "Steep Winter Game 2018",
       "console": "Xbox One",
       "category": "Xbox",
-      "current_price": 35.0,
+      "current_price": 25.0,
       "is_available": 1,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=3307216038832",
       "first_seen": "2026-03-21",
       "last_updated": "2026-03-27",
-      "last_price_change": null,
+      "last_price_change": "2026-03-27",
       "last_availability_change": "2026-03-26",
       "image_url": null,
-      "cash_price": 14.0,
-      "exchange_price": 19.0,
+      "cash_price": 6.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -683849,12 +683896,17 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 35.0,
+          "new_price": 25.0,
+          "changed_at": "2026-03-27 07:12:54"
+        },
+        {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-03-21 18:44:57"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -28.57
     },
     {
       "id": 2423,
