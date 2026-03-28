@@ -1,18 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-03-28T12:49:40.955770",
+    "generated_at": "2026-03-28T18:51:07.458424",
     "date": "2026-03-28",
-    "duration_sec": 10.6,
-    "total_scraped": 7725
+    "duration_sec": 11.8,
+    "total_scraped": 10552
   },
   "summary": {
-    "new_games": 0,
-    "price_changes": 27,
-    "availability_changes": 11,
-    "unchanged": 7687,
+    "new_games": 1,
+    "price_changes": 71,
+    "availability_changes": 23,
+    "unchanged": 10457,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 17640,
+      "title": "Leisure Suit Larry - Magna Cum Laude",
+      "console": "Xbox",
+      "price": 6
+    }
+  ],
   "price_changes": [
     {
       "game_id": 951,
@@ -229,6 +236,358 @@
       "new_price": 3,
       "old_price": 5.0,
       "variation_pct": -40.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 13371,
+      "title": "Aggressive Inline",
+      "console": "GameCube",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13373,
+      "title": "Animal Crossing (Without Memory)",
+      "console": "GameCube",
+      "new_price": 75,
+      "old_price": 70.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 13380,
+      "title": "Beyond Good & Evil",
+      "console": "GameCube",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 13412,
+      "title": "Donkey Konga (Con Bonghi)",
+      "console": "GameCube",
+      "new_price": 48,
+      "old_price": 45.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 13418,
+      "title": "Enter The Matrix",
+      "console": "GameCube",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13419,
+      "title": "Eternal Darkness w/Manual",
+      "console": "GameCube",
+      "new_price": 78,
+      "old_price": 75.0,
+      "variation_pct": 4.0
+    },
+    {
+      "game_id": 13421,
+      "title": "F-Zero GX",
+      "console": "GameCube",
+      "new_price": 48,
+      "old_price": 45.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 13426,
+      "title": "FIFA 2006",
+      "console": "GameCube",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13427,
+      "title": "Fifa Football 2004",
+      "console": "GameCube",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13445,
+      "title": "Harry Potter E il Prigioniero Di Azkaban",
+      "console": "GameCube",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13446,
+      "title": "Harry Potter e la Camera dei Segreti",
+      "console": "GameCube",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13468,
+      "title": "Legend of Zelda, The - Wind Waker",
+      "console": "GameCube",
+      "new_price": 65,
+      "old_price": 70.0,
+      "variation_pct": -7.14
+    },
+    {
+      "game_id": 13471,
+      "title": "Lost Kingdoms",
+      "console": "GameCube",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13474,
+      "title": "Madden Nfl 2003",
+      "console": "GameCube",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13476,
+      "title": "Mario Golf - Toadstool Tour",
+      "console": "GameCube",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13478,
+      "title": "Mario Party 4",
+      "console": "GameCube",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 13479,
+      "title": "Mario Party 5",
+      "console": "GameCube",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 13480,
+      "title": "Mario Party 6 (Senza Microfono)",
+      "console": "GameCube",
+      "new_price": 48,
+      "old_price": 45.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 13482,
+      "title": "Mario Power Tennis",
+      "console": "GameCube",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13483,
+      "title": "Mario Smash Football",
+      "console": "GameCube",
+      "new_price": 45,
+      "old_price": 48.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 13490,
+      "title": "Metroid Prime",
+      "console": "GameCube",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 13491,
+      "title": "Metroid Prime 2: Echoes w/Manual",
+      "console": "GameCube",
+      "new_price": 65,
+      "old_price": 60.0,
+      "variation_pct": 8.33
+    },
+    {
+      "game_id": 13505,
+      "title": "Need For Speed Most Wanted",
+      "console": "GameCube",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13513,
+      "title": "Phantasy Star Online Episode I + II",
+      "console": "GameCube",
+      "new_price": 42,
+      "old_price": 40.0,
+      "variation_pct": 5.0
+    },
+    {
+      "game_id": 13514,
+      "title": "Pikmin 2",
+      "console": "GameCube",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13515,
+      "title": "Pikmin w/Manual",
+      "console": "GameCube",
+      "new_price": 42,
+      "old_price": 38.0,
+      "variation_pct": 10.53
+    },
+    {
+      "game_id": 13517,
+      "title": "Pokemon Colosseum",
+      "console": "GameCube",
+      "new_price": 70,
+      "old_price": 68.0,
+      "variation_pct": 2.94
+    },
+    {
+      "game_id": 13529,
+      "title": "Resident Evil",
+      "console": "GameCube",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 13532,
+      "title": "Resident Evil 4",
+      "console": "GameCube",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13534,
+      "title": "Resident Evil Zero",
+      "console": "GameCube",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13540,
+      "title": "Sega Soccer Slam",
+      "console": "GameCube",
+      "new_price": 18,
+      "old_price": 12.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 13572,
+      "title": "Starfox Adventures w/Manual",
+      "console": "GameCube",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13573,
+      "title": "Super Mario Sunshine w/Manual",
+      "console": "GameCube",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 13588,
+      "title": "Tony Hawks Pro Skater 3",
+      "console": "GameCube",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13607,
+      "title": "Wave Race Bluestorm",
+      "console": "GameCube",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
     }
   ],
   "availability_changes": [
@@ -392,6 +751,132 @@
       "console": "Xbox One",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 708,
+      "title": "Crash of the Titans",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 775,
+      "title": "Duke Nukem Forever",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1581,
+      "title": "Lost Planet 3",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1790,
+      "title": "Unreal Tournament III",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 642,
+      "title": "Bioshock",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1141,
+      "title": "Shift 2 Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1834,
+      "title": "Agatha Christie - The ABC Murders",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1928,
+      "title": "Crew 2, The (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13472,
+      "title": "Luigi's Mansion w/Manual",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13478,
+      "title": "Mario Party 4",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13479,
+      "title": "Mario Party 5",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13617,
+      "title": "Zelda Four Sword Adventure",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
