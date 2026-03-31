@@ -1,19 +1,91 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T13:12:04.176975",
+    "generated_at": "2026-03-31T19:10:20.689545",
     "date": "2026-03-31",
-    "duration_sec": 10.7,
-    "total_scraped": 7728
+    "duration_sec": 10.5,
+    "total_scraped": 10304
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 27,
-    "availability_changes": 16,
-    "unchanged": 7685,
+    "price_changes": 36,
+    "availability_changes": 26,
+    "unchanged": 10242,
     "errors": 0
   },
   "new_games": [],
   "price_changes": [
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
     {
       "game_id": 951,
       "title": "Lost Via Domus",
@@ -427,6 +499,104 @@
       "console": "Xbox One",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 208,
+      "title": "Hitman - Contracts",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 708,
+      "title": "Crash of the Titans",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1611,
+      "title": "MXGP",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1613,
+      "title": "Naruto - Rise Of A Ninja",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1654,
+      "title": "Pimp My Ride",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1663,
+      "title": "Project Gotham Racing 4",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1925,
+      "title": "Crash Bandicoot N. Sane Trilogy",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2195,
+      "title": "Minecraft Dungeons: Hero Edition",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
