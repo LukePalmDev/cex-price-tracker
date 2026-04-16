@@ -1,18 +1,31 @@
 {
   "metadata": {
-    "generated_at": "2026-04-16T13:23:53.450277",
+    "generated_at": "2026-04-16T19:23:44.191202",
     "date": "2026-04-16",
-    "duration_sec": 10.7,
-    "total_scraped": 7731
+    "duration_sec": 15.7,
+    "total_scraped": 12147
   },
   "summary": {
-    "new_games": 0,
-    "price_changes": 27,
-    "availability_changes": 11,
-    "unchanged": 7693,
+    "new_games": 2,
+    "price_changes": 105,
+    "availability_changes": 92,
+    "unchanged": 11948,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 17656,
+      "title": "Eye of Judgement +Playstation Eye +AR Cards",
+      "console": "PS3",
+      "price": 18
+    },
+    {
+      "game_id": 17657,
+      "title": "Adventure Time Esplora I Sotterranei",
+      "console": "PS3",
+      "price": 20
+    }
+  ],
   "price_changes": [
     {
       "game_id": 951,
@@ -229,6 +242,630 @@
       "new_price": 3,
       "old_price": 5.0,
       "variation_pct": -40.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 3.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 9162,
+      "title": "Anarchy Reigns",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9979,
+      "title": "Cars 2 La Coppa Internazionale di Carl",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9983,
+      "title": "Castlevania: Lords of Shadow 2",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 9349,
+      "title": "Enslaved Odyssey To The West",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10061,
+      "title": "F1 2013",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9421,
+      "title": "Grand Theft Auto IV & Episodes From Liberty City",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 10131,
+      "title": "Kingdom Hearts HD 2.5 ReMix",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10147,
+      "title": "Little Big Planet 2",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9801,
+      "title": "Thor: Il Dio Del Tuono - Il Videogioco",
+      "console": "PS3",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 9904,
+      "title": "A Caccia Di Umani! La Furia Dei Furon",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9154,
+      "title": "Afro Samurai",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9174,
+      "title": "Assassin's Creed Heritage Collection",
+      "console": "PS3",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 9201,
+      "title": "Battlefield: Bad Company Gold Ed.",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9203,
+      "title": "Bayonetta",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9207,
+      "title": "Ben 10 Omniverse 2",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9961,
+      "title": "Bladestorm La Guerra Dei Cent'anni",
+      "console": "PS3",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9964,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 10.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 9964,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 5.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 9238,
+      "title": "Buzz Il Quizzone Nazionale",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9245,
+      "title": "Cabelas Dangerous Hunts 2013",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 9299,
+      "title": "Dead Or Alive 5",
+      "console": "PS3",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9312,
+      "title": "Dirt Showdown",
+      "console": "PS3",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9327,
+      "title": "Dragon Ball Z Burstlimit",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10032,
+      "title": "Dragon Ball: Raging Blast 2",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10033,
+      "title": "Dragon Trainer",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 10057,
+      "title": "Epic Mickey 2 L'Aventura Di Topolino E Oswald",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10067,
+      "title": "Fallout New Vegas - Ultimate Edition",
+      "console": "PS3",
+      "new_price": 65,
+      "old_price": 60.0,
+      "variation_pct": 8.33
+    },
+    {
+      "game_id": 9436,
+      "title": "Heavy Fire Shattered Spear",
+      "console": "PS3",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9439,
+      "title": "Hellboy - Science Of Evil",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9445,
+      "title": "House Of The Dead Overkill (Move)",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10120,
+      "title": "Jak and Daxter Trilogy HD",
+      "console": "PS3",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 9459,
+      "title": "JASF: Jane's Advanced Strike Fighters",
+      "console": "PS3",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9473,
+      "title": "Kane & Lynch: Dead Men",
+      "console": "PS3",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10133,
+      "title": "Lanterna Verde: L'ascesa Dei Manhunters",
+      "console": "PS3",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 9497,
+      "title": "Lego Indiana Jones 2",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 9510,
+      "title": "Lost Planet",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9516,
+      "title": "Madagascar Kartz",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10177,
+      "title": "MotorStorm Complete",
+      "console": "PS3",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 2.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 10200,
+      "title": "Nier",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 10209,
+      "title": "Orange Box, The",
+      "console": "PS3",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 9638,
+      "title": "Phineas & Ferb Across The 2D Dimension",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 9644,
+      "title": "Playstation All-Stars Battle Royale",
+      "console": "PS3",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9656,
+      "title": "Pro Evolution Soccer 2018",
+      "console": "PS3",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 10227,
+      "title": "Puppeteer Kutaro e le Forbici Magiche",
+      "console": "PS3",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 9675,
+      "title": "Ratchet & Clank: Tutti Per Uno",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 10269,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 38,
+      "old_price": 28.0,
+      "variation_pct": 35.71
+    },
+    {
+      "game_id": 10269,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 38.0,
+      "variation_pct": -26.32
+    },
+    {
+      "game_id": 10270,
+      "title": "Simpson, Il Videogioco",
+      "console": "PS3",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 9755,
+      "title": "Sonic & Sega All Star Racing",
+      "console": "PS3",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 9762,
+      "title": "Spider-Man: Edge of Time",
+      "console": "PS3",
+      "new_price": 55,
+      "old_price": 52.0,
+      "variation_pct": 5.77
+    },
+    {
+      "game_id": 9763,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 75,
+      "old_price": 65.0,
+      "variation_pct": 15.38
+    },
+    {
+      "game_id": 9763,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 65,
+      "old_price": 75.0,
+      "variation_pct": -13.33
+    },
+    {
+      "game_id": 10315,
+      "title": "Super Street Fighter IV (4) Arcade Ed",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9788,
+      "title": "Superstars V8 Racing",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10320,
+      "title": "Tales Of Xillia 2",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10345,
+      "title": "Transformers The Game",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9846,
+      "title": "Ultimate Marvel Vs Capcom 3",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10362,
+      "title": "Walking Dead, The - Telltale Season 1",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10366,
+      "title": "Wanted: Corp",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10380,
+      "title": "Wolverine Le Origini",
+      "console": "PS3",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 10384,
+      "title": "World Snooker Championship 2011",
+      "console": "PS3",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9899,
+      "title": "Yakuza 4",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10712,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 10.0,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 10712,
+      "title": "Naruto Ultimate Ninja Heroes 2",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 2.0,
+      "variation_pct": 75.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 2.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 10787,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 2,
+      "old_price": 2.0,
+      "variation_pct": 0.0
     }
   ],
   "availability_changes": [
@@ -390,6 +1027,769 @@
       "game_id": 1828,
       "title": "A.O.T 2 Final Battle",
       "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1740,
+      "title": "Spongebob La Vendetta Robotica Di Plankton",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1810,
+      "title": "World Championship Poker 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2545,
+      "title": "WWE 2K22 (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9913,
+      "title": "Akiba's Trip: Undead & Undressed",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9915,
+      "title": "Alien Isolation",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9162,
+      "title": "Anarchy Reigns",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9932,
+      "title": "Assassin's Creed 1 & 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9222,
+      "title": "Blur",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9260,
+      "title": "Captain America Il Super Soldato",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9979,
+      "title": "Cars 2 La Coppa Internazionale di Carl",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9983,
+      "title": "Castlevania: Lords of Shadow 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9276,
+      "title": "Cronache Di Narnia Prince Caspian",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9289,
+      "title": "Dark Souls",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9996,
+      "title": "Dark Void",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10003,
+      "title": "Dead Space 3",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9337,
+      "title": "Dynasty Warriors 7: Extreme Legends",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9349,
+      "title": "Enslaved Odyssey To The West",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10061,
+      "title": "F1 2013",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9363,
+      "title": "F1 Race Stars",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9376,
+      "title": "Ferrari Challenge - Supercar Challenge",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9408,
+      "title": "Ghostbusters, Il Videogioco",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9421,
+      "title": "Grand Theft Auto IV & Episodes From Liberty City",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9426,
+      "title": "Guitar Hero 5 Solo Software",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9453,
+      "title": "Infamous 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9454,
+      "title": "Injustice Gods Among Us - Ultimate Edition",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9466,
+      "title": "Just Dance 2016",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9472,
+      "title": "Kane & Lynch 2 Dog Days",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10125,
+      "title": "Killer Is Dead",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9475,
+      "title": "Killzone 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9476,
+      "title": "Killzone 3",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9493,
+      "title": "LEGO Batman: The Videogame",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10141,
+      "title": "Lego Il Signore Degli Anelli",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10153,
+      "title": "Madden NFL 08",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9523,
+      "title": "Marvel Super Heroes Combat (Udraw)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9578,
+      "title": "My Body Coach 2 - Fitness & Dance (No Manubri)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9589,
+      "title": "Naruto Ultimate Ninja Storm 3 Full Burst Ed.",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10218,
+      "title": "Pinguini di Madagascar, I",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10225,
+      "title": "Prototype",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9685,
+      "title": "Resident Evil 5",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10244,
+      "title": "Ride to Hell Retribution",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9699,
+      "title": "Rock Band 3",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10248,
+      "title": "Rocksmith (con cavo)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10276,
+      "title": "Singstar Volume 2: Solus (no Mics)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10284,
+      "title": "Skylanders Superchargers - Starter Pack",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10287,
+      "title": "Skylanders Trap Team Starter Pack",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10301,
+      "title": "Spider-Man 3",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9791,
+      "title": "Tales of Graces F",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10325,
+      "title": "Tekken 6/Soul Calibur 5/Tekken Tag Tournament 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9801,
+      "title": "Thor: Il Dio Del Tuono - Il Videogioco",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9841,
+      "title": "UEFA Euro 2016 (include PES 2016)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9914,
+      "title": "Alice: Madness Returns w/Manual",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9166,
+      "title": "Arcania The Complete Tale",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9192,
+      "title": "Batman: Arkham City",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9203,
+      "title": "Bayonetta",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9961,
+      "title": "Bladestorm La Guerra Dei Cent'anni",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9995,
+      "title": "Dark Souls II",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9299,
+      "title": "Dead Or Alive 5",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9317,
+      "title": "Disney Sing It! Family Hits",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9327,
+      "title": "Dragon Ball Z Burstlimit",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10053,
+      "title": "El Shaddai - L'Ascesa Di Metatron",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9344,
+      "title": "Elder Scrolls IV: Oblivion 5th Anniversary Ed.",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9398,
+      "title": "Formula 1 Championship Edition",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10100,
+      "title": "Guitar Hero 6 - Warriors Of Rock",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9445,
+      "title": "House Of The Dead Overkill (Move)",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9459,
+      "title": "JASF: Jane's Advanced Strike Fighters",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9474,
+      "title": "Katamari Forever",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10139,
+      "title": "Lego Batman 2 (No Toy)",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9510,
+      "title": "Lost Planet",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9518,
+      "title": "Madden NFL 12",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9531,
+      "title": "Medal Of Honor - Airborne",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10166,
+      "title": "Metal Gear Solid: Legacy Collection (Senza DLC)",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9602,
+      "title": "NBA 2K7",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10200,
+      "title": "Nier",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10202,
+      "title": "Ninja Gaiden 3 Razor's Edge",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10203,
+      "title": "No More Heroes - Heroes' Paradise (Move)",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10209,
+      "title": "Orange Box, The",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9638,
+      "title": "Phineas & Ferb Across The 2D Dimension",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10222,
+      "title": "Prince of Persia Le Sabbie Dimenticate",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10232,
+      "title": "Rango",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9672,
+      "title": "Ratchet & Clank Trilogy",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10270,
+      "title": "Simpson, Il Videogioco",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10289,
+      "title": "Sleeping Dogs",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9780,
+      "title": "Stranglehold",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10315,
+      "title": "Super Street Fighter IV (4) Arcade Ed",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9788,
+      "title": "Superstars V8 Racing",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9811,
+      "title": "Tivial Pursuit",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10362,
+      "title": "Walking Dead, The - Telltale Season 1",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10365,
+      "title": "Walking Dead: Survival Instinct",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10379,
+      "title": "Wolfenstein",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10384,
+      "title": "World Snooker Championship 2011",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10482,
+      "title": "Diabolik - The Original Sin",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10610,
+      "title": "Jak & Daxter Sfida Senza Confini",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10627,
+      "title": "La Gang Del Bosco - Hammy Si Scatena",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10682,
+      "title": "Midnight Club: LA Remix",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10705,
+      "title": "Mytran Wars",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10714,
+      "title": "NBA 2K10",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10764,
+      "title": "PoPoLoCrois",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10846,
+      "title": "Spider-Man 3",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10878,
+      "title": "Surf's Up",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10912,
+      "title": "Toy Story 3",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10972,
+      "title": "Yu-Gi-Oh! GX Tag Force 3",
+      "console": "PSP",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
