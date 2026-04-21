@@ -1,18 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-04-21T02:09:22.275971",
+    "generated_at": "2026-04-21T07:56:51.817225",
     "date": "2026-04-21",
-    "duration_sec": 10.7,
-    "total_scraped": 2578
+    "duration_sec": 18.2,
+    "total_scraped": 7894
   },
   "summary": {
-    "new_games": 0,
-    "price_changes": 9,
-    "availability_changes": 3,
-    "unchanged": 2566,
+    "new_games": 3,
+    "price_changes": 366,
+    "availability_changes": 61,
+    "unchanged": 7464,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 17659,
+      "title": "G Force Superspie In Mission",
+      "console": "PS2",
+      "price": 2
+    },
+    {
+      "game_id": 17660,
+      "title": "Pirati Dei Caraibi Ai Confini Del Mondo *8717418124472*",
+      "console": "PS2",
+      "price": 4
+    },
+    {
+      "game_id": 17661,
+      "title": "Gun Club",
+      "console": "PS2",
+      "price": 10
+    }
+  ],
   "price_changes": [
     {
       "game_id": 951,
@@ -85,6 +104,2862 @@
       "new_price": 3,
       "old_price": 5.0,
       "variation_pct": -40.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 7231,
+      "title": "Ace Combat Distant Thunder",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7238,
+      "title": "All Music Dance",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7239,
+      "title": "Alla Ricerca Di Nemo",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7248,
+      "title": "Animaniacs",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7249,
+      "title": "Apline Ski Racing 2007",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7252,
+      "title": "Asterix & Obelix XXL",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7255,
+      "title": "Athens 2004",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7268,
+      "title": "Barbie e le 12 Principesse Danzanti",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7273,
+      "title": "Batman Begins",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7279,
+      "title": "Ben 10: Protector of Earth",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7281,
+      "title": "Big Mutha Truckers",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 1.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 7283,
+      "title": "Black",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7284,
+      "title": "BMT 2 - Truck Me Harder",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7290,
+      "title": "Brave Alla Ricerca Di Spirito Danzante",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7292,
+      "title": "Brothers In Arms Earned In Blood",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7293,
+      "title": "Brothers in Arms: Road to Hill 30",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7294,
+      "title": "Buena Vista Chicken Little",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7296,
+      "title": "Burnout 2: Point of Impact",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7299,
+      "title": "Burnout Revenge",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7301,
+      "title": "Bust-A-Bloc",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7306,
+      "title": "Buzz The Hollywood Quiz",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7309,
+      "title": "Buzz! The Music Quiz - No Buzzers",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7310,
+      "title": "Call of duty 3",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7318,
+      "title": "Casper E Il Trio Dei Fantasmi",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7327,
+      "title": "Chi Vuol Essere Milionario?",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7342,
+      "title": "Conflict Desert Storm",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7343,
+      "title": "Conflict Zone - Modern War",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7344,
+      "title": "Conflict: Global Storm",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7345,
+      "title": "Conflict: Vietnam",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7349,
+      "title": "Countryside Bears",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7354,
+      "title": "Crash Nitro Kart",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8336,
+      "title": "Crash Tag Team Racing",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7360,
+      "title": "Crescent Suzuki Racing",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 8340,
+      "title": "Crime Life: Gang Wars",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7362,
+      "title": "CSI - Crime Scene Investigation",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7366,
+      "title": "Da Vinci Code, The",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7379,
+      "title": "Devil May Cry",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 7380,
+      "title": "Devil May Cry 2 *2 Dichi*",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7381,
+      "title": "Devil May Cry 3: Dante's Awakening",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7382,
+      "title": "Dinosaurs Adventure",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 7384,
+      "title": "Disney Paperino Chi e Pk",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7390,
+      "title": "Disney's Dinosaur",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7394,
+      "title": "Dog's Life",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7404,
+      "title": "Dragon Ball Z Budokai Tenkaichi 2",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7406,
+      "title": "Dragon Quest: L'Odissea Del Re",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 7407,
+      "title": "Dragonball Z Budokai",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7409,
+      "title": "Dragonball Z Budokai 3",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7415,
+      "title": "Dropship",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7425,
+      "title": "EndGame",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7427,
+      "title": "Enter the Matrix",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7428,
+      "title": "Era Glaciale 2, L'",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7430,
+      "title": "Eredita, L'",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7456,
+      "title": "Fantastici 4, I",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7457,
+      "title": "Ferrari Challenge Trofeo Pirelli",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7460,
+      "title": "Fifa 07",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7461,
+      "title": "Fifa 08",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7462,
+      "title": "FIFA 09",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7464,
+      "title": "FIFA 11",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7466,
+      "title": "FIFA 13",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7467,
+      "title": "FIFA 14",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7468,
+      "title": "FIFA 2001",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7470,
+      "title": "Fifa Football 2003",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7471,
+      "title": "Fifa Football 2004",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7479,
+      "title": "Final fantasy X2",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7480,
+      "title": "Final Fantasy XII",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7493,
+      "title": "Ford Racing 2",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7495,
+      "title": "Forgotten Realms-Demon Stone",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7500,
+      "title": "Formula One 2002",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7501,
+      "title": "Formula One 2003",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7511,
+      "title": "G-Force",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7518,
+      "title": "Getaway, The",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7521,
+      "title": "Ghost Recon: Advanced Warfighter",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7524,
+      "title": "Gli Incredibili",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7532,
+      "title": "Gran Turismo 3",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7533,
+      "title": "Gran Turismo 4",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7535,
+      "title": "Gran Turismo Concept",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7538,
+      "title": "Grand Theft Auto - San Andreas",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7540,
+      "title": "Grand Theft Auto Liberty City Stories",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7541,
+      "title": "Grand Theft Auto Vice City",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7547,
+      "title": "GT-R Touring",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7551,
+      "title": "Gun",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7552,
+      "title": "Gunfighter 2 - Revenge of Jesse James",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8564,
+      "title": "Harry Potter E Il Calice Di Fuoco",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7562,
+      "title": "Headhunter",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7570,
+      "title": "Hitman Blood Money",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7579,
+      "title": "International Cue Club",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7594,
+      "title": "Jak X",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8614,
+      "title": "James Bond 007 - Agent Under Fire",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7596,
+      "title": "James Bond 007 Nightfire",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7607,
+      "title": "Kidz Sports Basketball",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7609,
+      "title": "Kill Switch",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7610,
+      "title": "Killzone",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7611,
+      "title": "King Kong",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7618,
+      "title": "Kung Fu Panda",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8665,
+      "title": "LEGO Bionicle Heroes",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7632,
+      "title": "LEGO Star Wars II: La Trilogia Originale",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7640,
+      "title": "London Racer Destruction Madness",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7644,
+      "title": "Madagascar",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 8705,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 7657,
+      "title": "Max Payne 2",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 7658,
+      "title": "Maximo Army of Zin",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 7659,
+      "title": "Medal of Honor : European Assault",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7660,
+      "title": "Medal of Honor Vanguard",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7661,
+      "title": "Medal of Honor: Frontline",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7662,
+      "title": "Medal Of Honor: Rising Sun",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7664,
+      "title": "Men In Black 2: Alien Escape",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7665,
+      "title": "Mercenari Pagati per distruggere",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7666,
+      "title": "Mercenaries 2 Inferno Di Fuoco",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7669,
+      "title": "Metal Gear Solid 3: Snake Eater",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 7672,
+      "title": "Metropolismania",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8737,
+      "title": "Monsters & Co. Scary Island",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7689,
+      "title": "Moto GP 08",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7693,
+      "title": "Motocross Mania 3",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7694,
+      "title": "MotoGP 07",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7701,
+      "title": "Mx Vs Atv Untamed",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7702,
+      "title": "MX vs. ATV Unleashed",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7707,
+      "title": "Myth Makers Super Kart Gp",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7708,
+      "title": "Narnia- Il Leone La Strega E l'Armadio",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7711,
+      "title": "Naruto Ultimate Ninja",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7712,
+      "title": "Naruto Ultimate Ninja 2",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7713,
+      "title": "Naruto Ultimate Ninja 3",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7714,
+      "title": "Naruto Uzumaki Chronicles",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7731,
+      "title": "NBA Live 2003",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7735,
+      "title": "Need For Speed : Carbon",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7738,
+      "title": "Need For Speed Undercover",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7739,
+      "title": "Need For Speed Underground",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8776,
+      "title": "Need for Speed Underground 2",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 7741,
+      "title": "Need For Speed: Pro Street",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7745,
+      "title": "Ninja assault",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7746,
+      "title": "Ninjabread Man",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7753,
+      "title": "Onimusha 3",
+      "console": "PS2",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 7757,
+      "title": "Pac-Man World 2",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7760,
+      "title": "Padrino, Il",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7766,
+      "title": "Peter pan la leggenda Dell'isola",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7777,
+      "title": "Power Rangers Super Legends",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7778,
+      "title": "Power Volleyball",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7784,
+      "title": "Prince Of Persia 2 Spirito Guerriero",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7785,
+      "title": "Prince Of Persia:I Due Troni",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7788,
+      "title": "Pro Evolution Soccer",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7792,
+      "title": "Pro Evolution Soccer 2010",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7793,
+      "title": "Pro Evolution Soccer 2011",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7798,
+      "title": "Pro Evolution Soccer 6",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7803,
+      "title": "Project Eden",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7806,
+      "title": "Punisher, The",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 7813,
+      "title": "Rainbow Six 3",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7816,
+      "title": "Ratchet & Clank",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 7822,
+      "title": "Rayman Raving Rabbids",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7823,
+      "title": "Rayman Revolution",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7833,
+      "title": "Resident Evil: Code Veronica X",
+      "console": "PS2",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 7835,
+      "title": "Ridge Racer V (5)",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7845,
+      "title": "Rogue Galaxy",
+      "console": "PS2",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 7857,
+      "title": "Rule of Rose w/Manual (Italia)",
+      "console": "PS2",
+      "new_price": 265,
+      "old_price": 275.0,
+      "variation_pct": -3.64
+    },
+    {
+      "game_id": 7864,
+      "title": "SBK 08 - World SuperBike 2008",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7866,
+      "title": "Scaler",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8933,
+      "title": "SCAR",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7880,
+      "title": "Shadow The Hedgehog",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 7888,
+      "title": "Shrek Terzo",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7889,
+      "title": "Siberia II",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7891,
+      "title": "Signore degli Anelli, Il - Le Due Torri",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7892,
+      "title": "Signore degli Anelli, Il: Ritorno del Re",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7898,
+      "title": "Simpsons",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 7900,
+      "title": "Sims 2: Island",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7901,
+      "title": "Sims Fuori Tutti!",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7903,
+      "title": "Sims, The",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7904,
+      "title": "Sims, The: Bustin Out",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7906,
+      "title": "Singstar 80",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7909,
+      "title": "Singstar Italian Party",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7914,
+      "title": "SingStar Top.IT",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7918,
+      "title": "Skateboard Madness",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7921,
+      "title": "Slam Tennis",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7926,
+      "title": "Sniper Elite",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7935,
+      "title": "Socom II: U.S. Navy Seals",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7940,
+      "title": "Sony Tourist Trophy - The Real Riding Simulator",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7942,
+      "title": "Soul Calibur II/2",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7947,
+      "title": "Space Rebellion Guerra Spaziale",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7952,
+      "title": "Spider-Man",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7955,
+      "title": "Spiderman Amici O Nemici",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7960,
+      "title": "Splinter Cell Pandora Tomorrow",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7967,
+      "title": "Spyro Enter The Dragonfly",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7969,
+      "title": "Spyro: A Hero's Tail",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7970,
+      "title": "Ssx",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7973,
+      "title": "Ssx3",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7976,
+      "title": "Star Wars Battlefront II",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7977,
+      "title": "Star wars bounty hunter",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7982,
+      "title": "State Of Emergency",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7984,
+      "title": "Stitch: Experiment 626",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7992,
+      "title": "Stuntman",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 7999,
+      "title": "Super Bust A Move 2",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8014,
+      "title": "Taito Legends 2",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8018,
+      "title": "Teenage Mutant Ninja Turtles Smash Up",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8021,
+      "title": "Tekken 5",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8024,
+      "title": "Terminator 3 Le Macchine Ribelli",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8028,
+      "title": "Tetris Worlds",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 8043,
+      "title": "Time Crisis 3",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 8050,
+      "title": "Tom Clancy's Splinter Cell",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 8053,
+      "title": "Tomb Raider Legend",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8056,
+      "title": "Tony Hawk's Proving Ground",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8067,
+      "title": "Transformers La Vendetta Del Caduto",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 8068,
+      "title": "Transformers The Game",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 8070,
+      "title": "Trivial Pursuit",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8081,
+      "title": "UFC Sudden Impact",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 8088,
+      "title": "Underworld: The Eternal War",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 8093,
+      "title": "Urbz Sims In The City",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 9142,
+      "title": "Valkyrie Profile 2: Silmeria",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8095,
+      "title": "Vampire Night",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8096,
+      "title": "Vegas Casino 2",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8097,
+      "title": "Victorious Boxers 2: Fighting Spirits",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8109,
+      "title": "Winnie the Pooh - E Le Pance Brontolanti!",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 8114,
+      "title": "World Destruction League Thunder Tanks",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 8122,
+      "title": "WRC 3",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 8126,
+      "title": "WRC World Rally Championship",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 8128,
+      "title": "Wwe Smackdown Here Comes The Pain",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8131,
+      "title": "Wwe Smackdown Vs. Raw 2006",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8133,
+      "title": "Wwe Smackdown Vs. Raw 2008",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 8136,
+      "title": "Wwe Smackdown! Shut Your Mouth",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8137,
+      "title": "WWI: Aces Of The Sky",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 8145,
+      "title": "X-Men: Next Dimension",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8152,
+      "title": "Xtreme Speed",
+      "console": "PS2",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 8162,
+      "title": "50 Cent Bulletproof",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8163,
+      "title": "7 Blades",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8167,
+      "title": "Ace Combat: The Belkan War",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8174,
+      "title": "Agassi Tennis GenerAtion",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 8175,
+      "title": "Age Of Empires II/2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7235,
+      "title": "Air Range",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 7241,
+      "title": "Alone in the Dark - The New Nightmare",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8187,
+      "title": "Alter Echo",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7245,
+      "title": "American Chopper",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8195,
+      "title": "Ape Escape 3",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 17567,
+      "title": "Armored Core 2",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8215,
+      "title": "Asterix Obelix XXL 2 Mission Las Vegum",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7274,
+      "title": "Battle Construction Vehicles",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7278,
+      "title": "Ben 10 Alien Force: Vilgax Attacks",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 1,
+      "old_price": 2.5,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 17527,
+      "title": "Call of Duty: World at War - Final Fronts",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8304,
+      "title": "Catwoman",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8305,
+      "title": "Cavalieri dello zodiaco - Saint Seiya: Hades",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7321,
+      "title": "Champions - Return to Arms",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8310,
+      "title": "Chaos Legion",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7334,
+      "title": "Cocoto Kart Racer",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 20.0,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 8328,
+      "title": "Constantine",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8329,
+      "title": "Contra Shattered Soldier",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7348,
+      "title": "Corse Pazze",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8332,
+      "title": "Cosa, La",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7353,
+      "title": "Crash Il Dominio Sui Mutanti",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7356,
+      "title": "Crash Twinsanity",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 8348,
+      "title": "Daemon Summomer",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8367,
+      "title": "Def Jam Fight for NY",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7399,
+      "title": "Downtown Run",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 8414,
+      "title": "DTM Race Driver 2",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7416,
+      "title": "Dukes of Hazzard - Return of General Lee",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8418,
+      "title": "Dynasty Warriors 2",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7422,
+      "title": "Earache : Extreme Metal Racing",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 6.0,
+      "variation_pct": 316.67
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 25.0,
+      "variation_pct": -76.0
+    },
+    {
+      "game_id": 8497,
+      "title": "Garfield Salvate Arlene",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 8507,
+      "title": "Ghosthunter",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8521,
+      "title": "God of War",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 8522,
+      "title": "God of War 2",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 8528,
+      "title": "Grand Theft Auto - The Trilogy (18)",
+      "console": "PS2",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 7544,
+      "title": "Great Battles Of Rome",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7549,
+      "title": "GTC Africa",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 8554,
+      "title": "Hack, Part 1 - Infection",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 8580,
+      "title": "Hobbit, Lo",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8587,
+      "title": "Hulk",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8592,
+      "title": "Ico",
+      "console": "PS2",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 7578,
+      "title": "Il Padrino - Limited Ed",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8594,
+      "title": "Incredible Hulk - Ultimate Destruction",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8596,
+      "title": "Indiana Jones E La Tomba Dell'imperatore",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7585,
+      "title": "International Superstar Soccer 2",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8622,
+      "title": "Judge Dredd",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7604,
+      "title": "Kessen",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8661,
+      "title": "Legacy of Kain: Defiance",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8663,
+      "title": "Legends Of Wrestling 2",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 7634,
+      "title": "Lemmings",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8676,
+      "title": "Looney Tunes Acme Arsenal",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8688,
+      "title": "Magna Carta",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 8689,
+      "title": "Makai Kindom",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 32,
+      "old_price": 6.0,
+      "variation_pct": 433.33
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 32.0,
+      "variation_pct": -81.25
+    },
+    {
+      "game_id": 8705,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 8721,
+      "title": "Michigan: Report from Hell (Italia)",
+      "console": "PS2",
+      "new_price": 190,
+      "old_price": 180.0,
+      "variation_pct": 5.56
+    },
+    {
+      "game_id": 7675,
+      "title": "Midnight Club 3",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7678,
+      "title": "Mission Impossible Operation Surma",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7681,
+      "title": "Monster Jam",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8760,
+      "title": "Mystic Heroes",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 8763,
+      "title": "Nanobreaker",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8797,
+      "title": "Obscure",
+      "console": "PS2",
+      "new_price": 40,
+      "old_price": 35.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 8798,
+      "title": "Obscure 2",
+      "console": "PS2",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8835,
+      "title": "Pimpi, Piccolo Grande Eroe",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7774,
+      "title": "Playboy the Mansion",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8854,
+      "title": "Prince of Persia Trilogy",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8856,
+      "title": "Pro Evolution Soccer 2013",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 8859,
+      "title": "Project Snowblind",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8876,
+      "title": "Ratchet & Clank : L'Altezza Non Conta",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7826,
+      "title": "Re Scorpione, Il",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 8881,
+      "title": "Red Dead Revolver",
+      "console": "PS2",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 8884,
+      "title": "Red Ninja: End of Honor",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7831,
+      "title": "Reservoir Dogs",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8896,
+      "title": "Richard Burns Rally",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8915,
+      "title": "Ruff Trigger: The Vanocore Conspiracy",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7853,
+      "title": "Rugby 08",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 8919,
+      "title": "Rumble Roses",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8945,
+      "title": "Secret Agent Clank",
+      "console": "PS2",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 7879,
+      "title": "Shadow oftThe Colossus",
+      "console": "PS2",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 8969,
+      "title": "Shinobi",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 8978,
+      "title": "Silent Hill 3",
+      "console": "PS2",
+      "new_price": 72,
+      "old_price": 68.0,
+      "variation_pct": 5.88
+    },
+    {
+      "game_id": 7896,
+      "title": "Silent Hill 4 The Room",
+      "console": "PS2",
+      "new_price": 65,
+      "old_price": 60.0,
+      "variation_pct": 8.33
+    },
+    {
+      "game_id": 7908,
+      "title": "Singstar Italian Greatest Hits",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 7937,
+      "title": "Sol Divide",
+      "console": "PS2",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 9017,
+      "title": "Sonic Unleashed",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 15.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 7954,
+      "title": "Spiderman 2",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7964,
+      "title": "Spy Hunter",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7975,
+      "title": "Star Wars Battlefront",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 7978,
+      "title": "Star Wars Il Potere Della Forza",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9062,
+      "title": "Street Fighter EX3",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 9065,
+      "title": "Suffering, The",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 8015,
+      "title": "Tank Elite",
+      "console": "PS2",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 9086,
+      "title": "Taz Wanted",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9089,
+      "title": "Teenage Mutant Ninja Turtles 2 Battle Nexus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8022,
+      "title": "Tekken Tag Tournament",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 8025,
+      "title": "Terminator 3 The Redemption",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9102,
+      "title": "Time Crisis 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9109,
+      "title": "Tokyo Xtreme Racer",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8052,
+      "title": "Tomb Raider Anniversary",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8055,
+      "title": "Tony Hawk's Project 8",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 8057,
+      "title": "Tony Hawks Underground 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9121,
+      "title": "Toy Story 3",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 9129,
+      "title": "Ty La Tigre Della Tasmania",
+      "console": "PS2",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 9137,
+      "title": "Unlimited Saga",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 2.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 6.0,
+      "variation_pct": -66.67
+    },
+    {
+      "game_id": 8108,
+      "title": "Warriors, The",
+      "console": "PS2",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 17558,
+      "title": "Whiplash",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 17541,
+      "title": "Wild Arms 5",
+      "console": "PS2",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 8112,
+      "title": "Wipeout Fusion",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 17643,
+      "title": "Wipeout Pulse",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 17575,
+      "title": "Woody Woodpecker",
+      "console": "PS2",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 2.5,
+      "old_price": 5.0,
+      "variation_pct": -50.0
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
     }
   ],
   "availability_changes": [
@@ -136,6 +3011,734 @@
       "console": "Xbox 360",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7246,
+      "title": "AND 1 Streetball",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8229,
+      "title": "Bard's Tale, The",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8324,
+      "title": "Colin Mcrae Rally 2005",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8336,
+      "title": "Crash Tag Team Racing",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8337,
+      "title": "Crazy Frog Racer",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8340,
+      "title": "Crime Life: Gang Wars",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8370,
+      "title": "Delta Force - Black Hawk Down",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8475,
+      "title": "Forbidden Siren",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8503,
+      "title": "Getaway, The: Black Monday",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8548,
+      "title": "Gunbird",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8564,
+      "title": "Harry Potter E Il Calice Di Fuoco",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8614,
+      "title": "James Bond 007 - Agent Under Fire",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8634,
+      "title": "Kessen III",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8665,
+      "title": "LEGO Bionicle Heroes",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8680,
+      "title": "Lumines Plus",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8705,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8785,
+      "title": "NHL 09",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8814,
+      "title": "Outlaw Golf 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7762,
+      "title": "Party Girls",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8852,
+      "title": "Primal",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8889,
+      "title": "Resident Evil Outbreak",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7833,
+      "title": "Resident Evil: Code Veronica X",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8933,
+      "title": "SCAR",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8989,
+      "title": "Singstar - Queen (Solus)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8993,
+      "title": "SingStar Legends (game Only)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8996,
+      "title": "Singstar Rocks",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8998,
+      "title": "Ski Racing 2005",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9013,
+      "title": "Sonic Mega Collectio Plus",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9014,
+      "title": "Sonic Mega Collection Plus",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8046,
+      "title": "Toca Race Driver",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9138,
+      "title": "Urban Chaos",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 17593,
+      "title": "World Super police",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8167,
+      "title": "Ace Combat: The Belkan War",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7241,
+      "title": "Alone in the Dark - The New Nightmare",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7245,
+      "title": "American Chopper",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8215,
+      "title": "Asterix Obelix XXL 2 Mission Las Vegum",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7261,
+      "title": "Babe",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7267,
+      "title": "Barbie - Principessa Dell'Isola Perduta",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7289,
+      "title": "Bratz: Rock Angelz",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7305,
+      "title": "Buzz the Big Quiz",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7308,
+      "title": "Buzz! The Mega Quiz",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8286,
+      "title": "Call of Duty 2 - Big Red One",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7321,
+      "title": "Champions - Return to Arms",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8310,
+      "title": "Chaos Legion",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7348,
+      "title": "Corse Pazze",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8348,
+      "title": "Daemon Summomer",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8380,
+      "title": "Devil May Cry 3: Special Edition",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7392,
+      "title": "DNA - Dark Native Apostle",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7416,
+      "title": "Dukes of Hazzard - Return of General Lee",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8418,
+      "title": "Dynasty Warriors 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7422,
+      "title": "Earache : Extreme Metal Racing",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7426,
+      "title": "Energy Airforce",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8427,
+      "title": "Energy Airforce Aim Strike",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7481,
+      "title": "Fire Blade",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8521,
+      "title": "God of War",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8554,
+      "title": "Hack, Part 1 - Infection",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7577,
+      "title": "Ice Age 2: The Meltdown",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8592,
+      "title": "Ico",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7578,
+      "title": "Il Padrino - Limited Ed",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8663,
+      "title": "Legends Of Wrestling 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8688,
+      "title": "Magna Carta",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8705,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8732,
+      "title": "Mondiali Fifa 2006",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8760,
+      "title": "Mystic Heroes",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8813,
+      "title": "Outlaw Golf",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7771,
+      "title": "Pirates of the Caribbean: The Legend of Jack Sparrow",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8856,
+      "title": "Pro Evolution Soccer 2013",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8941,
+      "title": "Scooby Doo Mystery Mayhem",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7879,
+      "title": "Shadow oftThe Colossus",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9004,
+      "title": "Smuggler's Run 2 Hostile Territory",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7932,
+      "title": "Soccer Life! Money, Celebrity and Fun",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7954,
+      "title": "Spiderman 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7975,
+      "title": "Star Wars Battlefront",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9096,
+      "title": "Thrillville",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8038,
+      "title": "Tiger Woods Pga Tour 2003",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8052,
+      "title": "Tomb Raider Anniversary",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8055,
+      "title": "Tony Hawk's Project 8",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9129,
+      "title": "Ty La Tigre Della Tasmania",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 17522,
+      "title": "Warrior Street",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 17541,
+      "title": "Wild Arms 5",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 17643,
+      "title": "Wipeout Pulse",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9192,
+      "title": "Batman: Arkham City",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10014,
+      "title": "Diggs L'Investigatarlo SW+Wonderbook",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9378,
+      "title": "FIFA 11",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10075,
+      "title": "Fifa World Cup: South Africa 2010",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9426,
+      "title": "Guitar Hero 5 Solo Software",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10132,
+      "title": "L'incredibile Hulk",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9623,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9656,
+      "title": "Pro Evolution Soccer 2018",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10260,
+      "title": "Saw 2: Flesh & Blood",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10279,
+      "title": "Skate",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9870,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
