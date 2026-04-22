@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-04-22T02:07:18.828565",
+    "exported_at": "2026-04-22T07:53:28.226209",
     "total_games": 17661,
     "version": "1.0",
     "statistics": {
       "total_games": 17661,
-      "available_games": 9073,
-      "unavailable_games": 8588,
+      "available_games": 9071,
+      "unavailable_games": 8590,
       "by_console": {
         "PS4": 3375,
         "Switch": 2156,
@@ -29,17 +29,17 @@
       "last_update": "2026-04-22",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 9,
-        "availability_changes": 4,
-        "unchanged": 2565,
+        "price_changes": 18,
+        "availability_changes": 8,
+        "unchanged": 5130,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 17661,
-    "available_games": 9073,
-    "unavailable_games": 8588,
+    "available_games": 9071,
+    "unavailable_games": 8590,
     "by_console": {
       "PS4": 3375,
       "Switch": 2156,
@@ -62,9 +62,9 @@
     "last_update": "2026-04-22",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 9,
-      "availability_changes": 4,
-      "unchanged": 2565,
+      "price_changes": 18,
+      "availability_changes": 8,
+      "unchanged": 5130,
       "errors": 0
     }
   },
@@ -486118,18 +486118,18 @@
       "console": "Xbox",
       "category": "Xbox",
       "current_price": 5.0,
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=023272997298",
       "first_seen": "2026-02-26",
       "last_updated": "2026-04-22",
       "last_price_change": null,
-      "last_availability_change": "2026-04-21",
+      "last_availability_change": "2026-04-22",
       "image_url": null,
       "cash_price": 1.3,
       "exchange_price": 2.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -518985,6 +518985,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-04-22 07:53:22"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-04-22 07:53:22"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-04-22 02:07:12"
         },
         {
@@ -520161,16 +520171,6 @@
           "old_price": 4.0,
           "new_price": 5.0,
           "changed_at": "2026-03-23 13:01:01"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 4.0,
-          "changed_at": "2026-03-23 07:15:10"
-        },
-        {
-          "old_price": 4.0,
-          "new_price": 5.0,
-          "changed_at": "2026-03-23 07:15:10"
         }
       ],
       "price_trend_pct": -20.0
@@ -525986,18 +525986,18 @@
       "console": "Xbox 360",
       "category": "Xbox",
       "current_price": 10.0,
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=882224075817",
       "first_seen": "2026-02-26",
       "last_updated": "2026-04-22",
       "last_price_change": null,
-      "last_availability_change": "2026-04-21",
+      "last_availability_change": "2026-04-22",
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -531985,6 +531985,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 25.0,
+          "new_price": 18.0,
+          "changed_at": "2026-04-22 07:53:23"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-04-22 07:53:22"
+        },
+        {
           "old_price": 18.0,
           "new_price": 25.0,
           "changed_at": "2026-04-22 02:07:13"
@@ -533163,19 +533173,9 @@
           "old_price": 18.0,
           "new_price": 25.0,
           "changed_at": "2026-03-23 13:01:01"
-        },
-        {
-          "old_price": 25.0,
-          "new_price": 18.0,
-          "changed_at": "2026-03-23 07:15:12"
-        },
-        {
-          "old_price": 18.0,
-          "new_price": 25.0,
-          "changed_at": "2026-03-23 07:15:11"
         }
       ],
-      "price_trend_pct": 38.89
+      "price_trend_pct": -28.0
     },
     {
       "id": 1170,
@@ -534918,6 +534918,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-04-22 07:53:23"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 3.0,
+          "changed_at": "2026-04-22 07:53:23"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 2.0,
+          "changed_at": "2026-04-22 07:53:22"
+        },
         {
           "old_price": 3.0,
           "new_price": 2.0,
@@ -536687,24 +536702,9 @@
           "old_price": 1.5,
           "new_price": 2.0,
           "changed_at": "2026-03-23 13:01:01"
-        },
-        {
-          "old_price": 2.0,
-          "new_price": 3.0,
-          "changed_at": "2026-03-23 07:15:12"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 1.5,
-          "changed_at": "2026-03-23 07:15:11"
-        },
-        {
-          "old_price": 1.5,
-          "new_price": 2.0,
-          "changed_at": "2026-03-23 07:15:11"
         }
       ],
-      "price_trend_pct": -33.33
+      "price_trend_pct": -25.0
     },
     {
       "id": 1204,
@@ -542091,6 +542091,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-04-22 07:53:23"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-04-22 07:53:23"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-04-22 02:07:14"
         },
         {
@@ -543267,16 +543277,6 @@
           "old_price": 5.0,
           "new_price": 3.0,
           "changed_at": "2026-03-23 13:01:02"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 5.0,
-          "changed_at": "2026-03-23 07:15:12"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 3.0,
-          "changed_at": "2026-03-23 07:15:12"
         }
       ],
       "price_trend_pct": 66.67
