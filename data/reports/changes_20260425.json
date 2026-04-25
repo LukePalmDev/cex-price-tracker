@@ -1,18 +1,31 @@
 {
   "metadata": {
-    "generated_at": "2026-04-25T02:01:58.834187",
+    "generated_at": "2026-04-25T07:22:00.713491",
     "date": "2026-04-25",
-    "duration_sec": 10.5,
-    "total_scraped": 2578
+    "duration_sec": 14.3,
+    "total_scraped": 7275
   },
   "summary": {
-    "new_games": 0,
-    "price_changes": 9,
-    "availability_changes": 2,
-    "unchanged": 2567,
+    "new_games": 2,
+    "price_changes": 78,
+    "availability_changes": 26,
+    "unchanged": 7169,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 17662,
+      "title": "Ready or Not (Senza DLC)",
+      "console": "Xbox Series",
+      "price": 48
+    },
+    {
+      "game_id": 17663,
+      "title": "WWE 2K26 (Senza DLC)",
+      "console": "Xbox Series",
+      "price": 65
+    }
+  ],
   "price_changes": [
     {
       "game_id": 951,
@@ -85,6 +98,558 @@
       "new_price": 3,
       "old_price": 5.0,
       "variation_pct": -40.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 2726,
+      "title": "Alone In The Dark",
+      "console": "Xbox Series",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 17612,
+      "title": "Alters, The",
+      "console": "Xbox Series",
+      "new_price": 40,
+      "old_price": 45.0,
+      "variation_pct": -11.11
+    },
+    {
+      "game_id": 2728,
+      "title": "Assassin's Creed Shadows (Senza DLC) 2 Discs",
+      "console": "Xbox Series",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 2737,
+      "title": "Borderlands 4 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 45,
+      "old_price": 55.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 2738,
+      "title": "Call of Duty: Black Ops 6 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 2739,
+      "title": "Call of Duty: Black Ops Cold War (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2740,
+      "title": "Callisto Protocol, The",
+      "console": "Xbox Series",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2744,
+      "title": "Crown Wars: The Black Prince",
+      "console": "Xbox Series",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2746,
+      "title": "Dead Rising Deluxe Remaster",
+      "console": "Xbox Series",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2750,
+      "title": "Doom: The Dark Ages (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 38,
+      "old_price": 42.0,
+      "variation_pct": -9.52
+    },
+    {
+      "game_id": 2752,
+      "title": "Dragon Ball: Sparking! Zero",
+      "console": "Xbox Series",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 2761,
+      "title": "First Berserker, The: Khazan",
+      "console": "Xbox Series",
+      "new_price": 40,
+      "old_price": 45.0,
+      "variation_pct": -11.11
+    },
+    {
+      "game_id": 2763,
+      "title": "Funko Fusion",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2769,
+      "title": "Grand Theft Auto V (2 Disc)",
+      "console": "Xbox Series",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2771,
+      "title": "Hell Is Us (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 50,
+      "old_price": 60.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2773,
+      "title": "Hot Wheels Unleashed",
+      "console": "Xbox Series",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2777,
+      "title": "Invincible, The",
+      "console": "Xbox Series",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2781,
+      "title": "Kingdom Come Deliverance II (Senza DLC) 2 Disc",
+      "console": "Xbox Series",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 2787,
+      "title": "Mafia: The Old Country",
+      "console": "Xbox Series",
+      "new_price": 42,
+      "old_price": 45.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 2789,
+      "title": "Metal Gear Solid Delta: Snake Eater (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 45,
+      "old_price": 52.0,
+      "variation_pct": -13.46
+    },
+    {
+      "game_id": 2791,
+      "title": "Metaphor: ReFantazio",
+      "console": "Xbox Series",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 2795,
+      "title": "Monster Hunter Wilds",
+      "console": "Xbox Series",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 2803,
+      "title": "NBA 2K25",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2804,
+      "title": "NBA 2K26",
+      "console": "Xbox Series",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2805,
+      "title": "Need for Speed: Unbound",
+      "console": "Xbox Series",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2807,
+      "title": "Outcast - A New Beginning",
+      "console": "Xbox Series",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 2812,
+      "title": "Quarry, The",
+      "console": "Xbox Series",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2813,
+      "title": "Quiet Place, A: The Road Ahead",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 2816,
+      "title": "Resident Evil 4 Remake",
+      "console": "Xbox Series",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2817,
+      "title": "Resident Evil 4 Remake Collector's Ed. w/Figure, Artbk & Poster(Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 350,
+      "old_price": 370.0,
+      "variation_pct": -5.41
+    },
+    {
+      "game_id": 17544,
+      "title": "Resident Evil Requiem (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 72,
+      "old_price": 75.0,
+      "variation_pct": -4.0
+    },
+    {
+      "game_id": 2823,
+      "title": "Silent Hill F",
+      "console": "Xbox Series",
+      "new_price": 65,
+      "old_price": 75.0,
+      "variation_pct": -13.33
+    },
+    {
+      "game_id": 2824,
+      "title": "Skull and Bones (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2828,
+      "title": "Star Wars Jedi: Survivor (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2829,
+      "title": "Star Wars Outlaws (Senza DLC) 2 Disc",
+      "console": "Xbox Series",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 2830,
+      "title": "Starfield",
+      "console": "Xbox Series",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 2835,
+      "title": "Syberia: The World Before Col. Ed. w/Statuetta, MusicBox, Portachiave,Book",
+      "console": "Xbox Series",
+      "new_price": 100,
+      "old_price": 110.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2837,
+      "title": "Tekken 8 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 2839,
+      "title": "Test Drive Unlimited: Solar Crown",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2840,
+      "title": "The Medium",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2852,
+      "title": "Warhammer 40k: Space Marine II (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 2860,
+      "title": "WWE 2K22 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 1.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 8705,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 1,
+      "old_price": 2.5,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 28.0,
+      "variation_pct": -28.57
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 20.0,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 6.0,
+      "variation_pct": 316.67
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 25.0,
+      "variation_pct": -76.0
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 32,
+      "old_price": 6.0,
+      "variation_pct": 433.33
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 32.0,
+      "variation_pct": -81.25
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 15.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 2.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 6.0,
+      "variation_pct": -66.67
+    },
+    {
+      "game_id": 17589,
+      "title": "World Heroes Anthology",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
     }
   ],
   "availability_changes": [
@@ -127,6 +692,237 @@
       "game_id": 1203,
       "title": "Table Tennis",
       "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 17612,
+      "title": "Alters, The",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2848,
+      "title": "Undisputed",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7356,
+      "title": "Crash Twinsanity",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8413,
+      "title": "DT Racer",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8521,
+      "title": "God of War",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8522,
+      "title": "God of War 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8574,
+      "title": "Helicopter",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8705,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7675,
+      "title": "Midnight Club 3",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8811,
+      "title": "Orochi Warriors 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8825,
+      "title": "Party Carnival",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8883,
+      "title": "Red faction 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8951,
+      "title": "Sega Soccer Slam",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8988,
+      "title": "Simpsons: Hit & Run",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9005,
+      "title": "Sniper 2, The",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9074,
+      "title": "Surfing H30",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7515,
+      "title": "Garfield",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8538,
+      "title": "Guitar Hero",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7677,
+      "title": "Mini Desktop Racing",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8886,
+      "title": "Reel Fishing 3",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7917,
+      "title": "Skate Attack",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
