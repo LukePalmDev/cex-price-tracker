@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-04-26T02:24:20.015151",
+    "exported_at": "2026-04-26T07:44:33.477350",
     "total_games": 17664,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-04-26",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 9,
-        "availability_changes": 3,
-        "unchanged": 2566,
+        "price_changes": 18,
+        "availability_changes": 5,
+        "unchanged": 5133,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-04-26",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 9,
-      "availability_changes": 3,
-      "unchanged": 2566,
+      "price_changes": 18,
+      "availability_changes": 5,
+      "unchanged": 5133,
       "errors": 0
     }
   },
@@ -517379,6 +517379,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-04-26 07:44:27"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-04-26 07:44:27"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-04-26 02:24:14"
         },
         {
@@ -518565,16 +518575,6 @@
           "old_price": 4.0,
           "new_price": 5.0,
           "changed_at": "2026-03-27 12:59:45"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 4.0,
-          "changed_at": "2026-03-27 07:12:52"
-        },
-        {
-          "old_price": 4.0,
-          "new_price": 5.0,
-          "changed_at": "2026-03-27 07:12:52"
         }
       ],
       "price_trend_pct": -20.0
@@ -530398,6 +530398,16 @@
         {
           "old_price": 25.0,
           "new_price": 18.0,
+          "changed_at": "2026-04-26 07:44:28"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-04-26 07:44:27"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
           "changed_at": "2026-04-26 02:24:15"
         },
         {
@@ -531584,16 +531594,6 @@
           "old_price": 18.0,
           "new_price": 25.0,
           "changed_at": "2026-03-27 12:59:46"
-        },
-        {
-          "old_price": 25.0,
-          "new_price": 18.0,
-          "changed_at": "2026-03-27 07:12:53"
-        },
-        {
-          "old_price": 18.0,
-          "new_price": 25.0,
-          "changed_at": "2026-03-27 07:12:52"
         }
       ],
       "price_trend_pct": -28.0
@@ -533337,6 +533337,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-04-26 07:44:28"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 3.0,
+          "changed_at": "2026-04-26 07:44:28"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 2.0,
+          "changed_at": "2026-04-26 07:44:27"
+        },
         {
           "old_price": 2.0,
           "new_price": 1.5,
@@ -535121,21 +535136,6 @@
           "old_price": 1.5,
           "new_price": 2.0,
           "changed_at": "2026-03-27 12:59:46"
-        },
-        {
-          "old_price": 2.0,
-          "new_price": 3.0,
-          "changed_at": "2026-03-27 07:12:53"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 1.5,
-          "changed_at": "2026-03-27 07:12:52"
-        },
-        {
-          "old_price": 1.5,
-          "new_price": 2.0,
-          "changed_at": "2026-03-27 07:12:52"
         }
       ],
       "price_trend_pct": -25.0
@@ -540526,6 +540526,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-04-26 07:44:28"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-04-26 07:44:28"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-04-26 02:24:15"
         },
         {
@@ -541712,16 +541722,6 @@
           "old_price": 5.0,
           "new_price": 3.0,
           "changed_at": "2026-03-27 12:59:47"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 5.0,
-          "changed_at": "2026-03-27 07:12:53"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 3.0,
-          "changed_at": "2026-03-27 07:12:53"
         }
       ],
       "price_trend_pct": 66.67
@@ -567404,14 +567404,8 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica"
       ],
-      "price_history_30d": [
-        {
-          "old_price": 35.0,
-          "new_price": 25.0,
-          "changed_at": "2026-03-27 07:12:54"
-        }
-      ],
-      "price_trend_pct": -28.57
+      "price_history_30d": [],
+      "price_trend_pct": null
     },
     {
       "id": 2423,
