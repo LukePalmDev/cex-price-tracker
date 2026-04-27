@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-04-27T02:26:37.864317",
+    "exported_at": "2026-04-27T08:30:14.620182",
     "total_games": 17690,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-04-27",
       "daily_summary": {
         "new_games": 26,
-        "price_changes": 502,
-        "availability_changes": 190,
-        "unchanged": 4901,
+        "price_changes": 511,
+        "availability_changes": 192,
+        "unchanged": 7468,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-04-27",
     "daily_summary": {
       "new_games": 26,
-      "price_changes": 502,
-      "availability_changes": 190,
-      "unchanged": 4901,
+      "price_changes": 511,
+      "availability_changes": 192,
+      "unchanged": 7468,
       "errors": 0
     }
   },
@@ -520598,6 +520598,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-04-27 08:30:08"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-04-27 08:30:08"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-04-27 02:26:27"
         },
         {
@@ -521784,16 +521794,6 @@
           "old_price": 4.0,
           "new_price": 5.0,
           "changed_at": "2026-03-28 12:49:38"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 4.0,
-          "changed_at": "2026-03-28 07:02:47"
-        },
-        {
-          "old_price": 4.0,
-          "new_price": 5.0,
-          "changed_at": "2026-03-28 07:02:47"
         }
       ],
       "price_trend_pct": -20.0
@@ -533616,6 +533616,16 @@
         {
           "old_price": 18.0,
           "new_price": 25.0,
+          "changed_at": "2026-04-27 08:30:09"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
+          "changed_at": "2026-04-27 08:30:09"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
           "changed_at": "2026-04-27 02:26:28"
         },
         {
@@ -534802,16 +534812,6 @@
           "old_price": 25.0,
           "new_price": 18.0,
           "changed_at": "2026-03-28 12:49:39"
-        },
-        {
-          "old_price": 25.0,
-          "new_price": 18.0,
-          "changed_at": "2026-03-28 07:02:48"
-        },
-        {
-          "old_price": 18.0,
-          "new_price": 25.0,
-          "changed_at": "2026-03-28 07:02:47"
         }
       ],
       "price_trend_pct": 38.89
@@ -536556,6 +536556,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 2.0,
+          "changed_at": "2026-04-27 08:30:09"
+        },
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-04-27 08:30:09"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 3.0,
+          "changed_at": "2026-04-27 08:30:09"
+        },
         {
           "old_price": 3.0,
           "new_price": 2.0,
@@ -538340,21 +538355,6 @@
           "old_price": 2.0,
           "new_price": 3.0,
           "changed_at": "2026-03-28 12:49:39"
-        },
-        {
-          "old_price": 2.0,
-          "new_price": 3.0,
-          "changed_at": "2026-03-28 07:02:48"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 1.5,
-          "changed_at": "2026-03-28 07:02:47"
-        },
-        {
-          "old_price": 1.5,
-          "new_price": 2.0,
-          "changed_at": "2026-03-28 07:02:47"
         }
       ],
       "price_trend_pct": -33.33
@@ -543745,6 +543745,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-04-27 08:30:09"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-04-27 08:30:09"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-04-27 02:26:28"
         },
         {
@@ -544931,16 +544941,6 @@
           "old_price": 5.0,
           "new_price": 3.0,
           "changed_at": "2026-03-28 12:49:39"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 5.0,
-          "changed_at": "2026-03-28 07:02:48"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 3.0,
-          "changed_at": "2026-03-28 07:02:48"
         }
       ],
       "price_trend_pct": 66.67
