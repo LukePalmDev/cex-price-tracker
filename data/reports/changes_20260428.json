@@ -1,19 +1,91 @@
 {
   "metadata": {
-    "generated_at": "2026-04-28T08:29:01.011772",
+    "generated_at": "2026-04-28T13:58:02.805326",
     "date": "2026-04-28",
-    "duration_sec": 11.1,
-    "total_scraped": 5158
+    "duration_sec": 11.5,
+    "total_scraped": 7737
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 18,
-    "availability_changes": 6,
-    "unchanged": 5134,
+    "price_changes": 27,
+    "availability_changes": 16,
+    "unchanged": 7694,
     "errors": 0
   },
   "new_games": [],
   "price_changes": [
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
     {
       "game_id": 951,
       "title": "Lost Via Domus",
@@ -255,6 +327,104 @@
       "game_id": 1203,
       "title": "Table Tennis",
       "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1558,
+      "title": "Kameo: Elements of Power",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1253,
+      "title": "UEFA Champions League 2006/2007",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 842,
+      "title": "Frontlines: Fuel of War",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1150,
+      "title": "Sims 3, The",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2177,
+      "title": "Madden NFL 25",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2311,
+      "title": "Project Cars 3",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2336,
+      "title": "Resident Evil 2",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2447,
+      "title": "Tekken 7 (Senza DLC)",
+      "console": "Xbox One",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
