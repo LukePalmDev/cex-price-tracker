@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-04-30T02:35:11.289907",
+    "exported_at": "2026-04-30T08:25:48.885558",
     "total_games": 17695,
     "version": "1.0",
     "statistics": {
       "total_games": 17695,
-      "available_games": 9152,
-      "unavailable_games": 8543,
+      "available_games": 9153,
+      "unavailable_games": 8542,
       "by_console": {
         "PS4": 3382,
         "Switch": 2156,
@@ -29,17 +29,17 @@
       "last_update": "2026-04-30",
       "daily_summary": {
         "new_games": 1,
-        "price_changes": 9,
-        "availability_changes": 6,
-        "unchanged": 3319,
+        "price_changes": 18,
+        "availability_changes": 9,
+        "unchanged": 5886,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 17695,
-    "available_games": 9152,
-    "unavailable_games": 8543,
+    "available_games": 9153,
+    "unavailable_games": 8542,
     "by_console": {
       "PS4": 3382,
       "Switch": 2156,
@@ -62,9 +62,9 @@
     "last_update": "2026-04-30",
     "daily_summary": {
       "new_games": 1,
-      "price_changes": 9,
-      "availability_changes": 6,
-      "unchanged": 3319,
+      "price_changes": 18,
+      "availability_changes": 9,
+      "unchanged": 5886,
       "errors": 0
     }
   },
@@ -493530,6 +493530,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
+        "Gran Roma",
         "La Romanina",
         "The Wow Side"
       ],
@@ -500260,23 +500261,22 @@
       "console": "Xbox 360",
       "category": "Xbox",
       "current_price": 30.0,
-      "is_available": 0,
+      "is_available": 1,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=885370091779",
       "first_seen": "2026-02-26",
       "last_updated": "2026-04-30",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-04-30",
       "image_url": null,
       "cash_price": 9.0,
       "exchange_price": 15.0,
-      "ecom_quantity": 0,
-      "collection_quantity": 0,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
-        "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
@@ -520681,6 +520681,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-04-30 08:25:42"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-04-30 08:25:42"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-04-30 02:35:05"
         },
         {
@@ -521867,16 +521877,6 @@
           "old_price": 4.0,
           "new_price": 5.0,
           "changed_at": "2026-03-31 13:12:01"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 4.0,
-          "changed_at": "2026-03-31 07:20:15"
-        },
-        {
-          "old_price": 4.0,
-          "new_price": 5.0,
-          "changed_at": "2026-03-31 07:20:15"
         }
       ],
       "price_trend_pct": -20.0
@@ -533699,6 +533699,16 @@
       ],
       "price_history_30d": [
         {
+          "old_price": 25.0,
+          "new_price": 18.0,
+          "changed_at": "2026-04-30 08:25:44"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-04-30 08:25:43"
+        },
+        {
           "old_price": 18.0,
           "new_price": 25.0,
           "changed_at": "2026-04-30 02:35:05"
@@ -534887,19 +534897,9 @@
           "old_price": 18.0,
           "new_price": 25.0,
           "changed_at": "2026-03-31 13:12:02"
-        },
-        {
-          "old_price": 25.0,
-          "new_price": 18.0,
-          "changed_at": "2026-03-31 07:20:17"
-        },
-        {
-          "old_price": 18.0,
-          "new_price": 25.0,
-          "changed_at": "2026-03-31 07:20:16"
         }
       ],
-      "price_trend_pct": 38.89
+      "price_trend_pct": -28.0
     },
     {
       "id": 1170,
@@ -536638,6 +536638,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-04-30 08:25:44"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 3.0,
+          "changed_at": "2026-04-30 08:25:44"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 2.0,
+          "changed_at": "2026-04-30 08:25:43"
+        },
         {
           "old_price": 2.0,
           "new_price": 1.5,
@@ -538422,21 +538437,6 @@
           "old_price": 1.5,
           "new_price": 2.0,
           "changed_at": "2026-03-31 13:12:02"
-        },
-        {
-          "old_price": 2.0,
-          "new_price": 3.0,
-          "changed_at": "2026-03-31 07:20:17"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 1.5,
-          "changed_at": "2026-03-31 07:20:16"
-        },
-        {
-          "old_price": 1.5,
-          "new_price": 2.0,
-          "changed_at": "2026-03-31 07:20:16"
         }
       ],
       "price_trend_pct": -25.0
@@ -543826,6 +543826,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-04-30 08:25:44"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-04-30 08:25:44"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-04-30 02:35:06"
         },
         {
@@ -545012,16 +545022,6 @@
           "old_price": 5.0,
           "new_price": 3.0,
           "changed_at": "2026-03-31 13:12:03"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 5.0,
-          "changed_at": "2026-03-31 07:20:17"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 3.0,
-          "changed_at": "2026-03-31 07:20:17"
         }
       ],
       "price_trend_pct": 66.67
