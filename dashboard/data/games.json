@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-05-09T07:59:57.438173",
+    "exported_at": "2026-05-09T13:10:22.577083",
     "total_games": 17703,
     "version": "1.0",
     "statistics": {
       "total_games": 17703,
-      "available_games": 9147,
-      "unavailable_games": 8556,
+      "available_games": 9150,
+      "unavailable_games": 8553,
       "by_console": {
         "PS4": 3382,
         "Switch": 2156,
@@ -29,17 +29,17 @@
       "last_update": "2026-05-09",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 18,
-        "availability_changes": 6,
-        "unchanged": 5136,
+        "price_changes": 27,
+        "availability_changes": 15,
+        "unchanged": 7698,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 17703,
-    "available_games": 9147,
-    "unavailable_games": 8556,
+    "available_games": 9150,
+    "unavailable_games": 8553,
     "by_console": {
       "PS4": 3382,
       "Switch": 2156,
@@ -62,9 +62,9 @@
     "last_update": "2026-05-09",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 18,
-      "availability_changes": 6,
-      "unchanged": 5136,
+      "price_changes": 27,
+      "availability_changes": 15,
+      "unchanged": 7698,
       "errors": 0
     }
   },
@@ -483937,12 +483937,13 @@
       "image_url": null,
       "cash_price": 1.3,
       "exchange_price": 2.0,
-      "ecom_quantity": 2,
-      "collection_quantity": 2,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
+        "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Milano Viale Tunisia",
         "Gran Roma",
@@ -487775,23 +487776,22 @@
       "console": "Xbox",
       "category": "Xbox",
       "current_price": 5.0,
-      "is_available": 0,
+      "is_available": 1,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5060004761708",
       "first_seen": "2026-02-26",
       "last_updated": "2026-05-09",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-05-09",
       "image_url": null,
       "cash_price": 1.3,
       "exchange_price": 2.0,
-      "ecom_quantity": 0,
-      "collection_quantity": 0,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
-        "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
@@ -498879,18 +498879,18 @@
       "console": "Xbox",
       "category": "Xbox",
       "current_price": 1.0,
-      "is_available": 0,
+      "is_available": 1,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5030947039691",
       "first_seen": "2026-02-26",
       "last_updated": "2026-05-09",
       "last_price_change": null,
-      "last_availability_change": "2026-04-25",
+      "last_availability_change": "2026-05-09",
       "image_url": null,
       "cash_price": 0.01,
       "exchange_price": 0.1,
-      "ecom_quantity": 0,
-      "collection_quantity": 0,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -498898,7 +498898,6 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
         "The Wow Side"
@@ -501360,8 +501359,8 @@
       "image_url": null,
       "cash_price": 1.5,
       "exchange_price": 2.0,
-      "ecom_quantity": 24,
-      "collection_quantity": 24,
+      "ecom_quantity": 23,
+      "collection_quantity": 23,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -502463,18 +502462,18 @@
       "console": "Xbox 360",
       "category": "Xbox",
       "current_price": 4.0,
-      "is_available": 0,
+      "is_available": 1,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5030947049966",
       "first_seen": "2026-02-26",
       "last_updated": "2026-05-09",
       "last_price_change": null,
-      "last_availability_change": "2026-03-23",
+      "last_availability_change": "2026-05-09",
       "image_url": null,
       "cash_price": 1.0,
       "exchange_price": 1.6,
-      "ecom_quantity": 0,
-      "collection_quantity": 0,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -502484,8 +502483,7 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
-        "La Romanina",
-        "The Wow Side"
+        "La Romanina"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -505256,15 +505254,14 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 6,
+      "collection_quantity": 6,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
-        "Milano Viale Tunisia",
-        "The Wow Side"
+        "Milano Viale Tunisia"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -505694,8 +505691,8 @@
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 2,
-      "collection_quantity": 2,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -507606,6 +507603,7 @@
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Gran Roma",
         "La Romanina"
       ],
       "price_history_30d": [],
@@ -509017,8 +509015,8 @@
       "image_url": null,
       "cash_price": 0.1,
       "exchange_price": 0.2,
-      "ecom_quantity": 13,
-      "collection_quantity": 13,
+      "ecom_quantity": 14,
+      "collection_quantity": 14,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -512103,8 +512101,8 @@
       "image_url": null,
       "cash_price": 0.01,
       "exchange_price": 0.1,
-      "ecom_quantity": 15,
-      "collection_quantity": 15,
+      "ecom_quantity": 16,
+      "collection_quantity": 16,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -513421,8 +513419,8 @@
       "image_url": null,
       "cash_price": 0.5,
       "exchange_price": 0.8,
-      "ecom_quantity": 2,
-      "collection_quantity": 2,
+      "ecom_quantity": 3,
+      "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -513431,8 +513429,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Gran Roma",
-        "La Romanina",
-        "The Wow Side"
+        "La Romanina"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -514676,8 +514673,8 @@
       "image_url": null,
       "cash_price": 1.8,
       "exchange_price": 3.0,
-      "ecom_quantity": 13,
-      "collection_quantity": 13,
+      "ecom_quantity": 12,
+      "collection_quantity": 12,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -514741,8 +514738,8 @@
       "image_url": null,
       "cash_price": 0.7,
       "exchange_price": 1.2,
-      "ecom_quantity": 2,
-      "collection_quantity": 2,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -514929,16 +514926,15 @@
       "image_url": null,
       "cash_price": 1.0,
       "exchange_price": 1.6,
-      "ecom_quantity": 4,
-      "collection_quantity": 4,
+      "ecom_quantity": 5,
+      "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
-        "La Romanina",
-        "The Wow Side"
+        "La Romanina"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -516907,15 +516903,14 @@
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 6,
+      "collection_quantity": 6,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "Gran Roma",
-        "The Wow Side"
+        "Gran Roma"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -519405,15 +519400,14 @@
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 6.0,
-      "ecom_quantity": 4,
-      "collection_quantity": 4,
+      "ecom_quantity": 5,
+      "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "Milano Viale Tunisia",
         "Gran Roma"
       ],
       "price_history_30d": [],
@@ -520749,6 +520743,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-05-09 13:10:16"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-05-09 13:10:16"
+        },
         {
           "old_price": 5.0,
           "new_price": 4.0,
@@ -523280,8 +523284,8 @@
       "image_url": null,
       "cash_price": 1.0,
       "exchange_price": 1.6,
-      "ecom_quantity": 2,
-      "collection_quantity": 2,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -523852,18 +523856,18 @@
       "console": "Xbox 360",
       "category": "Xbox",
       "current_price": 4.0,
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5021290043220",
       "first_seen": "2026-02-26",
       "last_updated": "2026-05-09",
       "last_price_change": null,
-      "last_availability_change": "2026-04-07",
+      "last_availability_change": "2026-05-09",
       "image_url": null,
       "cash_price": 1.0,
       "exchange_price": 1.6,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -523873,6 +523877,7 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side"
       ],
       "price_history_30d": [],
@@ -523995,8 +524000,8 @@
       "image_url": null,
       "cash_price": 1.0,
       "exchange_price": 1.6,
-      "ecom_quantity": 3,
-      "collection_quantity": 3,
+      "ecom_quantity": 4,
+      "collection_quantity": 4,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -528081,6 +528086,7 @@
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
+        "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
@@ -528667,8 +528673,8 @@
       "image_url": null,
       "cash_price": 0.1,
       "exchange_price": 0.3,
-      "ecom_quantity": 6,
-      "collection_quantity": 6,
+      "ecom_quantity": 5,
+      "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -528790,8 +528796,8 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 2,
-      "collection_quantity": 2,
+      "ecom_quantity": 3,
+      "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -528799,8 +528805,7 @@
         "Reggio Emilia San Pietro",
         "Milano Viale Tunisia",
         "Gran Roma",
-        "La Romanina",
-        "The Wow Side"
+        "La Romanina"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -528982,15 +528987,14 @@
       "image_url": null,
       "cash_price": 0.01,
       "exchange_price": 0.1,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 2,
+      "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
         "The Wow Side"
@@ -529014,8 +529018,8 @@
       "image_url": null,
       "cash_price": 1.0,
       "exchange_price": 1.6,
-      "ecom_quantity": 9,
-      "collection_quantity": 9,
+      "ecom_quantity": 8,
+      "collection_quantity": 8,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -529041,12 +529045,13 @@
       "image_url": null,
       "cash_price": 1.5,
       "exchange_price": 2.0,
-      "ecom_quantity": 7,
-      "collection_quantity": 7,
+      "ecom_quantity": 5,
+      "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Gran Roma",
         "The Wow Side"
       ],
@@ -529742,8 +529747,8 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 7,
-      "collection_quantity": 7,
+      "ecom_quantity": 6,
+      "collection_quantity": 6,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -529997,18 +530002,18 @@
       "console": "Xbox 360",
       "category": "Xbox",
       "current_price": 12.0,
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5055060964521",
       "first_seen": "2026-02-26",
       "last_updated": "2026-05-09",
       "last_price_change": null,
-      "last_availability_change": "2026-04-07",
+      "last_availability_change": "2026-05-09",
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 6.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -530018,6 +530023,7 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side"
       ],
       "price_history_30d": [],
@@ -533684,8 +533690,8 @@
       "image_url": null,
       "cash_price": 5.0,
       "exchange_price": 9.0,
-      "ecom_quantity": 3,
-      "collection_quantity": 3,
+      "ecom_quantity": 4,
+      "collection_quantity": 4,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -533762,6 +533768,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
+          "changed_at": "2026-05-09 13:10:17"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-05-09 13:10:16"
+        },
         {
           "old_price": 25.0,
           "new_price": 18.0,
@@ -536675,6 +536691,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-05-09 13:10:17"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 3.0,
+          "changed_at": "2026-05-09 13:10:17"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 2.0,
+          "changed_at": "2026-05-09 13:10:16"
+        },
         {
           "old_price": 2.0,
           "new_price": 1.5,
@@ -540113,8 +540144,8 @@
       "image_url": null,
       "cash_price": 0.7,
       "exchange_price": 1.2,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 6,
+      "collection_quantity": 6,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -543809,6 +543840,16 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
+          "changed_at": "2026-05-09 13:10:17"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-05-09 13:10:17"
+        },
         {
           "old_price": 3.0,
           "new_price": 5.0,
@@ -552610,21 +552651,20 @@
       "console": "Xbox One",
       "category": "Xbox",
       "current_price": 10.0,
-      "is_available": 0,
+      "is_available": 1,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=9120080071354",
       "first_seen": "2026-02-26",
       "last_updated": "2026-05-09",
       "last_price_change": "2026-04-15",
-      "last_availability_change": "2026-03-31",
+      "last_availability_change": "2026-05-09",
       "image_url": null,
       "cash_price": 4.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 0,
-      "collection_quantity": 0,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
-        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -554717,13 +554757,14 @@
       "image_url": null,
       "cash_price": 6.0,
       "exchange_price": 8.0,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 4,
+      "collection_quantity": 4,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "The Wow Side"
@@ -555521,8 +555562,8 @@
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 4,
-      "collection_quantity": 4,
+      "ecom_quantity": 3,
+      "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -555765,10 +555806,11 @@
       "image_url": null,
       "cash_price": 0.7,
       "exchange_price": 1.2,
-      "ecom_quantity": 3,
-      "collection_quantity": 3,
+      "ecom_quantity": 2,
+      "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -558675,13 +558717,14 @@
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 6,
-      "collection_quantity": 6,
+      "ecom_quantity": 5,
+      "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Gran Roma",
         "La Romanina"
       ],
       "price_history_30d": [],
@@ -559059,13 +559102,14 @@
       "image_url": null,
       "cash_price": 4.0,
       "exchange_price": 6.0,
-      "ecom_quantity": 20,
-      "collection_quantity": 20,
+      "ecom_quantity": 19,
+      "collection_quantity": 19,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side"
       ],
       "price_history_30d": [
@@ -559290,8 +559334,8 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 2.0,
-      "ecom_quantity": 10,
-      "collection_quantity": 10,
+      "ecom_quantity": 9,
+      "collection_quantity": 9,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -561604,15 +561648,16 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 2.0,
-      "ecom_quantity": 15,
-      "collection_quantity": 15,
+      "ecom_quantity": 14,
+      "collection_quantity": 14,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "La Romanina"
+        "La Romanina",
+        "The Wow Side"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -564257,8 +564302,8 @@
       "image_url": null,
       "cash_price": 1.0,
       "exchange_price": 1.6,
-      "ecom_quantity": 3,
-      "collection_quantity": 3,
+      "ecom_quantity": 2,
+      "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -564266,7 +564311,8 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Gran Roma",
-        "La Romanina"
+        "La Romanina",
+        "The Wow Side"
       ],
       "price_history_30d": [
         {
@@ -564869,15 +564915,14 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 2.0,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 6,
+      "collection_quantity": 6,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "Gran Roma",
-        "The Wow Side"
+        "Gran Roma"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -568003,10 +568048,11 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 2.0,
-      "ecom_quantity": 4,
-      "collection_quantity": 4,
+      "ecom_quantity": 3,
+      "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
@@ -568472,12 +568518,11 @@
       "image_url": null,
       "cash_price": 6.0,
       "exchange_price": 8.0,
-      "ecom_quantity": 7,
-      "collection_quantity": 7,
+      "ecom_quantity": 8,
+      "collection_quantity": 8,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
-        "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "The Wow Side"
       ],
@@ -572385,25 +572430,24 @@
       "console": "Xbox One",
       "category": "Xbox",
       "current_price": 3.5,
-      "is_available": 0,
+      "is_available": 1,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=4260458361375",
       "first_seen": "2026-02-26",
       "last_updated": "2026-05-09",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-05-09",
       "image_url": null,
       "cash_price": 0.9,
       "exchange_price": 1.4,
-      "ecom_quantity": 0,
-      "collection_quantity": 0,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
-        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
