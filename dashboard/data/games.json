@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-05-10T02:34:52.417733",
+    "exported_at": "2026-05-10T08:10:45.159998",
     "total_games": 17703,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-05-10",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 9,
-        "availability_changes": 2,
-        "unchanged": 2569,
+        "price_changes": 18,
+        "availability_changes": 4,
+        "unchanged": 5138,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-05-10",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 9,
-      "availability_changes": 2,
-      "unchanged": 2569,
+      "price_changes": 18,
+      "availability_changes": 4,
+      "unchanged": 5138,
       "errors": 0
     }
   },
@@ -519550,6 +519550,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-05-10 08:10:39"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-05-10 08:10:39"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-05-10 02:34:46"
         },
         {
@@ -520726,16 +520736,6 @@
           "old_price": 4.0,
           "new_price": 5.0,
           "changed_at": "2026-04-10 13:03:12"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 4.0,
-          "changed_at": "2026-04-10 07:46:35"
-        },
-        {
-          "old_price": 4.0,
-          "new_price": 5.0,
-          "changed_at": "2026-04-10 07:46:35"
         }
       ],
       "price_trend_pct": -20.0
@@ -532563,6 +532563,16 @@
         {
           "old_price": 25.0,
           "new_price": 18.0,
+          "changed_at": "2026-05-10 08:10:40"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-05-10 08:10:39"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
           "changed_at": "2026-05-10 02:34:47"
         },
         {
@@ -533739,16 +533749,6 @@
           "old_price": 25.0,
           "new_price": 18.0,
           "changed_at": "2026-04-10 13:03:13"
-        },
-        {
-          "old_price": 25.0,
-          "new_price": 18.0,
-          "changed_at": "2026-04-10 07:46:36"
-        },
-        {
-          "old_price": 18.0,
-          "new_price": 25.0,
-          "changed_at": "2026-04-10 07:46:35"
         }
       ],
       "price_trend_pct": -28.0
@@ -535474,6 +535474,21 @@
         "The Wow Side"
       ],
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-05-10 08:10:40"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 3.0,
+          "changed_at": "2026-05-10 08:10:40"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 2.0,
+          "changed_at": "2026-05-10 08:10:39"
+        },
         {
           "old_price": 2.0,
           "new_price": 1.5,
@@ -537243,21 +537258,6 @@
           "old_price": 2.0,
           "new_price": 3.0,
           "changed_at": "2026-04-10 13:03:13"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 1.5,
-          "changed_at": "2026-04-10 07:46:36"
-        },
-        {
-          "old_price": 1.5,
-          "new_price": 2.0,
-          "changed_at": "2026-04-10 07:46:36"
-        },
-        {
-          "old_price": 2.0,
-          "new_price": 3.0,
-          "changed_at": "2026-04-10 07:46:36"
         }
       ],
       "price_trend_pct": -25.0
@@ -542612,6 +542612,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-05-10 08:10:40"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-05-10 08:10:40"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-05-10 02:34:47"
         },
         {
@@ -543788,16 +543798,6 @@
           "old_price": 5.0,
           "new_price": 3.0,
           "changed_at": "2026-04-10 13:03:13"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 5.0,
-          "changed_at": "2026-04-10 07:46:36"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 3.0,
-          "changed_at": "2026-04-10 07:46:36"
         }
       ],
       "price_trend_pct": 66.67
@@ -556503,8 +556503,8 @@
       "image_url": null,
       "cash_price": 0.9,
       "exchange_price": 1.4,
-      "ecom_quantity": 10,
-      "collection_quantity": 10,
+      "ecom_quantity": 9,
+      "collection_quantity": 9,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -556658,8 +556658,8 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 2.0,
-      "ecom_quantity": 6,
-      "collection_quantity": 6,
+      "ecom_quantity": 5,
+      "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
