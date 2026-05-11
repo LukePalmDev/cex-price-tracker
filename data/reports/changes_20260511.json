@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-05-11T09:44:42.746887",
+    "generated_at": "2026-05-11T14:43:06.978900",
     "date": "2026-05-11",
-    "duration_sec": 10.3,
-    "total_scraped": 5160
+    "duration_sec": 11.5,
+    "total_scraped": 7900
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 18,
-    "availability_changes": 6,
-    "unchanged": 5136,
+    "price_changes": 66,
+    "availability_changes": 23,
+    "unchanged": 7811,
     "errors": 0
   },
   "new_games": [],
@@ -157,6 +157,390 @@
       "new_price": 3,
       "old_price": 5.0,
       "variation_pct": -40.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 14661,
+      "title": "Bayonetta 1",
+      "console": "Wii U",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 14667,
+      "title": "Call of Duty Black Ops II",
+      "console": "Wii U",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14688,
+      "title": "FIFA 13",
+      "console": "Wii U",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14691,
+      "title": "Game Party Champions",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14697,
+      "title": "Injustice: Gods Among Us",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14698,
+      "title": "Just Dance 2014",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14699,
+      "title": "Just Dance 2015",
+      "console": "Wii U",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14700,
+      "title": "Just Dance 2016",
+      "console": "Wii U",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14701,
+      "title": "Just Dance 2017",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14703,
+      "title": "Just Dance 2019",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14711,
+      "title": "Legend of Zelda: Twilight Princess HD",
+      "console": "Wii U",
+      "new_price": 90,
+      "old_price": 82.0,
+      "variation_pct": 9.76
+    },
+    {
+      "game_id": 14715,
+      "title": "Lego City Undercover",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14720,
+      "title": "LEGO Marvel Superheroes",
+      "console": "Wii U",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14721,
+      "title": "Lego Movie Videogame, The",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14725,
+      "title": "Mario Kart 8",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14727,
+      "title": "Mario Party 10",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14730,
+      "title": "Mass Effect 3",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14742,
+      "title": "Ninja Gaiden 3 - Razor's Edge",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14745,
+      "title": "Pac Man E Le Avventure Mostruose",
+      "console": "Wii U",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14755,
+      "title": "Rayman Legends",
+      "console": "Wii U",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14762,
+      "title": "Skylanders Giants - Starter Kit",
+      "console": "Wii U",
+      "new_price": 18,
+      "old_price": 5.0,
+      "variation_pct": 260.0
+    },
+    {
+      "game_id": 14763,
+      "title": "Skylanders Imaginators Starter Pack",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 5.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 14764,
+      "title": "Skylanders Superchargers - Starter Pack",
+      "console": "Wii U",
+      "new_price": 12,
+      "old_price": 4.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 14765,
+      "title": "Skylanders Superchargers Dark Edition Starter Pack",
+      "console": "Wii U",
+      "new_price": 30,
+      "old_price": 5.0,
+      "variation_pct": 500.0
+    },
+    {
+      "game_id": 14766,
+      "title": "Skylanders Swap Force",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 3.0,
+      "variation_pct": 400.0
+    },
+    {
+      "game_id": 14767,
+      "title": "Skylanders Trap Team Starter Pack",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 5.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 14768,
+      "title": "Sniper Elite V2",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14771,
+      "title": "Sonic Lost World",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14779,
+      "title": "Steam World Collection",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14782,
+      "title": "Super Mario Maker + Artbook",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14783,
+      "title": "Super Smash Bros.",
+      "console": "Wii U",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 14784,
+      "title": "Tank! Tank! Tank!",
+      "console": "Wii U",
+      "new_price": 45,
+      "old_price": 28.0,
+      "variation_pct": 60.71
+    },
+    {
+      "game_id": 14785,
+      "title": "Tekken Tag Tournament 2",
+      "console": "Wii U",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 14792,
+      "title": "Walking Dead: Survival Instict",
+      "console": "Wii U",
+      "new_price": 40,
+      "old_price": 8.0,
+      "variation_pct": 400.0
+    },
+    {
+      "game_id": 14795,
+      "title": "Wii Club Sport",
+      "console": "Wii U",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 14797,
+      "title": "Wii Fit U + Fit Meter",
+      "console": "Wii U",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14798,
+      "title": "Wii Party U",
+      "console": "Wii U",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14800,
+      "title": "Xenoblade Chronicles X",
+      "console": "Wii U",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 14803,
+      "title": "Zombi U",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
     }
   ],
   "availability_changes": [
@@ -257,6 +641,195 @@
       "console": "Xbox 360",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1558,
+      "title": "Kameo: Elements of Power",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1243,
+      "title": "Transformers: Dark Of The Moon",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14645,
+      "title": "007 Legends",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14658,
+      "title": "Barbie E Le Sue Sorelle: Salvataggio Cuccioli",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14671,
+      "title": "Croods, I : Festa Preistorica!",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14677,
+      "title": "Disney Infinity 2.0 Marvel Super Heroes Starter Pack",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14687,
+      "title": "FAST Racing Neo",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14700,
+      "title": "Just Dance 2016",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14704,
+      "title": "Just Dance 4",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14711,
+      "title": "Legend of Zelda: Twilight Princess HD",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14727,
+      "title": "Mario Party 10",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14728,
+      "title": "Mario Tennis Ultra Smash",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14736,
+      "title": "Monster Hunter Ultimate 3",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14741,
+      "title": "New Super Mario Bros. U & Super Luigi U",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14745,
+      "title": "Pac Man E Le Avventure Mostruose",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14749,
+      "title": "Pikmin 3",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14759,
+      "title": "Scribblenauts Unlimited",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14770,
+      "title": "Sonic Boom: Rise Of Lyric",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14779,
+      "title": "Steam World Collection",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14795,
+      "title": "Wii Club Sport",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14799,
+      "title": "Wonderful 101",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
