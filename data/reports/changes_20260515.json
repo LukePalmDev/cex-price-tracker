@@ -1,0 +1,1054 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-15T02:45:14.993566",
+    "date": "2026-05-15",
+    "duration_sec": 31.0,
+    "total_scraped": 2580
+  },
+  "summary": {
+    "new_games": 0,
+    "price_changes": 123,
+    "availability_changes": 3,
+    "unchanged": 2454,
+    "errors": 0
+  },
+  "new_games": [],
+  "price_changes": [
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 1824,
+      "title": "8 To Glory",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1828,
+      "title": "A.O.T 2 Final Battle",
+      "console": "Xbox One",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 1843,
+      "title": "Ark Survival Evolved",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 1848,
+      "title": "Assassin's Creed III/3 Remastered",
+      "console": "Xbox One",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 1852,
+      "title": "Assassin's Creed Origins + Odyssey Double Pack (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 1854,
+      "title": "Assassin's Creed Rogue Remastered",
+      "console": "Xbox One",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 17644,
+      "title": "Atari Flashback Collections Vol 1",
+      "console": "Xbox One",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 1869,
+      "title": "Batman, The Telltale Series: Il Nemico E In Mezzo A Noi (Episode 1 Only)",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 1870,
+      "title": "Batman: Return To Arkham (2 Disc)",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1892,
+      "title": "Bloodstained: Ritual of the Night",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 1898,
+      "title": "Call Of Cthulhu",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1900,
+      "title": "Call Of Duty Ghosts",
+      "console": "Xbox One",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 1906,
+      "title": "Call Of Duty: Infinite Warfare - Legacy Edition",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1908,
+      "title": "Call of Duty: Vanguard (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 1912,
+      "title": "Carmageddon: Max Damage",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 1913,
+      "title": "Carnival Games",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1917,
+      "title": "Code Vein",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1922,
+      "title": "Council, The",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1924,
+      "title": "Crash Bandicoot 4: It's About Time",
+      "console": "Xbox One",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 1926,
+      "title": "Crash Team Racing Nitro-Fueled (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 1927,
+      "title": "Crayola Scoot",
+      "console": "Xbox One",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 7220,
+      "title": "Cuphead",
+      "console": "Xbox One",
+      "new_price": 30,
+      "old_price": 35.0,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 1937,
+      "title": "Dark Souls II",
+      "console": "Xbox One",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 1944,
+      "title": "Darksiders Genesis",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1945,
+      "title": "Darksiders III",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1951,
+      "title": "Dead or Alive 5: Last Round",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1955,
+      "title": "Deadlight: Directors Cut",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 1956,
+      "title": "Deadpool",
+      "console": "Xbox One",
+      "new_price": 80,
+      "old_price": 75.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 1965,
+      "title": "Devil May Cry HD Collection",
+      "console": "Xbox One",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 1968,
+      "title": "Diablo III: Eternal Collection (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1969,
+      "title": "Dirt 4",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 1995,
+      "title": "Dragonball Xenoverse 2",
+      "console": "Xbox One",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 2009,
+      "title": "Escapists 2, The",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2011,
+      "title": "Evil Within, The",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2022,
+      "title": "Fallout 4",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2025,
+      "title": "Far Cry 3 Classic Edition",
+      "console": "Xbox One",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2035,
+      "title": "Farming Simulator 19",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2038,
+      "title": "Fia European Truck Racing Championship",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2039,
+      "title": "FIFA 14",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2052,
+      "title": "Final Fantasy XV",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2057,
+      "title": "Forza Horizon 2",
+      "console": "Xbox One",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 2071,
+      "title": "Ghost Recon: Wildlands (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2076,
+      "title": "Golf Club 2019",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2081,
+      "title": "Grid (2019)",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2084,
+      "title": "Halo 5 Guardians",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2091,
+      "title": "Hitman Definitive Edition (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2093,
+      "title": "Hogwarts Legacy",
+      "console": "Xbox One",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2113,
+      "title": "Jurassic World Evolution",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2117,
+      "title": "Just Dance 2014",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2124,
+      "title": "Just Dance 2021",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2128,
+      "title": "Ken Follett?s The Pillars of the Earth",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2135,
+      "title": "Kingdom Hearts III/3",
+      "console": "Xbox One",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2146,
+      "title": "LEGO Harry Potter Collection",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2163,
+      "title": "Life is Strange: True Colors",
+      "console": "Xbox One",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2185,
+      "title": "Megaman 11",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2190,
+      "title": "Metro Exodus (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2199,
+      "title": "Monopoly Madness",
+      "console": "Xbox One",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2208,
+      "title": "Monster Jam Steel Titans 2",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2212,
+      "title": "Mortal Kombat XL",
+      "console": "Xbox One",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2234,
+      "title": "My Hero One's Justice",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2251,
+      "title": "NBA 2K23 (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2252,
+      "title": "NBA 2K25",
+      "console": "Xbox One",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2259,
+      "title": "Need For Speed (NFS) Heat",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2260,
+      "title": "Need for Speed Payback",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2261,
+      "title": "Need For Speed Rivals",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2270,
+      "title": "Northgard Signature Ed. w/Artbook, Postcard, 2 Pins, CoA & OST",
+      "console": "Xbox One",
+      "new_price": 40,
+      "old_price": 45.0,
+      "variation_pct": -11.11
+    },
+    {
+      "game_id": 2278,
+      "title": "Outcast: Second Contact",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2279,
+      "title": "Outer Worlds, The",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2285,
+      "title": "Overpass",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2292,
+      "title": "Pillars of Eternity II: Deadfire",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2301,
+      "title": "Prison Architect",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2308,
+      "title": "Professional Farmer 17",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2311,
+      "title": "Project Cars 3",
+      "console": "Xbox One",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2315,
+      "title": "Puffi Missione Vilfoglia, I",
+      "console": "Xbox One",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2318,
+      "title": "Quarry, The",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2336,
+      "title": "Resident Evil 2",
+      "console": "Xbox One",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 2364,
+      "title": "Rust",
+      "console": "Xbox One",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2365,
+      "title": "Ryse: Son Of Rome",
+      "console": "Xbox One",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2367,
+      "title": "Saints Row The Third Remastered",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2368,
+      "title": "Samurai Shodown",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2384,
+      "title": "Sid Meier's: Civilization VI",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2385,
+      "title": "Sims 4 Plus Cani & Gatti, The",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2404,
+      "title": "Song Of The Deep",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2407,
+      "title": "Sonic Mania Plus",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2408,
+      "title": "Soul Calibur VI",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2411,
+      "title": "Spike Volleyball",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2420,
+      "title": "State Of Decay: Year-One Survival Edition",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 17607,
+      "title": "Steep Winter Game 2018",
+      "console": "Xbox One",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2427,
+      "title": "Styx Shards of Darkness",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2429,
+      "title": "Sunset Overdrive",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2437,
+      "title": "Sword Art Online - Alicization Lycoris",
+      "console": "Xbox One",
+      "new_price": 30,
+      "old_price": 35.0,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 2439,
+      "title": "Syberia 3",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2445,
+      "title": "Technomancer, The",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2447,
+      "title": "Tekken 7 (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2450,
+      "title": "Tennis World Tour 2",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2455,
+      "title": "Terra Di Mezzo: L'Ombra Di Mordor Game Of The Year Edition",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2462,
+      "title": "Tiny Tina's Wonderlands (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2465,
+      "title": "Tomb Raider: Definitive Edition",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2467,
+      "title": "Tony Hawk's Pro Skater 5",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2472,
+      "title": "Tour de France 2018",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2473,
+      "title": "Town Of Light, The",
+      "console": "Xbox One",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2477,
+      "title": "Transformers Devastation",
+      "console": "Xbox One",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2494,
+      "title": "Valkyria Revolution",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2513,
+      "title": "Watch Dogs - Vigilante Ed. w/Cap, Mask & OST (No DLC)",
+      "console": "Xbox One",
+      "new_price": 60,
+      "old_price": 65.0,
+      "variation_pct": -7.69
+    },
+    {
+      "game_id": 2516,
+      "title": "Way Out, A",
+      "console": "Xbox One",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 2517,
+      "title": "Werewolf: The Apocalypse - Earthblood",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2522,
+      "title": "Wolfenstein - The Old Blood",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2526,
+      "title": "Wolfenstein: Youngblood (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2529,
+      "title": "Worms Battlegrounds",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2533,
+      "title": "WRC 6 (World Rally Championship)",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2545,
+      "title": "WWE 2K22 (Senza DLC)",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2548,
+      "title": "Xenon Racer",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2550,
+      "title": "Xuan Yuan Sword 7",
+      "console": "Xbox One",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2555,
+      "title": "Yum Yum Cookstar",
+      "console": "Xbox One",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    }
+  ],
+  "availability_changes": [
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 871,
+      "title": "Hasbro Family Party 3",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
+  "errors": []
+}
