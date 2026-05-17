@@ -1,18 +1,55 @@
 {
   "metadata": {
-    "generated_at": "2026-05-17T02:42:20.671156",
+    "generated_at": "2026-05-17T08:24:14.421987",
     "date": "2026-05-17",
-    "duration_sec": 11.2,
-    "total_scraped": 2581
+    "duration_sec": 13.6,
+    "total_scraped": 6615
   },
   "summary": {
-    "new_games": 0,
-    "price_changes": 9,
-    "availability_changes": 3,
-    "unchanged": 2569,
+    "new_games": 6,
+    "price_changes": 114,
+    "availability_changes": 106,
+    "unchanged": 6389,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 17708,
+      "title": "Dragon Ball Z Budokai",
+      "console": "GameCube",
+      "price": 20
+    },
+    {
+      "game_id": 17709,
+      "title": "Fritz By Chessbase",
+      "console": "Wii",
+      "price": 4
+    },
+    {
+      "game_id": 17710,
+      "title": "Jumper: Griffin's Story",
+      "console": "Wii",
+      "price": 2.5
+    },
+    {
+      "game_id": 17711,
+      "title": "Just Dance",
+      "console": "Wii",
+      "price": 4
+    },
+    {
+      "game_id": 17712,
+      "title": "My Horse & Me",
+      "console": "Wii",
+      "price": 2
+    },
+    {
+      "game_id": 17713,
+      "title": "My Horse Club",
+      "console": "Wii",
+      "price": 4
+    }
+  ],
   "price_changes": [
     {
       "game_id": 951,
@@ -85,6 +122,846 @@
       "new_price": 3,
       "old_price": 5.0,
       "variation_pct": -40.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 13566,
+      "title": "Star Fox Assault",
+      "console": "GameCube",
+      "new_price": 70,
+      "old_price": 55.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 13572,
+      "title": "Starfox Adventures w/Manual",
+      "console": "GameCube",
+      "new_price": 35,
+      "old_price": 28.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13631,
+      "title": "Animal Crossing: Let's Go to the City",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13632,
+      "title": "Another Code: R - Viaggio Confine Memor",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13634,
+      "title": "Arthur: La Vendetta Di Maltazard",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13647,
+      "title": "Battalion Wars 2",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13654,
+      "title": "Ben 10 Omniverse",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13662,
+      "title": "Big Beach Sports 2",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14283,
+      "title": "Call of Duty 3",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13690,
+      "title": "Call Of Duty: Modern Warfare 3",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14285,
+      "title": "Call Of Duty: Modern Warfare Reflex",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13694,
+      "title": "Cars 2",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13714,
+      "title": "Colin McRae Dirt 2",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13720,
+      "title": "Cosmic Family",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13721,
+      "title": "Crash - Il Dominio Sui Mutanti",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13737,
+      "title": "De Blob 2",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13738,
+      "title": "Dead Rising Salme Di Fine Stagione",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13743,
+      "title": "Disney Epic Mickey: La Leggendaria Sfida Di Topolino",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13759,
+      "title": "Donkey Kong Jungle Beat",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 13761,
+      "title": "Dragon Ball Z Budokai Tenkaichi 3",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 13773,
+      "title": "Excite Truck",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13780,
+      "title": "Family Ski",
+      "console": "Wii",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 13798,
+      "title": "FIFA 14",
+      "console": "Wii",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 13799,
+      "title": "FIFA 15",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 13803,
+      "title": "Flingsmash (Game Only)",
+      "console": "Wii",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 13810,
+      "title": "Games Island",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13812,
+      "title": "Gatto Con Gli Stivali, Il",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13819,
+      "title": "Giulia Passione Sfilate",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13820,
+      "title": "Go Vacation",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13825,
+      "title": "Grease - Il Videogioco",
+      "console": "Wii",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 13826,
+      "title": "Great Party Games",
+      "console": "Wii",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 13835,
+      "title": "Hannah Montana: Spotlight World Tour",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13837,
+      "title": "Harry Potter e i doni della morte",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14382,
+      "title": "Harvest Moon Magical Melody",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14390,
+      "title": "Hello Kitty, Seasons",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13845,
+      "title": "Horsez - La Scuderia Nella Valle",
+      "console": "Wii",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 13847,
+      "title": "House Of The Dead Overkill (18)",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13851,
+      "title": "Inazuma Eleven Strikers",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13861,
+      "title": "Just Dance 2016",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 13862,
+      "title": "Just Dance 2017",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 14413,
+      "title": "Just Dance 2020",
+      "console": "Wii",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13866,
+      "title": "Just Dance 3",
+      "console": "Wii",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 13867,
+      "title": "Just Dance 4",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13876,
+      "title": "Kung Fu Panda - Legendary Warrior",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13883,
+      "title": "Legend of Sayuki",
+      "console": "Wii",
+      "new_price": 40,
+      "old_price": 42.0,
+      "variation_pct": -4.76
+    },
+    {
+      "game_id": 13886,
+      "title": "Legend of Zelda: Twilight Princess",
+      "console": "Wii",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13899,
+      "title": "Let's Sing 2017",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 3.5,
+      "variation_pct": 42.86
+    },
+    {
+      "game_id": 13906,
+      "title": "Madagascar 2 Escape 2 Africa",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13910,
+      "title": "Madworld (18)",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13914,
+      "title": "Mario & Sonic Ai Giochi Olimpici Di Londra 2012",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13918,
+      "title": "Mario Party 8",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13920,
+      "title": "Mario Power Tennis",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13921,
+      "title": "Mario Sports Mix",
+      "console": "Wii",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 13922,
+      "title": "Mario Strikers Charged Football",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14455,
+      "title": "Metroid: Other M",
+      "console": "Wii",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13938,
+      "title": "Monster High: 13 Desideri",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13943,
+      "title": "More Game Party",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 3.5,
+      "variation_pct": 42.86
+    },
+    {
+      "game_id": 13969,
+      "title": "NBA 2K13",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13983,
+      "title": "New Super Mario Bros",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 14007,
+      "title": "Pikmin 2",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 14014,
+      "title": "Playzone Circus Party",
+      "console": "Wii",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 14508,
+      "title": "Pokepark Wii: La Grande Avventura Di Pikachu",
+      "console": "Wii",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 14018,
+      "title": "Pool Party",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14022,
+      "title": "Prince of Persia Le Sabbie Dimenticate",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14023,
+      "title": "Principessa E Il Ranocchio Disney",
+      "console": "Wii",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 14026,
+      "title": "Pro Evolution Soccer (PES) 2012",
+      "console": "Wii",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 14033,
+      "title": "Professione Veterinario",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14046,
+      "title": "Rapala Trophies Fishing",
+      "console": "Wii",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14050,
+      "title": "Raving Rabbids: Travel In Time",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14066,
+      "title": "Rock Band",
+      "console": "Wii",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 14067,
+      "title": "Rogue Trooper",
+      "console": "Wii",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 14069,
+      "title": "Samba De Amigo",
+      "console": "Wii",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14072,
+      "title": "Scatena La Festa - Vinca Il Migliore",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14082,
+      "title": "SimAnimals",
+      "console": "Wii",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 14083,
+      "title": "Simpsons il videogioco, I",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14096,
+      "title": "Sonic e il cavaliere nero",
+      "console": "Wii",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 14098,
+      "title": "Sonic Unleashed",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 14576,
+      "title": "Spectrobes Origins",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14102,
+      "title": "Speed Racer",
+      "console": "Wii",
+      "new_price": 3.5,
+      "old_price": 2.5,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 14109,
+      "title": "Sports Island",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14125,
+      "title": "Super Mario Galaxy",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 14126,
+      "title": "Super Mario Galaxy 2",
+      "console": "Wii",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 14129,
+      "title": "Super Paper Mario",
+      "console": "Wii",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 14152,
+      "title": "Toy Story 3",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14155,
+      "title": "transformers 3",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 14186,
+      "title": "Western Heroes (Game Only)",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14192,
+      "title": "Wii Music",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14193,
+      "title": "Wii Party",
+      "console": "Wii",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 14195,
+      "title": "Wii scacchi",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14196,
+      "title": "Wii Sports",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 14198,
+      "title": "Wii Sports/Sports Resort (Cardboard Sleeve)",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 14199,
+      "title": "Wild Earth - African Safari",
+      "console": "Wii",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 14412,
+      "title": "Just Dance 2015",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 14436,
+      "title": "Littlest Pet Shop",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 14118,
+      "title": "Star Wars: The Force Unleashed",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 14776,
+      "title": "Star Fox Guard",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 4.0,
+      "variation_pct": 100.0
     }
   ],
   "availability_changes": [
@@ -136,6 +1013,776 @@
       "console": "Xbox One",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 17699,
+      "title": "Dead To Rights",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13418,
+      "title": "Enter The Matrix",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13429,
+      "title": "FIFA Street",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13495,
+      "title": "Mortal Kombat Deadly Alliance",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13529,
+      "title": "Resident Evil",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13532,
+      "title": "Resident Evil 4",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13565,
+      "title": "SSX Tricky",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13571,
+      "title": "Star Wars: La Guerra Dei Cloni",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14229,
+      "title": "Abba: You Can Dance",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14240,
+      "title": "All Stars Cheerleader 2",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14241,
+      "title": "Alvin Superstar 2",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14245,
+      "title": "Anno: Create A New World",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14247,
+      "title": "Aqua Panic",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13638,
+      "title": "Avatar - il Gioco",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14253,
+      "title": "Avventure Di Tin Tin",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13671,
+      "title": "Bolt",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14284,
+      "title": "Call of Duty World At War",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14290,
+      "title": "Cattivissimo Me",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14292,
+      "title": "Chicken Riot",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14297,
+      "title": "Circus",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13720,
+      "title": "Cosmic Family",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14314,
+      "title": "Dancing Stage: Hottest Party (Solo Gioco)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14315,
+      "title": "Dead Space Extraction",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14320,
+      "title": "Disney Infinity Starter Pack",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14328,
+      "title": "Donkey Kong Jet Race",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14330,
+      "title": "Dragon Blade: Wrath Of Fire",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13778,
+      "title": "Family Party",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13795,
+      "title": "Fifa 11",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14353,
+      "title": "Flatout",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14365,
+      "title": "Glee Vol.2 Karaoke Revolution",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14379,
+      "title": "Happy Feet",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14385,
+      "title": "Hasbro Family Party 3",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14388,
+      "title": "Heatseeker",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14392,
+      "title": "High School Musical Sing It with Mic",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13847,
+      "title": "House Of The Dead Overkill (18)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13856,
+      "title": "James Bond Golden Eye 007",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14409,
+      "title": "Jungle Kartz",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14411,
+      "title": "Just Dance 2009",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14414,
+      "title": "Just Dance Kids 2014",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14419,
+      "title": "Kung Fu Panda",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13878,
+      "title": "L'Era Glaciale 4 Giochi Polari",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14427,
+      "title": "Legend Of Spyro - Dawn Of The Dragon",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14433,
+      "title": "Let's Sing 2015",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14443,
+      "title": "Madden NFL 08",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14453,
+      "title": "Mercury Meltdown Revolution",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14461,
+      "title": "Monster Hunter 3 Tri",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14465,
+      "title": "Monster Trucks",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14474,
+      "title": "My Body Coach 2 (Without Dumbells)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14480,
+      "title": "NCIS",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13982,
+      "title": "Nerf N-Strike (Only Game)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14522,
+      "title": "Reel Fishing: Anglers Dream",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14536,
+      "title": "Rygar - The Battle of Argus",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14550,
+      "title": "Sega Bass Fishing",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14077,
+      "title": "Sega Superstars Tennis",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14556,
+      "title": "Shrek Forever After",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14084,
+      "title": "Sims 2 Island",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14564,
+      "title": "Skylanders Giants Starter Pack",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14587,
+      "title": "Squeeballs Party",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14589,
+      "title": "Street Football 2",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14593,
+      "title": "Super Heroes Grandmaster's Challenge 3D",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14124,
+      "title": "Super Mario All Stars",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14127,
+      "title": "Super Monkey Ball Banana Blitz",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14595,
+      "title": "Super Swing Golf",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14599,
+      "title": "Thor Il Dio Del Tuono",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14600,
+      "title": "Tiger Woods PGA Tour 07",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14607,
+      "title": "Tornado Outbreak",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14179,
+      "title": "Wario Land The Shake Dimension",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14626,
+      "title": "Western Heroes + Gun",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14644,
+      "title": "Zhu Zhu Pets Collector Wii (Include Un Pet)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14243,
+      "title": "Amf Bowling Pinbusters",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13643,
+      "title": "Barbie - Principessa Dell'Isola Perduta",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13683,
+      "title": "Cabela's Big Game Hunter 2010 + Fucile",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13763,
+      "title": "Dreamworks Super Star Kartz",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13823,
+      "title": "Grand Slam Tennis",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14376,
+      "title": "Guitar Hero Metallica",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13831,
+      "title": "Guitar Hero World Tour - Solo",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13842,
+      "title": "Hip-Hop Dance Experience",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14393,
+      "title": "Hot Wheels: Beat the Track",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13896,
+      "title": "Let's Dance With Mel B.",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13901,
+      "title": "Let's Tap",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13930,
+      "title": "Michael Jackson: The Experience",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13948,
+      "title": "My Animal Centre",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13977,
+      "title": "Need For Speed Undercover",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14505,
+      "title": "Playmobil Circus",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14034,
+      "title": "Project Zero 2",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14036,
+      "title": "Puppy Luv Il Tuo Nuovo Amico",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14039,
+      "title": "Racket Sports Party",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14518,
+      "title": "Rally Racer",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14106,
+      "title": "Spongebob La Vendetta Di Plankton",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14112,
+      "title": "Spyborgs",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14116,
+      "title": "Star Wars: Potere Della Forza 2",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14118,
+      "title": "Star Wars: The Force Unleashed",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14135,
+      "title": "Tatsunoko Vs Capcom: Ultimate All Stars",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14142,
+      "title": "Tiger Woods PGA Tour 10",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14605,
+      "title": "Tom Clancy's Splinter Cell Double Agent",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14606,
+      "title": "Tomb Raider Underworld",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14611,
+      "title": "Transformers: Dark Of The Moon SF ED",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14159,
+      "title": "Trauma Center: New Blood",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14165,
+      "title": "uDraw E Sei Subito Artista!",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14171,
+      "title": "Veterinario Cuccioli In Pericolo",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14223,
+      "title": "Zumba Fitness : World Party w/ Belt",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 14647,
+      "title": "Adventure Time Finn & Jake Investigation",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14650,
+      "title": "Angry Birds Star Wars",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 14714,
+      "title": "LEGO Batman 3",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
