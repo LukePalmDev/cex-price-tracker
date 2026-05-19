@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-05-19T02:49:25.253147",
+    "exported_at": "2026-05-19T09:50:31.234240",
     "total_games": 17713,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-05-19",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 9,
-        "availability_changes": 2,
-        "unchanged": 2570,
+        "price_changes": 18,
+        "availability_changes": 4,
+        "unchanged": 5140,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-05-19",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 9,
-      "availability_changes": 2,
-      "unchanged": 2570,
+      "price_changes": 18,
+      "availability_changes": 4,
+      "unchanged": 5140,
       "errors": 0
     }
   },
@@ -520205,6 +520205,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-05-19 09:50:25"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-05-19 09:50:25"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-05-19 02:49:20"
         },
         {
@@ -521381,16 +521391,6 @@
           "old_price": 4.0,
           "new_price": 5.0,
           "changed_at": "2026-04-19 12:55:49"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 4.0,
-          "changed_at": "2026-04-19 07:23:59"
-        },
-        {
-          "old_price": 4.0,
-          "new_price": 5.0,
-          "changed_at": "2026-04-19 07:23:59"
         }
       ],
       "price_trend_pct": -20.0
@@ -525994,6 +525994,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
@@ -527174,6 +527175,7 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Milano Viale Tunisia",
+        "Gran Roma",
         "La Romanina",
         "The Wow Side"
       ],
@@ -533220,6 +533222,16 @@
         {
           "old_price": 18.0,
           "new_price": 25.0,
+          "changed_at": "2026-05-19 09:50:26"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
+          "changed_at": "2026-05-19 09:50:26"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
           "changed_at": "2026-05-19 02:49:20"
         },
         {
@@ -534396,16 +534408,6 @@
           "old_price": 18.0,
           "new_price": 25.0,
           "changed_at": "2026-04-19 12:55:49"
-        },
-        {
-          "old_price": 25.0,
-          "new_price": 18.0,
-          "changed_at": "2026-04-19 07:24:00"
-        },
-        {
-          "old_price": 18.0,
-          "new_price": 25.0,
-          "changed_at": "2026-04-19 07:23:59"
         }
       ],
       "price_trend_pct": 38.89
@@ -536138,6 +536140,21 @@
         {
           "old_price": 3.0,
           "new_price": 2.0,
+          "changed_at": "2026-05-19 09:50:26"
+        },
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-05-19 09:50:26"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 3.0,
+          "changed_at": "2026-05-19 09:50:26"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 2.0,
           "changed_at": "2026-05-19 02:49:20"
         },
         {
@@ -537904,21 +537921,6 @@
           "old_price": 1.5,
           "new_price": 2.0,
           "changed_at": "2026-04-19 12:55:49"
-        },
-        {
-          "old_price": 2.0,
-          "new_price": 3.0,
-          "changed_at": "2026-04-19 07:24:00"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 1.5,
-          "changed_at": "2026-04-19 07:23:59"
-        },
-        {
-          "old_price": 1.5,
-          "new_price": 2.0,
-          "changed_at": "2026-04-19 07:23:59"
         }
       ],
       "price_trend_pct": -33.33
@@ -543279,6 +543281,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-05-19 09:50:26"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-05-19 09:50:26"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-05-19 02:49:21"
         },
         {
@@ -544455,16 +544467,6 @@
           "old_price": 5.0,
           "new_price": 3.0,
           "changed_at": "2026-04-19 12:55:50"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 5.0,
-          "changed_at": "2026-04-19 07:24:00"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 3.0,
-          "changed_at": "2026-04-19 07:24:00"
         }
       ],
       "price_trend_pct": 66.67
