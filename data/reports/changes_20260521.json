@@ -1,18 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-05-21T02:52:54.486059",
+    "generated_at": "2026-05-21T09:46:28.894905",
     "date": "2026-05-21",
-    "duration_sec": 11.0,
-    "total_scraped": 2581
+    "duration_sec": 15.0,
+    "total_scraped": 7270
   },
   "summary": {
-    "new_games": 0,
-    "price_changes": 9,
-    "availability_changes": 2,
-    "unchanged": 2570,
+    "new_games": 3,
+    "price_changes": 36,
+    "availability_changes": 13,
+    "unchanged": 7218,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 17730,
+      "title": "Greak: Memories of Azur",
+      "console": "Xbox Series",
+      "price": 22
+    },
+    {
+      "game_id": 17731,
+      "title": "Precinct, The",
+      "console": "Xbox Series",
+      "price": 25
+    },
+    {
+      "game_id": 17732,
+      "title": "South Park: Snow Day",
+      "console": "Xbox Series",
+      "price": 25
+    }
+  ],
   "price_changes": [
     {
       "game_id": 951,
@@ -85,6 +104,222 @@
       "new_price": 3,
       "old_price": 5.0,
       "variation_pct": -40.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 2.5,
+      "old_price": 1.0,
+      "variation_pct": 150.0
+    },
+    {
+      "game_id": 8705,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 8705,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 7805,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 1,
+      "old_price": 2.5,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 20,
+      "old_price": 28.0,
+      "variation_pct": -28.57
+    },
+    {
+      "game_id": 7337,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 28,
+      "old_price": 20.0,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 6.0,
+      "variation_pct": 316.67
+    },
+    {
+      "game_id": 8464,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 25.0,
+      "variation_pct": -76.0
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 32,
+      "old_price": 6.0,
+      "variation_pct": 433.33
+    },
+    {
+      "game_id": 8695,
+      "title": "Manhunt",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 32.0,
+      "variation_pct": -81.25
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 8858,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 15.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 2.0,
+      "variation_pct": 200.0
+    },
+    {
+      "game_id": 8102,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "new_price": 2,
+      "old_price": 6.0,
+      "variation_pct": -66.67
     }
   ],
   "availability_changes": [
@@ -127,6 +362,139 @@
       "game_id": 1203,
       "title": "Table Tennis",
       "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2008,
+      "title": "Elex",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2725,
+      "title": "Alan Wake ll: Deluxe Edition (Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2775,
+      "title": "Immortals Of Aveum",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2783,
+      "title": "Life is Strange: Double Exposure",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2784,
+      "title": "Like a Dragon: Infinite Wealth",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2842,
+      "title": "Tiny Tina's Wonderlands (Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2850,
+      "title": "Vision of Mana",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7282,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7943,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7962,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
