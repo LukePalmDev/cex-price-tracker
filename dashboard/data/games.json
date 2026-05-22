@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "exported_at": "2026-05-22T02:53:10.910028",
+    "exported_at": "2026-05-22T09:31:02.122298",
     "total_games": 17733,
     "version": "1.0",
     "statistics": {
@@ -29,9 +29,9 @@
       "last_update": "2026-05-22",
       "daily_summary": {
         "new_games": 1,
-        "price_changes": 9,
-        "availability_changes": 10,
-        "unchanged": 2818,
+        "price_changes": 18,
+        "availability_changes": 12,
+        "unchanged": 5388,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-05-22",
     "daily_summary": {
       "new_games": 1,
-      "price_changes": 9,
-      "availability_changes": 10,
-      "unchanged": 2818,
+      "price_changes": 18,
+      "availability_changes": 12,
+      "unchanged": 5388,
       "errors": 0
     }
   },
@@ -485293,6 +485293,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
@@ -503501,8 +503502,8 @@
       "image_url": null,
       "cash_price": 4.0,
       "exchange_price": 7.0,
-      "ecom_quantity": 16,
-      "collection_quantity": 16,
+      "ecom_quantity": 15,
+      "collection_quantity": 15,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -506147,8 +506148,8 @@
       "image_url": null,
       "cash_price": 0.7,
       "exchange_price": 1.2,
-      "ecom_quantity": 6,
-      "collection_quantity": 6,
+      "ecom_quantity": 5,
+      "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -506208,8 +506209,8 @@
       "image_url": null,
       "cash_price": 0.7,
       "exchange_price": 1.2,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 6,
+      "collection_quantity": 6,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -506330,14 +506331,15 @@
       "image_url": null,
       "cash_price": 3.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 3,
-      "collection_quantity": 3,
+      "ecom_quantity": 2,
+      "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Gran Roma",
         "The Wow Side"
       ],
@@ -507227,8 +507229,8 @@
       "image_url": null,
       "cash_price": 1.5,
       "exchange_price": 2.0,
-      "ecom_quantity": 3,
-      "collection_quantity": 3,
+      "ecom_quantity": 4,
+      "collection_quantity": 4,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -509895,8 +509897,8 @@
       "image_url": null,
       "cash_price": 0.9,
       "exchange_price": 1.4,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 4,
+      "collection_quantity": 4,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -510979,10 +510981,11 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 4,
+      "collection_quantity": 4,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
@@ -513214,14 +513217,13 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 12,
-      "collection_quantity": 12,
+      "ecom_quantity": 13,
+      "collection_quantity": 13,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
-        "Gran Roma",
-        "La Romanina"
+        "Gran Roma"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -515642,8 +515644,8 @@
       "image_url": null,
       "cash_price": 1.8,
       "exchange_price": 3.0,
-      "ecom_quantity": 4,
-      "collection_quantity": 4,
+      "ecom_quantity": 3,
+      "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -518809,6 +518811,16 @@
         {
           "old_price": 5.0,
           "new_price": 4.0,
+          "changed_at": "2026-05-22 09:30:56"
+        },
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-05-22 09:30:56"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
           "changed_at": "2026-05-22 02:53:04"
         },
         {
@@ -519985,16 +519997,6 @@
           "old_price": 4.0,
           "new_price": 5.0,
           "changed_at": "2026-04-22 13:20:27"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 4.0,
-          "changed_at": "2026-04-22 07:53:22"
-        },
-        {
-          "old_price": 4.0,
-          "new_price": 5.0,
-          "changed_at": "2026-04-22 07:53:22"
         }
       ],
       "price_trend_pct": -20.0
@@ -522708,8 +522710,8 @@
       "image_url": null,
       "cash_price": 1.0,
       "exchange_price": 1.6,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 2,
+      "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -522718,7 +522720,6 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
-        "La Romanina",
         "The Wow Side"
       ],
       "price_history_30d": [],
@@ -531818,6 +531819,16 @@
         {
           "old_price": 25.0,
           "new_price": 18.0,
+          "changed_at": "2026-05-22 09:30:57"
+        },
+        {
+          "old_price": 18.0,
+          "new_price": 25.0,
+          "changed_at": "2026-05-22 09:30:56"
+        },
+        {
+          "old_price": 25.0,
+          "new_price": 18.0,
           "changed_at": "2026-05-22 02:53:05"
         },
         {
@@ -532994,16 +533005,6 @@
           "old_price": 25.0,
           "new_price": 18.0,
           "changed_at": "2026-04-22 13:20:28"
-        },
-        {
-          "old_price": 25.0,
-          "new_price": 18.0,
-          "changed_at": "2026-04-22 07:53:23"
-        },
-        {
-          "old_price": 18.0,
-          "new_price": 25.0,
-          "changed_at": "2026-04-22 07:53:22"
         }
       ],
       "price_trend_pct": -28.0
@@ -534738,6 +534739,21 @@
         {
           "old_price": 2.0,
           "new_price": 1.5,
+          "changed_at": "2026-05-22 09:30:57"
+        },
+        {
+          "old_price": 1.5,
+          "new_price": 3.0,
+          "changed_at": "2026-05-22 09:30:57"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 2.0,
+          "changed_at": "2026-05-22 09:30:56"
+        },
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
           "changed_at": "2026-05-22 02:53:05"
         },
         {
@@ -536504,21 +536520,6 @@
           "old_price": 1.5,
           "new_price": 3.0,
           "changed_at": "2026-04-22 13:20:28"
-        },
-        {
-          "old_price": 2.0,
-          "new_price": 1.5,
-          "changed_at": "2026-04-22 07:53:23"
-        },
-        {
-          "old_price": 1.5,
-          "new_price": 3.0,
-          "changed_at": "2026-04-22 07:53:23"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 2.0,
-          "changed_at": "2026-04-22 07:53:22"
         }
       ],
       "price_trend_pct": -25.0
@@ -541875,6 +541876,16 @@
         {
           "old_price": 3.0,
           "new_price": 5.0,
+          "changed_at": "2026-05-22 09:30:57"
+        },
+        {
+          "old_price": 5.0,
+          "new_price": 3.0,
+          "changed_at": "2026-05-22 09:30:57"
+        },
+        {
+          "old_price": 3.0,
+          "new_price": 5.0,
           "changed_at": "2026-05-22 02:53:05"
         },
         {
@@ -543051,16 +543062,6 @@
           "old_price": 5.0,
           "new_price": 3.0,
           "changed_at": "2026-04-22 13:20:29"
-        },
-        {
-          "old_price": 3.0,
-          "new_price": 5.0,
-          "changed_at": "2026-04-22 07:53:23"
-        },
-        {
-          "old_price": 5.0,
-          "new_price": 3.0,
-          "changed_at": "2026-04-22 07:53:23"
         }
       ],
       "price_trend_pct": 66.67
@@ -551705,8 +551706,8 @@
       "image_url": null,
       "cash_price": 6.0,
       "exchange_price": 8.0,
-      "ecom_quantity": 13,
-      "collection_quantity": 13,
+      "ecom_quantity": 14,
+      "collection_quantity": 14,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -555560,8 +555561,8 @@
       "image_url": null,
       "cash_price": 0.01,
       "exchange_price": 0.1,
-      "ecom_quantity": 42,
-      "collection_quantity": 42,
+      "ecom_quantity": 41,
+      "collection_quantity": 41,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -555951,15 +555952,14 @@
       "image_url": null,
       "cash_price": 2.0,
       "exchange_price": 2.0,
-      "ecom_quantity": 14,
-      "collection_quantity": 14,
+      "ecom_quantity": 15,
+      "collection_quantity": 15,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Milano Viale Tunisia",
-        "Gran Roma",
-        "The Wow Side"
+        "Gran Roma"
       ],
       "price_history_30d": [],
       "price_trend_pct": null
@@ -557445,8 +557445,8 @@
       "image_url": null,
       "cash_price": 4.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 11,
-      "collection_quantity": 11,
+      "ecom_quantity": 12,
+      "collection_quantity": 12,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
