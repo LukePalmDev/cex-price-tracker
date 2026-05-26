@@ -637,11 +637,14 @@ class DatabaseManager:
             'daily_summary': daily_summary,
         }
         
+        exported_at = datetime.now().isoformat()
+        version_str = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
         data = {
             'metadata': {
-                'exported_at': datetime.now().isoformat(),
+                'exported_at': exported_at,
                 'total_games': len(enriched),
-                'version': '1.0',
+                'version': version_str,
                 'statistics': statistics
             },
             'statistics': statistics,
@@ -651,11 +654,25 @@ class DatabaseManager:
         output_file = Path(output_path)
         output_file.parent.mkdir(parents=True, exist_ok=True)
         
+        # Scrive games.json
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        
+            
+        # Scrive last_update.json per caching lato client (Miglioria 3)
+        last_update_file = output_file.parent / "last_update.json"
+        last_update_data = {
+            "version": version_str,
+            "exported_at": exported_at,
+            "total_games": len(enriched),
+            "statistics": statistics
+        }
+        with open(last_update_file, 'w', encoding='utf-8') as f:
+            json.dump(last_update_data, f, ensure_ascii=False, indent=2)
+            
         print(f"✅ Esportati {len(enriched)} giochi in {output_path}")
+        print(f"✅ Generato file di versione in {last_update_file}")
         return len(enriched)
+
 
 
 if __name__ == "__main__":

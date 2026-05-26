@@ -590,8 +590,9 @@ const CSS = v => getComputedStyle(document.documentElement).getPropertyValue(v).
 
 // ─── CONFIG ────────────────────────────────────────────────────────────────
 const RAW = 'https://raw.githubusercontent.com/LukePalmDev/cex-price-tracker/main';
-const GAMES_URL    = `${RAW}/dashboard/data/games.json`;
-const REPORTS_BASE = `${RAW}/data/reports`;
+const GAMES_URL       = `${RAW}/dashboard/data/games.json`;
+const LAST_UPDATE_URL = `${RAW}/dashboard/data/last_update.json`;
+const REPORTS_BASE    = `${RAW}/data/reports`;
 const PAGE_SIZE = 50;
 const API_PARAM = new URLSearchParams(window.location.search).get('api');
 const API_BASE = (API_PARAM || localStorage.getItem('cex-api-base') || '').trim().replace(/\/$/, '');
@@ -721,9 +722,25 @@ async function loadData(force = false) {
   document.getElementById('loading-msg').textContent = 'Caricamento dati da GitHub...';
 
   try {
-    const res = await fetch(GAMES_URL + '?t=' + Date.now());
+    let version = '';
+    let stats = {};
+    try {
+      const vRes = await fetch(LAST_UPDATE_URL + '?t=' + Date.now());
+      if (vRes.ok) {
+        const vData = await vRes.json();
+        version = vData.version || '';
+        stats = vData.statistics || {};
+      }
+    } catch (vErr) {
+      console.warn('Impossibile caricare i metadati di versione, fallback su caricamento completo:', vErr.message);
+    }
+
+    const fetchUrl = version ? `${GAMES_URL}?v=${version}` : `${GAMES_URL}?t=${Date.now()}`;
+    const res = await fetch(fetchUrl);
     const data = await res.json();
-    const stats = data.statistics || data.metadata?.statistics || {};
+    if (!stats || !stats.total_games) {
+      stats = data.statistics || data.metadata?.statistics || {};
+    }
     allGames = data.games || [];
 
     const localBeforeSync = wishlist.slice();
