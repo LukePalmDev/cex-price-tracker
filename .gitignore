@@ -42,7 +42,7 @@ config/secrets.json
 .env.local
 
 # Database locale (opzionale - commentare se vuoi versionare)
-# data/current/games.db
+data/current/games.db
 
 # Logs
 *.log

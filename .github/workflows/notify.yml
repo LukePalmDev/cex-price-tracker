@@ -28,6 +28,13 @@ jobs:
       - name: 📦 Install dependencies
         run: pip install requests
 
+      - name: 💾 Download current database
+        run: |
+          mkdir -p data/current
+          gh release download database -p "games.db" --clobber
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: 📤 Send Telegram notifications
         run: |
           cd notifications

@@ -11,6 +11,8 @@ on:
 jobs:
   monthly-backup:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: 📥 Checkout repository
@@ -22,6 +24,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: 💾 Download current database
+        run: |
+          mkdir -p data/current
+          gh release download database -p "games.db" --clobber
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 📸 Create monthly snapshot
         run: |
