@@ -1,0 +1,3785 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-26T02:46:00.345988",
+    "date": "2026-05-26",
+    "duration_sec": 16.3,
+    "total_scraped": 5331
+  },
+  "summary": {
+    "new_games": 18,
+    "price_changes": 316,
+    "availability_changes": 118,
+    "unchanged": 4879,
+    "errors": 0
+  },
+  "new_games": [
+    {
+      "game_id": 17741,
+      "title": "Blue Reflection: Second Light",
+      "console": "PS4",
+      "price": 38
+    },
+    {
+      "game_id": 17742,
+      "title": "Cry Babies Magic Tears The Big Game",
+      "console": "PS4",
+      "price": 20
+    },
+    {
+      "game_id": 17743,
+      "title": "Legend of Heroes, The : Trails through Daybreak, Deluxe Edition",
+      "console": "PS4",
+      "price": 40
+    },
+    {
+      "game_id": 17744,
+      "title": "My Little Pony: Un mistero di Cima di Zefiro",
+      "console": "PS4",
+      "price": 8
+    },
+    {
+      "game_id": 17745,
+      "title": "Puffi 2 Prigioniero Della Pietra Verde",
+      "console": "PS4",
+      "price": 18
+    },
+    {
+      "game_id": 17746,
+      "title": "Reynatis",
+      "console": "PS4",
+      "price": 30
+    },
+    {
+      "game_id": 17747,
+      "title": "Rock of Ages 3: Make & Break",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 17748,
+      "title": "Sairento (PSVR)",
+      "console": "PS4",
+      "price": 20
+    },
+    {
+      "game_id": 17749,
+      "title": "Sociable Soccer 25",
+      "console": "PS4",
+      "price": 12
+    },
+    {
+      "game_id": 17750,
+      "title": "Tales of Vesperia: Definitive Edition",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 17751,
+      "title": "The Knight Witch",
+      "console": "PS4",
+      "price": 18
+    },
+    {
+      "game_id": 17752,
+      "title": "Totally Spies! Cyber Mission",
+      "console": "PS4",
+      "price": 22
+    },
+    {
+      "game_id": 17753,
+      "title": "Visions of Mana",
+      "console": "PS4",
+      "price": 20
+    },
+    {
+      "game_id": 17754,
+      "title": "Apex Legends - Life Line Ed.",
+      "console": "PS4",
+      "price": 30
+    },
+    {
+      "game_id": 17755,
+      "title": "Raw Data (PSVR) (No DLC)",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 17756,
+      "title": "Train Sim World 3",
+      "console": "PS4",
+      "price": 22
+    },
+    {
+      "game_id": 17757,
+      "title": "Where the heart leads",
+      "console": "PS4",
+      "price": 20
+    },
+    {
+      "game_id": 17758,
+      "title": "007 First Light",
+      "console": "PS5",
+      "price": 65
+    }
+  ],
+  "price_changes": [
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 951,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 3.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 3.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 1819,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 10977,
+      "title": "7 Days to Die",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 10987,
+      "title": "AEW: Fight Forever",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10991,
+      "title": "Agents of Mayhem (Senza DLC)",
+      "console": "PS4",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 10992,
+      "title": "Agony",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10998,
+      "title": "Amazing Spider-Man 2, The",
+      "console": "PS4",
+      "new_price": 42,
+      "old_price": 40.0,
+      "variation_pct": 5.0
+    },
+    {
+      "game_id": 11002,
+      "title": "AO Tennis 2",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11003,
+      "title": "Arcadegeddon",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11008,
+      "title": "Armello (Senza DLC)",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11012,
+      "title": "Assassin's Creed Chronicles Pack",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 15.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11020,
+      "title": "Assassin's Creed Valhalla (Senza DLC)",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11023,
+      "title": "Assetto Corsa",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 15.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11026,
+      "title": "Atari Flashback Classics Collection Vol.2",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11033,
+      "title": "Baldur's Gate I & II Enhanced Edition",
+      "console": "PS4",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 11034,
+      "title": "Bassmaster Fishing 2022",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11035,
+      "title": "Batman Arkham Collection (No Arkham Knight)",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 11039,
+      "title": "Batman: Return To Arkham Asylum",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11042,
+      "title": "Battlefield 4",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11047,
+      "title": "Ben 10",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11050,
+      "title": "Bioshock: The Collection",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11052,
+      "title": "Bleach Rebirth Of Souls",
+      "console": "PS4",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 11053,
+      "title": "Blood & Truth (PSVR)",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11060,
+      "title": "Borderlands: The Handsome Collection",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 11061,
+      "title": "Bratz: Flaunt your Fashion",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11065,
+      "title": "Caligula Effect, The: Overdose",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11068,
+      "title": "Call of Duty: Black Ops 3",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11071,
+      "title": "Call of Duty: Black Ops 7",
+      "console": "PS4",
+      "new_price": 40,
+      "old_price": 45.0,
+      "variation_pct": -11.11
+    },
+    {
+      "game_id": 11073,
+      "title": "Call of Duty: Infinite Warfare",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 8.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11078,
+      "title": "Call of Duty: Vanguard (Senza DLC)",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 18.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11080,
+      "title": "Callisto Protocol, The",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 12.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11084,
+      "title": "Cars 3",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11085,
+      "title": "Catan: Console Edition",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11958,
+      "title": "Catherine: Full Body",
+      "console": "PS4",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 11087,
+      "title": "Chivalry 2",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11090,
+      "title": "Code Vein",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11097,
+      "title": "Council, The",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11102,
+      "title": "Crew 2, The (Senza DLC)",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 11105,
+      "title": "Crisis Core: Final Fantasy VII Reunion",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11114,
+      "title": "Dark Souls III",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 18.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11117,
+      "title": "Dark Souls Trilogy (W/O Soundtrack)",
+      "console": "PS4",
+      "new_price": 42,
+      "old_price": 48.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 11118,
+      "title": "Darksiders 2",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 12.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11119,
+      "title": "Darksiders Warmastered Edition",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11121,
+      "title": "Days Gone (Senza DLC)",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11123,
+      "title": "Dead Cells: Action Game of the Year Ed.",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12014,
+      "title": "Deadpool",
+      "console": "PS4",
+      "new_price": 90,
+      "old_price": 80.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 11128,
+      "title": "Death Stranding",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 20.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11130,
+      "title": "Deponia",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11131,
+      "title": "Descenders",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11146,
+      "title": "Dishonored - Definitive Edition",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11147,
+      "title": "Dishonored 2 (Senza DLC)",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 6.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 12046,
+      "title": "Divinity Original Sin II",
+      "console": "PS4",
+      "new_price": 50,
+      "old_price": 55.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 11154,
+      "title": "Doom Eternal (Senza DLC)",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11165,
+      "title": "Dragon Quest Heroes: L'Albero del Mondo E Le Radici Del Male",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 6.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 11169,
+      "title": "Dragon's Crown Pro",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11172,
+      "title": "Dragons: l'Alba dei Nuovi Cavalieri",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11174,
+      "title": "Dreamworks Dragons: Leggende dei Nove Regni",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11175,
+      "title": "DriveClub",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11177,
+      "title": "Dying Light",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11179,
+      "title": "Dying Light: The Following",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11185,
+      "title": "Edge of Eternity",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11187,
+      "title": "eFootball PES 2021 Season Update",
+      "console": "PS4",
+      "new_price": 50,
+      "old_price": 48.0,
+      "variation_pct": 4.17
+    },
+    {
+      "game_id": 11191,
+      "title": "Elder Scrolls V: Skyrim Special Edition",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 22.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11195,
+      "title": "Ender Lilies: Quietus of the Knights",
+      "console": "PS4",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 11197,
+      "title": "Everybody's Golf",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11203,
+      "title": "Expeditions: A Mudrunner Game",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11205,
+      "title": "F1 2016",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11210,
+      "title": "F1 2021",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11212,
+      "title": "F1 23",
+      "console": "PS4",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 11215,
+      "title": "Fallout 4",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 8.0,
+      "variation_pct": 87.5
+    },
+    {
+      "game_id": 11219,
+      "title": "Far Cry 4",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11220,
+      "title": "Far Cry 4 + Far Cry 5 (2 Discs)",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 11223,
+      "title": "Far Cry New Dawn (Senza DLC)",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11226,
+      "title": "Farming Simulator 19 (Senza DLC)",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11227,
+      "title": "Farming Simulator 2015",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11231,
+      "title": "Fate/Samurai Remnant",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 11240,
+      "title": "FIFA 22",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 5.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11242,
+      "title": "Final Fantasy Type-0",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 10.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11247,
+      "title": "Final Fantasy XV",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11249,
+      "title": "Firefighters: Airport Fire Department",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11251,
+      "title": "Five Nights at Freddy's: Security Breach Col.Ed.w/Plush,Figure,Pins&Magnet",
+      "console": "PS4",
+      "new_price": 90,
+      "old_price": 95.0,
+      "variation_pct": -5.26
+    },
+    {
+      "game_id": 11256,
+      "title": "Gal Gun Double Peace",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11258,
+      "title": "Garfield Lasagna Party",
+      "console": "PS4",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 12131,
+      "title": "Genesis: Alpha One",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11264,
+      "title": "Ghost Song",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11265,
+      "title": "Ghostbusters (2016)",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11266,
+      "title": "Ghostbusters The Video Game Remastered",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 11268,
+      "title": "Gigantosaurus - Dino Sport",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11277,
+      "title": "Golf Club 2019, The",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11283,
+      "title": "Graven",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11284,
+      "title": "Greedfall",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11286,
+      "title": "Grid Legend",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11290,
+      "title": "Guilty Gear Strive",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11297,
+      "title": "Hellblade: Senua's Sacrifice",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 11298,
+      "title": "Helldivers",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11299,
+      "title": "Hello Neighbor",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11301,
+      "title": "Here They Lie (PSVR)",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11304,
+      "title": "Hitman Definitive Edition (Senza DLC)",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11306,
+      "title": "Hitman La Prima Stagione - Day-One",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 11309,
+      "title": "Horizon Forbidden West (2 Disc) Senza DLC",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11310,
+      "title": "Horizon Zero Dawn - Complete Edition",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11313,
+      "title": "Hot Wheels Unleashed 2 Turbocharged",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12174,
+      "title": "House Flipper",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 11317,
+      "title": "Infamous Second Son",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 12.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11321,
+      "title": "Insurgency: Sandstorm",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12188,
+      "title": "Invisible Hours (PSVR)",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12190,
+      "title": "It Takes Two",
+      "console": "PS4",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 11336,
+      "title": "Just Dance 2018",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 12199,
+      "title": "Just Dance 2020",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 4.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 12201,
+      "title": "Kena: Bridge of Spirits",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 11344,
+      "title": "King Of Fighters XIV",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11348,
+      "title": "Kingdom Hearts III/3",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11350,
+      "title": "Kingdoms of Amalur: Re-Reckoning",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 11352,
+      "title": "Knack II/2",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11354,
+      "title": "L.A. Noire",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 11358,
+      "title": "Last Guardian, The",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 11361,
+      "title": "Lawn Mowing Simulator (Senza DLC)",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11363,
+      "title": "Legend of Legacy, The HD Remastered",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 11364,
+      "title": "Legend of Nayuta, The: Boundless Trails",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 11365,
+      "title": "Legendary Fishing",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11366,
+      "title": "LEGO Batman 3: Gotham e oltre",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11368,
+      "title": "LEGO City Undercover",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11373,
+      "title": "LEGO Jurassic World",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 10.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 11375,
+      "title": "Lego Marvel Collection",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11377,
+      "title": "LEGO Marvel Superheroes",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 11388,
+      "title": "Let's Sing 2020",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11389,
+      "title": "Let's Sing 2025 (Game Only)",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11395,
+      "title": "Like a Dragon Infinite Wealth",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 11397,
+      "title": "Little Big Planet 3",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 18.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 11400,
+      "title": "Little Nightmares 2",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 11401,
+      "title": "Little Nightmares I & II",
+      "console": "PS4",
+      "new_price": 40,
+      "old_price": 42.0,
+      "variation_pct": -4.76
+    },
+    {
+      "game_id": 12243,
+      "title": "Lunar Remastered Collection",
+      "console": "PS4",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 11407,
+      "title": "Maddden NFL 21",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11408,
+      "title": "Madden 16",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11418,
+      "title": "Mark McMorris Infinite Air",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11422,
+      "title": "Matchpoint: Tennis Championship",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11425,
+      "title": "Medievil",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 20.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11427,
+      "title": "Metal Gear Solid Master Collection Vol. 1",
+      "console": "PS4",
+      "new_price": 48,
+      "old_price": 40.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11432,
+      "title": "Metal Max Xeno",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 11434,
+      "title": "Metro Redux",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11437,
+      "title": "Minecraft Dungeons: Hero Edition",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 12264,
+      "title": "Minecraft Legends (Senza DLC)",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11441,
+      "title": "Monkey King: Hero is Back",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11444,
+      "title": "Monster Energy Supercross 2",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11446,
+      "title": "Monster Energy Supercross 4",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11447,
+      "title": "Monster Energy Supercross 5",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11449,
+      "title": "Monster Hunter Stories (Senza DLC)",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 11450,
+      "title": "Monster Hunter World: Iceborne",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11452,
+      "title": "Moonlighter",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11456,
+      "title": "Mortal Kombat XL",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11460,
+      "title": "MotoGP 14",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11467,
+      "title": "MotoGP 23",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 11474,
+      "title": "MXGP 19",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11477,
+      "title": "MXGP3 - The Official Motocross Videogame",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12286,
+      "title": "My Hero One's Justice",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 6.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 11483,
+      "title": "Naruto Shippuden Ultimate Ninja Storm Trilogy",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 11486,
+      "title": "Naruto X Boruto Ultimate Ninja Storm Connections",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 11490,
+      "title": "NBA 2K15",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 3.5,
+      "variation_pct": 71.43
+    },
+    {
+      "game_id": 11497,
+      "title": "NBA 2K22",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 8.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11507,
+      "title": "Need for Speed Hot Pursuit Remastered",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12313,
+      "title": "NieR Replicant ver.1.22474487139...",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 20.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11513,
+      "title": "Nier: Automata (Senza DLC)",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 20.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 12317,
+      "title": "Nioh 2",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 8.0,
+      "variation_pct": 87.5
+    },
+    {
+      "game_id": 11517,
+      "title": "Off Road Racing",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11528,
+      "title": "Outriders",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11529,
+      "title": "Overcooked 2",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 11531,
+      "title": "Oxide Room 104",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11537,
+      "title": "Payday 2: The Big Score",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11539,
+      "title": "Persona 5",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 10.0,
+      "variation_pct": 80.0
+    },
+    {
+      "game_id": 11541,
+      "title": "Persona 5 Tactica",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11544,
+      "title": "Pillars Of Eternity",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11548,
+      "title": "Planet Coaster",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11551,
+      "title": "Plants vs Zombies: Garden Warfare 2",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11553,
+      "title": "Poker Club",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11554,
+      "title": "Port Royale 4",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11556,
+      "title": "Pro Evolution Soccer 2015",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11562,
+      "title": "Prodeus",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11564,
+      "title": "Project CARS",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 6.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 11573,
+      "title": "Rabbids Invasion",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11575,
+      "title": "Rage 2 (Senza DLC)",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11577,
+      "title": "Raiden IV x MIKADO remix",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11578,
+      "title": "Railway Empire",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11582,
+      "title": "Rayman Legends",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 15.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11587,
+      "title": "Redout Lightspeed Edition",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11588,
+      "title": "Remothered: Broken Porcelain",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 6.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 11592,
+      "title": "Resident Evil 4 Remake",
+      "console": "PS4",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 12396,
+      "title": "Resident Evil 7: Biohazard - Gold Edition",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12398,
+      "title": "Resident Evil Revelations 2",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 11598,
+      "title": "Reus",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11600,
+      "title": "Ricomincio Da Capo: Tale Padre Tale Figlio (PSVR)",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11612,
+      "title": "Root Letter",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 11617,
+      "title": "Rugby 22",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11619,
+      "title": "Rugby World Cup 2015",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11624,
+      "title": "Samurai Warriors 4 Empires",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11625,
+      "title": "Samurai Warriors 4 II",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11630,
+      "title": "Scimpazziamo (Playlink)",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11632,
+      "title": "Sebastien Loeb Rally Evo",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11633,
+      "title": "Secret of Mana",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12427,
+      "title": "Session: Skate Sim",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 11636,
+      "title": "Shadow Of The Colossus",
+      "console": "PS4",
+      "new_price": 32,
+      "old_price": 25.0,
+      "variation_pct": 28.0
+    },
+    {
+      "game_id": 11637,
+      "title": "Shadow Of The Tomb Raider (Senza DLC)",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11638,
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11640,
+      "title": "Shenmue III (Senza DLC)",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12445,
+      "title": "Sinking City, The (Senza DLC)",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 15.0,
+      "variation_pct": 46.67
+    },
+    {
+      "game_id": 11654,
+      "title": "Sniper Elite 4",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 11656,
+      "title": "Sniper Ghost Warrior Contracts",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11658,
+      "title": "Sniper: Ghost Warrior 3",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11659,
+      "title": "Snoopy's Grand Adventure",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11661,
+      "title": "Sonic Colours Ultimate",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 11662,
+      "title": "Sonic Forces",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 15.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11669,
+      "title": "Spacebase Startopia",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11674,
+      "title": "Spintires: Mudrunner",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12478,
+      "title": "Spongebob SquarePants: Battle for Bikini Bottom - Rehydrated",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 15.0,
+      "variation_pct": 46.67
+    },
+    {
+      "game_id": 11677,
+      "title": "Star Ocean: Integrity & Faithlessness",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11679,
+      "title": "Star Trek Prodigy: Supernova",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11682,
+      "title": "Star Wars Jedi: Survivor (Senza DLC) 2 Disc",
+      "console": "PS4",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 11686,
+      "title": "Steep",
+      "console": "PS4",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11699,
+      "title": "Surge 2, The",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11705,
+      "title": "Tales from the Borderlands",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11707,
+      "title": "Tales of Vesperia Premium Ed. w/Pins, Card Set, Artbook, OST & Metalcase",
+      "console": "PS4",
+      "new_price": 40,
+      "old_price": 45.0,
+      "variation_pct": -11.11
+    },
+    {
+      "game_id": 11708,
+      "title": "Tales of Zestiria",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11709,
+      "title": "Talisman (Senza DLC)",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11721,
+      "title": "Texas Chainsaw Massacre, The",
+      "console": "PS4",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 11722,
+      "title": "Thief",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11733,
+      "title": "Tony Hawk's Pro Skater 5",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 11742,
+      "title": "Tour de France 2022",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11743,
+      "title": "Tour de France 2023",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11744,
+      "title": "Tour De France 2024",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11746,
+      "title": "Trailblazers",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11749,
+      "title": "Train Sim World 2: Collector's Edition",
+      "console": "PS4",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 11765,
+      "title": "Unbox: Newbies Adventure",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11766,
+      "title": "Uncharted 2: Among Thieves",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 6.0,
+      "variation_pct": 66.67
+    },
+    {
+      "game_id": 11771,
+      "title": "Unicorn Princess, The",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11772,
+      "title": "Unknown 9: Awakening",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11773,
+      "title": "Until Dawn",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11776,
+      "title": "Utawarerumono: Zan",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 11779,
+      "title": "Vampire: The Masquerade - The New York Bundle",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 11781,
+      "title": "Vikings - Wolves of Midgard",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11784,
+      "title": "Walking Dead, The - Telltale Season 1",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11788,
+      "title": "Watch Dogs",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11789,
+      "title": "Watch Dogs 2",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11790,
+      "title": "Watch Dogs Legion (Senza DLC)",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11793,
+      "title": "White Day: A Labyrinth Named School",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 11796,
+      "title": "Witcher 3, The: Wild Hunt",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11799,
+      "title": "Wolfenstein: Cyberpilot (PSVR)",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11803,
+      "title": "World Of Warriors",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11804,
+      "title": "World War Z",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11815,
+      "title": "WWE 2K Battlegrounds",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11816,
+      "title": "WWE 2K15",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11817,
+      "title": "WWE 2K16",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12631,
+      "title": "WWE 2K17",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 10.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11823,
+      "title": "Xcom 2",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11826,
+      "title": "Yakuza 0",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11827,
+      "title": "Yakuza Kiwami 2",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11829,
+      "title": "Yesterday Origins",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 12653,
+      "title": "Zombi",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11831,
+      "title": "Zombie Army Trilogy",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11832,
+      "title": "Zorro The Chronicles",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11833,
+      "title": ".hack//G.U. Last Recode",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 10980,
+      "title": "8-Bit Hordes",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10997,
+      "title": "Alien Isolation",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 18.0,
+      "variation_pct": 0.0
+    },
+    {
+      "game_id": 11874,
+      "title": "Ark Ultimate Survivor Edition",
+      "console": "PS4",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 11885,
+      "title": "Asterix & Obelix XXL 3: The Crystal Menhir",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11049,
+      "title": "Biomutant",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 8.0,
+      "variation_pct": 87.5
+    },
+    {
+      "game_id": 11064,
+      "title": "Burnout Paradise Remastered",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 8.0,
+      "variation_pct": 87.5
+    },
+    {
+      "game_id": 17667,
+      "title": "Clive 'N' Wrench Collector's Edition w/Magnet,16xCards,Manual, OST",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 15.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11970,
+      "title": "Commandos 2 & Praetorians HD Remaster",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11979,
+      "title": "Creed: Rise To Glory (PSVR)",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 11108,
+      "title": "Dakar Desert Rally",
+      "console": "PS4",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12009,
+      "title": "Dead Island Riptide",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 10.0,
+      "variation_pct": 80.0
+    },
+    {
+      "game_id": 11126,
+      "title": "Dead Or Alive 6",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12032,
+      "title": "Dirt 4",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12038,
+      "title": "Disgaea 5: Alliance of Vengeance",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12048,
+      "title": "Do Not Open",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 11164,
+      "title": "Dragon Quest Heroes 2",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 12112,
+      "title": "Fist Of The North Star: Lost Paradise",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 12118,
+      "title": "Fobia: St. Dinfna Hotel",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12133,
+      "title": "Ghost Giant (PSVR)",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12172,
+      "title": "Hotel Transylvania 3: Mostri in Mare",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11341,
+      "title": "KeyWe",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 11342,
+      "title": "Kill La Kill IF",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12204,
+      "title": "Killing Floor 2",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12212,
+      "title": "Kingdom Hearts: The Story So Far",
+      "console": "PS4",
+      "new_price": 35,
+      "old_price": 25.0,
+      "variation_pct": 40.0
+    },
+    {
+      "game_id": 12220,
+      "title": "Lara Croft & the Temple of Osiris: Gold Ed. w/Figure/Art Book/Map (No DLC",
+      "console": "PS4",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 11396,
+      "title": "Like a Dragon: Ishin!",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12242,
+      "title": "Lost Sphear",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12248,
+      "title": "Madden NFL 25",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12255,
+      "title": "Marvel's Guardiani Della Galassia - The Telltale Series (Solo Episodio 1)",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11421,
+      "title": "Mass Effect: Legendary Edition (2 Disc)",
+      "console": "PS4",
+      "new_price": 40,
+      "old_price": 30.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11472,
+      "title": "MX vs ATM Supercross Encore",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12336,
+      "title": "OnRush",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 3.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 11576,
+      "title": "Raid: World War II",
+      "console": "PS4",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 11610,
+      "title": "Rogue Trooper Redux",
+      "console": "PS4",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12417,
+      "title": "Sackboy: A Big Adventure",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12425,
+      "title": "Senran Kagura Estival Versus",
+      "console": "PS4",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11668,
+      "title": "Soul Hackers 2",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 4.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 12470,
+      "title": "South Park - Scontri Di-Retto",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11687,
+      "title": "Strange Brigade",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11694,
+      "title": "Subnautica",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 12495,
+      "title": "Subnautica: Below Zero",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 12501,
+      "title": "Super Stardust Ultra (PSVR)",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 6.0,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 17671,
+      "title": "Syberia: The World Before",
+      "console": "PS4",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 12513,
+      "title": "Tales Of Vesperia",
+      "console": "PS4",
+      "new_price": 15,
+      "old_price": 8.0,
+      "variation_pct": 87.5
+    },
+    {
+      "game_id": 11711,
+      "title": "Teenage Mutant Ninja Turtles: Shredders Revenge Anniversary Edition",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12534,
+      "title": "Tomb Raider I-III Remastered",
+      "console": "PS4",
+      "new_price": 25,
+      "old_price": 18.0,
+      "variation_pct": 38.89
+    },
+    {
+      "game_id": 12547,
+      "title": "Transformers: EarthSpark - Expedition",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12559,
+      "title": "Truck Driver",
+      "console": "PS4",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11764,
+      "title": "Umihara Kawase Bazooka",
+      "console": "PS4",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11814,
+      "title": "Wreckfest",
+      "console": "PS4",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    }
+  ],
+  "availability_changes": [
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 858,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1169,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1203,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10994,
+      "title": "Air Missions: Hind",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11857,
+      "title": "Alfred Hitchcock: Vertigo",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11859,
+      "title": "Aliens: Fireteam Elite",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11860,
+      "title": "All-Star Fruit Racing",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11865,
+      "title": "Angry Birds Movie 2, The - VR Under Pressure (PSVR)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11870,
+      "title": "Apex Construct (PSVR)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11033,
+      "title": "Baldur's Gate I & II Enhanced Edition",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11919,
+      "title": "Berserk and the Band of the Hawk",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11050,
+      "title": "Bioshock: The Collection",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11926,
+      "title": "Blackguards 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11939,
+      "title": "Bomber Crew (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11066,
+      "title": "Call Of Cthulhu",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11961,
+      "title": "Chernobylite",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11088,
+      "title": "Chorus",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11097,
+      "title": "Council, The",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11985,
+      "title": "Dakar 18",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11988,
+      "title": "Dark Pictures Anthology Volume 1 Limited Ed. w/Map, Pins & Steelbook",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11991,
+      "title": "Dark Pictures Anthology, The: The Devil In Me",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11115,
+      "title": "Dark Souls III/The Witcher 3: Wild Hunt (2 Disc)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12014,
+      "title": "Deadpool",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11129,
+      "title": "Deformers",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12060,
+      "title": "Dragon Ball FighterZ/Dragon Ball Xenoverse 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12068,
+      "title": "Dungeons 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11181,
+      "title": "Dynasty Warriors 9",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11193,
+      "title": "Elex",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12091,
+      "title": "F1 24",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12115,
+      "title": "Five Nights at Freddy's: Security Breach",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12123,
+      "title": "Fruit Ninja (PSVR)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12144,
+      "title": "Granblue Fantasy Versus",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12155,
+      "title": "Guitar Hero Live + 6 Button Guitar + USB Dongle",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12167,
+      "title": "Hokko Life",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11338,
+      "title": "Just Dance 2021",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12206,
+      "title": "King of Fighters XV (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12208,
+      "title": "Kingdom Come Deliverance",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12218,
+      "title": "Labyrinth Of Refrain",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12227,
+      "title": "Legend of Heroes, The: Trails of Cold Steel",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12228,
+      "title": "Legend of Heroes, The: Trails of Cold Steel II",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11424,
+      "title": "Matterfall",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12262,
+      "title": "Mighty No.9",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12264,
+      "title": "Minecraft Legends (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11438,
+      "title": "Minecraft: Story Mode: Stagione 1 (Solo Episodio 1)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11442,
+      "title": "Monopoly Madness",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12272,
+      "title": "Monster Jam Steel Titans 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12289,
+      "title": "My Universe: Cooking Star Restaurant",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12291,
+      "title": "N.E.R.O: Nothing Ever Remains Obscure",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11485,
+      "title": "Naruto to Boruto: Shinobi Striker",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12310,
+      "title": "Ni No Kuni: La Minaccia della Strega Cinerea Remastered",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12316,
+      "title": "Ninja Legends (PSVR)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12333,
+      "title": "One Piece: World Seeker",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11535,
+      "title": "Paw Patrol: Mighty Pups Salva Adventure Bay",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12365,
+      "title": "Police Simulator: Patrol Officers",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12369,
+      "title": "Predator: Hunting Grounds",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12389,
+      "title": "Redeemer Enhanced Edition",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12397,
+      "title": "Resident Evil Revelations",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12400,
+      "title": "Rick and Morty Virtual Rick-Ality (PSVR)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12403,
+      "title": "RiMS Racing",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12419,
+      "title": "Saints Row The Third Remastered",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11623,
+      "title": "Samurai Warriors 4",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12422,
+      "title": "Samurai Warriors: Spirit Of Sanada",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12424,
+      "title": "Scarlet Nexus",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12431,
+      "title": "Shadow Of The Tomb Raider - Definitive Edition",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11639,
+      "title": "Shenmue I & II",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12435,
+      "title": "Shin Megami Tensei III Nocturne HD Remaster",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12445,
+      "title": "Sinking City, The (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11652,
+      "title": "Sniper Elite 3",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11655,
+      "title": "Sniper Elite 5",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12459,
+      "title": "Sniper Elite V2 Remastered",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12460,
+      "title": "Sniper Elite: Resistance",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11677,
+      "title": "Star Ocean: Integrity & Faithlessness",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12481,
+      "title": "Star Wars Jedi Knight Collection",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12488,
+      "title": "Stellaris (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12511,
+      "title": "Tales of Berseria",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11708,
+      "title": "Tales of Zestiria",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12522,
+      "title": "Tetris Effect",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11734,
+      "title": "TopSpin 2K25",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12536,
+      "title": "Tormented Souls",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11748,
+      "title": "Train Sim World 2020",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12557,
+      "title": "Tropico 5",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12558,
+      "title": "Truck & Logistics Simulator",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12565,
+      "title": "Ty La Tigre Della Tasmania",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11775,
+      "title": "Utawarerumono: Mask of Deception",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12580,
+      "title": "Utawarerumono: Mask of Truth",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12601,
+      "title": "Warriors Orochi 4",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11797,
+      "title": "Wo Long: Fallen Dynasty",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12629,
+      "title": "WRC 10",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12630,
+      "title": "WRC Generations",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11822,
+      "title": "WWE 2K23",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12636,
+      "title": "XIII",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12645,
+      "title": "Ys VIII: Lacrimosa Of Dana",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11833,
+      "title": ".hack//G.U. Last Recode",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10978,
+      "title": "8 Bit Armies",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10979,
+      "title": "8 To Glory",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10997,
+      "title": "Alien Isolation",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11004,
+      "title": "Arcania - The Complete Tale",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11874,
+      "title": "Ark Ultimate Survivor Edition",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11030,
+      "title": "Awesomenauts Assemble",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11064,
+      "title": "Burnout Paradise Remastered",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11951,
+      "title": "Bus Simulator 21",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 17667,
+      "title": "Clive 'N' Wrench Collector's Edition w/Magnet,16xCards,Manual, OST",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11972,
+      "title": "Contra Rogue Corps",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11984,
+      "title": "Cuphead",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11999,
+      "title": "Daymare: 1994 Sandcastle",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12009,
+      "title": "Dead Island Riptide",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12048,
+      "title": "Do Not Open",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12058,
+      "title": "Downward Spiral: Horus Station",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12068,
+      "title": "Dungeons 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11198,
+      "title": "Evil West",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11218,
+      "title": "Far Cry 3 Classic Edition",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11252,
+      "title": "Flatout 4",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12118,
+      "title": "Fobia: St. Dinfna Hotel",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11341,
+      "title": "KeyWe",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11342,
+      "title": "Kill La Kill IF",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12204,
+      "title": "Killing Floor 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11396,
+      "title": "Like a Dragon: Ishin!",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12242,
+      "title": "Lost Sphear",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12248,
+      "title": "Madden NFL 25",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12255,
+      "title": "Marvel's Guardiani Della Galassia - The Telltale Series (Solo Episodio 1)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11487,
+      "title": "Natural Doctrine",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12336,
+      "title": "OnRush",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12340,
+      "title": "Outward",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11549,
+      "title": "Plants Vs Zombies Garden Warfare",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11574,
+      "title": "Rabbids: Party of Legends",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11576,
+      "title": "Raid: World War II",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11586,
+      "title": "Red Faction Guerrilla",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11610,
+      "title": "Rogue Trooper Redux",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12412,
+      "title": "Romance of the Three Kingdoms XIII",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12417,
+      "title": "Sackboy: A Big Adventure",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12418,
+      "title": "Saint Seiya Soldiers' Soul",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12425,
+      "title": "Senran Kagura Estival Versus",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11668,
+      "title": "Soul Hackers 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11687,
+      "title": "Strange Brigade",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11694,
+      "title": "Subnautica",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12495,
+      "title": "Subnautica: Below Zero",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11696,
+      "title": "Super Neptunia RPG",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12501,
+      "title": "Super Stardust Ultra (PSVR)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12503,
+      "title": "Sword Art Online - Alicization Lycoris",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 17671,
+      "title": "Syberia: The World Before",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12513,
+      "title": "Tales Of Vesperia",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11711,
+      "title": "Teenage Mutant Ninja Turtles: Shredders Revenge Anniversary Edition",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12534,
+      "title": "Tomb Raider I-III Remastered",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11737,
+      "title": "Tour de France 2016",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11751,
+      "title": "TramSim: Console Edition",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12559,
+      "title": "Truck Driver",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11783,
+      "title": "Walking Dead - Telltale Series: Collection",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12594,
+      "title": "Walking Dead, The: The Telltale Definitive Series",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11814,
+      "title": "Wreckfest",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12690,
+      "title": "Asterigos: Curse Of The Stars",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12705,
+      "title": "Avengers (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 17714,
+      "title": "Big Helmet Heroes Exalted Edition w/Artbook",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12720,
+      "title": "Blood Bowl 3 (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12855,
+      "title": "Fantasian Neo Dimension",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 17685,
+      "title": "Pragmata",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13184,
+      "title": "Scarlet Nexus",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13246,
+      "title": "Suicide Squad: Kill The Justice League",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13569,
+      "title": "Star Wars Rebel Strike",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    }
+  ],
+  "errors": []
+}
