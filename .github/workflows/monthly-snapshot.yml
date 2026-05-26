@@ -23,9 +23,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 📦 Install dependencies
-        run: pip install pandas
-
       - name: 📸 Create monthly snapshot
         run: |
           python scripts/monthly_snapshot.py
