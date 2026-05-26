@@ -585,8 +585,18 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 
 <script>
 // ─── HELPER: legge una CSS custom property da :root ─────────────────────────
-// Usato per passare i colori del design system ai grafici Chart.js
-const CSS = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+// Supporta sia '--nome-variabile' che 'var(--nome-variabile)' ed è eseguito lazy
+const CSS = v => {
+  if (!v) return '';
+  let prop = v.trim();
+  if (prop.startsWith('var(')) {
+    prop = prop.substring(4, prop.length - 1).trim();
+  }
+  if (!prop.startsWith('--')) {
+    return prop;
+  }
+  return getComputedStyle(document.documentElement).getPropertyValue(prop).trim();
+};
 
 // ─── CONFIG ────────────────────────────────────────────────────────────────
 const RAW = 'https://raw.githubusercontent.com/LukePalmDev/cex-price-tracker/main';
@@ -602,52 +612,51 @@ const WISHLIST_API_URL = WISHLIST_SYNC_ENABLED ?
 if (API_PARAM) localStorage.setItem('cex-api-base', API_BASE);
 
 // ─── CONSOLE_META ──────────────────────────────────────────────────────────
-// I colori sono letti da :root tramite CSS() per garantire un'unica fonte di verità.
+// I colori sono espressi come variabili CSS native in stringa e valutati al rendering.
 // Chiave = campo "category" nel DB (sotto-console specifica)
 const CONSOLE_META = {
   // ── Xbox (oldest → newest) ──
-  'Xbox':          { color: CSS('--xbox'),       group: 'Xbox' },
-  'Xbox 360':      { color: CSS('--xbox360'),    group: 'Xbox' },
-  'Xbox One':      { color: CSS('--xboxone'),    group: 'Xbox' },
-  'Xbox CrossGen': { color: CSS('--xboxcross'),  group: 'Xbox' },
-  'Xbox Series':   { color: CSS('--xboxseries'), group: 'Xbox' },
+  'Xbox':          { color: 'var(--xbox)',       group: 'Xbox' },
+  'Xbox 360':      { color: 'var(--xbox360)',    group: 'Xbox' },
+  'Xbox One':      { color: 'var(--xboxone)',    group: 'Xbox' },
+  'Xbox CrossGen': { color: 'var(--xboxcross)',  group: 'Xbox' },
+  'Xbox Series':   { color: 'var(--xboxseries)', group: 'Xbox' },
   // ── PlayStation (oldest → newest) ──
-  'PS2':           { color: CSS('--ps2'),        group: 'PlayStation' },
-  'PS3':           { color: CSS('--ps3'),        group: 'PlayStation' },
-  'PSP':           { color: CSS('--psp'),        group: 'PlayStation' },
-  'PS4':           { color: CSS('--ps4'),        group: 'PlayStation' },
-  'PS5':           { color: CSS('--ps5'),        group: 'PlayStation' },
+  'PS2':           { color: 'var(--ps2)',        group: 'PlayStation' },
+  'PS3':           { color: 'var(--ps3)',        group: 'PlayStation' },
+  'PSP':           { color: 'var(--psp)',        group: 'PlayStation' },
+  'PS4':           { color: 'var(--ps4)',        group: 'PlayStation' },
+  'PS5':           { color: 'var(--ps5)',        group: 'PlayStation' },
   // ── Nintendo (oldest → newest) ──
-  'GameCube':      { color: CSS('--gamecube'),   group: 'Nintendo' },
-  'Wii':           { color: CSS('--wii'),        group: 'Nintendo' },
-  'Wii U':         { color: CSS('--wiiu'),       group: 'Nintendo' },
-  'DS':            { color: CSS('--ds'),         group: 'Nintendo' },
-  '3DS':           { color: CSS('--n3ds'),       group: 'Nintendo' },
-  'Switch':        { color: CSS('--sw'),         group: 'Nintendo' },
+  'GameCube':      { color: 'var(--gamecube)',   group: 'Nintendo' },
+  'Wii':           { color: 'var(--wii)',        group: 'Nintendo' },
+  'Wii U':         { color: 'var(--wiiu)',       group: 'Nintendo' },
+  'DS':            { color: 'var(--ds)',         group: 'Nintendo' },
+  '3DS':           { color: 'var(--n3ds)',       group: 'Nintendo' },
+  'Switch':        { color: 'var(--sw)',         group: 'Nintendo' },
 };
 
 // Mappa campo "console" (piattaforma specifica DB) → etichetta gruppo + colore badge
-// Tutte le sotto-console Xbox e PSP sono incluse per evitare il fallback al colore muted.
 const GROUP_META = {
   // ── Xbox ──
-  'Xbox':          { label: 'Xbox',  color: CSS('--xbox')      },
-  'Xbox 360':      { label: 'Xbox',  color: CSS('--xbox360')   },
-  'Xbox One':      { label: 'Xbox',  color: CSS('--xboxone')   },
-  'Xbox CrossGen': { label: 'Xbox',  color: CSS('--xboxcross') },
-  'Xbox Series':   { label: 'Xbox',  color: CSS('--xboxseries')},
+  'Xbox':          { label: 'Xbox',  color: 'var(--xbox)'      },
+  'Xbox 360':      { label: 'Xbox',  color: 'var(--xbox360)'   },
+  'Xbox One':      { label: 'Xbox',  color: 'var(--xboxone)'   },
+  'Xbox CrossGen': { label: 'Xbox',  color: 'var(--xboxcross)' },
+  'Xbox Series':   { label: 'Xbox',  color: 'var(--xboxseries)'},
   // ── PlayStation ──
-  'PS2':           { label: 'PS',    color: CSS('--ps2')       },
-  'PS3':           { label: 'PS',    color: CSS('--ps3')       },
-  'PSP':           { label: 'PS',    color: CSS('--psp')       },
-  'PS4':           { label: 'PS',    color: CSS('--ps4')       },
-  'PS5':           { label: 'PS',    color: CSS('--ps5')       },
+  'PS2':           { label: 'PS',    color: 'var(--ps2)'       },
+  'PS3':           { label: 'PS',    color: 'var(--ps3)'       },
+  'PSP':           { label: 'PS',    color: 'var(--psp)'       },
+  'PS4':           { label: 'PS',    color: 'var(--ps4)'       },
+  'PS5':           { label: 'PS',    color: 'var(--ps5)'       },
   // ── Nintendo ──
-  'GameCube':      { label: 'Nint.', color: CSS('--gamecube')  },
-  'Wii':           { label: 'Nint.', color: CSS('--wii')       },
-  'Wii U':         { label: 'Nint.', color: CSS('--wiiu')      },
-  'DS':            { label: 'Nint.', color: CSS('--ds')        },
-  '3DS':           { label: 'Nint.', color: CSS('--n3ds')      },
-  'Switch':        { label: 'Nint.', color: CSS('--sw')        },
+  'GameCube':      { label: 'Nint.', color: 'var(--gamecube)'  },
+  'Wii':           { label: 'Nint.', color: 'var(--wii)'       },
+  'Wii U':         { label: 'Nint.', color: 'var(--wiiu)'      },
+  'DS':            { label: 'Nint.', color: 'var(--ds)'        },
+  '3DS':           { label: 'Nint.', color: 'var(--n3ds)'      },
+  'Switch':        { label: 'Nint.', color: 'var(--sw)'        },
 };
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
@@ -932,7 +941,7 @@ function buildDonut(byConsole) {
   });
   const labels = sortedEntries.map(([k]) => k);
   const vals   = sortedEntries.map(([, v]) => v);
-  const colors = labels.map(l => (CONSOLE_META[l] || {}).color || CSS('--muted'));
+  const colors = labels.map(l => CSS((CONSOLE_META[l] || {}).color || 'var(--muted)'));
   donutChart = new Chart(ctx, {
     type: 'pie',
     data: { labels, datasets: [{ data: vals, backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }] },
