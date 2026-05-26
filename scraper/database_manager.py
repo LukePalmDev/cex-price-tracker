@@ -584,6 +584,28 @@ class DatabaseManager:
             except Exception:
                 daily_summary = None
 
+        # Recupera tutto lo storico prezzi degli ultimi 30 giorni in una sola query (Risoluzione N+1)
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT game_id, old_price, new_price, changed_at
+                FROM price_history
+                WHERE changed_at >= datetime('now', '-30 days')
+                ORDER BY game_id, changed_at DESC
+            """)
+            history_rows = cursor.fetchall()
+
+        history_map = {}
+        for r in history_rows:
+            gid = int(r['game_id'])
+            if gid not in history_map:
+                history_map[gid] = []
+            history_map[gid].append({
+                'old_price': r['old_price'],
+                'new_price': r['new_price'],
+                'changed_at': r['changed_at']
+            })
+
         enriched = []
         for g in games:
             entry = dict(g)
@@ -596,15 +618,8 @@ class DatabaseManager:
                 except Exception:
                     entry["out_of_stock_stores"] = []
 
-            history = self.get_price_history(g['id'], days=30)
-            entry['price_history_30d'] = [
-                {
-                    'old_price': h['old_price'],
-                    'new_price': h['new_price'],
-                    'changed_at': h['changed_at'],
-                }
-                for h in history
-            ]
+            history = history_map.get(g['id'], [])
+            entry['price_history_30d'] = history
             if history:
                 last = history[0]
                 if last['old_price'] and last['old_price'] != 0:
