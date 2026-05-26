@@ -119,6 +119,68 @@ class DatabaseManager:
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_wishlist_game ON wishlist(game_id)")
             
             print("✅ Database schema inizializzato con successo!")
+        
+        # Esegue la pulizia automatica dei duplicati
+        self.clean_duplicates()
+
+    def clean_duplicates(self) -> int:
+        """
+        Identifica ed elimina i record duplicati (stesso titolo e stessa console).
+        Mantiene solo il record con il prezzo corrente più alto (current_price DESC).
+        Se i prezzi sono identici, mantiene quello aggiornato più di recente.
+        """
+        print("🧹 Avvio verifica e pulizia duplicati nel database...")
+        deleted_count = 0
+        
+        # Trova i titoli e console che hanno duplicati
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                SELECT title, console, COUNT(*) as cnt
+                FROM games
+                GROUP BY title, console
+                HAVING COUNT(*) > 1
+            """)
+            duplicates = cursor.fetchall()
+            
+            if not duplicates:
+                print("   ✅ Nessun titolo duplicato trovato nel database.")
+                return 0
+                
+            print(f"   ⚠️  Trovati {len(duplicates)} titoli duplicati. Rimozione copie con prezzo inferiore...")
+            
+            for row in duplicates:
+                title = row['title']
+                console = row['console']
+                
+                # Ottiene tutti i record per questo specifico duplicato, ordinati
+                # per prezzo decrescente, data aggiornamento decrescente ed ID decrescente.
+                cursor.execute("""
+                    SELECT id, current_price, last_updated, category
+                    FROM games
+                    WHERE title = ? AND console = ?
+                    ORDER BY current_price DESC, last_updated DESC, id DESC
+                """, (title, console))
+                records = cursor.fetchall()
+                
+                if len(records) <= 1:
+                    continue
+                
+                # Il primo record è il "winner" (prezzo più alto / aggiornato più di recente)
+                winner_id = records[0]['id']
+                to_delete = records[1:]
+                
+                for r in to_delete:
+                    gid = r['id']
+                    # Rimuove in cascata per sicurezza da tutte le tabelle correlate
+                    cursor.execute("DELETE FROM wishlist WHERE game_id = ?", (gid,))
+                    cursor.execute("DELETE FROM price_history WHERE game_id = ?", (gid,))
+                    cursor.execute("DELETE FROM availability_history WHERE game_id = ?", (gid,))
+                    cursor.execute("DELETE FROM games WHERE id = ?", (gid,))
+                    deleted_count += 1
+                    
+        print(f"   🧹 Pulizia completata: eliminati {deleted_count} record doppi non ottimali.")
+        return deleted_count
 
     def _add_new_columns_if_missing(self, cursor):
         """Aggiunge le nuove colonne se non esistono (ALTER TABLE safe)."""
