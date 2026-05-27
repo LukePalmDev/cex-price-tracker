@@ -453,9 +453,13 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 
   <!-- CHARTS — riga 1: torta (2u) + barre 16 console (6u) -->
   <div class="charts-section">
-    <div class="chart-card chart-col-2">
+    <div class="chart-card chart-col-2" style="display: flex; flex-direction: column;">
       <div class="chart-title">Distribuzione Console</div>
-      <div class="chart-wrap"><canvas id="donut-chart"></canvas></div>
+      <div class="chart-wrap" style="height: 120px; flex-shrink: 0;"><canvas id="donut-chart"></canvas></div>
+      <div class="custom-legend" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; border-top: 1px solid var(--border); padding-top: 10px; flex-grow: 1;">
+        <div class="legend-col" id="legend-col-1" style="display: flex; flex-direction: column; gap: 5px;"></div>
+        <div class="legend-col" id="legend-col-2" style="display: flex; flex-direction: column; gap: 5px;"></div>
+      </div>
     </div>
     <div class="chart-card chart-col-6">
       <div class="chart-title">Disponibilità per Console</div>
@@ -983,13 +987,38 @@ function buildDonut(byConsole) {
       responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: {
-          position: 'right',
-          labels: { color: CSS('--chart-text'), font: { family: 'JetBrains Mono', size: 10 }, boxWidth: 10, padding: 8 }
+          display: false
         },
         tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw.toLocaleString()}` } }
       }
     }
   });
+
+  // Popola la legenda HTML personalizzata a due colonne (8 console per colonna)
+  const col1 = [
+    'Xbox', 'Xbox 360', 'Xbox One', 'Xbox CrossGen', 'Xbox Series',
+    'GameCube', 'Wii', 'Wii U'
+  ];
+  const col2 = [
+    'PS2', 'PS3', 'PSP', 'PS4', 'PS5',
+    'DS', '3DS', 'Switch'
+  ];
+
+  const makeLegendItem = (name) => {
+    const count = byConsole[name] || 0;
+    const meta = CONSOLE_META[name] || { color: 'var(--muted)' };
+    const color = CSS(meta.color);
+    return `<div style="display: flex; align-items: center; gap: 6px; color: var(--text); cursor: pointer; font-size: 10px; font-family: 'Outfit', sans-serif; transition: opacity .15s;" 
+      onclick="filterByConsole('${name}')"
+      onmouseover="this.style.opacity='0.7'; this.style.textDecoration='underline'" 
+      onmouseout="this.style.opacity='1'; this.style.textDecoration='none'">
+      <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background-color: ${color}; flex-shrink: 0;"></span>
+      <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 90px;" title="${name}">${name} <span style="color: var(--muted); font-size: 8px; font-family: 'JetBrains Mono', monospace;">(${count})</span></span>
+    </div>`;
+  };
+
+  document.getElementById('legend-col-1').innerHTML = col1.map(makeLegendItem).join('');
+  document.getElementById('legend-col-2').innerHTML = col2.map(makeLegendItem).join('');
 }
 
 function buildBar(games) {
