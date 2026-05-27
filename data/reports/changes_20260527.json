@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-27T02:57:11.116004",
+    "generated_at": "2026-05-27T09:56:37.687635",
     "date": "2026-05-27",
-    "duration_sec": 11.5,
-    "total_scraped": 2748
+    "duration_sec": 10.8,
+    "total_scraped": 5331
   },
   "summary": {
-    "new_games": 2741,
-    "price_changes": 6,
-    "availability_changes": 1,
+    "new_games": 5318,
+    "price_changes": 11,
+    "availability_changes": 2,
     "unchanged": 0,
     "errors": 0
   },
@@ -16508,6 +16508,46 @@
       "new_price": 45,
       "old_price": 28.0,
       "variation_pct": 60.71
+    },
+    {
+      "game_id": 985,
+      "title": "Lost Via Domus",
+      "console": "Xbox 360",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 1208,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 25.0,
+      "variation_pct": -28.0
+    },
+    {
+      "game_id": 1245,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1245,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 1.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 1828,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
     }
   ],
   "availability_changes": [
@@ -16538,6 +16578,27 @@
       "console": "Xbox CrossGen",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 873,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1208,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1245,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
