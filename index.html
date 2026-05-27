@@ -856,9 +856,14 @@ const EMPTY_MSG  = '<div style="font-family:monospace;font-size:11px;color:var(-
 const ERROR_MSG  = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:16px;text-align:center;">Report non disponibile</div>';
 
 function makeItem(cls, gameId, console_, title, priceStr) {
-  const game = allGames.find(g => g.id === gameId);
-  const url = game ? game.url : '#';
-  const click = gameId ? `onclick="openModal(${gameId})"` : '';
+  let game = allGames.find(g => g.id === gameId);
+  if (!game && title && console_) {
+    game = allGames.find(g => g.title === title && g.console === console_);
+  }
+  const actualId = game ? game.id : gameId;
+  const click = actualId ? `onclick="openModal(${actualId}, '${title.replace(/'/g, "\\'")}', '${console_}')"` : '';
+  const url = game ? game.url : `https://it.webuy.com/search?stext=${encodeURIComponent(title)}`;
+  
   return `<div class="change-item ${cls}" ${click} style="cursor:pointer">
     <span class="badge-console">${console_}</span>
     <span class="change-title" title="${title}">
@@ -1235,8 +1240,11 @@ function updateWishlistUI() {
 }
 
 // ─── MODAL ─────────────────────────────────────────────────────────────────
-function openModal(id) {
-  const game = allGames.find(g => g.id === id);
+function openModal(id, fallbackTitle, fallbackConsole) {
+  let game = allGames.find(g => g.id === id);
+  if (!game && fallbackTitle && fallbackConsole) {
+    game = allGames.find(g => g.title === fallbackTitle && g.console === fallbackConsole);
+  }
   if (!game) return;
   document.getElementById('modal-title').innerHTML   = `<a href="${game.url}" target="_blank" title="Apri su CEX" style="color:var(--text); text-decoration:none; transition:color .15s;" onmouseover="this.style.color='var(--amber)'" onmouseout="this.style.color='var(--text)'">${game.title} ↗</a>`;
   document.getElementById('modal-sub').textContent   = `${game.console} · €${(game.current_price||0).toFixed(2)} · ${game.is_available ? '✅ Disponibile' : '❌ Esaurito'}`;

@@ -120,8 +120,9 @@ class DatabaseManager:
             
             print("✅ Database schema inizializzato con successo!")
         
-        # Esegue la pulizia automatica dei duplicati
+        # Esegue la pulizia automatica dei duplicati e delle oscillazioni fittizie
         self.clean_duplicates()
+        self.clean_oscillations()
 
     def clean_duplicates(self) -> int:
         """
@@ -180,6 +181,74 @@ class DatabaseManager:
                     deleted_count += 1
                     
         print(f"   🧹 Pulizia completata: eliminati {deleted_count} record doppi non ottimali.")
+        return deleted_count
+
+    def clean_oscillations(self) -> int:
+        """
+        Rimuove i log dei prezzi oscillanti (es. 15.0 -> 5.0 -> 15.0 in brevi intervalli di tempo)
+        che derivano da disallineamenti di pagine duplicate del crawler.
+        """
+        print("🧹 Avvio verifica e pulizia oscillazioni fittizie di prezzo...")
+        deleted_count = 0
+        
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            
+            # Ottiene tutti i game_id che hanno più di 1 variazione di prezzo
+            cursor.execute("""
+                SELECT game_id, COUNT(*) as cnt
+                FROM price_history
+                GROUP BY game_id
+                HAVING COUNT(*) > 1
+            """)
+            games_with_history = cursor.fetchall()
+            
+            for row in games_with_history:
+                game_id = row['game_id']
+                
+                # Carica la storia dei prezzi ordinata per data crescente
+                cursor.execute("""
+                    SELECT id, old_price, new_price, changed_at
+                    FROM price_history
+                    WHERE game_id = ?
+                    ORDER BY changed_at ASC
+                """, (game_id,))
+                history = [dict(r) for r in cursor.fetchall()]
+                
+                i = 0
+                while i < len(history) - 1:
+                    c1 = history[i]
+                    c2 = history[i+1]
+                    
+                    old_p = c1['old_price']
+                    new_p = c1['new_price']
+                    
+                    # Controlla se c2 ritorna all'old_price di c1
+                    if c2['old_price'] == new_p and c2['new_price'] == old_p:
+                        # Controlla l'intervallo temporale (es. entro 36 ore)
+                        try:
+                            clean_t1 = c1['changed_at'].split('.')[0].replace('T', ' ')
+                            clean_t2 = c2['changed_at'].split('.')[0].replace('T', ' ')
+                            t1 = datetime.strptime(clean_t1, '%Y-%m-%d %H:%M:%S')
+                            t2 = datetime.strptime(clean_t2, '%Y-%m-%d %H:%M:%S')
+                            diff_hours = (t2 - t1).total_seconds() / 3600.0
+                        except Exception as e:
+                            print(f"   ⚠️ Errore parsing date: {e} per {c1['changed_at']} / {c2['changed_at']}")
+                            diff_hours = 0
+                            
+                        if diff_hours <= 36.0:
+                            # Elimina le due variazioni oscillanti dal database
+                            cursor.execute("DELETE FROM price_history WHERE id IN (?, ?)", (c1['id'], c2['id']))
+                            deleted_count += 2
+                            # Rimuove dalla lista in memoria per continuare la scansione delle rimanenti
+                            history.pop(i+1)
+                            history.pop(i)
+                            # Ricomincia la scansione dall'inizio per gestire le oscillazioni annidate
+                            i = 0
+                            continue
+                    i += 1
+                    
+        print(f"   🧹 Pulizia oscillazioni completata: eliminati {deleted_count} record di log fittizi.")
         return deleted_count
 
     def _add_new_columns_if_missing(self, cursor):
