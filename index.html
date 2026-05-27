@@ -899,9 +899,40 @@ async function loadChanges(dateStr) {
 
     // ── Card 2: Cambi disponibilità (acqua/arancione) ─────────────────────
     const availChanges = report.availability_changes || [];
-    const backInStock  = availChanges.filter(c => c.new_status === 'Disponibile').length;
-    elAvail.innerHTML = availChanges.length
-      ? availChanges.slice(0, 80).map(c => {
+    
+    // Raggruppa per game_id o title+console per calcolare la variazione netta giornaliera di disponibilità
+    const groupedAvail = {};
+    for (const c of availChanges) {
+      const key = c.game_id || `${c.title}::${c.console}`;
+      if (!groupedAvail[key]) {
+        groupedAvail[key] = [];
+      }
+      groupedAvail[key].push(c);
+    }
+
+    const netAvailChanges = [];
+    for (const key in groupedAvail) {
+      const list = groupedAvail[key];
+      const first = list[0];
+      const last = list[list.length - 1];
+      const oldStatus = first.old_status;
+      const newStatus = last.new_status;
+      
+      // Se lo stato iniziale e finale differiscono (o se old_status manca, per retrocompatibilità)
+      if (!oldStatus || oldStatus !== newStatus) {
+        netAvailChanges.push({
+          game_id: first.game_id,
+          title: first.title,
+          console: first.console,
+          old_status: oldStatus,
+          new_status: newStatus
+        });
+      }
+    }
+
+    const backInStock  = netAvailChanges.filter(c => c.new_status === 'Disponibile').length;
+    elAvail.innerHTML = netAvailChanges.length
+      ? netAvailChanges.slice(0, 80).map(c => {
           const isAvail = c.new_status === 'Disponibile';
           const cls     = isAvail ? 'ev-avail' : 'ev-unavail';
           return makeItem(cls, c.game_id, c.console, c.title, c.new_status);
