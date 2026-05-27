@@ -34,6 +34,8 @@ import os
 import math
 import requests
 import time
+import json
+import subprocess
 from datetime import datetime
 from typing import List, Dict, Optional
 
@@ -114,10 +116,10 @@ def fetch_query(
     extra_filter: str = "",
 ) -> Optional[Dict]:
     """
-    Esegue una singola richiesta POST ad Algolia.
+    Esegue una singola richiesta POST ad Algolia tramite curl per bypassare il blocco Cloudflare.
 
     Args:
-        session:      requests.Session riusabile
+        session:      requests.Session (ignorato, mantenuto per compatibilità)
         category_id:  ID categoria CEX
         extra_filter: filtro aggiuntivo da appendere (es. disponibili/esauriti)
 
@@ -150,15 +152,24 @@ def fetch_query(
         f"&x-algolia-application-id={ALGOLIA_APP_ID}"
     )
 
+    cmd = [
+        "curl",
+        "-s",
+        "-X", "POST",
+        url,
+        "-H", "Content-Type: application/json",
+        "-H", "Origin: https://it.webuy.com",
+        "-H", "Referer: https://it.webuy.com/",
+        "-H", "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "-d", json.dumps(payload)
+    ]
+
     try:
-        resp = session.post(url, json=payload, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
-        return resp.json()["results"][0]
-    except requests.exceptions.Timeout:
-        print(f"    ⚠️  Timeout")
-        return None
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=20, check=True)
+        resp_data = json.loads(result.stdout)
+        return resp_data["results"][0]
     except Exception as e:
-        print(f"    ❌ Errore: {e}")
+        print(f"    ❌ Errore curl: {e}")
         return None
 
 
