@@ -1242,7 +1242,7 @@ function updateWishlistUI() {
 function openModal(id) {
   const game = allGames.find(g => g.id === id);
   if (!game) return;
-  document.getElementById('modal-title').textContent = game.title;
+  document.getElementById('modal-title').innerHTML   = `<a href="${game.url}" target="_blank" title="Apri su CEX" style="color:var(--text); text-decoration:none; transition:color .15s;" onmouseover="this.style.color='var(--amber)'" onmouseout="this.style.color='var(--text)'">${game.title} ↗</a>`;
   document.getElementById('modal-sub').textContent   = `${game.console} · €${(game.current_price||0).toFixed(2)} · ${game.is_available ? '✅ Disponibile' : '❌ Esaurito'}`;
   const history = game.price_history_30d || [];
   const prices = history.map(h => h.new_price).concat([game.current_price]).filter(Boolean);
