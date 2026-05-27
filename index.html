@@ -5,86 +5,78 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CEX Price Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root {
-  /* ── SFONDI ── */
-  --bg:            #0a0a0f;    /* sfondo globale della pagina */
-  --surface:       #0f0f1a;    /* superfici secondarie (pill, input, select) */
-  --card:          #13131f;    /* card e pannelli */
-  --header-bg:     rgba(10,10,15,0.92); /* sfondo glassmorphism dell'header sticky */
+  /* ── WARM MINIMALIST PALETTE ── */
+  --bg:            #141210;    /* warm dark background */
+  --surface:       #1c1a17;    /* warm surface (inputs, pills) */
+  --card:          #221f1b;    /* warm cards and panels */
+  --header-bg:     rgba(20,18,16,0.92);
+  --border:        #2e2a25;    /* warm border */
+  
+  --text:          #eae6df;    /* warm off-white text */
+  --muted:         #968f85;    /* warm muted gray-brown text */
+  --dim:           #423d37;    /* scrollbar thumb, dark borders */
+  --chart-text:    #968f85;
 
-  /* ── BORDI ── */
-  --border:        #1e1e30;    /* bordi di separazione generici */
+  /* Accent: Warm Sand / Soft Gold */
+  --amber:         #d4a373;    /* warm sand gold accent */
+  --amber-dim:     #8c6239;
 
-  /* ── TESTI ── */
-  --text:          #e2e8f0;    /* testo principale */
-  --muted:         #64748b;    /* testo secondario, label, placeholder */
-  --dim:           #334155;    /* thumb della scrollbar */
-  --chart-text:    #94a3b8;    /* testo tick e legenda Chart.js */
+  /* Semantics */
+  --green:         #a3b18a;    /* warm green / sage */
+  --red:           #e07a5f;    /* warm terracotta / brick red */
+  --blue:          #83c5be;    /* warm slate blue / teal */
+  --purple:        #b5838d;
 
-  /* ── ACCENT PRINCIPALE: AMBER ── */
-  --amber:         #f5a623;    /* accent primario (logo, prezzi, hover) */
-  --amber-dim:     #7a5112;    /* amber attenuato (bordo bottone refresh, hover card) */
+  /* Daily change types */
+  --ev-new:        #e9c46a;    /* warm sand yellow */
+  --ev-avail:      #a3b18a;    /* warm sage */
+  --ev-unavail:    #f4a261;    /* warm soft orange */
+  --ev-down:       #81a4b8;    /* warm slate blue */
+  --ev-up:         #e07a5f;    /* warm terracotta */
 
-  /* ── COLORI SEMANTICI ── */
-  --green:         #22c55e;    /* disponibile, valori positivi / prezzi scesi */
-  --red:           #ef4444;    /* esaurito, valori negativi / prezzi saliti */
-  --blue:          #3b82f6;    /* hover bottone storico prezzi */
-  --purple:        #a855f7;    /* variabile riservata, non usata direttamente */
+  /* Consoles colors - minimal grouped style */
+  --xbox:          #588157;    /* warm forest green */
+  --xbox360:       #588157;
+  --xboxone:       #588157;
+  --xboxcross:     #a3b18a;
+  --xboxseries:    #a3b18a;
 
-  /* ── CARD EVENTI GIORNALIERI ── */
-  --ev-new:        #F5C518;    /* nuovi nel DB oggi — giallo */
-  --ev-avail:      #2DD4BF;    /* tornati disponibili — verde acqua */
-  --ev-unavail:    #FB923C;    /* diventati esauriti — arancione chiaro */
-  --ev-down:       #38BDF8;    /* riduzioni di prezzo — azzurro */
-  --ev-up:         #9B1C1C;    /* aumenti di prezzo — granata */
+  --ps2:           #457b9d;    /* warm ocean blue */
+  --ps3:           #457b9d;
+  --psp:           #457b9d;
+  --ps4:           #1d3557;
+  --ps5:           #1d3557;
 
-  /* ── CONSOLE: FAMIGLIA XBOX ── */
-  --xbox:          #142C14;    /* Xbox originale */
-  --xbox360:       #2D5128;    /* Xbox 360 */
-  --xboxone:       #537B2F;    /* Xbox One */
-  --xboxcross:     #8DA750;    /* Xbox CrossGen */
-  --xboxseries:    #E4EB9C;    /* Xbox Series */
+  --gamecube:      #b5838d;    /* warm dusty rose */
+  --wii:           #eae2b7;
+  --wiiu:          #eae2b7;
+  --ds:            #d62828;
+  --n3ds:          #d62828;
+  --sw:            #e07a5f;
 
-  /* ── CONSOLE: PLAYSTATION ── */
-  --ps2:           #001040;    /* PS2 */
-  --ps3:           #002A80;    /* PS3 */
-  --psp:           #001524;    /* PSP */
-  --ps4:           #0752BE;    /* PS4 / colore voucher buyback */
-  --ps5:           #3399FF;    /* PS5 */
+  /* Effects */
+  --glow-radial:   rgba(212,163,115,0.03);
+  --row-hover:     rgba(212,163,115,0.03);
 
-  /* ── CONSOLE: NINTENDO ── */
-  --gamecube:      #4B0082;    /* GameCube */
-  --wii:           #FFECD1;    /* Wii */
-  --wiiu:          #009AC7;    /* Wii U */
-  --ds:            #8B0000;    /* Nintendo DS */
-  --n3ds:          #CC0000;    /* Nintendo 3DS */
-  --sw:            #702006;    /* Nintendo Switch */
+  --chart-line-fill: rgba(212,163,115,0.06);
+  --bar-avail:       rgba(163,177,138,0.7);
+  --bar-unavail:     rgba(150,143,133,0.2);
 
-  /* ── EFFETTI / OVERLAY ── */
-  --glow-radial:   rgba(245,166,35,0.06); /* alone radiale amber sullo sfondo body */
-  --row-hover:     rgba(245,166,35,.04);  /* hover riga tabella */
+  --badge-yes-bg:  rgba(163,177,138,0.12);
+  --badge-yes-bdr: rgba(163,177,138,0.3);
+  --badge-no-bg:   rgba(150,143,133,0.08);
 
-  /* ── GRAFICI ── */
-  --chart-line-fill: rgba(245,166,35,.08); /* fill area line chart storico prezzi (modal) */
-  --bar-avail:       rgba(34,197,94,.7);    /* barre "Disponibili" nel bar chart */
-  --bar-unavail:     rgba(100,116,139,.3);  /* barre "Non disponibili" nel bar chart */
-
-  /* ── BADGE DISPONIBILITÀ ── */
-  --badge-yes-bg:  rgba(34,197,94,.12);   /* sfondo badge DISPO */
-  --badge-yes-bdr: rgba(34,197,94,.3);    /* bordo badge DISPO */
-  --badge-no-bg:   rgba(100,116,139,.1);  /* sfondo badge ESAURITO */
-
-  /* ── MODAL / OMBRE ── */
-  --modal-backdrop: rgba(0,0,0,.8);       /* overlay scuro dietro il modal */
-  --modal-shadow:   rgba(0,0,0,.6);       /* ombra box del modal e del tooltip negozi */
+  --modal-backdrop: rgba(10,9,8,0.8);
+  --modal-shadow:   rgba(0,0,0,0.5);
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Outfit', sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -864,10 +856,14 @@ const EMPTY_MSG  = '<div style="font-family:monospace;font-size:11px;color:var(-
 const ERROR_MSG  = '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:16px;text-align:center;">Report non disponibile</div>';
 
 function makeItem(cls, gameId, console_, title, priceStr) {
-  const click = gameId ? `onclick="openModal(${gameId})" style="cursor:pointer"` : '';
-  return `<div class="change-item ${cls}" ${click}>
+  const game = allGames.find(g => g.id === gameId);
+  const url = game ? game.url : '#';
+  const click = gameId ? `onclick="openModal(${gameId})"` : '';
+  return `<div class="change-item ${cls}" ${click} style="cursor:pointer">
     <span class="badge-console">${console_}</span>
-    <span class="change-title" title="${title}">${title}</span>
+    <span class="change-title" title="${title}">
+      <a href="${url}" target="_blank" onclick="event.stopPropagation()" style="color:inherit; text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${title}</a>
+    </span>
     <span class="change-price">${priceStr}</span>
   </div>`;
 }
@@ -1164,7 +1160,7 @@ function renderTable() {
       <td class="td-title">
         <a href="${g.url}" target="_blank" onclick="event.stopPropagation()">${g.title}</a>
       </td>
-      <td class="td-console" style="color:${grp.color}">${grp.label}</td>
+      <td class="td-console" style="color:${grp.color}">${g.console}</td>
       <td class="td-price">€${(g.current_price||0).toFixed(2)}</td>
       <td class="td-price-cash">${cashStr}</td>
       <td class="td-price-exch">${exchStr}</td>
