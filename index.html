@@ -905,8 +905,41 @@ async function loadChanges(dateStr) {
 
     // ── Card 3 & 4: Riduzioni (azzurro) e Aumenti (granata) ───────────────
     const priceChanges = report.price_changes || [];
-    const priceDown = priceChanges.filter(c => c.old_price != null && c.new_price < c.old_price);
-    const priceUp   = priceChanges.filter(c => c.old_price != null && c.new_price > c.old_price);
+
+    // Raggruppa per game_id o title+console per calcolare la variazione netta giornaliera
+    const grouped = {};
+    for (const c of priceChanges) {
+      const key = c.game_id || `${c.title}::${c.console}`;
+      if (!grouped[key]) {
+        grouped[key] = [];
+      }
+      grouped[key].push(c);
+    }
+
+    const netChanges = [];
+    for (const key in grouped) {
+      const list = grouped[key];
+      const first = list[0];
+      const last = list[list.length - 1];
+      const oldPrice = first.old_price;
+      const newPrice = last.new_price;
+      if (oldPrice !== null && oldPrice !== undefined && newPrice !== null && newPrice !== undefined) {
+        const diff = Number((newPrice - oldPrice).toFixed(2));
+        if (diff !== 0) {
+          netChanges.push({
+            game_id: first.game_id,
+            title: first.title,
+            console: first.console,
+            old_price: oldPrice,
+            new_price: newPrice,
+            variation_pct: (diff / oldPrice) * 100
+          });
+        }
+      }
+    }
+
+    const priceDown = netChanges.filter(c => c.new_price < c.old_price);
+    const priceUp   = netChanges.filter(c => c.new_price > c.old_price);
 
     const renderPrice = (items, cls) => items.length
       ? items.slice(0, 80).map(c => {
@@ -1228,29 +1261,79 @@ function openModal(id) {
   // Modal chart — usa le variabili CSS per i colori del grafico
   const chartCtx = document.getElementById('modal-chart').getContext('2d');
   if (modalChart) modalChart.destroy();
-  if (history.length) {
-    const labels = history.map(h => h.changed_at?.split('T')[0] || '').reverse();
-    const vals   = history.map(h => h.new_price).reverse();
-    modalChart = new Chart(chartCtx, {
-      type: 'line',
-      data: { labels, datasets: [{ data: vals, borderColor: CSS('--amber'), backgroundColor: CSS('--chart-line-fill'), tension: 0.3, pointRadius: 3, pointBackgroundColor: CSS('--amber') }] },
-      options: {
-        responsive: true, maintainAspectRatio: false,
-        scales: {
-          x: { ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: CSS('--border') } },
-          y: { ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 }, callback: v => '€'+v }, grid: { color: CSS('--border') } }
-        },
-        plugins: { legend: { display: false } }
+
+  let labels = [];
+  let vals = [];
+
+  const getPriceAtDate = (dateStr, currentPrice, hist) => {
+    let price = currentPrice;
+    for (const h of hist) {
+      const changeDate = h.changed_at?.split(/[T ]/)[0];
+      if (changeDate && changeDate > dateStr) {
+        price = h.old_price != null ? h.old_price : h.new_price;
+      } else {
+        break;
       }
-    });
+    }
+    return price;
+  };
+
+  if (history.length >= 5) {
+    const last5 = history.slice(0, 5).reverse();
+    labels = last5.map(h => h.changed_at?.split(/[T ]/)[0] || '');
+    vals   = last5.map(h => h.new_price);
+  } else {
+    const last5Days = [];
+    for (let i = 4; i >= 0; i--) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, '0');
+      const dd = String(d.getDate()).padStart(2, '0');
+      last5Days.push(`${yyyy}-${mm}-${dd}`);
+    }
+    labels = last5Days;
+    vals   = last5Days.map(day => getPriceAtDate(day, game.current_price, history));
   }
+
+  modalChart = new Chart(chartCtx, {
+    type: 'line',
+    data: { 
+      labels, 
+      datasets: [{ 
+        data: vals, 
+        borderColor: CSS('--amber'), 
+        backgroundColor: CSS('--chart-line-fill'), 
+        tension: 0.3, 
+        pointRadius: 3, 
+        pointBackgroundColor: CSS('--amber') 
+      }] 
+    },
+    options: {
+      responsive: true, 
+      maintainAspectRatio: false,
+      scales: {
+        x: { ticks: { color: CSS('--muted'), font: { family: 'JetBrains Mono', size: 9 } }, grid: { color: CSS('--border') } },
+        y: { 
+          ticks: { 
+            color: CSS('--muted'), 
+            font: { family: 'JetBrains Mono', size: 9 }, 
+            callback: v => '€' + Number(v).toFixed(2) 
+          }, 
+          grid: { color: CSS('--border') } 
+        }
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+
   // History table
   document.getElementById('modal-tbody').innerHTML = history.map(h => {
     const diff = h.old_price != null ? h.new_price - h.old_price : 0;
     const pct  = h.old_price ? (diff / h.old_price * 100).toFixed(1) : '–';
     const cls  = diff > 0 ? 'color:var(--red)' : 'color:var(--green)';
     return `<tr>
-      <td>${h.changed_at?.split('T')[0] || '–'}</td>
+      <td>${h.changed_at || '–'}</td>
       <td style="color:var(--muted)">€${(h.old_price||0).toFixed(2)}</td>
       <td>€${h.new_price.toFixed(2)}</td>
       <td style="${cls}">${diff > 0 ? '+' : ''}€${diff.toFixed(2)} (${diff > 0 ? '+' : ''}${pct}%)</td>
