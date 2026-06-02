@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from database_manager import DatabaseManager
 from changes_analyzer import ChangesAnalyzer
-from algolia_scraper import scrape_all_consoles
+from algolia_scraper import scrape_all_consoles, ScrapeIncompleteError
 
 
 # ============================================================================
@@ -97,6 +97,13 @@ def main() -> int:
     print("\n🌐 Avvio scraping via Algolia...")
     try:
         raw_products = scrape_all_consoles()
+    except ScrapeIncompleteError as e:
+        # SAFETY GUARD: scraping parziale. Abortiamo SENZA toccare database né
+        # dashboard, così il dataset completo esistente resta intatto.
+        print(f"\n🛑 ABORT: {e}")
+        print("   Il database e la dashboard NON sono stati modificati "
+              "per evitare di sovrascrivere il dataset completo con dati parziali.")
+        return 1
     except Exception as e:
         print(f"\n❌ Errore durante lo scraping: {e}")
         import traceback

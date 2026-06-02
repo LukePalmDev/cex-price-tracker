@@ -107,6 +107,24 @@ FILTER_UNAVAILABLE = "(inStockStore=0 AND inStockOnline=0)"
 
 
 # ============================================================================
+# ECCEZIONI
+# ============================================================================
+
+class ScrapeIncompleteError(Exception):
+    """
+    Sollevata quando una o più categorie non vengono scaricate correttamente
+    (es. blocco Cloudflare). Serve come safety guard: impedisce a uno scraping
+    parziale di sovrascrivere il dataset completo nel database/dashboard.
+    """
+    def __init__(self, failed_categories: List[str]):
+        self.failed_categories = failed_categories
+        super().__init__(
+            f"Scraping incompleto: {len(failed_categories)} categorie fallite "
+            f"({', '.join(failed_categories)})"
+        )
+
+
+# ============================================================================
 # FUNZIONI CORE
 # ============================================================================
 
@@ -217,7 +235,7 @@ def scrape_category(
     probe = fetch_query(session, category_id)
     if probe is None:
         print(f"    ❌ Impossibile contattare Algolia per {category_name}")
-        return []
+        raise ScrapeIncompleteError([category_name])
 
     nb_hits = probe.get("nbHits", 0)
     print(f"    📊 {nb_hits} prodotti totali")
@@ -234,18 +252,24 @@ def scrape_category(
 
     # Query 1: disponibili
     r_avail = fetch_query(session, category_id, FILTER_AVAILABLE)
-    n_avail = r_avail.get("nbHits", 0) if r_avail else 0
+    if r_avail is None:
+        print(f"    ❌ Query 'disponibili' fallita per {category_name}")
+        raise ScrapeIncompleteError([category_name])
+    n_avail = r_avail.get("nbHits", 0)
     products_avail = [parse_hit(h, category_name, console_group)
-                      for h in (r_avail.get("hits", []) if r_avail else [])]
+                      for h in r_avail.get("hits", [])]
     print(f"      → disponibili: {n_avail} prodotti")
 
     time.sleep(REQUEST_PAUSE)
 
     # Query 2: esauriti
     r_unavail = fetch_query(session, category_id, FILTER_UNAVAILABLE)
-    n_unavail = r_unavail.get("nbHits", 0) if r_unavail else 0
+    if r_unavail is None:
+        print(f"    ❌ Query 'esauriti' fallita per {category_name}")
+        raise ScrapeIncompleteError([category_name])
+    n_unavail = r_unavail.get("nbHits", 0)
     products_unavail = [parse_hit(h, category_name, console_group)
-                        for h in (r_unavail.get("hits", []) if r_unavail else [])]
+                        for h in r_unavail.get("hits", [])]
     print(f"      → esauriti:    {n_unavail} prodotti")
 
     products = products_avail + products_unavail
@@ -265,6 +289,7 @@ def scrape_all_consoles() -> List[Dict]:
 
     start_time   = datetime.now()
     all_products = []
+    failed_cats  = []
     total_cats   = sum(len(cats) for cats in CONSOLES_TO_TRACK.values())
     processed    = 0
 
@@ -274,13 +299,17 @@ def scrape_all_consoles() -> List[Dict]:
             for cat in categories:
                 processed += 1
                 print(f"\n  [{processed}/{total_cats}]", end="")
-                products = scrape_category(
-                    session=session,
-                    category_name=cat["name"],
-                    category_id=cat["id"],
-                    console_group=console_group,
-                )
-                all_products.extend(products)
+                try:
+                    products = scrape_category(
+                        session=session,
+                        category_name=cat["name"],
+                        category_id=cat["id"],
+                        console_group=console_group,
+                    )
+                    all_products.extend(products)
+                except ScrapeIncompleteError as e:
+                    # Accumula e prosegui, così a fine ciclo abbiamo l'elenco completo
+                    failed_cats.extend(e.failed_categories)
                 if processed < total_cats:
                     time.sleep(REQUEST_PAUSE)
 
@@ -290,6 +319,12 @@ def scrape_all_consoles() -> List[Dict]:
     print(f"⏱️  Tempo: {elapsed:.1f} secondi")
     print(f"🎮 Prodotti totali: {len(all_products)}")
     print("=" * 60 + "\n")
+
+    # SAFETY GUARD: se anche una sola categoria è fallita, lo scraping è
+    # incompleto. Solleviamo l'eccezione per impedire che dati parziali
+    # sovrascrivano il dataset completo in database/dashboard.
+    if failed_cats:
+        raise ScrapeIncompleteError(failed_cats)
 
     return all_products
 
