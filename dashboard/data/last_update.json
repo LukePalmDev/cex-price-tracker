@@ -1,23 +1,36 @@
 {
-  "version": "20260602_205639",
-  "exported_at": "2026-06-02T20:56:39.898757",
-  "total_games": 2579,
+  "version": "20260602_234214",
+  "exported_at": "2026-06-02T23:42:14.225072",
+  "total_games": 13781,
   "statistics": {
-    "total_games": 2579,
-    "available_games": 1333,
-    "unavailable_games": 1246,
+    "total_games": 13781,
+    "available_games": 7445,
+    "unavailable_games": 6336,
     "by_console": {
+      "PS2": 1993,
+      "PS4": 1920,
       "Xbox 360": 1257,
+      "DS": 1254,
+      "PS3": 1252,
+      "Switch": 1144,
+      "Wii": 1120,
+      "PS5": 784,
       "Xbox One": 745,
-      "Xbox": 577
+      "PSP": 598,
+      "Xbox": 576,
+      "3DS": 403,
+      "GameCube": 257,
+      "Xbox CrossGen": 164,
+      "Wii U": 160,
+      "Xbox Series": 154
     },
-    "average_price": 9.18,
-    "last_update": "2026-06-02",
+    "average_price": 13.55,
+    "last_update": "2026-05-27",
     "daily_summary": {
-      "new_games": 10316,
-      "price_changes": 20,
-      "availability_changes": 4,
-      "unchanged": 0,
+      "new_games": 6433,
+      "price_changes": 56,
+      "availability_changes": 24,
+      "unchanged": 13340,
       "errors": 0
     }
   }
