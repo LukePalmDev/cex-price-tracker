@@ -161,6 +161,14 @@ main { max-width: 1600px; margin: 0 auto; padding: 20px 24px 40px; position: rel
 .console-wii  { color: var(--wii); }
 .console-sw   { color: var(--sw); }
 
+/* Griglia console: 8 per riga su desktop, card più compatte */
+#console-stats-grid { grid-template-columns: repeat(8, 1fr); gap: 10px; }
+#console-stats-grid .stat-card { padding: 12px 13px; }
+#console-stats-grid .stat-value { font-size: 18px !important; }
+@media (max-width: 1300px) { #console-stats-grid { grid-template-columns: repeat(6, 1fr); } }
+@media (max-width: 900px)  { #console-stats-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 560px)  { #console-stats-grid { grid-template-columns: repeat(2, 1fr); } }
+
 /* ── CHARTS ── */
 .charts-section {
   display: grid;
