@@ -49,7 +49,9 @@ ALGOLIA_API_KEY  = os.environ.get("ALGOLIA_API_KEY", "")
 ALGOLIA_INDEX    = "prod_cex_it_box_name_asc"
 
 HITS_PER_PAGE = 1000   # massimo per query
-REQUEST_PAUSE = 0.3    # secondi tra richieste
+REQUEST_PAUSE = 1.0    # secondi tra richieste (più prudente per evitare blocchi Cloudflare)
+MAX_RETRIES   = 4      # tentativi per singola richiesta in caso di risposta vuota/errore
+RETRY_BACKOFF = 2.0    # secondi di attesa iniziale tra retry (cresce: 2s, 4s, 8s...)
 
 HEADERS = {
     "Content-Type": "application/json",
@@ -182,13 +184,23 @@ def fetch_query(
         "-d", json.dumps(payload)
     ]
 
-    try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=20, check=True)
-        resp_data = json.loads(result.stdout)
-        return resp_data["results"][0]
-    except Exception as e:
-        print(f"    ❌ Errore curl: {e}")
-        return None
+    # Retry con backoff esponenziale: Cloudflare può bloccare richieste
+    # ravvicinate restituendo un corpo vuoto. Riproviamo prima di arrenderci.
+    last_err = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=20, check=True)
+            resp_data = json.loads(result.stdout)
+            return resp_data["results"][0]
+        except Exception as e:
+            last_err = e
+            if attempt < MAX_RETRIES:
+                wait = RETRY_BACKOFF * (2 ** (attempt - 1))
+                print(f"    ⏳ Tentativo {attempt}/{MAX_RETRIES} fallito ({e}); riprovo tra {wait:.0f}s...")
+                time.sleep(wait)
+
+    print(f"    ❌ Errore curl dopo {MAX_RETRIES} tentativi: {last_err}")
+    return None
 
 
 def parse_hit(hit: Dict, platform: str, console_group: str) -> Dict:
