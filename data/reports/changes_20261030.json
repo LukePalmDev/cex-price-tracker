@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-10-30T04:06:13.327605",
+    "generated_at": "2026-10-30T12:21:44.807400",
     "date": "2026-10-30",
-    "duration_sec": 54.6,
-    "total_scraped": 13603
+    "duration_sec": 56.9,
+    "total_scraped": 27207
   },
   "summary": {
-    "new_games": 13574,
-    "price_changes": 22,
-    "availability_changes": 3,
-    "unchanged": 4,
+    "new_games": 27149,
+    "price_changes": 44,
+    "availability_changes": 6,
+    "unchanged": 8,
     "errors": 0
   },
   "new_games": [
@@ -81456,6 +81456,12 @@
       "title": "Zombie Army Trilogy",
       "console": "Switch",
       "price": 22
+    },
+    {
+      "game_id": 13575,
+      "title": "Zombie Army Trilogy",
+      "console": "Switch",
+      "price": 22
     }
   ],
   "price_changes": [
@@ -81634,6 +81640,182 @@
       "new_price": 40,
       "old_price": 52.0,
       "variation_pct": -23.08
+    },
+    {
+      "game_id": 460,
+      "title": "Spartan Total Warrior",
+      "console": "Xbox",
+      "new_price": 3.5,
+      "old_price": 8.0,
+      "variation_pct": -56.25
+    },
+    {
+      "game_id": 1252,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 875,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_price": 15,
+      "old_price": 20.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1216,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 1252,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1352,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 2738,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_price": 45,
+      "old_price": 28.0,
+      "variation_pct": 60.71
+    },
+    {
+      "game_id": 3807,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 15.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 3017,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 1,
+      "old_price": 2.5,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 3081,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 22,
+      "old_price": 28.0,
+      "variation_pct": -21.43
+    },
+    {
+      "game_id": 3240,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 30.0,
+      "variation_pct": -80.0
+    },
+    {
+      "game_id": 4549,
+      "title": "Prince of Persia Trilogy",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 3640,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 4810,
+      "title": "Warriors, The",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 4938,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5369,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 2.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 5488,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 40.0,
+      "variation_pct": -30.0
+    },
+    {
+      "game_id": 6020,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 65,
+      "old_price": 75.0,
+      "variation_pct": -13.33
+    },
+    {
+      "game_id": 5642,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6499,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6937,
+      "title": "Dungeons 2",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13043,
+      "title": "Xenoblade Chronicles 2",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 52.0,
+      "variation_pct": -23.08
     }
   ],
   "availability_changes": [
@@ -81751,6 +81933,125 @@
     },
     {
       "game_id": 13041,
+      "title": "Xenoblade Chronicles 2",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 875,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1216,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1252,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1352,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2738,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3017,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3240,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3479,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3640,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3830,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4938,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5369,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5488,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5642,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6937,
+      "title": "Dungeons 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10844,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13043,
       "title": "Xenoblade Chronicles 2",
       "console": "Switch",
       "new_status": "Esaurito",
