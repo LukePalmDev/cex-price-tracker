@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-01T03:59:39.654055",
+    "generated_at": "2026-11-01T12:52:10.668174",
     "date": "2026-11-01",
-    "duration_sec": 61.0,
-    "total_scraped": 13610
+    "duration_sec": 61.1,
+    "total_scraped": 27227
   },
   "summary": {
-    "new_games": 13581,
-    "price_changes": 22,
-    "availability_changes": 2,
-    "unchanged": 5,
+    "new_games": 27169,
+    "price_changes": 44,
+    "availability_changes": 4,
+    "unchanged": 10,
     "errors": 0
   },
   "new_games": [
@@ -81498,6 +81498,48 @@
       "title": "Zombie Army Trilogy",
       "console": "Switch",
       "price": 22
+    },
+    {
+      "game_id": 13582,
+      "title": "Ys IX: Monstrum Nox",
+      "console": "Switch",
+      "price": 28
+    },
+    {
+      "game_id": 13583,
+      "title": "Ys Origin",
+      "console": "Switch",
+      "price": 18
+    },
+    {
+      "game_id": 13584,
+      "title": "Ys VIII: Lacrimosa Of Dana",
+      "console": "Switch",
+      "price": 40
+    },
+    {
+      "game_id": 13585,
+      "title": "Yu-Gi-Oh! Early Days Collection",
+      "console": "Switch",
+      "price": 38
+    },
+    {
+      "game_id": 13586,
+      "title": "Yurukill: The Calumniation Games",
+      "console": "Switch",
+      "price": 12
+    },
+    {
+      "game_id": 13587,
+      "title": "Zombie Army 4: Dead War (Senza DLC)",
+      "console": "Switch",
+      "price": 22
+    },
+    {
+      "game_id": 13588,
+      "title": "Zombie Army Trilogy",
+      "console": "Switch",
+      "price": 22
     }
   ],
   "price_changes": [
@@ -81676,6 +81718,182 @@
       "new_price": 40,
       "old_price": 52.0,
       "variation_pct": -23.08
+    },
+    {
+      "game_id": 460,
+      "title": "Spartan Total Warrior",
+      "console": "Xbox",
+      "new_price": 3.5,
+      "old_price": 8.0,
+      "variation_pct": -56.25
+    },
+    {
+      "game_id": 1252,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 2,
+      "old_price": 1.5,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 878,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_price": 15,
+      "old_price": 20.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 1216,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 1252,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 2.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 1352,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_price": 3,
+      "old_price": 5.0,
+      "variation_pct": -40.0
+    },
+    {
+      "game_id": 2739,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_price": 45,
+      "old_price": 28.0,
+      "variation_pct": 60.71
+    },
+    {
+      "game_id": 3797,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "new_price": 10,
+      "old_price": 15.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 3019,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_price": 1,
+      "old_price": 2.5,
+      "variation_pct": -60.0
+    },
+    {
+      "game_id": 3084,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_price": 22,
+      "old_price": 28.0,
+      "variation_pct": -21.43
+    },
+    {
+      "game_id": 3242,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_price": 6,
+      "old_price": 30.0,
+      "variation_pct": -80.0
+    },
+    {
+      "game_id": 4560,
+      "title": "Prince of Persia Trilogy",
+      "console": "PS2",
+      "new_price": 12,
+      "old_price": 8.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 3633,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 4826,
+      "title": "Warriors, The",
+      "console": "PS2",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 4955,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5384,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 2.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 5504,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 40.0,
+      "variation_pct": -30.0
+    },
+    {
+      "game_id": 6035,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "new_price": 65,
+      "old_price": 75.0,
+      "variation_pct": -13.33
+    },
+    {
+      "game_id": 5658,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6516,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6962,
+      "title": "Dungeons 2",
+      "console": "PS4",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13055,
+      "title": "Xenoblade Chronicles 2",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 52.0,
+      "variation_pct": -23.08
     }
   ],
   "availability_changes": [
@@ -81793,6 +82011,125 @@
     },
     {
       "game_id": 13050,
+      "title": "Xenoblade Chronicles 2",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 878,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1216,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1252,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1352,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2739,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3019,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3084,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3242,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3475,
+      "title": "Max Payne",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3633,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3819,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4955,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5384,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5504,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5658,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6962,
+      "title": "Dungeons 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13055,
       "title": "Xenoblade Chronicles 2",
       "console": "Switch",
       "new_status": "Esaurito",
