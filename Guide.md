@@ -35,7 +35,7 @@ Documentazione tecnica di riferimento per la dashboard web e l'intero sistema di
 | Scraping engine | Python + Algolia Search API (no Selenium) |
 | Database | SQLite (`data/current/games.db`) |
 | Automazione | GitHub Actions (3 workflow) |
-| Hosting dashboard | GitHub Pages (`/dashboard` folder come source) |
+| Hosting dashboard | GitHub Pages (root del branch `main`, file `CNAME`) |
 
 ### Dipendenze esterne (CDN)
 
@@ -649,7 +649,7 @@ python scripts/wishlist_api_server.py \
 Aprire la dashboard con il parametro `?api=`:
 
 ```
-http://127.0.0.1:5500/dashboard/index.html?api=http://127.0.0.1:8787
+http://127.0.0.1:5500/index.html?api=http://127.0.0.1:8787
 ```
 
 Quando il parametro `api` è presente nell'URL, la dashboard usa il server locale per leggere/scrivere la wishlist invece di `localStorage`.

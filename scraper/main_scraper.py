@@ -72,6 +72,7 @@ def normalize_product(product: dict) -> dict:
         "out_of_stock_stores": product.get("OutOfStock", []),
         "is_available":        bool(product.get("Buyable", False)),
         "url":                 product.get("URL", ""),
+        "box_id":              str(product.get("ID") or "").strip(),
     }
 
 
@@ -142,11 +143,8 @@ def main() -> int:
             if not game_data["title"]:
                 continue
 
-            # Leggi stato precedente PRIMA dell'upsert (per ChangesAnalyzer)
-            existing = db.get_game_by_title_console(
-                game_data["title"], game_data["console"]
-            ) if hasattr(db, "get_game_by_title_console") else None
-
+            # Stato precedente sullo stesso SKU (box_id), prima dell'upsert.
+            existing = db.get_existing_game(game_data)
             old_price = existing["current_price"] if existing else None
             old_avail = existing["is_available"]  if existing else None
 
@@ -193,11 +191,7 @@ def main() -> int:
             with open(report_path, "r", encoding="utf-8") as f:
                 existing = json.load(f)
             ex_sum = existing.get("summary", {})
-            # Somma contatori nel summary
-            report["summary"]["new_games"]            += ex_sum.get("new_games", 0)
-            report["summary"]["price_changes"]        += ex_sum.get("price_changes", 0)
-            report["summary"]["availability_changes"] += ex_sum.get("availability_changes", 0)
-            report["summary"]["unchanged"]            += ex_sum.get("unchanged", 0)
+            report["summary"]["unchanged"] += ex_sum.get("unchanged", 0)
             # Somma total_scraped nel metadata
             report["metadata"]["total_scraped"]       += existing.get("metadata", {}).get("total_scraped", 0)
             # Accumula array: nuovi giochi (deduplicati per game_id)
@@ -209,6 +203,12 @@ def main() -> int:
             report["price_changes"]        = existing.get("price_changes", []) + report["price_changes"]
             report["availability_changes"] = existing.get("availability_changes", []) + report["availability_changes"]
             report["errors"]               = existing.get("errors", []) + report["errors"]
+            # I contatori sommati contavano due volte i nuovi giochi (array deduplicato,
+            # summary no). La lunghezza delle liste è la fonte unica.
+            report["summary"]["new_games"] = len(report["new_games"])
+            report["summary"]["price_changes"] = len(report["price_changes"])
+            report["summary"]["availability_changes"] = len(report["availability_changes"])
+            report["summary"]["errors"] = len(report["errors"])
             print(f"📎 Report accumulato con dati del run precedente")
         except Exception as acc_err:
             print(f"⚠️  Accumulo report fallito (si usa solo il nuovo): {acc_err}")

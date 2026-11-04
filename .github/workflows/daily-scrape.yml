@@ -40,7 +40,14 @@ jobs:
       - name: 💾 Download current database
         run: |
           mkdir -p data/current
-          gh release download database -p "games.db" --clobber || echo "Nessun database trovato nella release, verrà creato uno nuovo"
+          # gh scarica nella cwd se non si passa --dir. Senza --dir il file
+          # finiva nella root del repo e lo scraper ricreava un DB vuoto a
+          # ogni run (niente storico, tutto segnato come "nuovo").
+          if gh release view database >/dev/null 2>&1; then
+            gh release download database --pattern "games.db" --clobber --dir data/current
+          else
+            echo "Nessuna release 'database': ne verrà creata una nuova"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
