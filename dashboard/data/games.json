@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-11-04T19:21:22.910571",
+    "exported_at": "2026-11-04T23:32:09.954520",
     "total_games": 13765,
-    "version": "20261104_192122",
+    "version": "20261104_233209",
     "statistics": {
       "total_games": 13765,
-      "available_games": 7838,
-      "unavailable_games": 5927,
+      "available_games": 7839,
+      "unavailable_games": 5926,
       "by_console": {
         "PS2": 2034,
         "PS4": 1744,
@@ -30,16 +30,16 @@
       "daily_summary": {
         "new_games": 13765,
         "price_changes": 44,
-        "availability_changes": 66,
-        "unchanged": 13572,
+        "availability_changes": 67,
+        "unchanged": 27336,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 13765,
-    "available_games": 7838,
-    "unavailable_games": 5927,
+    "available_games": 7839,
+    "unavailable_games": 5926,
     "by_console": {
       "PS2": 2034,
       "PS4": 1744,
@@ -63,8 +63,8 @@
     "daily_summary": {
       "new_games": 13765,
       "price_changes": 44,
-      "availability_changes": 66,
-      "unchanged": 13572,
+      "availability_changes": 67,
+      "unchanged": 27336,
       "errors": 0
     }
   },
@@ -92942,6 +92942,7 @@
         "Gran Roma",
         "La Romanina",
         "The Wow Side",
+        "Le Corti Venete",
         "Merlata Bloom"
       ],
       "is_available": 0,
@@ -103565,8 +103566,8 @@
       "current_price": 58.0,
       "cash_price": 33.0,
       "exchange_price": 40.0,
-      "ecom_quantity": 0,
-      "collection_quantity": 0,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -103575,19 +103576,18 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
-        "Gran Roma",
         "La Romanina",
         "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
       ],
-      "is_available": 0,
+      "is_available": 1,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=711719611776",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-04",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-11-04",
       "image_url": null,
       "box_id": "711719611776",
       "price_history_30d": [
@@ -158174,7 +158174,6 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
-        "Gran Roma",
         "La Romanina",
         "The Wow Side",
         "Le Corti Venete",
@@ -206043,8 +206042,8 @@
       "current_price": 25.0,
       "cash_price": 7.0,
       "exchange_price": 12.0,
-      "ecom_quantity": 2,
-      "collection_quantity": 2,
+      "ecom_quantity": 1,
+      "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -206053,6 +206052,7 @@
         "Reggio Emilia San Pietro",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
       ],
@@ -235945,12 +235945,13 @@
       "current_price": 6.0,
       "cash_price": 2.0,
       "exchange_price": 3.0,
-      "ecom_quantity": 24,
-      "collection_quantity": 24,
+      "ecom_quantity": 23,
+      "collection_quantity": 23,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
+        "The Wow Side",
         "Merlata Bloom"
       ],
       "is_available": 1,
@@ -291448,8 +291449,8 @@
       "current_price": 3.0,
       "cash_price": 0.7,
       "exchange_price": 1.2,
-      "ecom_quantity": 12,
-      "collection_quantity": 12,
+      "ecom_quantity": 11,
+      "collection_quantity": 11,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -407751,8 +407752,8 @@
       "current_price": 5.0,
       "cash_price": 1.5,
       "exchange_price": 2.0,
-      "ecom_quantity": 9,
-      "collection_quantity": 9,
+      "ecom_quantity": 8,
+      "collection_quantity": 8,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
