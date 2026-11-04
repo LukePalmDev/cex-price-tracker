@@ -79,7 +79,7 @@ python scraper/main_scraper.py
 - **Settings → Pages**
 - Source: `Deploy from branch`
 - Branch: `main`
-- Folder: `/dashboard`
+- Folder: `/` (root del repository, dove stanno `index.html` e `CNAME`)
 
 ---
 
@@ -124,7 +124,7 @@ python scripts/wishlist_api_server.py --db data/current/games.db --host 127.0.0.
 2. Apri la dashboard con il parametro `api`:
 
 ```text
-http://127.0.0.1:5500/dashboard/index.html?api=http://127.0.0.1:8787
+http://127.0.0.1:5500/index.html?api=http://127.0.0.1:8787
 ```
 
 Da quel momento click su ★ legge/scrive nel DB (`wishlist`), quindi Telegram usa la stessa lista.

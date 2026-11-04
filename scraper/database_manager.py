@@ -58,14 +58,20 @@ class DatabaseManager:
                     last_price_change DATE,
                     last_availability_change DATE,
                     image_url TEXT,
-                    UNIQUE(title, console, category)
+                    box_id TEXT
                 )
             """)
 
-            # Migrazione schema legacy
-            self._migrate_games_table_if_needed(cursor)
-            # Aggiunta colonne nuove su DB esistenti
+            # Colonne aggiunte dopo la prima versione dello schema
             self._add_new_columns_if_missing(cursor)
+            self._backfill_box_id(cursor)
+            # Il vincolo UNIQUE(title, console, category) fondeva SKU diversi
+            # con lo stesso nome e faceva oscillare il prezzo a ogni scrape.
+            self._migrate_games_table_if_needed(cursor)
+            cursor.execute(
+                "CREATE UNIQUE INDEX IF NOT EXISTS idx_games_box_id "
+                "ON games(box_id) WHERE box_id IS NOT NULL AND box_id != ''"
+            )
 
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_games_console ON games(console)")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_games_price ON games(current_price)")
@@ -126,61 +132,53 @@ class DatabaseManager:
 
     def clean_duplicates(self) -> int:
         """
-        Identifica ed elimina i record duplicati (stesso titolo e stessa console).
-        Mantiene solo il record con il prezzo corrente più alto (current_price DESC).
-        Se i prezzi sono identici, mantiene quello aggiornato più di recente.
+        Elimina le righe che condividono lo stesso box_id (lo stesso SKU).
+        Tiene la riga aggiornata più di recente. Titoli uguali con box_id
+        diversi restano: sono prodotti distinti.
         """
         print("🧹 Avvio verifica e pulizia duplicati nel database...")
         deleted_count = 0
-        
-        # Trova i titoli e console che hanno duplicati
+
         with self.get_connection() as conn:
             cursor = conn.cursor()
+            cursor.execute("PRAGMA table_info(games)")
+            columns = {row["name"] for row in cursor.fetchall()}
+            if "box_id" not in columns:
+                print("   ✅ Nessun box_id da deduplicare.")
+                return 0
+
             cursor.execute("""
-                SELECT title, console, COUNT(*) as cnt
+                SELECT box_id, COUNT(*) AS cnt
                 FROM games
-                GROUP BY title, console
+                WHERE box_id IS NOT NULL AND box_id != ''
+                GROUP BY box_id
                 HAVING COUNT(*) > 1
             """)
             duplicates = cursor.fetchall()
-            
+
             if not duplicates:
-                print("   ✅ Nessun titolo duplicato trovato nel database.")
+                print("   ✅ Nessuno SKU duplicato trovato nel database.")
                 return 0
-                
-            print(f"   ⚠️  Trovati {len(duplicates)} titoli duplicati. Rimozione copie con prezzo inferiore...")
-            
+
+            print(f"   ⚠️  Trovati {len(duplicates)} SKU duplicati. Rimozione copie più vecchie...")
+
             for row in duplicates:
-                title = row['title']
-                console = row['console']
-                
-                # Ottiene tutti i record per questo specifico duplicato, ordinati
-                # per prezzo decrescente, data aggiornamento decrescente ed ID decrescente.
                 cursor.execute("""
-                    SELECT id, current_price, last_updated, category
+                    SELECT id
                     FROM games
-                    WHERE title = ? AND console = ?
-                    ORDER BY current_price DESC, last_updated DESC, id DESC
-                """, (title, console))
+                    WHERE box_id = ?
+                    ORDER BY last_updated DESC, id DESC
+                """, (row["box_id"],))
                 records = cursor.fetchall()
-                
-                if len(records) <= 1:
-                    continue
-                
-                # Il primo record è il "winner" (prezzo più alto / aggiornato più di recente)
-                winner_id = records[0]['id']
-                to_delete = records[1:]
-                
-                for r in to_delete:
-                    gid = r['id']
-                    # Rimuove in cascata per sicurezza da tutte le tabelle correlate
+                for extra in records[1:]:
+                    gid = extra["id"]
                     cursor.execute("DELETE FROM wishlist WHERE game_id = ?", (gid,))
                     cursor.execute("DELETE FROM price_history WHERE game_id = ?", (gid,))
                     cursor.execute("DELETE FROM availability_history WHERE game_id = ?", (gid,))
                     cursor.execute("DELETE FROM games WHERE id = ?", (gid,))
                     deleted_count += 1
-                    
-        print(f"   🧹 Pulizia completata: eliminati {deleted_count} record doppi non ottimali.")
+
+        print(f"   🧹 Pulizia completata: eliminati {deleted_count} SKU doppi.")
         return deleted_count
 
     def clean_oscillations(self) -> int:
@@ -262,6 +260,7 @@ class DatabaseManager:
             ("ecom_quantity",       "INTEGER", "0"),
             ("collection_quantity", "INTEGER", "0"),
             ("out_of_stock_stores", "TEXT",    "'[]'"),
+            ("box_id",              "TEXT",    "NULL"),
         ]
         for col_name, col_type, default in new_cols:
             if col_name not in existing_cols:
@@ -270,35 +269,46 @@ class DatabaseManager:
                 )
                 print(f"   ✅ Colonna aggiunta: games.{col_name}")
 
+    def _backfill_box_id(self, cursor):
+        """Ricava box_id dall'URL prodotto (`?id=`) quando la colonna è vuota."""
+        cursor.execute("PRAGMA table_info(games)")
+        columns = {row["name"] for row in cursor.fetchall()}
+        if "box_id" not in columns or "url" not in columns:
+            return
+        cursor.execute("""
+            UPDATE games
+            SET box_id = substr(url, instr(url, 'id=') + 3)
+            WHERE (box_id IS NULL OR box_id = '')
+              AND url IS NOT NULL
+              AND instr(url, 'id=') > 0
+        """)
+
     def _migrate_games_table_if_needed(self, cursor):
-        """Aggiorna la tabella games al vincolo UNIQUE(title, console, category)."""
+        """
+        Ricostruisce games se esiste ancora un UNIQUE su titolo/console.
+
+        Due SKU con lo stesso titolo (edizioni diverse) devono restare righe
+        distinte, identificate da box_id.
+        """
         cursor.execute("PRAGMA table_info(games)")
         columns = cursor.fetchall()
         if not columns:
             return
 
-        category_info = next((c for c in columns if c['name'] == 'category'), None)
-        category_not_null = bool(category_info and category_info['notnull'])
-
-        has_target_unique = False
-        has_legacy_unique = False
-
+        legacy_unique = False
         cursor.execute("PRAGMA index_list(games)")
         for idx in cursor.fetchall():
-            if not idx['unique']:
+            if not idx["unique"]:
                 continue
-            idx_name = idx['name']
-            cursor.execute(f"PRAGMA index_info('{idx_name}')")
-            idx_cols = [row['name'] for row in cursor.fetchall()]
-            if idx_cols == ['title', 'console', 'category']:
-                has_target_unique = True
-            elif idx_cols == ['title', 'console']:
-                has_legacy_unique = True
+            cursor.execute(f"PRAGMA index_info('{idx['name']}')")
+            idx_cols = [row["name"] for row in cursor.fetchall()]
+            if idx_cols in (["title", "console"], ["title", "console", "category"]):
+                legacy_unique = True
 
-        if has_target_unique and category_not_null and not has_legacy_unique:
+        if not legacy_unique:
             return
 
-        print("🔄 Migrazione tabella games: UNIQUE(title, console, category)")
+        print("🔄 Migrazione tabella games: identità per box_id, non per titolo")
         cursor.execute("PRAGMA foreign_keys = OFF")
         cursor.execute("""
             CREATE TABLE games_new (
@@ -320,26 +330,56 @@ class DatabaseManager:
                 last_price_change DATE,
                 last_availability_change DATE,
                 image_url TEXT,
-                UNIQUE(title, console, category)
+                box_id TEXT
             )
         """)
         cursor.execute("""
             INSERT INTO games_new (
-                id, title, console, category, current_price, is_available,
-                condition, url, first_seen, last_updated,
-                last_price_change, last_availability_change, image_url
+                id, title, console, category, current_price,
+                cash_price, exchange_price, ecom_quantity, collection_quantity,
+                out_of_stock_stores, is_available, condition, url,
+                first_seen, last_updated, last_price_change, last_availability_change,
+                image_url, box_id
             )
             SELECT
                 id, title, console, COALESCE(NULLIF(category, ''), console),
-                current_price, is_available, condition, url, first_seen, last_updated,
-                last_price_change, last_availability_change, image_url
+                current_price, cash_price, exchange_price, ecom_quantity, collection_quantity,
+                out_of_stock_stores, is_available, condition, url,
+                first_seen, last_updated, last_price_change, last_availability_change,
+                image_url, NULLIF(box_id, '')
             FROM games
-            ORDER BY id
+            WHERE id IN (
+                SELECT MAX(id) FROM games
+                GROUP BY CASE
+                    WHEN box_id IS NOT NULL AND box_id != '' THEN 'b:' || box_id
+                    ELSE 'i:' || id
+                END
+            )
         """)
         cursor.execute("DROP TABLE games")
         cursor.execute("ALTER TABLE games_new RENAME TO games")
         cursor.execute("PRAGMA foreign_keys = ON")
         print("✅ Migrazione games completata")
+
+    def _lookup_clause(self, game_data: Dict) -> Tuple[str, tuple]:
+        """Predicato di identità: box_id se c'è, altrimenti titolo+console+categoria."""
+        box_id = (game_data.get("box_id") or "").strip()
+        if box_id:
+            return "box_id = ?", (box_id,)
+        category = (game_data.get("category") or game_data.get("console") or "").strip()
+        return (
+            "title = ? AND console = ? AND category = ?",
+            (game_data.get("title"), game_data.get("console"), category),
+        )
+
+    def get_existing_game(self, game_data: Dict) -> Optional[Dict]:
+        """Ritorna la riga già presente per questo SKU, se esiste."""
+        clause, params = self._lookup_clause(game_data)
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(f"SELECT * FROM games WHERE {clause} LIMIT 1", params)
+            row = cursor.fetchone()
+            return dict(row) if row else None
 
     def upsert_game(self, game_data: Dict) -> Tuple[int, bool, bool]:
         """
@@ -358,11 +398,12 @@ class DatabaseManager:
             category = (game_data.get('category') or game_data.get('console') or '').strip()
             if not category:
                 raise ValueError("Campo 'category' mancante")
-            
-            # Controlla se il gioco esiste già
+            box_id = (game_data.get('box_id') or '').strip() or None
+
+            clause, params = self._lookup_clause(game_data)
             cursor.execute(
-                "SELECT id, current_price, is_available FROM games WHERE title = ? AND console = ? AND category = ?",
-                (game_data['title'], game_data['console'], category)
+                f"SELECT id, current_price, is_available FROM games WHERE {clause}",
+                params,
             )
             existing = cursor.fetchone()
             
@@ -405,6 +446,10 @@ class DatabaseManager:
                 # Aggiorna gioco (con nuovi campi)
                 cursor.execute("""
                     UPDATE games SET
+                        title                = ?,
+                        console              = ?,
+                        category             = ?,
+                        box_id               = ?,
                         current_price        = ?,
                         cash_price           = ?,
                         exchange_price       = ?,
@@ -412,7 +457,6 @@ class DatabaseManager:
                         collection_quantity  = ?,
                         out_of_stock_stores  = ?,
                         is_available         = ?,
-                        category             = ?,
                         condition            = ?,
                         url                  = ?,
                         image_url            = ?,
@@ -421,9 +465,10 @@ class DatabaseManager:
                         last_availability_change = CASE WHEN ? THEN ? ELSE last_availability_change END
                     WHERE id = ?
                 """, (
+                    game_data['title'], game_data['console'], category, box_id,
                     new_price, cash_price, exchange_price,
                     ecom_quantity, collection_quantity, out_of_stock_stores,
-                    new_availability, category,
+                    new_availability,
                     game_data.get('condition'), game_data.get('url'),
                     game_data.get('image_url'), today,
                     price_changed, today,
@@ -435,13 +480,13 @@ class DatabaseManager:
                 # Nuovo gioco - inserisci (con nuovi campi)
                 cursor.execute("""
                     INSERT INTO games (
-                        title, console, category, current_price,
+                        title, console, category, box_id, current_price,
                         cash_price, exchange_price, ecom_quantity, collection_quantity,
                         out_of_stock_stores,
                         is_available, condition, url, image_url, first_seen, last_updated
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (
-                    game_data['title'], game_data['console'], category,
+                    game_data['title'], game_data['console'], category, box_id,
                     game_data.get('current_price'),
                     cash_price, exchange_price, ecom_quantity, collection_quantity,
                     out_of_stock_stores,

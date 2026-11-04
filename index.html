@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CEX Price Tracker</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='2' fill='%23d4a373'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
@@ -74,13 +75,13 @@
   --modal-shadow:   rgba(0,0,0,0.5);
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: clip; }
 body {
   font-family: 'Outfit', sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 body::before {
   content: '';
@@ -246,7 +247,7 @@ select:focus { border-color: var(--amber); }
 .results-count { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted); white-space: nowrap; margin-left: auto; }
 
 /* ── TABLE ── */
-.table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 8px; overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
 thead th {
   background: var(--surface); padding: 10px 14px;
@@ -364,19 +365,41 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 ::-webkit-scrollbar-thumb { background: var(--dim); border-radius: 2px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
+button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+
 /* responsive */
 @media (max-width: 900px) {
-  .charts-section { grid-template-columns: 1fr; }
+  .charts-section { grid-template-columns: minmax(0, 1fr); }
   .chart-col-2, .chart-col-6 { grid-column: span 1; }
-  #wishlist-panel { width: 100%; }
+  .chart-card, .custom-legend, .legend-col { min-width: 0; }
+  #wishlist-panel { top: 0; left: 0; right: 0; width: auto; }
+  .modal-stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  header { height: auto; min-height: 56px; flex-wrap: wrap; padding: 8px 12px; gap: 8px; }
+  .header-pills { order: 3; flex: 1 1 100%; overflow-x: auto; }
+  .logo { font-size: 13px; }
+  main { padding: 16px 12px 32px; }
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { min-width: 720px; }
+  .td-title { max-width: 180px; }
+  .change-title { max-width: 46vw; }
+  .export-bar { flex-wrap: wrap; }
+  .btn-wl-toggle { margin-left: 0; }
+  .search-wrap input { font-size: 16px; }
+  .filters-bar { padding: 12px; }
+  .chart-wrap { height: 220px; }
 }
 </style>
 </head>
 <body>
 
 <!-- LOADING -->
-<div id="loading">
-  <div class="loader-ring"></div>
+<div id="loading" role="status" aria-live="polite">
+  <div class="loader-ring" aria-hidden="true"></div>
   <div class="loader-text" id="loading-msg">Caricamento dati da GitHub...</div>
 </div>
 
@@ -397,7 +420,7 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 <div id="wishlist-panel">
   <div class="wl-header">
     <span class="wl-title">★ Wishlist</span>
-    <button class="wl-close" onclick="toggleWishlist()">✕</button>
+    <button class="wl-close" onclick="toggleWishlist()" aria-label="Chiudi wishlist">✕</button>
   </div>
   <div class="wl-body" id="wl-body">
     <div class="wl-empty">Nessun gioco in wishlist.<br>Clicca ★ nella tabella per aggiungere.</div>
@@ -406,18 +429,18 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 
 <!-- PRICE HISTORY MODAL -->
 <div class="modal-backdrop" id="modal-backdrop" onclick="closeModal(event)">
-  <div class="modal">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal-header">
       <div>
         <div class="modal-title" id="modal-title">–</div>
         <div class="modal-sub" id="modal-sub">–</div>
       </div>
-      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+      <button class="modal-close" onclick="closeModalDirect()" aria-label="Chiudi scheda">✕</button>
     </div>
     <div class="modal-body">
       <div class="modal-stats-row" id="modal-stats"></div>
       <div class="modal-chart-wrap">
-        <canvas id="modal-chart"></canvas>
+        <canvas id="modal-chart" aria-label="Storico prezzo"></canvas>
       </div>
       <table class="history-table" id="modal-table">
         <thead><tr>
@@ -452,7 +475,7 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
     <div class="stat-card">
       <div class="stat-label">Nuovi nel DB Oggi</div>
       <div class="stat-value" id="s-new-games">–</div>
-      <div class="stat-sub">aggiunti oggi</div>
+      <div class="stat-sub" id="s-new-games-sub">aggiunti oggi</div>
     </div>
   </div>
 
@@ -463,7 +486,7 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
   <div class="charts-section">
     <div class="chart-card chart-col-2" style="display: flex; flex-direction: column;">
       <div class="chart-title">Distribuzione Console</div>
-      <div class="chart-wrap" style="height: 120px; flex-shrink: 0;"><canvas id="donut-chart"></canvas></div>
+      <div class="chart-wrap" style="height: 120px; flex-shrink: 0;"><canvas id="donut-chart" aria-label="Distribuzione per console"></canvas></div>
       <div class="custom-legend" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; border-top: 1px solid var(--border); padding-top: 10px; flex-grow: 1;">
         <div class="legend-col" id="legend-col-1" style="display: flex; flex-direction: column; gap: 5px;"></div>
         <div class="legend-col" id="legend-col-2" style="display: flex; flex-direction: column; gap: 5px;"></div>
@@ -471,7 +494,7 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
     </div>
     <div class="chart-card chart-col-6">
       <div class="chart-title">Disponibilità per Console</div>
-      <div class="chart-wrap"><canvas id="bar-chart"></canvas></div>
+      <div class="chart-wrap"><canvas id="bar-chart" aria-label="Disponibilità per console"></canvas></div>
     </div>
 
     <!-- riga 2: 4 card eventi giornalieri (2u ciascuna = 8u) -->
@@ -512,9 +535,9 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
   <div class="filters-bar">
     <div class="search-wrap">
       <span class="search-icon">⌕</span>
-      <input type="text" id="search-input" placeholder="Cerca titolo..." oninput="applyFilters()">
+      <input type="text" id="search-input" placeholder="Cerca titolo..." aria-label="Cerca titolo" oninput="applyFilters()">
     </div>
-    <select id="filter-console" onchange="applyFilters()">
+    <select id="filter-console" aria-label="Filtra per console" onchange="applyFilters()">
       <option value="">Tutte le console</option>
       <optgroup label="Xbox">
         <option value="Xbox">Xbox</option>
@@ -539,17 +562,17 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
         <option value="Switch">Switch</option>
       </optgroup>
     </select>
-    <select id="filter-avail" onchange="applyFilters()">
+    <select id="filter-avail" aria-label="Filtra per disponibilità" onchange="applyFilters()">
       <option value="">Tutti</option>
       <option value="1">Solo disponibili</option>
       <option value="0">Non disponibili</option>
     </select>
-    <select id="filter-trend" onchange="applyFilters()">
+    <select id="filter-trend" aria-label="Filtra per trend" onchange="applyFilters()">
       <option value="">Qualsiasi trend</option>
       <option value="down">↓ Prezzo sceso</option>
       <option value="up">↑ Prezzo salito</option>
     </select>
-    <select id="filter-store" onchange="applyFilters()">
+    <select id="filter-store" aria-label="Filtra per negozio" onchange="applyFilters()">
       <option value="">Tutti i negozi</option>
       <option value="Bologna Amendola">B.A. – Bologna Amendola</option>
       <option value="Milano Viale Tunisia">M. – Milano</option>
@@ -570,14 +593,14 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
     <table>
       <thead>
         <tr>
-          <th onclick="sortBy('title')">Titolo <span class="sort-arrow" id="sort-title">↕</span></th>
-          <th onclick="sortBy('console')">Console <span class="sort-arrow" id="sort-console">↕</span></th>
-          <th onclick="sortBy('current_price')">Vendi <span class="sort-arrow" id="sort-price">↕</span></th>
-          <th>Cash</th>
-          <th>Voucher</th>
-          <th onclick="sortBy('price_trend_pct')">Trend <span class="sort-arrow" id="sort-trend">↕</span></th>
-          <th onclick="sortBy('is_available')">Stato <span class="sort-arrow" id="sort-avail">↕</span></th>
-          <th>Azioni</th>
+          <th scope="col" onclick="sortBy('title')">Titolo <span class="sort-arrow" id="sort-title">↕</span></th>
+          <th scope="col" onclick="sortBy('console')">Console <span class="sort-arrow" id="sort-console">↕</span></th>
+          <th scope="col" onclick="sortBy('current_price')">Vendi <span class="sort-arrow" id="sort-price">↕</span></th>
+          <th scope="col">Cash</th>
+          <th scope="col">Voucher</th>
+          <th scope="col" onclick="sortBy('price_trend_pct')">Trend <span class="sort-arrow" id="sort-trend">↕</span></th>
+          <th scope="col" onclick="sortBy('is_available')">Stato <span class="sort-arrow" id="sort-avail">↕</span></th>
+          <th scope="col">Azioni</th>
         </tr>
       </thead>
       <tbody id="game-tbody"></tbody>
@@ -590,6 +613,12 @@ tbody td { padding: 9px 14px; font-size: 12px; vertical-align: middle; }
 <script>
 // ─── HELPER: legge una CSS custom property da :root ─────────────────────────
 // Supporta sia '--nome-variabile' che 'var(--nome-variabile)' ed è eseguito lazy
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, ch => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  })[ch]);
+}
+
 const CSS = v => {
   if (!v) return '';
   let prop = v.trim();
@@ -815,7 +844,15 @@ async function loadData(force = false) {
     document.getElementById('s-changes').textContent       = (dailySummary?.price_changes || 0).toLocaleString();
     document.getElementById('s-changes-sub').textContent   = 'aggiornamenti prezzi';
     document.getElementById('s-back-in-stock').textContent = (reportData?.back_in_stock ?? 0).toLocaleString();
-    document.getElementById('s-new-games').textContent     = (dailySummary?.new_games || 0).toLocaleString();
+    const reportedNew = reportData?.new_games || [];
+    const rebuiltCatalog = Boolean(reportData?.rebuilt) || (allGames.length > 0 && reportedNew.length > allGames.length * 0.5);
+    if (rebuiltCatalog) {
+      document.getElementById('s-new-games').textContent = '–';
+      document.getElementById('s-new-games-sub').textContent = 'catalogo riallineato';
+    } else {
+      document.getElementById('s-new-games').textContent = (dailySummary?.new_games || reportedNew.length || 0).toLocaleString();
+      document.getElementById('s-new-games-sub').textContent = 'aggiunti oggi';
+    }
 
     applyFilters();
     updateWishlistUI();
@@ -873,17 +910,24 @@ function makeItem(cls, gameId, console_, title, priceStr) {
     game = allGames.find(g => g.title === title && g.console === console_);
   }
   const actualId = game ? game.id : gameId;
-  const click = actualId ? `onclick="openModal(${actualId}, '${title.replace(/'/g, "\\'")}', '${console_}')"` : '';
   const url = game ? game.url : `https://it.webuy.com/search?stext=${encodeURIComponent(title)}`;
-  
-  return `<div class="change-item ${cls}" ${click} style="cursor:pointer">
-    <span class="badge-console">${console_}</span>
-    <span class="change-title" title="${title}">
-      <a href="${url}" target="_blank" onclick="event.stopPropagation()" style="color:inherit; text-decoration:none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${title}</a>
+
+  return `<div class="change-item ${cls}" data-id="${Number(actualId) || ''}" data-title="${esc(title)}" data-console="${esc(console_)}" style="cursor:pointer">
+    <span class="badge-console">${esc(console_)}</span>
+    <span class="change-title" title="${esc(title)}">
+      <a href="${esc(url)}" target="_blank" rel="noopener" style="color:inherit; text-decoration:none;">${esc(title)}</a>
     </span>
     <span class="change-price">${priceStr}</span>
   </div>`;
 }
+
+document.addEventListener('click', (event) => {
+  const item = event.target.closest('.change-item');
+  if (!item || event.target.closest('a')) return;
+  const id = Number(item.dataset.id);
+  if (!id) return;
+  openModal(id, item.dataset.title, item.dataset.console);
+});
 
 async function loadChanges(dateStr) {
   const elNew   = document.getElementById('list-new-games');
@@ -898,7 +942,10 @@ async function loadChanges(dateStr) {
 
     // ── Card 1: Nuovi nel DB (giallo) ──────────────────────────────────────
     const newGames = report.new_games || [];
-    elNew.innerHTML = newGames.length
+    const rebuilt = allGames.length > 0 && newGames.length > allGames.length * 0.5;
+    elNew.innerHTML = rebuilt
+      ? '<div style="font-family:monospace;font-size:11px;color:var(--muted);padding:16px;text-align:center;">Catalogo riallineato oggi: questo elenco non è un set di novità.</div>'
+      : newGames.length
       ? newGames.slice(0, 80).map(g =>
           makeItem('ev-new', g.game_id, g.console, g.title,
             g.price != null ? `€${Number(g.price).toFixed(2)}` : '–')
@@ -997,7 +1044,12 @@ async function loadChanges(dateStr) {
     elDown.innerHTML = renderPrice(priceDown, 'ev-down');
     elUp.innerHTML   = renderPrice(priceUp,   'ev-up');
 
-    return { summary: report.summary || null, back_in_stock: backInStock };
+    return {
+      summary: report.summary || null,
+      back_in_stock: backInStock,
+      new_games: newGames,
+      rebuilt,
+    };
 
   } catch(e) {
     [elNew, elAvail, elDown, elUp].forEach(el => el.innerHTML = ERROR_MSG);
@@ -1229,11 +1281,11 @@ function renderTable() {
          </span>`
       : `<span class="badge-avail no">ESAURITO</span>`;
 
-    return `<tr onclick="openModal(${g.id})">
+    return `<tr onclick="openModal(${Number(g.id)})">
       <td class="td-title">
-        <a href="${g.url}" target="_blank" onclick="event.stopPropagation()">${g.title}</a>
+        <a href="${esc(g.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(g.title)}</a>
       </td>
-      <td class="td-console" style="color:${grp.color}">${g.console}</td>
+      <td class="td-console" style="color:${esc(grp.color)}">${esc(g.console)}</td>
       <td class="td-price">€${(g.current_price||0).toFixed(2)}</td>
       <td class="td-price-cash">${cashStr}</td>
       <td class="td-price-exch">${exchStr}</td>
@@ -1241,7 +1293,7 @@ function renderTable() {
       <td>${badgeAvail}</td>
       <td>
         <div style="display:flex;align-items:center;gap:6px;">
-          <button class="btn-star" onclick="toggleWL(event,${g.id})" title="${inWL?'Rimuovi da wishlist':'Aggiungi a wishlist'}">${inWL?'★':'☆'}</button>
+          <button class="btn-star" onclick="toggleWL(event,${Number(g.id)})" aria-label="${inWL?'Rimuovi da wishlist':'Aggiungi a wishlist'}">${inWL?'★':'☆'}</button>
           ${hasHistory ? `<button class="btn-history" onclick="event.stopPropagation();openModal(${g.id})">📈</button>` : ''}
         </div>
       </td>
@@ -1296,7 +1348,7 @@ function updateWishlistUI() {
   const wlGames = allGames.filter(g => wishlist.includes(g.id));
   body.innerHTML = wlGames.map(g => `
     <div class="wl-item">
-      <div class="wl-item-title">${g.title}</div>
+      <div class="wl-item-title">${esc(g.title)}</div>
       <div class="wl-item-meta">
         <span>${g.console}</span>
         <span class="wl-item-price">€${(g.current_price||0).toFixed(2)}</span>
@@ -1314,7 +1366,7 @@ function openModal(id, fallbackTitle, fallbackConsole) {
     game = allGames.find(g => g.title === fallbackTitle && g.console === fallbackConsole);
   }
   if (!game) return;
-  document.getElementById('modal-title').innerHTML   = `<a href="${game.url}" target="_blank" title="Apri su CEX" style="color:var(--text); text-decoration:none; transition:color .15s;" onmouseover="this.style.color='var(--amber)'" onmouseout="this.style.color='var(--text)'">${game.title} ↗</a>`;
+  document.getElementById('modal-title').innerHTML   = `<a href="${esc(game.url)}" target="_blank" rel="noopener" title="Apri su CEX">${esc(game.title)} ↗</a>`;
   document.getElementById('modal-sub').textContent   = `${game.console} · €${(game.current_price||0).toFixed(2)} · ${game.is_available ? '✅ Disponibile' : '❌ Esaurito'}`;
   const history = game.price_history_30d || [];
   const prices = history.map(h => h.new_price).concat([game.current_price]).filter(Boolean);

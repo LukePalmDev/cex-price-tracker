@@ -11,16 +11,14 @@ dividere in sottoinsiemi disgiunti che restano ognuno sotto 1000.
 
 STRATEGIA:
 - Categoria <= 1000 prodotti → 1 query sola
-- Categoria >  1000 prodotti → 2 query disgiunte:
-    query 1: disponibili  (inStockStore=1 OR inStockOnline=1)
-    query 2: esauriti     (inStockStore=0 AND inStockOnline=0)
-  Disponibili + esauriti = tutti i prodotti, senza sovrapposizioni.
-  Entrambi i subset sono sempre abbondantemente sotto 1000.
+- Categoria >  1000 prodotti → split ricorsivo su sellPrice
+  (i filtri disponibile/esaurito non bastano: alcuni sottoinsiemi
+  superano comunque 1000 e Algolia tronca i risultati in silenzio)
 
-Credenziali Algolia (pubbliche, estratte dal browser):
+Credenziali Algolia:
 - Endpoint:   https://search.webuy.io
 - App ID:     LNNFEEWZVA
-- API Key:    variabile d'ambiente ALGOLIA_API_KEY
+- API Key:    variabile d'ambiente ALGOLIA_API_KEY (secret GitHub Actions)
 
 Uso:
     from algolia_scraper import scrape_all_consoles
@@ -103,11 +101,6 @@ CONSOLES_TO_TRACK = {
     ],
 }
 
-# Filtri disponibilità
-FILTER_AVAILABLE   = "(inStockStore=1 OR inStockOnline=1)"
-FILTER_UNAVAILABLE = "(inStockStore=0 AND inStockOnline=0)"
-
-
 # ============================================================================
 # ECCEZIONI
 # ============================================================================
@@ -134,31 +127,28 @@ def fetch_query(
     session: requests.Session,
     category_id: int,
     extra_filter: str = "",
+    hits_per_page: int = HITS_PER_PAGE,
 ) -> Optional[Dict]:
     """
-    Esegue una singola richiesta POST ad Algolia tramite curl per bypassare il blocco Cloudflare.
+    Esegue una singola richiesta POST ad Algolia tramite curl.
 
-    Args:
-        session:      requests.Session (ignorato, mantenuto per compatibilità)
-        category_id:  ID categoria CEX
-        extra_filter: filtro aggiuntivo da appendere (es. disponibili/esauriti)
-
-    Returns:
-        Dict con i risultati Algolia, oppure None in caso di errore
+    La chiave resta negli header della richiesta e non viene scritta
+    nei messaggi di errore (l'eccezione di subprocess include gli argv).
+    `session` è ignorato e tenuto per compatibilità con i chiamanti.
     """
     if not ALGOLIA_API_KEY:
         raise EnvironmentError(
-            "ALGOLIA_API_KEY non trovata.\n"
-            "Esegui: export ALGOLIA_API_KEY=bf79f2b6699e60a18ae330a1248b452c"
+            "ALGOLIA_API_KEY non trovata. Impostala nell'ambiente "
+            "(su GitHub Actions: secret ALGOLIA_API_KEY)."
         )
 
     base_filter = f"boxVisibilityOnWeb=1 AND boxSaleAllowed=1 AND categoryId:{category_id}"
-    full_filter = f"{base_filter} AND {extra_filter}" if extra_filter else base_filter
+    full_filter = f"{base_filter} AND ({extra_filter})" if extra_filter else base_filter
 
     params_str = "&".join([
         f"attributesToRetrieve={','.join(ATTRIBUTES_TO_RETRIEVE)}",
         f"filters={full_filter}",
-        f"hitsPerPage={HITS_PER_PAGE}",
+        f"hitsPerPage={hits_per_page}",
         "query=",
     ])
 
@@ -166,22 +156,19 @@ def fetch_query(
         "requests": [{"indexName": ALGOLIA_INDEX, "params": params_str}]
     }
 
-    url = (
-        f"{ALGOLIA_ENDPOINT}"
-        f"?x-algolia-api-key={ALGOLIA_API_KEY}"
-        f"&x-algolia-application-id={ALGOLIA_APP_ID}"
-    )
-
     cmd = [
         "curl",
         "-s",
+        "--max-time", "20",
         "-X", "POST",
-        url,
+        ALGOLIA_ENDPOINT,
         "-H", "Content-Type: application/json",
         "-H", "Origin: https://it.webuy.com",
         "-H", "Referer: https://it.webuy.com/",
         "-H", "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "-d", json.dumps(payload)
+        "-H", f"X-Algolia-Application-Id: {ALGOLIA_APP_ID}",
+        "-H", f"X-Algolia-API-Key: {ALGOLIA_API_KEY}",
+        "-d", json.dumps(payload),
     ]
 
     # Retry con backoff esponenziale: Cloudflare può bloccare richieste
@@ -189,18 +176,130 @@ def fetch_query(
     last_err = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=20, check=True)
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=25, check=True)
+            if not result.stdout.strip():
+                raise ValueError("risposta vuota")
             resp_data = json.loads(result.stdout)
+            if "results" not in resp_data:
+                raise ValueError(resp_data.get("message") or "risposta Algolia senza risultati")
             return resp_data["results"][0]
-        except Exception as e:
-            last_err = e
-            if attempt < MAX_RETRIES:
-                wait = RETRY_BACKOFF * (2 ** (attempt - 1))
-                print(f"    ⏳ Tentativo {attempt}/{MAX_RETRIES} fallito ({e}); riprovo tra {wait:.0f}s...")
-                time.sleep(wait)
+        except subprocess.TimeoutExpired:
+            last_err = "timeout"
+        except subprocess.CalledProcessError as e:
+            last_err = f"curl exit {e.returncode}"
+        except json.JSONDecodeError:
+            last_err = "risposta non JSON"
+        except ValueError as e:
+            last_err = str(e)
+        if attempt < MAX_RETRIES:
+            wait = RETRY_BACKOFF * (2 ** (attempt - 1))
+            print(f"    ⏳ Tentativo {attempt}/{MAX_RETRIES} fallito ({last_err}); riprovo tra {wait:.0f}s...")
+            time.sleep(wait)
 
     print(f"    ❌ Errore curl dopo {MAX_RETRIES} tentativi: {last_err}")
     return None
+
+
+def _dedupe_hits(hits: List[Dict]) -> List[Dict]:
+    """Tiene un solo hit per boxId (l'ultimo visto)."""
+    by_id: Dict[str, Dict] = {}
+    order: List[str] = []
+    for hit in hits:
+        box_id = str(hit.get("boxId") or "")
+        key = box_id or f"anon:{len(order)}"
+        if key not in by_id:
+            order.append(key)
+        by_id[key] = hit
+    return [by_id[k] for k in order]
+
+
+def _price_pivot(session: requests.Session, category_id: int, extra_filter: str, total: int) -> Optional[float]:
+    """Trova un prezzo che spezza il risultato in due parti non vuote."""
+    lo, hi = 0.0, 2000.0
+    best = None
+    best_balance = None
+    for _ in range(14):
+        mid = round((lo + hi) / 2, 2)
+        if mid <= lo or mid >= hi:
+            break
+        clause = f"sellPrice < {mid:.2f}"
+        probe_filter = f"{extra_filter} AND {clause}" if extra_filter else clause
+        probe = fetch_query(session, category_id, probe_filter, hits_per_page=0)
+        if probe is None:
+            return best
+        left = int(probe.get("nbHits") or 0)
+        if 0 < left < total:
+            balance = abs(left - (total / 2))
+            if best is None or balance < best_balance:
+                best = mid
+                best_balance = balance
+            if left < total / 2:
+                lo = mid
+            else:
+                hi = mid
+            if left <= HITS_PER_PAGE and (total - left) <= HITS_PER_PAGE:
+                return mid
+        elif left == 0:
+            lo = mid
+        else:
+            hi = mid
+        time.sleep(0.25)
+    return best
+
+
+def fetch_all_hits(
+    session: requests.Session,
+    category_id: int,
+    extra_filter: str = "",
+    _depth: int = 0,
+) -> Optional[List[Dict]]:
+    """
+    Scarica tutti gli hit di un filtro, spezzando su sellPrice se superano
+    il limite Algolia di 1000. Ritorna None se una richiesta fallisce o lo
+    split non copre nbHits (così il chiamante può abortire senza perdere dati).
+    """
+    if _depth > 12:
+        print("    ❌ Split prezzo troppo profondo")
+        return None
+
+    result = fetch_query(session, category_id, extra_filter)
+    if result is None:
+        return None
+
+    total = int(result.get("nbHits") or 0)
+    hits = result.get("hits") or []
+    if total <= HITS_PER_PAGE:
+        if len(hits) < total:
+            print(f"    ❌ Risposta parziale: {len(hits)}/{total}")
+            return None
+        return hits
+
+    pivot = _price_pivot(session, category_id, extra_filter, total)
+    if pivot is None:
+        print(f"    ❌ Impossibile dividere {total} risultati (filtro: {extra_filter or 'tutti'})")
+        return None
+
+    print(f"    ↳ {total} > {HITS_PER_PAGE}, split su sellPrice {pivot:.2f}")
+    time.sleep(REQUEST_PAUSE)
+    left_filter = f"sellPrice < {pivot:.2f}"
+    right_filter = f"sellPrice >= {pivot:.2f}"
+    if extra_filter:
+        left_filter = f"{extra_filter} AND {left_filter}"
+        right_filter = f"{extra_filter} AND {right_filter}"
+
+    left = fetch_all_hits(session, category_id, left_filter, _depth + 1)
+    if left is None:
+        return None
+    time.sleep(REQUEST_PAUSE)
+    right = fetch_all_hits(session, category_id, right_filter, _depth + 1)
+    if right is None:
+        return None
+
+    merged = _dedupe_hits(left + right)
+    if len(merged) < total:
+        print(f"    ❌ Split incompleto: {len(merged)}/{total}")
+        return None
+    return merged
 
 
 def parse_hit(hit: Dict, platform: str, console_group: str) -> Dict:
@@ -234,59 +333,24 @@ def scrape_category(
     console_group: str,
 ) -> List[Dict]:
     """
-    Scarica TUTTI i prodotti di una categoria.
+    Scarica tutti i prodotti di una categoria.
 
-    Strategia automatica:
-    - <= 1000 prodotti → 1 query (tutti insieme)
-    - >  1000 prodotti → 2 query disgiunte: disponibili + esauriti
-      I due subset non si sovrappongono mai e restano sempre sotto 1000.
+    Sopra i 1000 risultati Algolia tronca la risposta: lo split ricorsivo
+    su sellPrice recupera il catalogo intero invece di perderne una coda.
     """
     print(f"\n  🔍 {category_name} (id={category_id})...")
 
-    # Sonda iniziale: quanti prodotti ci sono?
-    probe = fetch_query(session, category_id)
-    if probe is None:
-        print(f"    ❌ Impossibile contattare Algolia per {category_name}")
+    hits = fetch_all_hits(session, category_id)
+    if hits is None:
+        print(f"    ❌ Impossibile scaricare {category_name} per intero")
         raise ScrapeIncompleteError([category_name])
 
-    nb_hits = probe.get("nbHits", 0)
-    print(f"    📊 {nb_hits} prodotti totali")
-
-    # --- Categoria piccola: query unica ---
-    if nb_hits <= HITS_PER_PAGE:
-        products = [parse_hit(h, category_name, console_group) for h in probe.get("hits", [])]
-        print(f"    ✅ {len(products)} prodotti (query singola)")
-        return products
-
-    # --- Categoria grande: 2 query disgiunte ---
-    print(f"    ⚡ >1000 prodotti → 2 query (disponibili + esauriti)")
-    time.sleep(REQUEST_PAUSE)
-
-    # Query 1: disponibili
-    r_avail = fetch_query(session, category_id, FILTER_AVAILABLE)
-    if r_avail is None:
-        print(f"    ❌ Query 'disponibili' fallita per {category_name}")
-        raise ScrapeIncompleteError([category_name])
-    n_avail = r_avail.get("nbHits", 0)
-    products_avail = [parse_hit(h, category_name, console_group)
-                      for h in r_avail.get("hits", [])]
-    print(f"      → disponibili: {n_avail} prodotti")
-
-    time.sleep(REQUEST_PAUSE)
-
-    # Query 2: esauriti
-    r_unavail = fetch_query(session, category_id, FILTER_UNAVAILABLE)
-    if r_unavail is None:
-        print(f"    ❌ Query 'esauriti' fallita per {category_name}")
-        raise ScrapeIncompleteError([category_name])
-    n_unavail = r_unavail.get("nbHits", 0)
-    products_unavail = [parse_hit(h, category_name, console_group)
-                        for h in r_unavail.get("hits", [])]
-    print(f"      → esauriti:    {n_unavail} prodotti")
-
-    products = products_avail + products_unavail
-    print(f"    ✅ {len(products)}/{nb_hits} prodotti (attesi: {nb_hits})")
-
+    products = [parse_hit(h, category_name, console_group) for h in hits]
+    deduped = {}
+    for product in products:
+        deduped[product.get("ID") or id(product)] = product
+    products = list(deduped.values())
+    print(f"    ✅ {len(products)} prodotti")
     return products
 
 

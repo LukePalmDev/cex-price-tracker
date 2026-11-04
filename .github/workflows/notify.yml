@@ -31,7 +31,7 @@ jobs:
       - name: 💾 Download current database
         run: |
           mkdir -p data/current
-          gh release download database -p "games.db" --clobber
+          gh release download database --pattern "games.db" --clobber --dir data/current
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
