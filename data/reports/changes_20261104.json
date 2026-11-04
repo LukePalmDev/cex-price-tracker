@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-04T13:57:59.156970",
+    "generated_at": "2026-11-04T19:21:22.661908",
     "date": "2026-11-04",
-    "duration_sec": 72.4,
-    "total_scraped": 27246
+    "duration_sec": 200.2,
+    "total_scraped": 41011
   },
   "summary": {
-    "new_games": 27188,
+    "new_games": 13765,
     "price_changes": 44,
-    "availability_changes": 6,
-    "unchanged": 8,
+    "availability_changes": 66,
+    "unchanged": 13572,
     "errors": 0
   },
   "new_games": [
@@ -81576,6 +81576,1032 @@
       "title": "Zombie Army Trilogy",
       "console": "Switch",
       "price": 22
+    },
+    {
+      "game_id": 13595,
+      "title": "Spartan Total Warrior",
+      "console": "Xbox",
+      "price": 8
+    },
+    {
+      "game_id": 13596,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "price": 1.5
+    },
+    {
+      "game_id": 13597,
+      "title": "Table Tennis",
+      "console": "Xbox 360",
+      "price": 2
+    },
+    {
+      "game_id": 13598,
+      "title": "XBLA Compilation: GWRE, Bejeweled 2, etc",
+      "console": "Xbox 360",
+      "price": 5
+    },
+    {
+      "game_id": 13599,
+      "title": "Grande Avventura di Snoopy, La",
+      "console": "Xbox 360",
+      "price": 20
+    },
+    {
+      "game_id": 13600,
+      "title": "Sonic Unleashed",
+      "console": "Xbox 360",
+      "price": 20
+    },
+    {
+      "game_id": 13601,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "console": "Xbox CrossGen",
+      "price": 28
+    },
+    {
+      "game_id": 13602,
+      "title": "Billiards Xciting",
+      "console": "PS2",
+      "price": 2.5
+    },
+    {
+      "game_id": 13603,
+      "title": "Sprint Car Challenge",
+      "console": "PS2",
+      "price": 1
+    },
+    {
+      "game_id": 13604,
+      "title": "UFC Sudden Impact",
+      "console": "PS2",
+      "price": 3.5
+    },
+    {
+      "game_id": 13605,
+      "title": "UFC Throwdown",
+      "console": "PS2",
+      "price": 3
+    },
+    {
+      "game_id": 13606,
+      "title": "Ultimate Film Quiz - Il Grande Quiz Sul Cinema",
+      "console": "PS2",
+      "price": 2.5
+    },
+    {
+      "game_id": 13607,
+      "title": "Ultimate Music Quiz - Il Grande Quiz Sulla Musica",
+      "console": "PS2",
+      "price": 3.5
+    },
+    {
+      "game_id": 13608,
+      "title": "Ultimate Sport Quiz - Il Grande Quiz Sullo",
+      "console": "PS2",
+      "price": 1
+    },
+    {
+      "game_id": 13609,
+      "title": "Underworld: The Eternal War",
+      "console": "PS2",
+      "price": 3.5
+    },
+    {
+      "game_id": 13610,
+      "title": "Urban Extreme",
+      "console": "PS2",
+      "price": 2
+    },
+    {
+      "game_id": 13611,
+      "title": "Urbz Sims In The City",
+      "console": "PS2",
+      "price": 3
+    },
+    {
+      "game_id": 13612,
+      "title": "Video Poker",
+      "console": "PS2",
+      "price": 2.5
+    },
+    {
+      "game_id": 13613,
+      "title": "Volleyball Challenge",
+      "console": "PS2",
+      "price": 1
+    },
+    {
+      "game_id": 13614,
+      "title": "Volleyball Xciting",
+      "console": "PS2",
+      "price": 1
+    },
+    {
+      "game_id": 13615,
+      "title": "War Chess",
+      "console": "PS2",
+      "price": 2.5
+    },
+    {
+      "game_id": 13616,
+      "title": "Warrior Street",
+      "console": "PS2",
+      "price": 1
+    },
+    {
+      "game_id": 13617,
+      "title": "Wild Water Adrenaline",
+      "console": "PS2",
+      "price": 1
+    },
+    {
+      "game_id": 13618,
+      "title": "Winnie the Pooh - E Le Pance Brontolanti!",
+      "console": "PS2",
+      "price": 3
+    },
+    {
+      "game_id": 13619,
+      "title": "Winter sports 2008",
+      "console": "PS2",
+      "price": 1
+    },
+    {
+      "game_id": 13620,
+      "title": "World Championship Rugby",
+      "console": "PS2",
+      "price": 3
+    },
+    {
+      "game_id": 13621,
+      "title": "World Championship Snooker 2004",
+      "console": "PS2",
+      "price": 3.5
+    },
+    {
+      "game_id": 13622,
+      "title": "World Destruction League Thunder Tanks",
+      "console": "PS2",
+      "price": 3
+    },
+    {
+      "game_id": 13623,
+      "title": "World Destruction League: Warjetz",
+      "console": "PS2",
+      "price": 3
+    },
+    {
+      "game_id": 13624,
+      "title": "World Series Of Poker",
+      "console": "PS2",
+      "price": 1
+    },
+    {
+      "game_id": 13625,
+      "title": "World Series Of Poker 2007",
+      "console": "PS2",
+      "price": 2
+    },
+    {
+      "game_id": 13626,
+      "title": "World Snooker Championship 2005",
+      "console": "PS2",
+      "price": 2
+    },
+    {
+      "game_id": 13627,
+      "title": "World War 2: Tank Battles",
+      "console": "PS2",
+      "price": 3.5
+    },
+    {
+      "game_id": 13628,
+      "title": "WRC 3",
+      "console": "PS2",
+      "price": 3.5
+    },
+    {
+      "game_id": 13629,
+      "title": "WRC II Extreme",
+      "console": "PS2",
+      "price": 2
+    },
+    {
+      "game_id": 13630,
+      "title": "WRC World Rally Championship",
+      "console": "PS2",
+      "price": 3.5
+    },
+    {
+      "game_id": 13631,
+      "title": "WWE SmackDown vs Raw",
+      "console": "PS2",
+      "price": 2
+    },
+    {
+      "game_id": 13632,
+      "title": "WWI: Aces Of The Sky",
+      "console": "PS2",
+      "price": 3.5
+    },
+    {
+      "game_id": 13633,
+      "title": "WWII: Battle Over The Pacific",
+      "console": "PS2",
+      "price": 3
+    },
+    {
+      "game_id": 13634,
+      "title": "X-Men 2 - Wolverine's Revenge",
+      "console": "PS2",
+      "price": 2.5
+    },
+    {
+      "game_id": 13635,
+      "title": "X-Treme Express World Grand Prix",
+      "console": "PS2",
+      "price": 1.5
+    },
+    {
+      "game_id": 13636,
+      "title": "X-Treme Quads",
+      "console": "PS2",
+      "price": 1.5
+    },
+    {
+      "game_id": 13637,
+      "title": "XS Junior League Soccer",
+      "console": "PS2",
+      "price": 1.5
+    },
+    {
+      "game_id": 13638,
+      "title": "Xtreme Speed",
+      "console": "PS2",
+      "price": 1.5
+    },
+    {
+      "game_id": 13639,
+      "title": "Zapper",
+      "console": "PS2",
+      "price": 2.5
+    },
+    {
+      "game_id": 13640,
+      "title": "Ultimate Mind Games",
+      "console": "PS2",
+      "price": 4
+    },
+    {
+      "game_id": 13641,
+      "title": "V-Rally 3",
+      "console": "PS2",
+      "price": 4
+    },
+    {
+      "game_id": 13642,
+      "title": "Vegas Casino 2",
+      "console": "PS2",
+      "price": 4
+    },
+    {
+      "game_id": 13643,
+      "title": "World of Outlaws - Sprintcars",
+      "console": "PS2",
+      "price": 4
+    },
+    {
+      "game_id": 13644,
+      "title": "Wwe Smackdown Vs. Raw 2006",
+      "console": "PS2",
+      "price": 4
+    },
+    {
+      "game_id": 13645,
+      "title": "WWII: Soldier",
+      "console": "PS2",
+      "price": 4
+    },
+    {
+      "game_id": 13646,
+      "title": "Xyanide Resurrection",
+      "console": "PS2",
+      "price": 4
+    },
+    {
+      "game_id": 13647,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "price": 28
+    },
+    {
+      "game_id": 13648,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "price": 30
+    },
+    {
+      "game_id": 13649,
+      "title": "Max Payne",
+      "console": "PS2",
+      "price": 15
+    },
+    {
+      "game_id": 13650,
+      "title": "Prince of Persia Trilogy",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13651,
+      "title": "Project Minerva",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13652,
+      "title": "Psyvariar",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13653,
+      "title": "Soul Reaver 2",
+      "console": "PS2",
+      "price": 15
+    },
+    {
+      "game_id": 13654,
+      "title": "UEFA Euro 2004",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13655,
+      "title": "UEFA Euro 2008",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13656,
+      "title": "Ultimate Spider-Man",
+      "console": "PS2",
+      "price": 22
+    },
+    {
+      "game_id": 13657,
+      "title": "Unreal Tournament",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13658,
+      "title": "Urban Freestyle Soccer",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13659,
+      "title": "Valkyrie Profile 2: Silmeria",
+      "console": "PS2",
+      "price": 18
+    },
+    {
+      "game_id": 13660,
+      "title": "Vampire Night",
+      "console": "PS2",
+      "price": 15
+    },
+    {
+      "game_id": 13661,
+      "title": "Victorious Boxers 2: Fighting Spirits",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13662,
+      "title": "Viewtiful Joe",
+      "console": "PS2",
+      "price": 20
+    },
+    {
+      "game_id": 13663,
+      "title": "Virtua Cop Elite Edition",
+      "console": "PS2",
+      "price": 15
+    },
+    {
+      "game_id": 13664,
+      "title": "Virtua Fighter 4",
+      "console": "PS2",
+      "price": 10
+    },
+    {
+      "game_id": 13665,
+      "title": "Virtua fighter 4 evolution",
+      "console": "PS2",
+      "price": 12
+    },
+    {
+      "game_id": 13666,
+      "title": "Virtua Tennis 2",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13667,
+      "title": "Wacky Races - Le Nuove Avventure Di Dick Dastardly & Muttley",
+      "console": "PS2",
+      "price": 10
+    },
+    {
+      "game_id": 13668,
+      "title": "Wall - E",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13669,
+      "title": "War Of The Monsters",
+      "console": "PS2",
+      "price": 18
+    },
+    {
+      "game_id": 13670,
+      "title": "Warriors, The",
+      "console": "PS2",
+      "price": 28
+    },
+    {
+      "game_id": 13671,
+      "title": "Wipeout Fusion",
+      "console": "PS2",
+      "price": 10
+    },
+    {
+      "game_id": 13672,
+      "title": "World Racing",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13673,
+      "title": "Worms 3D",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13674,
+      "title": "Worms 4: Mayhem",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13675,
+      "title": "WRC 4 World Rally",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13676,
+      "title": "WRC Rally Evolved",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13677,
+      "title": "WWE All-Stars",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13678,
+      "title": "Wwe Smackdown - Just Bring it",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13679,
+      "title": "Wwe Smackdown Here Comes The Pain",
+      "console": "PS2",
+      "price": 15
+    },
+    {
+      "game_id": 13680,
+      "title": "WWE Smackdown VS Raw 2010",
+      "console": "PS2",
+      "price": 12
+    },
+    {
+      "game_id": 13681,
+      "title": "Wwe Smackdown Vs. Raw 2007",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13682,
+      "title": "Wwe Smackdown Vs. Raw 2008",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13683,
+      "title": "WWE Smackdown Vs. Raw 2009",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13684,
+      "title": "WWE SmackDown vs. Raw 2011",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13685,
+      "title": "Wwe Smackdown! Shut Your Mouth",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13686,
+      "title": "X Men Legends",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13687,
+      "title": "X-Men Il Gioco Ufficiale",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13688,
+      "title": "X-Men Legends II: Rise of Apocalypse",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13689,
+      "title": "X-Men: Wolverine Le Origini",
+      "console": "PS2",
+      "price": 10
+    },
+    {
+      "game_id": 13690,
+      "title": "XII Stag",
+      "console": "PS2",
+      "price": 6
+    },
+    {
+      "game_id": 13691,
+      "title": "XIII",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13692,
+      "title": "Yakuza",
+      "console": "PS2",
+      "price": 30
+    },
+    {
+      "game_id": 13693,
+      "title": "YS - The Ark of Napishtim",
+      "console": "PS2",
+      "price": 28
+    },
+    {
+      "game_id": 13694,
+      "title": "Yu Gi Oh Capsule Monster Colosseo",
+      "console": "PS2",
+      "price": 8
+    },
+    {
+      "game_id": 13695,
+      "title": "Yu Yu Hakusho - Dark Tournament",
+      "console": "PS2",
+      "price": 18
+    },
+    {
+      "game_id": 13696,
+      "title": "Yu-Gi-Oh - The Duellists Of The Roses",
+      "console": "PS2",
+      "price": 12
+    },
+    {
+      "game_id": 13697,
+      "title": "Zombie Zone",
+      "console": "PS2",
+      "price": 18
+    },
+    {
+      "game_id": 13698,
+      "title": "Zone of the Enders",
+      "console": "PS2",
+      "price": 22
+    },
+    {
+      "game_id": 13699,
+      "title": "Blazblue Continuum Shift Extend",
+      "console": "PS3",
+      "price": 8
+    },
+    {
+      "game_id": 13700,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm Generations",
+      "console": "PS3",
+      "price": 4
+    },
+    {
+      "game_id": 13701,
+      "title": "NHL 2K8",
+      "console": "PS3",
+      "price": 2.5
+    },
+    {
+      "game_id": 13702,
+      "title": "Silent Hill Homecoming",
+      "console": "PS3",
+      "price": 40
+    },
+    {
+      "game_id": 13703,
+      "title": "Spider-Man: Shattered Dimensions",
+      "console": "PS3",
+      "price": 75
+    },
+    {
+      "game_id": 13704,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "price": 18
+    },
+    {
+      "game_id": 13705,
+      "title": "Dragon Ball Z: Tenkaichi Tag Team",
+      "console": "PSP",
+      "price": 12
+    },
+    {
+      "game_id": 13706,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "price": 2.5
+    },
+    {
+      "game_id": 13707,
+      "title": "Dungeons 2",
+      "console": "PS4",
+      "price": 4
+    },
+    {
+      "game_id": 13708,
+      "title": "Wolfenstein II: The New Colossus",
+      "console": "PS4",
+      "price": 12
+    },
+    {
+      "game_id": 13709,
+      "title": "Wolfenstein: Cyberpilot (PSVR)",
+      "console": "PS4",
+      "price": 6
+    },
+    {
+      "game_id": 13710,
+      "title": "Wolfenstein: The New Order",
+      "console": "PS4",
+      "price": 12
+    },
+    {
+      "game_id": 13711,
+      "title": "Wolfenstein: Youngblood (Senza DLC)",
+      "console": "PS4",
+      "price": 12
+    },
+    {
+      "game_id": 13712,
+      "title": "World Of Final Fantasy",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 13713,
+      "title": "World Of Warriors",
+      "console": "PS4",
+      "price": 6
+    },
+    {
+      "game_id": 13714,
+      "title": "World War Z",
+      "console": "PS4",
+      "price": 12
+    },
+    {
+      "game_id": 13715,
+      "title": "Worms Rumble (Senza DLC)",
+      "console": "PS4",
+      "price": 8
+    },
+    {
+      "game_id": 13716,
+      "title": "WRC 10",
+      "console": "PS4",
+      "price": 12
+    },
+    {
+      "game_id": 13717,
+      "title": "WRC 5 - FIA World Rally Championship",
+      "console": "PS4",
+      "price": 8
+    },
+    {
+      "game_id": 13718,
+      "title": "WRC 6 (World Rally Championship)",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 13719,
+      "title": "WWE 2K Battlegrounds",
+      "console": "PS4",
+      "price": 5
+    },
+    {
+      "game_id": 13720,
+      "title": "WWE 2K15",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 13721,
+      "title": "WWE 2K16",
+      "console": "PS4",
+      "price": 5
+    },
+    {
+      "game_id": 13722,
+      "title": "WWE 2K17",
+      "console": "PS4",
+      "price": 8
+    },
+    {
+      "game_id": 13723,
+      "title": "WWE 2K18",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 13724,
+      "title": "WWE 2K19 (Senza DLC)",
+      "console": "PS4",
+      "price": 5
+    },
+    {
+      "game_id": 13725,
+      "title": "WWE 2K20 (Senza DLC)",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 13726,
+      "title": "Xcom 2",
+      "console": "PS4",
+      "price": 6
+    },
+    {
+      "game_id": 13727,
+      "title": "Xenon Racer",
+      "console": "PS4",
+      "price": 8
+    },
+    {
+      "game_id": 13728,
+      "title": "Yakuza Kiwami 2",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 13729,
+      "title": "Yonder",
+      "console": "PS4",
+      "price": 6
+    },
+    {
+      "game_id": 13730,
+      "title": "Yooka Laylee",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 13731,
+      "title": "Zombi",
+      "console": "PS4",
+      "price": 12
+    },
+    {
+      "game_id": 13732,
+      "title": "Zombie Army Trilogy",
+      "console": "PS4",
+      "price": 10
+    },
+    {
+      "game_id": 13733,
+      "title": "Zombie Vikings",
+      "console": "PS4",
+      "price": 8
+    },
+    {
+      "game_id": 13734,
+      "title": "Zorro The Chronicles",
+      "console": "PS4",
+      "price": 6
+    },
+    {
+      "game_id": 13735,
+      "title": "Wipeout Omega Collection",
+      "console": "PS4",
+      "price": 22
+    },
+    {
+      "game_id": 13736,
+      "title": "Witcher 3 Wild Hunt, The / Dark Souls 3",
+      "console": "PS4",
+      "price": 38
+    },
+    {
+      "game_id": 13737,
+      "title": "Witcher 3, The: Game of the Year Edition",
+      "console": "PS4",
+      "price": 22
+    },
+    {
+      "game_id": 13738,
+      "title": "Witcher 3, The: Wild Hunt",
+      "console": "PS4",
+      "price": 18
+    },
+    {
+      "game_id": 13739,
+      "title": "Wo Long: Fallen Dynasty",
+      "console": "PS4",
+      "price": 30
+    },
+    {
+      "game_id": 13740,
+      "title": "Wobbledogs",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13741,
+      "title": "Wolfenstein: The New Order/ The New Colossus (2 Disc)",
+      "console": "PS4",
+      "price": 30
+    },
+    {
+      "game_id": 13742,
+      "title": "Wolfenstein: The New Order/ The New Colossus (2 Disc) Senza DLC",
+      "console": "PS4",
+      "price": 28
+    },
+    {
+      "game_id": 13743,
+      "title": "Wolfenstein: The Old Blood",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13744,
+      "title": "World War Z Aftermath",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13745,
+      "title": "Worms Battlegrounds + Worms WMD",
+      "console": "PS4",
+      "price": 20
+    },
+    {
+      "game_id": 13746,
+      "title": "WRC 7",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13747,
+      "title": "WRC 8",
+      "console": "PS4",
+      "price": 18
+    },
+    {
+      "game_id": 13748,
+      "title": "WRC 9",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13749,
+      "title": "WRC Generations",
+      "console": "PS4",
+      "price": 18
+    },
+    {
+      "game_id": 13750,
+      "title": "Wreckfest",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13751,
+      "title": "WWE 2K22 (Senza DLC)",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13752,
+      "title": "WWE 2K23",
+      "console": "PS4",
+      "price": 18
+    },
+    {
+      "game_id": 13753,
+      "title": "WWE 2K24 (Senza DLC)",
+      "console": "PS4",
+      "price": 25
+    },
+    {
+      "game_id": 13754,
+      "title": "WWE 2K25",
+      "console": "PS4",
+      "price": 35
+    },
+    {
+      "game_id": 13755,
+      "title": "WWI Tannenberg: Eastern Front",
+      "console": "PS4",
+      "price": 18
+    },
+    {
+      "game_id": 13756,
+      "title": "XIII",
+      "console": "PS4",
+      "price": 18
+    },
+    {
+      "game_id": 13757,
+      "title": "Xuan Yuan Sword 7",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13758,
+      "title": "Yakuza 0",
+      "console": "PS4",
+      "price": 22
+    },
+    {
+      "game_id": 13759,
+      "title": "Yakuza 6: The Song Of Life (Senza DLC)",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13760,
+      "title": "Yakuza Kiwami",
+      "console": "PS4",
+      "price": 35
+    },
+    {
+      "game_id": 13761,
+      "title": "Yakuza Remastered Collection",
+      "console": "PS4",
+      "price": 30
+    },
+    {
+      "game_id": 13762,
+      "title": "Yakuza: Like a Dragon (Senza DLC)",
+      "console": "PS4",
+      "price": 15
+    },
+    {
+      "game_id": 13763,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "price": 1
+    },
+    {
+      "game_id": 13764,
+      "title": "Horse Life",
+      "console": "DS",
+      "price": 1
+    },
+    {
+      "game_id": 13765,
+      "title": "Xenoblade Chronicles 2",
+      "console": "Switch",
+      "price": 52
     }
   ],
   "price_changes": [
@@ -82181,6 +83207,216 @@
     {
       "game_id": 13061,
       "title": "Xenoblade Chronicles 2",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 128,
+      "title": "Disney's Chicken Little",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 134,
+      "title": "Driver",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1453,
+      "title": "Call of Juarez - Bound In Blood",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 847,
+      "title": "Flatout Ultimate Carnage",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1022,
+      "title": "Michael Jackson The Experience (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1026,
+      "title": "Mini Ninjas",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1687,
+      "title": "Planet 51",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1322,
+      "title": "Viva Pinata - Party Animals",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 725,
+      "title": "Darkness 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1609,
+      "title": "Legendary",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1613,
+      "title": "LEGO Hobbit",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1797,
+      "title": "Toy Story 3",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1804,
+      "title": "Turok",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2265,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3122,
+      "title": "Curse: The Eye Of Isis",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4324,
+      "title": "Indiana Jones And The Staff Of Kings",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3573,
+      "title": "Onimusha : Warlords",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5042,
+      "title": "Dead Island GOTY",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5688,
+      "title": "WWE Smackdown VS Raw 2012",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8497,
+      "title": "Call of Duty: Modern Warfare 4 (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8995,
+      "title": "Project Tower",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9518,
+      "title": "True Crime New York City",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10453,
+      "title": "Megamind",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11892,
+      "title": "Street Football",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11770,
+      "title": "Pac'n Roll",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11863,
+      "title": "Sonic Classic Collection",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12101,
+      "title": "FIFA 12",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12292,
+      "title": "Prof. Layton Katrielle E il Complotto, Il",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12424,
+      "title": "Aokana: Four Rhythms Across The Blue",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12800,
+      "title": "Nelke & the Legendary Alchemist: Ateliers of the New World",
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
