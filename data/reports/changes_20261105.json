@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-05T19:29:53.022660",
+    "generated_at": "2026-11-05T23:31:47.408398",
     "date": "2026-11-05",
-    "duration_sec": 151.5,
-    "total_scraped": 41297
+    "duration_sec": 142.6,
+    "total_scraped": 55063
   },
   "summary": {
     "new_games": 1,
     "price_changes": 318,
-    "availability_changes": 71,
-    "unchanged": 40907,
+    "availability_changes": 74,
+    "unchanged": 54670,
     "errors": 0
   },
   "new_games": [
@@ -3063,6 +3063,27 @@
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1742,
+      "title": "Sims 3 Animali & Co",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3452,
+      "title": "Lupin III La Morte Zenigata L'Amore",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11232,
+      "title": "Sim City DS",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []

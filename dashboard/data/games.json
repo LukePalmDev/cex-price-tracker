@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-11-05T19:29:53.205950",
+    "exported_at": "2026-11-05T23:31:47.597062",
     "total_games": 13766,
-    "version": "20261105_192953",
+    "version": "20261105_233147",
     "statistics": {
       "total_games": 13766,
-      "available_games": 7865,
-      "unavailable_games": 5901,
+      "available_games": 7862,
+      "unavailable_games": 5904,
       "by_console": {
         "PS2": 2034,
         "PS4": 1744,
@@ -30,16 +30,16 @@
       "daily_summary": {
         "new_games": 1,
         "price_changes": 318,
-        "availability_changes": 71,
-        "unchanged": 40907,
+        "availability_changes": 74,
+        "unchanged": 54670,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 13766,
-    "available_games": 7865,
-    "unavailable_games": 5901,
+    "available_games": 7862,
+    "unavailable_games": 5904,
     "by_console": {
       "PS2": 2034,
       "PS4": 1744,
@@ -63,8 +63,8 @@
     "daily_summary": {
       "new_games": 1,
       "price_changes": 318,
-      "availability_changes": 71,
-      "unchanged": 40907,
+      "availability_changes": 74,
+      "unchanged": 54670,
       "errors": 0
     }
   },
@@ -57884,8 +57884,8 @@
       "current_price": 8.0,
       "cash_price": 2.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -57899,13 +57899,13 @@
         "Le Corti Venete",
         "Merlata Bloom"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5030947057022",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-05",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-11-05",
       "image_url": null,
       "box_id": "5030947057022",
       "price_history_30d": [
@@ -118993,8 +118993,8 @@
       "current_price": 22.0,
       "cash_price": 4.0,
       "exchange_price": 7.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -119008,13 +119008,13 @@
         "Le Corti Venete",
         "Merlata Bloom"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=8023171013848",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-05",
       "last_price_change": "2026-11-05",
-      "last_availability_change": null,
+      "last_availability_change": "2026-11-05",
       "image_url": null,
       "box_id": "8023171013848",
       "price_history_30d": [
@@ -469616,8 +469616,8 @@
       "current_price": 8.0,
       "cash_price": 2.0,
       "exchange_price": 4.0,
-      "ecom_quantity": 11,
-      "collection_quantity": 11,
+      "ecom_quantity": 10,
+      "collection_quantity": 10,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -470081,8 +470081,8 @@
       "current_price": 12.0,
       "cash_price": 3.0,
       "exchange_price": 6.0,
-      "ecom_quantity": 12,
-      "collection_quantity": 12,
+      "ecom_quantity": 11,
+      "collection_quantity": 11,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -470158,8 +470158,8 @@
       "current_price": 6.0,
       "cash_price": 1.8,
       "exchange_price": 3.0,
-      "ecom_quantity": 26,
-      "collection_quantity": 26,
+      "ecom_quantity": 25,
+      "collection_quantity": 25,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -502567,8 +502567,8 @@
       "current_price": 5.0,
       "cash_price": 1.5,
       "exchange_price": 2.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -502582,7 +502582,7 @@
         "Le Corti Venete",
         "Merlata Bloom"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5030947105402",
       "first_seen": "2026-11-04",
