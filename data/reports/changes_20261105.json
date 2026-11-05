@@ -1,18 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-11-05T04:57:20.743981",
+    "generated_at": "2026-11-05T14:19:00.802539",
     "date": "2026-11-05",
-    "duration_sec": 349.4,
-    "total_scraped": 13765
+    "duration_sec": 319.7,
+    "total_scraped": 27531
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 1,
     "price_changes": 318,
-    "availability_changes": 0,
-    "unchanged": 13447,
+    "availability_changes": 37,
+    "unchanged": 27175,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13766,
+      "title": "Dungeons & Dragons: Dark Alliance",
+      "console": "Xbox CrossGen",
+      "price": 20
+    }
+  ],
   "price_changes": [
     {
       "game_id": 2985,
@@ -2559,6 +2566,266 @@
       "variation_pct": 13.64
     }
   ],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 128,
+      "title": "Disney's Chicken Little",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 134,
+      "title": "Driver",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 630,
+      "title": "Battleship",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1742,
+      "title": "Sims 3 Animali & Co",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1221,
+      "title": "Soul Calibur V",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1245,
+      "title": "Summer Athletics",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1512,
+      "title": "Driver San Francisco",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 930,
+      "title": "Just Dance 2018",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 962,
+      "title": "Lego Harry Potter Anni 5-7",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2007,
+      "title": "Disney Infinity 3.0 Star Wars Starter Pack",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2258,
+      "title": "MXGP 2",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2265,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2469,
+      "title": "Tales From The Borderlands",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2767,
+      "title": "We Happy Few",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3218,
+      "title": "Fantavision",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4326,
+      "title": "Intellivision Lives: La Storia Dei Videogiochi",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4377,
+      "title": "L'incredibile Hulk",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4811,
+      "title": "Up",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13634,
+      "title": "X-Men 2 - Wolverine's Revenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4049,
+      "title": "Buzz, The Sports Quiz",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4143,
+      "title": "Die Hard Vendetta",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4234,
+      "title": "Forbidden Siren 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4669,
+      "title": "Silent Hill 2 (2 Disc)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5440,
+      "title": "Ratchet & Clank: Ricerca Del Tesoro",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5444,
+      "title": "Rayman Legends / Rayman Origins",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6052,
+      "title": "Street Fighter IV (4)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5438,
+      "title": "Ratchet & Clank Trilogy",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6171,
+      "title": "Brothers In Arms D- Day",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6310,
+      "title": "Grand Theft Auto: Chinatown Wars",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6369,
+      "title": "Lego Pirati Dei Caraibi",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6417,
+      "title": "Midnight Club: LA Remix",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6742,
+      "title": "Arcania - The Complete Tale",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8724,
+      "title": "Granblue Fantasy: Relink",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11650,
+      "title": "Looney Tunes Cartoon In Tournee",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11955,
+      "title": "Tsumiki la Torre Infernale",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12363,
+      "title": "Super Street Fighter IV/4 3D Ed",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13077,
+      "title": "13 Sentinels - Aegis Rim",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    }
+  ],
   "errors": []
 }
