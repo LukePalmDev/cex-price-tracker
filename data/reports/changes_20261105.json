@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-05T14:19:00.802539",
+    "generated_at": "2026-11-05T19:29:53.022660",
     "date": "2026-11-05",
-    "duration_sec": 319.7,
-    "total_scraped": 27531
+    "duration_sec": 151.5,
+    "total_scraped": 41297
   },
   "summary": {
     "new_games": 1,
     "price_changes": 318,
-    "availability_changes": 37,
-    "unchanged": 27175,
+    "availability_changes": 71,
+    "unchanged": 40907,
     "errors": 0
   },
   "new_games": [
@@ -2822,6 +2822,244 @@
     {
       "game_id": 13077,
       "title": "13 Sentinels - Aegis Rim",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 652,
+      "title": "Bolt",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1533,
+      "title": "Fallout 3 - Operation Anchorage/The Pitt",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1697,
+      "title": "Race Driver: Grid Reloaded",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1921,
+      "title": "Brothers: A Tale of Two Sons",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1948,
+      "title": "Council, The",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2082,
+      "title": "Fisherman, The: Fishing Planet (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2320,
+      "title": "Pillars of Eternity II: Deadfire",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2510,
+      "title": "Trials Rising (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4460,
+      "title": "Mummia La Tomba Imperatore Dragone, La",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4421,
+      "title": "Maximo",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5042,
+      "title": "Dead Island GOTY",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6280,
+      "title": "Football Manager Handheld 2013",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6345,
+      "title": "Juiced 2 Hot Import Nights",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6407,
+      "title": "Metal Gear Solid Peace Walker",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6408,
+      "title": "Metal Gear Solid: Portable Ops",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6455,
+      "title": "NBA Live 08",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6456,
+      "title": "NBA Live 09",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7800,
+      "title": "Blackguards 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7802,
+      "title": "Bladestorm Nightmare",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7030,
+      "title": "Fia European Truck Racing Championship",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7988,
+      "title": "Gundam Versus",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8047,
+      "title": "Lost Child, The",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8097,
+      "title": "New Gundam Breaker",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8177,
+      "title": "Remothered: Broken Porcelain",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8186,
+      "title": "Riot: Civil Unrest",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7904,
+      "title": "Dragon Quest Heroes 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7984,
+      "title": "Guilty Gear Strive",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8081,
+      "title": "Moonlighter",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8166,
+      "title": "Raiden IV x MIKADO remix",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8805,
+      "title": "L.O.L. Surprise! B.B.s In Viaggio",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11016,
+      "title": "LEGO Marvel Superheroes",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11309,
+      "title": "Winx Club 3 Enchantix",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13376,
+      "title": "Neo Atlas 1469",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13149,
+      "title": "Bye Sweet Carole",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
