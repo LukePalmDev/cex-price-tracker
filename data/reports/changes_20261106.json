@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-06T18:52:56.199696",
+    "generated_at": "2026-11-06T22:58:03.434458",
     "date": "2026-11-06",
-    "duration_sec": 153.2,
-    "total_scraped": 41298
+    "duration_sec": 181.4,
+    "total_scraped": 55064
   },
   "summary": {
     "new_games": 0,
     "price_changes": 2,
-    "availability_changes": 76,
-    "unchanged": 41220,
+    "availability_changes": 77,
+    "unchanged": 54985,
     "errors": 0
   },
   "new_games": [],
@@ -563,6 +563,13 @@
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2371,
+      "title": "Resident Evil Origins Collection",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
