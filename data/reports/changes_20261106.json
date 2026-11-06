@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-06T04:53:43.221063",
+    "date": "2026-11-06",
+    "duration_sec": 171.2,
+    "total_scraped": 13766
+  },
+  "summary": {
+    "new_games": 0,
+    "price_changes": 2,
+    "availability_changes": 0,
+    "unchanged": 13764,
+    "errors": 0
+  },
+  "new_games": [],
+  "price_changes": [
+    {
+      "game_id": 9075,
+      "title": "Silent Hill: Townfall",
+      "console": "PS5",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 13243,
+      "title": "Final Fantasy Resonance",
+      "console": "Switch",
+      "new_price": 50,
+      "old_price": 48.0,
+      "variation_pct": 4.17
+    }
+  ],
+  "availability_changes": [],
+  "errors": []
+}
