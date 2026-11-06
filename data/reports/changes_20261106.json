@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-06T13:56:53.504628",
+    "generated_at": "2026-11-06T18:52:56.199696",
     "date": "2026-11-06",
-    "duration_sec": 159.4,
-    "total_scraped": 27532
+    "duration_sec": 153.2,
+    "total_scraped": 41298
   },
   "summary": {
     "new_games": 0,
     "price_changes": 2,
-    "availability_changes": 46,
-    "unchanged": 27484,
+    "availability_changes": 76,
+    "unchanged": 41220,
     "errors": 0
   },
   "new_games": [],
@@ -350,6 +350,216 @@
     {
       "game_id": 12824,
       "title": "One Piece Pirate Warriors 4",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 218,
+      "title": "Hobbit, Lo",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 453,
+      "title": "Slam Tennis",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 529,
+      "title": "Tom Clancy's Ghost Recon: Island Thunder",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 793,
+      "title": "Elder Scrolls IV: Oblivion, GOTY Edition (2 Disc)",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1879,
+      "title": "Assassin's Creed The Ezio Collection",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1993,
+      "title": "Devil May Cry: Definitive Edition",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2367,
+      "title": "Resident Evil 5",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2373,
+      "title": "Resident Evil Revelations HD",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4422,
+      "title": "Maxxed Out Racing",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3101,
+      "title": "Constantine",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4415,
+      "title": "Marvel La Grande Alleanza",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4669,
+      "title": "Silent Hill 2 (2 Disc)",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4761,
+      "title": "Syberia 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8241,
+      "title": "Sonic Superstars",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8500,
+      "title": "Call Of The Sea",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9146,
+      "title": "Tales of Berseria Remaster",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9310,
+      "title": "Crash Bandicoot L'Ira di Cortex",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9336,
+      "title": "Enter The Matrix",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9363,
+      "title": "Harry Potter E il Prigioniero Di Azkaban",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9372,
+      "title": "Il Signore Degli Anelli - Le Due Torri",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9392,
+      "title": "Madagascar",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9404,
+      "title": "Marvel Nemesis",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10067,
+      "title": "Rapala Pro Bass Fishing + Canya",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11276,
+      "title": "Tetris Party Deluxe",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12064,
+      "title": "Detective Pikachu",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12220,
+      "title": "Metroid: Samus Returns",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12251,
+      "title": "One Piece: Romance Dawn",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12277,
+      "title": "Pokemon Rumble World",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12360,
+      "title": "Super Monkey Ball 3D",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12627,
+      "title": "Hotel Transylvania: Avventure Da Paura",
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
