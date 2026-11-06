@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-06T04:53:43.221063",
+    "generated_at": "2026-11-06T13:56:53.504628",
     "date": "2026-11-06",
-    "duration_sec": 171.2,
-    "total_scraped": 13766
+    "duration_sec": 159.4,
+    "total_scraped": 27532
   },
   "summary": {
     "new_games": 0,
     "price_changes": 2,
-    "availability_changes": 0,
-    "unchanged": 13764,
+    "availability_changes": 46,
+    "unchanged": 27484,
     "errors": 0
   },
   "new_games": [],
@@ -31,6 +31,329 @@
       "variation_pct": 4.17
     }
   ],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 478,
+      "title": "Star Wars Battlefront 2",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1940,
+      "title": "Cars 3 In Gara Per La Vittoria",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2210,
+      "title": "Marvel's Guardiani Della Galassia - The Telltale Series (Solo Episodio 1)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2767,
+      "title": "We Happy Few",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3012,
+      "title": "Battle Engine Aquila",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3207,
+      "title": "Eye Toy Play Pom Pom Party (With Camera)",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3237,
+      "title": "Fight Night 2004",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4377,
+      "title": "L'incredibile Hulk",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13635,
+      "title": "X-Treme Express World Grand Prix",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3348,
+      "title": "Harry Potter L'Ordine della Fenice",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3076,
+      "title": "Chaos Legion",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4978,
+      "title": "Buzz Il Quizzone Nazionale",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5413,
+      "title": "Prison Break",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6052,
+      "title": "Street Fighter IV (4)",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5033,
+      "title": "Dark Souls II",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5115,
+      "title": "Eternal Sonata",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5623,
+      "title": "Transformers LA Battaglia PER Cybertron",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6425,
+      "title": "Monster Hunter - Freedom",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6481,
+      "title": "Patapon",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7965,
+      "title": "Ghost Song",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8286,
+      "title": "The Survivalists",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8321,
+      "title": "Two Point Campus",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8356,
+      "title": "Wasteland 3",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7824,
+      "title": "Call Of The Sea",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7862,
+      "title": "Dead Cells: Return to Castlevania Edition",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8063,
+      "title": "Mass Effect: Legendary Edition (2 Disc)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8085,
+      "title": "Mortal Shell: Complete Edition GOTY",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8218,
+      "title": "Sifu",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8510,
+      "title": "Chernobylite",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8545,
+      "title": "Cult of the Lamb",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8970,
+      "title": "Persistence Enhanced, The",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9138,
+      "title": "Syberia: The World Before",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10509,
+      "title": "Runaway The Dream Of The Turtle",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10108,
+      "title": "Secret Files: Tunguska",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10557,
+      "title": "Table Tennis (S)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10566,
+      "title": "Trauma Center: New Blood",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10539,
+      "title": "Sonic Riders: Zero Gravity",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11382,
+      "title": "Ben 10 Protector Of Earth",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11883,
+      "title": "Sports Collection 15",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11390,
+      "title": "Bleach - Dark Souls",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11523,
+      "title": "Ghost Trick - Detective Fantasma",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11666,
+      "title": "Mario & Luigi Partners in Time",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11668,
+      "title": "Mario vs Donkey Kong 2: Marcia Minimario",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13011,
+      "title": "Toki Retrollector Ed. w/Arcade Machine, Prints & Comic",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13572,
+      "title": "Winter Games 2023",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12824,
+      "title": "One Piece Pirate Warriors 4",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
   "errors": []
 }
