@@ -1,18 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-11-07T12:41:48.578221",
+    "generated_at": "2026-11-07T17:26:25.454992",
     "date": "2026-11-07",
-    "duration_sec": 171.3,
-    "total_scraped": 27532
+    "duration_sec": 233.6,
+    "total_scraped": 41301
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 3,
     "price_changes": 0,
-    "availability_changes": 24,
-    "unchanged": 27508,
+    "availability_changes": 67,
+    "unchanged": 41231,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13767,
+      "title": "Bloodbath",
+      "console": "Xbox 360",
+      "price": 35
+    },
+    {
+      "game_id": 13768,
+      "title": "ESPN International Winter Sports",
+      "console": "PS2",
+      "price": 5
+    },
+    {
+      "game_id": 13769,
+      "title": "Tales of Graces",
+      "console": "PS3",
+      "price": 10
+    }
+  ],
   "price_changes": [],
   "availability_changes": [
     {
@@ -182,6 +201,307 @@
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 44,
+      "title": "Blood Omen 2 - Legacy Of Kain",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 160,
+      "title": "FIFA Football 2003",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 262,
+      "title": "Madagascar",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 694,
+      "title": "Clive Barker's Jericho",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 719,
+      "title": "Dark Messiah - Might & Magic",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1144,
+      "title": "Rapala Fishing Frenzy",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1493,
+      "title": "Deadpool",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1948,
+      "title": "Council, The",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2548,
+      "title": "Werewolf: The Apocalypse - Earthblood",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2668,
+      "title": "Ghostrunner",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2675,
+      "title": "Halo: Master Chief Collection",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2731,
+      "title": "Ride 4",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3049,
+      "title": "Buzz the Big Quiz",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4346,
+      "title": "Juiced",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4474,
+      "title": "Nascar 07",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4608,
+      "title": "Rock Band",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4778,
+      "title": "Tiger Woods PGA Tour 2001",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3918,
+      "title": "Tony Hawk's Underground",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4819,
+      "title": "Viaggio Incantato, Il",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4098,
+      "title": "Crash Tag Team Racing",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4444,
+      "title": "Mondiali Fifa 2006",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4569,
+      "title": "Prostroke golf",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3885,
+      "title": "Tenchu Wrath of Heaven",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4838,
+      "title": "Wild Arms 3",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5732,
+      "title": "Atelier Escha & Logy: Alchemists of the Dusk Sky",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6140,
+      "title": "Ape Academy 2",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6520,
+      "title": "Prostroke Golf World Tour 2007",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7242,
+      "title": "Madden NFL 23",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8139,
+      "title": "PGA Tour 2K21 (Offline Only)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8145,
+      "title": "Planet Coaster",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7943,
+      "title": "Firefighters - The Simulation",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7089,
+      "title": "Gravity Rush Remastered",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8133,
+      "title": "Paw Patrol: Al Lavoro",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12101,
+      "title": "FIFA 12",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12210,
+      "title": "Mario Golf: World Tour",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13134,
+      "title": "Big Brain Academy",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12559,
+      "title": "Farming Simulator 20",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12619,
+      "title": "Hello Neighbor 2",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13369,
+      "title": "MXGP3: The Official Motocross Videogame",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13396,
+      "title": "Oddworld Stranger's Wrath HD",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13066,
+      "title": "XIII",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13107,
+      "title": "Asterix & Obelix XXXL: The Ram from Hibernia (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13272,
+      "title": "Grand Mountain Adventure: Wonderlands",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
