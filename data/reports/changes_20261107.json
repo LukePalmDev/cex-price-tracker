@@ -1,19 +1,188 @@
 {
   "metadata": {
-    "generated_at": "2026-11-07T04:22:44.328060",
+    "generated_at": "2026-11-07T12:41:48.578221",
     "date": "2026-11-07",
-    "duration_sec": 163.1,
-    "total_scraped": 13766
+    "duration_sec": 171.3,
+    "total_scraped": 27532
   },
   "summary": {
     "new_games": 0,
     "price_changes": 0,
-    "availability_changes": 0,
-    "unchanged": 13766,
+    "availability_changes": 24,
+    "unchanged": 27508,
     "errors": 0
   },
   "new_games": [],
   "price_changes": [],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 349,
+      "title": "Oddworld - Munch's Oddysee",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 412,
+      "title": "RPM Tuning",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 512,
+      "title": "Terminator 3 - Rise of the Machines",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 694,
+      "title": "Clive Barker's Jericho",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3012,
+      "title": "Battle Engine Aquila",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3237,
+      "title": "Fight Night 2004",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4346,
+      "title": "Juiced",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4474,
+      "title": "Nascar 07",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4867,
+      "title": "X Squad",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4009,
+      "title": "Battlefield 2 Modern Combat",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4813,
+      "title": "Urban Chaos",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3983,
+      "title": "Army Men Sarges War",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4185,
+      "title": "Earache : Extreme Metal Racing",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4217,
+      "title": "Fight Club",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4356,
+      "title": "Killer 7",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4509,
+      "title": "No One Lives Forever",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4573,
+      "title": "Punisher, The",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4589,
+      "title": "Red Dead Revolver",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5016,
+      "title": "Conan",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6013,
+      "title": "Shellshock 2: Blood Trails",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6407,
+      "title": "Metal Gear Solid Peace Walker",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8063,
+      "title": "Mass Effect: Legendary Edition (2 Disc)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10968,
+      "title": "Hotel Giant",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13020,
+      "title": "Trials of Mana",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
   "errors": []
 }
