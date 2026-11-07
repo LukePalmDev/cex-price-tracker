@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-07T17:26:25.454992",
+    "generated_at": "2026-11-07T21:41:32.038147",
     "date": "2026-11-07",
-    "duration_sec": 233.6,
-    "total_scraped": 41301
+    "duration_sec": 139.2,
+    "total_scraped": 55071
   },
   "summary": {
-    "new_games": 3,
+    "new_games": 4,
     "price_changes": 0,
-    "availability_changes": 67,
-    "unchanged": 41231,
+    "availability_changes": 88,
+    "unchanged": 54979,
     "errors": 0
   },
   "new_games": [
@@ -30,6 +30,12 @@
       "title": "Tales of Graces",
       "console": "PS3",
       "price": 10
+    },
+    {
+      "game_id": 13770,
+      "title": "Overcooked! All You Can Eat (Senza DLC)",
+      "console": "Xbox Series",
+      "price": 6
     }
   ],
   "price_changes": [],
@@ -500,6 +506,153 @@
       "game_id": 13272,
       "title": "Grand Mountain Adventure: Wonderlands",
       "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 60,
+      "title": "Burnout 3 Takedown",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 162,
+      "title": "FIFA Street",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 195,
+      "title": "Grand Theft Auto San Andreas",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 447,
+      "title": "Silent Hill 4 - The Room",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 576,
+      "title": "Worms forts under siege",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2367,
+      "title": "Resident Evil 5",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4214,
+      "title": "FC Internazionale Club Football",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4237,
+      "title": "Freak Out",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4256,
+      "title": "Gene Troopers",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4502,
+      "title": "NHL 2K8",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4696,
+      "title": "Smuggler's Run 2 Hostile Territory",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4007,
+      "title": "Batman:Vengeance",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4145,
+      "title": "Digimon World 4",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4421,
+      "title": "Maximo",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4693,
+      "title": "Sly Racoon",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5562,
+      "title": "Stars Wars Il Potere Della Forza Sith Edition",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5637,
+      "title": "Ultimate Action Triple Pack: Tomb Raider, Sleeping Dogs, Just Cause 2",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7270,
+      "title": "Minecraft Story Mode - Stagioni 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8200,
+      "title": "Saint Seiya Soldiers' Soul",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9263,
+      "title": "WWI Isonzo: Italian Front",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11978,
+      "title": "Winx Club Il Tuo Magico Universo",
+      "console": "DS",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     }
