@@ -1,19 +1,223 @@
 {
   "metadata": {
-    "generated_at": "2026-11-08T04:05:51.793840",
+    "generated_at": "2026-11-08T12:58:52.366790",
     "date": "2026-11-08",
-    "duration_sec": 159.1,
-    "total_scraped": 13770
+    "duration_sec": 171.4,
+    "total_scraped": 27541
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 1,
     "price_changes": 0,
-    "availability_changes": 0,
-    "unchanged": 13770,
+    "availability_changes": 28,
+    "unchanged": 27512,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13771,
+      "title": "Enslaved: Odyssey to the West Collector's Ed. w/Book & OST",
+      "console": "Xbox 360",
+      "price": 30
+    }
+  ],
   "price_changes": [],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 60,
+      "title": "Burnout 3 Takedown",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 333,
+      "title": "Need For Speed Underground 2",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 647,
+      "title": "Blazblue - Calamity Trigger",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 756,
+      "title": "Disney Infinity 2.0 Starter Pack",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1486,
+      "title": "Dead Rising 2 (18) Outbreak Edition",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1604,
+      "title": "Knights Contract",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1614,
+      "title": "Lightning Returns: Final Fantasy XIII",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1728,
+      "title": "Saints Row",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1979,
+      "title": "Dead or Alive 6",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3931,
+      "title": "Toys Room, The",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3348,
+      "title": "Harry Potter L'Ordine della Fenice",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3103,
+      "title": "Corse Pazze",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3303,
+      "title": "God of War 2 Special Edition",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5641,
+      "title": "Uncharted 3: L'inganno di Drake GOTY",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6006,
+      "title": "Saint Seiya Soldiers' Soul",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6451,
+      "title": "NBA 2K13",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6523,
+      "title": "Pursuit Force Extreme Justice",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6639,
+      "title": "Tom Clancy's Endwar",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7988,
+      "title": "Gundam Versus",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8203,
+      "title": "Samurai Warriors: Spirit Of Sanada",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8342,
+      "title": "Voice, The (No Mic)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8469,
+      "title": "Bassmaster Fishing 2022",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9008,
+      "title": "Rayman: 30th Anniversary Edition",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12126,
+      "title": "Giulia Passione Baby Sitter 3D",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12139,
+      "title": "Heroes of Ruin",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12192,
+      "title": "LEGO Ninjago Nindroids",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12229,
+      "title": "Monster Hunter 3 ultimate",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13417,
+      "title": "Payday 2",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    }
+  ],
   "errors": []
 }
