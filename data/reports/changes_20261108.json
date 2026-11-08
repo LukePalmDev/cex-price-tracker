@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-08T17:36:59.749980",
+    "generated_at": "2026-11-08T21:55:44.176274",
     "date": "2026-11-08",
-    "duration_sec": 177.4,
-    "total_scraped": 41312
+    "duration_sec": 177.8,
+    "total_scraped": 55083
   },
   "summary": {
     "new_games": 1,
     "price_changes": 0,
-    "availability_changes": 103,
-    "unchanged": 41208,
+    "availability_changes": 114,
+    "unchanged": 54968,
     "errors": 0
   },
   "new_games": [
@@ -740,6 +740,83 @@
       "game_id": 13504,
       "title": "Super Monkey Ball Banana Mania",
       "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 372,
+      "title": "Prince Of Persia - Sands Of Time",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1435,
+      "title": "Borderlands 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1314,
+      "title": "Vancouver 2010 - Winter Olympics",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 759,
+      "title": "Disney Universe",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1196,
+      "title": "Silent Hill Homecoming",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3214,
+      "title": "F1 Championship Season 2000",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4596,
+      "title": "Resident Evil Survivor 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4693,
+      "title": "Sly Racoon",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4718,
+      "title": "Splatter Master",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5428,
+      "title": "Race Driver: Grid Reloaded",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10335,
+      "title": "Cars Toon Mania",
+      "console": "Wii",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     }
