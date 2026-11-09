@@ -1,18 +1,31 @@
 {
   "metadata": {
-    "generated_at": "2026-11-09T04:22:53.196464",
+    "generated_at": "2026-11-09T15:34:26.176084",
     "date": "2026-11-09",
-    "duration_sec": 184.3,
-    "total_scraped": 13771
+    "duration_sec": 172.6,
+    "total_scraped": 27544
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 2,
     "price_changes": 110,
-    "availability_changes": 0,
-    "unchanged": 13661,
+    "availability_changes": 33,
+    "unchanged": 27399,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13772,
+      "title": "Hobbit, Lo",
+      "console": "GameCube",
+      "price": 2
+    },
+    {
+      "game_id": 13773,
+      "title": "Operation Vietnam",
+      "console": "DS",
+      "price": 4
+    }
+  ],
   "price_changes": [
     {
       "game_id": 1382,
@@ -895,6 +908,238 @@
       "variation_pct": -16.67
     }
   ],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 218,
+      "title": "Hobbit, Lo",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1767,
+      "title": "Stars Wars Il Potere Della Forza",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1809,
+      "title": "UFC Undisputed 2010",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1371,
+      "title": "50 Cent: Blood on the Sand",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1446,
+      "title": "Call of Duty: 3",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 759,
+      "title": "Disney Universe",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1574,
+      "title": "Harry Potter e i Doni della Morte",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 962,
+      "title": "Lego Harry Potter Anni 5-7",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1639,
+      "title": "Minecraft: Story Mode Complete Adventure Ep 1-8",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1694,
+      "title": "Pro Evolution Soccer (PES) 2017",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1695,
+      "title": "Prototype 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1216,
+      "title": "Sonic Free Riders (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1984,
+      "title": "Deliver Us The Moon",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2122,
+      "title": "Hotel Transylvania 3: Mostri in Mare",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2943,
+      "title": "WWE 2K22 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4229,
+      "title": "Flintstones Viva Rock Vegas",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4260,
+      "title": "Gift",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4678,
+      "title": "Simpsons: Hit & Run",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5893,
+      "title": "Kung Fu Panda: Scontro Finale Delle Leggende Leggendarie",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5907,
+      "title": "Little Big Planet Karting",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6313,
+      "title": "Gripshift",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6998,
+      "title": "F1 2015",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7959,
+      "title": "Garfield Kart Furious Racing",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8200,
+      "title": "Saint Seiya Soldiers' Soul",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8654,
+      "title": "Fairy Tail 2",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8924,
+      "title": "NBA 2K27",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9065,
+      "title": "Shadow of the Ninja - Reborn",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10294,
+      "title": "All Star Karate",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10318,
+      "title": "Blazing Angels Squadrons Of WWII",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10548,
+      "title": "Spongebob Squarepants: Creature from the Krusty Krab",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10555,
+      "title": "Super Monkeyball Step & Roll",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11650,
+      "title": "Looney Tunes Cartoon In Tournee",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13406,
+      "title": "Overcooked 2",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    }
+  ],
   "errors": []
 }
