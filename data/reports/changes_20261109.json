@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-09T15:34:26.176084",
+    "generated_at": "2026-11-09T21:56:46.665974",
     "date": "2026-11-09",
-    "duration_sec": 172.6,
-    "total_scraped": 27544
+    "duration_sec": 157.3,
+    "total_scraped": 41318
   },
   "summary": {
-    "new_games": 2,
+    "new_games": 3,
     "price_changes": 110,
-    "availability_changes": 33,
-    "unchanged": 27399,
+    "availability_changes": 53,
+    "unchanged": 41152,
     "errors": 0
   },
   "new_games": [
@@ -24,6 +24,12 @@
       "title": "Operation Vietnam",
       "console": "DS",
       "price": 4
+    },
+    {
+      "game_id": 13774,
+      "title": "Invincible VS Collector's Ed. w/Comic, 4x Art Cards & Letter(Senza DLC)",
+      "console": "PS5",
+      "price": 75
     }
   ],
   "price_changes": [
@@ -1139,6 +1145,146 @@
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 73,
+      "title": "Castlevania - Curse Of Darkness",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 379,
+      "title": "Project Gotham Racing 2",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1216,
+      "title": "Sonic Free Riders (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3023,
+      "title": "Bloody Roar 4",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3789,
+      "title": "Sony Sly 3",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5277,
+      "title": "Lollipop Chainsaw",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6177,
+      "title": "Buzz! Ingegna Mente",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6313,
+      "title": "Gripshift",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6674,
+      "title": "White Knight Chronicles: Origins",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6691,
+      "title": "Worms Open Warfare",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13709,
+      "title": "Wolfenstein: Cyberpilot (PSVR)",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8127,
+      "title": "Pac-Man World Re-Pac",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8722,
+      "title": "Gothic Remake",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9226,
+      "title": "Wanted: Dead",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9339,
+      "title": "F-Zero GX",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9387,
+      "title": "Legend of Zelda, The - Wind Waker",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9410,
+      "title": "Metroid Prime 2: Echoes w/Manual",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10061,
+      "title": "Rally Racer",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11666,
+      "title": "Mario & Luigi Partners in Time",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12328,
+      "title": "Shin Megami Tensei: Devil Summoner: Soul Hackers",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
