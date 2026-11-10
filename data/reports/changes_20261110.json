@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-10T19:18:38.204076",
+    "generated_at": "2026-11-10T23:06:25.033465",
     "date": "2026-11-10",
-    "duration_sec": 132.6,
-    "total_scraped": 55100
+    "duration_sec": 192.3,
+    "total_scraped": 68877
   },
   "summary": {
     "new_games": 3,
     "price_changes": 135,
-    "availability_changes": 88,
-    "unchanged": 54874,
+    "availability_changes": 90,
+    "unchanged": 68649,
     "errors": 0
   },
   "new_games": [
@@ -1730,6 +1730,20 @@
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 437,
+      "title": "Shrek",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10760,
+      "title": "Alice in Wonderland",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []

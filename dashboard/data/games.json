@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-11-10T19:18:38.373141",
+    "exported_at": "2026-11-10T23:06:25.201207",
     "total_games": 13777,
-    "version": "20261110_191838",
+    "version": "20261110_230625",
     "statistics": {
       "total_games": 13777,
-      "available_games": 7975,
-      "unavailable_games": 5802,
+      "available_games": 7973,
+      "unavailable_games": 5804,
       "by_console": {
         "PS2": 2035,
         "PS4": 1744,
@@ -30,16 +30,16 @@
       "daily_summary": {
         "new_games": 3,
         "price_changes": 135,
-        "availability_changes": 88,
-        "unchanged": 54874,
+        "availability_changes": 90,
+        "unchanged": 68649,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 13777,
-    "available_games": 7975,
-    "unavailable_games": 5802,
+    "available_games": 7973,
+    "unavailable_games": 5804,
     "by_console": {
       "PS2": 2035,
       "PS4": 1744,
@@ -63,8 +63,8 @@
     "daily_summary": {
       "new_games": 3,
       "price_changes": 135,
-      "availability_changes": 88,
-      "unchanged": 54874,
+      "availability_changes": 90,
+      "unchanged": 68649,
       "errors": 0
     }
   },
@@ -8569,8 +8569,8 @@
       "current_price": 12.0,
       "cash_price": 3.0,
       "exchange_price": 6.0,
-      "ecom_quantity": 40,
-      "collection_quantity": 40,
+      "ecom_quantity": 39,
+      "collection_quantity": 39,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -17393,8 +17393,8 @@
       "current_price": 10.0,
       "cash_price": 3.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -17408,13 +17408,13 @@
         "Le Corti Venete",
         "Merlata Bloom"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=8717418246617",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
       "last_price_change": null,
-      "last_availability_change": null,
+      "last_availability_change": "2026-11-10",
       "image_url": null,
       "box_id": "8717418246617",
       "price_history_30d": [
@@ -116594,7 +116594,7 @@
       "current_price": 15.0,
       "cash_price": 3.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 2,
+      "ecom_quantity": 1,
       "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
@@ -360408,8 +360408,8 @@
       "current_price": 48.0,
       "cash_price": 24.0,
       "exchange_price": 32.0,
-      "ecom_quantity": 14,
-      "collection_quantity": 14,
+      "ecom_quantity": 15,
+      "collection_quantity": 15,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -360443,8 +360443,8 @@
       "current_price": 50.0,
       "cash_price": 29.0,
       "exchange_price": 35.0,
-      "ecom_quantity": 4,
-      "collection_quantity": 4,
+      "ecom_quantity": 3,
+      "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -364453,8 +364453,8 @@
       "current_price": 40.0,
       "cash_price": 20.0,
       "exchange_price": 26.0,
-      "ecom_quantity": 31,
-      "collection_quantity": 31,
+      "ecom_quantity": 32,
+      "collection_quantity": 32,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -366530,8 +366530,8 @@
       "current_price": 15.0,
       "cash_price": 7.0,
       "exchange_price": 10.0,
-      "ecom_quantity": 29,
-      "collection_quantity": 29,
+      "ecom_quantity": 28,
+      "collection_quantity": 28,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -382417,8 +382417,8 @@
       "current_price": 40.0,
       "cash_price": 20.0,
       "exchange_price": 26.0,
-      "ecom_quantity": 42,
-      "collection_quantity": 42,
+      "ecom_quantity": 41,
+      "collection_quantity": 41,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -389293,8 +389293,8 @@
       "current_price": 40.0,
       "cash_price": 20.0,
       "exchange_price": 26.0,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 6,
+      "collection_quantity": 6,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -389331,8 +389331,8 @@
       "current_price": 42.0,
       "cash_price": 21.0,
       "exchange_price": 28.0,
-      "ecom_quantity": 4,
-      "collection_quantity": 4,
+      "ecom_quantity": 5,
+      "collection_quantity": 5,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -389341,7 +389341,6 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "The Wow Side",
-        "Le Corti Venete",
         "Merlata Bloom"
       ],
       "is_available": 1,
@@ -456841,7 +456840,7 @@
       "current_price": 4.0,
       "cash_price": 0.6,
       "exchange_price": 1.3,
-      "ecom_quantity": 1,
+      "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
@@ -456856,7 +456855,7 @@
         "The Wow Side",
         "Le Corti Venete"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5450270005758",
       "first_seen": "2026-11-04",
@@ -491758,8 +491757,8 @@
       "current_price": 5.0,
       "cash_price": 1.5,
       "exchange_price": 2.0,
-      "ecom_quantity": 5,
-      "collection_quantity": 5,
+      "ecom_quantity": 4,
+      "collection_quantity": 4,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
