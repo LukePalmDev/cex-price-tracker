@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "exported_at": "2026-11-10T01:24:25.215841",
+    "exported_at": "2026-11-10T05:47:38.958393",
     "total_games": 13774,
-    "version": "20261110_012425",
+    "version": "20261110_054738",
     "statistics": {
       "total_games": 13774,
       "available_games": 7927,
@@ -29,9 +29,9 @@
       "last_update": "2026-11-10",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 0,
+        "price_changes": 135,
         "availability_changes": 1,
-        "unchanged": 13773,
+        "unchanged": 27412,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-11-10",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 0,
+      "price_changes": 135,
       "availability_changes": 1,
-      "unchanged": 13773,
+      "unchanged": 27412,
       "errors": 0
     }
   },
@@ -42347,6 +42347,7 @@
         "Gran Roma",
         "La Romanina",
         "The Wow Side",
+        "Le Corti Venete",
         "Merlata Bloom"
       ],
       "is_available": 0,
@@ -85942,6 +85943,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
+        "Gran Roma",
         "La Romanina",
         "The Wow Side",
         "Le Corti Venete",
@@ -163679,9 +163681,9 @@
       "title": "50 Cents Blood on the Sand",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -163703,18 +163705,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209118279",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4005209118279",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 5701,
@@ -163969,9 +163976,9 @@
       "title": "Adventure Time Esplora I Sotterranei",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 25.0,
-      "cash_price": 7.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 6.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -163992,18 +163999,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891973311",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891973311",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5705,
@@ -164094,9 +164106,9 @@
       "title": "Afro Samurai",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -164117,18 +164129,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3296580806744",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3296580806744",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:50"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 4891,
@@ -164337,9 +164354,9 @@
       "title": "Akiba's Trip: Undead & Undressed",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 20.0,
-      "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -164360,18 +164377,23 @@
       "url": "https://it.webuy.com/product-detail/?id=813633014272",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "813633014272",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 5709,
@@ -164502,9 +164524,9 @@
       "title": "Aliens - Colonial Marines",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -164521,27 +164543,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277018147",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277018147",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:50"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 4897,
       "title": "Aliens vs Predator",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -164559,18 +164586,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277004669",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277004669",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:50"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5711,
@@ -164698,9 +164730,9 @@
       "title": "Amazing Spider-Man",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 25.0,
-      "cash_price": 7.0,
-      "exchange_price": 12.0,
+      "current_price": 28.0,
+      "cash_price": 8.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -164720,18 +164752,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917107849",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917107849",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 4901,
@@ -165271,9 +165308,9 @@
       "title": "Armored Core For Answer",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 38.0,
-      "cash_price": 11.0,
-      "exchange_price": 19.0,
+      "current_price": 32.0,
+      "cash_price": 9.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -165294,27 +165331,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307211504448",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307211504448",
       "price_history_30d": [
+        {
+          "old_price": 38.0,
+          "new_price": 32.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 38.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -15.79
     },
     {
       "id": 5718,
       "title": "Armored Core V",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 40.0,
+      "current_price": 42.0,
       "cash_price": 12.0,
-      "exchange_price": 20.0,
+      "exchange_price": 21.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -165336,18 +165378,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891961790",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891961790",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 42.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 5.0
     },
     {
       "id": 5719,
@@ -165637,9 +165684,9 @@
       "title": "Assassin's Creed",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 50,
       "collection_quantity": 50,
       "out_of_stock_stores": [
@@ -165653,18 +165700,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307210450999",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307210450999",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:50"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 5722,
@@ -167145,9 +167197,9 @@
       "title": "Batman Arkham Origins",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 11,
       "collection_quantity": 11,
       "out_of_stock_stores": [
@@ -167163,18 +167215,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891092822",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891092822",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 4933,
@@ -168974,9 +169031,9 @@
       "title": "Bleach: Soul Resurreccion",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 30.0,
-      "cash_price": 9.0,
-      "exchange_price": 15.0,
+      "current_price": 25.0,
+      "cash_price": 7.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -168997,18 +169054,23 @@
       "url": "https://it.webuy.com/product-detail/?id=813633011363",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "813633011363",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5756,
@@ -169337,9 +169399,9 @@
       "title": "Borderlands 2 - Pacchetto Contenuti Aggiuntivi",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -169361,18 +169423,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555410953",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555410953",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 5760,
@@ -169895,9 +169962,9 @@
       "title": "Buzz Il Quizzone Nazionale",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -169919,18 +169986,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719120940",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": "2026-11-06",
       "image_url": null,
       "box_id": "711719120940",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5763,
@@ -169979,9 +170051,9 @@
       "title": "Buzz! Quiz TV (With Wireless Buzzers)",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 28.0,
-      "cash_price": 8.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 7.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -169999,18 +170071,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719774150",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719774150",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 4980,
@@ -170490,9 +170567,9 @@
       "title": "Call Of Duty: Black Ops 2",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 50,
       "collection_quantity": 50,
       "out_of_stock_stores": [
@@ -170506,18 +170583,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917111778",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917111778",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5768,
@@ -170566,9 +170648,9 @@
       "title": "Call Of Duty: Black Ops 3",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 17,
       "collection_quantity": 17,
       "out_of_stock_stores": [
@@ -170584,18 +170666,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917162466",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917162466",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 4994,
@@ -170756,9 +170843,9 @@
       "title": "Call of Duty 3",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 11,
       "collection_quantity": 11,
       "out_of_stock_stores": [
@@ -170775,27 +170862,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917056253",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917056253",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 4987,
       "title": "Call of Duty 4: Modern Warfare",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 23,
       "collection_quantity": 23,
       "out_of_stock_stores": [
@@ -170811,18 +170903,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917047220",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917047220",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 5767,
@@ -171263,9 +171360,9 @@
       "title": "Cars 3",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -171283,18 +171380,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891149267",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891149267",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 5004,
@@ -171464,9 +171566,9 @@
       "title": "Castlevania: Lords of Shadow 2",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 32.0,
-      "cash_price": 9.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 8.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -171487,27 +171589,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927056042",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927056042",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 5774,
       "title": "Castlevania: Lords of Shadow HD Collection",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 30.0,
-      "cash_price": 9.0,
-      "exchange_price": 15.0,
+      "current_price": 35.0,
+      "cash_price": 10.0,
+      "exchange_price": 17.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -171529,18 +171636,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927056639",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927056639",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 16.67
     },
     {
       "id": 5007,
@@ -172778,9 +172890,9 @@
       "title": "Dante's Inferno",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 22.0,
-      "cash_price": 6.0,
-      "exchange_price": 11.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 19,
       "collection_quantity": 19,
       "out_of_stock_stores": [
@@ -172795,18 +172907,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947076993",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947076993",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -18.18
     },
     {
       "id": 5782,
@@ -172894,9 +173011,9 @@
       "title": "Dark Souls",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 25.0,
-      "cash_price": 7.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 6.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -172917,27 +173034,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891956505",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891956505",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5033,
       "title": "Dark Souls II",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -172959,18 +173081,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891974837",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": "2026-11-06",
       "image_url": null,
       "box_id": "3391891974837",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5783,
@@ -173772,9 +173899,9 @@
       "title": "Dead Space 2 Limited Edition",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -173795,18 +173922,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947100230",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947100230",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 5052,
@@ -173935,9 +174067,9 @@
       "title": "Deadpool (18)",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 75.0,
-      "cash_price": 43.0,
-      "exchange_price": 52.0,
+      "current_price": 80.0,
+      "cash_price": 46.0,
+      "exchange_price": 56.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -173959,18 +174091,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917125454",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917125454",
       "price_history_30d": [
+        {
+          "old_price": 75.0,
+          "new_price": 80.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 75.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 6.67
     },
     {
       "id": 5788,
@@ -174382,9 +174519,9 @@
       "title": "Devil May Cry 4",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -174406,18 +174543,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060925003",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055060925003",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 5793,
@@ -174466,9 +174608,9 @@
       "title": "Devil May Cry Hd Collection",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 25.0,
-      "cash_price": 7.0,
-      "exchange_price": 12.0,
+      "current_price": 28.0,
+      "cash_price": 8.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -174489,18 +174631,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060927762",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055060927762",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 5061,
@@ -174875,9 +175022,9 @@
       "title": "Disgaea Triple Play Collection",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.5,
-      "exchange_price": 2.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -174899,18 +175046,23 @@
       "url": "https://it.webuy.com/product-detail/?id=813633015897",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "813633015897",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 60.0
     },
     {
       "id": 5065,
@@ -175481,9 +175633,9 @@
       "title": "Disney Universe",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -175503,18 +175655,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8717418327705",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8717418327705",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5076,
@@ -175832,9 +175989,9 @@
       "title": "Dragon Ball Z: Ultimate Tenkaichi",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -175852,18 +176009,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891957281",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891957281",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -33.33
     },
     {
       "id": 5085,
@@ -175949,9 +176111,9 @@
       "title": "Dragon Trainer",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -175973,18 +176135,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917081484",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917081484",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5087,
@@ -176032,9 +176199,9 @@
       "title": "Dragon's Crown",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 22.0,
-      "cash_price": 6.0,
-      "exchange_price": 11.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -176056,18 +176223,23 @@
       "url": "https://it.webuy.com/product-detail/?id=813633013046",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": "2026-11-08",
       "image_url": null,
       "box_id": "813633013046",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -18.18
     },
     {
       "id": 5089,
@@ -176683,9 +176855,9 @@
       "title": "Dynasty Warriors 7",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -176707,18 +176879,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060073307579",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060073307579",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5815,
@@ -176931,9 +177108,9 @@
       "title": "Dynasty Warriors Gundam Reborn",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 70.0,
-      "cash_price": 40.0,
-      "exchange_price": 49.0,
+      "current_price": 75.0,
+      "cash_price": 43.0,
+      "exchange_price": 52.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -176955,18 +177132,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060327531378",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060327531378",
       "price_history_30d": [
+        {
+          "old_price": 70.0,
+          "new_price": 75.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 70.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 5099,
@@ -177344,9 +177526,9 @@
       "title": "El Shaddai - L'Ascesa Di Metatron",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 30.0,
-      "cash_price": 9.0,
-      "exchange_price": 15.0,
+      "current_price": 25.0,
+      "cash_price": 7.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -177367,18 +177549,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927053713",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927053713",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5105,
@@ -177424,9 +177611,9 @@
       "title": "Elder Scrolls IV: Oblivion",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -177445,18 +177632,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307210233967",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307210233967",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:51"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5107,
@@ -178297,9 +178489,9 @@
       "title": "F.E.A.R. 3",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -178321,18 +178513,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891016736",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891016736",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 5122,
@@ -178939,9 +179136,9 @@
       "title": "Fairy Fencer F",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 20.0,
+      "current_price": 22.0,
       "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -178963,18 +179160,23 @@
       "url": "https://it.webuy.com/product-detail/?id=813633013916",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "813633013916",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 5833,
@@ -179614,9 +179816,9 @@
       "title": "Farming Simulator 2013",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -179638,27 +179840,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3512899110915",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3512899110915",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5137,
       "title": "Fast & Furious: Showdown",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -179677,18 +179884,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917125072",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917125072",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5841,
@@ -179737,9 +179949,9 @@
       "title": "Fear First Enconter Assault Recon",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 20.0,
-      "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -179760,18 +179972,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3348542208865",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3348542208865",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 5139,
@@ -179902,9 +180119,9 @@
       "title": "Ferrari Challenge Trofeo Pirelli",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -179923,18 +180140,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060057026281",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060057026281",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 5149,
@@ -180019,9 +180241,9 @@
       "title": "Fight Night Champion",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -180038,18 +180260,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947092634",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947092634",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 5151,
@@ -180204,9 +180431,9 @@
       "title": "Final Fantasy XIII",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 14,
       "collection_quantity": 14,
       "out_of_stock_stores": [
@@ -180222,18 +180449,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060121820845",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060121820845",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5845,
@@ -180361,9 +180593,9 @@
       "title": "Fist of the North Star: Ken's Rage 2",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 35.0,
-      "cash_price": 10.0,
-      "exchange_price": 17.0,
+      "current_price": 38.0,
+      "cash_price": 11.0,
+      "exchange_price": 19.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -180385,18 +180617,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060073309559",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060073309559",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 5158,
@@ -180442,9 +180679,9 @@
       "title": "Folklore",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 75.0,
-      "cash_price": 37.0,
-      "exchange_price": 50.0,
+      "current_price": 80.0,
+      "cash_price": 40.0,
+      "exchange_price": 53.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -180466,18 +180703,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719409021",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719409021",
       "price_history_30d": [
+        {
+          "old_price": 75.0,
+          "new_price": 80.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 75.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 6.67
     },
     {
       "id": 5159,
@@ -181215,9 +181457,9 @@
       "title": "Ghost Recon FS & AW2 Double Pack (18)",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 20.0,
-      "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -181238,27 +181480,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307215692363",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307215692363",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 5171,
       "title": "Ghost Recon Future Soldier",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.5,
-      "exchange_price": 2.0,
+      "current_price": 3.5,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -181276,18 +181523,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307212811798",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307212811798",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -30.0
     },
     {
       "id": 5172,
@@ -181563,9 +181815,9 @@
       "title": "Golden Axe: Beast Rider",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -181587,18 +181839,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060138436268",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060138436268",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5179,
@@ -181639,9 +181896,9 @@
       "title": "Gran Turismo 5 Edizione da Collezione",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -181659,18 +181916,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719191353",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719191353",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5181,
@@ -181753,9 +182015,9 @@
       "title": "Gran Turismo 6",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 30,
       "collection_quantity": 30,
       "out_of_stock_stores": [
@@ -181771,18 +182033,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719249375",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719249375",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5183,
@@ -181827,9 +182094,9 @@
       "title": "Grand Theft Auto Episodes from Liberty City",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -181845,18 +182112,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555403801",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555403801",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5185,
@@ -181898,9 +182170,9 @@
       "title": "Grand Theft Auto IV & Episodes From Liberty City",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 35.0,
-      "cash_price": 10.0,
-      "exchange_price": 17.0,
+      "current_price": 32.0,
+      "cash_price": 9.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 10,
       "collection_quantity": 10,
       "out_of_stock_stores": [
@@ -181918,27 +182190,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555405607",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555405607",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 32.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -8.57
     },
     {
       "id": 5187,
       "title": "Grand Theft Auto V",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 50,
       "collection_quantity": 50,
       "out_of_stock_stores": [
@@ -181952,18 +182229,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555410250",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555410250",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5188,
@@ -182777,9 +183059,9 @@
       "title": "Happy feet 2",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -182800,18 +183082,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891024830",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891024830",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5866,
@@ -182860,9 +183147,9 @@
       "title": "Harry Potter E I Doni Della Morte. Part 1",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -182880,18 +183167,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947087555",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947087555",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5867,
@@ -182940,9 +183232,9 @@
       "title": "Harry Potter e il Principe Mezzosangue",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 30.0,
-      "cash_price": 9.0,
-      "exchange_price": 15.0,
+      "current_price": 25.0,
+      "cash_price": 7.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -182963,18 +183255,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947067076",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947067076",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5868,
@@ -183183,9 +183480,9 @@
       "title": "Heavy Rain",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -183201,18 +183498,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719149859",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719149859",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 5205,
@@ -184024,9 +184326,9 @@
       "title": "Infamous",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 22.0,
-      "cash_price": 6.0,
-      "exchange_price": 11.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 19,
       "collection_quantity": 19,
       "out_of_stock_stores": [
@@ -184041,18 +184343,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719134664",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719134664",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -18.18
     },
     {
       "id": 5217,
@@ -185250,9 +185557,9 @@
       "title": "Killer Is Dead",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 22.0,
-      "cash_price": 6.0,
-      "exchange_price": 11.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -185273,18 +185580,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628092412",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628092412",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -18.18
     },
     {
       "id": 5888,
@@ -185618,9 +185930,9 @@
       "title": "Kingdom Hearts HD 2.5 ReMix",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -185638,27 +185950,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290064652",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290064652",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5244,
       "title": "Kingdom Hearts: HD 1.5 ReMix",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 9,
       "collection_quantity": 9,
       "out_of_stock_stores": [
@@ -185677,18 +185994,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290056091",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290056091",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5245,
@@ -185735,9 +186057,9 @@
       "title": "Knights Contract",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -185758,18 +186080,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3700577002946",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3700577002946",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5247,
@@ -186092,9 +186419,9 @@
       "title": "LA Noire Complete Edition",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -186115,18 +186442,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555407670",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555407670",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5258,
@@ -186248,9 +186580,9 @@
       "title": "LEGO Marvel Avengers",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -186265,18 +186597,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891136397",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891136397",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 5904,
@@ -186325,9 +186662,9 @@
       "title": "LEGO Star Wars III: The Clone Wars",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 4.0,
+      "cash_price": 1.2,
+      "exchange_price": 2.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -186345,18 +186682,23 @@
       "url": "https://it.webuy.com/product-detail/?id=023272009755",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "023272009755",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -33.33
     },
     {
       "id": 5905,
@@ -186974,9 +187316,9 @@
       "title": "Lego Indiana Jones",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -186994,18 +187336,23 @@
       "url": "https://it.webuy.com/product-detail/?id=023272005986",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "023272005986",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5903,
@@ -187596,9 +187943,9 @@
       "title": "Londra 2012: Gioco Ufficiale Delle Olimpiadi",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -187615,18 +187962,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277017027",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277017027",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5909,
@@ -188446,9 +188798,9 @@
       "title": "Madden NFL 13",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -188470,18 +188822,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030930107680",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030930107680",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5915,
@@ -188897,9 +189254,9 @@
       "title": "Marvel: La Grande Alleanza",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -188920,18 +189277,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917039430",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917039430",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:52"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5294,
@@ -189209,9 +189571,9 @@
       "title": "Medal Of Honor - Airborne",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.5,
-      "exchange_price": 2.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -189233,18 +189595,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947059088",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947059088",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 60.0
     },
     {
       "id": 5299,
@@ -189526,9 +189893,9 @@
       "title": "Metal Gear Solid 4: Guns of the Patriots",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 44,
       "collection_quantity": 44,
       "out_of_stock_stores": [
@@ -189542,18 +189909,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927050170",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927050170",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5925,
@@ -189680,9 +190052,9 @@
       "title": "Metal Gear Solid: HD Collection",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 40.0,
-      "cash_price": 23.0,
-      "exchange_price": 28.0,
+      "current_price": 35.0,
+      "cash_price": 20.0,
+      "exchange_price": 24.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -189701,27 +190073,32 @@
       "url": "https://it.webuy.com/product-detail/?id=8371720332",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8371720332",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 5926,
       "title": "Metal Gear Solid: Legacy Collection (Senza DLC)",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 100.0,
-      "cash_price": 58.0,
-      "exchange_price": 70.0,
+      "current_price": 105.0,
+      "cash_price": 60.0,
+      "exchange_price": 73.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -189743,18 +190120,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927055922",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927055922",
       "price_history_30d": [
+        {
+          "old_price": 100.0,
+          "new_price": 105.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 100.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 5.0
     },
     {
       "id": 5308,
@@ -190394,9 +190776,9 @@
       "title": "Monkey Island Collezione Edizioni Speciali",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 75.0,
-      "cash_price": 22.0,
-      "exchange_price": 37.0,
+      "current_price": 70.0,
+      "cash_price": 21.0,
+      "exchange_price": 35.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -190417,18 +190799,23 @@
       "url": "https://it.webuy.com/product-detail/?id=023272010744",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "023272010744",
       "price_history_30d": [
+        {
+          "old_price": 75.0,
+          "new_price": 70.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 75.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.67
     },
     {
       "id": 5320,
@@ -192417,9 +192804,9 @@
       "title": "NCIS",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -192441,18 +192828,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307215591918",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307215591918",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5382,
@@ -193385,9 +193777,9 @@
       "title": "Naruto Ultimate Ninja Storm 3 Full Burst Ed.",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -193409,18 +193801,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891972123",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891972123",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 5948,
@@ -193786,9 +194183,9 @@
       "title": "Need For Speed Hot Pursuit",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 16,
       "collection_quantity": 16,
       "out_of_stock_stores": [
@@ -193802,18 +194199,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947096632",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947096632",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5375,
@@ -193859,9 +194261,9 @@
       "title": "Need For Speed The Run",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 10,
       "collection_quantity": 10,
       "out_of_stock_stores": [
@@ -193877,18 +194279,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947104382",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947104382",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5378,
@@ -194458,9 +194865,9 @@
       "title": "Ninja Gaiden Sigma 2",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -194481,18 +194888,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060073306732",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060073306732",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 5965,
@@ -194897,9 +195309,9 @@
       "title": "Orange Box, The",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 28.0,
-      "cash_price": 8.0,
-      "exchange_price": 14.0,
+      "current_price": 30.0,
+      "cash_price": 9.0,
+      "exchange_price": 15.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -194921,18 +195333,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947055295",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947055295",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 5969,
@@ -195232,9 +195649,9 @@
       "title": "Padrino 2, Il",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 18,
       "collection_quantity": 18,
       "out_of_stock_stores": [
@@ -195250,18 +195667,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947066307",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947066307",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5974,
@@ -195430,9 +195852,9 @@
       "title": "Persona 4 Arena",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -195453,18 +195875,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4510772106764",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4510772106764",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5977,
@@ -195876,9 +196303,9 @@
       "title": "Playstation Move Heroes",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -195899,18 +196326,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719156185",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719156185",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5981,
@@ -196001,9 +196433,9 @@
       "title": "Portal 2",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 20.0,
+      "current_price": 22.0,
       "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -196025,27 +196457,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947102081",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947102081",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 5411,
       "title": "Prince Of Persia",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -196062,18 +196499,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307211609327",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307211609327",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5412,
@@ -196118,9 +196560,9 @@
       "title": "Prince of Persia Trilogy",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 55.0,
-      "cash_price": 27.0,
-      "exchange_price": 36.0,
+      "current_price": 60.0,
+      "cash_price": 30.0,
+      "exchange_price": 40.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -196142,27 +196584,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307219904523",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307219904523",
       "price_history_30d": [
+        {
+          "old_price": 55.0,
+          "new_price": 60.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 55.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.09
     },
     {
       "id": 5413,
       "title": "Prison Break",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 12.0,
+      "cash_price": 3.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -196184,18 +196631,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628087135",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": "2026-11-06",
       "image_url": null,
       "box_id": "4020628087135",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5414,
@@ -196540,9 +196992,9 @@
       "title": "Prototype",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.5,
-      "exchange_price": 2.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -196562,18 +197014,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917067303",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917067303",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 60.0
     },
     {
       "id": 5424,
@@ -196661,9 +197118,9 @@
       "title": "Puppeteer Kutaro e le Forbici Magiche",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 35.0,
-      "cash_price": 10.0,
-      "exchange_price": 17.0,
+      "current_price": 38.0,
+      "cash_price": 11.0,
+      "exchange_price": 19.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -196685,18 +197142,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719260561",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719260561",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 5425,
@@ -197226,9 +197688,9 @@
       "title": "Rango",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -197250,18 +197712,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947101145",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947101145",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 5434,
@@ -197433,9 +197900,9 @@
       "title": "Ratchet & Clank Nexus",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 55.0,
-      "cash_price": 16.0,
-      "exchange_price": 27.0,
+      "current_price": 50.0,
+      "cash_price": 15.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -197455,27 +197922,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719289968",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719289968",
       "price_history_30d": [
+        {
+          "old_price": 55.0,
+          "new_price": 50.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 55.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 5437,
       "title": "Ratchet & Clank Q-Force",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 20.0,
+      "cash_price": 6.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -197496,18 +197968,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719265733",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719265733",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 5438,
@@ -197635,9 +198112,9 @@
       "title": "Ratchet & Clank: Tutti Per Uno",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 28.0,
-      "cash_price": 8.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 7.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -197656,18 +198133,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719223535",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719223535",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 5442,
@@ -197711,9 +198193,9 @@
       "title": "Rayman Legends",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -197733,18 +198215,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307215842294",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307215842294",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5444,
@@ -197903,9 +198390,9 @@
       "title": "Red Dead Redemption: Undead Nightmare",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -197922,18 +198409,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555405973",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555405973",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5449,
@@ -198377,9 +198869,9 @@
       "title": "Resident Evil: Revelations 2",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 22.0,
-      "cash_price": 6.0,
-      "exchange_price": 11.0,
+      "current_price": 25.0,
+      "cash_price": 7.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -198400,18 +198892,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060930366",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055060930366",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 5458,
@@ -198896,9 +199393,9 @@
       "title": "Rise Of The Argonauts",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -198919,18 +199416,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5024866337860",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5024866337860",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:53"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 5469,
@@ -199141,9 +199643,9 @@
       "title": "Rock Band 3",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -199165,18 +199667,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947094355",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947094355",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5471,
@@ -199816,9 +200323,9 @@
       "title": "SSX",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 1.5,
+      "exchange_price": 2.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -199836,18 +200343,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947104504",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947104504",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 5478,
@@ -200588,9 +201100,9 @@
       "title": "Scontro Tra Titani",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -200607,18 +201119,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3296580811359",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3296580811359",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 5495,
@@ -200786,9 +201303,9 @@
       "title": "Shadow Of The Damned",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 28.0,
-      "cash_price": 8.0,
-      "exchange_price": 14.0,
+      "current_price": 22.0,
+      "cash_price": 6.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -200809,18 +201326,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947102975",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947102975",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -21.43
     },
     {
       "id": 5501,
@@ -201103,9 +201625,9 @@
       "title": "Shrek 4 - E Vissero Felici E Contenti",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -201127,18 +201649,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917082153",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917082153",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5505,
@@ -201266,9 +201793,9 @@
       "title": "Silent Hill Downpour",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 65.0,
-      "cash_price": 19.0,
-      "exchange_price": 32.0,
+      "current_price": 70.0,
+      "cash_price": 21.0,
+      "exchange_price": 35.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -201290,18 +201817,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927053799",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927053799",
       "price_history_30d": [
+        {
+          "old_price": 65.0,
+          "new_price": 70.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 65.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.69
     },
     {
       "id": 6018,
@@ -203108,9 +203640,9 @@
       "title": "Sniper Elite V2 Game of the Year Edition",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 20.0,
-      "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -203131,18 +203663,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8023171032030",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8023171032030",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 5532,
@@ -203385,9 +203922,9 @@
       "title": "Sonic & Sega All Star Racing",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 22.0,
-      "cash_price": 6.0,
-      "exchange_price": 11.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -203405,18 +203942,23 @@
       "url": "https://it.webuy.com/product-detail/?id=010086690361",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "010086690361",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -18.18
     },
     {
       "id": 5538,
@@ -204110,9 +204652,9 @@
       "title": "Splatterhouse",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 80.0,
-      "cash_price": 46.0,
-      "exchange_price": 56.0,
+      "current_price": 85.0,
+      "cash_price": 49.0,
+      "exchange_price": 59.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -204134,18 +204676,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3296580810680",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3296580810680",
       "price_history_30d": [
+        {
+          "old_price": 80.0,
+          "new_price": 85.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 80.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 6.25
     },
     {
       "id": 6045,
@@ -204316,9 +204863,9 @@
       "title": "Split: Second Velocity",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 4.0,
+      "cash_price": 1.2,
+      "exchange_price": 2.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -204336,18 +204883,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8717418254988",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8717418254988",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -33.33
     },
     {
       "id": 6048,
@@ -204831,9 +205383,9 @@
       "title": "Stars Wars Il Potere Della Forza",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -204851,18 +205403,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0023272005603",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0023272005603",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -33.33
     },
     {
       "id": 5562,
@@ -205105,9 +205662,9 @@
       "title": "Street Fighter IV",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -205128,18 +205685,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060925577",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055060925577",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6052,
@@ -205959,9 +206521,9 @@
       "title": "Tales Of Xillia 2",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 18.0,
+      "cash_price": 5.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -205983,18 +206545,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891977722",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891977722",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 13769,
@@ -206126,9 +206693,9 @@
       "title": "Tales of Zestiria",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -206149,18 +206716,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891985260",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891985260",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6062,
@@ -206569,9 +207141,9 @@
       "title": "Terraria",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -206592,18 +207164,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8023171033419",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8023171033419",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:52"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6065,
@@ -206732,9 +207309,9 @@
       "title": "Testamento Di Sherlock Holmes",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 20.0,
+      "current_price": 22.0,
       "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -206756,18 +207333,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3512899108622",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3512899108622",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 6067,
@@ -207128,9 +207710,9 @@
       "title": "Tiger Woods PGA Tour 13",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -207147,18 +207729,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947104252",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947104252",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -33.33
     },
     {
       "id": 6068,
@@ -207332,9 +207919,9 @@
       "title": "Time Crisis Razing Storm",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 9,
       "collection_quantity": 9,
       "out_of_stock_stores": [
@@ -207351,18 +207938,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719135487",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719135487",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 5601,
@@ -207715,9 +208307,9 @@
       "title": "Tomb Raider - Trilogy",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 25.0,
-      "cash_price": 7.0,
-      "exchange_price": 12.0,
+      "current_price": 28.0,
+      "cash_price": 8.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -207738,18 +208330,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290046610",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290046610",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 6073,
@@ -208000,9 +208597,9 @@
       "title": "Top Gun: Hard Lock",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -208024,18 +208621,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8023171028897",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8023171028897",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5613,
@@ -208559,9 +209161,9 @@
       "title": "Transformers LA Battaglia PER Cybertron",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 20.0,
+      "current_price": 22.0,
       "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -208583,27 +209185,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917082290",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": "2026-11-06",
       "image_url": null,
       "box_id": "5030917082290",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 6080,
       "title": "Transformers The Dark Spark",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -208625,27 +209232,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917143083",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917143083",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5624,
       "title": "Transformers The Game",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -208662,18 +209274,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917044816",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917044816",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6081,
@@ -209088,9 +209705,9 @@
       "title": "Twisted Metal",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 28.0,
-      "cash_price": 8.0,
-      "exchange_price": 14.0,
+      "current_price": 22.0,
+      "cash_price": 6.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -209111,18 +209728,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719161592",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719161592",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -21.43
     },
     {
       "id": 6087,
@@ -209531,9 +210153,9 @@
       "title": "Ultimate Stealth Triple Pack: Deus Ex, Thief, Hitman",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -209555,18 +210177,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290066717",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290066717",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6091,
@@ -210316,9 +210943,9 @@
       "title": "WALL-E",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 4.0,
+      "cash_price": 1.2,
+      "exchange_price": 2.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -210335,18 +210962,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209106252",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4005209106252",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -33.33
     },
     {
       "id": 5673,
@@ -210389,9 +211021,9 @@
       "title": "WRC 3 - Fia World Rally Championship",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -210412,18 +211044,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8059617100681",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8059617100681",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6118,
@@ -210822,9 +211459,9 @@
       "title": "WWE Legends Of Wrestlemania",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 10.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -210845,18 +211482,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209116978",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4005209116978",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5686,
@@ -211266,9 +211908,9 @@
       "title": "Wanted: Weapons Of Fate",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.5,
-      "exchange_price": 2.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -211289,18 +211931,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051892003940",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051892003940",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 60.0
     },
     {
       "id": 5657,
@@ -211712,9 +212359,9 @@
       "title": "Wet",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -211736,27 +212383,32 @@
       "url": "https://it.webuy.com/product-detail/?id=093155122147",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "093155122147",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6105,
       "title": "White Knight Chronicles",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -211778,18 +212430,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719166368",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719166368",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6106,
@@ -212093,9 +212750,9 @@
       "title": "Witch & The Hundred Knight, The",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -212116,18 +212773,23 @@
       "url": "https://it.webuy.com/product-detail/?id=813633013435",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "813633013435",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 19:20:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6111,
@@ -212256,9 +212918,9 @@
       "title": "Wolverine Le Origini",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 40.0,
+      "current_price": 42.0,
       "cash_price": 12.0,
-      "exchange_price": 20.0,
+      "exchange_price": 21.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -212280,18 +212942,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917065774",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917065774",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 42.0,
+          "changed_at": "2026-11-10 05:46:56"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 5.0
     },
     {
       "id": 5666,
@@ -212895,9 +213562,9 @@
       "title": "X-Men Destiny",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 15.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -212919,18 +213586,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917100802",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917100802",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-10 05:46:55"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 5692,
@@ -213388,9 +214060,9 @@
       "title": "uDraw Hd E Sei Subito Artista! + Tavoletta",
       "console": "PS3",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.8,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -213412,18 +214084,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209155519",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-10",
-      "last_price_change": null,
+      "last_price_change": "2026-11-10",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4005209155519",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-10 05:46:54"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 7711,
@@ -233914,6 +234591,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "La Romanina",
         "The Wow Side",
@@ -264763,6 +265441,7 @@
         "Gran Roma",
         "La Romanina",
         "The Wow Side",
+        "Le Corti Venete",
         "Merlata Bloom"
       ],
       "is_available": 1,
@@ -345721,8 +346400,8 @@
       "current_price": 38.0,
       "cash_price": 19.0,
       "exchange_price": 25.0,
-      "ecom_quantity": 3,
-      "collection_quantity": 3,
+      "ecom_quantity": 2,
+      "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
@@ -366804,6 +367483,7 @@
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Milano Viale Tunisia",
         "Gran Roma",
         "The Wow Side",
         "Le Corti Venete",

@@ -1,19 +1,1100 @@
 {
   "metadata": {
-    "generated_at": "2026-11-10T01:24:25.074960",
+    "generated_at": "2026-11-10T05:47:38.764763",
     "date": "2026-11-10",
-    "duration_sec": 149.2,
-    "total_scraped": 13774
+    "duration_sec": 172.0,
+    "total_scraped": 27548
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 0,
+    "price_changes": 135,
     "availability_changes": 1,
-    "unchanged": 13773,
+    "unchanged": 27412,
     "errors": 0
   },
   "new_games": [],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "game_id": 4890,
+      "title": "Afro Samurai",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 4896,
+      "title": "Aliens - Colonial Marines",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 4897,
+      "title": "Aliens vs Predator",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 4913,
+      "title": "Assassin's Creed",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 4932,
+      "title": "Batman Arkham Origins",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5759,
+      "title": "Borderlands 2 - Pacchetto Contenuti Aggiuntivi",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 4978,
+      "title": "Buzz Il Quizzone Nazionale",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 4986,
+      "title": "Call of Duty 3",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 4987,
+      "title": "Call of Duty 4: Modern Warfare",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 4992,
+      "title": "Call Of Duty: Black Ops 2",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 4993,
+      "title": "Call Of Duty: Black Ops 3",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 5003,
+      "title": "Cars 3",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 5033,
+      "title": "Dark Souls II",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5792,
+      "title": "Devil May Cry 4",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 5799,
+      "title": "Disgaea Triple Play Collection",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 5073,
+      "title": "Disney Universe",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5084,
+      "title": "Dragon Ball Z: Ultimate Tenkaichi",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 5806,
+      "title": "Dragon Trainer",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5814,
+      "title": "Dynasty Warriors 7",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5106,
+      "title": "Elder Scrolls IV: Oblivion",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5829,
+      "title": "F.E.A.R. 3",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 5840,
+      "title": "Farming Simulator 2013",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5137,
+      "title": "Fast & Furious: Showdown",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5140,
+      "title": "Ferrari Challenge Trofeo Pirelli",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 5150,
+      "title": "Fight Night Champion",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 5155,
+      "title": "Final Fantasy XIII",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5171,
+      "title": "Ghost Recon Future Soldier",
+      "console": "PS3",
+      "new_price": 3.5,
+      "old_price": 5.0,
+      "variation_pct": -30.0
+    },
+    {
+      "game_id": 5855,
+      "title": "Golden Axe: Beast Rider",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5180,
+      "title": "Gran Turismo 5 Edizione da Collezione",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5182,
+      "title": "Gran Turismo 6",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5184,
+      "title": "Grand Theft Auto Episodes from Liberty City",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5187,
+      "title": "Grand Theft Auto V",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5199,
+      "title": "Happy feet 2",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5200,
+      "title": "Harry Potter E I Doni Della Morte. Part 1",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5204,
+      "title": "Heavy Rain",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 5243,
+      "title": "Kingdom Hearts HD 2.5 ReMix",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5244,
+      "title": "Kingdom Hearts: HD 1.5 ReMix",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5246,
+      "title": "Knights Contract",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5254,
+      "title": "LA Noire Complete Edition",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5262,
+      "title": "Lego Indiana Jones",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5265,
+      "title": "LEGO Marvel Avengers",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 5268,
+      "title": "LEGO Star Wars III: The Clone Wars",
+      "console": "PS3",
+      "new_price": 4,
+      "old_price": 6.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 5278,
+      "title": "Londra 2012: Gioco Ufficiale Delle Olimpiadi",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5914,
+      "title": "Madden NFL 13",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5293,
+      "title": "Marvel: La Grande Alleanza",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5922,
+      "title": "Medal Of Honor - Airborne",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 5304,
+      "title": "Metal Gear Solid 4: Guns of the Patriots",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5947,
+      "title": "Naruto Ultimate Ninja Storm 3 Full Burst Ed.",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 5953,
+      "title": "NCIS",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5374,
+      "title": "Need For Speed Hot Pursuit",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5376,
+      "title": "Need For Speed The Run",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5391,
+      "title": "Ninja Gaiden Sigma 2",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 5400,
+      "title": "Padrino 2, Il",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5403,
+      "title": "Persona 4 Arena",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5410,
+      "title": "Playstation Move Heroes",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5411,
+      "title": "Prince Of Persia",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5413,
+      "title": "Prison Break",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5423,
+      "title": "Prototype",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 5991,
+      "title": "Rango",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 5443,
+      "title": "Rayman Legends",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5448,
+      "title": "Red Dead Redemption: Undead Nightmare",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5468,
+      "title": "Rise Of The Argonauts",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6002,
+      "title": "Rock Band 3",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5494,
+      "title": "Scontro Tra Titani",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6016,
+      "title": "Shrek 4 - E Vissero Felici E Contenti",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5550,
+      "title": "Split: Second Velocity",
+      "console": "PS3",
+      "new_price": 4,
+      "old_price": 6.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 5554,
+      "title": "SSX",
+      "console": "PS3",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 5561,
+      "title": "Stars Wars Il Potere Della Forza",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 5567,
+      "title": "Street Fighter IV",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 5579,
+      "title": "Tales of Zestiria",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5587,
+      "title": "Terraria",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5598,
+      "title": "Tiger Woods PGA Tour 13",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 5600,
+      "title": "Time Crisis Razing Storm",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6076,
+      "title": "Top Gun: Hard Lock",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6080,
+      "title": "Transformers The Dark Spark",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5624,
+      "title": "Transformers The Game",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6089,
+      "title": "uDraw Hd E Sei Subito Artista! + Tavoletta",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6090,
+      "title": "Ultimate Stealth Triple Pack: Deus Ex, Thief, Hitman",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5655,
+      "title": "WALL-E",
+      "console": "PS3",
+      "new_price": 4,
+      "old_price": 6.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 5656,
+      "title": "Wanted: Weapons Of Fate",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 6104,
+      "title": "Wet",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6105,
+      "title": "White Knight Chronicles",
+      "console": "PS3",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13704,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5674,
+      "title": "WRC 3 - Fia World Rally Championship",
+      "console": "PS3",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 5684,
+      "title": "WWE Legends Of Wrestlemania",
+      "console": "PS3",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6120,
+      "title": "X-Men Destiny",
+      "console": "PS3",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 5700,
+      "title": "50 Cents Blood on the Sand",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 4889,
+      "title": "Adventure Time Esplora I Sotterranei",
+      "console": "PS3",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 4894,
+      "title": "Akiba's Trip: Undead & Undressed",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 4900,
+      "title": "Amazing Spider-Man",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 4908,
+      "title": "Armored Core For Answer",
+      "console": "PS3",
+      "new_price": 32,
+      "old_price": 38.0,
+      "variation_pct": -15.79
+    },
+    {
+      "game_id": 5718,
+      "title": "Armored Core V",
+      "console": "PS3",
+      "new_price": 42,
+      "old_price": 40.0,
+      "variation_pct": 5.0
+    },
+    {
+      "game_id": 4962,
+      "title": "Bleach: Soul Resurreccion",
+      "console": "PS3",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 4979,
+      "title": "Buzz! Quiz TV (With Wireless Buzzers)",
+      "console": "PS3",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 5006,
+      "title": "Castlevania: Lords of Shadow 2",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 32.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 5774,
+      "title": "Castlevania: Lords of Shadow HD Collection",
+      "console": "PS3",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 5030,
+      "title": "Dante's Inferno",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 5032,
+      "title": "Dark Souls",
+      "console": "PS3",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 5051,
+      "title": "Dead Space 2 Limited Edition",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 5787,
+      "title": "Deadpool (18)",
+      "console": "PS3",
+      "new_price": 80,
+      "old_price": 75.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 5060,
+      "title": "Devil May Cry Hd Collection",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 5088,
+      "title": "Dragon's Crown",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 5818,
+      "title": "Dynasty Warriors Gundam Reborn",
+      "console": "PS3",
+      "new_price": 75,
+      "old_price": 70.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 5104,
+      "title": "El Shaddai - L'Ascesa Di Metatron",
+      "console": "PS3",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5832,
+      "title": "Fairy Fencer F",
+      "console": "PS3",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 5138,
+      "title": "Fear First Enconter Assault Recon",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 5846,
+      "title": "Fist of the North Star: Ken's Rage 2",
+      "console": "PS3",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 5847,
+      "title": "Folklore",
+      "console": "PS3",
+      "new_price": 80,
+      "old_price": 75.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 5170,
+      "title": "Ghost Recon FS & AW2 Double Pack (18)",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 5186,
+      "title": "Grand Theft Auto IV & Episodes From Liberty City",
+      "console": "PS3",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 5201,
+      "title": "Harry Potter e il Principe Mezzosangue",
+      "console": "PS3",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 5216,
+      "title": "Infamous",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 5239,
+      "title": "Killer Is Dead",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 5307,
+      "title": "Metal Gear Solid: HD Collection",
+      "console": "PS3",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 5926,
+      "title": "Metal Gear Solid: Legacy Collection (Senza DLC)",
+      "console": "PS3",
+      "new_price": 105,
+      "old_price": 100.0,
+      "variation_pct": 5.0
+    },
+    {
+      "game_id": 5319,
+      "title": "Monkey Island Collezione Edizioni Speciali",
+      "console": "PS3",
+      "new_price": 70,
+      "old_price": 75.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 5968,
+      "title": "Orange Box, The",
+      "console": "PS3",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 5983,
+      "title": "Portal 2",
+      "console": "PS3",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 5984,
+      "title": "Prince of Persia Trilogy",
+      "console": "PS3",
+      "new_price": 60,
+      "old_price": 55.0,
+      "variation_pct": 9.09
+    },
+    {
+      "game_id": 5986,
+      "title": "Puppeteer Kutaro e le Forbici Magiche",
+      "console": "PS3",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 5436,
+      "title": "Ratchet & Clank Nexus",
+      "console": "PS3",
+      "new_price": 50,
+      "old_price": 55.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 5437,
+      "title": "Ratchet & Clank Q-Force",
+      "console": "PS3",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 5441,
+      "title": "Ratchet & Clank: Tutti Per Uno",
+      "console": "PS3",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 5457,
+      "title": "Resident Evil: Revelations 2",
+      "console": "PS3",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 5500,
+      "title": "Shadow Of The Damned",
+      "console": "PS3",
+      "new_price": 22,
+      "old_price": 28.0,
+      "variation_pct": -21.43
+    },
+    {
+      "game_id": 6017,
+      "title": "Silent Hill Downpour",
+      "console": "PS3",
+      "new_price": 70,
+      "old_price": 65.0,
+      "variation_pct": 7.69
+    },
+    {
+      "game_id": 5531,
+      "title": "Sniper Elite V2 Game of the Year Edition",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 5537,
+      "title": "Sonic & Sega All Star Racing",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 6044,
+      "title": "Splatterhouse",
+      "console": "PS3",
+      "new_price": 85,
+      "old_price": 80.0,
+      "variation_pct": 6.25
+    },
+    {
+      "game_id": 6060,
+      "title": "Tales Of Xillia 2",
+      "console": "PS3",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6066,
+      "title": "Testamento Di Sherlock Holmes",
+      "console": "PS3",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 5609,
+      "title": "Tomb Raider - Trilogy",
+      "console": "PS3",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 5623,
+      "title": "Transformers LA Battaglia PER Cybertron",
+      "console": "PS3",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 5630,
+      "title": "Twisted Metal",
+      "console": "PS3",
+      "new_price": 22,
+      "old_price": 28.0,
+      "variation_pct": -21.43
+    },
+    {
+      "game_id": 6112,
+      "title": "Wolverine Le Origini",
+      "console": "PS3",
+      "new_price": 42,
+      "old_price": 40.0,
+      "variation_pct": 5.0
+    }
+  ],
   "availability_changes": [
     {
       "game_id": 3433,
