@@ -1,18 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-11-10T05:47:38.764763",
+    "generated_at": "2026-11-10T14:33:23.592202",
     "date": "2026-11-10",
-    "duration_sec": 172.0,
-    "total_scraped": 27548
+    "duration_sec": 160.8,
+    "total_scraped": 41323
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 1,
     "price_changes": 135,
-    "availability_changes": 1,
-    "unchanged": 27412,
+    "availability_changes": 30,
+    "unchanged": 41157,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13775,
+      "title": "ToCA Race Driver 3",
+      "console": "Xbox",
+      "price": 6
+    }
+  ],
   "price_changes": [
     {
       "game_id": 4890,
@@ -1102,6 +1109,209 @@
       "console": "PS2",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 121,
+      "title": "Delta Force Black Hawk Down",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 278,
+      "title": "Max Payne 2",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 525,
+      "title": "Toca Race Driver 2",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 566,
+      "title": "Voodoo vince",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1493,
+      "title": "Deadpool",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1842,
+      "title": "X-Men Origins: Wolverine",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3049,
+      "title": "Buzz the Big Quiz",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3173,
+      "title": "Dropship",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4631,
+      "title": "Samurai Western /Manual",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3823,
+      "title": "Spyro L'Alba Del Drago",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4984,
+      "title": "Cabela's Camp Adventure (Move)",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5418,
+      "title": "Pro Evolution Soccer 2010",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5641,
+      "title": "Uncharted 3: L'inganno di Drake GOTY",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6109,
+      "title": "Winter Sports 2011",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6292,
+      "title": "Gangs of London",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6303,
+      "title": "God of War - Ghost of Sparta",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6311,
+      "title": "Great Battles Of Rome",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6580,
+      "title": "Spider Man 2",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7801,
+      "title": "Blackhole Complete Edition",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8215,
+      "title": "Shiny",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8395,
+      "title": "Ziggurat",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13772,
+      "title": "Hobbit, Lo",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10431,
+      "title": "Just Dance: Best Of",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11498,
+      "title": "Fantastici 4 E Silver Surfer",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12921,
+      "title": "Sid Meier's Civilization VI",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13474,
+      "title": "Skater XL",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13542,
+      "title": "Travis Strikes Again: No More Heroes (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13594,
+      "title": "Zombie Army Trilogy",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12410,
+      "title": "60 in 1 Game Collection",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
