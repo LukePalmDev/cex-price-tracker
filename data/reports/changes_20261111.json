@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-11T04:27:06.195845",
+    "generated_at": "2026-11-11T13:47:56.800907",
     "date": "2026-11-11",
-    "duration_sec": 185.3,
-    "total_scraped": 13776
+    "duration_sec": 154.8,
+    "total_scraped": 27552
   },
   "summary": {
     "new_games": 0,
     "price_changes": 0,
-    "availability_changes": 1,
-    "unchanged": 13775,
+    "availability_changes": 41,
+    "unchanged": 27511,
     "errors": 0
   },
   "new_games": [],
@@ -19,6 +19,286 @@
       "game_id": 8722,
       "title": "Gothic Remake",
       "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 44,
+      "title": "Blood Omen 2 - Legacy Of Kain",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 335,
+      "title": "Need For Speed: Most Wanted",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 379,
+      "title": "Project Gotham Racing 2",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 412,
+      "title": "RPM Tuning",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 448,
+      "title": "Simpsons Hit and Run",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1392,
+      "title": "Angry Birds Star Wars",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1538,
+      "title": "Farming Simulator",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1625,
+      "title": "Madden NFL 17",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1410,
+      "title": "Batman: Arkham Origins (2 Dichi)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1485,
+      "title": "Dead Rising 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1720,
+      "title": "Risen 3 - Titan Lords",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1773,
+      "title": "Tales Of Vesperia",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1310,
+      "title": "Under Defeat HD",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1842,
+      "title": "X-Men Origins: Wolverine",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2318,
+      "title": "Payday 2: The Big Score",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2794,
+      "title": "Call of Duty: Black Ops Cold War (Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4422,
+      "title": "Maxxed Out Racing",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3288,
+      "title": "Ghost Master",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4485,
+      "title": "NBA Street",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4065,
+      "title": "Castlevania",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3459,
+      "title": "Mafia",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4678,
+      "title": "Simpsons: Hit & Run",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5987,
+      "title": "Pure Football",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5782,
+      "title": "Dante's Inferno Death Edition (No Codes)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6250,
+      "title": "Field Commander",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6260,
+      "title": "FIFA 2010 Mondiali Sudafrica",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6457,
+      "title": "NBA Live 10",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7999,
+      "title": "Hotel Transylvania 3: Mostri in Mare",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7979,
+      "title": "Grid Legend",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7262,
+      "title": "Mia Amica Peppa Pig, La",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9081,
+      "title": "Smurftastic Collection, The",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11531,
+      "title": "Giulia Passione Ginnastica",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11946,
+      "title": "Transformers La Vendetta Del Caduto Decepticon",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11987,
+      "title": "X-men Le Origini - Wolverine",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10755,
+      "title": "Ace Attorney Investigations Miles Edgeworth",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11840,
+      "title": "Scooby Doo Chi sta guardando Chi",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11863,
+      "title": "Sonic Classic Collection",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11251,
+      "title": "Spider-Man 3",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11993,
+      "title": "Yu-Gi-Oh World Champ 2008",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11995,
+      "title": "Yu-Gi-Oh! Nightmare Troubadour",
+      "console": "DS",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     }
