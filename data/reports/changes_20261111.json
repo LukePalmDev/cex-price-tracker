@@ -1,18 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-11-11T13:47:56.800907",
+    "generated_at": "2026-11-11T19:15:39.094127",
     "date": "2026-11-11",
-    "duration_sec": 154.8,
-    "total_scraped": 27552
+    "duration_sec": 179.3,
+    "total_scraped": 41329
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 1,
     "price_changes": 0,
-    "availability_changes": 41,
-    "unchanged": 27511,
+    "availability_changes": 111,
+    "unchanged": 41217,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13778,
+      "title": "Farming Simulator 26",
+      "console": "Switch",
+      "price": 38
+    }
+  ],
   "price_changes": [],
   "availability_changes": [
     {
@@ -299,6 +306,496 @@
       "game_id": 11995,
       "title": "Yu-Gi-Oh! Nightmare Troubadour",
       "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 73,
+      "title": "Castlevania - Curse Of Darkness",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 331,
+      "title": "Need For Speed Hot Pursuit 2",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 447,
+      "title": "Silent Hill 4 - The Room",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1471,
+      "title": "Conflict Denied Ops",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1592,
+      "title": "Just Cause 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1708,
+      "title": "Red Faction Armageddon",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1718,
+      "title": "Rise Of The Argonauts",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1815,
+      "title": "Unreal Tournament III",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1421,
+      "title": "Big League Sports - Xbox 360 Kinect",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1545,
+      "title": "Forza Horizon 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1689,
+      "title": "Portal 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1713,
+      "title": "Resonance of Fate",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1737,
+      "title": "Serious Sam Collection",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1842,
+      "title": "X-Men Origins: Wolverine",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2235,
+      "title": "Monster Jam Steel Titans",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2667,
+      "title": "Ghostbusters: Spirits Unleashed",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2693,
+      "title": "Like a Dragon: Ishin!",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4578,
+      "title": "R: Racing",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3916,
+      "title": "Tony Hawk's Proskater 4",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4143,
+      "title": "Die Hard Vendetta",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4176,
+      "title": "Dukes of Hazzard - Return of General Lee",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3452,
+      "title": "Lupin III La Morte Zenigata L'Amore",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3459,
+      "title": "Mafia",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3659,
+      "title": "Red Star, The",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6194,
+      "title": "Coded Arms",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6436,
+      "title": "MX vs ATV Untamed",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6480,
+      "title": "Passport To Roma",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6580,
+      "title": "Spider Man 2",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8216,
+      "title": "Shoppe Keep",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7886,
+      "title": "Dishonored: La Morte Dell'esterno",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7398,
+      "title": "Persona 3 Reload",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8418,
+      "title": "Alan Wake Remastered",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8640,
+      "title": "Evil Dead: The Game",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8897,
+      "title": "Mortal Kombat: Legacy Kollection",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9409,
+      "title": "Metroid Prime",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10319,
+      "title": "Bleach: Shattered Blade",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10451,
+      "title": "Marvel La Grande Alleanza 2",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10531,
+      "title": "Skylanders SuperChargers: Starter Pack",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10652,
+      "title": "Kung Fu Panda: Scontro Finale Delle Leggende Leggendarie",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10675,
+      "title": "Mighty No 9",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11341,
+      "title": "Alieni In Soffitta",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11513,
+      "title": "Fossil League",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11577,
+      "title": "Horses - Avventure A Cavallo",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10968,
+      "title": "Hotel Giant",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11627,
+      "title": "Lanfeust",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11731,
+      "title": "My Farm Around The World",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11115,
+      "title": "Orcs & Elves",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11411,
+      "title": "Burnout legends",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11541,
+      "title": "Godzilla Unleashed",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11634,
+      "title": "Legend of Zelda: Phantom Hourglass",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11016,
+      "title": "LEGO Marvel Superheroes",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11687,
+      "title": "Metroid Prime Hunters",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11688,
+      "title": "Metroid Prime Hunters: First Hunt",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11862,
+      "title": "Sonic & Sega All Star Racing",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11869,
+      "title": "Spectrobes 2: Oltre I Portali",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11959,
+      "title": "Undercover Dual Motives",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11995,
+      "title": "Yu-Gi-Oh! Nightmare Troubadour",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12015,
+      "title": "Angry Birds Trilogy",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12172,
+      "title": "Kung Fu Panda: Scontro Finale Delle Leggende Leggendarie",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12363,
+      "title": "Super Street Fighter IV/4 3D Ed",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12385,
+      "title": "Ultimate NES Remix",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13079,
+      "title": "34 Sports Games - World Edition",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13312,
+      "title": "L'era glaciale: La Strampalata Avventura di Scrat",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13361,
+      "title": "Monster Hunter Rise: Sunbreak",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13372,
+      "title": "My Little Riding Champion",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13375,
+      "title": "Namco Museum Arcade Pac",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13415,
+      "title": "Paw Patrol World: La Patrulla Canina",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13500,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13777,
+      "title": "Crymachina",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13252,
+      "title": "Five Nights at Freddy's: Help Wanted 2",
+      "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
     }
