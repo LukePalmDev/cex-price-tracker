@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-12T00:23:03.309685",
+    "date": "2026-11-12",
+    "duration_sec": 185.2,
+    "total_scraped": 13777
+  },
+  "summary": {
+    "new_games": 0,
+    "price_changes": 0,
+    "availability_changes": 6,
+    "unchanged": 13771,
+    "errors": 0
+  },
+  "new_games": [],
+  "price_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 2362,
+      "title": "Remothered: Broken Porcelain",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5999,
+      "title": "Risen 3 Titan Lords",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6171,
+      "title": "Brothers In Arms D- Day",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9506,
+      "title": "The Legend of Zelda - The Wind Waker Limited Edition",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11955,
+      "title": "Tsumiki la Torre Infernale",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13417,
+      "title": "Payday 2",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
+  "errors": []
+}
