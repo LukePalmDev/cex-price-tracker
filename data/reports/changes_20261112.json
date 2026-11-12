@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-12T19:32:21.661234",
+    "generated_at": "2026-11-12T23:27:08.759268",
     "date": "2026-11-12",
-    "duration_sec": 155.7,
-    "total_scraped": 55114
+    "duration_sec": 158.8,
+    "total_scraped": 68894
   },
   "summary": {
     "new_games": 2,
     "price_changes": 150,
-    "availability_changes": 98,
-    "unchanged": 54864,
+    "availability_changes": 105,
+    "unchanged": 68637,
     "errors": 0
   },
   "new_games": [
@@ -1914,6 +1914,55 @@
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 437,
+      "title": "Shrek",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1379,
+      "title": "Adventure Time: Esplora I Sotterranei Perche",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4757,
+      "title": "Supercar Street Challenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5514,
+      "title": "Singstar A Tutto Pop",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5738,
+      "title": "Back To The Future: The Game",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11419,
+      "title": "Capitan Tsubasa New Kick Off",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12100,
+      "title": "Fast & Furious Showdown",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
