@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-11-12T00:23:03.536440",
+    "exported_at": "2026-11-12T05:32:49.085518",
     "total_games": 13778,
-    "version": "20261112_002303",
+    "version": "20261112_053249",
     "statistics": {
       "total_games": 13778,
-      "available_games": 8029,
-      "unavailable_games": 5749,
+      "available_games": 8027,
+      "unavailable_games": 5751,
       "by_console": {
         "PS2": 2035,
         "PS4": 1744,
@@ -29,17 +29,17 @@
       "last_update": "2026-11-12",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 0,
-        "availability_changes": 6,
-        "unchanged": 13771,
+        "price_changes": 150,
+        "availability_changes": 8,
+        "unchanged": 27396,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 13778,
-    "available_games": 8029,
-    "unavailable_games": 5749,
+    "available_games": 8027,
+    "unavailable_games": 5751,
     "by_console": {
       "PS2": 2035,
       "PS4": 1744,
@@ -62,9 +62,9 @@
     "last_update": "2026-11-12",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 0,
-      "availability_changes": 6,
-      "unchanged": 13771,
+      "price_changes": 150,
+      "availability_changes": 8,
+      "unchanged": 27396,
       "errors": 0
     }
   },
@@ -341892,9 +341892,9 @@
       "title": "60 in 1 Game Collection",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -341916,18 +341916,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3700664529486",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-10",
       "image_url": null,
       "box_id": "3700664529486",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.38
     },
     {
       "id": 13081,
@@ -342018,9 +342023,9 @@
       "title": "A.O.T. 2",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 50.0,
-      "cash_price": 25.0,
-      "exchange_price": 33.0,
+      "current_price": 45.0,
+      "cash_price": 22.0,
+      "exchange_price": 30.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -342040,27 +342045,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060327534409",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060327534409",
       "price_history_30d": [
+        {
+          "old_price": 50.0,
+          "new_price": 45.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 50.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 12414,
       "title": "AEW: Fight Forever",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 7,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -342076,18 +342086,23 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080078438",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080078438",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 13087,
@@ -342623,9 +342638,9 @@
       "title": "Agatha Christie - Murder on the Orient Express",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -342646,18 +342661,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529507571",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529507571",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 12417,
@@ -343277,9 +343297,9 @@
       "title": "Aokana: Four Rhythms Across The Blue",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -343301,18 +343321,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060690791447",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-04",
       "image_url": null,
       "box_id": "5060690791447",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 12425,
@@ -343443,9 +343468,9 @@
       "title": "Arkanoid Eternal Battle Limited Edition w/3D Lenticular, Booklet",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 45.0,
+      "cash_price": 22.0,
+      "exchange_price": 30.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -343467,27 +343492,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3760156489438",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3760156489438",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 45.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.5
     },
     {
       "id": 13103,
       "title": "Art Of Rally",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 32.0,
+      "cash_price": 16.0,
+      "exchange_price": 21.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -343509,18 +343539,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8437020062930",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8437020062930",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 32.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 6.67
     },
     {
       "id": 13104,
@@ -343691,9 +343726,9 @@
       "title": "Assassin's Creed: The Ezio Collection",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -343712,18 +343747,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216220879",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216220879",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.38
     },
     {
       "id": 13106,
@@ -343772,9 +343812,9 @@
       "title": "Asterix & Obelix XXL - Romastered",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 12.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -343792,18 +343832,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3760156486598",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3760156486598",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 12431,
@@ -344298,9 +344343,9 @@
       "title": "Atelier Sophie 2 The Alchemist Of The Mysterious Dream",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -344322,18 +344367,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060327536618",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060327536618",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 13114,
@@ -344548,9 +344598,9 @@
       "title": "Azure Striker Gunvolt: Striker Pack",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -344572,18 +344622,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060146465236",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060146465236",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 13119,
@@ -344883,9 +344938,9 @@
       "title": "Barbie Dreamhouse Adventures",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -344903,18 +344958,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635604781",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635604781",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 12440,
@@ -345330,9 +345390,9 @@
       "title": "Bayonetta 2 (Senza DLC)",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 38.0,
-      "cash_price": 19.0,
-      "exchange_price": 25.0,
+      "current_price": 40.0,
+      "cash_price": 20.0,
+      "exchange_price": 26.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -345352,18 +345412,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496421472",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496421472",
       "price_history_30d": [
+        {
+          "old_price": 38.0,
+          "new_price": 40.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 38.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 5.26
     },
     {
       "id": 12446,
@@ -345813,9 +345878,9 @@
       "title": "Big Brain Academy",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 2,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -345835,27 +345900,32 @@
       "url": "https://it.webuy.com/product-detail/?id=045496429218",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-07",
       "image_url": null,
       "box_id": "045496429218",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 12453,
       "title": "Big Helmet",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -345872,18 +345942,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8436622260133",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8436622260133",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 13135,
@@ -346343,9 +346418,9 @@
       "title": "Bloodstained: Ritual of the Night",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -346367,18 +346442,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8023171043265",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8023171043265",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 13142,
@@ -347282,9 +347362,9 @@
       "title": "Cadence of Hyrule - Crypt of the NecroDancer",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 42.0,
-      "cash_price": 21.0,
-      "exchange_price": 28.0,
+      "current_price": 45.0,
+      "cash_price": 22.0,
+      "exchange_price": 30.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -347306,18 +347386,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496426606",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496426606",
       "price_history_30d": [
+        {
+          "old_price": 42.0,
+          "new_price": 45.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 42.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 12471,
@@ -347757,9 +347842,9 @@
       "title": "Cartoon Network Battle Crashers",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -347779,18 +347864,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5016488130899",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5016488130899",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 13157,
@@ -348502,9 +348592,9 @@
       "title": "Cobra Kai 2: Dojos Rising",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -348525,18 +348615,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060968300005",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060968300005",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 13168,
@@ -349034,9 +349129,9 @@
       "title": "Crash Bandicoot N. Sane Trilogy",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 50,
       "collection_quantity": 45,
       "out_of_stock_stores": [
@@ -349049,18 +349144,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917236778",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917236778",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12493,
@@ -349228,9 +349328,9 @@
       "title": "Crisis Core: Final Fantasy VII Reunion",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -349250,18 +349350,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290095380",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290095380",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -14.29
     },
     {
       "id": 13176,
@@ -349722,9 +349827,9 @@
       "title": "DC Justice League: Caos Cosmico",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 12.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -349742,18 +349847,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060528038638",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060528038638",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 12504,
@@ -349843,9 +349953,9 @@
       "title": "Daemon X Machina",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 8,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -349863,18 +349973,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496424626",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496424626",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -18.18
     },
     {
       "id": 13184,
@@ -349965,9 +350080,9 @@
       "title": "Dark Souls: Remastered",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 45.0,
+      "cash_price": 22.0,
+      "exchange_price": 30.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -349987,18 +350102,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496421885",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496421885",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 45.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.5
     },
     {
       "id": 13186,
@@ -350877,9 +350997,9 @@
       "title": "Demon Slayer Kimetsu No Yaiba: The Hinokami Chronicles",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 32.0,
+      "cash_price": 16.0,
+      "exchange_price": 21.0,
       "ecom_quantity": 3,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -350898,27 +351018,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277046607",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277046607",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 32.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 6.67
     },
     {
       "id": 12508,
       "title": "Demon Slayer Kimetsu no Yaiba: The Hinokami Chronicles 2",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 45.0,
-      "cash_price": 22.0,
-      "exchange_price": 30.0,
+      "current_price": 40.0,
+      "cash_price": 20.0,
+      "exchange_price": 26.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -350936,27 +351061,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277055708",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277055708",
       "price_history_30d": [
+        {
+          "old_price": 45.0,
+          "new_price": 40.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 45.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -11.11
     },
     {
       "id": 13202,
       "title": "Descenders",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -350978,18 +351108,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208808103",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208808103",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 13203,
@@ -351152,9 +351287,9 @@
       "title": "Digimon Story Cyber Sleuth Complete Edition",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -351176,18 +351311,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892005554",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892005554",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 13206,
@@ -351444,9 +351584,9 @@
       "title": "Disgaea 5 Complete",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -351468,18 +351608,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060112431869",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060112431869",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 13211,
@@ -351528,9 +351673,9 @@
       "title": "Disgaea 7: Vows of the Virtueless",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -351552,27 +351697,32 @@
       "url": "https://it.webuy.com/product-detail/?id=0810100862305",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0810100862305",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 13213,
       "title": "Disney Classic Games Collection",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -351594,18 +351744,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060760884734",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060760884734",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 12514,
@@ -351774,9 +351929,9 @@
       "title": "Disney: Magical World 2 - Enchanted Edition",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -351794,18 +351949,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892018127",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892018127",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 13215,
@@ -352165,9 +352325,9 @@
       "title": "Double Dragon Revive - Limited Edition",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -352188,18 +352348,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529517334",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529517334",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.38
     },
     {
       "id": 12524,
@@ -352350,9 +352515,9 @@
       "title": "Dragon Quest Builders 2",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -352371,18 +352536,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496422721",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496422721",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12529,
@@ -352428,9 +352598,9 @@
       "title": "Dragon Quest III HD-2D Remake",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 50.0,
-      "cash_price": 25.0,
-      "exchange_price": 33.0,
+      "current_price": 45.0,
+      "cash_price": 22.0,
+      "exchange_price": 30.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -352448,18 +352618,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290099715",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290099715",
       "price_history_30d": [
+        {
+          "old_price": 50.0,
+          "new_price": 45.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 50.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 13219,
@@ -352626,9 +352801,9 @@
       "title": "Dragon Quest: Builders",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -352647,18 +352822,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496421397",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496421397",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 13221,
@@ -352826,9 +353006,9 @@
       "title": "Dreamworks Dragons: Leggende dei Nove Regni",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 10.0,
-      "cash_price": 5.0,
-      "exchange_price": 6.0,
+      "current_price": 12.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -352850,18 +353030,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060528037600",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060528037600",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 13223,
@@ -353069,9 +353254,9 @@
       "title": "EA Sports FC 24",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 46,
       "collection_quantity": 41,
       "out_of_stock_stores": [
@@ -353085,18 +353270,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5035228125124",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5035228125124",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 12541,
@@ -353173,9 +353363,9 @@
       "title": "EA Sports FC 27",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 58.0,
-      "cash_price": 29.0,
-      "exchange_price": 38.0,
+      "current_price": 60.0,
+      "cash_price": 30.0,
+      "exchange_price": 40.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -353197,18 +353387,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030942125511",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030942125511",
       "price_history_30d": [
+        {
+          "old_price": 58.0,
+          "new_price": 60.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 58.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 3.45
     },
     {
       "id": 13226,
@@ -354172,9 +354367,9 @@
       "title": "FIFA 22",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 8.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 5.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 47,
       "collection_quantity": 42,
       "out_of_stock_stores": [
@@ -354188,18 +354383,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030943124049",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030943124049",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 12570,
@@ -354241,9 +354441,9 @@
       "title": "FIST: Forged In Shadow Torch",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -354265,18 +354465,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529502392",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529502392",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 12552,
@@ -354324,9 +354529,9 @@
       "title": "Fairy Tail",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -354346,18 +354551,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060327535727",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060327535727",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.25
     },
     {
       "id": 13236,
@@ -354654,9 +354864,9 @@
       "title": "Fantasy Friends",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -354672,18 +354882,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3700664527499",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3700664527499",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 12557,
@@ -354769,9 +354984,9 @@
       "title": "Farming Simulator 20",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -354793,18 +355008,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3512899122567",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-07",
       "image_url": null,
       "box_id": "3512899122567",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 12560,
@@ -354930,9 +355150,9 @@
       "title": "Fast & Furious Spy Racers Il Ritorno Della Sh1Ft3R",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -354953,18 +355173,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060528035989",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060528035989",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:44"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 12563,
@@ -355380,9 +355605,9 @@
       "title": "Fire Emblem Engage",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 42.0,
-      "cash_price": 21.0,
-      "exchange_price": 28.0,
+      "current_price": 45.0,
+      "cash_price": 22.0,
+      "exchange_price": 30.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -355404,18 +355629,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496478551",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496478551",
       "price_history_30d": [
+        {
+          "old_price": 42.0,
+          "new_price": 45.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 42.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 13246,
@@ -356030,9 +356260,9 @@
       "title": "Five Nights at Freddy's: Security Breach",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -356053,18 +356283,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5016488140294",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5016488140294",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 13254,
@@ -356608,9 +356843,9 @@
       "title": "Garfield 2 in 1: Game Collection",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -356632,18 +356867,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529519833",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529519833",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 12591,
@@ -356969,9 +357209,9 @@
       "title": "Ghost Song",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -356993,18 +357233,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635602572",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635602572",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.38
     },
     {
       "id": 12597,
@@ -357625,9 +357870,9 @@
       "title": "Gothic: Classic Khorinis Saga",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -357648,18 +357893,23 @@
       "url": "https://it.webuy.com/product-detail/?id=9120131601714",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120131601714",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 13272,
@@ -357787,9 +358037,9 @@
       "title": "Grinch, The: Christmas Adventures",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 7.0,
-      "exchange_price": 12.0,
+      "current_price": 25.0,
+      "cash_price": 6.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -357804,18 +358054,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5061005350892",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5061005350892",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 13274,
@@ -358526,9 +358781,9 @@
       "title": "Hellboy: Web of Wyrd",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -358550,18 +358805,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635607256",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635607256",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 12616,
@@ -358923,9 +359183,9 @@
       "title": "Hollow Knight",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -358945,18 +359205,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060146467322",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060146467322",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.38
     },
     {
       "id": 13285,
@@ -359250,9 +359515,9 @@
       "title": "Hotel Transylvania: Avventure Da Paura",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -359274,18 +359539,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060528034463",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-06",
       "image_url": null,
       "box_id": "5060528034463",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 13289,
@@ -359418,9 +359688,9 @@
       "title": "House Of The Dead: Remake",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -359441,18 +359711,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3760156489995",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3760156489995",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 13292,
@@ -359541,9 +359816,9 @@
       "title": "Hundred Days: Winemaking Simulator",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 13,
       "collection_quantity": 12,
       "out_of_stock_stores": [
@@ -359556,18 +359831,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055957706326",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055957706326",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 13293,
@@ -359700,9 +359980,9 @@
       "title": "Hyrule Warriors: Age of Calamity",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 48.0,
-      "cash_price": 24.0,
-      "exchange_price": 32.0,
+      "current_price": 42.0,
+      "cash_price": 21.0,
+      "exchange_price": 28.0,
       "ecom_quantity": 15,
       "collection_quantity": 15,
       "out_of_stock_stores": [
@@ -359717,18 +359997,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496427054",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496427054",
       "price_history_30d": [
+        {
+          "old_price": 48.0,
+          "new_price": 42.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 48.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 12632,
@@ -360899,9 +361184,9 @@
       "title": "Jump Force - Deluxe Edition (Offline)",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -360917,18 +361202,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892010145",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892010145",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 12654,
@@ -361013,9 +361303,9 @@
       "title": "Just Dance 2018",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 19,
       "collection_quantity": 19,
       "out_of_stock_stores": [
@@ -361029,18 +361319,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216018247",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216018247",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12657,
@@ -361081,9 +361376,9 @@
       "title": "Just Dance 2020",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 12.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 26,
       "collection_quantity": 20,
       "out_of_stock_stores": [
@@ -361096,27 +361391,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216125587",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216125587",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 12659,
       "title": "Just Dance 2021",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 39,
       "collection_quantity": 37,
       "out_of_stock_stores": [
@@ -361130,18 +361430,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216164081",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216164081",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12660,
@@ -361705,9 +362010,9 @@
       "title": "Kitaria Fables",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -361728,18 +362033,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060690792802",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060690792802",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 12670,
@@ -361913,9 +362223,9 @@
       "title": "L'era glaciale: La Strampalata Avventura di Scrat",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 1,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -361936,27 +362246,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060528030953",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-11",
       "image_url": null,
       "box_id": "5060528030953",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 12671,
       "title": "L.A. Noire",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 32.0,
+      "cash_price": 16.0,
+      "exchange_price": 21.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -361977,18 +362292,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555067010",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555067010",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 32.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 14.29
     },
     {
       "id": 12672,
@@ -362183,9 +362503,9 @@
       "title": "LEGO Gli Incredibili",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 10.0,
-      "cash_price": 5.0,
-      "exchange_price": 6.0,
+      "current_price": 8.0,
+      "cash_price": 4.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 17,
       "collection_quantity": 15,
       "out_of_stock_stores": [
@@ -362198,27 +362518,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891156616",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891156616",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 12691,
       "title": "LEGO Harry Potter Collection",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 12.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 35,
       "collection_quantity": 29,
       "out_of_stock_stores": [
@@ -362231,18 +362556,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891164307",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891164307",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 12692,
@@ -362549,9 +362879,9 @@
       "title": "La Mia Amica Peppa Pig",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -362573,18 +362903,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060528035866",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-08",
       "image_url": null,
       "box_id": "5060528035866",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 12674,
@@ -363295,9 +363630,9 @@
       "title": "Legend of Legacy, The - HD Remastered",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -363318,27 +363653,32 @@
       "url": "https://it.webuy.com/product-detail/?id=0810100863432",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0810100863432",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 12679,
       "title": "Legend of Nayuta, The: Boundless Trails",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -363359,18 +363699,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0810023038511",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0810023038511",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 13327,
@@ -363453,9 +363798,9 @@
       "title": "Legend of Zelda: Echoes of Wisdom",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 42.0,
-      "cash_price": 21.0,
-      "exchange_price": 28.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 18,
       "collection_quantity": 16,
       "out_of_stock_stores": [
@@ -363470,18 +363815,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496512439",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496512439",
       "price_history_30d": [
+        {
+          "old_price": 42.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 42.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.52
     },
     {
       "id": 12682,
@@ -363565,9 +363915,9 @@
       "title": "Legend of Zelda: Skyward Sword HD",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 50.0,
-      "cash_price": 25.0,
-      "exchange_price": 33.0,
+      "current_price": 52.0,
+      "cash_price": 26.0,
+      "exchange_price": 34.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -363586,18 +363936,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0045496427832",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0045496427832",
       "price_history_30d": [
+        {
+          "old_price": 50.0,
+          "new_price": 52.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 50.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 4.0
     },
     {
       "id": 12684,
@@ -364681,9 +365036,9 @@
       "title": "Little Friends - Dogs and Cats",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -364702,18 +365057,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208803269",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208803269",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.0
     },
     {
       "id": 13339,
@@ -365127,9 +365487,9 @@
       "title": "Lost Sphear",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -365150,18 +365510,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290079281",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290079281",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 12721,
@@ -365719,9 +366084,9 @@
       "title": "Mario + Rabbids Kingdom Battle",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 40,
       "collection_quantity": 38,
       "out_of_stock_stores": [
@@ -365734,18 +366099,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216024378",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216024378",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 13349,
@@ -365900,9 +366270,9 @@
       "title": "Mario Party Superstars",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 21,
       "collection_quantity": 18,
       "out_of_stock_stores": [
@@ -365916,18 +366286,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496428686",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496428686",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 12733,
@@ -366244,9 +366619,9 @@
       "title": "Matchpoint - Tennis Championships",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -366265,18 +366640,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4260458362938",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4260458362938",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12741,
@@ -366447,9 +366827,9 @@
       "title": "Metroid Dread",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 40.0,
-      "cash_price": 23.0,
-      "exchange_price": 28.0,
+      "current_price": 42.0,
+      "cash_price": 24.0,
+      "exchange_price": 29.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -366469,18 +366849,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0045496428495",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0045496428495",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 42.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 5.0
     },
     {
       "id": 12745,
@@ -366604,9 +366989,9 @@
       "title": "Mighty Morphin Power Rangers: Rita's Rewind",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -366628,18 +367013,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635612908",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635612908",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 12747,
@@ -367228,9 +367618,9 @@
       "title": "Monster Hunter Generations Ultimate",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -367252,18 +367642,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060948576",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055060948576",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 13361,
@@ -367712,9 +368107,9 @@
       "title": "Mortal Kombat 11 (Senza DLC)",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -367733,18 +368128,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891167742",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891167742",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 13366,
@@ -367874,9 +368274,9 @@
       "title": "MotoGP 18",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -367895,18 +368295,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8059617108120",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8059617108120",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-12 05:32:45"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.0
     },
     {
       "id": 12766,
@@ -368882,9 +369287,9 @@
       "title": "NASCAR Rivals",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 42.0,
-      "cash_price": 21.0,
-      "exchange_price": 28.0,
+      "current_price": 40.0,
+      "cash_price": 20.0,
+      "exchange_price": 26.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -368904,18 +369309,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060760889494",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060760889494",
       "price_history_30d": [
+        {
+          "old_price": 42.0,
+          "new_price": 40.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 42.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -4.76
     },
     {
       "id": 12788,
@@ -368998,9 +369408,9 @@
       "title": "NBA 2K19",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -369019,18 +369429,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555067171",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555067171",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12791,
@@ -369113,9 +369528,9 @@
       "title": "NBA 2K22",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 10.0,
-      "cash_price": 5.0,
-      "exchange_price": 6.0,
+      "current_price": 8.0,
+      "cash_price": 4.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -369131,18 +369546,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555069700",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555069700",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 12794,
@@ -369568,9 +369988,9 @@
       "title": "Nelke & the Legendary Alchemist: Ateliers of the New World",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -369592,18 +370012,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060327535079",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-04",
       "image_url": null,
       "box_id": "5060327535079",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 13376,
@@ -370104,9 +370529,9 @@
       "title": "New Super Mario Bros. U Deluxe",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 38.0,
-      "cash_price": 19.0,
-      "exchange_price": 25.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 50,
       "collection_quantity": 50,
       "out_of_stock_stores": [
@@ -370119,18 +370544,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496423773",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496423773",
       "price_history_30d": [
+        {
+          "old_price": 38.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 38.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -7.89
     },
     {
       "id": 13384,
@@ -370345,9 +370775,9 @@
       "title": "Nickelodeon Kart Racers 2: Grand Prix",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -370366,18 +370796,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5016488136167",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5016488136167",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.25
     },
     {
       "id": 12809,
@@ -371389,9 +371824,9 @@
       "title": "Olympic Games Tokyo 2020",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 16,
       "collection_quantity": 16,
       "out_of_stock_stores": [
@@ -371407,18 +371842,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277037377",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277037377",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 12823,
@@ -371466,9 +371906,9 @@
       "title": "One Piece Pirate Warriors 4",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -371490,18 +371930,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892007510",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-06",
       "image_url": null,
       "box_id": "3391892007510",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 12825,
@@ -371547,9 +371992,9 @@
       "title": "One Piece: Pirate Warriors 3",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -371571,18 +372016,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891998642",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891998642",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.38
     },
     {
       "id": 12826,
@@ -371628,9 +372078,9 @@
       "title": "Operation Wolf Returns: First Mission",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 9,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -371644,18 +372094,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529504495",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529504495",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -18.18
     },
     {
       "id": 13401,
@@ -371704,9 +372159,9 @@
       "title": "Ori and The Blind Forest",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -371727,18 +372182,23 @@
       "url": "https://it.webuy.com/product-detail/?id=811949032959",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "811949032959",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 12829,
@@ -371952,9 +372412,9 @@
       "title": "Outward Definitive Edition",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -371972,18 +372432,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628602888",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628602888",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.0
     },
     {
       "id": 13405,
@@ -372364,9 +372829,9 @@
       "title": "PJ Masks Power Heroes: Alleanza",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -372387,18 +372852,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5061005352186",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5061005352186",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 13422,
@@ -372881,9 +373351,9 @@
       "title": "Paw Patrol: Mighty Pups Save Adventure Bay",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -372904,18 +373374,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060528033480",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060528033480",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 13417,
@@ -373087,9 +373562,9 @@
       "title": "Persona 5 Royal",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 38.0,
-      "cash_price": 19.0,
-      "exchange_price": 25.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -373107,18 +373582,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277047925",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277047925",
       "price_history_30d": [
+        {
+          "old_price": 38.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 38.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -7.89
     },
     {
       "id": 12843,
@@ -373245,9 +373725,9 @@
       "title": "Pikmin 3 Deluxe",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 48.0,
-      "cash_price": 24.0,
-      "exchange_price": 32.0,
+      "current_price": 42.0,
+      "cash_price": 21.0,
+      "exchange_price": 28.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -373265,27 +373745,32 @@
       "url": "https://it.webuy.com/product-detail/?id=045496423063",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496423063",
       "price_history_30d": [
+        {
+          "old_price": 48.0,
+          "new_price": 42.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 48.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 12847,
       "title": "Pikmin 4",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -373305,18 +373790,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496479329",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496479329",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 13420,
@@ -373730,9 +374220,9 @@
       "title": "Pokemon Diamante Lucente",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 18,
       "collection_quantity": 16,
       "out_of_stock_stores": [
@@ -373747,18 +374237,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496428105",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496428105",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 12856,
@@ -373871,9 +374366,9 @@
       "title": "Pokemon Scarlatto + Il Tesoro dell'Area Zero",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 65.0,
-      "cash_price": 37.0,
-      "exchange_price": 45.0,
+      "current_price": 68.0,
+      "cash_price": 39.0,
+      "exchange_price": 47.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -373895,18 +374390,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496511029",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496511029",
       "price_history_30d": [
+        {
+          "old_price": 65.0,
+          "new_price": 68.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 65.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 4.62
     },
     {
       "id": 12859,
@@ -374175,9 +374675,9 @@
       "title": "Pokemon: Let's Go, Pikachu!",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 50,
       "collection_quantity": 45,
       "out_of_stock_stores": [
@@ -374190,18 +374690,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0045496423148",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0045496423148",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 12865,
@@ -374567,9 +375072,9 @@
       "title": "Princess Guide, The",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -374587,18 +375092,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0810023032182",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0810023032182",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12871,
@@ -375422,9 +375932,9 @@
       "title": "Rad Rodgers Radical Edition",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -375445,27 +375955,32 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080073082",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080073082",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 12881,
       "title": "Railway Empire",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 8.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -375486,18 +376001,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4260458362204",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4260458362204",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 12882,
@@ -375587,9 +376107,9 @@
       "title": "Ravenswatch",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -375611,27 +376131,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962027280",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962027280",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 12883,
       "title": "Rayman Legends: Definitive Edition",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 12,
       "collection_quantity": 9,
       "out_of_stock_stores": [
@@ -375646,18 +376171,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216014089",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216014089",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -18.18
     },
     {
       "id": 12884,
@@ -375951,9 +376481,9 @@
       "title": "Remnant: From the Ashes (Senza DLC)",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -375973,18 +376503,23 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080077226",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080077226",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 12888,
@@ -376666,9 +377201,9 @@
       "title": "Romancing SaGa 2: Revenge Of The Seven",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -376685,18 +377220,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290100039",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290100039",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -14.29
     },
     {
       "id": 13452,
@@ -376787,9 +377327,9 @@
       "title": "Rugrats Adventures in Gameland",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 12,
       "collection_quantity": 12,
       "out_of_stock_stores": [
@@ -376804,18 +377344,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635608093",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635608093",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 13454,
@@ -376988,9 +377533,9 @@
       "title": "Rustler",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 8.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -377012,27 +377557,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5016488137669",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5016488137669",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 12915,
       "title": "SEGA Mega Drive Classics",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -377052,18 +377602,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277034659",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277034659",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 13481,
@@ -377194,9 +377749,9 @@
       "title": "Saints Row IV: Re-elected",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 10.0,
-      "cash_price": 5.0,
-      "exchange_price": 6.0,
+      "current_price": 12.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -377218,18 +377773,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628748722",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-08",
       "image_url": null,
       "box_id": "4020628748722",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 12908,
@@ -377978,9 +378538,9 @@
       "title": "Shin Megami Tensei V",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -378001,18 +378561,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496428877",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496428877",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 13466,
@@ -378184,9 +378749,9 @@
       "title": "Sid Meier's Civilization VI",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -378208,27 +378773,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555067607",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-10",
       "image_url": null,
       "box_id": "5026555067607",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 13468,
       "title": "Sid Meier's Civilization VII",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 32.0,
+      "cash_price": 16.0,
+      "exchange_price": 21.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -378250,18 +378820,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555071949",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555071949",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 32.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 6.67
     },
     {
       "id": 13469,
@@ -379054,9 +379629,9 @@
       "title": "Sniper Elite 4",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -379078,18 +379653,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208808639",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208808639",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 13480,
@@ -379138,9 +379718,9 @@
       "title": "Snipperclips Plus: Diamoci Un Taglio!",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 4,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -379159,18 +379739,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496421137",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496421137",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 13482,
@@ -379301,9 +379886,9 @@
       "title": "Sociable Soccer 24",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 8.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 5.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -379321,18 +379906,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055957704940",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055957704940",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -37.5
     },
     {
       "id": 13484,
@@ -379635,9 +380225,9 @@
       "title": "Sonic x Shadow Generations",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 6,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -379655,18 +380245,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277054299",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277054299",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 12943,
@@ -380119,9 +380714,9 @@
       "title": "Splatoon 3",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 30,
       "collection_quantity": 26,
       "out_of_stock_stores": [
@@ -380134,18 +380729,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496510671",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496510671",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12953,
@@ -380432,9 +381032,9 @@
       "title": "Spyro Reignited Trilogy",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 27,
       "collection_quantity": 23,
       "out_of_stock_stores": [
@@ -380447,27 +381047,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917284588",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917284588",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12956,
       "title": "Star Ocean: The Second Story R",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -380486,18 +381091,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290098039",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290098039",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 12957,
@@ -381039,9 +381649,9 @@
       "title": "Story of Seasons: A Wonderful Life",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -381063,18 +381673,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060540771551",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060540771551",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 13499,
@@ -381123,9 +381738,9 @@
       "title": "Stray",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -381146,18 +381761,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0811949038685",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0811949038685",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 12965,
@@ -381246,9 +381866,9 @@
       "title": "Street Power Football",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 10.0,
-      "cash_price": 5.0,
-      "exchange_price": 6.0,
+      "current_price": 8.0,
+      "cash_price": 4.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -381267,18 +381887,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5016488135962",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5016488135962",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-12 05:32:46"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 13500,
@@ -381573,9 +382198,9 @@
       "title": "Super Mario 3D All-Stars",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 72.0,
-      "cash_price": 36.0,
-      "exchange_price": 48.0,
+      "current_price": 68.0,
+      "cash_price": 34.0,
+      "exchange_price": 45.0,
       "ecom_quantity": 24,
       "collection_quantity": 24,
       "out_of_stock_stores": [
@@ -381589,27 +382214,32 @@
       "url": "https://it.webuy.com/product-detail/?id=045496426699",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496426699",
       "price_history_30d": [
+        {
+          "old_price": 72.0,
+          "new_price": 68.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 72.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -5.56
     },
     {
       "id": 12972,
       "title": "Super Mario 3D World + Bowser's Fury",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 42.0,
-      "cash_price": 21.0,
-      "exchange_price": 28.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 50,
       "collection_quantity": 50,
       "out_of_stock_stores": [
@@ -381622,18 +382252,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496426972",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496426972",
       "price_history_30d": [
+        {
+          "old_price": 42.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 42.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.52
     },
     {
       "id": 12973,
@@ -381673,9 +382308,9 @@
       "title": "Super Mario Galaxy + Super Mario Galaxy 2",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 60.0,
-      "cash_price": 30.0,
-      "exchange_price": 40.0,
+      "current_price": 55.0,
+      "cash_price": 27.0,
+      "exchange_price": 36.0,
       "ecom_quantity": 25,
       "collection_quantity": 20,
       "out_of_stock_stores": [
@@ -381689,18 +382324,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496513115",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496513115",
       "price_history_30d": [
+        {
+          "old_price": 60.0,
+          "new_price": 55.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 60.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -8.33
     },
     {
       "id": 12975,
@@ -382040,9 +382680,9 @@
       "title": "Super Putty Squad",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -382061,27 +382701,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060057024997",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060057024997",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 12983,
       "title": "Super Smash Bros. Ultimate",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 45.0,
-      "cash_price": 22.0,
-      "exchange_price": 30.0,
+      "current_price": 40.0,
+      "cash_price": 20.0,
+      "exchange_price": 26.0,
       "ecom_quantity": 41,
       "collection_quantity": 38,
       "out_of_stock_stores": [
@@ -382095,18 +382740,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496423872",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496423872",
       "price_history_30d": [
+        {
+          "old_price": 45.0,
+          "new_price": 40.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 45.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -11.11
     },
     {
       "id": 13506,
@@ -382197,9 +382847,9 @@
       "title": "Survivalists, The",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 8.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -382221,18 +382871,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208807052",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208807052",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 12984,
@@ -382278,9 +382933,9 @@
       "title": "Survivor",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -382299,18 +382954,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529509926",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529509926",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 13509,
@@ -382809,9 +383469,9 @@
       "title": "TY The Tasmanian Tiger HD",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -382832,18 +383492,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060760883997",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060760883997",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 12990,
@@ -383055,9 +383720,9 @@
       "title": "Tales of Vesperia Definitive Edition",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -383079,18 +383744,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892000153",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892000153",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 13516,
@@ -383139,9 +383809,9 @@
       "title": "Talisman - 40th Anniversary Edition (Senza DLC)",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -383162,18 +383832,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055957704674",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055957704674",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 12995,
@@ -383377,9 +384052,9 @@
       "title": "Teenage Mutant Ninja Turtles The Cowabunga Collection",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -383398,18 +384073,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927086001",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927086001",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.25
     },
     {
       "id": 13000,
@@ -383495,9 +384175,9 @@
       "title": "Telltale's The Walking Dead: The Final Season",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -383519,18 +384199,23 @@
       "url": "https://it.webuy.com/product-detail/?id=811949030436",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "811949030436",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 13002,
@@ -384153,9 +384838,9 @@
       "title": "Tiebreak: Official Game Of The ATP and WTA (Senza DLC)",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -384176,18 +384861,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962021073",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962021073",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.38
     },
     {
       "id": 13529,
@@ -384318,9 +385008,9 @@
       "title": "Toki",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -384341,27 +385031,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3760156482330",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3760156482330",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 13011,
       "title": "Toki Retrollector Ed. w/Arcade Machine, Prints & Comic",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -384383,18 +385078,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3760156482354",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-06",
       "image_url": null,
       "box_id": "3760156482354",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 13531,
@@ -384568,9 +385268,9 @@
       "title": "Tomodachi Life: Una Vita Da Sogno",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 55.0,
-      "cash_price": 31.0,
-      "exchange_price": 38.0,
+      "current_price": 60.0,
+      "cash_price": 34.0,
+      "exchange_price": 42.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -384591,18 +385291,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496513566",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-10",
       "image_url": null,
       "box_id": "045496513566",
       "price_history_30d": [
+        {
+          "old_price": 55.0,
+          "new_price": 60.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 55.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.09
     },
     {
       "id": 13535,
@@ -385304,9 +386009,9 @@
       "title": "Trials of Mana",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -385328,18 +386033,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290086531",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-07",
       "image_url": null,
       "box_id": "5021290086531",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 13022,
@@ -385840,9 +386550,9 @@
       "title": "Two Point Campus (Senza DLC)",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 6.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 8.0,
+      "cash_price": 4.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -385862,18 +386572,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277043194",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277043194",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 13032,
@@ -386003,9 +386718,9 @@
       "title": "Ultra Street Fighter II: The Final Challengers",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 4,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -386024,27 +386739,32 @@
       "url": "https://it.webuy.com/product-detail/?id=045496420536",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496420536",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 13036,
       "title": "Unicorn Overlord",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 32.0,
+      "cash_price": 16.0,
+      "exchange_price": 21.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -386065,18 +386785,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277053018",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277053018",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 32.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 14.29
     },
     {
       "id": 13037,
@@ -386166,9 +386891,9 @@
       "title": "Untitled Goose Game",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -386190,18 +386915,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0811949032553",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0811949032553",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 13553,
@@ -387352,9 +388082,9 @@
       "title": "Warriors Orochi 4 Ultimate",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -387376,18 +388106,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060327535833",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060327535833",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:59"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 13569,
@@ -388335,9 +389070,9 @@
       "title": "XIII",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -388359,18 +389094,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3760156483856",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": "2026-11-07",
       "image_url": null,
       "box_id": "3760156483856",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 10.0
     },
     {
       "id": 13061,
@@ -388948,9 +389688,9 @@
       "title": "Yoshi's Crafted World",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 45.0,
-      "cash_price": 22.0,
-      "exchange_price": 30.0,
+      "current_price": 40.0,
+      "cash_price": 20.0,
+      "exchange_price": 26.0,
       "ecom_quantity": 19,
       "collection_quantity": 18,
       "out_of_stock_stores": [
@@ -388965,18 +389705,23 @@
       "url": "https://it.webuy.com/product-detail/?id=045496422639",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "045496422639",
       "price_history_30d": [
+        {
+          "old_price": 45.0,
+          "new_price": 40.0,
+          "changed_at": "2026-11-12 05:32:48"
+        },
         {
           "old_price": null,
           "new_price": 45.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -11.11
     },
     {
       "id": 13071,
@@ -389475,9 +390220,9 @@
       "title": "Zorro The Chronicles",
       "console": "Switch",
       "category": "Nintendo",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -389494,18 +390239,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962014303",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
-      "last_price_change": null,
+      "last_price_change": "2026-11-12",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962014303",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-12 05:32:47"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:58"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 13076,
@@ -461632,8 +462382,8 @@
       "current_price": 3.0,
       "cash_price": 0.4,
       "exchange_price": 0.9,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -461647,13 +462397,13 @@
         "Le Corti Venete",
         "Merlata Bloom"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5060004763252",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
       "last_price_change": null,
-      "last_availability_change": "2026-11-07",
+      "last_availability_change": "2026-11-12",
       "image_url": null,
       "box_id": "5060004763252",
       "price_history_30d": [
@@ -473235,8 +473985,8 @@
       "current_price": 12.0,
       "cash_price": 3.0,
       "exchange_price": 6.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -473250,13 +474000,13 @@
         "Le Corti Venete",
         "Merlata Bloom"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5055060962404",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-12",
       "last_price_change": null,
-      "last_availability_change": "2026-11-08",
+      "last_availability_change": "2026-11-12",
       "image_url": null,
       "box_id": "5055060962404",
       "price_history_30d": [

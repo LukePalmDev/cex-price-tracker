@@ -1,19 +1,1220 @@
 {
   "metadata": {
-    "generated_at": "2026-11-12T00:23:03.309685",
+    "generated_at": "2026-11-12T05:32:48.935503",
     "date": "2026-11-12",
-    "duration_sec": 185.2,
-    "total_scraped": 13777
+    "duration_sec": 141.2,
+    "total_scraped": 27554
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 0,
-    "availability_changes": 6,
-    "unchanged": 13771,
+    "price_changes": 150,
+    "availability_changes": 8,
+    "unchanged": 27396,
     "errors": 0
   },
   "new_games": [],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "game_id": 12414,
+      "title": "AEW: Fight Forever",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12416,
+      "title": "Agatha Christie - Murder on the Orient Express",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12424,
+      "title": "Aokana: Four Rhythms Across The Blue",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12430,
+      "title": "Asterix & Obelix XXL - Romastered",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13113,
+      "title": "Atelier Sophie 2 The Alchemist Of The Mysterious Dream",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13118,
+      "title": "Azure Striker Gunvolt: Striker Pack",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12439,
+      "title": "Barbie Dreamhouse Adventures",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 13134,
+      "title": "Big Brain Academy",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12453,
+      "title": "Big Helmet",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13141,
+      "title": "Bloodstained: Ritual of the Night",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12478,
+      "title": "Cartoon Network Battle Crashers",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 12485,
+      "title": "Cobra Kai 2: Dojos Rising",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12492,
+      "title": "Crash Bandicoot N. Sane Trilogy",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12495,
+      "title": "Crisis Core: Final Fantasy VII Reunion",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 35.0,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 12498,
+      "title": "Daemon X Machina",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 12503,
+      "title": "DC Justice League: Caos Cosmico",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 13202,
+      "title": "Descenders",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13205,
+      "title": "Digimon Story Cyber Sleuth Complete Edition",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13210,
+      "title": "Disgaea 5 Complete",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13212,
+      "title": "Disgaea 7: Vows of the Virtueless",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13213,
+      "title": "Disney Classic Games Collection",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12517,
+      "title": "Disney: Magical World 2 - Enchanted Edition",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 12528,
+      "title": "Dragon Quest Builders 2",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12533,
+      "title": "Dragon Quest: Builders",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 13222,
+      "title": "Dreamworks Dragons: Leggende dei Nove Regni",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12540,
+      "title": "EA Sports FC 24",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12553,
+      "title": "Fairy Tail",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 12556,
+      "title": "Fantasy Friends",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12559,
+      "title": "Farming Simulator 20",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12562,
+      "title": "Fast & Furious Spy Racers Il Ritorno Della Sh1Ft3R",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12569,
+      "title": "FIFA 22",
+      "console": "Switch",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 13250,
+      "title": "FIST: Forged In Shadow Torch",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12584,
+      "title": "Five Nights at Freddy's: Security Breach",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13261,
+      "title": "Garfield 2 in 1: Game Collection",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12605,
+      "title": "Gothic: Classic Khorinis Saga",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12607,
+      "title": "Grinch, The: Christmas Adventures",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13283,
+      "title": "Hellboy: Web of Wyrd",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12627,
+      "title": "Hotel Transylvania: Avventure Da Paura",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12628,
+      "title": "House Of The Dead: Remake",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12630,
+      "title": "Hundred Days: Winemaking Simulator",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12653,
+      "title": "Jump Force - Deluxe Edition (Offline)",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 32.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 12656,
+      "title": "Just Dance 2018",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12658,
+      "title": "Just Dance 2020",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12659,
+      "title": "Just Dance 2021",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12669,
+      "title": "Kitaria Fables",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13312,
+      "title": "L'era glaciale: La Strampalata Avventura di Scrat",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 12673,
+      "title": "La Mia Amica Peppa Pig",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12690,
+      "title": "LEGO Gli Incredibili",
+      "console": "Switch",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12691,
+      "title": "LEGO Harry Potter Collection",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12712,
+      "title": "Little Friends - Dogs and Cats",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 12720,
+      "title": "Lost Sphear",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12728,
+      "title": "Mario + Rabbids Kingdom Battle",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12740,
+      "title": "Matchpoint - Tennis Championships",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13353,
+      "title": "Mighty Morphin Power Rangers: Rita's Rewind",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12762,
+      "title": "Mortal Kombat 11 (Senza DLC)",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12765,
+      "title": "MotoGP 18",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 12790,
+      "title": "NBA 2K19",
+      "console": "Switch",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12793,
+      "title": "NBA 2K22",
+      "console": "Switch",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12800,
+      "title": "Nelke & the Legendary Alchemist: Ateliers of the New World",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12808,
+      "title": "Nickelodeon Kart Racers 2: Grand Prix",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 12822,
+      "title": "Olympic Games Tokyo 2020",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 20.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 12827,
+      "title": "Operation Wolf Returns: First Mission",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 12831,
+      "title": "Outward Definitive Edition",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 12839,
+      "title": "Paw Patrol: Mighty Pups Save Adventure Bay",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12850,
+      "title": "PJ Masks Power Heroes: Alleanza",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12870,
+      "title": "Princess Guide, The",
+      "console": "Switch",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12880,
+      "title": "Rad Rodgers Radical Edition",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 12881,
+      "title": "Railway Empire",
+      "console": "Switch",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 13442,
+      "title": "Ravenswatch",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12883,
+      "title": "Rayman Legends: Definitive Edition",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 12887,
+      "title": "Remnant: From the Ashes (Senza DLC)",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12900,
+      "title": "Romancing SaGa 2: Revenge Of The Seven",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 35.0,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 12903,
+      "title": "Rugrats Adventures in Gameland",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13456,
+      "title": "Rustler",
+      "console": "Switch",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12907,
+      "title": "Saints Row IV: Re-elected",
+      "console": "Switch",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12915,
+      "title": "SEGA Mega Drive Classics",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12918,
+      "title": "Shin Megami Tensei V",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12921,
+      "title": "Sid Meier's Civilization VI",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13479,
+      "title": "Sniper Elite 4",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12931,
+      "title": "Snipperclips Plus: Diamoci Un Taglio!",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12934,
+      "title": "Sociable Soccer 24",
+      "console": "Switch",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 12942,
+      "title": "Sonic x Shadow Generations",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12950,
+      "title": "Splatoon 3",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12955,
+      "title": "Spyro Reignited Trilogy",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12956,
+      "title": "Star Ocean: The Second Story R",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 13497,
+      "title": "Story of Seasons: A Wonderful Life",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12967,
+      "title": "Street Power Football",
+      "console": "Switch",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12982,
+      "title": "Super Putty Squad",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 13508,
+      "title": "Survivalists, The",
+      "console": "Switch",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12985,
+      "title": "Survivor",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 13517,
+      "title": "Tales of Vesperia Definitive Edition",
+      "console": "Switch",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12994,
+      "title": "Talisman - 40th Anniversary Edition (Senza DLC)",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12999,
+      "title": "Teenage Mutant Ninja Turtles The Cowabunga Collection",
+      "console": "Switch",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 13519,
+      "title": "Telltale's The Walking Dead: The Final Season",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13010,
+      "title": "Toki",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13011,
+      "title": "Toki Retrollector Ed. w/Arcade Machine, Prints & Comic",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13020,
+      "title": "Trials of Mana",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 13031,
+      "title": "Two Point Campus (Senza DLC)",
+      "console": "Switch",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13033,
+      "title": "TY The Tasmanian Tiger HD",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13035,
+      "title": "Ultra Street Fighter II: The Final Challengers",
+      "console": "Switch",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 13552,
+      "title": "Untitled Goose Game",
+      "console": "Switch",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 13568,
+      "title": "Warriors Orochi 4 Ultimate",
+      "console": "Switch",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 13066,
+      "title": "XIII",
+      "console": "Switch",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 13075,
+      "title": "Zorro The Chronicles",
+      "console": "Switch",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12410,
+      "title": "60 in 1 Game Collection",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 12411,
+      "title": "A.O.T. 2",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 50.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 13102,
+      "title": "Arkanoid Eternal Battle Limited Edition w/3D Lenticular, Booklet",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 13103,
+      "title": "Art Of Rally",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 12429,
+      "title": "Assassin's Creed: The Ezio Collection",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 12445,
+      "title": "Bayonetta 2 (Senza DLC)",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 13152,
+      "title": "Cadence of Hyrule - Crypt of the NecroDancer",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 12499,
+      "title": "Dark Souls: Remastered",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 40.0,
+      "variation_pct": 12.5
+    },
+    {
+      "game_id": 12508,
+      "title": "Demon Slayer Kimetsu no Yaiba: The Hinokami Chronicles 2",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 45.0,
+      "variation_pct": -11.11
+    },
+    {
+      "game_id": 12509,
+      "title": "Demon Slayer Kimetsu No Yaiba: The Hinokami Chronicles",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 12523,
+      "title": "Double Dragon Revive - Limited Edition",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 12530,
+      "title": "Dragon Quest III HD-2D Remake",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 50.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 13225,
+      "title": "EA Sports FC 27",
+      "console": "Switch",
+      "new_price": 60,
+      "old_price": 58.0,
+      "variation_pct": 3.45
+    },
+    {
+      "game_id": 13245,
+      "title": "Fire Emblem Engage",
+      "console": "Switch",
+      "new_price": 45,
+      "old_price": 42.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 13264,
+      "title": "Ghost Song",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 12623,
+      "title": "Hollow Knight",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 12631,
+      "title": "Hyrule Warriors: Age of Calamity",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 48.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 12671,
+      "title": "L.A. Noire",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 12678,
+      "title": "Legend of Legacy, The - HD Remastered",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 12679,
+      "title": "Legend of Nayuta, The: Boundless Trails",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 12681,
+      "title": "Legend of Zelda: Echoes of Wisdom",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 42.0,
+      "variation_pct": -9.52
+    },
+    {
+      "game_id": 12683,
+      "title": "Legend of Zelda: Skyward Sword HD",
+      "console": "Switch",
+      "new_price": 52,
+      "old_price": 50.0,
+      "variation_pct": 4.0
+    },
+    {
+      "game_id": 12732,
+      "title": "Mario Party Superstars",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 12744,
+      "title": "Metroid Dread",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 40.0,
+      "variation_pct": 5.0
+    },
+    {
+      "game_id": 13360,
+      "title": "Monster Hunter Generations Ultimate",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 12787,
+      "title": "NASCAR Rivals",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 42.0,
+      "variation_pct": -4.76
+    },
+    {
+      "game_id": 12805,
+      "title": "New Super Mario Bros. U Deluxe",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 12824,
+      "title": "One Piece Pirate Warriors 4",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 13400,
+      "title": "One Piece: Pirate Warriors 3",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 12828,
+      "title": "Ori and The Blind Forest",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 12842,
+      "title": "Persona 5 Royal",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 12846,
+      "title": "Pikmin 3 Deluxe",
+      "console": "Switch",
+      "new_price": 42,
+      "old_price": 48.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 12847,
+      "title": "Pikmin 4",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 12855,
+      "title": "Pokemon Diamante Lucente",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 13425,
+      "title": "Pokemon Scarlatto + Il Tesoro dell'Area Zero",
+      "console": "Switch",
+      "new_price": 68,
+      "old_price": 65.0,
+      "variation_pct": 4.62
+    },
+    {
+      "game_id": 12864,
+      "title": "Pokemon: Let's Go, Pikachu!",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 13468,
+      "title": "Sid Meier's Civilization VII",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 30.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 12964,
+      "title": "Stray",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 12971,
+      "title": "Super Mario 3D All-Stars",
+      "console": "Switch",
+      "new_price": 68,
+      "old_price": 72.0,
+      "variation_pct": -5.56
+    },
+    {
+      "game_id": 12972,
+      "title": "Super Mario 3D World + Bowser's Fury",
+      "console": "Switch",
+      "new_price": 38,
+      "old_price": 42.0,
+      "variation_pct": -9.52
+    },
+    {
+      "game_id": 12974,
+      "title": "Super Mario Galaxy + Super Mario Galaxy 2",
+      "console": "Switch",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 12983,
+      "title": "Super Smash Bros. Ultimate",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 45.0,
+      "variation_pct": -11.11
+    },
+    {
+      "game_id": 13008,
+      "title": "Tiebreak: Official Game Of The ATP and WTA (Senza DLC)",
+      "console": "Switch",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 13534,
+      "title": "Tomodachi Life: Una Vita Da Sogno",
+      "console": "Switch",
+      "new_price": 60,
+      "old_price": 55.0,
+      "variation_pct": 9.09
+    },
+    {
+      "game_id": 13036,
+      "title": "Unicorn Overlord",
+      "console": "Switch",
+      "new_price": 32,
+      "old_price": 28.0,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 13070,
+      "title": "Yoshi's Crafted World",
+      "console": "Switch",
+      "new_price": 40,
+      "old_price": 45.0,
+      "variation_pct": -11.11
+    }
+  ],
   "availability_changes": [
     {
       "game_id": 2362,
@@ -54,6 +1255,20 @@
       "game_id": 13417,
       "title": "Payday 2",
       "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 576,
+      "title": "Worms forts under siege",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1486,
+      "title": "Dead Rising 2 (18) Outbreak Edition",
+      "console": "Xbox 360",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
