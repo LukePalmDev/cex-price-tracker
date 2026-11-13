@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-13T04:50:21.674838",
+    "date": "2026-11-13",
+    "duration_sec": 162.3,
+    "total_scraped": 13780
+  },
+  "summary": {
+    "new_games": 0,
+    "price_changes": 2,
+    "availability_changes": 3,
+    "unchanged": 13775,
+    "errors": 0
+  },
+  "new_games": [],
+  "price_changes": [
+    {
+      "game_id": 8527,
+      "title": "Control Resonant",
+      "console": "PS5",
+      "new_price": 55,
+      "old_price": 58.0,
+      "variation_pct": -5.17
+    },
+    {
+      "game_id": 9075,
+      "title": "Silent Hill: Townfall",
+      "console": "PS5",
+      "new_price": 42,
+      "old_price": 45.0,
+      "variation_pct": -6.67
+    }
+  ],
+  "availability_changes": [
+    {
+      "game_id": 13689,
+      "title": "X-Men: Wolverine Le Origini",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13704,
+      "title": "Witch & The Hundred Knight, The",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5504,
+      "title": "Short Peace Ranko Tsukigime's Longest Day",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
+  "errors": []
+}
