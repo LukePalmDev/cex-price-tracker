@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-13T19:12:13.872577",
+    "generated_at": "2026-11-13T23:28:21.141323",
     "date": "2026-11-13",
-    "duration_sec": 162.7,
-    "total_scraped": 41342
+    "duration_sec": 178.4,
+    "total_scraped": 55124
   },
   "summary": {
     "new_games": 2,
     "price_changes": 3,
-    "availability_changes": 54,
-    "unchanged": 41283,
+    "availability_changes": 58,
+    "unchanged": 55061,
     "errors": 0
   },
   "new_games": [
@@ -428,6 +428,34 @@
       "game_id": 12926,
       "title": "Slave Zero X Calamity Edition w/Comic, Artbook, OST, Guidebook, Postcards",
       "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 373,
+      "title": "Prince of Persia I Due Troni",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 437,
+      "title": "Shrek",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5727,
+      "title": "Assassin's Creed Heritage Collection",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5835,
+      "title": "Fallout 3 GOTY",
+      "console": "PS3",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
