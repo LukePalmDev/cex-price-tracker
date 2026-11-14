@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-14T17:42:00.842506",
+    "generated_at": "2026-11-14T22:14:04.866888",
     "date": "2026-11-14",
-    "duration_sec": 239.3,
-    "total_scraped": 41352
+    "duration_sec": 185.7,
+    "total_scraped": 55138
   },
   "summary": {
     "new_games": 4,
     "price_changes": 0,
-    "availability_changes": 78,
-    "unchanged": 41270,
+    "availability_changes": 86,
+    "unchanged": 55048,
     "errors": 0
   },
   "new_games": [
@@ -585,6 +585,62 @@
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1386,
+      "title": "Alice Madness Returns",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2455,
+      "title": "Styx Shards of Darkness",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11247,
+      "title": "Speed Racer",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11841,
+      "title": "Scooby Doo Le Origini Del Mistero",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12081,
+      "title": "Dragonball Z: Extreme Butoden",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12840,
+      "title": "Penny Punching Princess",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13474,
+      "title": "Skater XL",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12962,
+      "title": "SteamWorld Heist: Ultimate Edition - Super Rare Games",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
