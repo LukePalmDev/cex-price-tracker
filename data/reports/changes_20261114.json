@@ -1,19 +1,278 @@
 {
   "metadata": {
-    "generated_at": "2026-11-14T04:44:10.756852",
+    "generated_at": "2026-11-14T13:12:10.529862",
     "date": "2026-11-14",
-    "duration_sec": 150.6,
-    "total_scraped": 13782
+    "duration_sec": 174.7,
+    "total_scraped": 27566
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 2,
     "price_changes": 0,
-    "availability_changes": 0,
-    "unchanged": 13782,
+    "availability_changes": 35,
+    "unchanged": 27529,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13783,
+      "title": "Play it Pinball",
+      "console": "PS2",
+      "price": 10
+    },
+    {
+      "game_id": 13784,
+      "title": "Dragon is Dead - Guernian Edition w/ Cards, sleeve",
+      "console": "Switch",
+      "price": 30
+    }
+  ],
   "price_changes": [],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 437,
+      "title": "Shrek",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1737,
+      "title": "Serious Sam Collection",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1814,
+      "title": "Una Notte Al Museo 2",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1912,
+      "title": "Blacksad: Under The Skin",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2011,
+      "title": "Divinity: Original Sin II",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2370,
+      "title": "Resident Evil 7: Biohazard - Gold Edition",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3985,
+      "title": "Arthur & Minimoys",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3102,
+      "title": "Cool Shot",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4270,
+      "title": "Golden Age Of Racing",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4403,
+      "title": "Madden NFL 08",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4714,
+      "title": "Speed Racer",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4848,
+      "title": "World Championship - Off Road Racing",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4485,
+      "title": "NBA Street",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4581,
+      "title": "Rally Fusion",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4034,
+      "title": "Bouncer, The",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3101,
+      "title": "Constantine",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6057,
+      "title": "Syndicate",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6196,
+      "title": "Colin McRae Rally 2005 Plus",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6624,
+      "title": "Teenage Mutant Ninja Turtles",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7908,
+      "title": "Dreamfall Chapters",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8359,
+      "title": "Watch Dogs Complete Edition",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8198,
+      "title": "Rust",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8258,
+      "title": "Streets Of Rage 4",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8378,
+      "title": "Worms WMD (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8485,
+      "title": "Bluey: IL Videogioco",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8814,
+      "title": "Legend of Heroes, The: Trails of Cold Steel III/IV",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9458,
+      "title": "Resident Evil Zero",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9502,
+      "title": "Tarzan Freeride",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10453,
+      "title": "Megamind",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10674,
+      "title": "Mass Effect 3",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12066,
+      "title": "Disney Art Academy",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13185,
+      "title": "Danganronpa Decadence",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13189,
+      "title": "Dave the Diver: Anniversary Edition (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12671,
+      "title": "L.A. Noire",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13520,
+      "title": "Terminator 2D: NO FATE Day One Ed. w/ Cloth Poster, Token & Manual Book",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    }
+  ],
   "errors": []
 }
