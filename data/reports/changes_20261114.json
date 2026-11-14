@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-14T13:12:10.529862",
+    "generated_at": "2026-11-14T17:42:00.842506",
     "date": "2026-11-14",
-    "duration_sec": 174.7,
-    "total_scraped": 27566
+    "duration_sec": 239.3,
+    "total_scraped": 41352
   },
   "summary": {
-    "new_games": 2,
+    "new_games": 4,
     "price_changes": 0,
-    "availability_changes": 35,
-    "unchanged": 27529,
+    "availability_changes": 78,
+    "unchanged": 41270,
     "errors": 0
   },
   "new_games": [
@@ -24,6 +24,18 @@
       "title": "Dragon is Dead - Guernian Edition w/ Cards, sleeve",
       "console": "Switch",
       "price": 30
+    },
+    {
+      "game_id": 13785,
+      "title": "Pool Paradise",
+      "console": "PS2",
+      "price": 2
+    },
+    {
+      "game_id": 13786,
+      "title": "Rugrats Royal Ransom",
+      "console": "GameCube",
+      "price": 5
     }
   ],
   "price_changes": [],
@@ -269,6 +281,307 @@
     {
       "game_id": 13520,
       "title": "Terminator 2D: NO FATE Day One Ed. w/ Cloth Poster, Token & Manual Book",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 132,
+      "title": "Doom 3 Collector's Edition (18)",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 298,
+      "title": "Mike Tyson Heavyweight Boxing",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 459,
+      "title": "Soul Calibur 2",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1621,
+      "title": "Lost Planet Extreme Condition",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1386,
+      "title": "Alice Madness Returns",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 963,
+      "title": "Lego Il Signore Degli Anelli",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1919,
+      "title": "Borderlands: The Handsome Collection",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13779,
+      "title": "Doom Eternal Col. Ed. w/Helmet, Book, Lithograph & Steelbook (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2308,
+      "title": "Outlast Trinity",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2372,
+      "title": "Resident Evil Revelations 2",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2660,
+      "title": "Five Night's at Freddy's: Security Breach",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2797,
+      "title": "Clair Obscur: Expedition 33",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2958,
+      "title": "Action Man - Alpha Teens On Machines",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2965,
+      "title": "Agente Hugo Roborumble",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4714,
+      "title": "Speed Racer",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13616,
+      "title": "Warrior Street",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4813,
+      "title": "Urban Chaos",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4510,
+      "title": "Obscure 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3573,
+      "title": "Onimusha : Warlords",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4600,
+      "title": "Ridge Racer V (5)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5095,
+      "title": "Dynasty Warriors 6",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5837,
+      "title": "Far Cry 3 & Far Cry 4 (Double Pack)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5960,
+      "title": "Nhl 2k9",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6095,
+      "title": "Valkyria Chronicles",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6118,
+      "title": "WRC 4 - Fia World Rally Championship",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6408,
+      "title": "Metal Gear Solid: Portable Ops",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6931,
+      "title": "Disney Classic Games Aladdin & The Lion King",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7073,
+      "title": "Gigantosaurus: Il Gioco",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7355,
+      "title": "Neverwinter Nights Enhanced Edition",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7114,
+      "title": "Hollow Knight",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9437,
+      "title": "Pikmin w/Manual",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9458,
+      "title": "Resident Evil Zero",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9476,
+      "title": "Sonic Heroes",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9502,
+      "title": "Tarzan Freeride",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9589,
+      "title": "Barbie: Groom and Glam Pups",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10373,
+      "title": "Endless Ocean 2",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10053,
+      "title": "Professor Heinz Wolff's Gravity",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10506,
+      "title": "Rock Band 3",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13187,
+      "title": "Darksiders 2 Deathinitive Edition",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12593,
+      "title": "Gear Club Unlimited",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12879,
+      "title": "R.I.C.O",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12801,
+      "title": "Neptunia Game Maker R:Evolution",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13536,
+      "title": "Tormented Souls",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
