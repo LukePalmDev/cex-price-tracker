@@ -248,6 +248,59 @@ select:focus { border-color: var(--amber); }
 .filter-sep { width: 1px; height: 24px; background: var(--border); }
 .results-count { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--muted); white-space: nowrap; margin-left: auto; }
 
+.price-range {
+  display: flex; align-items: center; gap: 6px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 4px;
+  padding: 0 8px; color: var(--muted);
+  font-family: 'JetBrains Mono', monospace; font-size: 11px;
+}
+.price-range:focus-within { border-color: var(--amber); }
+.price-range-label { white-space: nowrap; }
+.price-range input {
+  width: 58px; background: transparent; border: none; border-radius: 0;
+  padding: 7px 0; color: var(--text); font: inherit; outline: none;
+}
+.price-range input::placeholder { color: var(--dim); }
+
+.store-filter { position: relative; }
+.store-panel {
+  position: absolute; top: calc(100% + 6px); left: 0; z-index: 150;
+  width: min(340px, calc(100vw - 24px));
+  max-height: min(440px, 70vh); overflow: auto;
+  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  padding: 10px; box-shadow: 0 12px 32px var(--modal-shadow);
+}
+.store-panel[hidden] { display: none; }
+.store-hint {
+  font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--muted);
+  line-height: 1.45; margin-bottom: 8px;
+}
+.store-presets { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.store-presets .filter-btn { font-size: 10px; padding: 5px 8px; }
+.store-options { display: flex; flex-direction: column; }
+.store-option {
+  display: flex; align-items: center; gap: 8px;
+  padding: 6px 2px; font-size: 12px; cursor: pointer; color: var(--text);
+}
+.store-option input { accent-color: var(--amber); width: 14px; height: 14px; flex: 0 0 auto; }
+.store-option.is-meta { color: var(--muted); }
+.store-clear { width: 100%; justify-content: center; margin-top: 8px; }
+.store-hits { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 4px; max-width: 180px; }
+.store-chip {
+  display: inline-block; padding: 1px 6px; border-radius: 10px;
+  border: 1px solid var(--badge-yes-bdr); background: var(--badge-yes-bg);
+  color: var(--green); font-family: 'JetBrains Mono', monospace;
+  font-size: 9px; font-weight: 600; white-space: nowrap; letter-spacing: .02em;
+}
+.modal-stores { margin-bottom: 16px; }
+.modal-stores[hidden] { display: none; }
+.modal-stores-title {
+  font-family: 'JetBrains Mono', monospace; font-size: 9px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .08em; margin-bottom: 8px;
+}
+.modal-stores-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.modal-stores-empty { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); }
+
 /* ── TABLE ── */
 .table-wrap { background: var(--card); border: 1px solid var(--border); border-radius: 8px; overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
@@ -393,6 +446,14 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
   .btn-wl-toggle { margin-left: 0; }
   .search-wrap input { font-size: 16px; }
   .filters-bar { padding: 12px; }
+  .price-range { flex: 1 1 100%; }
+  .price-range input { font-size: 16px; width: 72px; }
+  .store-filter, #store-filter-btn { width: 100%; }
+  #store-filter-btn { justify-content: center; }
+  .store-panel {
+    position: fixed; left: 12px; right: 12px; top: auto; bottom: 12px;
+    width: auto; max-height: 70vh;
+  }
   .chart-wrap { height: 220px; }
 }
 </style>
@@ -441,6 +502,7 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
     </div>
     <div class="modal-body">
       <div class="modal-stats-row" id="modal-stats"></div>
+      <div class="modal-stores" id="modal-stores" hidden></div>
       <div class="modal-chart-wrap">
         <canvas id="modal-chart" aria-label="Storico prezzo"></canvas>
       </div>
@@ -537,7 +599,7 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
   <div class="filters-bar">
     <div class="search-wrap">
       <span class="search-icon">⌕</span>
-      <input type="text" id="search-input" placeholder="Cerca titolo..." aria-label="Cerca titolo" oninput="applyFilters()">
+      <input type="text" id="search-input" maxlength="200" placeholder="Cerca titolo..." aria-label="Cerca titolo" oninput="applyFilters()">
     </div>
     <select id="filter-console" aria-label="Filtra per console" onchange="applyFilters()">
       <option value="">Tutte le console</option>
@@ -574,16 +636,21 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
       <option value="down">↓ Prezzo sceso</option>
       <option value="up">↑ Prezzo salito</option>
     </select>
-    <select id="filter-store" aria-label="Filtra per negozio" onchange="applyFilters()">
-      <option value="">Tutti i negozi</option>
-      <option value="Bologna Amendola">B.A. – Bologna Amendola</option>
-      <option value="Milano Viale Tunisia">M. – Milano</option>
-      <option value="Bologna San Felice">B.S.F. – Bologna S. Felice</option>
-      <option value="Parma Repubblica">P. – Parma</option>
-      <option value="The Wow Side">R.W. – The Wow Side</option>
-      <option value="Gran Roma">R.G. – Gran Roma</option>
-      <option value="La Romanina">R.L. – La Romanina</option>
-    </select>
+    <div class="price-range">
+      <span class="price-range-label">Vendi €</span>
+      <input type="text" inputmode="decimal" id="price-min" maxlength="8" autocomplete="off" spellcheck="false" placeholder="Min" aria-label="Prezzo minimo di vendita in euro" oninput="applyFilters()">
+      <span aria-hidden="true">–</span>
+      <input type="text" inputmode="decimal" id="price-max" maxlength="8" autocomplete="off" spellcheck="false" placeholder="Max" aria-label="Prezzo massimo di vendita in euro" oninput="applyFilters()">
+    </div>
+    <div class="store-filter" id="store-filter">
+      <button type="button" class="filter-btn" id="store-filter-btn" aria-haspopup="dialog" aria-expanded="false" aria-controls="store-panel">Disponibile in negozio</button>
+      <div class="store-panel" id="store-panel" role="dialog" aria-label="Disponibile in negozio" hidden>
+        <p class="store-hint">Mostra i titoli disponibili in almeno uno dei negozi selezionati.</p>
+        <div class="store-presets" id="store-presets"></div>
+        <div class="store-options" id="store-options" role="group" aria-label="Negozi"></div>
+        <button type="button" class="filter-btn store-clear" id="store-clear">Azzera negozi</button>
+      </div>
+    </div>
     <div class="filter-sep"></div>
     <button class="filter-btn" id="btn-wishlist-only" onclick="toggleWishlistFilter()">★ Solo wishlist</button>
     <button class="filter-btn" onclick="resetFilters()">✕ Reset</button>
@@ -612,6 +679,7 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
 
 </main>
 
+<script src="dashboard/filter-state.js"></script>
 <script>
 // ─── HELPER: legge una CSS custom property da :root ─────────────────────────
 // Supporta sia '--nome-variabile' che 'var(--nome-variabile)' ed è eseguito lazy
@@ -634,7 +702,11 @@ const CSS = v => {
 };
 
 // ─── CONFIG ────────────────────────────────────────────────────────────────
-const RAW = 'https://raw.githubusercontent.com/LukePalmDev/cex-price-tracker/main';
+// In produzione i JSON restano su raw GitHub. In locale si usano i file del repo,
+// così il server di sviluppo mostra gli stessi dati con cui si confrontano i conteggi.
+const RAW = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+  ? ''
+  : 'https://raw.githubusercontent.com/LukePalmDev/cex-price-tracker/main';
 const GAMES_URL       = `${RAW}/dashboard/data/games.json`;
 const LAST_UPDATE_URL = `${RAW}/dashboard/data/last_update.json`;
 const REPORTS_BASE    = `${RAW}/data/reports`;
@@ -718,6 +790,9 @@ let currentPage = 1;
 let wishlist = loadWishlistLocal();
 let wishlistOnly = false;
 let donutChart, barChart, modalChart;
+let activeStores = [];
+let urlSyncTimer = 0;
+const URL_SYNC_DELAY = 300;
 
 function normalizeWishlistIds(ids) {
   const out = [];
@@ -874,7 +949,8 @@ async function loadData(force = false) {
       document.getElementById('s-new-games-sub').textContent = 'aggiunti oggi';
     }
 
-    applyFilters();
+    applyFilters({ keepPage: true, skipUrl: true });
+    writeUrlNow();
     updateWishlistUI();
     document.getElementById('loading').style.display = 'none';
 
@@ -1175,6 +1251,8 @@ function buildBar(games) {
 }
 
 // ─── STORE CONSTANTS ────────────────────────────────────────────────────────
+// Tooltip storico: gli stessi 7 negozi di prima, con la stima di quantità.
+// Il filtro "disponibile in negozio" usa i 12 id in CexFilters.STORE_CATALOG.
 const KNOWN_STORES = [
   "Bologna Amendola",
   "Milano Viale Tunisia",
@@ -1222,47 +1300,136 @@ function buildStoreTooltip(g) {
 }
 
 // ─── FILTERS & SORT ────────────────────────────────────────────────────────
-function applyFilters() {
-  const q     = document.getElementById('search-input').value.toLowerCase().trim();
-  const con   = document.getElementById('filter-console').value;
-  const av    = document.getElementById('filter-avail').value;
-  const tr    = document.getElementById('filter-trend').value;
-  const store = document.getElementById('filter-store').value;
+const META_STORES = new Set(['IT Ecommerce', 'RMA CENTRE']);
 
-  filtered = allGames.filter(g => {
-    if (q && !g.title.toLowerCase().includes(q)) return false;
-    if (con && g.console !== con) return false;
-    if (av !== '' && String(g.is_available) !== av) return false;
-    if (tr === 'down' && !(g.price_trend_pct < 0)) return false;
-    if (tr === 'up'   && !(g.price_trend_pct > 0)) return false;
-    if (wishlistOnly && !wishlist.includes(g.id)) return false;
-    if (store) {
-      const oos = Array.isArray(g.out_of_stock_stores) ? g.out_of_stock_stores : [];
-      if (!g.is_available || oos.includes(store)) return false;
-    }
-    return true;
+function readFilterState() {
+  const stores = [];
+  document.querySelectorAll('#store-options input:checked').forEach(input => stores.push(input.value));
+  return {
+    q: document.getElementById('search-input').value,
+    console: document.getElementById('filter-console').value,
+    avail: document.getElementById('filter-avail').value,
+    trend: document.getElementById('filter-trend').value,
+    stores,
+    min: document.getElementById('price-min').value,
+    max: document.getElementById('price-max').value,
+    sort: sortKey,
+    dir: sortDir < 0 ? 'desc' : 'asc',
+    wl: wishlistOnly,
+    page: currentPage,
+  };
+}
+
+function writeStateToDom(state) {
+  const next = state || CexFilters.parseFilterState('');
+  document.getElementById('search-input').value = next.q;
+  const consoleSelect = document.getElementById('filter-console');
+  consoleSelect.value = next.console;
+  if (consoleSelect.value !== next.console) consoleSelect.value = '';
+  const availSelect = document.getElementById('filter-avail');
+  availSelect.value = next.avail;
+  if (availSelect.value !== next.avail) availSelect.value = '';
+  const trendSelect = document.getElementById('filter-trend');
+  trendSelect.value = next.trend;
+  if (trendSelect.value !== next.trend) trendSelect.value = '';
+  document.getElementById('price-min').value = next.min == null ? '' : String(next.min);
+  document.getElementById('price-max').value = next.max == null ? '' : String(next.max);
+  setCheckedStores(next.stores);
+  sortKey = next.sort;
+  sortDir = next.dir === 'desc' ? -1 : 1;
+  wishlistOnly = Boolean(next.wl);
+  document.getElementById('btn-wishlist-only').classList.toggle('active', wishlistOnly);
+  currentPage = next.page || 1;
+}
+
+function setCheckedStores(ids) {
+  const selected = new Set(CexFilters.normalizeStores(ids));
+  document.querySelectorAll('#store-options input').forEach(input => {
+    input.checked = selected.has(input.value);
   });
+}
 
-  filtered.sort((a, b) => {
-    const va = a[sortKey] ?? '', vb = b[sortKey] ?? '';
-    if (typeof va === 'string') return va.localeCompare(vb) * sortDir;
-    return (va - vb) * sortDir;
+function setStorePanel(open) {
+  const panel = document.getElementById('store-panel');
+  const button = document.getElementById('store-filter-btn');
+  panel.hidden = !open;
+  button.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+
+function updateStoreControls() {
+  const stores = CexFilters.normalizeStores(
+    [...document.querySelectorAll('#store-options input:checked')].map(input => input.value)
+  );
+  activeStores = stores;
+  const button = document.getElementById('store-filter-btn');
+  button.classList.toggle('active', stores.length > 0);
+  if (!stores.length) button.textContent = 'Disponibile in negozio';
+  else if (stores.length === 1) button.textContent = CexFilters.storeLabel(stores[0]);
+  else button.textContent = `Negozi (${stores.length})`;
+  document.querySelectorAll('#store-presets [data-preset]').forEach(presetButton => {
+    const preset = CexFilters.STORE_PRESETS.find(item => item.id === presetButton.dataset.preset);
+    const active = Boolean(preset)
+      && preset.stores.length === stores.length
+      && preset.stores.every(id => stores.includes(id));
+    presetButton.classList.toggle('active', active);
   });
+}
 
-  currentPage = 1;
+function preservedApi() {
+  return resolveApiBase(new URLSearchParams(window.location.search).get('api'));
+}
+
+function writeUrlNow() {
+  const next = CexFilters.serializeFilterState(readFilterState(), { api: preservedApi() });
+  if (CexFilters.sameQuery(window.location.search, next)) return;
+  history.replaceState(null, '', window.location.pathname + next + window.location.hash);
+}
+
+function scheduleUrlSync() {
+  window.clearTimeout(urlSyncTimer);
+  urlSyncTimer = window.setTimeout(writeUrlNow, URL_SYNC_DELAY);
+}
+
+function updateSortIndicators() {
+  document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
+  ['title', 'console', 'price', 'trend', 'avail'].forEach(name => {
+    const el = document.getElementById('sort-' + name);
+    if (!el) return;
+    el.textContent = '↕';
+    el.classList.remove('active');
+  });
+  const map = { title: 'title', console: 'console', current_price: 'price', price_trend_pct: 'trend', is_available: 'avail' };
+  const el = document.getElementById('sort-' + (map[sortKey] || ''));
+  if (!el) return;
+  el.textContent = sortDir === 1 ? '↓' : '↑';
+  el.classList.add('active');
+  const header = el.closest('th');
+  if (header) header.classList.add('sorted');
+}
+
+function applyFilters(opts = {}) {
+  if (!opts.keepPage) currentPage = 1;
+  const state = readFilterState();
+  filtered = CexFilters.filterAndSort(allGames, state, wishlist);
+  const pages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  if (currentPage > pages) currentPage = pages;
+  if (currentPage < 1) currentPage = 1;
+  updateStoreControls();
+  updateSortIndicators();
   document.getElementById('results-count').textContent = filtered.length.toLocaleString() + ' risultati';
   renderTable();
+  const backdrop = document.getElementById('modal-backdrop');
+  if (backdrop.classList.contains('open')) {
+    const openId = Number(backdrop.dataset.gameId);
+    if (openId) renderModalStores(allGames.find(game => game.id === openId));
+  }
+  if (!opts.skipUrl) scheduleUrlSync();
 }
 
 function sortBy(key) {
-  if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
-  ['title','console','price','trend','avail'].forEach(k => {
-    const el = document.getElementById('sort-' + k);
-    if (el) el.textContent = '↕';
-  });
-  const map = { title:'title', console:'console', current_price:'price', price_trend_pct:'trend', is_available:'avail' };
-  const el = document.getElementById('sort-' + map[key]);
-  if (el) { el.textContent = sortDir === 1 ? '↓' : '↑'; el.classList.add('active'); }
+  if (!CexFilters.SORT_KEYS.includes(key)) return;
+  if (sortKey === key) sortDir *= -1;
+  else { sortKey = key; sortDir = 1; }
   applyFilters();
 }
 
@@ -1271,10 +1438,52 @@ function resetFilters() {
   document.getElementById('filter-console').value = '';
   document.getElementById('filter-avail').value = '';
   document.getElementById('filter-trend').value = '';
-  document.getElementById('filter-store').value = '';
+  document.getElementById('price-min').value = '';
+  document.getElementById('price-max').value = '';
+  setCheckedStores([]);
   wishlistOnly = false;
   document.getElementById('btn-wishlist-only').classList.remove('active');
   applyFilters();
+}
+
+function initStoreFilter() {
+  const presets = document.getElementById('store-presets');
+  presets.innerHTML = CexFilters.STORE_PRESETS.map(preset =>
+    `<button type="button" class="filter-btn" data-preset="${esc(preset.id)}">${esc(preset.label)}</button>`
+  ).join('');
+  presets.addEventListener('click', event => {
+    const button = event.target.closest('[data-preset]');
+    if (!button) return;
+    const preset = CexFilters.STORE_PRESETS.find(item => item.id === button.dataset.preset);
+    if (!preset) return;
+    setCheckedStores(preset.stores);
+    setStorePanel(false);
+    applyFilters();
+  });
+
+  const options = document.getElementById('store-options');
+  options.innerHTML = CexFilters.STORE_CATALOG.map(store =>
+    `<label class="store-option${META_STORES.has(store.id) ? ' is-meta' : ''}">
+      <input type="checkbox" value="${esc(store.id)}">
+      <span>${esc(store.label)}</span>
+    </label>`
+  ).join('');
+  options.addEventListener('change', () => applyFilters());
+
+  document.getElementById('store-filter-btn').addEventListener('click', () => {
+    setStorePanel(document.getElementById('store-panel').hidden);
+  });
+  document.getElementById('store-clear').addEventListener('click', () => {
+    setCheckedStores([]);
+    applyFilters();
+  });
+  document.addEventListener('click', event => {
+    if (!document.getElementById('store-filter').contains(event.target)) setStorePanel(false);
+  });
+  window.addEventListener('popstate', () => {
+    writeStateToDom(CexFilters.parseFilterState(window.location.search));
+    applyFilters({ keepPage: true, skipUrl: true });
+  });
 }
 
 function toggleWishlistFilter() {
@@ -1301,12 +1510,17 @@ function renderTable() {
     const exchStr = g.exchange_price != null ? `€${Number(g.exchange_price).toFixed(2)}` : '–';
 
     const storeTooltip = buildStoreTooltip(g);
+    const stockHere = activeStores.length ? CexFilters.storesInStock(g, activeStores) : [];
+    const storeHits = stockHere.map(id =>
+      `<span class="store-chip" title="${esc(CexFilters.storeLabel(id))}">${esc(CexFilters.storeAbbr(id))}</span>`
+    ).join('');
     const badgeAvail = g.is_available
       ? `<span class="store-wrap">
            <span class="badge-avail yes">DISPO</span>
            ${storeTooltip}
          </span>`
       : `<span class="badge-avail no">ESAURITO</span>`;
+    const stockHtml = storeHits ? `<div class="store-hits">${storeHits}</div>` : '';
 
     return `<tr onclick="openModal(${Number(g.id)})">
       <td class="td-title">
@@ -1317,7 +1531,7 @@ function renderTable() {
       <td class="td-price-cash">${cashStr}</td>
       <td class="td-price-exch">${exchStr}</td>
       <td class="td-trend ${trendCls}">${trendStr}</td>
-      <td>${badgeAvail}</td>
+      <td data-stock-stores="${esc(stockHere.join('|'))}">${badgeAvail}${stockHtml}</td>
       <td>
         <div style="display:flex;align-items:center;gap:6px;">
           <button class="btn-star" onclick="toggleWL(event,${Number(g.id)})" aria-label="${inWL?'Rimuovi da wishlist':'Aggiungi a wishlist'}">${inWL?'★':'☆'}</button>
@@ -1347,7 +1561,15 @@ function renderPagination() {
   el.innerHTML = html;
 }
 
-function goPage(p) { currentPage = p; renderTable(); window.scrollTo({top: 0, behavior: 'smooth'}); }
+function goPage(p) {
+  const pages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const next = Math.min(Math.max(1, Number(p) || 1), pages);
+  if (next === currentPage) return;
+  currentPage = next;
+  renderTable();
+  scheduleUrlSync();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
 // ─── WISHLIST ──────────────────────────────────────────────────────────────
 function toggleWL(e, id) {
@@ -1395,6 +1617,8 @@ function openModal(id, fallbackTitle, fallbackConsole) {
   if (!game) return;
   document.getElementById('modal-title').innerHTML   = `<a href="${esc(game.url)}" target="_blank" rel="noopener" title="Apri su CEX">${esc(game.title)} ↗</a>`;
   document.getElementById('modal-sub').textContent   = `${game.console} · €${(game.current_price||0).toFixed(2)} · ${game.is_available ? '✅ Disponibile' : '❌ Esaurito'}`;
+  document.getElementById('modal-backdrop').dataset.gameId = String(game.id);
+  renderModalStores(game);
   const history = game.price_history_30d || [];
   const prices = history.map(h => h.new_price).concat([game.current_price]).filter(Boolean);
   const minP = prices.length ? Math.min(...prices) : game.current_price;
@@ -1493,9 +1717,52 @@ function openModal(id, fallbackTitle, fallbackConsole) {
   document.getElementById('modal-backdrop').classList.add('open');
 }
 
+function renderModalStores(game) {
+  const box = document.getElementById('modal-stores');
+  box.replaceChildren();
+  if (!game || !activeStores.length) {
+    box.hidden = true;
+    return;
+  }
+  box.hidden = false;
+  const title = document.createElement('div');
+  title.className = 'modal-stores-title';
+  title.textContent = 'Nei negozi selezionati';
+  box.appendChild(title);
+  const stock = CexFilters.storesInStock(game, activeStores);
+  if (!stock.length) {
+    const empty = document.createElement('div');
+    empty.className = 'modal-stores-empty';
+    empty.textContent = 'Nessuno dei negozi selezionati';
+    box.appendChild(empty);
+    return;
+  }
+  const list = document.createElement('div');
+  list.className = 'modal-stores-list';
+  stock.forEach(id => {
+    const chip = document.createElement('span');
+    chip.className = 'store-chip';
+    chip.textContent = CexFilters.storeLabel(id);
+    list.appendChild(chip);
+  });
+  box.appendChild(list);
+}
+
 function closeModal(e) { if (e.target === e.currentTarget) closeModalDirect(); }
-function closeModalDirect() { document.getElementById('modal-backdrop').classList.remove('open'); }
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalDirect(); });
+function closeModalDirect() {
+  const backdrop = document.getElementById('modal-backdrop');
+  backdrop.classList.remove('open');
+  delete backdrop.dataset.gameId;
+}
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  const panel = document.getElementById('store-panel');
+  if (panel && !panel.hidden) {
+    setStorePanel(false);
+    return;
+  }
+  closeModalDirect();
+});
 
 // ─── EXPORT ────────────────────────────────────────────────────────────────
 function exportCSV() {
@@ -1522,6 +1789,8 @@ function download(content, filename, mime) {
 function today() { return new Date().toISOString().split('T')[0]; }
 
 // ─── START ─────────────────────────────────────────────────────────────────
+initStoreFilter();
+writeStateToDom(CexFilters.parseFilterState(window.location.search));
 loadData();
 </script>
 </body>
