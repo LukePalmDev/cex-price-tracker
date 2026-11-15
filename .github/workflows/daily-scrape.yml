@@ -32,9 +32,9 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      # 3. Installa dipendenze (solo requests — no Chrome, no Selenium)
+      # 3. Installa dipendenze (requests — no Chrome, no Selenium)
       - name: 📦 Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       # 3.5. Scarica database da GitHub Release (se esiste)
       - name: 💾 Download current database
@@ -51,17 +51,46 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 4. Esegui scraper
+      # 4. Esegui scraper. Una risposta CeX non-JSON (blocco transitorio)
+      # viene ritentata con backoff; se resta non-JSON il job esce 0
+      # con un warning e non aggiorna dati, così un run isolato non fallisce.
       - name: 🤖 Run CEX scraper
+        id: scrape
         run: |
           cd scraper
-          python main_scraper.py
+          attempt=1
+          max_attempts=3
+          wait_s=20
+          while [ "$attempt" -le "$max_attempts" ]; do
+            set +e
+            python main_scraper.py 2>&1 | tee /tmp/cex-scrape.log
+            code=${PIPESTATUS[0]}
+            set -e
+            if [ "$code" -eq 0 ]; then
+              echo "skipped=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if grep -q "Errore curl dopo .* tentativi: risposta non JSON" /tmp/cex-scrape.log; then
+              if [ "$attempt" -lt "$max_attempts" ]; then
+                echo "::warning title=CeX response was not JSON::Attempt ${attempt}/${max_attempts} did not get JSON from CeX. Retrying in ${wait_s}s."
+                sleep "$wait_s"
+                wait_s=$((wait_s * 2))
+                attempt=$((attempt + 1))
+                continue
+              fi
+              echo "::warning title=CeX response was not JSON::CeX still did not return JSON after ${max_attempts} attempts. Skipping this run so a transient block does not fail the job."
+              echo "skipped=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            exit "$code"
+          done
         env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
           PYTHONUNBUFFERED: 1
 
       # 5. Commit report e metadati (escluso games.db)
       - name: 💾 Commit reports & dashboard data
+        if: steps.scrape.outputs.skipped != 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -71,6 +100,7 @@ jobs:
 
       # 6. Carica database aggiornato su GitHub Release
       - name: 📤 Upload database to release
+        if: steps.scrape.outputs.skipped != 'true'
         run: |
           # Crea la release se non esiste
           gh release create database --notes "Database storico CEX Price Tracker" || true

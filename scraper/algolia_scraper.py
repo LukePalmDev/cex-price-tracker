@@ -18,7 +18,13 @@ STRATEGIA:
 Credenziali Algolia:
 - Endpoint:   https://search.webuy.io
 - App ID:     LNNFEEWZVA
-- API Key:    variabile d'ambiente ALGOLIA_API_KEY (secret GitHub Actions)
+- API Key:    solo dalla variabile d'ambiente ALGOLIA_API_KEY.
+              Il workflow la passa come secret GitHub Actions.
+              Nessun valore è hardcoded e non c'è un fallback nel repo:
+              il secret è già configurato (gli scrape giornalieri
+              autenticano e scaricano il catalogo). Un fallback
+              committato rimetterebbe la chiave pubblica di ricerca
+              nel tree.
 
 Uso:
     from algolia_scraper import scrape_all_consoles
