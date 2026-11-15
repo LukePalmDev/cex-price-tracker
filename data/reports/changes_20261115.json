@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-15T13:40:56.122733",
+    "generated_at": "2026-11-15T22:42:59.923438",
     "date": "2026-11-15",
-    "duration_sec": 161.5,
-    "total_scraped": 27573
+    "duration_sec": 173.3,
+    "total_scraped": 41365
   },
   "summary": {
-    "new_games": 1,
+    "new_games": 6,
     "price_changes": 0,
-    "availability_changes": 30,
-    "unchanged": 27542,
+    "availability_changes": 78,
+    "unchanged": 41281,
     "errors": 0
   },
   "new_games": [
@@ -18,6 +18,36 @@
       "title": "Puzzle Quest - Challenge of the Warlords",
       "console": "Wii",
       "price": 5
+    },
+    {
+      "game_id": 13788,
+      "title": "Disciples Liberation (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "price": 15
+    },
+    {
+      "game_id": 13789,
+      "title": "Monster Energy Supercross 6",
+      "console": "Xbox CrossGen",
+      "price": 10
+    },
+    {
+      "game_id": 13790,
+      "title": "MXGP 24",
+      "console": "Xbox Series",
+      "price": 15
+    },
+    {
+      "game_id": 13791,
+      "title": "Final Fantasy Resonance",
+      "console": "PS5",
+      "price": 58
+    },
+    {
+      "game_id": 13792,
+      "title": "Nicktoons & The Dice of Destiny",
+      "console": "PS5",
+      "price": 18
     }
   ],
   "price_changes": [],
@@ -228,6 +258,342 @@
     {
       "game_id": 13225,
       "title": "EA Sports FC 27",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 346,
+      "title": "Ninja Gaiden",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 762,
+      "title": "DJ Hero 2",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1022,
+      "title": "Michael Jackson The Experience (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 749,
+      "title": "Devil May Cry HD Collection",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1586,
+      "title": "Incredibile Hulk",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 963,
+      "title": "Lego Il Signore Degli Anelli",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1721,
+      "title": "Rock Band 3",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1740,
+      "title": "Signore Degli Anelli, Il:La Battaglia Per La Terra Di Mezzo 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2146,
+      "title": "Just Dance 2017",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2148,
+      "title": "Just Dance 2019",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2780,
+      "title": "Assassin's Creed Black Flag Resynced (Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3012,
+      "title": "Battle Engine Aquila",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4346,
+      "title": "Juiced",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4460,
+      "title": "Mummia La Tomba Imperatore Dragone, La",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4813,
+      "title": "Urban Chaos",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4163,
+      "title": "Dragon Quest: L'Odissea Del Re",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3331,
+      "title": "Guitar Hero 2 (No Guitar)",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3825,
+      "title": "SRS Street Racing Syndicate",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4911,
+      "title": "Army Of Two: The Devil's Cartel",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5974,
+      "title": "Padrino, Il: The Don's Edition",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5994,
+      "title": "Remember Me",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6122,
+      "title": "Yaiba: Ninja Gaiden Z",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6341,
+      "title": "Iron Man",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6689,
+      "title": "World Tour Soccer",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7786,
+      "title": "Bards Tale IV, The",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8025,
+      "title": "Kromaia Omega",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7389,
+      "title": "Overcooked",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8147,
+      "title": "Poison Control",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7614,
+      "title": "Terraria",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7497,
+      "title": "Samurai Warriors 5",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6902,
+      "title": "Deadpool",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8568,
+      "title": "Death's Door",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8600,
+      "title": "Dragon Ball: FighterZ (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8654,
+      "title": "Fairy Tail 2",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9391,
+      "title": "Luigi's Mansion w/Manual",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10371,
+      "title": "Eledees",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10456,
+      "title": "Metroid Prime 3: Corruption",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10087,
+      "title": "Resident Evil Archives",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11646,
+      "title": "Littlest Pet Shop: Country Friends",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11981,
+      "title": "Winx Club: Quest for the Codex",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10760,
+      "title": "Alice in Wonderland",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11993,
+      "title": "Yu-Gi-Oh World Champ 2008",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12139,
+      "title": "Heroes of Ruin",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13212,
+      "title": "Disgaea 7: Vows of the Virtueless",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13312,
+      "title": "L'era glaciale: La Strampalata Avventura di Scrat",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13372,
+      "title": "My Little Riding Champion",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13393,
+      "title": "Northgard",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13020,
+      "title": "Trials of Mana",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
