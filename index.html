@@ -4,10 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CEX Price Tracker</title>
+<meta name="description" content="Catalogo prezzi CeX Italia: videogiochi usati, storico prezzi, disponibilità nei negozi e wishlist.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='2' fill='%23d4a373'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" integrity="sha512-CQBWl4fJHWbryGE+Pc7UAxWMUMNMWzWxF4SQo9CgkJIN1kx6djDQZjh3Y8SZ1d+6I+1zze6Z7kHXO7q3UyZAWw==" crossorigin="anonymous"></script>
 <style>
 :root {
   /* ── WARM MINIMALIST PALETTE ── */
@@ -124,6 +125,7 @@ header {
   font-family: 'JetBrains Mono', monospace;
   font-weight: 700; font-size: 15px;
   color: var(--amber); white-space: nowrap; letter-spacing: 0.05em;
+  margin: 0; line-height: 1;
 }
 .logo span { color: var(--muted); font-weight: 300; }
 .header-pills { display: flex; gap: 8px; flex: 1; overflow: hidden; }
@@ -405,7 +407,7 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
 
 <!-- HEADER -->
 <header>
-  <div class="logo">TRACKER CEX</div>
+  <h1 class="logo">TRACKER CEX</h1>
   <div class="header-pills">
     <span class="pill live" id="pill-status">Online</span>
     <span class="pill" id="pill-update">–</span>
@@ -637,12 +639,30 @@ const GAMES_URL       = `${RAW}/dashboard/data/games.json`;
 const LAST_UPDATE_URL = `${RAW}/dashboard/data/last_update.json`;
 const REPORTS_BASE    = `${RAW}/data/reports`;
 const PAGE_SIZE = 50;
-const API_PARAM = new URLSearchParams(window.location.search).get('api');
-const API_BASE = (API_PARAM || localStorage.getItem('cex-api-base') || '').trim().replace(/\/$/, '');
+// Wishlist sync is local-only. ?api= is accepted solely when its origin is
+// in this list, and it is never written to localStorage.
+const API_ALLOWLIST = [
+  'http://127.0.0.1:8787',
+  'http://localhost:8787',
+];
+
+function resolveApiBase(raw) {
+  if (!raw) return '';
+  let url;
+  try {
+    url = new URL(String(raw).trim());
+  } catch {
+    return '';
+  }
+  if (url.username || url.password || url.search || url.hash) return '';
+  if (url.pathname !== '/' && url.pathname !== '') return '';
+  return API_ALLOWLIST.includes(url.origin) ? url.origin : '';
+}
+
+const API_BASE = resolveApiBase(new URLSearchParams(window.location.search).get('api'));
 const WISHLIST_SYNC_ENABLED = Boolean(API_BASE);
-const WISHLIST_API_URL = WISHLIST_SYNC_ENABLED ?
-  `${API_BASE}/api/wishlist/ids` : '';
-if (API_PARAM) localStorage.setItem('cex-api-base', API_BASE);
+const WISHLIST_API_URL = WISHLIST_SYNC_ENABLED ? `${API_BASE}/api/wishlist/ids` : '';
+try { localStorage.removeItem('cex-api-base'); } catch (_) {}
 
 // ─── CONSOLE_META ──────────────────────────────────────────────────────────
 // I colori sono espressi come variabili CSS native in stringa e valutati al rendering.
@@ -886,13 +906,20 @@ function renderConsoleStatsGrid(byConsole, availByConsole = {}) {
     const meta  = CONSOLE_META[cat] || { color: 'var(--muted)' };
     const avail = availByConsole[cat] || 0;
     const pct   = count ? Math.round(avail / count * 100) : 0;
-    return `<div class="stat-card" onclick="filterByConsole('${cat}')" style="cursor:pointer">
-      <div class="stat-label">${cat}</div>
-      <div class="stat-value" style="color:${meta.color};font-size:20px">${count.toLocaleString()}</div>
-      <div class="stat-sub">${avail.toLocaleString()} disponibili (${pct}%)</div>
+    const label = esc(cat);
+    return `<div class="stat-card" data-console="${label}" style="cursor:pointer">
+      <div class="stat-label">${label}</div>
+      <div class="stat-value" style="color:${esc(meta.color)};font-size:20px">${Number(count).toLocaleString()}</div>
+      <div class="stat-sub">${Number(avail).toLocaleString()} disponibili (${pct}%)</div>
     </div>`;
   }).join('');
 }
+
+document.getElementById('console-stats-grid').addEventListener('click', (event) => {
+  const card = event.target.closest('[data-console]');
+  if (!card) return;
+  filterByConsole(card.dataset.console);
+});
 
 function filterByConsole(cat) {
   document.getElementById('filter-console').value = cat;
@@ -1294,7 +1321,7 @@ function renderTable() {
       <td>
         <div style="display:flex;align-items:center;gap:6px;">
           <button class="btn-star" onclick="toggleWL(event,${Number(g.id)})" aria-label="${inWL?'Rimuovi da wishlist':'Aggiungi a wishlist'}">${inWL?'★':'☆'}</button>
-          ${hasHistory ? `<button class="btn-history" onclick="event.stopPropagation();openModal(${g.id})">📈</button>` : ''}
+          ${hasHistory ? `<button class="btn-history" onclick="event.stopPropagation();openModal(${Number(g.id)})">📈</button>` : ''}
         </div>
       </td>
     </tr>`;
@@ -1350,11 +1377,11 @@ function updateWishlistUI() {
     <div class="wl-item">
       <div class="wl-item-title">${esc(g.title)}</div>
       <div class="wl-item-meta">
-        <span>${g.console}</span>
+        <span>${esc(g.console)}</span>
         <span class="wl-item-price">€${(g.current_price||0).toFixed(2)}</span>
         <span class="badge-avail ${g.is_available?'yes':'no'}">${g.is_available?'DISPO':'ESAURITO'}</span>
       </div>
-      <button class="wl-remove" onclick="toggleWL(event,${g.id})">✕</button>
+      <button class="wl-remove" onclick="toggleWL(event,${Number(g.id)})">✕</button>
     </div>
   `).join('');
 }
@@ -1457,9 +1484,9 @@ function openModal(id, fallbackTitle, fallbackConsole) {
     const pct  = h.old_price ? (diff / h.old_price * 100).toFixed(1) : '–';
     const cls  = diff > 0 ? 'color:var(--red)' : 'color:var(--green)';
     return `<tr>
-      <td>${h.changed_at || '–'}</td>
-      <td style="color:var(--muted)">€${(h.old_price||0).toFixed(2)}</td>
-      <td>€${h.new_price.toFixed(2)}</td>
+      <td>${esc(h.changed_at || '–')}</td>
+      <td style="color:var(--muted)">€${(Number(h.old_price)||0).toFixed(2)}</td>
+      <td>€${Number(h.new_price).toFixed(2)}</td>
       <td style="${cls}">${diff > 0 ? '+' : ''}€${diff.toFixed(2)} (${diff > 0 ? '+' : ''}${pct}%)</td>
     </tr>`;
   }).join('');

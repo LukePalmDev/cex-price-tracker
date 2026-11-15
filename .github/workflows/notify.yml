@@ -13,6 +13,8 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     # Esegui solo se lo scraping è andato a buon fine
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
 
@@ -26,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: 📦 Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: 💾 Download current database
         run: |
