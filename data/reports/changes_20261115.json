@@ -1,18 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-11-15T04:34:11.196527",
+    "generated_at": "2026-11-15T13:40:56.122733",
     "date": "2026-11-15",
-    "duration_sec": 163.5,
-    "total_scraped": 13786
+    "duration_sec": 161.5,
+    "total_scraped": 27573
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 1,
     "price_changes": 0,
-    "availability_changes": 1,
-    "unchanged": 13785,
+    "availability_changes": 30,
+    "unchanged": 27542,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13787,
+      "title": "Puzzle Quest - Challenge of the Warlords",
+      "console": "Wii",
+      "price": 5
+    }
+  ],
   "price_changes": [],
   "availability_changes": [
     {
@@ -21,6 +28,209 @@
       "console": "PS4",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 73,
+      "title": "Castlevania - Curse Of Darkness",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 377,
+      "title": "Pro Evolution Soccer 5",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 881,
+      "title": "Gray Matter",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1811,
+      "title": "Ultimate Marvel Vs Capcom 3",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2332,
+      "title": "Pro Evolution Soccer 2017",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2378,
+      "title": "Rime",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2409,
+      "title": "Sherlock Holmes: The Devil's Daughter",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2525,
+      "title": "Valkyria Revolution",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4601,
+      "title": "Ring of Red",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4100,
+      "title": "Crime Life: Gang Wars",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3459,
+      "title": "Mafia",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4510,
+      "title": "Obscure 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4516,
+      "title": "One Piece Round The Land",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5860,
+      "title": "Grid 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5964,
+      "title": "Ninja Gaiden Sigma",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5782,
+      "title": "Dante's Inferno Death Edition (No Codes)",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5277,
+      "title": "Lollipop Chainsaw",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5963,
+      "title": "Ninja Gaiden 3 Razor's Edge",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6044,
+      "title": "Splatterhouse",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6122,
+      "title": "Yaiba: Ninja Gaiden Z",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6139,
+      "title": "Ape Academy",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6298,
+      "title": "Ghostbusters",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6341,
+      "title": "Iron Man",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6676,
+      "title": "Williams Pinball Classics",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7539,
+      "title": "SnowRunner",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9476,
+      "title": "Sonic Heroes",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9818,
+      "title": "Hot Wheels: Beat the Track",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10476,
+      "title": "Naruto Shippuden Dragon Blade",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13225,
+      "title": "EA Sports FC 27",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
