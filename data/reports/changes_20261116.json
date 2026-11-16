@@ -1,19 +1,258 @@
 {
   "metadata": {
-    "generated_at": "2026-11-16T04:30:59.790664",
+    "generated_at": "2026-11-16T15:11:12.630900",
     "date": "2026-11-16",
-    "duration_sec": 139.4,
-    "total_scraped": 13792
+    "duration_sec": 133.2,
+    "total_scraped": 27585
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 1,
     "price_changes": 0,
-    "availability_changes": 0,
-    "unchanged": 13792,
+    "availability_changes": 33,
+    "unchanged": 27551,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13793,
+      "title": "Planet 51",
+      "console": "DS",
+      "price": 12
+    }
+  ],
   "price_changes": [],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 346,
+      "title": "Ninja Gaiden",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1607,
+      "title": "Left 4 Dead",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1668,
+      "title": "Ninja Gaiden 3 - Razor's Edge",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2011,
+      "title": "Divinity: Original Sin II",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2930,
+      "title": "Vampire: The Masquerade - Bloodlines 2",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4305,
+      "title": "Heatseeker",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4484,
+      "title": "NBA Live 2003",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4601,
+      "title": "Ring of Red",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4858,
+      "title": "World Super police",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4055,
+      "title": "Capcom Classics Collection Vol 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4337,
+      "title": "James Bond 007: Everything or Nothing",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3452,
+      "title": "Lupin III La Morte Zenigata L'Amore",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4516,
+      "title": "One Piece Round The Land",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5939,
+      "title": "MotorStorm Complete",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6140,
+      "title": "Ape Academy 2",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6426,
+      "title": "Monster Hunter - Freedom Unite",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6445,
+      "title": "Naruto Shippuden Ultimate Ninja Impact",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6676,
+      "title": "Williams Pinball Classics",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6710,
+      "title": "Yu-Gi-Oh! Gx Tag Force 5",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8057,
+      "title": "Madden NFL 25",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13708,
+      "title": "Wolfenstein II: The New Colossus",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8407,
+      "title": "Ace Combat 8: Wings Of Theve (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8804,
+      "title": "Kong: Survivor Instinct",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9363,
+      "title": "Harry Potter E il Prigioniero Di Azkaban",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10469,
+      "title": "Muramasa: The Demon Blade",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10590,
+      "title": "007 Legends",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11460,
+      "title": "Diddy Kong Racing",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11480,
+      "title": "Ducati Moto",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11894,
+      "title": "Sudoku Master",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12198,
+      "title": "Lego: The Hobbit",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12397,
+      "title": "Yo-Kai Watch 3",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13527,
+      "title": "This is the Police",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13149,
+      "title": "Bye Sweet Carole",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
   "errors": []
 }
