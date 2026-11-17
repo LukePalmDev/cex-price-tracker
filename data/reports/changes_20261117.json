@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-17T15:42:03.876337",
+    "generated_at": "2026-11-17T20:28:13.325086",
     "date": "2026-11-17",
-    "duration_sec": 132.4,
-    "total_scraped": 41382
+    "duration_sec": 149.5,
+    "total_scraped": 55180
   },
   "summary": {
-    "new_games": 3,
+    "new_games": 5,
     "price_changes": 308,
-    "availability_changes": 29,
-    "unchanged": 41042,
+    "availability_changes": 48,
+    "unchanged": 54819,
     "errors": 0
   },
   "new_games": [
@@ -30,6 +30,18 @@
       "title": "Kingdom Hearts Collection [I-III]",
       "console": "PS5",
       "price": 62
+    },
+    {
+      "game_id": 13798,
+      "title": "Harry Potter E La Pietra Filosofale",
+      "console": "Xbox",
+      "price": 45
+    },
+    {
+      "game_id": 13799,
+      "title": "First Tree, The - Strictly Limited Games",
+      "console": "Switch",
+      "price": 30
     }
   ],
   "price_changes": [
@@ -2698,6 +2710,139 @@
     {
       "game_id": 13534,
       "title": "Tomodachi Life: Una Vita Da Sogno",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10,
+      "title": "Alla Ricerca Di Nemo",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 46,
+      "title": "Blood Wake",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 384,
+      "title": "Quantum Redshift",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 456,
+      "title": "Sonic Heroes",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 484,
+      "title": "Star Wars Republic Commander",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 541,
+      "title": "Total Immersion Racing",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 596,
+      "title": "Amped 3",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1240,
+      "title": "Stormrise",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4807,
+      "title": "Ultimate Pro Pinball",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4088,
+      "title": "Codename: Kids Next Door Operation Videogame",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5721,
+      "title": "Arthur - La Vendetta Di Maltazard",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5935,
+      "title": "Monster Madness: Grave Danger",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6032,
+      "title": "Skylanders Swap Force Starter Pack",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10444,
+      "title": "Little Kings Story",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10143,
+      "title": "Speed Racer",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11929,
+      "title": "Tony Hawk's Proving Ground",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12021,
+      "title": "Avventure Di Tintin: Il Segreto Dell Unicorno",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13101,
+      "title": "ARK: Survival Evolved",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13362,
+      "title": "Monster Menu: The Scavenger's Cookbook - Deluxe Edition",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
