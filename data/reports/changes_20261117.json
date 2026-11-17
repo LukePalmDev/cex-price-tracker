@@ -1,18 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-11-17T06:16:48.252519",
+    "generated_at": "2026-11-17T15:42:03.876337",
     "date": "2026-11-17",
-    "duration_sec": 143.1,
-    "total_scraped": 27586
+    "duration_sec": 132.4,
+    "total_scraped": 41382
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 3,
     "price_changes": 308,
-    "availability_changes": 1,
-    "unchanged": 27277,
+    "availability_changes": 29,
+    "unchanged": 41042,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13795,
+      "title": "Walking Dead, The: The Telltale Definitive Series",
+      "console": "Xbox One",
+      "price": 28
+    },
+    {
+      "game_id": 13796,
+      "title": "Gothic 2 Complete Classic",
+      "console": "PS5",
+      "price": 28
+    },
+    {
+      "game_id": 13797,
+      "title": "Kingdom Hearts Collection [I-III]",
+      "console": "PS5",
+      "price": 62
+    }
+  ],
   "price_changes": [
     {
       "game_id": 8399,
@@ -2486,6 +2505,202 @@
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 131,
+      "title": "Doom 3 - Resurrection Of Evil",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 844,
+      "title": "Final Fantasy XIII Edizione Limitata Da Collezione",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2266,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 4 Road To Boruto",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2482,
+      "title": "Terra di Mezzo: L'Ombra della Guerra - Definitive Edition",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2537,
+      "title": "Warhammer: Vermintide 2 (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2803,
+      "title": "Cyberpunk 2077: Ultimate Edition (3 Disco)",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2911,
+      "title": "Street Fighter 6",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4238,
+      "title": "Freakstyle",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4047,
+      "title": "Buzz! Superquiz (No Buzzers)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4369,
+      "title": "Klonoa 2 Lunateas Veil",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4553,
+      "title": "Playboy the Mansion",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5764,
+      "title": "Cabela's Dangerous Adventures",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5488,
+      "title": "Saw 2: Flesh & Blood",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6706,
+      "title": "Yu-Gi-Oh! GX Tag Force",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7125,
+      "title": "Hunting Simulator 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13708,
+      "title": "Wolfenstein II: The New Colossus",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8631,
+      "title": "Empire of the Ants (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9003,
+      "title": "R-Type Final 3 Evolved (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9643,
+      "title": "Cars Race O Rama",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11695,
+      "title": "Micro Machines V4",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11705,
+      "title": "Mio Cucciolo, Il : Veterinari Allo Zoo",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11355,
+      "title": "Asphalt Urban GT 2",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11846,
+      "title": "Serventi Dell'Overlord, I",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12044,
+      "title": "Cars 2",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12226,
+      "title": "Monster 4x4",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12385,
+      "title": "Ultimate NES Remix",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13252,
+      "title": "Five Nights at Freddy's: Help Wanted 2",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13534,
+      "title": "Tomodachi Life: Una Vita Da Sogno",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
