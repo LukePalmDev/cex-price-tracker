@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-17T01:48:55.635770",
+    "date": "2026-11-17",
+    "duration_sec": 156.8,
+    "total_scraped": 13793
+  },
+  "summary": {
+    "new_games": 0,
+    "price_changes": 0,
+    "availability_changes": 1,
+    "unchanged": 13792,
+    "errors": 0
+  },
+  "new_games": [],
+  "price_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 12744,
+      "title": "Metroid Dread",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
+  "errors": []
+}
