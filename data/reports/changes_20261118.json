@@ -1,19 +1,1052 @@
 {
   "metadata": {
-    "generated_at": "2026-11-18T00:51:11.884616",
+    "generated_at": "2026-11-18T05:44:26.855710",
     "date": "2026-11-18",
-    "duration_sec": 161.5,
-    "total_scraped": 13798
+    "duration_sec": 166.2,
+    "total_scraped": 27596
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 0,
+    "price_changes": 129,
     "availability_changes": 1,
-    "unchanged": 13797,
+    "unchanged": 27466,
     "errors": 0
   },
   "new_games": [],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "game_id": 2594,
+      "title": "AEW: Fight Forever",
+      "console": "Xbox CrossGen",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2598,
+      "title": "Among Us Crewmate Edition",
+      "console": "Xbox CrossGen",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2600,
+      "title": "Armored Core VI: Fires of Rubicon",
+      "console": "Xbox CrossGen",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 2604,
+      "title": "Asterigos: Curse of the Stars",
+      "console": "Xbox CrossGen",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2611,
+      "title": "Borderlands 3 (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 2616,
+      "title": "Call of Duty: Vanguard (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2617,
+      "title": "Chef Life: A Restaurant Simulator",
+      "console": "Xbox CrossGen",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2618,
+      "title": "Chivalry 2",
+      "console": "Xbox CrossGen",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2621,
+      "title": "Crew, The: Motorfest (No DLC) 2 Discs",
+      "console": "Xbox CrossGen",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 2623,
+      "title": "Cyberpunk 2077 (2 Disc)",
+      "console": "Xbox CrossGen",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 2626,
+      "title": "Dark Pictures Anthology, The: The Devil In Me",
+      "console": "Xbox CrossGen",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 2630,
+      "title": "Dead Island 2 (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2632,
+      "title": "Demon Slayer -Kimetsu no Yaiba- Sweep the Board!",
+      "console": "Xbox CrossGen",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 2633,
+      "title": "Demon Slayer Kimetsu No Yaiba: The Hinokami Chronicles",
+      "console": "Xbox CrossGen",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2636,
+      "title": "DioField Chronicle, The",
+      "console": "Xbox CrossGen",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2638,
+      "title": "Dolmen",
+      "console": "Xbox CrossGen",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2645,
+      "title": "Elden Ring (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 2646,
+      "title": "Elden Ring: Nightreign (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 2647,
+      "title": "Elex II",
+      "console": "Xbox CrossGen",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2648,
+      "title": "Epic Mickey: Rebrushed",
+      "console": "Xbox CrossGen",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2650,
+      "title": "Evil West",
+      "console": "Xbox CrossGen",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2654,
+      "title": "F1 24",
+      "console": "Xbox CrossGen",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2655,
+      "title": "F1 Manager 2023",
+      "console": "Xbox CrossGen",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2659,
+      "title": "Farming Simulator 22",
+      "console": "Xbox CrossGen",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2660,
+      "title": "Five Night's at Freddy's: Security Breach",
+      "console": "Xbox CrossGen",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 2661,
+      "title": "Forza Horizon 4 (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2664,
+      "title": "Garden Life: A Cozy Simulator",
+      "console": "Xbox CrossGen",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2665,
+      "title": "Gears 5 (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 2669,
+      "title": "Grand Theft Auto: The Trilogy - Definitive Edition",
+      "console": "Xbox CrossGen",
+      "new_price": 28,
+      "old_price": 22.0,
+      "variation_pct": 27.27
+    },
+    {
+      "game_id": 2671,
+      "title": "Grid Legends",
+      "console": "Xbox CrossGen",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2675,
+      "title": "Halo: Master Chief Collection",
+      "console": "Xbox CrossGen",
+      "new_price": 22,
+      "old_price": 18.0,
+      "variation_pct": 22.22
+    },
+    {
+      "game_id": 2676,
+      "title": "Hello Neighbor 2",
+      "console": "Xbox CrossGen",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2683,
+      "title": "Jujutsu Kaisen Cursed Clash",
+      "console": "Xbox CrossGen",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 2685,
+      "title": "Just Dance 2022",
+      "console": "Xbox CrossGen",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2687,
+      "title": "Knight Witch, The Delux Edition (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2689,
+      "title": "LEGO Brawls",
+      "console": "Xbox CrossGen",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2692,
+      "title": "Lies of P (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2693,
+      "title": "Like a Dragon: Ishin!",
+      "console": "Xbox CrossGen",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2694,
+      "title": "Little Nightmares II (2)",
+      "console": "Xbox CrossGen",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2696,
+      "title": "Lost Judgment",
+      "console": "Xbox CrossGen",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2697,
+      "title": "Maneater",
+      "console": "Xbox CrossGen",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2698,
+      "title": "Mass Effect: Legendary Edition (2 Disc)",
+      "console": "Xbox CrossGen",
+      "new_price": 25,
+      "old_price": 20.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2700,
+      "title": "Metro Exodus: Complete Edition",
+      "console": "Xbox CrossGen",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2701,
+      "title": "Minecraft Legends (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 2710,
+      "title": "My Fantastic Ranch",
+      "console": "Xbox CrossGen",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2711,
+      "title": "My Little Pony: A Zephyr Heights Mystery",
+      "console": "Xbox CrossGen",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 2718,
+      "title": "Persona 5 Tactica",
+      "console": "Xbox CrossGen",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2719,
+      "title": "Planet Coaster",
+      "console": "Xbox CrossGen",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2729,
+      "title": "Resident Evil: Village",
+      "console": "Xbox CrossGen",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2735,
+      "title": "Scarlet Nexus",
+      "console": "Xbox CrossGen",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2740,
+      "title": "Sid Meier's Civilization VII",
+      "console": "Xbox CrossGen",
+      "new_price": 38,
+      "old_price": 42.0,
+      "variation_pct": -9.52
+    },
+    {
+      "game_id": 2741,
+      "title": "Sniper Elite 5",
+      "console": "Xbox CrossGen",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2742,
+      "title": "Sonic Frontiers",
+      "console": "Xbox CrossGen",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 2745,
+      "title": "Sonic x Shadow Generations",
+      "console": "Xbox CrossGen",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 2748,
+      "title": "Star Ocean: The Divine Force",
+      "console": "Xbox CrossGen",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2755,
+      "title": "Tales of Arise",
+      "console": "Xbox CrossGen",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2757,
+      "title": "TopSpin 2K25",
+      "console": "Xbox CrossGen",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2760,
+      "title": "TT Isle Of Man: Ride On The Edge 3",
+      "console": "Xbox CrossGen",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2762,
+      "title": "Under The Waves",
+      "console": "Xbox CrossGen",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2766,
+      "title": "Watch Dogs Legion (Senza DLC)",
+      "console": "Xbox CrossGen",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2767,
+      "title": "We Happy Few",
+      "console": "Xbox CrossGen",
+      "new_price": 15,
+      "old_price": 10.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 2774,
+      "title": "Agatha Christie - Murder on the Orient Express",
+      "console": "Xbox Series",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 2775,
+      "title": "Agatha Christie: The ABC Murders",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2776,
+      "title": "Alan Wake ll: Deluxe Edition (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 42,
+      "old_price": 48.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2778,
+      "title": "Alters, The",
+      "console": "Xbox Series",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2779,
+      "title": "Anno 1800",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2781,
+      "title": "Assassin's Creed Shadows (Senza DLC) 2 Discs",
+      "console": "Xbox Series",
+      "new_price": 30,
+      "old_price": 35.0,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 2782,
+      "title": "Atlas Fallen",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2783,
+      "title": "Atomic Heart",
+      "console": "Xbox Series",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2784,
+      "title": "Avatar: Frontiers of Pandora (Senza DLC) 2 Disc",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2786,
+      "title": "Banishers: Ghosts of New Eden",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2788,
+      "title": "Battlefield 6 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 28,
+      "old_price": 35.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2792,
+      "title": "Borderlands 4 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 2793,
+      "title": "Call of Duty: Black Ops 6 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 2800,
+      "title": "Crime Boss: Rockay City",
+      "console": "Xbox Series",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2804,
+      "title": "Dead Rising Deluxe Remaster",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2805,
+      "title": "Dead Space",
+      "console": "Xbox Series",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 2806,
+      "title": "Destroy All Humans! 2 Reprobed",
+      "console": "Xbox Series",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2808,
+      "title": "Directive 8020 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 42,
+      "old_price": 48.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2809,
+      "title": "Doom: The Dark Ages (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 35,
+      "old_price": 32.0,
+      "variation_pct": 9.38
+    },
+    {
+      "game_id": 2814,
+      "title": "Elden Ring (Senza Erdtree DLC) 2 Disc",
+      "console": "Xbox Series",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 2815,
+      "title": "Everspace 2",
+      "console": "Xbox Series",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 2817,
+      "title": "F1 25",
+      "console": "Xbox Series",
+      "new_price": 35,
+      "old_price": 38.0,
+      "variation_pct": -7.89
+    },
+    {
+      "game_id": 2818,
+      "title": "Farming Simulator 25",
+      "console": "Xbox Series",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 2822,
+      "title": "First Berserker, The: Khazan",
+      "console": "Xbox Series",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2832,
+      "title": "Gothic Remake",
+      "console": "Xbox Series",
+      "new_price": 50,
+      "old_price": 55.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2834,
+      "title": "Greak: Memories of Azur",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2836,
+      "title": "Hell Is Us (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 45,
+      "old_price": 50.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2842,
+      "title": "Indiana Jones e l’Antico Cerchio",
+      "console": "Xbox Series",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 2845,
+      "title": "Jagged Alliance 3",
+      "console": "Xbox Series",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2846,
+      "title": "Judgment",
+      "console": "Xbox Series",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2847,
+      "title": "King Of Fighters XV (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 2848,
+      "title": "Kingdom Come Deliverance II (Senza DLC) 2 Disc",
+      "console": "Xbox Series",
+      "new_price": 38,
+      "old_price": 40.0,
+      "variation_pct": -5.0
+    },
+    {
+      "game_id": 2851,
+      "title": "Like a Dragon: Infinite Wealth",
+      "console": "Xbox Series",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 2858,
+      "title": "Metaphor: ReFantazio",
+      "console": "Xbox Series",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 2859,
+      "title": "MGS Delta: Snake Eater Deluxe Ed. w/Keychain, Cards & Steelbook(Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 75,
+      "old_price": 80.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 2863,
+      "title": "Mortal Kombat 1 (Senza DLC) 2 Disc",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2865,
+      "title": "MotoGP 25 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2873,
+      "title": "One Piece: Odyssey",
+      "console": "Xbox Series",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2875,
+      "title": "Outcast - A New Beginning",
+      "console": "Xbox Series",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2876,
+      "title": "Outer Worlds 2, The (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 2877,
+      "title": "Overpass 2",
+      "console": "Xbox Series",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2879,
+      "title": "Payday 3 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2884,
+      "title": "Precinct, The",
+      "console": "Xbox Series",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2885,
+      "title": "Project Motor Racing",
+      "console": "Xbox Series",
+      "new_price": 45,
+      "old_price": 50.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2886,
+      "title": "Quarry, The",
+      "console": "Xbox Series",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2887,
+      "title": "Quiet Place, A: The Road Ahead",
+      "console": "Xbox Series",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2888,
+      "title": "Ready or Not (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 42,
+      "old_price": 48.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2890,
+      "title": "Remnant II (2 Disc)",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 2891,
+      "title": "Rennsport",
+      "console": "Xbox Series",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 2898,
+      "title": "Robocop: Rogue City",
+      "console": "Xbox Series",
+      "new_price": 22,
+      "old_price": 28.0,
+      "variation_pct": -21.43
+    },
+    {
+      "game_id": 2900,
+      "title": "Silent Hill F",
+      "console": "Xbox Series",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 2904,
+      "title": "Split Fiction (2 Disc) Senza DLC",
+      "console": "Xbox Series",
+      "new_price": 38,
+      "old_price": 42.0,
+      "variation_pct": -9.52
+    },
+    {
+      "game_id": 2907,
+      "title": "Star Wars Jedi: Survivor (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2908,
+      "title": "Star Wars Outlaws (Senza DLC) 2 Disc",
+      "console": "Xbox Series",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2912,
+      "title": "Suicide Squad: Kill The Justice League",
+      "console": "Xbox Series",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 2914,
+      "title": "Syberia: The World Before Col. Ed. w/Statuetta, MusicBox, Portachiave,Book",
+      "console": "Xbox Series",
+      "new_price": 90,
+      "old_price": 95.0,
+      "variation_pct": -5.26
+    },
+    {
+      "game_id": 2917,
+      "title": "Tekken 8 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 2919,
+      "title": "Test Drive Unlimited: Solar Crown",
+      "console": "Xbox Series",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 2923,
+      "title": "Tony Hawk's Pro Skater 3+4",
+      "console": "Xbox Series",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 2927,
+      "title": "Trepang2",
+      "console": "Xbox Series",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2929,
+      "title": "Undisputed",
+      "console": "Xbox Series",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 2930,
+      "title": "Vampire: The Masquerade - Bloodlines 2",
+      "console": "Xbox Series",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 2931,
+      "title": "Vampire: The Masquerade - Swansong",
+      "console": "Xbox Series",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2933,
+      "title": "Warhammer 40,000: Darktide",
+      "console": "Xbox Series",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2935,
+      "title": "Warhammer 40k: Space Marine II (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 32,
+      "old_price": 35.0,
+      "variation_pct": -8.57
+    },
+    {
+      "game_id": 2938,
+      "title": "Werewolf: The Apocalypse - Earthblood",
+      "console": "Xbox Series",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 2940,
+      "title": "Witcher 3: Wild Hunt Complete Edition (2 Disc)",
+      "console": "Xbox Series",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 2946,
+      "title": "WWE 2K26 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_price": 50,
+      "old_price": 60.0,
+      "variation_pct": -16.67
+    }
+  ],
   "availability_changes": [
     {
       "game_id": 11256,

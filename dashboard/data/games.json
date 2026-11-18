@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "exported_at": "2026-11-18T00:51:12.107584",
+    "exported_at": "2026-11-18T05:44:27.097099",
     "total_games": 13799,
-    "version": "20261118_005112",
+    "version": "20261118_054427",
     "statistics": {
       "total_games": 13799,
       "available_games": 8126,
@@ -25,13 +25,13 @@
         "Xbox Series": 177,
         "Wii U": 159
       },
-      "average_price": 14.01,
+      "average_price": 13.99,
       "last_update": "2026-11-18",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 0,
+        "price_changes": 129,
         "availability_changes": 1,
-        "unchanged": 13797,
+        "unchanged": 27466,
         "errors": 0
       }
     }
@@ -58,13 +58,13 @@
       "Xbox Series": 177,
       "Wii U": 159
     },
-    "average_price": 14.01,
+    "average_price": 13.99,
     "last_update": "2026-11-18",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 0,
+      "price_changes": 129,
       "availability_changes": 1,
-      "unchanged": 13797,
+      "unchanged": 27466,
       "errors": 0
     }
   },
@@ -9045,6 +9045,7 @@
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
         "The Wow Side",
@@ -142590,6 +142591,7 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
@@ -219890,6 +219892,7 @@
         "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
+        "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
         "The Wow Side",
@@ -232048,8 +232051,8 @@
       "console": "PS4",
       "category": "PlayStation",
       "current_price": 70.0,
-      "cash_price": 45.0,
-      "exchange_price": 52.0,
+      "cash_price": 28.0,
+      "exchange_price": 38.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -291681,8 +291684,8 @@
       "console": "PS5",
       "category": "PlayStation",
       "current_price": 72.0,
-      "cash_price": 46.0,
-      "exchange_price": 54.0,
+      "cash_price": 36.0,
+      "exchange_price": 48.0,
       "ecom_quantity": 9,
       "collection_quantity": 9,
       "out_of_stock_stores": [
@@ -345344,6 +345347,7 @@
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
+        "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Gran Roma",
@@ -515944,9 +515948,9 @@
       "title": "AEW: Fight Forever",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 15.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 12.0,
+      "cash_price": 4.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -515967,18 +515971,23 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080078407",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080078407",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2595,
@@ -516108,9 +516117,9 @@
       "title": "Among Us Crewmate Edition",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 8.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 6.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -516131,18 +516140,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5016488138161",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5016488138161",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 2599,
@@ -516190,9 +516204,9 @@
       "title": "Armored Core VI: Fires of Rubicon",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 22.0,
+      "cash_price": 8.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -516213,18 +516227,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892027440",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892027440",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.0
     },
     {
       "id": 2601,
@@ -516348,9 +516367,9 @@
       "title": "Asterigos: Curse of the Stars",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 7.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -516371,18 +516390,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635603289",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635603289",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2605,
@@ -516634,9 +516658,9 @@
       "title": "Borderlands 3 (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 6.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -516655,18 +516679,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555361484",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555361484",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 2612,
@@ -516830,9 +516859,9 @@
       "title": "Call of Duty: Vanguard (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 22.0,
+      "current_price": 20.0,
       "cash_price": 8.0,
-      "exchange_price": 12.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 9,
       "collection_quantity": 9,
       "out_of_stock_stores": [
@@ -516847,27 +516876,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917295683",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917295683",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 2617,
       "title": "Chef Life: A Restaurant Simulator",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 5.0,
-      "cash_price": 2.0,
-      "exchange_price": 2.0,
+      "current_price": 4.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.6,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -516886,27 +516920,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962014822",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962014822",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2618,
       "title": "Chivalry 2",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 6.0,
+      "current_price": 5.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 2.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -516927,18 +516966,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628711573",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628711573",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2619,
@@ -517026,9 +517070,9 @@
       "title": "Crew, The: Motorfest (No DLC) 2 Discs",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 28.0,
-      "cash_price": 11.0,
-      "exchange_price": 15.0,
+      "current_price": 25.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -517049,18 +517093,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216269434",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216269434",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 2622,
@@ -517107,9 +517156,9 @@
       "title": "Cyberpunk 2077 (2 Disc)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 7.0,
-      "exchange_price": 9.0,
+      "current_price": 20.0,
+      "cash_price": 8.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -517124,18 +517173,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892006124",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892006124",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 2624,
@@ -517225,9 +517279,9 @@
       "title": "Dark Pictures Anthology, The: The Devil In Me",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 22.0,
-      "cash_price": 8.0,
-      "exchange_price": 12.0,
+      "current_price": 25.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -517248,18 +517302,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892023329",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892023329",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 2627,
@@ -517392,9 +517451,9 @@
       "title": "Dead Island 2 (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 10.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -517415,18 +517474,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628682132",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628682132",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2631,
@@ -517475,9 +517539,9 @@
       "title": "Demon Slayer -Kimetsu no Yaiba- Sweep the Board!",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 11.0,
+      "exchange_price": 15.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -517498,27 +517562,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277053438",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277053438",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.67
     },
     {
       "id": 2633,
       "title": "Demon Slayer Kimetsu No Yaiba: The Hinokami Chronicles",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 4.0,
-      "exchange_price": 6.0,
+      "current_price": 15.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -517538,18 +517607,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277045563",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277045563",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 2634,
@@ -517639,9 +517713,9 @@
       "title": "DioField Chronicle, The",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 10.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -517661,18 +517735,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290094130",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290094130",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2637,
@@ -517722,8 +517801,8 @@
       "console": "Xbox CrossGen",
       "category": "Xbox",
       "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -517762,9 +517841,9 @@
       "title": "Dolmen",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 6.0,
+      "current_price": 5.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 2.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -517784,18 +517863,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628678203",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628678203",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2639,
@@ -518072,9 +518156,9 @@
       "title": "Elden Ring (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 28.0,
+      "cash_price": 11.0,
+      "exchange_price": 15.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -518095,27 +518179,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892017762",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892017762",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 2646,
       "title": "Elden Ring: Nightreign (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 22.0,
+      "cash_price": 8.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -518135,27 +518224,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892034899",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892034899",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.0
     },
     {
       "id": 2647,
       "title": "Elex II",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 6.0,
+      "current_price": 5.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 2.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -518175,27 +518269,32 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080077172",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080077172",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2648,
       "title": "Epic Mickey: Rebrushed",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 22.0,
+      "current_price": 20.0,
       "cash_price": 8.0,
-      "exchange_price": 12.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -518216,18 +518315,23 @@
       "url": "https://it.webuy.com/product-detail/?id=9120131601349",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120131601349",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 2649,
@@ -518276,9 +518380,9 @@
       "title": "Evil West",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 10.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -518298,18 +518402,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3512899958456",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3512899958456",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2651,
@@ -518429,9 +518538,9 @@
       "title": "F1 24",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 20.0,
+      "cash_price": 8.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -518451,27 +518560,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030949125347",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030949125347",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2655,
       "title": "F1 Manager 2023",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 6.0,
+      "current_price": 5.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 2.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -518491,18 +518605,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208822420",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208822420",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2656,
@@ -518625,9 +518744,9 @@
       "title": "Farming Simulator 22",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 22.0,
+      "current_price": 20.0,
       "cash_price": 8.0,
-      "exchange_price": 12.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -518648,27 +518767,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4064635510057",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4064635510057",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 2660,
       "title": "Five Night's at Freddy's: Security Breach",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 28.0,
-      "cash_price": 11.0,
-      "exchange_price": 15.0,
+      "current_price": 30.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -518690,27 +518814,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5016488139397",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": "2026-11-14",
       "image_url": null,
       "box_id": "5016488139397",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 2661,
       "title": "Forza Horizon 4 (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 25.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 16,
       "collection_quantity": 16,
       "out_of_stock_stores": [
@@ -518725,18 +518854,23 @@
       "url": "https://it.webuy.com/product-detail/?id=0889842392470",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "0889842392470",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2662,
@@ -518821,9 +518955,9 @@
       "title": "Garden Life: A Cozy Simulator",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 8.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 6.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -518844,27 +518978,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962024852",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962024852",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 2665,
       "title": "Gears 5 (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 7.0,
-      "exchange_price": 9.0,
+      "current_price": 20.0,
+      "cash_price": 8.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -518885,18 +519024,23 @@
       "url": "https://it.webuy.com/product-detail/?id=889842519174",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "889842519174",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 2666,
@@ -519028,9 +519172,9 @@
       "title": "Grand Theft Auto: The Trilogy - Definitive Edition",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 22.0,
-      "cash_price": 8.0,
-      "exchange_price": 12.0,
+      "current_price": 28.0,
+      "cash_price": 11.0,
+      "exchange_price": 15.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -519050,18 +519194,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555366007",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555366007",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 27.27
     },
     {
       "id": 2670,
@@ -519110,9 +519259,9 @@
       "title": "Grid Legends",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 10.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -519133,18 +519282,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030946124923",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030946124923",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2672,
@@ -519270,9 +519424,9 @@
       "title": "Halo: Master Chief Collection",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 7.0,
-      "exchange_price": 9.0,
+      "current_price": 22.0,
+      "cash_price": 8.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -519294,27 +519448,32 @@
       "url": "https://it.webuy.com/product-detail/?id=885370863963",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": "2026-11-07",
       "image_url": null,
       "box_id": "885370863963",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 22.22
     },
     {
       "id": 2676,
       "title": "Hello Neighbor 2",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 10.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 8.0,
+      "cash_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -519335,18 +519494,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060760887469",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060760887469",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2677,
@@ -519595,9 +519759,9 @@
       "title": "Jujutsu Kaisen Cursed Clash",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 28.0,
-      "cash_price": 11.0,
-      "exchange_price": 15.0,
+      "current_price": 25.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -519615,18 +519779,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892025804",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892025804",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 2684,
@@ -519675,9 +519844,9 @@
       "title": "Just Dance 2022",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 15.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 12.0,
+      "cash_price": 4.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -519696,18 +519865,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216210689",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216210689",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2686,
@@ -519756,9 +519930,9 @@
       "title": "Knight Witch, The Delux Edition (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 15.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 12.0,
+      "cash_price": 4.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -519779,27 +519953,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208817877",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208817877",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2689,
       "title": "LEGO Brawls",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 6.0,
+      "current_price": 5.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 2.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -519820,18 +519999,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892022483",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892022483",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2690,
@@ -519963,9 +520147,9 @@
       "title": "Lies of P (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 40.0,
-      "cash_price": 16.0,
-      "exchange_price": 22.0,
+      "current_price": 35.0,
+      "cash_price": 14.0,
+      "exchange_price": 19.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -519986,27 +520170,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208821652",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208821652",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 2693,
       "title": "Like a Dragon: Ishin!",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 15.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 18.0,
+      "cash_price": 7.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -520027,27 +520216,32 @@
       "url": "https://it.webuy.com/product-detail/?id=505527704921",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": "2026-11-11",
       "image_url": null,
       "box_id": "505527704921",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 2694,
       "title": "Little Nightmares II (2)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 4.0,
-      "exchange_price": 6.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -520068,18 +520262,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892010992",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892010992",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2695,
@@ -520127,9 +520326,9 @@
       "title": "Lost Judgment",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 22.0,
+      "current_price": 20.0,
       "cash_price": 8.0,
-      "exchange_price": 12.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -520149,27 +520348,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277044306",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277044306",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 2697,
       "title": "Maneater",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 8.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 6.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -520186,27 +520390,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628729554",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628729554",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 2698,
       "title": "Mass Effect: Legendary Edition (2 Disc)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 20.0,
-      "cash_price": 8.0,
-      "exchange_price": 11.0,
+      "current_price": 25.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -520228,18 +520437,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030940123946",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030940123946",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 2699,
@@ -520287,9 +520501,9 @@
       "title": "Metro Exodus: Complete Edition",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 7.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -520309,27 +520523,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628696771",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628696771",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2701,
       "title": "Minecraft Legends (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 28.0,
+      "cash_price": 11.0,
+      "exchange_price": 15.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -520347,18 +520566,23 @@
       "url": "https://it.webuy.com/product-detail/?id=196388152339",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "196388152339",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.67
     },
     {
       "id": 2702,
@@ -520408,8 +520632,8 @@
       "console": "Xbox CrossGen",
       "category": "Xbox",
       "current_price": 10.0,
-      "cash_price": 5.0,
-      "exchange_price": 6.0,
+      "cash_price": 4.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -520731,9 +520955,9 @@
       "title": "My Fantastic Ranch",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 8.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 6.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -520753,27 +520977,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962018035",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962018035",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 2711,
       "title": "My Little Pony: A Zephyr Heights Mystery",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 28.0,
+      "cash_price": 11.0,
+      "exchange_price": 15.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -520794,18 +521023,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5061005352766",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5061005352766",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.67
     },
     {
       "id": 2712,
@@ -521064,9 +521298,9 @@
       "title": "Persona 5 Tactica",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 4.0,
-      "exchange_price": 6.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -521086,27 +521320,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277051526",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277051526",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2719,
       "title": "Planet Coaster",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 8.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 6.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -521126,18 +521365,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208808509",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208808509",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 2720,
@@ -521503,9 +521747,9 @@
       "title": "Resident Evil: Village",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 4.0,
-      "exchange_price": 6.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -521522,18 +521766,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060974124",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055060974124",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2730,
@@ -521742,9 +521991,9 @@
       "title": "Scarlet Nexus",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 8.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 6.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -521764,18 +522013,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892013443",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892013443",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 2736,
@@ -521992,9 +522246,9 @@
       "title": "Sid Meier's Civilization VII",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 42.0,
-      "cash_price": 16.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -522015,27 +522269,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555369244",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555369244",
       "price_history_30d": [
+        {
+          "old_price": 42.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 42.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.52
     },
     {
       "id": 2741,
       "title": "Sniper Elite 5",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 20.0,
+      "cash_price": 8.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -522055,27 +522314,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208814012",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208814012",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2742,
       "title": "Sonic Frontiers",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 22.0,
+      "cash_price": 8.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -522094,18 +522358,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277048489",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277048489",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.0
     },
     {
       "id": 2743,
@@ -522196,9 +522465,9 @@
       "title": "Sonic x Shadow Generations",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 38.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 35.0,
+      "cash_price": 14.0,
+      "exchange_price": 19.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -522219,18 +522488,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277054374",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277054374",
       "price_history_30d": [
+        {
+          "old_price": 38.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 38.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -7.89
     },
     {
       "id": 2746,
@@ -522319,9 +522593,9 @@
       "title": "Star Ocean: The Divine Force",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 20.0,
-      "cash_price": 8.0,
-      "exchange_price": 11.0,
+      "current_price": 18.0,
+      "cash_price": 7.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -522342,18 +522616,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290094451",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290094451",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 2749,
@@ -522609,9 +522888,9 @@
       "title": "TT Isle Of Man: Ride On The Edge 3",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 7.0,
-      "exchange_price": 9.0,
+      "current_price": 15.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -522632,18 +522911,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962020274",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962020274",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2761,
@@ -522692,9 +522976,9 @@
       "title": "Tales of Arise",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 15.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 12.0,
+      "cash_price": 4.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -522714,18 +522998,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892006544",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892006544",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2756,
@@ -522773,9 +523062,9 @@
       "title": "TopSpin 2K25",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 15.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 12.0,
+      "cash_price": 4.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -522795,18 +523084,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555369008",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555369008",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:50"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2758,
@@ -522897,9 +523191,9 @@
       "title": "Under The Waves",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -522920,18 +523214,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3701403100850",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701403100850",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2763,
@@ -523143,9 +523442,9 @@
       "title": "Watch Dogs Legion (Senza DLC)",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 5.0,
+      "current_price": 6.0,
       "cash_price": 2.0,
-      "exchange_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -523163,27 +523462,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216135388",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216135388",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 2767,
       "title": "We Happy Few",
       "console": "Xbox CrossGen",
       "category": "Xbox",
-      "current_price": 10.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 15.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -523205,18 +523509,23 @@
       "url": "https://it.webuy.com/product-detail/?id=850942007212",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": "2026-11-06",
       "image_url": null,
       "box_id": "850942007212",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 2768,
@@ -524337,6 +524646,7 @@
       "collection_quantity": 2,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
@@ -528264,6 +528574,7 @@
       "collection_quantity": 1,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -553516,9 +553827,9 @@
       "title": "Agatha Christie - Murder on the Orient Express",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 35.0,
-      "cash_price": 14.0,
-      "exchange_price": 19.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -553539,27 +553850,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529508783",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529508783",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 2775,
       "title": "Agatha Christie: The ABC Murders",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -553580,27 +553896,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529505249",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529505249",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2776,
       "title": "Alan Wake ll: Deluxe Edition (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 48.0,
-      "cash_price": 24.0,
-      "exchange_price": 32.0,
+      "current_price": 42.0,
+      "cash_price": 21.0,
+      "exchange_price": 28.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -553620,18 +553941,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635609441",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635609441",
       "price_history_30d": [
+        {
+          "old_price": 48.0,
+          "new_price": 42.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 48.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 2777,
@@ -553677,9 +554003,9 @@
       "title": "Alters, The",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -553700,27 +554026,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5061078710579",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5061078710579",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 2779,
       "title": "Anno 1800",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -553741,18 +554072,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216262565",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216262565",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:23"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2780,
@@ -553800,9 +554136,9 @@
       "title": "Assassin's Creed Shadows (Senza DLC) 2 Discs",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 12,
       "collection_quantity": 12,
       "out_of_stock_stores": [
@@ -553816,27 +554152,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216294214",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216294214",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -14.29
     },
     {
       "id": 2782,
       "title": "Atlas Fallen",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -553855,27 +554196,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3512899959217",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3512899959217",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2783,
       "title": "Atomic Heart",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -553893,27 +554239,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3512899959491",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3512899959491",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 2784,
       "title": "Avatar: Frontiers of Pandora (Senza DLC) 2 Disc",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -553931,18 +554282,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216253983",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216253983",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2785,
@@ -553991,9 +554347,9 @@
       "title": "Banishers: Ghosts of New Eden",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -554012,18 +554368,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3512899967007",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3512899967007",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 2787,
@@ -554065,9 +554426,9 @@
       "title": "Battlefield 6 (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 28.0,
+      "cash_price": 7.0,
+      "exchange_price": 11.0,
       "ecom_quantity": 40,
       "collection_quantity": 40,
       "out_of_stock_stores": [
@@ -554081,18 +554442,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030943125404",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030943125404",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2789,
@@ -554183,8 +554549,8 @@
       "console": "Xbox Series",
       "category": "Xbox",
       "current_price": 50.0,
-      "cash_price": 29.0,
-      "exchange_price": 35.0,
+      "cash_price": 25.0,
+      "exchange_price": 33.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -554223,9 +554589,9 @@
       "title": "Borderlands 4 (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -554244,27 +554610,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555369619",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555369619",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -5.0
     },
     {
       "id": 2793,
       "title": "Call of Duty: Black Ops 6 (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 9,
       "collection_quantity": 9,
       "out_of_stock_stores": [
@@ -554281,18 +554652,23 @@
       "url": "https://it.webuy.com/product-detail/?id=196388433797",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "196388433797",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 2794,
@@ -554546,9 +554922,9 @@
       "title": "Crime Boss: Rockay City",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 10.0,
-      "cash_price": 5.0,
-      "exchange_price": 6.0,
+      "current_price": 8.0,
+      "cash_price": 4.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -554568,18 +554944,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8023171046679",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8023171046679",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2801,
@@ -554711,9 +555092,9 @@
       "title": "Dead Rising Deluxe Remaster",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 6.0,
-      "exchange_price": 10.0,
+      "current_price": 20.0,
+      "cash_price": 5.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 21,
       "collection_quantity": 21,
       "out_of_stock_stores": [
@@ -554728,27 +555109,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060955116",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055060955116",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2805,
       "title": "Dead Space",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -554768,27 +555154,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5035223124689",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5035223124689",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 2806,
       "title": "Destroy All Humans! 2 Reprobed",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 6.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -554808,18 +555199,23 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080077387",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080077387",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2807,
@@ -554867,9 +555263,9 @@
       "title": "Directive 8020 (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 48.0,
-      "cash_price": 24.0,
-      "exchange_price": 32.0,
+      "current_price": 42.0,
+      "cash_price": 21.0,
+      "exchange_price": 28.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -554889,27 +555285,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892037432",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892037432",
       "price_history_30d": [
+        {
+          "old_price": 48.0,
+          "new_price": 42.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 48.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 2809,
       "title": "Doom: The Dark Ages (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 32.0,
-      "cash_price": 16.0,
-      "exchange_price": 21.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -554930,18 +555331,23 @@
       "url": "https://it.webuy.com/product-detail/?id=196388561070",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "196388561070",
       "price_history_30d": [
+        {
+          "old_price": 32.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 32.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 9.38
     },
     {
       "id": 2810,
@@ -555066,8 +555472,8 @@
       "console": "Xbox Series",
       "category": "Xbox",
       "current_price": 65.0,
-      "cash_price": 37.0,
-      "exchange_price": 45.0,
+      "cash_price": 32.0,
+      "exchange_price": 43.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -555105,9 +555511,9 @@
       "title": "Elden Ring (Senza Erdtree DLC) 2 Disc",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -555127,27 +555533,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892031072",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892031072",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 2815,
       "title": "Everspace 2",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -555168,18 +555579,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5016488140355",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5016488140355",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.67
     },
     {
       "id": 2816,
@@ -555226,9 +555642,9 @@
       "title": "F1 25",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 38.0,
-      "cash_price": 19.0,
-      "exchange_price": 25.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -555248,18 +555664,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030944125380",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030944125380",
       "price_history_30d": [
+        {
+          "old_price": 38.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 38.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -7.89
     },
     {
       "id": 2819,
@@ -555371,9 +555792,9 @@
       "title": "Farming Simulator 25",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -555393,27 +555814,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4064635510538",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4064635510538",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 2822,
       "title": "First Berserker, The: Khazan",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -555433,18 +555859,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208825797",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208825797",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 2823,
@@ -555806,9 +556237,9 @@
       "title": "Gothic Remake",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 55.0,
-      "cash_price": 27.0,
-      "exchange_price": 36.0,
+      "current_price": 50.0,
+      "cash_price": 25.0,
+      "exchange_price": 33.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -555829,18 +556260,23 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080078643",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080078643",
       "price_history_30d": [
+        {
+          "old_price": 55.0,
+          "new_price": 50.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 55.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 2833,
@@ -555886,9 +556322,9 @@
       "title": "Greak: Memories of Azur",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.2,
+      "current_price": 10.0,
+      "cash_price": 1.6,
+      "exchange_price": 3.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -555908,18 +556344,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208811820",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208811820",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2835,
@@ -555968,9 +556409,9 @@
       "title": "Hell Is Us (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 50.0,
-      "cash_price": 25.0,
-      "exchange_price": 33.0,
+      "current_price": 45.0,
+      "cash_price": 22.0,
+      "exchange_price": 30.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -555990,18 +556431,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962033106",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962033106",
       "price_history_30d": [
+        {
+          "old_price": 50.0,
+          "new_price": 45.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 50.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 2837,
@@ -556208,9 +556654,9 @@
       "title": "Indiana Jones e l’Antico Cerchio",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -556231,18 +556677,23 @@
       "url": "https://it.webuy.com/product-detail/?id=196388434466",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "196388434466",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 2843,
@@ -556332,9 +556783,9 @@
       "title": "Jagged Alliance 3",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 8.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 6.0,
+      "cash_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -556355,27 +556806,32 @@
       "url": "https://it.webuy.com/product-detail/?id=9120131600946",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120131600946",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 2846,
       "title": "Judgment",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -556396,27 +556852,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277042500",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277042500",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2847,
       "title": "King Of Fighters XV (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -556437,27 +556898,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628675745",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628675745",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 2848,
       "title": "Kingdom Come Deliverance II (Senza DLC) 2 Disc",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -556476,18 +556942,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628578596",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628578596",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -5.0
     },
     {
       "id": 2849,
@@ -556570,9 +557041,9 @@
       "title": "Like a Dragon: Infinite Wealth",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -556593,18 +557064,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277052462",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277052462",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.71
     },
     {
       "id": 2852,
@@ -556650,9 +557126,9 @@
       "title": "MGS Delta: Snake Eater Deluxe Ed. w/Keychain, Cards & Steelbook(Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 80.0,
-      "cash_price": 40.0,
-      "exchange_price": 53.0,
+      "current_price": 75.0,
+      "cash_price": 37.0,
+      "exchange_price": 50.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -556673,18 +557149,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927114148",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927114148",
       "price_history_30d": [
+        {
+          "old_price": 80.0,
+          "new_price": 75.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 80.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.25
     },
     {
       "id": 13790,
@@ -556933,9 +557414,9 @@
       "title": "Metaphor: ReFantazio",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -556956,18 +557437,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277053957",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277053957",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.67
     },
     {
       "id": 2860,
@@ -557093,9 +557579,9 @@
       "title": "Mortal Kombat 1 (Senza DLC) 2 Disc",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -557113,18 +557599,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891193741",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891193741",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2864,
@@ -557169,9 +557660,9 @@
       "title": "MotoGP 25 (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -557192,18 +557683,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8056216170312",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8056216170312",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2866,
@@ -557487,9 +557983,9 @@
       "title": "One Piece: Odyssey",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 15.0,
-      "cash_price": 7.0,
-      "exchange_price": 10.0,
+      "current_price": 12.0,
+      "cash_price": 6.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -557508,18 +558004,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892022346",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892022346",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2874,
@@ -557527,8 +558028,8 @@
       "console": "Xbox Series",
       "category": "Xbox",
       "current_price": 70.0,
-      "cash_price": 40.0,
-      "exchange_price": 49.0,
+      "cash_price": 35.0,
+      "exchange_price": 46.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -557567,9 +558068,9 @@
       "title": "Outcast - A New Beginning",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 10,
       "collection_quantity": 10,
       "out_of_stock_stores": [
@@ -557584,27 +558085,32 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080077547",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080077547",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2876,
       "title": "Outer Worlds 2, The (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 60.0,
-      "cash_price": 30.0,
-      "exchange_price": 40.0,
+      "current_price": 55.0,
+      "cash_price": 27.0,
+      "exchange_price": 36.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -557625,18 +558131,23 @@
       "url": "https://it.webuy.com/product-detail/?id=196388599004",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "196388599004",
       "price_history_30d": [
+        {
+          "old_price": 60.0,
+          "new_price": 55.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 60.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -8.33
     },
     {
       "id": 13770,
@@ -557685,9 +558196,9 @@
       "title": "Overpass 2",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 6.0,
-      "cash_price": 3.0,
-      "exchange_price": 4.0,
+      "current_price": 5.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -557708,18 +558219,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962022735",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962022735",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2878,
@@ -557767,9 +558283,9 @@
       "title": "Payday 3 (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -557790,18 +558306,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628601690",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628601690",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2880,
@@ -557976,9 +558497,9 @@
       "title": "Precinct, The",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -557999,27 +558520,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529518782",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529518782",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 2885,
       "title": "Project Motor Racing",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 50.0,
-      "cash_price": 25.0,
-      "exchange_price": 33.0,
+      "current_price": 45.0,
+      "cash_price": 22.0,
+      "exchange_price": 30.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -558037,27 +558563,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4064635510637",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4064635510637",
       "price_history_30d": [
+        {
+          "old_price": 50.0,
+          "new_price": 45.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 50.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 2886,
       "title": "Quarry, The",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 15.0,
+      "cash_price": 7.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -558077,27 +558608,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555367035",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555367035",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2887,
       "title": "Quiet Place, A: The Road Ahead",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -558116,27 +558652,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635610904",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635610904",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 2888,
       "title": "Ready or Not (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 48.0,
-      "cash_price": 24.0,
-      "exchange_price": 32.0,
+      "current_price": 42.0,
+      "cash_price": 21.0,
+      "exchange_price": 28.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -558157,18 +558698,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635615633",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056635615633",
       "price_history_30d": [
+        {
+          "old_price": 48.0,
+          "new_price": 42.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 48.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 2889,
@@ -558214,9 +558760,9 @@
       "title": "Remnant II (2 Disc)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 18.0,
-      "cash_price": 9.0,
-      "exchange_price": 12.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -558236,27 +558782,32 @@
       "url": "https://it.webuy.com/product-detail/?id=9120080079886",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "9120080079886",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 2891,
       "title": "Rennsport",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 40.0,
-      "cash_price": 20.0,
-      "exchange_price": 26.0,
+      "current_price": 35.0,
+      "cash_price": 17.0,
+      "exchange_price": 23.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -558276,18 +558827,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962030792",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962030792",
       "price_history_30d": [
+        {
+          "old_price": 40.0,
+          "new_price": 35.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 40.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 2892,
@@ -558534,9 +559090,9 @@
       "title": "Robocop: Rogue City",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 28.0,
-      "cash_price": 14.0,
-      "exchange_price": 18.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -558555,18 +559111,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962020588",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962020588",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -21.43
     },
     {
       "id": 2899,
@@ -558613,9 +559174,9 @@
       "title": "Silent Hill F",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 60.0,
-      "cash_price": 30.0,
-      "exchange_price": 40.0,
+      "current_price": 55.0,
+      "cash_price": 27.0,
+      "exchange_price": 36.0,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -558633,18 +559194,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927114254",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927114254",
       "price_history_30d": [
+        {
+          "old_price": 60.0,
+          "new_price": 55.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 60.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -8.33
     },
     {
       "id": 2901,
@@ -558769,9 +559335,9 @@
       "title": "Split Fiction (2 Disc) Senza DLC",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 42.0,
-      "cash_price": 21.0,
-      "exchange_price": 28.0,
+      "current_price": 38.0,
+      "cash_price": 19.0,
+      "exchange_price": 25.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -558792,18 +559358,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030931125393",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030931125393",
       "price_history_30d": [
+        {
+          "old_price": 42.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 42.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.52
     },
     {
       "id": 2905,
@@ -558893,9 +559464,9 @@
       "title": "Star Wars Jedi: Survivor (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 12.0,
-      "cash_price": 6.0,
-      "exchange_price": 8.0,
+      "current_price": 10.0,
+      "cash_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -558915,27 +559486,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5035225124366",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5035225124366",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2908,
       "title": "Star Wars Outlaws (Senza DLC) 2 Disc",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -558954,18 +559530,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307216284772",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307216284772",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 2909,
@@ -559091,9 +559672,9 @@
       "title": "Suicide Squad: Kill The Justice League",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 8.0,
-      "cash_price": 4.0,
-      "exchange_price": 5.0,
+      "current_price": 6.0,
+      "cash_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 9,
       "collection_quantity": 9,
       "out_of_stock_stores": [
@@ -559112,18 +559693,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891190702",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891190702",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 2913,
@@ -559172,9 +559758,9 @@
       "title": "Syberia: The World Before Col. Ed. w/Statuetta, MusicBox, Portachiave,Book",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 95.0,
-      "cash_price": 47.0,
-      "exchange_price": 63.0,
+      "current_price": 90.0,
+      "cash_price": 45.0,
+      "exchange_price": 60.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -559193,18 +559779,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3701529501913",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3701529501913",
       "price_history_30d": [
+        {
+          "old_price": 95.0,
+          "new_price": 90.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 95.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -5.26
     },
     {
       "id": 2915,
@@ -559295,9 +559886,9 @@
       "title": "Tekken 8 (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 22.0,
+      "cash_price": 11.0,
+      "exchange_price": 14.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -559317,18 +559908,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892028935",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892028935",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 22.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.0
     },
     {
       "id": 2918,
@@ -559375,9 +559971,9 @@
       "title": "Test Drive Unlimited: Solar Crown",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 20.0,
-      "cash_price": 10.0,
-      "exchange_price": 13.0,
+      "current_price": 18.0,
+      "cash_price": 9.0,
+      "exchange_price": 12.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -559398,18 +559994,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962025842",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962025842",
       "price_history_30d": [
+        {
+          "old_price": 20.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 20.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -10.0
     },
     {
       "id": 2920,
@@ -559540,9 +560141,9 @@
       "title": "Tony Hawk's Pro Skater 3+4",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 25.0,
+      "cash_price": 12.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -559561,18 +560162,23 @@
       "url": "https://it.webuy.com/product-detail/?id=196388567645",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "196388567645",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2924,
@@ -559702,9 +560308,9 @@
       "title": "Trepang2",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 10.0,
-      "cash_price": 5.0,
-      "exchange_price": 6.0,
+      "current_price": 8.0,
+      "cash_price": 4.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -559725,18 +560331,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208822758",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208822758",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2928,
@@ -559785,9 +560396,9 @@
       "title": "Undisputed",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 22.0,
-      "cash_price": 11.0,
-      "exchange_price": 14.0,
+      "current_price": 20.0,
+      "cash_price": 10.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -559807,27 +560418,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628586119",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4020628586119",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -9.09
     },
     {
       "id": 2930,
       "title": "Vampire: The Masquerade - Bloodlines 2",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 25.0,
-      "cash_price": 12.0,
-      "exchange_price": 16.0,
+      "current_price": 30.0,
+      "cash_price": 15.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -559849,27 +560465,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4020628556679",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": "2026-11-16",
       "image_url": null,
       "box_id": "4020628556679",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 2931,
       "title": "Vampire: The Masquerade - Swansong",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 5.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 4.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.6,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -559890,18 +560511,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962012217",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962012217",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2932,
@@ -560115,9 +560741,9 @@
       "title": "WWE 2K26 (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 60.0,
-      "cash_price": 30.0,
-      "exchange_price": 40.0,
+      "current_price": 50.0,
+      "cash_price": 13.0,
+      "exchange_price": 20.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -560134,27 +560760,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555369992",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555369992",
       "price_history_30d": [
+        {
+          "old_price": 60.0,
+          "new_price": 50.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 60.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 2933,
       "title": "Warhammer 40,000: Darktide",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 15.0,
+      "current_price": 12.0,
       "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -560175,18 +560806,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5056208817143",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5056208817143",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2934,
@@ -560235,9 +560871,9 @@
       "title": "Warhammer 40k: Space Marine II (Senza DLC)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 35.0,
-      "cash_price": 17.0,
-      "exchange_price": 23.0,
+      "current_price": 32.0,
+      "cash_price": 16.0,
+      "exchange_price": 21.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -560258,18 +560894,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3512899968141",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3512899968141",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 32.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -8.57
     },
     {
       "id": 2936,
@@ -560360,9 +561001,9 @@
       "title": "Werewolf: The Apocalypse - Earthblood",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 5.0,
-      "cash_price": 1.3,
-      "exchange_price": 2.0,
+      "current_price": 4.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.6,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -560382,18 +561023,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3665962004168",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3665962004168",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 2939,
@@ -560438,9 +561084,9 @@
       "title": "Witcher 3: Wild Hunt Complete Edition (2 Disc)",
       "console": "Xbox Series",
       "category": "Xbox",
-      "current_price": 30.0,
-      "cash_price": 15.0,
-      "exchange_price": 20.0,
+      "current_price": 28.0,
+      "cash_price": 14.0,
+      "exchange_price": 18.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -560458,18 +561104,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391892015577",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-18",
-      "last_price_change": null,
+      "last_price_change": "2026-11-18",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391892015577",
       "price_history_30d": [
+        {
+          "old_price": 30.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-18 05:43:24"
+        },
         {
           "old_price": null,
           "new_price": 30.0,
           "changed_at": "2026-11-04 13:57:51"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -6.67
     },
     {
       "id": 2942,
