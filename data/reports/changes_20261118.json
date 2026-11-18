@@ -1,18 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-11-18T05:44:26.855710",
+    "generated_at": "2026-11-18T15:20:40.779361",
     "date": "2026-11-18",
-    "duration_sec": 166.2,
-    "total_scraped": 27596
+    "duration_sec": 160.8,
+    "total_scraped": 41395
   },
   "summary": {
-    "new_games": 0,
-    "price_changes": 129,
-    "availability_changes": 1,
-    "unchanged": 27466,
+    "new_games": 1,
+    "price_changes": 130,
+    "availability_changes": 35,
+    "unchanged": 41229,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13800,
+      "title": "Two Point Campus",
+      "console": "Xbox CrossGen",
+      "price": 5
+    }
+  ],
   "price_changes": [
     {
       "game_id": 2594,
@@ -1045,6 +1052,14 @@
       "new_price": 50,
       "old_price": 60.0,
       "variation_pct": -16.67
+    },
+    {
+      "game_id": 13783,
+      "title": "Play it Pinball",
+      "console": "PS2",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
     }
   ],
   "availability_changes": [
@@ -1052,6 +1067,244 @@
       "game_id": 11256,
       "title": "Spongebob Truth Or Square",
       "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 218,
+      "title": "Hobbit, Lo",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 963,
+      "title": "Lego Il Signore Degli Anelli",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1995,
+      "title": "Diablo III: Eternal Collection (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2011,
+      "title": "Divinity: Original Sin II",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2173,
+      "title": "LEGO Harry Potter Collection",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2174,
+      "title": "Lego Hobbit",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2551,
+      "title": "Witcher 3: Wild Hunt",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2675,
+      "title": "Halo: Master Chief Collection",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2842,
+      "title": "Indiana Jones e l’Antico Cerchio",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3947,
+      "title": "18 Wheeler",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3927,
+      "title": "Total Immersion Racing",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4050,
+      "title": "Buzz: Il Quizzone Nazionale",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3438,
+      "title": "Lego Batman",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5257,
+      "title": "Lego Batman 2 (No Toy)",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5935,
+      "title": "Monster Madness: Grave Danger",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5955,
+      "title": "Neverdead",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6095,
+      "title": "Valkyria Chronicles",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6654,
+      "title": "Uefa Euro 2008",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8078,
+      "title": "Monster Jam Steel Titans",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7388,
+      "title": "Outward",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7913,
+      "title": "EA Sports FC 27",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8594,
+      "title": "Double Dragon Gaiden: Rise Of The Dragons",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9244,
+      "title": "Winter Games 2023",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9902,
+      "title": "Madden NFL 09 All Play",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9947,
+      "title": "Mostri Contro Alieni",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10156,
+      "title": "Star Trek Conquest",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10604,
+      "title": "Batman Arkham Origins",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10891,
+      "title": "Fashion Designer Alta Moda",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11605,
+      "title": "Junior Brain Trainer",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10959,
+      "title": "Hello Kitty: Big City Dreams",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11232,
+      "title": "Sim City DS",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11953,
+      "title": "Trilli E Il Tesoro Perduto",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12368,
+      "title": "Teenage Mutant Ninja Turtles: Movie (2014)",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12719,
+      "title": "Looney Tunes: Wacky World of Sports",
+      "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
