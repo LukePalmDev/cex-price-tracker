@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-19T15:27:24.954301",
+    "generated_at": "2026-11-19T19:57:48.968465",
     "date": "2026-11-19",
-    "duration_sec": 159.7,
-    "total_scraped": 41397
+    "duration_sec": 169.9,
+    "total_scraped": 55196
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 149,
-    "availability_changes": 26,
-    "unchanged": 41222,
+    "price_changes": 150,
+    "availability_changes": 38,
+    "unchanged": 55008,
     "errors": 0
   },
   "new_games": [],
@@ -1205,6 +1205,14 @@
       "new_price": 10,
       "old_price": 8.0,
       "variation_pct": 25.0
+    },
+    {
+      "game_id": 13793,
+      "title": "Planet 51",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
     }
   ],
   "availability_changes": [
@@ -1386,6 +1394,90 @@
     {
       "game_id": 13338,
       "title": "Little Dragons Cafe",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1622,
+      "title": "Madagascar 2 Escape 2 Africa",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1713,
+      "title": "Resonance of Fate",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2842,
+      "title": "Indiana Jones e l’Antico Cerchio",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4485,
+      "title": "NBA Street",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3107,
+      "title": "Crash Bandicoot Action Pack",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5993,
+      "title": "Ratatuille",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6668,
+      "title": "Virtua Tennis 3",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7202,
+      "title": "LEGO Hobbit",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8104,
+      "title": "Nickelodeon: Kart Racers",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13020,
+      "title": "Trials of Mana",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13077,
+      "title": "13 Sentinels - Aegis Rim",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13278,
+      "title": "Hades",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
