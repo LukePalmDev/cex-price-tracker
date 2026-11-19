@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "exported_at": "2026-11-19T00:09:10.970777",
+    "exported_at": "2026-11-19T05:43:15.972818",
     "total_games": 13800,
-    "version": "20261119_000910",
+    "version": "20261119_054315",
     "statistics": {
       "total_games": 13800,
       "available_games": 8109,
@@ -29,9 +29,9 @@
       "last_update": "2026-11-19",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 0,
+        "price_changes": 149,
         "availability_changes": 9,
-        "unchanged": 13790,
+        "unchanged": 27440,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-11-19",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 0,
+      "price_changes": 149,
       "availability_changes": 9,
-      "unchanged": 13790,
+      "unchanged": 27440,
       "errors": 0
     }
   },
@@ -258999,7 +258999,8 @@
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
-        "Milano Viale Tunisia"
+        "Milano Viale Tunisia",
+        "Gran Roma"
       ],
       "is_available": 1,
       "condition": null,
@@ -319250,9 +319251,9 @@
       "title": "ATV Offroad Fury Pro",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.5,
-      "cash_price": 0.2,
-      "exchange_price": 0.4,
+      "current_price": 1.0,
+      "cash_price": 0.1,
+      "exchange_price": 0.3,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -319270,18 +319271,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719191087",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719191087",
       "price_history_30d": [
+        {
+          "old_price": 1.5,
+          "new_price": 1.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 1.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -33.33
     },
     {
       "id": 6152,
@@ -319370,9 +319376,9 @@
       "title": "Ace Combat X: Skies of Deception",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.5,
-      "cash_price": 0.7,
-      "exchange_price": 1.2,
+      "current_price": 3.0,
+      "cash_price": 0.6,
+      "exchange_price": 1.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -319389,18 +319395,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719101987",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719101987",
       "price_history_30d": [
+        {
+          "old_price": 3.5,
+          "new_price": 3.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -14.29
     },
     {
       "id": 6134,
@@ -319532,9 +319543,9 @@
       "title": "Alien Syndrome",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -319556,27 +319567,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060138431560",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060138431560",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6138,
       "title": "Alien vs Predator Requiem",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
-      "exchange_price": 2.0,
+      "current_price": 10.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -319597,27 +319613,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3348542213067",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3348542213067",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6139,
       "title": "Ape Academy",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.0,
-      "cash_price": 0.1,
-      "exchange_price": 0.3,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -319639,27 +319660,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719198475",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-15",
       "image_url": null,
       "box_id": "711719198475",
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 1.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 6140,
       "title": "Ape Academy 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.5,
-      "cash_price": 0.7,
-      "exchange_price": 1.2,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -319681,18 +319707,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719640479",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-16",
       "image_url": null,
       "box_id": "711719640479",
       "price_history_30d": [
+        {
+          "old_price": 3.5,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 14.29
     },
     {
       "id": 6141,
@@ -319737,9 +319768,9 @@
       "title": "Archer Maclean's Mercury",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.5,
-      "cash_price": 0.7,
-      "exchange_price": 1.2,
+      "current_price": 3.0,
+      "cash_price": 0.6,
+      "exchange_price": 1.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -319756,18 +319787,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060050942410",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060050942410",
       "price_history_30d": [
+        {
+          "old_price": 3.5,
+          "new_price": 3.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -14.29
     },
     {
       "id": 6143,
@@ -319899,9 +319935,9 @@
       "title": "Assassin's Creed Bloodlines",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
-      "exchange_price": 2.0,
+      "current_price": 10.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -319917,18 +319953,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307211667686",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307211667686",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6147,
@@ -320262,9 +320303,9 @@
       "title": "Beaterator",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.0,
-      "cash_price": 0.3,
-      "exchange_price": 0.6,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -320283,18 +320324,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555281409",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555281409",
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 2.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6158,
@@ -320342,9 +320388,9 @@
       "title": "Ben 10 Ultimate Alien Cosmic Destruction",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 12,
       "collection_quantity": 12,
       "out_of_stock_stores": [
@@ -320362,18 +320408,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060125485712",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060125485712",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6160,
@@ -320832,9 +320883,9 @@
       "title": "Brothers In Arms D- Day",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -320856,18 +320907,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307211649651",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-12",
       "image_url": null,
       "box_id": "3307211649651",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 16.67
     },
     {
       "id": 6172,
@@ -321034,9 +321090,9 @@
       "title": "Buzz! Gran Quiz",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.0,
-      "cash_price": 0.1,
-      "exchange_price": 0.3,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -321056,27 +321112,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719134572",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719134572",
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 1.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 6177,
       "title": "Buzz! Ingegna Mente",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 0.5,
-      "cash_price": 0.01,
-      "exchange_price": 0.1,
+      "current_price": 1.0,
+      "cash_price": 0.1,
+      "exchange_price": 0.3,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -321098,18 +321159,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719780854",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-09",
       "image_url": null,
       "box_id": "711719780854",
       "price_history_30d": [
+        {
+          "old_price": 0.5,
+          "new_price": 1.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 0.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 100.0
     },
     {
       "id": 6178,
@@ -321157,9 +321223,9 @@
       "title": "Buzz: Il Quizzone Nazionale",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 6.0,
+      "cash_price": 1.2,
+      "exchange_price": 2.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -321180,18 +321246,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719137641",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719137641",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6193,
@@ -321402,9 +321473,9 @@
       "title": "Capcom Puzzle World",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
-      "exchange_price": 2.0,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -321424,18 +321495,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060910856",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055060910856",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6185,
@@ -321559,9 +321635,9 @@
       "title": "Castlevania: The Dracula X Chronicles",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 45.0,
+      "current_price": 48.0,
       "cash_price": 9.0,
-      "exchange_price": 15.0,
+      "exchange_price": 16.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -321583,18 +321659,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927062708",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927062708",
       "price_history_30d": [
+        {
+          "old_price": 45.0,
+          "new_price": 48.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 45.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 6.67
     },
     {
       "id": 6189,
@@ -321844,9 +321925,9 @@
       "title": "Colin McRae Rally 2005 Plus",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -321868,18 +321949,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5024866328417",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-14",
       "image_url": null,
       "box_id": "5024866328417",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6197,
@@ -321928,9 +322014,9 @@
       "title": "Cover Girl - Il Tuo Mondo In Una Rivista",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.0,
+      "current_price": 0.75,
       "cash_price": 0.1,
-      "exchange_price": 0.3,
+      "exchange_price": 0.2,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -321950,18 +322036,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307211685970",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307211685970",
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 0.75,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 1.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6199,
@@ -322005,9 +322096,9 @@
       "title": "Crash Tag Team Racing",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -322025,18 +322116,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3348542200319",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3348542200319",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6200,
@@ -322081,9 +322177,9 @@
       "title": "Crazy Taxi Fare Wars",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -322105,18 +322201,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060138431836",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060138431836",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 16.67
     },
     {
       "id": 6203,
@@ -322165,9 +322266,9 @@
       "title": "Dante's Inferno",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 25.0,
+      "current_price": 28.0,
       "cash_price": 5.0,
-      "exchange_price": 8.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -322186,18 +322287,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947078171",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947078171",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 6205,
@@ -322246,9 +322352,9 @@
       "title": "Dave Mirra BMX Challenge",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.5,
-      "cash_price": 0.7,
-      "exchange_price": 1.2,
+      "current_price": 3.0,
+      "cash_price": 0.6,
+      "exchange_price": 1.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -322266,27 +322372,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060015536296",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060015536296",
       "price_history_30d": [
+        {
+          "old_price": 3.5,
+          "new_price": 3.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -14.29
     },
     {
       "id": 6207,
       "title": "Daxter",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -322301,18 +322412,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719653981",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719653981",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6208,
@@ -322739,9 +322855,9 @@
       "title": "Dissidia 012 [Duodecim] Final Fantasy",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
+      "current_price": 18.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -322762,27 +322878,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290047143",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290047143",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6219,
       "title": "Dissidia: Final Fantasy",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
+      "current_price": 18.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -322803,27 +322924,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060121825581",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060121825581",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6220,
       "title": "Dissidia: Final Fantasy- Special Edition w/2xPostcard, Artbook, OST, Guide",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 28.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 30.0,
+      "cash_price": 6.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -322845,27 +322971,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060121825819",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060121825819",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 6221,
       "title": "Dragon Ball Evolution",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -322883,18 +323014,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3296580807321",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3296580807321",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6222,
@@ -322979,9 +323115,9 @@
       "title": "Dragon Ball Z: Tenkaichi Tag Team",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 15.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -323003,27 +323139,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3700577001284",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3700577001284",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 19:20:54"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6224,
       "title": "Dragonball Z Shin Budokai 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
-      "exchange_price": 2.0,
+      "current_price": 10.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 11,
       "collection_quantity": 11,
       "out_of_stock_stores": [
@@ -323040,18 +323181,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891955621",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891955621",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6225,
@@ -323142,8 +323288,8 @@
       "title": "Driver 76",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
+      "current_price": 6.0,
+      "cash_price": 1.2,
       "exchange_price": 2.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
@@ -323162,18 +323308,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307215621929",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307215621929",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6228,
@@ -323473,9 +323624,9 @@
       "title": "Eragon",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 2.5,
+      "cash_price": 0.4,
+      "exchange_price": 0.8,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -323494,18 +323645,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3348542202603",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3348542202603",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 2.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6236,
@@ -323592,9 +323748,9 @@
       "title": "Everybody'S Golf 2 (Essentials)",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.0,
-      "cash_price": 0.3,
-      "exchange_price": 0.6,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -323613,27 +323769,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719985853",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719985853",
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 2.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6239,
       "title": "Everybody's Tennis",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -323650,18 +323811,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719114673",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719114673",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6240,
@@ -323914,8 +324080,8 @@
       "title": "F1 Grand Prix",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
+      "current_price": 6.0,
+      "cash_price": 1.2,
       "exchange_price": 2.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
@@ -323934,27 +324100,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719686255",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719686255",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6252,
       "title": "FIFA 07",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.5,
-      "cash_price": 0.4,
-      "exchange_price": 0.8,
+      "current_price": 3.0,
+      "cash_price": 0.6,
+      "exchange_price": 1.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -323973,27 +324144,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030930051433",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030930051433",
       "price_history_30d": [
+        {
+          "old_price": 2.5,
+          "new_price": 3.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 2.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6253,
       "title": "FIFA 08",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.0,
-      "cash_price": 0.1,
-      "exchange_price": 0.3,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -324013,27 +324189,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030930059170",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030930059170",
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 1.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 6255,
       "title": "FIFA 10",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 0.5,
-      "cash_price": 0.01,
-      "exchange_price": 0.1,
+      "current_price": 1.0,
+      "cash_price": 0.1,
+      "exchange_price": 0.3,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -324055,27 +324236,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947088941",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-19",
       "image_url": null,
       "box_id": "5030947088941",
       "price_history_30d": [
+        {
+          "old_price": 0.5,
+          "new_price": 1.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 0.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 100.0
     },
     {
       "id": 6260,
       "title": "FIFA 2010 Mondiali Sudafrica",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.0,
-      "cash_price": 0.1,
-      "exchange_price": 0.3,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -324097,18 +324283,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947086787",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-11",
       "image_url": null,
       "box_id": "5030947086787",
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 1.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 6261,
@@ -324319,9 +324510,9 @@
       "title": "Fifa 06",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 0.75,
+      "current_price": 1.0,
       "cash_price": 0.1,
-      "exchange_price": 0.2,
+      "exchange_price": 0.3,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -324343,27 +324534,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947047191",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-13",
       "image_url": null,
       "box_id": "5030947047191",
       "price_history_30d": [
+        {
+          "old_price": 0.75,
+          "new_price": 1.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 0.75,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6254,
       "title": "Fifa 09",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 0.75,
+      "current_price": 1.0,
       "cash_price": 0.1,
-      "exchange_price": 0.2,
+      "exchange_price": 0.3,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -324384,18 +324580,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947074364",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947074364",
       "price_history_30d": [
+        {
+          "old_price": 0.75,
+          "new_price": 1.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 0.75,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6256,
@@ -324479,9 +324680,9 @@
       "title": "Fifa 13",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -324500,27 +324701,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947109882",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947109882",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6259,
       "title": "Fifa 14",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -324538,18 +324744,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030945111405",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030945111405",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6262,
@@ -324680,9 +324891,9 @@
       "title": "Final Fantasy II (2)",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 20.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -324704,18 +324915,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290050105",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290050105",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 6266,
@@ -324764,9 +324980,9 @@
       "title": "Final Fantasy Tactics",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 28.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 30.0,
+      "cash_price": 6.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -324788,18 +325004,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060121822078",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060121822078",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 6268,
@@ -324848,9 +325069,9 @@
       "title": "Final Fantasy VII: Crisis Core",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 22.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 25.0,
+      "cash_price": 5.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -324868,27 +325089,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060121822795",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060121822795",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 6270,
       "title": "Fired Up",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -324906,18 +325132,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719680758",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719680758",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6271,
@@ -325381,9 +325612,9 @@
       "title": "Formula 1 2009",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 1.6,
+      "exchange_price": 2.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -325403,27 +325634,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5024866342185",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5024866342185",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6283,
       "title": "Formula One 06",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
-      "exchange_price": 2.0,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -325443,18 +325679,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719658283",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719658283",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6284,
@@ -325875,9 +326116,9 @@
       "title": "Geronimo Stilton",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.5,
-      "cash_price": 0.2,
-      "exchange_price": 0.4,
+      "current_price": 1.0,
+      "cash_price": 0.1,
+      "exchange_price": 0.3,
       "ecom_quantity": 10,
       "collection_quantity": 10,
       "out_of_stock_stores": [
@@ -325892,27 +326133,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719195092",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719195092",
       "price_history_30d": [
+        {
+          "old_price": 1.5,
+          "new_price": 1.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 1.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -33.33
     },
     {
       "id": 6295,
       "title": "Geronimo Stilton 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.0,
-      "cash_price": 0.3,
-      "exchange_price": 0.6,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -325931,18 +326177,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719267331",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719267331",
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 2.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6297,
@@ -326156,9 +326407,9 @@
       "title": "Go Sudoku",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.0,
-      "cash_price": 0.1,
-      "exchange_price": 0.3,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -326176,18 +326427,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719621461",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719621461",
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 1.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 6302,
@@ -326236,9 +326492,9 @@
       "title": "God of War - Ghost of Sparta",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 25.0,
+      "current_price": 28.0,
       "cash_price": 5.0,
-      "exchange_price": 8.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -326260,27 +326516,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719168072",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-10",
       "image_url": null,
       "box_id": "711719168072",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 6304,
       "title": "God of War: Chains of Olympus",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
+      "current_price": 18.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -326298,18 +326559,23 @@
       "url": "https://it.webuy.com/product-detail/?id=7117192545515",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "7117192545515",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6305,
@@ -326433,9 +326699,9 @@
       "title": "Grand Theft Auto - Liberty City Stories",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -326451,18 +326717,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555280136",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555280136",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6309,
@@ -326627,9 +326898,9 @@
       "title": "Gripshift",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.5,
-      "cash_price": 0.4,
-      "exchange_price": 0.8,
+      "current_price": 3.0,
+      "cash_price": 0.6,
+      "exchange_price": 1.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -326650,18 +326921,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307210207647",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-09",
       "image_url": null,
       "box_id": "3307210207647",
       "price_history_30d": [
+        {
+          "old_price": 2.5,
+          "new_price": 3.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 2.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6314,
@@ -326877,9 +327153,9 @@
       "title": "Hannah Montana - Vivi Lo Show",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 2.5,
+      "cash_price": 0.5,
+      "exchange_price": 0.8,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -326899,27 +327175,32 @@
       "url": "https://it.webuy.com/product-detail/?id=8717418228064",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8717418228064",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 2.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6321,
       "title": "Harry Potter E Il Principe Mezzosangue",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
-      "exchange_price": 2.0,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -326938,18 +327219,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947082567",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947082567",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6320,
@@ -326992,9 +327278,9 @@
       "title": "Harry Potter e l'Ordine della Fenice",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -327012,18 +327298,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947064181",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947064181",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6323,
@@ -327114,9 +327405,9 @@
       "title": "Hello Kitty: Puzzle Party",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.5,
-      "cash_price": 0.7,
-      "exchange_price": 1.2,
+      "current_price": 3.0,
+      "cash_price": 0.6,
+      "exchange_price": 1.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -327135,27 +327426,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307217931583",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307217931583",
       "price_history_30d": [
+        {
+          "old_price": 3.5,
+          "new_price": 3.0,
+          "changed_at": "2026-11-19 05:42:32"
+        },
         {
           "old_price": null,
           "new_price": 3.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -14.29
     },
     {
       "id": 6326,
       "title": "Hot Brain",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -327176,18 +327472,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5037930120374",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5037930120374",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6327,
@@ -327686,9 +327987,9 @@
       "title": "Invizimals: Le Tribu Scomparse",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 0.5,
-      "cash_price": 0.01,
-      "exchange_price": 0.1,
+      "current_price": 1.0,
+      "cash_price": 0.1,
+      "exchange_price": 0.3,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -327707,18 +328008,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719205715",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719205715",
       "price_history_30d": [
+        {
+          "old_price": 0.5,
+          "new_price": 1.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 0.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 100.0
     },
     {
       "id": 6340,
@@ -327767,9 +328073,9 @@
       "title": "Iron Man",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.5,
-      "cash_price": 0.7,
-      "exchange_price": 1.2,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -327791,27 +328097,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060138437401",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-15",
       "image_url": null,
       "box_id": "5060138437401",
       "price_history_30d": [
+        {
+          "old_price": 3.5,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 3.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 14.29
     },
     {
       "id": 6342,
       "title": "Iron Man 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 6.0,
+      "cash_price": 1.2,
+      "exchange_price": 2.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -327833,18 +328144,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277016105",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277016105",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6343,
@@ -327893,9 +328209,9 @@
       "title": "Jak & Daxter Sfida Senza Confini",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -327913,27 +328229,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719155157",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719155157",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6345,
       "title": "Juiced 2 Hot Import Nights",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -327955,18 +328276,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209095860",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-05",
       "image_url": null,
       "box_id": "4005209095860",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6346,
@@ -328430,9 +328756,9 @@
       "title": "Kingdom Hearts Birth By Sleep",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 28.0,
-      "cash_price": 5.0,
-      "exchange_price": 9.0,
+      "current_price": 30.0,
+      "cash_price": 6.0,
+      "exchange_price": 10.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -328454,18 +328780,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290041561",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290041561",
       "price_history_30d": [
+        {
+          "old_price": 28.0,
+          "new_price": 30.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 28.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 7.14
     },
     {
       "id": 6358,
@@ -328763,9 +329094,9 @@
       "title": "Lego Batman",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 1.6,
+      "exchange_price": 2.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -328783,18 +329114,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5051891025714",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5051891025714",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6365,
@@ -329044,9 +329380,9 @@
       "title": "Lego Star Wars III: La Guerra Dei Cloni",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
-      "exchange_price": 2.0,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -329065,18 +329401,23 @@
       "url": "https://it.webuy.com/product-detail/?id=023272009694",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "023272009694",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6373,
@@ -329121,9 +329462,9 @@
       "title": "Little Big Planet",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 14,
       "collection_quantity": 14,
       "out_of_stock_stores": [
@@ -329139,18 +329480,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719180753",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719180753",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6375,
@@ -329196,9 +329542,9 @@
       "title": "Loco Roco 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 1.6,
+      "exchange_price": 2.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -329217,18 +329563,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719775256",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719775256",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6377,
@@ -329318,9 +329669,9 @@
       "title": "Lumines 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -329339,18 +329690,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8717418107154",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8717418107154",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6380,
@@ -329644,9 +330000,9 @@
       "title": "MX vs ATV: Reflex",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -329665,18 +330021,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209127400",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4005209127400",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6383,
@@ -330098,8 +330459,8 @@
       "title": "Me And My Katamari",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
+      "current_price": 8.0,
+      "cash_price": 1.6,
       "exchange_price": 2.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
@@ -330122,27 +330483,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030935050356",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030935050356",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6394,
       "title": "Medal Of Honor - Heroes 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 17,
       "collection_quantity": 17,
       "out_of_stock_stores": [
@@ -330158,18 +330524,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947066789",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947066789",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6395,
@@ -330216,9 +330587,9 @@
       "title": "Medievil: Resurrection",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 17,
       "collection_quantity": 17,
       "out_of_stock_stores": [
@@ -330234,18 +330605,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719128274",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719128274",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6397,
@@ -330419,9 +330795,9 @@
       "title": "Mercury Meltdown",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -330440,27 +330816,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060050944322",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060050944322",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6402,
       "title": "Metal Gear Ac!D",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 15.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -330482,18 +330863,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927060063",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927060063",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6403,
@@ -330542,9 +330928,9 @@
       "title": "Metal Gear Acid 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
+      "current_price": 18.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -330566,18 +330952,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927060810",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927060810",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6405,
@@ -330626,9 +331017,9 @@
       "title": "Metal Gear Solid Digital Graphic Novel",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 22.0,
-      "cash_price": 4.0,
-      "exchange_price": 7.0,
+      "current_price": 25.0,
+      "cash_price": 5.0,
+      "exchange_price": 8.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -330650,27 +331041,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927061558",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927061558",
       "price_history_30d": [
+        {
+          "old_price": 22.0,
+          "new_price": 25.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 22.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 13.64
     },
     {
       "id": 6407,
       "title": "Metal Gear Solid Peace Walker",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 35.0,
+      "current_price": 38.0,
       "cash_price": 7.0,
-      "exchange_price": 12.0,
+      "exchange_price": 13.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -330692,18 +331088,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927064498",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-07",
       "image_url": null,
       "box_id": "4012927064498",
       "price_history_30d": [
+        {
+          "old_price": 35.0,
+          "new_price": 38.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 35.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 8.57
     },
     {
       "id": 6408,
@@ -331043,9 +331444,9 @@
       "title": "Midnight Club 3 Dub Edition",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
+      "current_price": 18.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -331066,27 +331467,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555280006",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555280006",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6417,
       "title": "Midnight Club: LA Remix",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -331106,18 +331512,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555282512",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-05",
       "image_url": null,
       "box_id": "5026555282512",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6418,
@@ -331208,9 +331619,9 @@
       "title": "Mind Quiz",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.0,
-      "cash_price": 0.3,
-      "exchange_price": 0.6,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -331228,18 +331639,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307210248992",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307210248992",
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 2.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6421,
@@ -331288,9 +331704,9 @@
       "title": "Modnation Racers",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 2.5,
+      "cash_price": 0.4,
+      "exchange_price": 0.8,
       "ecom_quantity": 11,
       "collection_quantity": 11,
       "out_of_stock_stores": [
@@ -331308,18 +331724,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719139867",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719139867",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 2.5,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6423,
@@ -331406,9 +331827,9 @@
       "title": "Monster Hunter - Freedom",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 25.0,
+      "current_price": 28.0,
       "cash_price": 5.0,
-      "exchange_price": 8.0,
+      "exchange_price": 9.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -331430,27 +331851,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060910399",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-12",
       "image_url": null,
       "box_id": "5055060910399",
       "price_history_30d": [
+        {
+          "old_price": 25.0,
+          "new_price": 28.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 25.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 12.0
     },
     {
       "id": 6426,
       "title": "Monster Hunter - Freedom Unite",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 20.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -331472,18 +331898,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055060911044",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-16",
       "image_url": null,
       "box_id": "5055060911044",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 6427,
@@ -331572,9 +332003,9 @@
       "title": "Mortal Kombat Unchained",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
+      "current_price": 18.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -331596,18 +332027,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5037930120145",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5037930120145",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6430,
@@ -331656,9 +332092,9 @@
       "title": "Moto GP",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -331674,27 +332110,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719619987",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719619987",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6432,
       "title": "Motorstorm Arctic Edge",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -331712,18 +332153,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719100874",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719100874",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6438,
@@ -331855,9 +332301,9 @@
       "title": "NBA 2K10",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.0,
-      "cash_price": 0.1,
-      "exchange_price": 0.3,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -331878,27 +332324,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555282420",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555282420",
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 1.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 6450,
       "title": "NBA 2K12",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -331920,18 +332371,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555282994",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555282994",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 16.67
     },
     {
       "id": 6451,
@@ -332392,8 +332848,8 @@
       "title": "Namco Museum: Battle Collection",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
+      "current_price": 6.0,
+      "cash_price": 1.2,
       "exchange_price": 2.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
@@ -332413,27 +332869,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719189886",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719189886",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6442,
       "title": "Naruto - Ultimate Ninja Heroes",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 1.6,
+      "exchange_price": 2.0,
       "ecom_quantity": 13,
       "collection_quantity": 13,
       "out_of_stock_stores": [
@@ -332448,18 +332909,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3296580806645",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3296580806645",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6443,
@@ -332506,9 +332972,9 @@
       "title": "Naruto Shippuden Ultimate Ninja Heroes 3",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 1.6,
+      "exchange_price": 2.0,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -332525,18 +332991,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3391891961271",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3391891961271",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6445,
@@ -332937,9 +333408,9 @@
       "title": "Need for Speed: Carbon Own the City",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
+      "current_price": 18.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -332960,18 +333431,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030930102630",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030930102630",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6469,
@@ -333556,9 +334032,9 @@
       "title": "Patapon 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -333578,18 +334054,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719133278",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719133278",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6483,
@@ -333679,9 +334160,9 @@
       "title": "Petz - My Baby Hamster",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.0,
-      "cash_price": 0.3,
-      "exchange_price": 0.6,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -333700,27 +334181,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307211658660",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307211658660",
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 2.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6486,
       "title": "Petz - My Puppy Family Dogz",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -333739,18 +334225,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307211616271",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307211616271",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6487,
@@ -333963,9 +334454,9 @@
       "title": "Piovono Polpette",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -333986,18 +334477,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307217926886",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307217926886",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6493,
@@ -334130,8 +334626,8 @@
       "title": "Pirati Dei Caraibi Ai Confini Del Mondo",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
+      "current_price": 6.0,
+      "cash_price": 1.2,
       "exchange_price": 2.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
@@ -334151,18 +334647,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8717418144654",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8717418144654",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:33"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6497,
@@ -334700,9 +335201,9 @@
       "title": "Pro Evolution Soccer 2008",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -334722,27 +335223,32 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927062784",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927062784",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 16.67
     },
     {
       "id": 6511,
       "title": "Pro Evolution Soccer 2009",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 0.75,
+      "current_price": 1.0,
       "cash_price": 0.1,
-      "exchange_price": 0.2,
+      "exchange_price": 0.3,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -334764,18 +335270,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927063323",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-13",
       "image_url": null,
       "box_id": "4012927063323",
       "price_history_30d": [
+        {
+          "old_price": 0.75,
+          "new_price": 1.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 0.75,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6512,
@@ -334860,9 +335371,9 @@
       "title": "Pro Evolution Soccer 2012",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.0,
-      "cash_price": 0.3,
-      "exchange_price": 0.6,
+      "current_price": 2.5,
+      "cash_price": 0.4,
+      "exchange_price": 0.8,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -334883,18 +335394,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927065198",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927065198",
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 2.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 2.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6515,
@@ -334984,9 +335500,9 @@
       "title": "Pro Evolution Soccer 5",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -335005,26 +335521,31 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927060384",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927060384",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6518,
       "title": "Pro Evolution Soccer 6",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
+      "current_price": 8.0,
+      "cash_price": 1.6,
       "exchange_price": 2.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
@@ -335046,18 +335567,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927061893",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927061893",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6519,
@@ -335194,9 +335720,9 @@
       "title": "Pursuit Force",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.5,
-      "cash_price": 0.4,
-      "exchange_price": 0.8,
+      "current_price": 2.0,
+      "cash_price": 0.3,
+      "exchange_price": 0.6,
       "ecom_quantity": 12,
       "collection_quantity": 12,
       "out_of_stock_stores": [
@@ -335212,18 +335738,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719161615",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719161615",
       "price_history_30d": [
+        {
+          "old_price": 2.5,
+          "new_price": 2.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 2.5,
           "changed_at": "2026-11-04 19:20:55"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6523,
@@ -335354,9 +335885,9 @@
       "title": "Puzzle Quest: Challenge Of The Warlords",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.5,
-      "cash_price": 0.4,
-      "exchange_price": 0.8,
+      "current_price": 3.0,
+      "cash_price": 0.6,
+      "exchange_price": 1.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -335378,18 +335909,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060125481097",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-08",
       "image_url": null,
       "box_id": "5060125481097",
       "price_history_30d": [
+        {
+          "old_price": 2.5,
+          "new_price": 3.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 2.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6527,
@@ -335797,8 +336333,8 @@
       "title": "Ridge Racer (Platinum)",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
+      "current_price": 6.0,
+      "cash_price": 1.2,
       "exchange_price": 2.0,
       "ecom_quantity": 12,
       "collection_quantity": 12,
@@ -335815,27 +336351,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719631477",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719631477",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6538,
       "title": "Ridge Racer 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -335853,18 +336394,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719606314",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719606314",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6539,
@@ -336782,8 +337328,8 @@
       "title": "Shrek Smash n Crash Racing",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
+      "current_price": 6.0,
+      "cash_price": 1.2,
       "exchange_price": 2.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
@@ -336803,27 +337349,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917039751",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917039751",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6558,
       "title": "Shrek Terzo",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
-      "exchange_price": 2.0,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 6,
       "collection_quantity": 6,
       "out_of_stock_stores": [
@@ -336841,27 +337392,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917065378",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917065378",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6559,
       "title": "Sid Meier's Pirates!",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -336881,18 +337437,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5026555280709",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5026555280709",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6560,
@@ -337106,9 +337667,9 @@
       "title": "Sims 2 Pets, The",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 2.5,
+      "cash_price": 0.5,
+      "exchange_price": 0.8,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -337125,27 +337686,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947059569",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947059569",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 2.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6566,
       "title": "Sims 2, The",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.0,
-      "cash_price": 0.3,
-      "exchange_price": 0.6,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 12,
       "collection_quantity": 12,
       "out_of_stock_stores": [
@@ -337162,18 +337728,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030947094850",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030947094850",
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 2.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6567,
@@ -337222,9 +337793,9 @@
       "title": "Smash Court Tennis 3",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -337243,18 +337814,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719471158",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719471158",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6570,
@@ -337343,9 +337919,9 @@
       "title": "Socom U.S. Navy Seals Fire Team Bravo 2",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
-      "exchange_price": 2.0,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -337364,27 +337940,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719472353",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719472353",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6574,
       "title": "Sonic Rival",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 9,
       "collection_quantity": 9,
       "out_of_stock_stores": [
@@ -337400,18 +337981,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5055277008148",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5055277008148",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6575,
@@ -337455,9 +338041,9 @@
       "title": "Soulcalibur Broken Destiny",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -337476,18 +338062,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3296580808625",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3296580808625",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6577,
@@ -337703,9 +338294,9 @@
       "title": "Spider-Man: Il Regno Delle Ombre- Gli Straordinari Alleati",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 1.6,
+      "exchange_price": 2.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -337724,27 +338315,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917106231",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917106231",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6584,
       "title": "Spiderman Amici O Nemici",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -337764,27 +338360,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917047831",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917047831",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6585,
       "title": "Spiderman il Regno Delle Ombre",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 12.0,
-      "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "current_price": 15.0,
+      "cash_price": 3.0,
+      "exchange_price": 5.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -337803,18 +338404,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917058837",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917058837",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 15.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6586,
@@ -337987,9 +338593,9 @@
       "title": "Spongebob Il Vendicatore Giallo",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -338008,18 +338614,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209138710",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4005209138710",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6592,
@@ -338193,9 +338804,9 @@
       "title": "Star Wars Battlefront - Elite Squadron",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -338215,18 +338826,23 @@
       "url": "https://it.webuy.com/product-detail/?id=023272010829",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "023272010829",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6597,
@@ -338852,9 +339468,9 @@
       "title": "Superbike World Championship 07",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 0.5,
-      "cash_price": 0.01,
-      "exchange_price": 0.1,
+      "current_price": 0.75,
+      "cash_price": 0.1,
+      "exchange_price": 0.2,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -338876,18 +339492,23 @@
       "url": "https://it.webuy.com/product-detail/?id=8033102495018",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "8033102495018",
       "price_history_30d": [
+        {
+          "old_price": 0.5,
+          "new_price": 0.75,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 0.5,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 6613,
@@ -338935,9 +339556,9 @@
       "title": "Syphon Filter, Dark Mirror",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -338955,18 +339576,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719227113",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719227113",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6616,
@@ -339098,9 +339724,9 @@
       "title": "Tactics Ogre",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 6.0,
+      "cash_price": 1.2,
+      "exchange_price": 2.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -339122,18 +339748,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290050150",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290050150",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6618,
@@ -339263,9 +339894,9 @@
       "title": "Talkman",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -339285,27 +339916,32 @@
       "url": "https://it.webuy.com/product-detail/?id=711719660767",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719660767",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6622,
       "title": "Tartarughe Ninja",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 6.0,
+      "cash_price": 1.2,
+      "exchange_price": 2.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -339326,18 +339962,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307217930371",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307217930371",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6623,
@@ -339386,8 +340027,8 @@
       "title": "Teenage Mutant Ninja Turtles",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 6.0,
-      "cash_price": 1.2,
+      "current_price": 8.0,
+      "cash_price": 1.6,
       "exchange_price": 2.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
@@ -339409,18 +340050,23 @@
       "url": "https://it.webuy.com/product-detail/?id=3307210247926",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-14",
       "image_url": null,
       "box_id": "3307210247926",
       "price_history_30d": [
+        {
+          "old_price": 6.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 6.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 33.33
     },
     {
       "id": 6625,
@@ -339587,9 +340233,9 @@
       "title": "Test Drive Unlimited",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 12.0,
+      "current_price": 10.0,
       "cash_price": 2.0,
-      "exchange_price": 4.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -339608,27 +340254,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3546430123812",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3546430123812",
       "price_history_30d": [
+        {
+          "old_price": 12.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 12.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6630,
       "title": "Thrillville Fuori dai Binari",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 1.0,
-      "cash_price": 0.1,
-      "exchange_price": 0.3,
+      "current_price": 1.5,
+      "cash_price": 0.2,
+      "exchange_price": 0.4,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -339650,18 +340301,23 @@
       "url": "https://it.webuy.com/product-detail/?id=023272004880",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-08",
       "image_url": null,
       "box_id": "023272004880",
       "price_history_30d": [
+        {
+          "old_price": 1.0,
+          "new_price": 1.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 1.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 50.0
     },
     {
       "id": 6631,
@@ -340040,9 +340696,9 @@
       "title": "Tom Clancy's Rainbow Six Vegas",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 5.0,
+      "cash_price": 1.0,
+      "exchange_price": 1.7,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -340061,27 +340717,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307211650497",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307211650497",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 5.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6643,
       "title": "Tom Clancy's Splinter Cell Essentials",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -340100,27 +340761,32 @@
       "url": "https://it.webuy.com/product-detail/?id=3307210335173",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "3307210335173",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6644,
       "title": "Tomb Raider Anniversary",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -340140,27 +340806,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290049857",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290049857",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6645,
       "title": "Tomb Raider Legend",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
-      "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "current_price": 8.0,
+      "cash_price": 1.6,
+      "exchange_price": 2.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -340180,18 +340851,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290024892",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290024892",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 8.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6646,
@@ -340322,9 +340998,9 @@
       "title": "Transformers La Vendetta Del Caduto",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 2.5,
+      "cash_price": 0.4,
+      "exchange_price": 0.8,
       "ecom_quantity": 8,
       "collection_quantity": 8,
       "out_of_stock_stores": [
@@ -340341,27 +341017,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917089008",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917089008",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 2.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -16.67
     },
     {
       "id": 6650,
       "title": "Transformers: The Game",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -340381,18 +341062,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917044885",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917044885",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6651,
@@ -340440,9 +341126,9 @@
       "title": "Twisted Metal Head-On",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -340464,18 +341150,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719179511",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719179511",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 16.67
     },
     {
       "id": 6655,
@@ -340851,9 +341542,9 @@
       "title": "Up",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 2.0,
-      "cash_price": 0.3,
-      "exchange_price": 0.6,
+      "current_price": 2.5,
+      "cash_price": 0.4,
+      "exchange_price": 0.8,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -340875,18 +341566,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209120050",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-08",
       "image_url": null,
       "box_id": "4005209120050",
       "price_history_30d": [
+        {
+          "old_price": 2.0,
+          "new_price": 2.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 2.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6663,
@@ -341143,9 +341839,9 @@
       "title": "Virtua Tennis: World Tour",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 4.0,
+      "cash_price": 0.8,
+      "exchange_price": 1.4,
       "ecom_quantity": 4,
       "collection_quantity": 4,
       "out_of_stock_stores": [
@@ -341164,18 +341860,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5060004765430",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5060004765430",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 4.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6693,
@@ -341303,9 +342004,9 @@
       "title": "WWE SmackDown Vs Raw 2010",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 10.0,
+      "current_price": 12.0,
       "cash_price": 2.0,
-      "exchange_price": 3.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -341326,18 +342027,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209125499",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4005209125499",
       "price_history_30d": [
+        {
+          "old_price": 10.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:35"
+        },
         {
           "old_price": null,
           "new_price": 10.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6700,
@@ -341503,9 +342209,9 @@
       "title": "Wall E",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 4.0,
-      "cash_price": 0.8,
-      "exchange_price": 1.4,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 7,
       "collection_quantity": 7,
       "out_of_stock_stores": [
@@ -341520,18 +342226,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4005209106412",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4005209106412",
       "price_history_30d": [
+        {
+          "old_price": 4.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 4.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -12.5
     },
     {
       "id": 6671,
@@ -341664,9 +342375,9 @@
       "title": "White Knight Chronicles: Origins",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
+      "current_price": 18.0,
       "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "exchange_price": 6.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -341688,18 +342399,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719109693",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-09",
       "image_url": null,
       "box_id": "711719109693",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 18.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6675,
@@ -341748,9 +342464,9 @@
       "title": "Williams Pinball Classics",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 3.0,
-      "cash_price": 0.6,
-      "exchange_price": 1.0,
+      "current_price": 3.5,
+      "cash_price": 0.7,
+      "exchange_price": 1.2,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -341772,27 +342488,32 @@
       "url": "https://it.webuy.com/product-detail/?id=5060057025109",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-16",
       "image_url": null,
       "box_id": "5060057025109",
       "price_history_30d": [
+        {
+          "old_price": 3.0,
+          "new_price": 3.5,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 3.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 16.67
     },
     {
       "id": 6677,
       "title": "Winx Club: Entra Nel Club",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 15.0,
-      "cash_price": 3.0,
-      "exchange_price": 5.0,
+      "current_price": 12.0,
+      "cash_price": 2.0,
+      "exchange_price": 4.0,
       "ecom_quantity": 3,
       "collection_quantity": 3,
       "out_of_stock_stores": [
@@ -341812,26 +342533,31 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927062210",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927062210",
       "price_history_30d": [
+        {
+          "old_price": 15.0,
+          "new_price": 12.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 15.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -20.0
     },
     {
       "id": 6678,
       "title": "Wipeout Pulse",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
+      "current_price": 6.0,
+      "cash_price": 1.2,
       "exchange_price": 2.0,
       "ecom_quantity": 4,
       "collection_quantity": 4,
@@ -341850,18 +342576,23 @@
       "url": "https://it.webuy.com/product-detail/?id=711719132271",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "711719132271",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -25.0
     },
     {
       "id": 6679,
@@ -341908,9 +342639,9 @@
       "title": "Wolverine Le Origini",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 5.0,
-      "cash_price": 1.0,
-      "exchange_price": 1.7,
+      "current_price": 6.0,
+      "cash_price": 1.2,
+      "exchange_price": 2.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -341931,18 +342662,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030917105920",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5030917105920",
       "price_history_30d": [
+        {
+          "old_price": 5.0,
+          "new_price": 6.0,
+          "changed_at": "2026-11-19 05:42:34"
+        },
         {
           "old_price": null,
           "new_price": 5.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 20.0
     },
     {
       "id": 6681,
@@ -342654,9 +343390,9 @@
       "title": "Yu-Gi-Oh! GX Tag Force",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 18.0,
-      "cash_price": 3.0,
-      "exchange_price": 6.0,
+      "current_price": 20.0,
+      "cash_price": 4.0,
+      "exchange_price": 7.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -342678,18 +343414,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927061244",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": "2026-11-17",
       "image_url": null,
       "box_id": "4012927061244",
       "price_history_30d": [
+        {
+          "old_price": 18.0,
+          "new_price": 20.0,
+          "changed_at": "2026-11-19 05:42:35"
+        },
         {
           "old_price": null,
           "new_price": 18.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 11.11
     },
     {
       "id": 6707,
@@ -342780,9 +343521,9 @@
       "title": "Yu-Gi-Oh! GX Tag Force 4",
       "console": "PSP",
       "category": "PlayStation",
-      "current_price": 8.0,
-      "cash_price": 1.6,
-      "exchange_price": 2.0,
+      "current_price": 10.0,
+      "cash_price": 2.0,
+      "exchange_price": 3.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -342803,18 +343544,23 @@
       "url": "https://it.webuy.com/product-detail/?id=4012927064412",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-19",
-      "last_price_change": null,
+      "last_price_change": "2026-11-19",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "4012927064412",
       "price_history_30d": [
+        {
+          "old_price": 8.0,
+          "new_price": 10.0,
+          "changed_at": "2026-11-19 05:42:35"
+        },
         {
           "old_price": null,
           "new_price": 8.0,
           "changed_at": "2026-11-04 13:57:53"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": 25.0
     },
     {
       "id": 6710,
@@ -378690,7 +379436,8 @@
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
-        "Reggio Emilia San Pietro"
+        "Reggio Emilia San Pietro",
+        "Gran Roma"
       ],
       "is_available": 1,
       "condition": null,
@@ -403480,7 +404227,8 @@
         "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
-        "Milano Viale Tunisia"
+        "Milano Viale Tunisia",
+        "Gran Roma"
       ],
       "is_available": 1,
       "condition": null,
@@ -411175,6 +411923,7 @@
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Gran Roma",
         "La Romanina",
         "The Wow Side"
       ],

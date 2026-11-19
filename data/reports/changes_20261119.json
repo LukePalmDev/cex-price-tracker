@@ -1,19 +1,1212 @@
 {
   "metadata": {
-    "generated_at": "2026-11-19T00:09:10.742983",
+    "generated_at": "2026-11-19T05:43:15.725452",
     "date": "2026-11-19",
-    "duration_sec": 192.9,
-    "total_scraped": 13799
+    "duration_sec": 158.8,
+    "total_scraped": 27598
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 0,
+    "price_changes": 149,
     "availability_changes": 9,
-    "unchanged": 13790,
+    "unchanged": 27440,
     "errors": 0
   },
   "new_games": [],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "game_id": 6133,
+      "title": "Ace Combat X: Skies of Deception",
+      "console": "PSP",
+      "new_price": 3,
+      "old_price": 3.5,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 6137,
+      "title": "Alien Syndrome",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6138,
+      "title": "Alien vs Predator Requiem",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6139,
+      "title": "Ape Academy",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 6140,
+      "title": "Ape Academy 2",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 6142,
+      "title": "Archer Maclean's Mercury",
+      "console": "PSP",
+      "new_price": 3,
+      "old_price": 3.5,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 6146,
+      "title": "Assassin's Creed Bloodlines",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6151,
+      "title": "ATV Offroad Fury Pro",
+      "console": "PSP",
+      "new_price": 1,
+      "old_price": 1.5,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 6157,
+      "title": "Beaterator",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6159,
+      "title": "Ben 10 Ultimate Alien Cosmic Destruction",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6171,
+      "title": "Brothers In Arms D- Day",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 6176,
+      "title": "Buzz! Gran Quiz",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 6177,
+      "title": "Buzz! Ingegna Mente",
+      "console": "PSP",
+      "new_price": 1,
+      "old_price": 0.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 6179,
+      "title": "Buzz: Il Quizzone Nazionale",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6184,
+      "title": "Capcom Puzzle World",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6188,
+      "title": "Castlevania: The Dracula X Chronicles",
+      "console": "PSP",
+      "new_price": 48,
+      "old_price": 45.0,
+      "variation_pct": 6.67
+    },
+    {
+      "game_id": 6196,
+      "title": "Colin McRae Rally 2005 Plus",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6198,
+      "title": "Cover Girl - Il Tuo Mondo In Una Rivista",
+      "console": "PSP",
+      "new_price": 0.75,
+      "old_price": 1.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6201,
+      "title": "Crash Tag Team Racing",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6202,
+      "title": "Crazy Taxi Fare Wars",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 6204,
+      "title": "Dante's Inferno",
+      "console": "PSP",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 6206,
+      "title": "Dave Mirra BMX Challenge",
+      "console": "PSP",
+      "new_price": 3,
+      "old_price": 3.5,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 6207,
+      "title": "Daxter",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6218,
+      "title": "Dissidia 012 [Duodecim] Final Fantasy",
+      "console": "PSP",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6219,
+      "title": "Dissidia: Final Fantasy",
+      "console": "PSP",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6220,
+      "title": "Dissidia: Final Fantasy- Special Edition w/2xPostcard, Artbook, OST, Guide",
+      "console": "PSP",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 6221,
+      "title": "Dragon Ball Evolution",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 13705,
+      "title": "Dragon Ball Z: Tenkaichi Tag Team",
+      "console": "PSP",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6224,
+      "title": "Dragonball Z Shin Budokai 2",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6227,
+      "title": "Driver 76",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6235,
+      "title": "Eragon",
+      "console": "PSP",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6238,
+      "title": "Everybody'S Golf 2 (Essentials)",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6239,
+      "title": "Everybody's Tennis",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6246,
+      "title": "F1 Grand Prix",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6251,
+      "title": "Fifa 06",
+      "console": "PSP",
+      "new_price": 1,
+      "old_price": 0.75,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6252,
+      "title": "FIFA 07",
+      "console": "PSP",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6253,
+      "title": "FIFA 08",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 6254,
+      "title": "Fifa 09",
+      "console": "PSP",
+      "new_price": 1,
+      "old_price": 0.75,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6255,
+      "title": "FIFA 10",
+      "console": "PSP",
+      "new_price": 1,
+      "old_price": 0.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 6258,
+      "title": "Fifa 13",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6259,
+      "title": "Fifa 14",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6260,
+      "title": "FIFA 2010 Mondiali Sudafrica",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 6265,
+      "title": "Final Fantasy II (2)",
+      "console": "PSP",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 6267,
+      "title": "Final Fantasy Tactics",
+      "console": "PSP",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 6269,
+      "title": "Final Fantasy VII: Crisis Core",
+      "console": "PSP",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 6270,
+      "title": "Fired Up",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6282,
+      "title": "Formula 1 2009",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6283,
+      "title": "Formula One 06",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6294,
+      "title": "Geronimo Stilton",
+      "console": "PSP",
+      "new_price": 1,
+      "old_price": 1.5,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 6295,
+      "title": "Geronimo Stilton 2",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6301,
+      "title": "Go Sudoku",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 6303,
+      "title": "God of War - Ghost of Sparta",
+      "console": "PSP",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 6304,
+      "title": "God of War: Chains of Olympus",
+      "console": "PSP",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6308,
+      "title": "Grand Theft Auto - Liberty City Stories",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6313,
+      "title": "Gripshift",
+      "console": "PSP",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6319,
+      "title": "Hannah Montana - Vivi Lo Show",
+      "console": "PSP",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6321,
+      "title": "Harry Potter E Il Principe Mezzosangue",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6322,
+      "title": "Harry Potter e l'Ordine della Fenice",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6325,
+      "title": "Hello Kitty: Puzzle Party",
+      "console": "PSP",
+      "new_price": 3,
+      "old_price": 3.5,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 6326,
+      "title": "Hot Brain",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6339,
+      "title": "Invizimals: Le Tribu Scomparse",
+      "console": "PSP",
+      "new_price": 1,
+      "old_price": 0.5,
+      "variation_pct": 100.0
+    },
+    {
+      "game_id": 6341,
+      "title": "Iron Man",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 3.5,
+      "variation_pct": 14.29
+    },
+    {
+      "game_id": 6342,
+      "title": "Iron Man 2",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6344,
+      "title": "Jak & Daxter Sfida Senza Confini",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6345,
+      "title": "Juiced 2 Hot Import Nights",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6357,
+      "title": "Kingdom Hearts Birth By Sleep",
+      "console": "PSP",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 6364,
+      "title": "Lego Batman",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6372,
+      "title": "Lego Star Wars III: La Guerra Dei Cloni",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6374,
+      "title": "Little Big Planet",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6376,
+      "title": "Loco Roco 2",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6379,
+      "title": "Lumines 2",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6393,
+      "title": "Me And My Katamari",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6394,
+      "title": "Medal Of Honor - Heroes 2",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6396,
+      "title": "Medievil: Resurrection",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6401,
+      "title": "Mercury Meltdown",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6402,
+      "title": "Metal Gear Ac!D",
+      "console": "PSP",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6404,
+      "title": "Metal Gear Acid 2",
+      "console": "PSP",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6406,
+      "title": "Metal Gear Solid Digital Graphic Novel",
+      "console": "PSP",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 6407,
+      "title": "Metal Gear Solid Peace Walker",
+      "console": "PSP",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 6416,
+      "title": "Midnight Club 3 Dub Edition",
+      "console": "PSP",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6417,
+      "title": "Midnight Club: LA Remix",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6420,
+      "title": "Mind Quiz",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6422,
+      "title": "Modnation Racers",
+      "console": "PSP",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6425,
+      "title": "Monster Hunter - Freedom",
+      "console": "PSP",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 6426,
+      "title": "Monster Hunter - Freedom Unite",
+      "console": "PSP",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 6429,
+      "title": "Mortal Kombat Unchained",
+      "console": "PSP",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6431,
+      "title": "Moto GP",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6432,
+      "title": "Motorstorm Arctic Edge",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6437,
+      "title": "MX vs ATV: Reflex",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6441,
+      "title": "Namco Museum: Battle Collection",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6442,
+      "title": "Naruto - Ultimate Ninja Heroes",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6444,
+      "title": "Naruto Shippuden Ultimate Ninja Heroes 3",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6449,
+      "title": "NBA 2K10",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 6450,
+      "title": "NBA 2K12",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 6465,
+      "title": "Need for Speed: Carbon Own the City",
+      "console": "PSP",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6482,
+      "title": "Patapon 2",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6485,
+      "title": "Petz - My Baby Hamster",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6486,
+      "title": "Petz - My Puppy Family Dogz",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6492,
+      "title": "Piovono Polpette",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 3.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6496,
+      "title": "Pirati Dei Caraibi Ai Confini Del Mondo",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6510,
+      "title": "Pro Evolution Soccer 2008",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 6511,
+      "title": "Pro Evolution Soccer 2009",
+      "console": "PSP",
+      "new_price": 1,
+      "old_price": 0.75,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6514,
+      "title": "Pro Evolution Soccer 2012",
+      "console": "PSP",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6517,
+      "title": "Pro Evolution Soccer 5",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6518,
+      "title": "Pro Evolution Soccer 6",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 13706,
+      "title": "Pursuit Force",
+      "console": "PSP",
+      "new_price": 2,
+      "old_price": 2.5,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6526,
+      "title": "Puzzle Quest: Challenge Of The Warlords",
+      "console": "PSP",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6537,
+      "title": "Ridge Racer (Platinum)",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6538,
+      "title": "Ridge Racer 2",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6557,
+      "title": "Shrek Smash n Crash Racing",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6558,
+      "title": "Shrek Terzo",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6559,
+      "title": "Sid Meier's Pirates!",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6565,
+      "title": "Sims 2 Pets, The",
+      "console": "PSP",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6566,
+      "title": "Sims 2, The",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 2.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6568,
+      "title": "Smash Court Tennis 3",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6572,
+      "title": "Socom U.S. Navy Seals Fire Team Bravo 2",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6574,
+      "title": "Sonic Rival",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6576,
+      "title": "Soulcalibur Broken Destiny",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6582,
+      "title": "Spider-Man: Il Regno Delle Ombre- Gli Straordinari Alleati",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6584,
+      "title": "Spiderman Amici O Nemici",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6585,
+      "title": "Spiderman il Regno Delle Ombre",
+      "console": "PSP",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6589,
+      "title": "Spongebob Il Vendicatore Giallo",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6596,
+      "title": "Star Wars Battlefront - Elite Squadron",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6612,
+      "title": "Superbike World Championship 07",
+      "console": "PSP",
+      "new_price": 0.75,
+      "old_price": 0.5,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 6615,
+      "title": "Syphon Filter, Dark Mirror",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6617,
+      "title": "Tactics Ogre",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6621,
+      "title": "Talkman",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6622,
+      "title": "Tartarughe Ninja",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6624,
+      "title": "Teenage Mutant Ninja Turtles",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 6629,
+      "title": "Test Drive Unlimited",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6630,
+      "title": "Thrillville Fuori dai Binari",
+      "console": "PSP",
+      "new_price": 1.5,
+      "old_price": 1.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 6642,
+      "title": "Tom Clancy's Rainbow Six Vegas",
+      "console": "PSP",
+      "new_price": 5,
+      "old_price": 4.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6643,
+      "title": "Tom Clancy's Splinter Cell Essentials",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6644,
+      "title": "Tomb Raider Anniversary",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6645,
+      "title": "Tomb Raider Legend",
+      "console": "PSP",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6649,
+      "title": "Transformers La Vendetta Del Caduto",
+      "console": "PSP",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 6650,
+      "title": "Transformers: The Game",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6652,
+      "title": "Twisted Metal Head-On",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 6662,
+      "title": "Up",
+      "console": "PSP",
+      "new_price": 2.5,
+      "old_price": 2.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 6669,
+      "title": "Virtua Tennis: World Tour",
+      "console": "PSP",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6670,
+      "title": "Wall E",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 4.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 6674,
+      "title": "White Knight Chronicles: Origins",
+      "console": "PSP",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6676,
+      "title": "Williams Pinball Classics",
+      "console": "PSP",
+      "new_price": 3.5,
+      "old_price": 3.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 6677,
+      "title": "Winx Club: Entra Nel Club",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 6678,
+      "title": "Wipeout Pulse",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 6680,
+      "title": "Wolverine Le Origini",
+      "console": "PSP",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6699,
+      "title": "WWE SmackDown Vs Raw 2010",
+      "console": "PSP",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 6706,
+      "title": "Yu-Gi-Oh! GX Tag Force",
+      "console": "PSP",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 6709,
+      "title": "Yu-Gi-Oh! GX Tag Force 4",
+      "console": "PSP",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    }
+  ],
   "availability_changes": [
     {
       "game_id": 171,
