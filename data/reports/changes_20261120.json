@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-20T15:03:38.721094",
+    "generated_at": "2026-11-20T19:37:38.156648",
     "date": "2026-11-20",
-    "duration_sec": 138.0,
-    "total_scraped": 41398
+    "duration_sec": 158.0,
+    "total_scraped": 55198
   },
   "summary": {
     "new_games": 1,
     "price_changes": 1,
-    "availability_changes": 565,
-    "unchanged": 40831,
+    "availability_changes": 597,
+    "unchanged": 54599,
     "errors": 0
   },
   "new_games": [
@@ -3983,6 +3983,230 @@
       "game_id": 13036,
       "title": "Unicorn Overlord",
       "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 175,
+      "title": "Forza Motorsport",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 195,
+      "title": "Grand Theft Auto San Andreas",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 540,
+      "title": "Total Club Manager 2005",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1501,
+      "title": "Disney Infinity - Starter Pack",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1011,
+      "title": "Medal of Honor Airborne",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1886,
+      "title": "Assetto Corsa: Ultimate Edition",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2430,
+      "title": "SnowRunner",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2529,
+      "title": "Vikings - Wolves of Midgard",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4578,
+      "title": "R: Racing",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3822,
+      "title": "Spyhunter 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4774,
+      "title": "Thrillville Fuori Dai Binari",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4347,
+      "title": "Jumanji",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2957,
+      "title": "Ace Combat: The Belkan War",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4026,
+      "title": "BloodRayne",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3253,
+      "title": "Forbidden Siren",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3276,
+      "title": "G Surfers",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3331,
+      "title": "Guitar Hero 2 (No Guitar)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3339,
+      "title": "Half-Life",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4429,
+      "title": "Metal Gear Solid 2: Subtstance",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4553,
+      "title": "Playboy the Mansion",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4669,
+      "title": "Silent Hill 2 (2 Disc)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4890,
+      "title": "Afro Samurai",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5293,
+      "title": "Marvel: La Grande Alleanza",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5964,
+      "title": "Ninja Gaiden Sigma",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5984,
+      "title": "Prince of Persia Trilogy",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8054,
+      "title": "Madden NFL 19",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9078,
+      "title": "Skull and Bones (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9409,
+      "title": "Metroid Prime",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9698,
+      "title": "Disney Infinity Starter Pack",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10544,
+      "title": "Spiderman: Edge of Time",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11332,
+      "title": "7 Wonders Of The Ancient World",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11251,
+      "title": "Spider-Man 3",
+      "console": "DS",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
