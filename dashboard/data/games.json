@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "exported_at": "2026-11-20T00:31:08.696636",
+    "exported_at": "2026-11-20T05:31:34.508994",
     "total_games": 13800,
-    "version": "20261120_003108",
+    "version": "20261120_053134",
     "statistics": {
       "total_games": 13800,
       "available_games": 8109,
@@ -29,9 +29,9 @@
       "last_update": "2026-11-20",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 0,
+        "price_changes": 1,
         "availability_changes": 5,
-        "unchanged": 13794,
+        "unchanged": 27592,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-11-20",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 0,
+      "price_changes": 1,
       "availability_changes": 5,
-      "unchanged": 13794,
+      "unchanged": 27592,
       "errors": 0
     }
   },
@@ -164462,6 +164462,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Gran Roma",
+        "La Romanina",
         "Le Corti Venete"
       ],
       "is_available": 1,
@@ -172689,6 +172690,7 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
@@ -175643,6 +175645,7 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "La Romanina",
         "Le Corti Venete",
         "Merlata Bloom"
       ],
@@ -175680,6 +175683,7 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Milano Viale Tunisia",
+        "La Romanina",
         "Le Corti Venete",
         "Merlata Bloom"
       ],
@@ -183909,7 +183913,8 @@
         "RMA CENTRE",
         "Bologna Amendola",
         "IT Ecommerce",
-        "Reggio Emilia San Pietro"
+        "Reggio Emilia San Pietro",
+        "La Romanina"
       ],
       "is_available": 1,
       "condition": null,
@@ -287796,9 +287801,9 @@
       "title": "Control Resonant",
       "console": "PS5",
       "category": "PlayStation",
-      "current_price": 55.0,
-      "cash_price": 35.0,
-      "exchange_price": 41.0,
+      "current_price": 50.0,
+      "cash_price": 32.0,
+      "exchange_price": 37.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -287820,11 +287825,16 @@
       "url": "https://it.webuy.com/product-detail/?id=5056635624291",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-20",
-      "last_price_change": "2026-11-13",
+      "last_price_change": "2026-11-20",
       "last_availability_change": "2026-11-19",
       "image_url": null,
       "box_id": "5056635624291",
       "price_history_30d": [
+        {
+          "old_price": 55.0,
+          "new_price": 50.0,
+          "changed_at": "2026-11-20 05:31:15"
+        },
         {
           "old_price": 58.0,
           "new_price": 55.0,
@@ -287836,7 +287846,7 @@
           "changed_at": "2026-11-04 13:57:55"
         }
       ],
-      "price_trend_pct": -5.17
+      "price_trend_pct": -9.09
     },
     {
       "id": 8528,
@@ -324689,6 +324699,7 @@
       "collection_quantity": 4,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
@@ -335514,6 +335525,7 @@
         "Reggio Emilia San Pietro",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
@@ -338812,6 +338824,7 @@
       "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -498440,6 +498453,7 @@
         "Gran Roma",
         "La Romanina",
         "The Wow Side",
+        "Le Corti Venete",
         "Merlata Bloom"
       ],
       "is_available": 0,
