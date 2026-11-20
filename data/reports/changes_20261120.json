@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-20T00:31:08.457773",
+    "date": "2026-11-20",
+    "duration_sec": 160.9,
+    "total_scraped": 13799
+  },
+  "summary": {
+    "new_games": 0,
+    "price_changes": 0,
+    "availability_changes": 5,
+    "unchanged": 13794,
+    "errors": 0
+  },
+  "new_games": [],
+  "price_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 1668,
+      "title": "Ninja Gaiden 3 - Razor's Edge",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5033,
+      "title": "Dark Souls II",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11750,
+      "title": "Need for Speed Underground 2",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11971,
+      "title": "Walk With Me: Scopri Il Tuo Ritmo Passo...",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11855,
+      "title": "Sims 2 Pets",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
+  "errors": []
+}
