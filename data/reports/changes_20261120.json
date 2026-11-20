@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-20T19:37:38.156648",
+    "generated_at": "2026-11-20T23:54:37.633668",
     "date": "2026-11-20",
-    "duration_sec": 158.0,
-    "total_scraped": 55198
+    "duration_sec": 174.4,
+    "total_scraped": 68998
   },
   "summary": {
     "new_games": 1,
     "price_changes": 1,
-    "availability_changes": 597,
-    "unchanged": 54599,
+    "availability_changes": 604,
+    "unchanged": 68392,
     "errors": 0
   },
   "new_games": [
@@ -4209,6 +4209,55 @@
       "console": "DS",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 540,
+      "title": "Total Club Manager 2005",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 721,
+      "title": "Dark Souls II",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2435,
+      "title": "Soul Calibur VI",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3926,
+      "title": "Total Club Manager 2005",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3459,
+      "title": "Mafia",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4890,
+      "title": "Afro Samurai",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8054,
+      "title": "Madden NFL 19",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
