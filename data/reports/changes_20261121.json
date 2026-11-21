@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-21T18:42:38.032280",
+    "generated_at": "2026-11-21T23:00:03.592954",
     "date": "2026-11-21",
-    "duration_sec": 172.0,
-    "total_scraped": 41405
+    "duration_sec": 186.6,
+    "total_scraped": 55207
   },
   "summary": {
     "new_games": 3,
     "price_changes": 0,
-    "availability_changes": 599,
-    "unchanged": 40803,
+    "availability_changes": 603,
+    "unchanged": 54601,
     "errors": 0
   },
   "new_games": [
@@ -4226,6 +4226,34 @@
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4794,
+      "title": "Torrente The Protector 3",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3977,
+      "title": "Armored Core 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6733,
+      "title": "Among The Sleep",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10432,
+      "title": "King of Fighters Collection Orochi Saga",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
