@@ -1,19 +1,3966 @@
 {
   "metadata": {
-    "generated_at": "2026-11-21T05:24:17.829163",
+    "generated_at": "2026-11-21T14:25:47.594518",
     "date": "2026-11-21",
-    "duration_sec": 156.0,
-    "total_scraped": 13800
+    "duration_sec": 157.0,
+    "total_scraped": 27603
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 3,
     "price_changes": 0,
-    "availability_changes": 0,
-    "unchanged": 13800,
+    "availability_changes": 561,
+    "unchanged": 27039,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13802,
+      "title": "]Eternal Cylinder, The",
+      "console": "Xbox One",
+      "price": 8
+    },
+    {
+      "game_id": 13803,
+      "title": "My Fantastic Ranch",
+      "console": "Switch",
+      "price": 15
+    },
+    {
+      "game_id": 13804,
+      "title": "Ys Memoire: The Oath in Felghana",
+      "console": "Switch",
+      "price": 45
+    }
+  ],
   "price_changes": [],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 8,
+      "title": "Alien vs Predator Extinction",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10,
+      "title": "Alla Ricerca Di Nemo",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 21,
+      "title": "Azurik Rise of Perathia",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 65,
+      "title": "Call of Duty - L'ora degli eroi",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 138,
+      "title": "Dynasty Warriors 3",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 166,
+      "title": "Fight Night Round 2",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 213,
+      "title": "Headhunter Redemption",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 228,
+      "title": "Indiana Jones E La Tomba Dell'imperatore",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 231,
+      "title": "International Superstar Soccer 2",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 245,
+      "title": "Knights of the Temple - Infernal Crusade",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 322,
+      "title": "Nba jam",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 326,
+      "title": "NBA Live 2003",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 328,
+      "title": "Nba Live 2005",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 329,
+      "title": "Nba Street V3",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 354,
+      "title": "Outlaw Tennis",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 443,
+      "title": "Signore Degli Anelli, II - Le Due Torri",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 456,
+      "title": "Sonic Heroes",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 470,
+      "title": "Spyro: A Hero's Tail",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 524,
+      "title": "Toca Race Driver",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 581,
+      "title": "X-men Legends",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 593,
+      "title": "Alone in the Dark",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1414,
+      "title": "Battlefield Hardline (2 Dichi)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1419,
+      "title": "Ben 10 Galactic Racing",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 650,
+      "title": "Blitz: The League",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 701,
+      "title": "Crackdown 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 714,
+      "title": "Damnation",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 729,
+      "title": "Darkstar One Broken Alliance",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1501,
+      "title": "Disney Infinity - Starter Pack",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 758,
+      "title": "Disney Sing It!",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 826,
+      "title": "Fear 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 830,
+      "title": "FIFA 12",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1550,
+      "title": "G-Force - Superspie In Missione",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 863,
+      "title": "Game Of Thrones - A Telltale Games Series (Solo Episodio 1-5)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 870,
+      "title": "Get Fit With Mel B W/O Resistance Band (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1589,
+      "title": "Iron Man 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 978,
+      "title": "Let's Cheer (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 984,
+      "title": "Londra 2012: Gioco Ufficiale Delle Olimpiadi",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1621,
+      "title": "Lost Planet Extreme Condition",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 989,
+      "title": "Madden 06",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1011,
+      "title": "Medal of Honor Airborne",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1014,
+      "title": "Men In Black - Alien Crisis",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1054,
+      "title": "MX VS ATV : Reflex",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1114,
+      "title": "Piazza Sesamo: C'era Una Volta Un Mostro",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1688,
+      "title": "Port Royale 3",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1118,
+      "title": "Power Up Heroes",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1132,
+      "title": "Pure Football",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1144,
+      "title": "Rapala Fishing Frenzy",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1161,
+      "title": "Risen 2: Dark Waters",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1184,
+      "title": "Scudetto 2007",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1234,
+      "title": "Star Ocean 4: The Last Hope *3 Dischi*",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1251,
+      "title": "Superstars V8 Racing",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1267,
+      "title": "Tiger Woods PGA Tour 07",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1270,
+      "title": "Tiger Woods PGA Tour 2006",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1306,
+      "title": "UEFA EURO 2008",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 648,
+      "title": "Blazing Angels 2: Secret Mission of WWII",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1432,
+      "title": "Blue Dragon (3 Disc)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 721,
+      "title": "Dark Souls II",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 770,
+      "title": "Dragon Ball Z: Ultimate Tenkaichi",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 772,
+      "title": "Dragon Ball: Raging Blast 2  **use 3700577001826**",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 882,
+      "title": "Grease - Il Videogioco (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 883,
+      "title": "Grid 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 885,
+      "title": "Griffin, I - Ritorno al Multiverso",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 906,
+      "title": "Heavy Fire Shattered Spear",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 913,
+      "title": "Hot Wheels: World's Best Driver",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 948,
+      "title": "Kung Fu High Impact",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 950,
+      "title": "L'era Glaciale 3 - L'alba Dei Dinosauri",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1013,
+      "title": "Meet The Robinsons",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1025,
+      "title": "Minecraft: Story Mode : Stagione 1 (Solo Episodio 1)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1026,
+      "title": "Mini Ninjas",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1037,
+      "title": "Mortal Kombat Komplete Edition",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1044,
+      "title": "Moto GP 09/10",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1152,
+      "title": "Resident Evil 5 - Gold Edition",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1727,
+      "title": "Sacred 2 - Fallen Angel CE",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1740,
+      "title": "Signore Degli Anelli, Il:La Battaglia Per La Terra Di Mezzo 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1315,
+      "title": "Venetica",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1328,
+      "title": "Warriors Legends of Troy",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1335,
+      "title": "Wolf Among Us, The",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1341,
+      "title": "WRC 5 - World Rally Championship",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1851,
+      "title": "A.O.T 2",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1866,
+      "title": "AO Tennis 2",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1879,
+      "title": "Assassin's Creed The Ezio Collection",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1884,
+      "title": "Assetto Corsa",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1888,
+      "title": "ATV Renegades",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1897,
+      "title": "Battle Chasers: Nightwar",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1908,
+      "title": "Biomutant",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1912,
+      "title": "Blacksad: Under The Skin",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1937,
+      "title": "Car Mechanic Simulator",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1938,
+      "title": "Carmageddon: Max Damage",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1956,
+      "title": "Crew: Ultimate Edition",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1961,
+      "title": "Dakar 18",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1975,
+      "title": "DCL - Drone Championship League",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1988,
+      "title": "Destroy All Humans!",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1995,
+      "title": "Diablo III: Eternal Collection (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2037,
+      "title": "Escapists, The",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2053,
+      "title": "Far Cry 3 Classic Edition",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2079,
+      "title": "Final Fantasy Type-0 HD",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2082,
+      "title": "Fisherman, The: Fishing Planet (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2097,
+      "title": "Get Even",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2103,
+      "title": "Goat Simulator: The Bundle",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2186,
+      "title": "Let's Sing 2017 (Game Only)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2228,
+      "title": "Monopoly: Family Fun Pack",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2279,
+      "title": "NBA 2K23 (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2284,
+      "title": "NBA Live 18",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2291,
+      "title": "NHL 15",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2367,
+      "title": "Resident Evil 5",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2390,
+      "title": "Rush: A Disney Pixar Adventure",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2405,
+      "title": "Shadow Warrior",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2506,
+      "title": "Train Sim World 2: Collector's Edition",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13795,
+      "title": "Walking Dead, The: The Telltale Definitive Series",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2537,
+      "title": "Warhammer: Vermintide 2 (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2576,
+      "title": "WWE 2K22 (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2618,
+      "title": "Chivalry 2",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2625,
+      "title": "Dark Pictures Anthology, The: House of Ashes",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2651,
+      "title": "Exoprimal",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2675,
+      "title": "Halo: Master Chief Collection",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2689,
+      "title": "LEGO Brawls",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2698,
+      "title": "Mass Effect: Legendary Edition (2 Disc)",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2699,
+      "title": "MechWarrior 5: Mercenaries",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2711,
+      "title": "My Little Pony: A Zephyr Heights Mystery",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2716,
+      "title": "Persona 3 Reload",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2740,
+      "title": "Sid Meier's Civilization VII",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2756,
+      "title": "Texas Chain Saw Massacre, The",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13800,
+      "title": "Two Point Campus",
+      "console": "Xbox CrossGen",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2809,
+      "title": "Doom: The Dark Ages (Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2827,
+      "title": "Gears of War: E-Day (Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2832,
+      "title": "Gothic Remake",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2840,
+      "title": "Hunting Simulator 2",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2842,
+      "title": "Indiana Jones e l’Antico Cerchio",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2857,
+      "title": "Metal Gear Solid Master Collection Vol. 1",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2859,
+      "title": "MGS Delta: Snake Eater Deluxe Ed. w/Keychain, Cards & Steelbook(Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2872,
+      "title": "Need for Speed: Unbound",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2904,
+      "title": "Split Fiction (2 Disc) Senza DLC",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2921,
+      "title": "Thymesia",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2931,
+      "title": "Vampire: The Masquerade - Swansong",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2933,
+      "title": "Warhammer 40,000: Darktide",
+      "console": "Xbox Series",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3973,
+      "title": "Arcade USA",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3032,
+      "title": "Brian Lara International Cricket 2007",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3048,
+      "title": "Buzz Junior: Robot Mania",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3099,
+      "title": "Conflict: Global Storm",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3129,
+      "title": "Dance:UK",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3143,
+      "title": "Disney Move (With Eyetoy)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3145,
+      "title": "Disney pixar cars - Motori Ruggenti Race O Rama",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3189,
+      "title": "ESPN NBA Basketball 2004",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3207,
+      "title": "Eye Toy Play Pom Pom Party (With Camera)",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3248,
+      "title": "Football Generation",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4238,
+      "title": "Freakstyle",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3273,
+      "title": "Full Spectrum Warrior - Ten Hammers",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4259,
+      "title": "GI Joe La Nascita Del Cobra",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3350,
+      "title": "Hasbro Family Game Night",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3366,
+      "title": "Hot Wheels Stunt Track Challenge",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3406,
+      "title": "Junior Sports Basketball",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3445,
+      "title": "Libro della Giungla, Il",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3604,
+      "title": "Premier Manager 2005/2006",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3627,
+      "title": "Pro Rally 2002",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3636,
+      "title": "Puzzle Party 10 Games",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3774,
+      "title": "SnoCross 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3778,
+      "title": "Soccer Life 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3828,
+      "title": "SSX Tricky",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13608,
+      "title": "Ultimate Sport Quiz - Il Grande Quiz Sullo",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4819,
+      "title": "Viaggio Incantato, Il",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13617,
+      "title": "Wild Water Adrenaline",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2998,
+      "title": "ATV Off Road Fury 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3469,
+      "title": "Mat Hoffman : Pro BMX 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4485,
+      "title": "NBA Street",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3563,
+      "title": "NHL 2001",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3594,
+      "title": "Pirati Dei Caraibi Ai Confini Del Mondo *8717418124472*",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3770,
+      "title": "Smuggler's Run",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4835,
+      "title": "Whiplash",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2956,
+      "title": "Ace Combat Squadron Leader",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2978,
+      "title": "Alone In The Dark",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3062,
+      "title": "Capcom Fighting Jam",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4065,
+      "title": "Castlevania",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3081,
+      "title": "ChoroQ",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13647,
+      "title": "Cold Fear",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4140,
+      "title": "Devil Kings",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13648,
+      "title": "Final Fantasy VII (7): Dirge Of Cerberus",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3308,
+      "title": "Gradius V",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3322,
+      "title": "Grandia 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3408,
+      "title": "K-1 World GP",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3421,
+      "title": "King of Fighters 2000-2001",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3429,
+      "title": "Largo Winch",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4576,
+      "title": "Quake III Revolution",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3693,
+      "title": "Rune Viking Warlord",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3703,
+      "title": "SCAR",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3708,
+      "title": "Scudetto 2006 Championship Manager",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3712,
+      "title": "Secret Saturdays: Beast Of The 5th Sun",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3719,
+      "title": "Shadow oftThe Colossus",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3739,
+      "title": "Silent Hill 2 Director's Cut",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3742,
+      "title": "Silent Line: Armored Core",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3744,
+      "title": "Simpsons Road Rage",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3857,
+      "title": "Super Hero Squad",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3943,
+      "title": "Turok Evolution",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13662,
+      "title": "Viewtiful Joe",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4838,
+      "title": "Wild Arms 3",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13671,
+      "title": "Wipeout Fusion",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4935,
+      "title": "Battle Fantasia",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4950,
+      "title": "Ben 10: Ultimate Alien - Cosmic Destruction",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4983,
+      "title": "Cabela's Big Game Hunter 2012",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5764,
+      "title": "Cabela's Dangerous Adventures",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5024,
+      "title": "Cursed Crusade",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5046,
+      "title": "Dead Rising 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5066,
+      "title": "Dishonored - GOTY",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5087,
+      "title": "Dragon Trainer 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5129,
+      "title": "Falling Skies The Game",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5141,
+      "title": "FIFA 12",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5198,
+      "title": "Hannah Montana: The Movie",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5893,
+      "title": "Kung Fu Panda: Scontro Finale Delle Leggende Leggendarie",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5250,
+      "title": "L'Era Glaciale 3 L'Alba Dei Dinosauri",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5403,
+      "title": "Persona 4 Arena",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5466,
+      "title": "Ridge Racer Unbounded (Senza DLC)",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5476,
+      "title": "Rugby World Cup 2011",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5495,
+      "title": "Scudetto 2007",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5498,
+      "title": "SEGA Superstars Tennis",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5534,
+      "title": "Snipers",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5567,
+      "title": "Street Fighter IV",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5579,
+      "title": "Tales of Zestiria",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5619,
+      "title": "Tour De France 2015",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5677,
+      "title": "WWE '12",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5684,
+      "title": "WWE Legends Of Wrestlemania",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5006,
+      "title": "Castlevania: Lords of Shadow 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5107,
+      "title": "Elder Scrolls IV: Oblivion 5th Anniversary Ed.",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5584,
+      "title": "Tekken Hybrid",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6164,
+      "title": "Blazblue - Calamity Trigger",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6245,
+      "title": "EyePet All' Avventura",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6276,
+      "title": "Football Manager Handheld 2007",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6405,
+      "title": "Metal Gear Solid Ac!D 2",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6414,
+      "title": "Michel Jackson: The Experience",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6434,
+      "title": "MTX Mototrax",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6445,
+      "title": "Naruto Shippuden Ultimate Ninja Impact",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6454,
+      "title": "NBA Live 07",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6465,
+      "title": "Need for Speed: Carbon Own the City",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6502,
+      "title": "Practical IQ",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6508,
+      "title": "Pro Cycling Tour de France 10",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6543,
+      "title": "Samurai Warriors - State of War",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6591,
+      "title": "SSX On Tour",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6606,
+      "title": "Street Fighter Alpha Max 3",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6632,
+      "title": "Tiger Woods PGA Tour 08",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6638,
+      "title": "TOCA Race Driver 2",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6660,
+      "title": "Untold Legends: Brotherhood Of The Blade",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6710,
+      "title": "Yu-Gi-Oh! Gx Tag Force 5",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6747,
+      "title": "Armello (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6782,
+      "title": "Batman: Return To Arkham Asylum",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7789,
+      "title": "Batman: The Telltale Series (Solo Episodio 1)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6809,
+      "title": "Bratz: Flaunt your Fashion",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6849,
+      "title": "Cladun Returns: This Is Sengoku!",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6906,
+      "title": "Descenders",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7874,
+      "title": "Desperados 3",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6908,
+      "title": "Destiny 2 (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6938,
+      "title": "Dolmen",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6987,
+      "title": "Embr - Uber Firefighters",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6990,
+      "title": "Everybody's Golf",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6997,
+      "title": "Extinction",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7050,
+      "title": "Firefighters: Airport Fire Department",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7959,
+      "title": "Garfield Kart Furious Racing",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7074,
+      "title": "Ginger: Beyond The Crystal",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7102,
+      "title": "Helldivers",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7164,
+      "title": "Killing Floor 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7166,
+      "title": "King Of Fighters XIV",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7188,
+      "title": "Last Tinker: City Of Colors",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7189,
+      "title": "Left Alive",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7240,
+      "title": "Madden NFL 15",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8057,
+      "title": "Madden NFL 25",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7252,
+      "title": "Matchpoint: Tennis Championship",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7253,
+      "title": "Mato Anomalies",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8064,
+      "title": "Matterfall",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7277,
+      "title": "Monster Energy Supercross 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8078,
+      "title": "Monster Jam Steel Titans",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7284,
+      "title": "Monster Truck Championship",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7370,
+      "title": "No Straight Roads",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7382,
+      "title": "Operation Warcade (PSVR)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7393,
+      "title": "Oxide Room 104",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8139,
+      "title": "PGA Tour 2K21 (Offline Only)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7416,
+      "title": "Poker Club",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7422,
+      "title": "Prison Architect",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7428,
+      "title": "Pro Fishing Simulator",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7437,
+      "title": "Puyo Puyo Tetris 2",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7478,
+      "title": "Rocket Arena (Senza DLC) ***DNU***",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7485,
+      "title": "Rugby 20",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7486,
+      "title": "Rugby Challenge 3",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7511,
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7563,
+      "title": "Star Trek Prodigy: Supernova",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7589,
+      "title": "Sword Art Online - Alicization Lycoris",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7621,
+      "title": "Tin & Kuna",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7643,
+      "title": "Track Lab",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7645,
+      "title": "Trailblazers",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7657,
+      "title": "Trials Rising (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7701,
+      "title": "WarGroove",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13715,
+      "title": "Worms Rumble (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13719,
+      "title": "WWE 2K Battlegrounds",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6717,
+      "title": "Abzu",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6721,
+      "title": "AEW: Fight Forever",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6806,
+      "title": "Bomber Crew (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6841,
+      "title": "Catherine: Full Body",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6863,
+      "title": "Crash Team Racing & Spyro Reignited Trilogy Double Pack",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6899,
+      "title": "Dead Or Alive 6",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6955,
+      "title": "Dragon's Crown Pro",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6971,
+      "title": "Dynasty Warriors 9",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7974,
+      "title": "Gran Turismo Sport Collector's Ed. w/Car, Artbook & Steelbook (Senza DLC)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7094,
+      "title": "Hades",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7995,
+      "title": "Home Sweet Home",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7121,
+      "title": "House Of The Dead: Remake",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7177,
+      "title": "Koa and the Five Pirates of Mara Col. Ed. w/ArtBook,OST,Keychain,Pin,4xPC",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7192,
+      "title": "Legend Of Kay",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7229,
+      "title": "Little Nightmares 2: TV Ed. w/ Figure, OST, Steelbook, Artbook",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7231,
+      "title": "Little Nightmares Six Edition (Figure + CD)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7321,
+      "title": "Naruto Shippuden Ultimate Ninja Storm 4/Naruto to Boruto: Shinobi Striker",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7324,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 4 Road To Boruto",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7325,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm Legacy",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8104,
+      "title": "Nickelodeon: Kart Racers",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7482,
+      "title": "Root Letter",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7546,
+      "title": "Sonic Racing: Crossworlds",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7579,
+      "title": "Street Fighter 30th Anniversary Collection",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7593,
+      "title": "Sword Art Online: Hollow Realization",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7688,
+      "title": "Utawarerumono: Zan",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13736,
+      "title": "Witcher 3 Wild Hunt, The / Dark Souls 3",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13744,
+      "title": "World War Z Aftermath",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13756,
+      "title": "XIII",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13760,
+      "title": "Yakuza Kiwami",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8414,
+      "title": "Agatha Christie - The ABC Murders",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8420,
+      "title": "Alfred Hitchcock: Vertigo",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8437,
+      "title": "Arsene Lupin - Once a Thief",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8456,
+      "title": "Atelier Ryza 3: Alchemist of the End & the Secret Key",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8509,
+      "title": "Chef Life: A Restaurant Simulator",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8575,
+      "title": "Destroy All Humans! 2 Reprobed",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8590,
+      "title": "Disney Illusion Island Mickey & Friends",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8638,
+      "title": "Everspace 2",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8665,
+      "title": "Fate/Samurai Remnant",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8681,
+      "title": "Five Nights at Freddy's: Security Breach",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8712,
+      "title": "Ghostwire: Tokyo (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8728,
+      "title": "Greedfall: Gold Edition (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8738,
+      "title": "Happy Funland (PSVR2)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8818,
+      "title": "Legend of Legacy, The: HD Remastered (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8819,
+      "title": "Lego 2K Drive (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8881,
+      "title": "Monark",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8911,
+      "title": "MXGP 24",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8931,
+      "title": "Nickelodeon All Star Brawl",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8946,
+      "title": "On The Road - Truck Simulator",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8984,
+      "title": "Pneumata",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8985,
+      "title": "Poker Club",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8988,
+      "title": "Port Royale 4",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8999,
+      "title": "Puzzle Bobble 3D: Vacation Odyssey",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9045,
+      "title": "Romancing SaGa 2: Revenge of the Seven",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9057,
+      "title": "Scarlet Nexus",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9078,
+      "title": "Skull and Bones (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9086,
+      "title": "Sociable Soccer 25",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9098,
+      "title": "Spells & Secrets",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9178,
+      "title": "Totally Spies - Cyber Mission",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9185,
+      "title": "Townsmen VR (PSVR2)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9219,
+      "title": "Vampire - The Masquerade: Swansong",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9240,
+      "title": "Wild Bastards",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9311,
+      "title": "Crash Nitro Kart",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9346,
+      "title": "Fifa Football 2005",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9496,
+      "title": "Star Wars: La Guerra Dei Cloni",
+      "console": "GameCube",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9548,
+      "title": "Abba: You Can Dance",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10290,
+      "title": "Agatha Christie: Evil Under The Sun",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9559,
+      "title": "All Stars Cheerleader 2",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9576,
+      "title": "ATV Quad Kings",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9600,
+      "title": "Bermuda Triangle",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9617,
+      "title": "Boogie + Mic",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9626,
+      "title": "Cabela's Big Game Hunter 2010 + Fucile",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9646,
+      "title": "Cate West: The Vanishing Files",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9685,
+      "title": "Dancing Stage: Hottest Party (Solo Gioco)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9707,
+      "title": "Disney Sing It! Camp Rock",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9728,
+      "title": "Driver: San Francisco",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9751,
+      "title": "Fantastici 4 The Rise of Silver Surfer",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9775,
+      "title": "Games Island",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9781,
+      "title": "Get Fit With Mel B",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9782,
+      "title": "Giocaparola Party",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9810,
+      "title": "Heatseeker",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9822,
+      "title": "iCarly",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9833,
+      "title": "Jeep Thrills",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9869,
+      "title": "Lanterna Verde: L'ascesa dei Manhunters",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9889,
+      "title": "Let's Sing 2017",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9927,
+      "title": "Mia Clinica Veterinaria",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9928,
+      "title": "Mia Scuderia , La",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9954,
+      "title": "My Body Coach 2 (Without Dumbells)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9970,
+      "title": "National Geographic: Nat Geo Challenge!",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9971,
+      "title": "National Geographic: Nat Geo Quiz! Wild Life",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10028,
+      "title": "Planet Basket 2009/2010",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10047,
+      "title": "Pro Evolution Soccer 2008 *use 4012927090732*",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10062,
+      "title": "Ralph Spaccatutto (Wreck-It-Ralph)",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10063,
+      "title": "Rampage: Total Destruction",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10068,
+      "title": "Rapala Tournament Fishing",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10079,
+      "title": "Real Heroes: Firefighter",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10531,
+      "title": "Skylanders SuperChargers: Starter Pack",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10176,
+      "title": "Surf's Up",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10202,
+      "title": "Tournament Of Legends",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10205,
+      "title": "Trackmania",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10208,
+      "title": "Transformers La Vendetta Del Caduto",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10260,
+      "title": "Wonderworld Amusement Park",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10262,
+      "title": "World of Zoo",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10279,
+      "title": "Zhu Zhu Pets: Wild Bunch",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9806,
+      "title": "Harvest Moon: Animal Parade",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9906,
+      "title": "Manhunt 2",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10132,
+      "title": "Sniper Elite + Fusil Sniper",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10135,
+      "title": "Sonic E Gli Anelli Segreti",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10136,
+      "title": "Sonic e il cavaliere nero",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10595,
+      "title": "Angry Birds Star Wars",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10678,
+      "title": "Monster High: 13 Wishes",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10686,
+      "title": "Ninja Gaiden 3 - Razor's Edge",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10725,
+      "title": "Super Mario Maker",
+      "console": "Wii U",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10754,
+      "title": "A Scuola Di Matematica",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10769,
+      "title": "Animal Life North America",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10770,
+      "title": "Animal Planet Professione Veterinario",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10771,
+      "title": "Animal Planet Veterinari D'emergenza (Emergency Vets)",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10776,
+      "title": "Aqua Panic",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10794,
+      "title": "Battleship",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10795,
+      "title": "BC One",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11382,
+      "title": "Ben 10 Protector Of Earth",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10803,
+      "title": "Best Of Tests",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10822,
+      "title": "Campioni Di Matematica",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10832,
+      "title": "Catz 2",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10833,
+      "title": "Chessmaster XI: L'Arte D'Apprendere",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10859,
+      "title": "Diabolik - The Original Sin",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10860,
+      "title": "Did It Mom, I - Questo l'ho Fatto Io",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10862,
+      "title": "Disney Frozen: Olaf's Quest",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10863,
+      "title": "Disney High School Musical 2: Work This Out",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10864,
+      "title": "Disney Jonas Brothers",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10881,
+      "title": "EA Playground",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10882,
+      "title": "Educazione Stradale Portatile",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10916,
+      "title": "Girl's Life",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10920,
+      "title": "Giulia Passione Avventure",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10928,
+      "title": "Giulia Passione Maestra",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10930,
+      "title": "Giulia Passione Matrimonio da Sogno",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10940,
+      "title": "Grease - Il Videogioco",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10944,
+      "title": "Guitar Hero On Tour Decades (Without Grip)",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10945,
+      "title": "Gunpey DS",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10946,
+      "title": "Hair Stylist Crea Il Tuo Look",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10979,
+      "title": "Imagine Interior Designer",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10985,
+      "title": "Indoor Sports Club",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10992,
+      "title": "Jenga: World Tour",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10993,
+      "title": "Jewel Master: Cradle of Rome",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11000,
+      "title": "Kung Fu Panda 2",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11026,
+      "title": "Let's Yoga",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11029,
+      "title": "Littlest Pet Shop Neve",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11034,
+      "title": "Mahjong Quest Expeditions",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11035,
+      "title": "Mahjongg",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11047,
+      "title": "Maths Play",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11052,
+      "title": "Mind Quiz Brain Coach",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11058,
+      "title": "Mindstorm 2",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11068,
+      "title": "Mio Personal Trainer Di Yoga",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11070,
+      "title": "Mio Salone Di Bellezza Per Animali, Il",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11077,
+      "title": "Monster Jam Urban Assault",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11086,
+      "title": "My Animal Centre In Africa",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11089,
+      "title": "My Horse & Me",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11129,
+      "title": "Pictionary",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11131,
+      "title": "Pinguini di Madagascar, I",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11137,
+      "title": "Planeta Da Salvare",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11166,
+      "title": "Princess On Ice",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11168,
+      "title": "Prism: Light The Way",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11172,
+      "title": "Professor Heinz Wolf's Gravity",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11206,
+      "title": "Rise Of The Guardians",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11208,
+      "title": "Rock Revolution",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11217,
+      "title": "Scuderia+Cavallo West+Scuola Cuccioli",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11223,
+      "title": "Settlers, The",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11239,
+      "title": "Solitaire DS",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11240,
+      "title": "Solitare Mahjong Ancient China Adventure",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11261,
+      "title": "Star Wars Il Potere Della Forza",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11263,
+      "title": "Starz",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11288,
+      "title": "Touch Darts",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11290,
+      "title": "Trackmania Turbo",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11296,
+      "title": "Turbo: Acrobazie In Pista",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11303,
+      "title": "Vita Di Emma Il Mio Rifugio Per Animali, La",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11324,
+      "title": "Zenses Ocean",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11325,
+      "title": "Zoo Hospital",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11328,
+      "title": "Zubo",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10755,
+      "title": "Ace Attorney Investigations Miles Edgeworth",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10760,
+      "title": "Alice in Wonderland",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10819,
+      "title": "Bust A Move",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10903,
+      "title": "Fire Emblem: Shadow Dragon",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10913,
+      "title": "Ghostbusters - Il Videogioco",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11006,
+      "title": "Last King Of Africa",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11045,
+      "title": "Marvel Trading Card Game",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11071,
+      "title": "Mistery Detective",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11075,
+      "title": "Monster High: 13 Desideri",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11076,
+      "title": "Monster House",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11128,
+      "title": "Picross",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11130,
+      "title": "Pictoimage",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11142,
+      "title": "Pokemon Link!",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11151,
+      "title": "Pokemon SoulSilver w/Pokewalker, Manual, Outer Box & Insert",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11191,
+      "title": "Race Driver: Create And Race",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11193,
+      "title": "Ralph Spaccatutto",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11253,
+      "title": "Spiderman Il Regno Delle Ombre",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11275,
+      "title": "Tetris DS",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12014,
+      "title": "Angry Birds Star Wars",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12064,
+      "title": "Detective Pikachu",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12070,
+      "title": "Disney Magical World 2",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12220,
+      "title": "Metroid: Samus Returns",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12224,
+      "title": "Mind Quiz Tieniti Allenato 3D",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12239,
+      "title": "Need for Speed The Run",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12251,
+      "title": "One Piece: Romance Dawn",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12277,
+      "title": "Pokemon Rumble World",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12287,
+      "title": "Power Rangers Super Mega Force",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12320,
+      "title": "Sam il Pompiere: Al Salvataggio",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12333,
+      "title": "Sims 3 Animali & Co",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12341,
+      "title": "Sonic & All-Stars Racing Transformed",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12364,
+      "title": "Sushi Striker: The Way of Sushido",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12380,
+      "title": "Transformers 3 Stealth Force Edition",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12387,
+      "title": "WarioWare Gold",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12405,
+      "title": "100 in 1 Game Collection",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12416,
+      "title": "Agatha Christie - Murder on the Orient Express",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12422,
+      "title": "Another Code: Recollection",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13100,
+      "title": "Arcade Paradise (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12435,
+      "title": "Atari 50: The Anniversary Celebration",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12443,
+      "title": "Batman: The Telltale Series",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12450,
+      "title": "Bendy And The Dark Revival",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12464,
+      "title": "Bounty Battle: The Ultimate Indie Brawler",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12467,
+      "title": "Bratz: Mostra Il Tuo Stile- Edizione Completa",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12479,
+      "title": "Cat Quest III",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12481,
+      "title": "Chi Vuol Essere Milionario",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13784,
+      "title": "Dragon is Dead - Guernian Edition w/ Cards, sleeve",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12550,
+      "title": "Evil Nun: The Broken Mask",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12562,
+      "title": "Fast & Furious Spy Racers Il Ritorno Della Sh1Ft3R",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12587,
+      "title": "Funko Fusion (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12592,
+      "title": "Garfield Kart Furious Racing",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12597,
+      "title": "Ghostbusters The Video Game Remastered",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12605,
+      "title": "Gothic: Classic Khorinis Saga",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12611,
+      "title": "Harvest Moon: Light of Hope Complete Edition",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12612,
+      "title": "Harvest Moon: Mad Dash",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13776,
+      "title": "Hello Kitty Kruisers",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13290,
+      "title": "Hotshot Racing",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12628,
+      "title": "House Of The Dead: Remake",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12640,
+      "title": "Instant Sports Plus",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12669,
+      "title": "Kitaria Fables",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13326,
+      "title": "Legend of Kay Anniversary",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13335,
+      "title": "Let's Sing 2018",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13338,
+      "title": "Little Dragons Cafe",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12717,
+      "title": "LOL Surprise BBS In Viaggio",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12736,
+      "title": "Marsupilami: Hoobadventure",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12764,
+      "title": "Moto Racer 4",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12782,
+      "title": "My Universe: School Teacher",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12851,
+      "title": "Planescape Torment and Icewind Dale",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12854,
+      "title": "Pocky & Rocky Reshined",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12899,
+      "title": "Rollercoaster Tycoon Adventures",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12909,
+      "title": "Samba de Amigo - Party Central",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12930,
+      "title": "Sniper Elite 3 - Ultimate Edition",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12945,
+      "title": "Sparklite",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12946,
+      "title": "Speed 3 Grand Prix",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13500,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12969,
+      "title": "Super Bomberman R",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12989,
+      "title": "System Shock 2 Remastered",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13017,
+      "title": "Transformers: Galactic Trials",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13027,
+      "title": "Truck Driver",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13028,
+      "title": "TT Isle of Man: Ride on the Edge 2",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12428,
+      "title": "Assassin's Creed Rebel Collection",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12445,
+      "title": "Bayonetta 2 (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12455,
+      "title": "Binding of Isaac, The: Afterbirth+",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12484,
+      "title": "Clock Tower Rewind",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13189,
+      "title": "Dave the Diver: Anniversary Edition (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13216,
+      "title": "Doki Doki Literature Club Plus",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12555,
+      "title": "Fantasian Neo Dimension",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13778,
+      "title": "Farming Simulator 26",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12563,
+      "title": "Fast & Furious: Arcade Edition",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12573,
+      "title": "Final Fantasy VII & VIII Twin Pack",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12671,
+      "title": "L.A. Noire",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13351,
+      "title": "Metal Gear Solid Master Collection Vol. 1",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12923,
+      "title": "Silver Case 2425, The - Deluxe Edition w/Artbook, OST",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12924,
+      "title": "Skautfold: Bloody Pack",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13520,
+      "title": "Terminator 2D: NO FATE Day One Ed. w/ Cloth Poster, Token & Manual Book",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13030,
+      "title": "Turok Trilogy Bundle",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13036,
+      "title": "Unicorn Overlord",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    }
+  ],
   "errors": []
 }
