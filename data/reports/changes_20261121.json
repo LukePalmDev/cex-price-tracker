@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-21T14:25:47.594518",
+    "generated_at": "2026-11-21T18:42:38.032280",
     "date": "2026-11-21",
-    "duration_sec": 157.0,
-    "total_scraped": 27603
+    "duration_sec": 172.0,
+    "total_scraped": 41405
   },
   "summary": {
     "new_games": 3,
     "price_changes": 0,
-    "availability_changes": 561,
-    "unchanged": 27039,
+    "availability_changes": 599,
+    "unchanged": 40803,
     "errors": 0
   },
   "new_games": [
@@ -3957,6 +3957,272 @@
     {
       "game_id": 13036,
       "title": "Unicorn Overlord",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 132,
+      "title": "Doom 3 Collector's Edition (18)",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 632,
+      "title": "Battlestations Pacific",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1790,
+      "title": "Tomb raider Legend",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1314,
+      "title": "Vancouver 2010 - Winter Olympics",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1682,
+      "title": "Peter Jackson's King Kong",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1777,
+      "title": "Tekken 6/Soul Calibur 5/Tekken Tag Tournament 2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1991,
+      "title": "Devil May Cry 5 (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2160,
+      "title": "Kingdom Hearts 3 Deluxe Edition (w/ Pin, Artbook & Steelbook)",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2511,
+      "title": "Tropico 5",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2865,
+      "title": "MotoGP 25 (Senza DLC)",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4090,
+      "title": "Commandos 2: Men Of Courage",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4218,
+      "title": "Fight Night Round 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4291,
+      "title": "Gungriffon Blaze",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4305,
+      "title": "Heatseeker",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4551,
+      "title": "Pinocchio",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4602,
+      "title": "Road Rage 3",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4794,
+      "title": "Torrente The Protector 3",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3977,
+      "title": "Armored Core 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4250,
+      "title": "Garfield",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3436,
+      "title": "Legend Of Spyro: The Eternal Night",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4429,
+      "title": "Metal Gear Solid 2: Subtstance",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4487,
+      "title": "Need for Speed: Hot Pursuit 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3833,
+      "title": "Star Wars Lego 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5167,
+      "title": "Genji Days of The Blade",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6150,
+      "title": "Atari Dungeons & Dragons: Tactics",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7181,
+      "title": "Labyrinth of Galleria: The Moon Society",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8047,
+      "title": "Lost Child, The",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8186,
+      "title": "Riot: Civil Unrest",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6817,
+      "title": "Bus Simulator 21",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7852,
+      "title": "Dark Souls III/The Witcher 3: Wild Hunt (2 Disc)",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8256,
+      "title": "Stranger of Paradise: Final Fantasy Origin",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9698,
+      "title": "Disney Infinity Starter Pack",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10366,
+      "title": "Donkey Kong Jet Race",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11163,
+      "title": "Powershot Pinball Constructor",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12114,
+      "title": "Fire Emblem: Awakening",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12168,
+      "title": "Kirby E La Stoffa Dell'Eroe",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13312,
+      "title": "L'era glaciale: La Strampalata Avventura di Scrat",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13416,
+      "title": "Paw Patrol: Gran Premio",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
