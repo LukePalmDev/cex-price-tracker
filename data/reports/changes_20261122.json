@@ -1,19 +1,159 @@
 {
   "metadata": {
-    "generated_at": "2026-11-22T04:49:46.346925",
+    "generated_at": "2026-11-22T14:18:39.717054",
     "date": "2026-11-22",
-    "duration_sec": 162.9,
-    "total_scraped": 13802
+    "duration_sec": 173.7,
+    "total_scraped": 27605
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 2,
     "price_changes": 0,
-    "availability_changes": 0,
-    "unchanged": 13802,
+    "availability_changes": 18,
+    "unchanged": 27585,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13805,
+      "title": "Move Street Cricket 2",
+      "console": "PS3",
+      "price": 20
+    },
+    {
+      "game_id": 13806,
+      "title": "I Love My Horse",
+      "console": "3DS",
+      "price": 28
+    }
+  ],
   "price_changes": [],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 162,
+      "title": "FIFA Street",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 228,
+      "title": "Indiana Jones E La Tomba Dell'imperatore",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1314,
+      "title": "Vancouver 2010 - Winter Olympics",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2547,
+      "title": "Way Out, A",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4731,
+      "title": "Star Trek Voyager - Elite Force",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4734,
+      "title": "Star wars bounty hunter",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6016,
+      "title": "Shrek 4 - E Vissero Felici E Contenti",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5034,
+      "title": "Dark Souls Prepare To Die Edition",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5277,
+      "title": "Lollipop Chainsaw",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6189,
+      "title": "Cattivissimo me",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6902,
+      "title": "Deadpool",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8451,
+      "title": "Asterix and Obelix XXL Collection",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9195,
+      "title": "Transformers: Earth Spark Expedition",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10192,
+      "title": "Tom Clancy's Ghost Recon",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11512,
+      "title": "Football Academy",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11251,
+      "title": "Spider-Man 3",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12307,
+      "title": "Rayman Origins",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12458,
+      "title": "Blacksad: Under The Skin",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
   "errors": []
 }
