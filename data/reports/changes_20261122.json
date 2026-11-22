@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-22T14:18:39.717054",
+    "generated_at": "2026-11-22T19:02:04.498617",
     "date": "2026-11-22",
-    "duration_sec": 173.7,
-    "total_scraped": 27605
+    "duration_sec": 153.6,
+    "total_scraped": 41410
   },
   "summary": {
-    "new_games": 2,
+    "new_games": 4,
     "price_changes": 0,
-    "availability_changes": 18,
-    "unchanged": 27585,
+    "availability_changes": 58,
+    "unchanged": 41348,
     "errors": 0
   },
   "new_games": [
@@ -24,6 +24,18 @@
       "title": "I Love My Horse",
       "console": "3DS",
       "price": 28
+    },
+    {
+      "game_id": 13807,
+      "title": "Bus Simulator 21 (Senza DLC)",
+      "console": "PS5",
+      "price": 28
+    },
+    {
+      "game_id": 13808,
+      "title": "Chicken Police - Paint it RED!",
+      "console": "Switch",
+      "price": 15
     }
   ],
   "price_changes": [],
@@ -153,6 +165,286 @@
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 437,
+      "title": "Shrek",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1022,
+      "title": "Michael Jackson The Experience (Kinect)",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1742,
+      "title": "Sims 3 Animali & Co",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1314,
+      "title": "Vancouver 2010 - Winter Olympics",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1368,
+      "title": "007 - Quantum of Solace",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1608,
+      "title": "Legend of Spyro, The: L'Alba del Drago",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1036,
+      "title": "Mortal Kombat",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1878,
+      "title": "Assassin's Creed Rogue Remastered",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2332,
+      "title": "Pro Evolution Soccer 2017",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2668,
+      "title": "Ghostrunner",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3980,
+      "title": "Army Men Air Attack: Blade's Revenge",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4224,
+      "title": "Fire Blade",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4400,
+      "title": "Mace Griffin: Bounty Hunter",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4701,
+      "title": "Socom Combined Assault",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4861,
+      "title": "Worms Blast",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4594,
+      "title": "Resident Evil Dead Aim",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4838,
+      "title": "Wild Arms 3",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6036,
+      "title": "Sly Trilogy",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6189,
+      "title": "Cattivissimo me",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6389,
+      "title": "Marvel La Grande Alleanza 2",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7768,
+      "title": "Atari Flashback Classics Collection Vol.1",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7769,
+      "title": "Atari Flashback Classics Collection Vol.2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6904,
+      "title": "Deformers",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8527,
+      "title": "Control Resonant",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10051,
+      "title": "Pro Evolution Soccer 2013",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10115,
+      "title": "Sherlock Holmes - L'orecchino D'argento",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10884,
+      "title": "Emergency",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11515,
+      "title": "Galactic Taz Ball",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11568,
+      "title": "Hello Kitty Avventura Di Compleanno",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11707,
+      "title": "Mio Oroscopo, Il",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11712,
+      "title": "Monster High: Il Circuito Scheletrico",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11925,
+      "title": "Tinker Bell/Tinker Bell and the Lost Treasure",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11932,
+      "title": "Tornado",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12243,
+      "title": "New Style Boutique 3",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12292,
+      "title": "Prof. Layton Katrielle E il Complotto, Il",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12303,
+      "title": "Rabbids Rumble",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13147,
+      "title": "Bridge Curse 2, The: The Extrication",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13265,
+      "title": "Gigantosaurus Il Gioco",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13434,
+      "title": "Professor Rubik's Brain Fitness",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13225,
+      "title": "EA Sports FC 27",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
