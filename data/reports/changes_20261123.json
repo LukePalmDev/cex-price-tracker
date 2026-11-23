@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-23T05:30:12.735280",
+    "generated_at": "2026-11-23T17:40:16.587784",
     "date": "2026-11-23",
-    "duration_sec": 190.0,
-    "total_scraped": 13806
+    "duration_sec": 139.1,
+    "total_scraped": 27614
   },
   "summary": {
-    "new_games": 1,
+    "new_games": 3,
     "price_changes": 0,
-    "availability_changes": 0,
-    "unchanged": 13805,
+    "availability_changes": 38,
+    "unchanged": 27573,
     "errors": 0
   },
   "new_games": [
@@ -18,9 +18,288 @@
       "title": "Hollow Knight: Silksong",
       "console": "PS5",
       "price": 40
+    },
+    {
+      "game_id": 13810,
+      "title": "Mafia II (18) Collector's Ed. w/Artbook, Steelbook, OST & Map (No DLC)",
+      "console": "Xbox 360",
+      "price": 45
+    },
+    {
+      "game_id": 13811,
+      "title": "James Pond: Codename Robocod",
+      "console": "Switch",
+      "price": 8
     }
   ],
   "price_changes": [],
-  "availability_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 442,
+      "title": "Signore Degli Anelli La Compagnia Dell'Anello, Il",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1684,
+      "title": "Pimp My Ride",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1410,
+      "title": "Batman: Arkham Origins (2 Dichi)",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1553,
+      "title": "Gears of War 2 Ed. Limitada w/Artbook, Foto & DVD (Senza DLC)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1816,
+      "title": "Vanquish",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1991,
+      "title": "Devil May Cry 5 (Senza DLC)",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3969,
+      "title": "Aqua Aqua Wetrix 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3980,
+      "title": "Army Men Air Attack: Blade's Revenge",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3045,
+      "title": "Buzz Junior: Dino Mania",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3047,
+      "title": "Buzz Junior: Monster Mania",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3048,
+      "title": "Buzz Junior: Robot Mania",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4251,
+      "title": "Garfield 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4580,
+      "title": "Rally Championship",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3828,
+      "title": "SSX Tricky",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4751,
+      "title": "Stuntman Ignition",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3977,
+      "title": "Armored Core 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4055,
+      "title": "Capcom Classics Collection Vol 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4105,
+      "title": "Curioso Come George",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4163,
+      "title": "Dragon Quest: L'Odissea Del Re",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4375,
+      "title": "Kuon w/Manual",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13662,
+      "title": "Viewtiful Joe",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5705,
+      "title": "Adventure Time: Finn E Jake Detective",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5993,
+      "title": "Ratatuille",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5983,
+      "title": "Portal 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6032,
+      "title": "Skylanders Swap Force Starter Pack",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6273,
+      "title": "Football Manager 2011",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6426,
+      "title": "Monster Hunter - Freedom Unite",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6633,
+      "title": "Tiger Woods PGA Tour 10",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13707,
+      "title": "Dungeons 2",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7073,
+      "title": "Gigantosaurus: Il Gioco",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7393,
+      "title": "Oxide Room 104",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9168,
+      "title": "Tintin Reporter: I Sigari del Faraone",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10312,
+      "title": "Bee Movie",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10366,
+      "title": "Donkey Kong Jet Race",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10506,
+      "title": "Rock Band 3",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11971,
+      "title": "Walk With Me: Scopri Il Tuo Ritmo Passo...",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13287,
+      "title": "Hot Wheels Monster Trucks: Stunt Mayhem",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13469,
+      "title": "Sifu",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    }
+  ],
   "errors": []
 }
