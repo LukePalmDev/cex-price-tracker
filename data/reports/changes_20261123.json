@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-23T17:40:16.587784",
+    "generated_at": "2026-11-23T23:22:56.874381",
     "date": "2026-11-23",
-    "duration_sec": 139.1,
-    "total_scraped": 27614
+    "duration_sec": 179.3,
+    "total_scraped": 41422
   },
   "summary": {
     "new_games": 3,
     "price_changes": 0,
-    "availability_changes": 38,
-    "unchanged": 27573,
+    "availability_changes": 43,
+    "unchanged": 41376,
     "errors": 0
   },
   "new_games": [
@@ -299,6 +299,41 @@
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2097,
+      "title": "Get Even",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6188,
+      "title": "Castlevania: The Dracula X Chronicles",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10606,
+      "title": "Bayonetta 1",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10903,
+      "title": "Fire Emblem: Shadow Dragon",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13782,
+      "title": "Project Warlock - Super Rare Games",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
     }
   ],
   "errors": []
