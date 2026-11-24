@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "exported_at": "2026-11-24T03:56:53.806840",
+    "exported_at": "2026-11-24T08:06:54.016793",
     "total_games": 13811,
-    "version": "20261124_035653",
+    "version": "20261124_080654",
     "statistics": {
       "total_games": 13811,
-      "available_games": 8156,
-      "unavailable_games": 5655,
+      "available_games": 8154,
+      "unavailable_games": 5657,
       "by_console": {
         "PS2": 2038,
         "PS4": 1745,
@@ -30,16 +30,16 @@
       "daily_summary": {
         "new_games": 0,
         "price_changes": 0,
-        "availability_changes": 0,
-        "unchanged": 13808,
+        "availability_changes": 2,
+        "unchanged": 27614,
         "errors": 0
       }
     }
   },
   "statistics": {
     "total_games": 13811,
-    "available_games": 8156,
-    "unavailable_games": 5655,
+    "available_games": 8154,
+    "unavailable_games": 5657,
     "by_console": {
       "PS2": 2038,
       "PS4": 1745,
@@ -63,8 +63,8 @@
     "daily_summary": {
       "new_games": 0,
       "price_changes": 0,
-      "availability_changes": 0,
-      "unchanged": 13808,
+      "availability_changes": 2,
+      "unchanged": 27614,
       "errors": 0
     }
   },
@@ -7676,6 +7676,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
+        "The Wow Side",
         "Le Corti Venete"
       ],
       "is_available": 1,
@@ -132192,6 +132193,7 @@
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
         "Gran Roma",
+        "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
       ],
@@ -149890,6 +149892,7 @@
         "Gran Roma",
         "La Romanina",
         "The Wow Side",
+        "Le Corti Venete",
         "Merlata Bloom"
       ],
       "is_available": 0,
@@ -163669,8 +163672,8 @@
       "current_price": 10.0,
       "cash_price": 3.0,
       "exchange_price": 5.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -163684,13 +163687,13 @@
         "Le Corti Venete",
         "Merlata Bloom"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=8154030104138",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-24",
       "last_price_change": null,
-      "last_availability_change": "2026-11-23",
+      "last_availability_change": "2026-11-24",
       "image_url": null,
       "box_id": "8154030104138",
       "price_history_30d": [
@@ -202669,6 +202672,7 @@
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
+        "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
       ],
@@ -233407,6 +233411,7 @@
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
+        "Milano Viale Tunisia",
         "La Romanina",
         "The Wow Side",
         "Le Corti Venete"
@@ -256337,6 +256342,7 @@
       "collection_quantity": 3,
       "out_of_stock_stores": [
         "RMA CENTRE",
+        "Bologna Amendola",
         "IT Ecommerce",
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
@@ -321790,6 +321796,7 @@
         "Gran Roma",
         "La Romanina",
         "The Wow Side",
+        "Le Corti Venete",
         "Merlata Bloom"
       ],
       "is_available": 0,
@@ -370157,8 +370164,8 @@
       "current_price": 28.0,
       "cash_price": 14.0,
       "exchange_price": 18.0,
-      "ecom_quantity": 1,
-      "collection_quantity": 1,
+      "ecom_quantity": 0,
+      "collection_quantity": 0,
       "out_of_stock_stores": [
         "RMA CENTRE",
         "Bologna Amendola",
@@ -370172,13 +370179,13 @@
         "The Wow Side",
         "Le Corti Venete"
       ],
-      "is_available": 1,
+      "is_available": 0,
       "condition": null,
       "url": "https://it.webuy.com/product-detail/?id=5055060906286",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-24",
       "last_price_change": null,
-      "last_availability_change": "2026-11-11",
+      "last_availability_change": "2026-11-24",
       "image_url": null,
       "box_id": "5055060906286",
       "price_history_30d": [
@@ -468338,6 +468345,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
+        "Gran Roma",
         "La Romanina",
         "Le Corti Venete"
       ],
@@ -534399,7 +534407,8 @@
         "Gran Roma",
         "La Romanina",
         "The Wow Side",
-        "Le Corti Venete"
+        "Le Corti Venete",
+        "Merlata Bloom"
       ],
       "is_available": 1,
       "condition": null,
