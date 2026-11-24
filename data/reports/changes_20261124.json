@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-24T17:11:09.228434",
+    "generated_at": "2026-11-24T21:56:10.018586",
     "date": "2026-11-24",
-    "duration_sec": 158.3,
-    "total_scraped": 41424
+    "duration_sec": 166.6,
+    "total_scraped": 55232
   },
   "summary": {
     "new_games": 0,
     "price_changes": 0,
-    "availability_changes": 42,
-    "unchanged": 41382,
+    "availability_changes": 48,
+    "unchanged": 55184,
     "errors": 0
   },
   "new_games": [],
@@ -305,6 +305,48 @@
     {
       "game_id": 12824,
       "title": "One Piece Pirate Warriors 4",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 95,
+      "title": "Conker: Live & Reloaded",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3589,
+      "title": "Phoenix Arcade Action: 30 games",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7311,
+      "title": "MXGP 19",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7094,
+      "title": "Hades",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8932,
+      "title": "Nickelodeon All Star Brawl 2",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13004,
+      "title": "Tennis World Tour 2",
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
