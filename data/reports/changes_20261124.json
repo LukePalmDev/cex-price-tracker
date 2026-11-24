@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-24T08:06:53.798168",
+    "generated_at": "2026-11-24T17:11:09.228434",
     "date": "2026-11-24",
-    "duration_sec": 161.7,
-    "total_scraped": 27616
+    "duration_sec": 158.3,
+    "total_scraped": 41424
   },
   "summary": {
     "new_games": 0,
     "price_changes": 0,
-    "availability_changes": 2,
-    "unchanged": 27614,
+    "availability_changes": 42,
+    "unchanged": 41382,
     "errors": 0
   },
   "new_games": [],
@@ -25,6 +25,286 @@
     {
       "game_id": 13361,
       "title": "Monster Hunter Rise: Sunbreak",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 95,
+      "title": "Conker: Live & Reloaded",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 170,
+      "title": "FlatOut",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 294,
+      "title": "Midnight Club 3",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 477,
+      "title": "Star Wars Battlefront",
+      "console": "Xbox",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1512,
+      "title": "Driver San Francisco",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 950,
+      "title": "L'era Glaciale 3 - L'alba Dei Dinosauri",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1152,
+      "title": "Resident Evil 5 - Gold Edition",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1765,
+      "title": "Star Wars: Force Unleashed II/2",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3047,
+      "title": "Buzz Junior: Monster Mania",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3179,
+      "title": "Ejay Clubworld",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4218,
+      "title": "Fight Night Round 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3977,
+      "title": "Armored Core 2",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3092,
+      "title": "Colosseum Road to freedom",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3307,
+      "title": "Gradius III and IV",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4337,
+      "title": "James Bond 007: Everything or Nothing",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3420,
+      "title": "King Of Fighters - Orochi Saga",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 3819,
+      "title": "Spy Hunter Nowhere to Run",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13693,
+      "title": "YS - The Ark of Napishtim",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5874,
+      "title": "Hitman Trilogy",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6044,
+      "title": "Splatterhouse",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 6303,
+      "title": "God of War - Ghost of Sparta",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7311,
+      "title": "MXGP 19",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9479,
+      "title": "Spawn Armageddon",
+      "console": "GameCube",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10441,
+      "title": "Let's Dance With Mel B.",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11704,
+      "title": "Mini Ninjas",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11711,
+      "title": "Monster High Scuola Da Paura",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11825,
+      "title": "Ribelle The Brave",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11999,
+      "title": "Zenses Rainforest",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10808,
+      "title": "Blue Dragon: Awakened Shadow",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11473,
+      "title": "Dragon Quest IX Le Sentinelle Del Cielo",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11523,
+      "title": "Ghost Trick - Detective Fantasma",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11709,
+      "title": "Monopoly",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11096,
+      "title": "Nanostray 2",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11253,
+      "title": "Spiderman Il Regno Delle Ombre",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11970,
+      "title": "Wacky Races",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12072,
+      "title": "Disney Princess: Magica Avventura",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12132,
+      "title": "Happy Feet 2",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12168,
+      "title": "Kirby E La Stoffa Dell'Eroe",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12372,
+      "title": "Tetris",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12824,
+      "title": "One Piece Pirate Warriors 4",
       "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
