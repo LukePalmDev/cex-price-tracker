@@ -1,18 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-11-25T06:45:46.244534",
+    "generated_at": "2026-11-25T16:59:15.092090",
     "date": "2026-11-25",
-    "duration_sec": 158.4,
-    "total_scraped": 27616
+    "duration_sec": 200.9,
+    "total_scraped": 41425
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 1,
     "price_changes": 0,
-    "availability_changes": 2,
-    "unchanged": 27614,
+    "availability_changes": 42,
+    "unchanged": 41382,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13812,
+      "title": "Hellraiser: Revival",
+      "console": "PS5",
+      "price": 35
+    }
+  ],
   "price_changes": [],
   "availability_changes": [
     {
@@ -26,6 +33,286 @@
       "game_id": 12391,
       "title": "Xenoblade Chronicles 3D (New 3DS Only)",
       "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 46,
+      "title": "Blood Wake",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 170,
+      "title": "FlatOut",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 294,
+      "title": "Midnight Club 3",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 384,
+      "title": "Quantum Redshift",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1444,
+      "title": "Cabela's Survival: Shadows Of Katmai + Fucile",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 777,
+      "title": "Dragonball Raging Blast",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 807,
+      "title": "Fable 2 GOTY Edition",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2694,
+      "title": "Little Nightmares II (2)",
+      "console": "Xbox CrossGen",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2779,
+      "title": "Anno 1800",
+      "console": "Xbox Series",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2965,
+      "title": "Agente Hugo Roborumble",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4082,
+      "title": "Club Football - Juventus Turin",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4349,
+      "title": "Junior Board Games",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4145,
+      "title": "Digimon World 4",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3742,
+      "title": "Silent Line: Armored Core",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4784,
+      "title": "Time Crisis 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5871,
+      "title": "Hellboy - Science Of Evil",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6011,
+      "title": "Sbk Generations",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6050,
+      "title": "Starhawk",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6102,
+      "title": "Warriors Legends of Troy",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5786,
+      "title": "Deadly Premonition",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5846,
+      "title": "Fist of the North Star: Ken's Rage 2",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6144,
+      "title": "Army of Two: 40 Giorno",
+      "console": "PSP",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7073,
+      "title": "Gigantosaurus: Il Gioco",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 7311,
+      "title": "MXGP 19",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8186,
+      "title": "Riot: Civil Unrest",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 7928,
+      "title": "Evil Dead: The Game",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8400,
+      "title": "1348 Ex Voto: Golden Edition (No DLC) w/ Artbook, Patch & Letter",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10422,
+      "title": "Igor - The Game",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10495,
+      "title": "Power Rangers Samurai",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10480,
+      "title": "Nights Journey Of Dreams",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10741,
+      "title": "Wii Fit U + Fit Meter",
+      "console": "Wii U",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11670,
+      "title": "Marvel Nemesis Rise of the Imperfects",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10903,
+      "title": "Fire Emblem: Shadow Dragon",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13086,
+      "title": "Afterimage (No DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12851,
+      "title": "Planescape Torment and Icewind Dale",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13479,
+      "title": "Sniper Elite 4",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13794,
+      "title": "Cruis'n Blast",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13328,
+      "title": "Legend of Zelda: Link's Awakening Limited Ed. w/Artbook & Steelbook",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13491,
+      "title": "Spy X Anya: Operation Memories (Senza DLC)",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13520,
+      "title": "Terminator 2D: NO FATE Day One Ed. w/ Cloth Poster, Token & Manual Book",
+      "console": "Switch",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
