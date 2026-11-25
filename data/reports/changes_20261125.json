@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-11-25T16:59:15.092090",
+    "generated_at": "2026-11-25T21:02:34.770092",
     "date": "2026-11-25",
-    "duration_sec": 200.9,
-    "total_scraped": 41425
+    "duration_sec": 125.0,
+    "total_scraped": 55234
   },
   "summary": {
     "new_games": 1,
     "price_changes": 0,
-    "availability_changes": 42,
-    "unchanged": 41382,
+    "availability_changes": 50,
+    "unchanged": 55183,
     "errors": 0
   },
   "new_games": [
@@ -313,6 +313,62 @@
       "game_id": 13520,
       "title": "Terminator 2D: NO FATE Day One Ed. w/ Cloth Poster, Token & Manual Book",
       "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 473,
+      "title": "SSX On Tour",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 2258,
+      "title": "MXGP 2",
+      "console": "Xbox One",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5201,
+      "title": "Harry Potter e il Principe Mezzosangue",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8672,
+      "title": "Final Fantasy VII Remake Integrade & Rebirth Twin Pack Edition",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 10496,
+      "title": "Prince of Persia: Rival Swords",
+      "console": "Wii",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11480,
+      "title": "Ducati Moto",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11709,
+      "title": "Monopoly",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12372,
+      "title": "Tetris",
+      "console": "3DS",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
     }
