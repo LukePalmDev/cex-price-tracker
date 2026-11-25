@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-25T02:08:53.833202",
+    "date": "2026-11-25",
+    "duration_sec": 173.2,
+    "total_scraped": 13808
+  },
+  "summary": {
+    "new_games": 0,
+    "price_changes": 0,
+    "availability_changes": 2,
+    "unchanged": 13806,
+    "errors": 0
+  },
+  "new_games": [],
+  "price_changes": [],
+  "availability_changes": [
+    {
+      "game_id": 5963,
+      "title": "Ninja Gaiden 3 Razor's Edge",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 12391,
+      "title": "Xenoblade Chronicles 3D (New 3DS Only)",
+      "console": "3DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    }
+  ],
+  "errors": []
+}
