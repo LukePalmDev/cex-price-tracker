@@ -1,19 +1,1948 @@
 {
   "metadata": {
-    "generated_at": "2026-11-26T01:45:45.642481",
+    "generated_at": "2026-11-26T06:36:48.644432",
     "date": "2026-11-26",
-    "duration_sec": 189.1,
-    "total_scraped": 13809
+    "duration_sec": 138.0,
+    "total_scraped": 27618
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 0,
+    "price_changes": 241,
     "availability_changes": 6,
-    "unchanged": 13803,
+    "unchanged": 27371,
     "errors": 0
   },
   "new_games": [],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "game_id": 9589,
+      "title": "Barbie: Groom and Glam Pups",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9634,
+      "title": "Call Of Duty: Black Ops",
+      "console": "Wii",
+      "new_price": 3.5,
+      "old_price": 5.0,
+      "variation_pct": -30.0
+    },
+    {
+      "game_id": 9640,
+      "title": "Cars",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 9665,
+      "title": "Cooking Mama",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9666,
+      "title": "Cooking Mama 2 World Kitchen",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 9698,
+      "title": "Disney Infinity Starter Pack",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9715,
+      "title": "Donkey Kong Country Returns",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 9716,
+      "title": "Donkey Kong Jungle Beat",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 20.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 10373,
+      "title": "Endless Ocean 2",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9739,
+      "title": "F1 2009",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 9754,
+      "title": "Ferrari Challenge Trofeo Pirelli",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 9791,
+      "title": "Great Party Games",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 9818,
+      "title": "Hot Wheels: Beat the Track",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9832,
+      "title": "James Bond Golden Eye 007",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 9840,
+      "title": "Just Dance 2014",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 9842,
+      "title": "Just Dance 2016",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 9847,
+      "title": "Just Dance 2: Extra Songs",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 9879,
+      "title": "LEGO Batman 2 - DC Super Heroes",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 9881,
+      "title": "Lego Harry Potter Anni 5-7",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 9898,
+      "title": "Madagascar 2 Escape 2 Africa",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 9911,
+      "title": "Mario Kart (No Wheel)",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 9915,
+      "title": "Mario Power Tennis",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 9938,
+      "title": "Monster Hunter 3 Tri",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 9946,
+      "title": "More Game Party",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 9980,
+      "title": "Need for Speed Carbon",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 6.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 9981,
+      "title": "Need For Speed Nitro",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10001,
+      "title": "Nuovo Carnival Arriva IL Luna Park!",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 10005,
+      "title": "One Piece Unlimited Cruise",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10006,
+      "title": "One Piece Unlimited Cruise 2",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10020,
+      "title": "Pikmin 2",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10025,
+      "title": "Pirati Dei Caraibi - Ai Confini Del Mondo",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10036,
+      "title": "Pony Friends 2",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10041,
+      "title": "Prince of Persia Le Sabbie Dimenticate",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10059,
+      "title": "Rabbids Go Home",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10061,
+      "title": "Rally Racer",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10067,
+      "title": "Rapala Pro Bass Fishing + Canya",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10081,
+      "title": "Red Steel 2 (Game Only)",
+      "console": "Wii",
+      "new_price": 4,
+      "old_price": 6.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 10506,
+      "title": "Rock Band 3",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10510,
+      "title": "Rygar - The Battle of Argus",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10108,
+      "title": "Secret Files: Tunguska",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 10121,
+      "title": "Simpsons il videogioco, I",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10124,
+      "title": "Sims 3, The",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10133,
+      "title": "Sonic & Sega All Star Racing",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10134,
+      "title": "Sonic Colours",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10152,
+      "title": "Sports Island 2",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10156,
+      "title": "Star Trek Conquest",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 10157,
+      "title": "Star Wars - Il Potere Della Forza",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10159,
+      "title": "Star Wars: Potere Della Forza 2",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10180,
+      "title": "Teenage Mutant Ninja Turtles Smash Up",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10203,
+      "title": "Toy Story 3",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10211,
+      "title": "Trivial Pursuit",
+      "console": "Wii",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10221,
+      "title": "UP",
+      "console": "Wii",
+      "new_price": 6,
+      "old_price": 4.0,
+      "variation_pct": 50.0
+    },
+    {
+      "game_id": 10231,
+      "title": "Wall-E",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10233,
+      "title": "Wario Ware: Smooth Moves",
+      "console": "Wii",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10248,
+      "title": "Wii Music",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10253,
+      "title": "Wii Sports Resort",
+      "console": "Wii",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10276,
+      "title": "Yu-Gi-Oh! 5D'S Master Of The Cards",
+      "console": "Wii",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10278,
+      "title": "Zack & Wiki: Tesoro Del Pirata Barbaros",
+      "console": "Wii",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 9568,
+      "title": "Animal Crossing: Let's Go to the City",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 9669,
+      "title": "Crash - Il Dominio Sui Mutanti",
+      "console": "Wii",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 9690,
+      "title": "Dead Space Extraction",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 10366,
+      "title": "Donkey Kong Jet Race",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10428,
+      "title": "Ju-On Rancore",
+      "console": "Wii",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 9850,
+      "title": "Just Dance Disney Party",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 10432,
+      "title": "King of Fighters Collection Orochi Saga",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 9875,
+      "title": "Legend of Zelda: Skyward Sword",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 9906,
+      "title": "Manhunt 2",
+      "console": "Wii",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 9912,
+      "title": "Mario Kart - With Wheel",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 9913,
+      "title": "Mario Party 8",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 10455,
+      "title": "Metal Slug Anthology",
+      "console": "Wii",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 9926,
+      "title": "Metroid: Other M",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 9988,
+      "title": "New Super Mario Bros",
+      "console": "Wii",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 10033,
+      "title": "Pokepark 2: Il Mondo Dei Desideri",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 10057,
+      "title": "Punch-Out",
+      "console": "Wii",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 10085,
+      "title": "Resident Evil - Umbrella Chronicles",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 10086,
+      "title": "Resident Evil 4",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 10087,
+      "title": "Resident Evil Archives",
+      "console": "Wii",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 10115,
+      "title": "Sherlock Holmes - L'orecchino D'argento",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10128,
+      "title": "Skylanders Giants Starter Pack",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 10170,
+      "title": "Super Mario Galaxy 2",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 10172,
+      "title": "Super Paper Mario",
+      "console": "Wii",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 10173,
+      "title": "Super Smash Bros Brawl",
+      "console": "Wii",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 10232,
+      "title": "Wario Land The Shake Dimension",
+      "console": "Wii",
+      "new_price": 30,
+      "old_price": 35.0,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 10249,
+      "title": "Wii Party",
+      "console": "Wii",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 10590,
+      "title": "007 Legends",
+      "console": "Wii U",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10593,
+      "title": "Amazing Spider-Man 2",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10600,
+      "title": "Assassin's Creed IV Black Flag",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10604,
+      "title": "Batman Arkham Origins",
+      "console": "Wii U",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10606,
+      "title": "Bayonetta 1",
+      "console": "Wii U",
+      "new_price": 30,
+      "old_price": 28.0,
+      "variation_pct": 7.14
+    },
+    {
+      "game_id": 10614,
+      "title": "Captain Toad: Treasure Tracker",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10615,
+      "title": "Cars 3",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 10626,
+      "title": "Disney Planes",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 2.5,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10627,
+      "title": "Donkey Kong Country Tropical Freeze",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10633,
+      "title": "FIFA 13",
+      "console": "Wii U",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10636,
+      "title": "Game Party Champions",
+      "console": "Wii U",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 10639,
+      "title": "Hyrule Warriors",
+      "console": "Wii U",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 10642,
+      "title": "Just Dance 2014",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 10643,
+      "title": "Just Dance 2015",
+      "console": "Wii U",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10644,
+      "title": "Just Dance 2016",
+      "console": "Wii U",
+      "new_price": 2.5,
+      "old_price": 3.5,
+      "variation_pct": -28.57
+    },
+    {
+      "game_id": 10645,
+      "title": "Just Dance 2017",
+      "console": "Wii U",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10646,
+      "title": "Just Dance 2018",
+      "console": "Wii U",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10647,
+      "title": "Just Dance 2019",
+      "console": "Wii U",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10648,
+      "title": "Just Dance 4",
+      "console": "Wii U",
+      "new_price": 5,
+      "old_price": 6.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10651,
+      "title": "Kirby e il Pennello Arcobaleno",
+      "console": "Wii U",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 10654,
+      "title": "Legend of Zelda: Breath of the Wild",
+      "console": "Wii U",
+      "new_price": 30,
+      "old_price": 32.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 10659,
+      "title": "Lego City Undercover",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 3.5,
+      "variation_pct": -14.29
+    },
+    {
+      "game_id": 10661,
+      "title": "Lego Hobbit",
+      "console": "Wii U",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10662,
+      "title": "LEGO Jurassic World",
+      "console": "Wii U",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10664,
+      "title": "LEGO Marvel Superheroes",
+      "console": "Wii U",
+      "new_price": 2.5,
+      "old_price": 3.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10665,
+      "title": "Lego Movie Videogame, The",
+      "console": "Wii U",
+      "new_price": 3,
+      "old_price": 4.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 10666,
+      "title": "Lego Star Wars: Il Risveglio Della Forza",
+      "console": "Wii U",
+      "new_price": 6,
+      "old_price": 8.0,
+      "variation_pct": -25.0
+    },
+    {
+      "game_id": 10667,
+      "title": "Mario & Sonic ai Giochi Olimpici di Rio 2016",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10668,
+      "title": "Mario & Sonic Ai Giochi Olimpici Invernali Di Sochi 2014",
+      "console": "Wii U",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 10669,
+      "title": "Mario Kart 8",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10671,
+      "title": "Mario Party 10",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10674,
+      "title": "Mass Effect 3",
+      "console": "Wii U",
+      "new_price": 6,
+      "old_price": 5.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10677,
+      "title": "Minecraft: Wii U Edition",
+      "console": "Wii U",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10680,
+      "title": "Monster Hunter Ultimate 3",
+      "console": "Wii U",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10685,
+      "title": "New Super Mario Bros. U & Super Luigi U",
+      "console": "Wii U",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 10687,
+      "title": "Nintendo Land",
+      "console": "Wii U",
+      "new_price": 4,
+      "old_price": 5.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10688,
+      "title": "One Piece Unlimited World Red",
+      "console": "Wii U",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 10692,
+      "title": "Paper Mario - Color Splash",
+      "console": "Wii U",
+      "new_price": 28,
+      "old_price": 30.0,
+      "variation_pct": -6.67
+    },
+    {
+      "game_id": 10696,
+      "title": "Pokken Tournament (No Mewtwo Card)",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10699,
+      "title": "Rayman Legends",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10716,
+      "title": "Splatoon",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10724,
+      "title": "Super Mario 3D World",
+      "console": "Wii U",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10727,
+      "title": "Super Smash Bros.",
+      "console": "Wii U",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10728,
+      "title": "Tank! Tank! Tank!",
+      "console": "Wii U",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 10732,
+      "title": "Tokyo Mirage Sessions FE",
+      "console": "Wii U",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 10745,
+      "title": "Yoshi's Woolly World",
+      "console": "Wii U",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 10747,
+      "title": "Zombi U",
+      "console": "Wii U",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 10804,
+      "title": "Beyblade Metal Fusion: Cyber Pegasus",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10831,
+      "title": "Catz",
+      "console": "DS",
+      "new_price": 4,
+      "old_price": 6.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 10873,
+      "title": "Dragon Ball Z: Goku Densetsu",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10894,
+      "title": "Fifa 06",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 11111,
+      "title": "Nintendogs - Labrador & Friends",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 11113,
+      "title": "Nintendogs Dalmatian & Friends",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 11306,
+      "title": "Wall- E",
+      "console": "DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 10757,
+      "title": "Advance Wars: Dual Strike",
+      "console": "DS",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 10760,
+      "title": "Alice in Wonderland",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 10767,
+      "title": "Animal Crossing Wild World",
+      "console": "DS",
+      "new_price": 35,
+      "old_price": 40.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 11349,
+      "title": "Another Code Two Memories DS",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11369,
+      "title": "Bangai'O Spirits",
+      "console": "DS",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 10808,
+      "title": "Blue Dragon: Awakened Shadow",
+      "console": "DS",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 11399,
+      "title": "Bomberman Story",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11419,
+      "title": "Capitan Tsubasa New Kick Off",
+      "console": "DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11435,
+      "title": "Civilization Revolution",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 11460,
+      "title": "Diddy Kong Racing",
+      "console": "DS",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 10875,
+      "title": "Dragon Ball: Origins",
+      "console": "DS",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 10884,
+      "title": "Emergency",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 11523,
+      "title": "Ghost Trick - Detective Fantasma",
+      "console": "DS",
+      "new_price": 55,
+      "old_price": 50.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 10959,
+      "title": "Hello Kitty: Big City Dreams",
+      "console": "DS",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 10984,
+      "title": "Inazuma Eleven 2 - Tempesta Di Fuoco",
+      "console": "DS",
+      "new_price": 22,
+      "old_price": 25.0,
+      "variation_pct": -12.0
+    },
+    {
+      "game_id": 11590,
+      "title": "Infinite Space",
+      "console": "DS",
+      "new_price": 18,
+      "old_price": 15.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11017,
+      "title": "LEGO Ninjago",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11650,
+      "title": "Looney Tunes Cartoon In Tournee",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 11666,
+      "title": "Mario & Luigi Partners in Time",
+      "console": "DS",
+      "new_price": 70,
+      "old_price": 65.0,
+      "variation_pct": 7.69
+    },
+    {
+      "game_id": 11037,
+      "title": "Mario & Luigi Viaggio Al Centro Di Bowser",
+      "console": "DS",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 11038,
+      "title": "Mario & Sonic Ai Giochi Olimpici",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11040,
+      "title": "Mario Kart DS",
+      "console": "DS",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11688,
+      "title": "Metroid Prime Hunters: First Hunt",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11096,
+      "title": "Nanostray 2",
+      "console": "DS",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 11115,
+      "title": "Orcs & Elves",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 11135,
+      "title": "Pirati Dei Caraibi Maledizione Del Forziere Fantasma",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 11141,
+      "title": "Pokemon HeartGold No Pokewalker",
+      "console": "DS",
+      "new_price": 120,
+      "old_price": 125.0,
+      "variation_pct": -4.0
+    },
+    {
+      "game_id": 11146,
+      "title": "Pokemon Mystery Dungeon: Esploratori del Cielo",
+      "console": "DS",
+      "new_price": 115,
+      "old_price": 110.0,
+      "variation_pct": 4.55
+    },
+    {
+      "game_id": 11153,
+      "title": "Pokemon Versione Bianca 2",
+      "console": "DS",
+      "new_price": 90,
+      "old_price": 95.0,
+      "variation_pct": -5.26
+    },
+    {
+      "game_id": 11154,
+      "title": "Pokemon Versione Diamante",
+      "console": "DS",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 11155,
+      "title": "Pokemon Versione Nera",
+      "console": "DS",
+      "new_price": 70,
+      "old_price": 72.0,
+      "variation_pct": -2.78
+    },
+    {
+      "game_id": 11156,
+      "title": "Pokemon Versione Nera 2",
+      "console": "DS",
+      "new_price": 80,
+      "old_price": 85.0,
+      "variation_pct": -5.88
+    },
+    {
+      "game_id": 11163,
+      "title": "Powershot Pinball Constructor",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 11178,
+      "title": "Professor Layton: E Lo Scrigno Di Pandora",
+      "console": "DS",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 11853,
+      "title": "Sim Animals: Africa",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 11855,
+      "title": "Sims 2 Pets",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11863,
+      "title": "Sonic Classic Collection",
+      "console": "DS",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 11243,
+      "title": "Sonic Rush",
+      "console": "DS",
+      "new_price": 30,
+      "old_price": 25.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11251,
+      "title": "Spider-Man 3",
+      "console": "DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 11253,
+      "title": "Spiderman Il Regno Delle Ombre",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11891,
+      "title": "Star Wars Gli Eroi Della Repubblica",
+      "console": "DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11915,
+      "title": "Teenage Mutant Ninja Turtles: Smash Up",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11276,
+      "title": "Tetris Party Deluxe",
+      "console": "DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 11920,
+      "title": "The Incredibles : Rise Of The Underminer",
+      "console": "DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 11309,
+      "title": "Winx Club 3 Enchantix",
+      "console": "DS",
+      "new_price": 22,
+      "old_price": 20.0,
+      "variation_pct": 10.0
+    },
+    {
+      "game_id": 11312,
+      "title": "Winx Rockstar",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 11993,
+      "title": "Yu-Gi-Oh World Champ 2008",
+      "console": "DS",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 11995,
+      "title": "Yu-Gi-Oh! Nightmare Troubadour",
+      "console": "DS",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12016,
+      "title": "Animal Crossing: Happy Home Designer (No Card)",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12019,
+      "title": "Asphalt 3D",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 12036,
+      "title": "Bravely Default",
+      "console": "3DS",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12063,
+      "title": "Dead or Alive Dimensions",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 12066,
+      "title": "Disney Art Academy",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 12073,
+      "title": "Donkey Kong Country Returns 3D",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12081,
+      "title": "Dragonball Z: Extreme Butoden",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12100,
+      "title": "Fast & Furious Showdown",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 12139,
+      "title": "Heroes of Ruin",
+      "console": "3DS",
+      "new_price": 15,
+      "old_price": 12.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12156,
+      "title": "Inazuma Eleven 3: Fuoco Esplosivo",
+      "console": "3DS",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12158,
+      "title": "Inazuma Eleven 3: Ogre All'attacco",
+      "console": "3DS",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 12160,
+      "title": "Inazuma Eleven Go Ombra",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 22.0,
+      "variation_pct": -9.09
+    },
+    {
+      "game_id": 12161,
+      "title": "Inazuma Eleven Go: Chrono Stones Thunderflash",
+      "console": "3DS",
+      "new_price": 42,
+      "old_price": 48.0,
+      "variation_pct": -12.5
+    },
+    {
+      "game_id": 12162,
+      "title": "Inazuma Eleven Go: Luce",
+      "console": "3DS",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12166,
+      "title": "Kid Icarus: Uprising With Stand",
+      "console": "3DS",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 12168,
+      "title": "Kirby E La Stoffa Dell'Eroe",
+      "console": "3DS",
+      "new_price": 35,
+      "old_price": 30.0,
+      "variation_pct": 16.67
+    },
+    {
+      "game_id": 12169,
+      "title": "Kirby Planet Robobot",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 12171,
+      "title": "Kirby: Triple Deluxe",
+      "console": "3DS",
+      "new_price": 15,
+      "old_price": 18.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12172,
+      "title": "Kung Fu Panda: Scontro Finale Delle Leggende Leggendarie",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12182,
+      "title": "LEGO Batman 2 - DC Super Heroes",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 12208,
+      "title": "Mario & Sonic Ai Giochi Olimpici Di Londra 2012",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 12209,
+      "title": "Mario & Sonic Ai Giochi Olimpici Di Rio 2016",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 12211,
+      "title": "Mario Kart 7",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12212,
+      "title": "Mario Party Island Tour",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 10.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12214,
+      "title": "Mario Party: Star Rush",
+      "console": "3DS",
+      "new_price": 18,
+      "old_price": 22.0,
+      "variation_pct": -18.18
+    },
+    {
+      "game_id": 12215,
+      "title": "Mario Sports Superstars (No Amiibo Card)",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12216,
+      "title": "Mario Tennis Open",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 12218,
+      "title": "Metal Gear Solid: Snake Eater 3D",
+      "console": "3DS",
+      "new_price": 45,
+      "old_price": 50.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12220,
+      "title": "Metroid: Samus Returns",
+      "console": "3DS",
+      "new_price": 40,
+      "old_price": 38.0,
+      "variation_pct": 5.26
+    },
+    {
+      "game_id": 12223,
+      "title": "Miitopia",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 12.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12227,
+      "title": "Monster High: 13 Desideri",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 10.0,
+      "variation_pct": 20.0
+    },
+    {
+      "game_id": 12230,
+      "title": "Monster Hunter 4 Ultimate",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 12239,
+      "title": "Need for Speed The Run",
+      "console": "3DS",
+      "new_price": 10,
+      "old_price": 8.0,
+      "variation_pct": 25.0
+    },
+    {
+      "game_id": 12251,
+      "title": "One Piece: Romance Dawn",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 18.0,
+      "variation_pct": 11.11
+    },
+    {
+      "game_id": 12275,
+      "title": "Pokemon Mystery Dungeon I Portali Sull Infinito",
+      "console": "3DS",
+      "new_price": 22,
+      "old_price": 28.0,
+      "variation_pct": -21.43
+    },
+    {
+      "game_id": 12278,
+      "title": "Pokemon Sole",
+      "console": "3DS",
+      "new_price": 20,
+      "old_price": 25.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12279,
+      "title": "Pokemon Super Mystery Dungeon",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 30.0,
+      "variation_pct": -16.67
+    },
+    {
+      "game_id": 12280,
+      "title": "Pokemon Ultraluna",
+      "console": "3DS",
+      "new_price": 45,
+      "old_price": 48.0,
+      "variation_pct": -6.25
+    },
+    {
+      "game_id": 12282,
+      "title": "Pokemon X",
+      "console": "3DS",
+      "new_price": 45,
+      "old_price": 50.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12283,
+      "title": "Pokemon Y",
+      "console": "3DS",
+      "new_price": 45,
+      "old_price": 50.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12284,
+      "title": "Pokemon Zaffiro Alpha",
+      "console": "3DS",
+      "new_price": 55,
+      "old_price": 60.0,
+      "variation_pct": -8.33
+    },
+    {
+      "game_id": 12291,
+      "title": "Pro Evolution Soccer 2013",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 5.0,
+      "variation_pct": 60.0
+    },
+    {
+      "game_id": 12292,
+      "title": "Prof. Layton Katrielle E il Complotto, Il",
+      "console": "3DS",
+      "new_price": 28,
+      "old_price": 25.0,
+      "variation_pct": 12.0
+    },
+    {
+      "game_id": 12307,
+      "title": "Rayman Origins",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 22.0,
+      "variation_pct": 13.64
+    },
+    {
+      "game_id": 12315,
+      "title": "Rhythm Thief",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 6.0,
+      "variation_pct": 33.33
+    },
+    {
+      "game_id": 12322,
+      "title": "Scribblenauts Unlimited",
+      "console": "3DS",
+      "new_price": 5,
+      "old_price": 8.0,
+      "variation_pct": -37.5
+    },
+    {
+      "game_id": 12328,
+      "title": "Shin Megami Tensei: Devil Summoner: Soul Hackers",
+      "console": "3DS",
+      "new_price": 65,
+      "old_price": 60.0,
+      "variation_pct": 8.33
+    },
+    {
+      "game_id": 12353,
+      "title": "Star Fox 64",
+      "console": "3DS",
+      "new_price": 18,
+      "old_price": 20.0,
+      "variation_pct": -10.0
+    },
+    {
+      "game_id": 12358,
+      "title": "Super Mario 3D Land",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12359,
+      "title": "Super Mario Maker",
+      "console": "3DS",
+      "new_price": 8,
+      "old_price": 12.0,
+      "variation_pct": -33.33
+    },
+    {
+      "game_id": 12362,
+      "title": "Super Smash Bros",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12369,
+      "title": "Tekken 3D Prime Edition",
+      "console": "3DS",
+      "new_price": 12,
+      "old_price": 15.0,
+      "variation_pct": -20.0
+    },
+    {
+      "game_id": 12379,
+      "title": "Tomodachi Life",
+      "console": "3DS",
+      "new_price": 25,
+      "old_price": 28.0,
+      "variation_pct": -10.71
+    },
+    {
+      "game_id": 12385,
+      "title": "Ultimate NES Remix",
+      "console": "3DS",
+      "new_price": 38,
+      "old_price": 35.0,
+      "variation_pct": 8.57
+    },
+    {
+      "game_id": 12397,
+      "title": "Yo-Kai Watch 3",
+      "console": "3DS",
+      "new_price": 180,
+      "old_price": 175.0,
+      "variation_pct": 2.86
+    }
+  ],
   "availability_changes": [
     {
       "game_id": 1199,
