@@ -1,18 +1,31 @@
 {
   "metadata": {
-    "generated_at": "2026-11-27T16:21:52.658550",
+    "generated_at": "2026-11-27T20:41:36.562996",
     "date": "2026-11-27",
-    "duration_sec": 154.5,
-    "total_scraped": 41427
+    "duration_sec": 177.4,
+    "total_scraped": 55238
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 2,
     "price_changes": 2,
-    "availability_changes": 44,
-    "unchanged": 41381,
+    "availability_changes": 69,
+    "unchanged": 55165,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13813,
+      "title": "Zero Tolerance - Strictly Limited",
+      "console": "PS4",
+      "price": 28
+    },
+    {
+      "game_id": 13814,
+      "title": "Alters, The",
+      "console": "PS5",
+      "price": 35
+    }
+  ],
   "price_changes": [
     {
       "game_id": 7913,
@@ -336,6 +349,181 @@
     {
       "game_id": 13388,
       "title": "No Man's Sky",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 637,
+      "title": "Ben 10 Omniverse",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1576,
+      "title": "Harry Potter E In Principe Mezzosangue",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1023,
+      "title": "Midnight Club: Los Angeles",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1856,
+      "title": "Adam's Venture Origins",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1948,
+      "title": "Council, The",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2242,
+      "title": "Mothergunship",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 2299,
+      "title": "Occupation, The",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 3985,
+      "title": "Arthur & Minimoys",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 4397,
+      "title": "Looney Tunes: Back In Action",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4669,
+      "title": "Silent Hill 2 (2 Disc)",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5073,
+      "title": "Disney Universe",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5783,
+      "title": "Dark Souls II (2): Scholar Of The First Sin",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5867,
+      "title": "Harry Potter L'Ordine della Fenice",
+      "console": "PS3",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8050,
+      "title": "Mad RAT Dead",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8191,
+      "title": "Rogue Stormers",
+      "console": "PS4",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8508,
+      "title": "Chant, The (Sin DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 8568,
+      "title": "Death's Door",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13797,
+      "title": "Kingdom Hearts Collection [I-III]",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 9010,
+      "title": "Reanimal (Senza DLC)",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11417,
+      "title": "Call Of Duty: Modern Warfare - Mobilized",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11505,
+      "title": "Final Fantasy Fables: Chocobo Tales",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11618,
+      "title": "Kirby Superstar Ultra w/Manual",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11163,
+      "title": "Powershot Pinball Constructor",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11250,
+      "title": "Spider-Man 2",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13386,
+      "title": "Ni No Kuni: La Minaccia Della Strega Cinerea",
       "console": "Switch",
       "new_status": "Disponibile",
       "old_status": "Esaurito"
