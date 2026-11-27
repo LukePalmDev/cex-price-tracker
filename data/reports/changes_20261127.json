@@ -1,19 +1,36 @@
 {
   "metadata": {
-    "generated_at": "2026-11-27T01:40:29.090048",
+    "generated_at": "2026-11-27T06:27:32.621363",
     "date": "2026-11-27",
-    "duration_sec": 264.7,
-    "total_scraped": 13809
+    "duration_sec": 179.3,
+    "total_scraped": 27618
   },
   "summary": {
     "new_games": 0,
-    "price_changes": 0,
+    "price_changes": 2,
     "availability_changes": 1,
-    "unchanged": 13808,
+    "unchanged": 27615,
     "errors": 0
   },
   "new_games": [],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "game_id": 7913,
+      "title": "EA Sports FC 27",
+      "console": "PS4",
+      "new_price": 65,
+      "old_price": 70.0,
+      "variation_pct": -7.14
+    },
+    {
+      "game_id": 13791,
+      "title": "Final Fantasy Resonance",
+      "console": "PS5",
+      "new_price": 55,
+      "old_price": 58.0,
+      "variation_pct": -5.17
+    }
+  ],
   "availability_changes": [
     {
       "game_id": 4161,

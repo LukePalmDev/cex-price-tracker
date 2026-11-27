@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "exported_at": "2026-11-27T01:40:29.298309",
+    "exported_at": "2026-11-27T06:27:32.851346",
     "total_games": 13812,
-    "version": "20261127_014029",
+    "version": "20261127_062732",
     "statistics": {
       "total_games": 13812,
       "available_games": 8176,
@@ -29,9 +29,9 @@
       "last_update": "2026-11-27",
       "daily_summary": {
         "new_games": 0,
-        "price_changes": 0,
+        "price_changes": 2,
         "availability_changes": 1,
-        "unchanged": 13808,
+        "unchanged": 27615,
         "errors": 0
       }
     }
@@ -62,9 +62,9 @@
     "last_update": "2026-11-27",
     "daily_summary": {
       "new_games": 0,
-      "price_changes": 0,
+      "price_changes": 2,
       "availability_changes": 1,
-      "unchanged": 13808,
+      "unchanged": 27615,
       "errors": 0
     }
   },
@@ -101681,7 +101681,8 @@
       "out_of_stock_stores": [
         "RMA CENTRE",
         "IT Ecommerce",
-        "Reggio Emilia San Pietro"
+        "Reggio Emilia San Pietro",
+        "Gran Roma"
       ],
       "is_available": 1,
       "condition": null,
@@ -123217,6 +123218,7 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
         "Le Corti Venete",
@@ -123264,7 +123266,8 @@
         "Parma Repubblica",
         "Gran Roma",
         "La Romanina",
-        "The Wow Side"
+        "The Wow Side",
+        "Merlata Bloom"
       ],
       "is_available": 1,
       "condition": null,
@@ -133159,6 +133162,7 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Gran Roma",
         "La Romanina",
         "Merlata Bloom"
       ],
@@ -133360,6 +133364,7 @@
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
+        "Gran Roma",
         "La Romanina",
         "Le Corti Venete"
       ],
@@ -133478,6 +133483,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
+        "Gran Roma",
         "La Romanina",
         "Le Corti Venete",
         "Merlata Bloom"
@@ -183090,6 +183096,7 @@
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
         "Milano Viale Tunisia",
+        "Gran Roma",
         "La Romanina",
         "The Wow Side",
         "Le Corti Venete",
@@ -232465,9 +232472,9 @@
       "title": "EA Sports FC 27",
       "console": "PS4",
       "category": "PlayStation",
-      "current_price": 70.0,
-      "cash_price": 28.0,
-      "exchange_price": 38.0,
+      "current_price": 65.0,
+      "cash_price": 26.0,
+      "exchange_price": 35.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -232487,18 +232494,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5030932125545",
       "first_seen": "2026-11-04",
       "last_updated": "2026-11-27",
-      "last_price_change": null,
+      "last_price_change": "2026-11-27",
       "last_availability_change": "2026-11-18",
       "image_url": null,
       "box_id": "5030932125545",
       "price_history_30d": [
+        {
+          "old_price": 70.0,
+          "new_price": 65.0,
+          "changed_at": "2026-11-27 06:26:49"
+        },
         {
           "old_price": null,
           "new_price": 70.0,
           "changed_at": "2026-11-04 13:57:54"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -7.14
     },
     {
       "id": 7914,
@@ -287215,8 +287227,8 @@
       "console": "PS5",
       "category": "PlayStation",
       "current_price": 78.0,
-      "cash_price": 56.0,
-      "exchange_price": 62.0,
+      "cash_price": 45.0,
+      "exchange_price": 54.0,
       "ecom_quantity": 5,
       "collection_quantity": 5,
       "out_of_stock_stores": [
@@ -288348,8 +288360,8 @@
       "console": "PS5",
       "category": "PlayStation",
       "current_price": 50.0,
-      "cash_price": 32.0,
-      "exchange_price": 37.0,
+      "cash_price": 29.0,
+      "exchange_price": 35.0,
       "ecom_quantity": 2,
       "collection_quantity": 2,
       "out_of_stock_stores": [
@@ -293366,7 +293378,8 @@
         "RMA CENTRE",
         "IT Ecommerce",
         "Reggio Emilia San Pietro",
-        "Gran Roma"
+        "Gran Roma",
+        "La Romanina"
       ],
       "is_available": 1,
       "condition": null,
@@ -294291,9 +294304,9 @@
       "title": "Final Fantasy Resonance",
       "console": "PS5",
       "category": "PlayStation",
-      "current_price": 58.0,
-      "cash_price": 37.0,
-      "exchange_price": 43.0,
+      "current_price": 55.0,
+      "cash_price": 31.0,
+      "exchange_price": 38.0,
       "ecom_quantity": 1,
       "collection_quantity": 1,
       "out_of_stock_stores": [
@@ -294314,18 +294327,23 @@
       "url": "https://it.webuy.com/product-detail/?id=5021290102972",
       "first_seen": "2026-11-15",
       "last_updated": "2026-11-27",
-      "last_price_change": null,
+      "last_price_change": "2026-11-27",
       "last_availability_change": null,
       "image_url": null,
       "box_id": "5021290102972",
       "price_history_30d": [
+        {
+          "old_price": 58.0,
+          "new_price": 55.0,
+          "changed_at": "2026-11-27 06:26:56"
+        },
         {
           "old_price": null,
           "new_price": 58.0,
           "changed_at": "2026-11-15 22:42:31"
         }
       ],
-      "price_trend_pct": null
+      "price_trend_pct": -5.17
     },
     {
       "id": 8670,
@@ -299643,6 +299661,7 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
@@ -301418,6 +301437,7 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side",
         "Le Corti Venete"
       ],
@@ -309616,6 +309636,7 @@
         "Parma Repubblica",
         "Milano Viale Tunisia",
         "Gran Roma",
+        "La Romanina",
         "The Wow Side",
         "Merlata Bloom"
       ],
@@ -358207,8 +358228,8 @@
       "console": "Switch",
       "category": "Nintendo",
       "current_price": 50.0,
-      "cash_price": 32.0,
-      "exchange_price": 37.0,
+      "cash_price": 29.0,
+      "exchange_price": 35.0,
       "ecom_quantity": 0,
       "collection_quantity": 0,
       "out_of_stock_stores": [
@@ -366858,6 +366879,7 @@
         "Milano Viale Tunisia",
         "Gran Roma",
         "La Romanina",
+        "The Wow Side",
         "Le Corti Venete",
         "Merlata Bloom"
       ],
@@ -504095,6 +504117,7 @@
         "Bologna San Felice",
         "Reggio Emilia San Pietro",
         "Parma Repubblica",
+        "Milano Viale Tunisia",
         "Gran Roma",
         "Le Corti Venete"
       ],
