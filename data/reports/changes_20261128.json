@@ -1,18 +1,37 @@
 {
   "metadata": {
-    "generated_at": "2026-11-28T06:02:42.009301",
+    "generated_at": "2026-11-28T15:15:54.286254",
     "date": "2026-11-28",
-    "duration_sec": 135.7,
-    "total_scraped": 27622
+    "duration_sec": 169.8,
+    "total_scraped": 41436
   },
   "summary": {
-    "new_games": 0,
+    "new_games": 3,
     "price_changes": 0,
-    "availability_changes": 2,
-    "unchanged": 27620,
+    "availability_changes": 42,
+    "unchanged": 41391,
     "errors": 0
   },
-  "new_games": [],
+  "new_games": [
+    {
+      "game_id": 13815,
+      "title": "Last Faith, The",
+      "console": "PS5",
+      "price": 30
+    },
+    {
+      "game_id": 13816,
+      "title": "Slime Rancher 2",
+      "console": "PS5",
+      "price": 8
+    },
+    {
+      "game_id": 13817,
+      "title": "Marbles! Balance Challenge",
+      "console": "Wii",
+      "price": 15
+    }
+  ],
   "price_changes": [],
   "availability_changes": [
     {
@@ -28,6 +47,286 @@
       "console": "PS4",
       "new_status": "Esaurito",
       "old_status": "Disponibile"
+    },
+    {
+      "game_id": 278,
+      "title": "Max Payne 2",
+      "console": "Xbox",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 650,
+      "title": "Blitz: The League",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1551,
+      "title": "G.I. Joe La Nascita dei Cobra",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1735,
+      "title": "Section 8",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1802,
+      "title": "Transformers La Vendetta Del Caduto",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1410,
+      "title": "Batman: Arkham Origins (2 Dichi)",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 901,
+      "title": "Halo Wars + Halo 3",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 950,
+      "title": "L'era Glaciale 3 - L'alba Dei Dinosauri",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1026,
+      "title": "Mini Ninjas",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1645,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm Revolution Samurai Edition W/Statue",
+      "console": "Xbox 360",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 1694,
+      "title": "Pro Evolution Soccer (PES) 2017",
+      "console": "Xbox 360",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 1891,
+      "title": "Baja: Edge of Control HD",
+      "console": "Xbox One",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4785,
+      "title": "Time Splitters 2",
+      "console": "PS2",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 4589,
+      "title": "Red Dead Revolver",
+      "console": "PS2",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 5016,
+      "title": "Conan",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5073,
+      "title": "Disney Universe",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5806,
+      "title": "Dragon Trainer",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 5251,
+      "title": "L'Era Glaciale 4 Giochi Polari",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6029,
+      "title": "Skylanders Spyro's Adventure",
+      "console": "PS3",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 6306,
+      "title": "Gradius Collection",
+      "console": "PSP",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8241,
+      "title": "Sonic Superstars",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8200,
+      "title": "Saint Seiya Soldiers' Soul",
+      "console": "PS4",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8425,
+      "title": "Amerzone - The Explorers Legacy",
+      "console": "PS5",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 8667,
+      "title": "FIFA 21",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9274,
+      "title": "Ys VIII: Lacrimosa Of Dana",
+      "console": "PS5",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 9798,
+      "title": "Guitar Hero: Aerosmith",
+      "console": "Wii",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11406,
+      "title": "Bubble Bobble Revolution",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 10911,
+      "title": "Garfield's Nightmare",
+      "console": "DS",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 11658,
+      "title": "Madagascar",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11750,
+      "title": "Need for Speed Underground 2",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11105,
+      "title": "Nervous Brickdown",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11888,
+      "title": "Star Wars - Lethal Alliance",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11986,
+      "title": "X-men il gioco ufficiale",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11412,
+      "title": "C.O.P: The Recruit",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 11632,
+      "title": "Legend of Spyro: A New Beginning",
+      "console": "DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 12004,
+      "title": "Ace Combat Assault Horizon Legacy",
+      "console": "3DS",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13214,
+      "title": "Disney Tsum Tsum Festival",
+      "console": "Switch",
+      "new_status": "Esaurito",
+      "old_status": "Disponibile"
+    },
+    {
+      "game_id": 13331,
+      "title": "LEGO Party!",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13500,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
+    },
+    {
+      "game_id": 13551,
+      "title": "Unravel 2",
+      "console": "Switch",
+      "new_status": "Disponibile",
+      "old_status": "Esaurito"
     }
   ],
   "errors": []
